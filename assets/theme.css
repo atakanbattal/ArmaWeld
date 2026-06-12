@@ -6,6 +6,9 @@
 /* Google Fonts HTML <link> etiketleriyle yükleniyor (render-blocking önleme) */
 
 :root {
+  color-scheme: dark;
+  accent-color: #ff7a1a;
+
   /* Core palette */
   --ink-0: #000000;
   --ink-1: #07080a;
@@ -67,6 +70,9 @@
 
 /* ============ LIGHT THEME ============ */
 [data-theme="light"] {
+  color-scheme: light;
+  accent-color: #e95c00;
+
   /* Inverted ink ramp (light bg → darker accents for borders/muted) */
   --ink-0: #ffffff;
   --ink-1: #f7f5f0;   /* main bg */
@@ -114,8 +120,10 @@
 [data-theme="light"] ::-webkit-scrollbar-thumb:hover { background: var(--arc-2); }
 
 /* Light mode — fine-tuned overrides for elements that rely on white-on-black */
-[data-theme="light"] .btn-primary { color: #fff; }
-[data-theme="light"] .btn-primary:hover { color: #fff; }
+[data-theme="light"] .btn-primary { color: #fff; background: #c94f00; }
+[data-theme="light"] .btn-primary:hover { color: #fff; background: #d35600; }
+[data-theme="light"] .nav-cta { background: #c94f00; }
+[data-theme="light"] .nav-cta:hover { background: #d35600; }
 [data-theme="light"] .logo-mark { color: #fff; }
 [data-theme="light"] .nav-cta { color: #fff; }
 [data-theme="light"] .nav-cta:hover { color: #fff; }
@@ -136,6 +144,19 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 img { max-width: 100%; display: block; }
 
 ::selection { background: var(--arc-2); color: var(--ink-0); }
+
+/* ===== Modern polish ===== */
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: calc(var(--nav-h) + 16px); }
+h1, h2, h3 { text-wrap: balance; }
+p, li { text-wrap: pretty; }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible,
+input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--arc-2);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+.btn:active, .nav-cta:active { transform: translateY(1px) scale(.985); }
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
@@ -929,8 +950,13 @@ section { position: relative; }
   .container { padding: 0 16px; }
   /* Badges: allow wrap */
   .badge, .svc-pill { white-space: normal; }
-  /* Table cells: tighter */
-  table th, table td { padding: 8px 6px; font-size: 10px; }
+}
+
+/* Mobilde tablolar: sıkıştırıp 10px'e düşürmek yerine yatay kaydırma + okunabilir punto */
+@media (max-width: 640px) {
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table th, table td { padding: 8px 10px; font-size: 12px; min-width: 84px; }
+  table th:first-child, table td:first-child { min-width: 64px; }
 }
 
 /* ── Mobil görsel & animasyon düzeltmeleri ── */

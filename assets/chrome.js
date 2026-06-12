@@ -524,10 +524,21 @@ function initMapLinks() {
   if (embed) embed.src = m.embed;
 }
 
+function syncThemeColorMeta(theme) {
+  var meta = document.querySelector('meta[name="theme-color"]');
+  if (!meta) {
+    meta = document.createElement('meta');
+    meta.setAttribute('name', 'theme-color');
+    document.head.appendChild(meta);
+  }
+  meta.setAttribute('content', theme === 'dark' ? '#07080a' : '#f7f5f0');
+}
+
 function mountChrome(activePage, base) {
   const doMount = function () {
   const savedTheme = localStorage.getItem('armaweld-theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
+  syncThemeColorMeta(savedTheme);
 
   injectMobileCSS(base);
   injectNavTypography();
@@ -587,6 +598,7 @@ function toggleTheme() {
   const next = current === 'dark' ? 'light' : 'dark';
   root.setAttribute('data-theme', next);
   localStorage.setItem('armaweld-theme', next);
+  syncThemeColorMeta(next);
 
   const navLogo = document.getElementById('nav-logo');
   const footerLogo = document.getElementById('footer-logo');

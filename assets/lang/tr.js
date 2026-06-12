@@ -43,20 +43,20 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   home_hero_h1: 'Kaynaklı<br/>İmalat.',
   home_hero_lede: 'EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. Sac kesim, büküm ve montaj adımları proje planına entegre koordine edilir — S235\'ten Strenx 1100\'e onaylı WPS ve belgeli kaynakçılar.',
   home_hero_cta1: 'Teklif Formu', home_hero_cta2: 'Hizmetlerimiz',
-  home_hero_cta_portal: 'Müşteri Portala Giriş',
+  home_hero_cta_portal: 'Müşteri Portalına Giriş',
   home_trace_portal_h: 'Siparişinizi canlı takip edin.',
   home_trace_portal_p: 'Müşteri portalından iş emrinizin aşamalarını, operatör kayıtlarını ve teknik belgelerinizi görüntüleyip indirebilirsiniz.',
   home_stat1_lbl: 'YIL DENEYİM', home_stat2_lbl: 'TAMAMLANAN PROJE',
   home_stat3_lbl: 'SERTİFİKA', home_stat4_lbl: 'AKTİF KAYNAKÇI',
-  home_svc_eyebrow: '01 / Hizmetler', home_svc_h2: 'Tek çatı altında<br/>tüm metal işleme.',
+  home_svc_eyebrow: '03 / Hizmetler', home_svc_h2: 'Tek çatı altında<br/>tüm metal işleme.',
   home_svc_lede: 'Kaynak mühendisliği ve NDT bünyemizde; kesim, büküm ve mekanik montaj proje akışına entegre planlanır. Tek irtibat noktası, mühendis denetimli süreç.',
   home_svc_cta: 'Tüm Hizmetleri Gör',
-  home_trace_eyebrow: '02 / İzlenebilirlik Süreci',
+  home_trace_eyebrow: '04 / İzlenebilirlik Süreci',
   home_trace_h2: 'Hammaddeden sevkiyata; 7 adım, sıfır kör nokta.',
   home_trace_lede: 'Her iş emri dijital seri numarasıyla açılır; sac şarjesi, WPS, kaynakçı, NDT raporu ve sevkiyat belgesi aynı kayıtta birikir.',
   home_trace_meta_heat: 'Sac Şarjesi', home_trace_meta_wps: 'WPS',
   home_trace_meta_op: 'Operatör', home_trace_meta_date: 'Tarih',
-  home_cmp_eyebrow: '03 / Kaynak Yöntemi Karşılaştırıcı',
+  home_cmp_eyebrow: '05 / Kaynak Yöntemi Karşılaştırıcı',
   home_cmp_h2: 'Hangi iş için hangi ark? Teknik gerçekler, tek bakışta.',
   home_ref_eyebrow: 'Referanslar',
   home_ref_h2: 'Kaynaklı imalattan NDT raporuna, <span style="color:var(--arc-2)">tek sorumluluk zinciri.</span>',
@@ -81,8 +81,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   about_disc1_p: 'IWE/IWT düzeyinde eğitimli, EN ISO 3834-2 kalite sisteminin her adımını yöneten mühendis kadromuz; WPS geliştirme, WPQR onay süreçleri ve kaynakçı nitelendirme matrisini bizzat yürütür.',
   about_disc2_n: 'MAKİNE MÜHENDİSLİĞİ', about_disc2_h: 'Üretim süreçlerini optimize eden mühendisler.',
   about_disc2_p: 'Tolerans analizi, CNC programlama ve jig tasarımından mekanik montaj planlama ve maliyet optimizasyonuna kadar geniş bir alanda faaliyet gösterirler.',
-  about_disc3_n: 'NDT & KALİTE', about_disc3_h: 'EN ISO 9712 Level II sertifikalı muayene.',
-  about_disc3_p: 'VT, PT, MT ve UT muayenelerini in-house yürüten Level II personelimiz, her proje için tam rapor zinciri oluşturur.',
+  about_disc3_n: 'NDT & KALİTE', about_disc3_h: 'EN ISO 9712 Seviye 2 sertifikalı muayene.',
+  about_disc3_p: 'VT, PT, MT ve UT muayenelerini bünyemizde yürüten Seviye 2 personelimiz, her proje için tam rapor zinciri oluşturur.',
   about_stats_eyebrow: '02 / Rakamlar', about_stats_h2: 'Sayılarla ArmaWeld.',
   about_val_eyebrow: '03 / Değerlerimiz', about_val_h2: 'Bizi biz yapan prensipler.',
   about_val1_h: 'Belge Disiplini', about_val1_p: 'Her üretim adımı kayıt altında. Hiçbir çıktı belgesiz teslim edilmez.',
@@ -109,7 +109,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   services_s04_num: '// 04 · MEKANİK MONTAJ', services_s04_h2: 'Mekanik Montaj ve Alt Sistemler.',
   services_s04_desc: 'Alt montaj gruplarının fikstürlenmesi, ana birleştirme, tork sertifikasyonu ve saha montajı — tek tesis akışında.',
   services_s05_num: '// 05 · NDT', services_s05_h2: 'NDT / Tahribatsız Muayene.',
-  services_s05_desc: 'VT, PT, MT, UT ve RT muayeneleri. EN ISO 9712 Level II sertifikalı personel; tam rapor zinciri ve izlenebilir kayıt.',
+  services_s05_desc: 'VT, PT, MT, UT ve RT muayeneleri. EN ISO 9712 Seviye 2 sertifikalı personel; tam rapor zinciri ve izlenebilir kayıt.',
   services_cta_h2: 'Projeniz için teklif alın.',
   services_cta_btn: 'Teklif Formu →',
 
@@ -129,7 +129,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   // ── NDT ──
   ndt_breadcrumb: 'NDT',
   ndt_h1: 'NDT /<br/><span class="arc">Tahribatsız Muayene.</span>',
-  ndt_lede: 'EN ISO 9712 Level II sertifikalı personelimizle VT, PT, MT ve UT muayeneleri in-house. RT için lisanslı partner.',
+  ndt_lede: 'EN ISO 9712 Seviye 2 sertifikalı personelimizle VT, PT, MT ve UT muayeneleri bünyemizde yapılır. RT için lisanslı partner.',
   ndt_scope_eyebrow: '01 / Kapsam',
   ndt_scope_h2: 'In-house ve dış kaynak muayene kapsamı.',
   ndt_methods_eyebrow: '02 / Yöntemler',
@@ -170,7 +170,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   sectors_s04_desc: 'GES sehpaları, RES braketleri, jeneratör şaseleri. Sa 2½ kumlama + çift kat zengin boya ile 20+ yıl koruma.',
   sectors_s05_num: '// 05 · ULAŞIM & DEMİRYOLU',
   sectors_s05_h2: 'Ulaşım, Raylı Sistem<br/>&amp; <span class="arc">Savunma.</span>',
-  sectors_s05_desc: 'EN 15085 CL1/CL2 kapsamında demiryolu yapıları, savunma amaçlı HARDOX zırh imalatı.',
+  sectors_s05_desc: 'EN 15085 CL1/CL2 gereksinimlerine uyumlu demiryolu yapıları, savunma amaçlı HARDOX zırh imalatı.',
   sectors_cta_h2: 'Projeniz için özel değerlendirme alın.',
   sectors_cta_lede: 'Yeni sektörler proje bazlı değerlendirilir. Teknik dosya paylaşıldığında ilgili standart kapsamı netleştirilir.',
   sectors_cta_btn: 'İletişime Geçin →',
@@ -228,7 +228,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   home_svc_r4_name: 'Mekanik Montaj & Sevke Hazırlık',
   home_svc_r4_brief: 'Alt montaj, tork kaydı ve fonksiyonel test — proje planına entegre sevkiyat paketlemesi.',
   home_svc_r5_name: 'NDT & Tahribatsız Muayene',
-  home_svc_r5_brief: 'VT, PT, MT ve UT in-house; EN ISO 5817 B kabul — her dikiş belgelendirilir.',
+  home_svc_r5_brief: 'VT, PT, MT ve UT bünyemizde; EN ISO 5817 B kabul — her dikiş belgelendirilir.',
   home_svc_r6_name: 'İş Makinesi Gövdesi & Kepçe',
   home_svc_r6_brief: 'Aşınma çelikleriyle kepçe, kova, bıçak ve gövde imalatı — seri üretim fikstürleri ve MT muayene dahil.',
   home_svc_r7_name: 'Vinç Konstrüksiyonu',
@@ -264,7 +264,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   trace_step5_title: 'NDT / Muayene', trace_step5_dur: '1–3 gün',
   trace_step5_chip: 'AŞAMA 05 · NDT.INSPECT', trace_step5_h: 'Tahribatsız muayene: gözle, yüzey, hacim.',
-  trace_step5_body: 'NDT planına göre; %100 Visuel Muayene (VT), kritik dikişlerde Penetrant (PT) veya Manyetik Parçacık (MT), hacimsel kontrolde Ultrasonik (UT) veya Radyografi (RT) uygulanır. Seviye 2 personel tarafından raporlanır.',
+  trace_step5_body: 'NDT planına göre; %100 Gözle Muayene (VT), kritik dikişlerde Penetrant (PT) veya Manyetik Parçacık (MT), hacimsel kontrolde Ultrasonik (UT) veya Radyografi (RT) uygulanır. Seviye 2 personel tarafından raporlanır.',
   trace_step5_d1: 'VT Raporu', trace_step5_d2: 'PT/MT Raporu', trace_step5_d3: 'UT Raporu', trace_step5_d4: 'Kabul Kriteri',
 
   trace_step6_title: 'Yüzey & Boya', trace_step6_dur: '1–3 gün',
@@ -278,7 +278,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   trace_step7_d1: 'Sevk İrsaliyesi', trace_step7_d2: 'Belge Dosyası (pdf)', trace_step7_d3: 'CE / DoP', trace_step7_d4: 'QR İzleme Kartı',
 
   // ── Karşılaştırıcı ──
-  home_cmp_eyebrow: '03 / Kaynak Yöntemi Karşılaştırıcı',
+  home_cmp_eyebrow: '05 / Kaynak Yöntemi Karşılaştırıcı',
   home_cmp_h2: 'Hangi iş için <span style="color:var(--arc-2)">hangi ark?</span> Teknik gerçekler, tek bakışta.',
   home_cmp_mig_full: 'Gaz Altı Ark Kaynağı — Metal Inert / Active Gas',
   home_cmp_tig_full: 'Gaz Tungsten Ark Kaynağı — Inert Gas',
@@ -292,7 +292,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   home_cmp_btn: 'Tüm Yöntem Detayları →',
 
   // ── Belge bölümü ──
-  home_doc_eyebrow: '04 / Belge Örneği',
+  home_doc_eyebrow: '06 / Belge Örneği',
   home_doc_h2: 'Her teslimatla <span style="color:var(--arc-2)">dosya</span>: WPS, WPQR, NDT, İzleme.',
   home_doc_lede: 'Her sevkiyatla birlikte parçanın üretim süreci, operatör kaydı, hammadde izi ve geçtiği kontrolleri belgeleyen tam bir dosya paketi teslim edilir.',
   home_doc_d1: 'WPS — Kaynak Prosedür Şartnamesi', home_doc_d2: 'WPQR — Prosedür Onay Kaydı',
@@ -301,7 +301,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   home_doc_d7: 'CE Uygunluk Beyanı (gerekliyse)', home_doc_btn: 'Belge Paketini İnceleyin →',
 
   // ── Ana sayfa sektörler ──
-  home_sec_eyebrow: '05 / Sektörler',
+  home_sec_eyebrow: '07 / Sektörler',
   home_sec_h2: 'Ağır sanayide <span style="color:var(--arc-2)">kritik yük</span> taşıyan her yerdeyiz.',
   home_sec1_title: 'Basınçlı Kaplar<br/>& Tanklar',
   home_sec2_title: 'Çelik Yapı<br/>& Konstrüksiyon',
@@ -500,7 +500,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   proj5_pi: 'RAY',
   proj5_cat: 'DEMİRYOLU',
   proj5_h3: 'Servis Aracı Boji Çerçevesi — 6 Set',
-  proj5_p: 'Demiryolu servis aracı için EN 15085 CL1 kapsamında, yorulma (fatigue) hesabı yapılmış ve %100 UT muayene edilmiş boji ana çerçevesi.',
+  proj5_p: 'Demiryolu servis aracı için EN 15085 CL1 gereksinimlerine uyumlu, yorulma (fatigue) hesabı yapılmış ve %100 UT muayene edilmiş boji ana çerçevesi.',
   proj5_m1k: 'Adet',
   proj5_m1v: '6 set',
   proj5_m2k: 'Sınıf',
@@ -658,7 +658,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   sec4_t2: 'CIVATALI',
   sec4_t3: 'SAHA MONTAJI',
   sec4_t4: 'UZUN ÖMÜR',
-  sec5_desc: 'Demiryolu sektörü için EN 15085 CL1/CL2 kapsamında aracı-üstü yapıları, savunma sektörü için aşınma ve darbe dayanımlı zırh yapıları. Bu alanlarda tek sefer başarısızlığın bedeli ağırdır; bu nedenle en sıkı kabul kriteri (EN ISO 5817 B) ve 100% NDT uygulanır.',
+  sec5_desc: 'Demiryolu sektörü için EN 15085 CL1/CL2 gereksinimlerine uyumlu araç-üstü yapıları, savunma sektörü için aşınma ve darbe dayanımlı zırh yapıları. Bu alanlarda tek sefer başarısızlığın bedeli ağırdır; bu nedenle en sıkı kabul kriteri (EN ISO 5817 B) ve 100% NDT uygulanır.',
   sec5_a1k: '01 · Demiryolu',
   sec5_a1v: 'Vagon üstü yapı, dizel motor konsolları',
   sec5_a2k: '02 · Demiryolu',
@@ -693,8 +693,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   faq_a03: '<p>Hayır. Tek parça prototip ile 1 000 adetlik seri aynı üretim çerçevesinde değerlendirilir. <span class="inline-tag">MOQ=1</span> çalışmada setup maliyetinin tamamı tek parçaya yansır; bu durum teklif aşamasında şeffaf biçimde belirtilir.</p>',
   faq_a04: '<p>Evet. <strong>Tersine mühendislik</strong> kapsamında numune 3D tarayıcı veya manuel ölçümle modellenir; imalat resmi hazırlanır. Müşteri onayının ardından üretime geçilir. Süreçte müşteriye çizim dosyaları da teslim edilir.</p>',
   faq_a05: '<p>İlk siparişlerde genellikle <strong>%40 avans + %60 sevk öncesi</strong> ödeme modeli uygulanır. Süreklilik kazanan müşterilerde vadeli cari hesap veya banka garanti mektubu ile açık hesap açılabilir. Uluslararası siparişlerde L/C veya T/T seçenekleri mevcuttur.</p>',
-  faq_a06: '<p>Aktif olarak kullanılan belgeler:</p><ul><li><span class="inline-tag">ISO 9001</span> Kalite Yönetim Sistemi</li><li><span class="inline-tag">ISO 14001</span> Çevre Yönetim Sistemi</li><li><span class="inline-tag">ISO 45001</span> İş Sağlığı ve Güvenliği Yönetim Sistemi</li><li><span class="inline-tag">EN ISO 3834-2</span> Kaynaklı imalat kapsamlı kalite gereksinimleri</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Yapısal çelik imalatı ve CE işaretleme</li><li><span class="inline-tag">PED 2014/68/EU</span> Basınçlı ekipman kategorisine uygun</li><li><span class="inline-tag">EN 15085-2 CL1</span> Demiryolu aracı kaynaklı imalat</li></ul><p>Her belge için güncel sertifika dosyası teklifte veya istek üzerine paylaşılabilir.</p>',
-  faq_a07: '<p><strong>VT (görsel), PT (penetrant), MT (manyetik parçacık) ve UT (ultrasonik)</strong> muayeneleri <strong>EN ISO 9712 Level II sertifikalı</strong> personel tarafından <strong>in-house</strong> yürütülür. <strong>RT (radyografi)</strong> radyasyon lisansı gerektirdiğinden yetkili lisanslı laboratuvar partnerinden hizmet alınır; her iki durumda da rapor zinciri müşteriye eksiksiz teslim edilir.</p>',
+  faq_a06: '<p>Aktif olarak kullanılan belgeler:</p><ul><li><span class="inline-tag">ISO 9001</span> Kalite Yönetim Sistemi</li><li><span class="inline-tag">ISO 14001</span> Çevre Yönetim Sistemi</li><li><span class="inline-tag">ISO 45001</span> İş Sağlığı ve Güvenliği Yönetim Sistemi</li><li><span class="inline-tag">EN ISO 3834-2</span> Kaynaklı imalat kapsamlı kalite gereksinimleri</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Yapısal çelik imalatı ve CE işaretleme</li></ul><p>Ayrıca <strong>PED 2014/68/EU</strong> ve <strong>EN 15085-2</strong> gereksinimlerine uyumlu üretim yürütülür.</p><p>Her belge için güncel sertifika dosyası teklifte veya istek üzerine paylaşılabilir.</p>',
+  faq_a07: '<p><strong>VT (görsel), PT (penetrant), MT (manyetik parçacık) ve UT (ultrasonik)</strong> muayeneleri <strong>EN ISO 9712 Seviye 2 sertifikalı</strong> personel tarafından <strong>bünyemizde</strong> yürütülür. <strong>RT (radyografi)</strong> radyasyon lisansı gerektirdiğinden yetkili lisanslı laboratuvar partnerinden hizmet alınır; her iki durumda da rapor zinciri müşteriye eksiksiz teslim edilir.</p>',
   faq_a08: '<p>Evet. Standart olarak <strong>EN 10204 3.1</strong> malzeme sertifikası tüm projelere eklenir. PED kapsamındaki veya müşteri özel istediği durumlarda <strong>3.2</strong> sertifikası (bağımsız muayene kuruluşu onaylı) alınır. İsteğe bağlı <strong>PMI</strong> (Positive Material Identification) testi ile malzeme sınıfı saha öncesinde doğrulanır.</p>',
   faq_a09: '<p>Müşteri isterse akredite bir üçüncü taraf muayene kuruluşu (notified body / third-party inspection) tesise davet edilerek <strong>WPQR, FAT (Factory Acceptance Test), NDT ve boyut kontrolü</strong> aşamalarında tanık denetim yaptırılabilir. Bu raporlar Final Documentation Dossier\'in içinde müşteriye teslim edilir.</p>',
   faq_a10: '<p>Her malzeme parçasına benzersiz bir <strong>HEAT / LOT numarası</strong> atanır. Bu numara kesim, kaynak, boya ve sevkiyat aşamalarında sistemde zincire bağlanır; böylece <strong>10 yıl sonra</strong> bile bir kaynak dikişinin hangi WPS ile, hangi kaynakçı (WPQ) tarafından, hangi malzemede yapıldığı dosya numarasından sorgulanabilir.</p>',
@@ -726,7 +726,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   about_mv1_sub: `Çelik yapı imalatı — Üretim Kontrol Sertifikası · FPC onaylı`,
   about_mv2_sub: `Metalik malzemelerin ergitme kaynağı — Kapsamlı kalite gereksinimleri`,
   about_mv3_sub: `Her kaynakçı belgeli · 6 ayda bir yenileme · süresi dolmadan sahaya çıkmaz`,
-  about_mv4_sub: `Bünyemizde Seviye 2 NDT · VT · PT · MT · UT muayenesi in-house`,
+  about_mv4_sub: `Seviye 2 NDT · VT · PT · MT · UT muayenesi bünyemizde`,
   about_mv5_sub: `Entegre Yönetim Sistemi — Kalite, çevre ve iş sağlığı güvenliği belgeli`,
   about_fac_lede: `Üretim tesisi; malzeme kabulünden sevkiyata kadar planlı bir akış üzerine kuruludur. Kesim, kaynak, muayene ve dokümantasyon aynı çatı altında yürütülür; her parça proje gereksinimine göre izlenebilir şekilde ilerler.`,
   about_fac_s1n: `Entegre`,
@@ -806,7 +806,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   quality_cta_btn_full: `Örnek Dosya Aç <span style="margin-left:8px;">↓</span>`,
   // === ndt.html ek anahtarlar ===
   ndt_scope_in_k: `IN-HOUSE · BÜNYEMİZDE`,
-  ndt_scope_in_sub: `ISO 9712 Level II sertifikalı personel · raporlama in-house · tam izlenebilirlik`,
+  ndt_scope_in_sub: `ISO 9712 Seviye 2 sertifikalı personel · raporlama bünyemizde · tam izlenebilirlik`,
   ndt_scope_out_k: `OUTSOURCED · DIŞ HİZMET`,
   ndt_scope_out_sub: `Radyasyon lisansı gerektirir. Yetkili lisanslı laboratuvar partnerimizle yürütülür — film/dijital raporlar doğrudan proje dosyasına işlenir.`,
   ndt_detects_h: `Tespit Edebildiği Kusurlar`,
@@ -855,7 +855,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   ndt_mt_d4: `Haddeleme/katlama kusurları`,
   ndt_mt_c1: `Alt Yüzey (≤2mm)`,
   ndt_ut_i: `// 04 · UT — ULTRASONİK (IN-HOUSE)`,
-  ndt_ut_p: `Yüksek frekanslı ses dalgalarının malzeme içinde ilerlemesi; bir süreksizliğe (kusur, iç yüzey) çarptığında geri yansıması prensibiyle çalışır. Hacimsel (iç) kusurları tespit etmenin en güvenli ve en ekonomik yöntemi. Özellikle kalın plakalarda RT'ye göre çok daha güvenlidir (radyasyon yok). <strong>Bünyemizdeki ISO 9712 Level II sertifikalı personel tarafından gerçekleştirilir</strong> — raporlama in-house.`,
+  ndt_ut_p: `Yüksek frekanslı ses dalgalarının malzeme içinde ilerlemesi; bir süreksizliğe (kusur, iç yüzey) çarptığında geri yansıması prensibiyle çalışır. Hacimsel (iç) kusurları tespit etmenin en güvenli ve en ekonomik yöntemi. Özellikle kalın plakalarda RT'ye göre çok daha güvenlidir (radyasyon yok). <strong>Bünyemizdeki ISO 9712 Seviye 2 sertifikalı personel tarafından gerçekleştirilir</strong> — raporlama bünyemizde.`,
   ndt_ut_sub: `Ultrasonik Muayene`,
   ndt_ut_st1: `Kalibrasyon (referans blok)`,
   ndt_ut_st2: `Tarama (A-scan pulse-echo)`,
@@ -1092,7 +1092,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   contact_role_purchase: `Satın Alma`,
   contact_role_proj: `Proje Mühendisi`,
   contact_role_qa: `Kalite Yöneticisi`,
-  contact_role_gm: `Genel Müdür / Patron`,
+  contact_role_gm: `Genel Müdür / İşletme Sahibi`,
   contact_role_rd: `Ar-Ge`,
   contact_role_other: `Diğer`,
   contact_mat_struct: `Yapı Çeliği (S235 / S275 / S355)`,
@@ -1386,7 +1386,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   ndtv_vol2d: `Hacimsel · 2B görüntü`,
   ndtv_lab: `Yetkili Lisanslı Lab.`,
   ndtv_xrgamma: `X-ray · Gamma (Ir-192 / Se-75)`,
-  ndtv_l2_lic: `EN ISO 9712 · Level II + ışınlama lisansı`,
+  ndtv_l2_lic: `EN ISO 9712 · Seviye 2 + ışınlama lisansı`,
   ndtv_volsec: `Hacimsel · tüm kesit`,
   ndtv_crdr: `CR / DR panel`,
   ndtv_app_pv: `Basınçlı kap · kritik dikiş`,
@@ -1488,7 +1488,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   blog_ndt_s4: '<h2>MT — Manyetik Parçacık Muayenesi</h2><p><strong>MT (Magnetic Particle Testing)</strong>, EN ISO 17638 standardına göre yapılır. Ferromanyetik malzemelerde (karbon çelik, düşük alaşımlı çelik) manyetik alan oluşturularak demir tozu veya floresan parçacıklar hataların üzerinde yoğunlaşır.</p><p><strong>Avantajı:</strong> Yüzeye yakın (≤3 mm derinlikte) çatlakları PT\'den çok daha güvenilir şekilde tespit eder. EN 1090 EXC3 kapsamında T-birleşimleri ve köşe kaynaklarında sıklıkla istenir.</p><div class="callout"><p><strong>Dikkat:</strong> Paslanmaz çelik (östenitik) ve alüminyumda MT uygulanamaz. Bu malzemelerde yüzey muayenesi için <strong>PT</strong> kullanılır.</p></div>',
   blog_ndt_s5: '<h2>UT — Ultrasonik Muayene</h2><p><strong>UT (Ultrasonic Testing)</strong>, EN ISO 11666 standardına göre yapılır. Yüksek frekanslı ses dalgaları malzeme içinden gönderilir; iç hataların yol açtığı yansımalar değerlendirilerek hata konumu ve büyüklüğü belirlenir.</p><p>Modern <span class="tag-inline">TOFD</span> (Time-of-Flight Diffraction) ve <span class="tag-inline">Phased Array UT (PAUT)</span> teknikleri, konvansiyonel UT\'ye göre çok daha yüksek güvenilirlik ve kayıt edilebilirlik sunar. Özellikle basınçlı kap ve boru hattı kaynaklarında tercih edilir.</p>',
   blog_ndt_s6: '<h2>RT — Radyografik Muayene</h2><p><strong>RT (Radiographic Testing)</strong>, EN ISO 17636-1 standardına göre yapılır. X-ışını veya gama ışınları kaynak kesitinden geçirilip film veya dijital dedektör üzerinde görüntü oluşturulur.</p><p>RT, gözenek ve curuf kalıntısı gibi hacimsel hataları çok net gösterir ancak düzlem kaynaklı çatlakların tespitinde UT kadar güvenilir değildir — çünkü çatlak yönü ışın yönüne paralel olduğunda tespit edilemeyebilir.</p>',
-  blog_ndt_s7: '<h2>EN ISO 9712 Sertifikasyon Seviyeleri</h2><p>NDT personeli EN ISO 9712\'ye göre üç seviyede sertifikalandırılır:</p><ul><li><strong>Seviye 1:</strong> Belirlenmiş prosedüre göre muayene yapar, raporlamaz. Deneyimli personel gözetiminde çalışır.</li><li><strong>Seviye 2:</strong> Prosedür hazırlar, muayene yapar, sonuçları standarda göre değerlendirir ve raporlar. Endüstriyel pratikte muayeneci standardı.</li><li><strong>Seviye 3:</strong> NDT sistemini kurar, prosedür ve teknik talimat onaylar, Seviye 1 ve 2 personeli sınar. Mühendis düzeyi yetki.</li></ul><p>ArmaWeld\'de VT, PT, MT ve UT muayeneleri <strong>EN ISO 9712 Seviye 2 sertifikalı</strong> in-house personel tarafından gerçekleştirilir. RT için akredite laboratuvar ortağından hizmet alınır.</p>',
+  blog_ndt_s7: '<h2>EN ISO 9712 Sertifikasyon Seviyeleri</h2><p>NDT personeli EN ISO 9712\'ye göre üç seviyede sertifikalandırılır:</p><ul><li><strong>Seviye 1:</strong> Belirlenmiş prosedüre göre muayene yapar, raporlamaz. Deneyimli personel gözetiminde çalışır.</li><li><strong>Seviye 2:</strong> Prosedür hazırlar, muayene yapar, sonuçları standarda göre değerlendirir ve raporlar. Endüstriyel pratikte muayeneci standardı.</li><li><strong>Seviye 3:</strong> NDT sistemini kurar, prosedür ve teknik talimat onaylar, Seviye 1 ve 2 personeli sınar. Mühendis düzeyi yetki.</li></ul><p>ArmaWeld\'de VT, PT, MT ve UT muayeneleri <strong>EN ISO 9712 Seviye 2 sertifikalı</strong> bünyemizde personel tarafından gerçekleştirilir. RT için akredite laboratuvar ortağından hizmet alınır.</p>',
   blog_ndt_cta_h3: 'NDT Hizmetleri Hakkında Bilgi Alın',
   blog_ndt_cta_p: 'Projenizin hangi NDT yöntemine ihtiyaç duyduğu teknik değerlendirme ile belirlenir.',
   blog_ndt_cta_btn: 'NDT Sayfasına Git →',
@@ -1618,7 +1618,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   blog_lazer_s0: '<p>Sac metal kesimde lazer ve plazma teknolojileri farklı güçlü yönler sunar. Hangi yöntemin seçileceği; malzeme kalınlığı, tolerans gereksinimleri, üretim hacmi ve parça başı hedef maliyete göre belirlenir.</p><p>Yanlış yöntem seçimi, aşırı işlem maliyetine, kenar kalitesi sorunlarına veya ısı etkisiyle bozulan malzeme özelliklerine yol açabilir. Bu kılavuz, iki yöntemi teknik kriterlere göre karşılaştırır.</p>',
   blog_lazer_s1: '<h2>Teknik Karşılaştırma Tablosu</h2><table class="data-table"><thead><tr><th>Kriter</th><th>Lazer Kesim</th><th>Plazma Kesim</th></tr></thead><tbody><tr><td>Tipik Kalınlık Aralığı</td><td>0,5 – 20 mm (fiber lazer, çelik)</td><td>3 – 60 mm (CNC plazma, çelik)</td></tr><tr><td>Boyutsal Tolerans</td><td>±0,1 mm</td><td>±0,3–0,5 mm</td></tr><tr><td>Kenar Kalitesi</td><td>Düzgün, çapaksız, kaynağa hazır</td><td>Daha pürüzlü; kaynak öncesi taşlama gerekebilir</td></tr><tr><td>Isı Tesiri Bölgesi (HAZ)</td><td>Çok dar (0,1–0,3 mm)</td><td>Daha geniş (1–3 mm); ince saclarda çarpılma riski</td></tr><tr><td>Kesim Hızı (ince malzeme)</td><td>Çok yüksek</td><td>Orta</td></tr><tr><td>Kesim Hızı (kalın malzeme)</td><td>Yavaşlar, maliyet artar</td><td>Yüksek kalmaya devam eder</td></tr><tr><td>Malzeme Türleri</td><td>Çelik, paslanmaz, alüminyum, bakır</td><td>Çelik, paslanmaz, alüminyum (kalın)</td></tr><tr><td>Parça Başı Maliyet (ince sac)</td><td>Düşük</td><td>Yüksek (yavaş, enerji fazla)</td></tr><tr><td>Parça Başı Maliyet (kalın sac)</td><td>Yüksek</td><td>Düşük</td></tr></tbody></table>',
   blog_lazer_s2: '<h2>Lazer Kesimi Ne Zaman Seçmeli?</h2><ul><li>Kalınlık ≤ 12 mm ve yüksek boyutsal hassasiyet gerekiyorsa</li><li>Kenar kalitesi kaynağa doğrudan hazır olmalıysa (taşlama maliyetini sıfırlamak için)</li><li>Karmaşık kontur ve delik geometrileri söz konusuysa</li><li>Paslanmaz çelik veya alüminyumda HAZ kontaminasyonu kritikse</li><li>Seri üretim ve düşük fire oranı öncelikliyse</li></ul>',
-  blog_lazer_s3: '<h2>Plazma Kesimi Ne Zaman Seçmeli?</h2><ul><li>Malzeme kalınlığı 15 mm\'nin üzerindeyse</li><li>Tolerans gereklilikleri ±0,5 mm veya daha geniş olduğunda</li><li>Yapısal çelik büyük bileşenleri işleniyorsa (hacimsek profiller, kirişler)</li><li>İlk yatırım maliyeti kısıtlıysa ve orta toleranslar yeterliyse</li></ul><div class="callout"><p><strong>ArmaWeld\'de mevcut ekipman:</strong> CNC plazma hattı (maks. 60 mm çelik) ve fiber lazer (maks. 20 mm çelik/paslanmaz). Her iki teknoloji de in-house mevcuttur; malzeme ve geometriye göre en uygun hat seçilir.</p></div>',
+  blog_lazer_s3: '<h2>Plazma Kesimi Ne Zaman Seçmeli?</h2><ul><li>Malzeme kalınlığı 15 mm\'nin üzerindeyse</li><li>Tolerans gereklilikleri ±0,5 mm veya daha geniş olduğunda</li><li>Yapısal çelik büyük bileşenleri işleniyorsa (hacimsek profiller, kirişler)</li><li>İlk yatırım maliyeti kısıtlıysa ve orta toleranslar yeterliyse</li></ul><div class="callout"><p><strong>ArmaWeld\'de mevcut ekipman:</strong> CNC plazma hattı (maks. 60 mm çelik) ve fiber lazer (maks. 20 mm çelik/paslanmaz). Her iki teknoloji de bünyemizde mevcuttur; malzeme ve geometriye göre en uygun hat seçilir.</p></div>',
   blog_lazer_s4: '<h2>Karar Rehberi</h2><p>Kesim yöntemi seçimini etkileyen üç ana faktör: <strong>(1) kalınlık</strong> — 15 mm sınırını geçiyorsanız plazma ekonomiktir; <strong>(2) tolerans</strong> — ±0,2 mm ve altı lazer gerektirir; <strong>(3) kenar sonrası işlem</strong> — lazer kesilen kenarlar çoğu zaman doğrudan kaynağa gider, plazma kenarları ek taşlama gerektirebilir. Toplam maliyet hesabı yapılırken yalnızca kesim maliyeti değil, sonraki operasyonlar da dikkate alınmalıdır.</p>',
   blog_lazer_cta_h3: 'Kesim Hizmetleri Hakkında Teklif Alın',
   blog_lazer_cta_p: 'DXF veya DWG dosyanızı gönderin; lazer ve plazma seçeneklerini karşılaştırmalı olarak fiyatlandıralım.',
@@ -1807,7 +1807,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   stat4_u: 'yöntem',
 
-  home_persona_eyebrow: '04 / Kimler için',
+  home_persona_eyebrow: '01 / Kimler için',
 
   home_persona_h2: 'Teknik karar veren ekipler için <span style="color:var(--arc-2)">net süreç.</span>',
 
@@ -1829,7 +1829,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   home_persona3_l: 'Üretim planı →',
 
-  home_aud_eyebrow: '05 / Hizmet kapsamı',
+  home_aud_eyebrow: '02 / Hizmet kapsamı',
 
   home_aud_h2: 'OEM, EPC ve <span style="color:var(--arc-2)">imalat ortakları.</span>',
 
@@ -1845,7 +1845,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   home_aud3_d: 'EXC3 yapısal çelik, montaj yardımı ve sahaya hazır parça paketleri.',
 
-  home_blog_eyebrow: '06 / Teknik içerik',
+  home_blog_eyebrow: '08 / Teknik içerik',
 
   home_blog_h2: 'Kaynak mühendisliği <span style="color:var(--arc-2)">notları.</span>',
 
@@ -1861,7 +1861,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   home_blog3_d: 'VT, PT, MT, UT — hangi kusur için hangi yöntem.',
 
-  home_certs_eyebrow: '07 / Sertifikalar',
+  home_certs_eyebrow: '09 / Sertifikalar',
   home_certs_h2: 'Denetlenebilir üretimin <span style="color:var(--arc-2)">belge altyapısı.</span>',
   home_certs_lede: 'Her proje; onaylı WPS, belgeli personel ve denetlenebilir kalite kayıtları üzerine kurulur. Aşağıdaki standartlar aktif olarak sürdürülür.',
   home_certs_link: 'Kalite süreci ve belge paketi →',
@@ -1918,7 +1918,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   cap_cert_h: 'Sertifikalar & kapsam',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (yapısal çelik), EN ISO 3834-2 (kaynak kalitesi). WPQR tabanlı WPS kütüphanesi; kaynakçılar EN ISO 9606-1/2. NDT personeli EN ISO 9712 Seviye 2.',
+  cap_cert_p: 'EN 1090-1/2 EXC3 (yapısal çelik), EN ISO 3834-2 (kaynak kalitesi), ISO 9001:2015 (kalite), ISO 14001:2015 (çevre), ISO 45001:2018 (iş sağlığı ve güvenliği). WPQR tabanlı WPS kütüphanesi; kaynakçılar EN ISO 9606-1/2. NDT personeli EN ISO 9712 Seviye 2.',
 
   cap_mat_h: 'Malzeme grupları',
 

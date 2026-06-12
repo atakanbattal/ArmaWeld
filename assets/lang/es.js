@@ -43,15 +43,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   home_trace_portal_p: 'Consulte etapas de producción, registros de operadores y descargue documentos técnicos desde el portal de clientes.',
   home_stat1_lbl: 'AÑOS DE EXPERIENCIA', home_stat2_lbl: 'PROYECTOS COMPLETADOS',
   home_stat3_lbl: 'CERTIFICACIONES', home_stat4_lbl: 'SOLDADORES ACTIVOS',
-  home_svc_eyebrow: '01 / Servicios', home_svc_h2: 'Todo el procesamiento<br/>de metal bajo un techo.',
+  home_svc_eyebrow: '03 / Servicios', home_svc_h2: 'Todo el procesamiento<br/>de metal bajo un techo.',
   home_svc_lede: 'Desde ingeniería de soldadura hasta corte CNC, doblado y montaje mecánico — cada operación en nuestro propio taller bajo la supervisión de nuestros ingenieros.',
   home_svc_cta: 'Ver todos los servicios',
-  home_trace_eyebrow: '02 / Proceso de trazabilidad',
+  home_trace_eyebrow: '04 / Proceso de trazabilidad',
   home_trace_h2: 'De materia prima a entrega; 7 pasos, cero puntos ciegos.',
   home_trace_lede: 'Cada orden de trabajo se abre con un número de serie digital; número de colada, WPS, soldador, informe END y documento de envío se acumulan en el mismo registro.',
   home_trace_meta_heat: 'N.º de colada', home_trace_meta_wps: 'WPS',
   home_trace_meta_op: 'Operador', home_trace_meta_date: 'Fecha',
-  home_cmp_eyebrow: '03 / Comparador de procesos',
+  home_cmp_eyebrow: '05 / Comparador de procesos',
   home_cmp_h2: '¿Qué arco para qué trabajo? Hechos técnicos de un vistazo.',
   home_ref_eyebrow: 'Referencias',
   home_ref_h2: 'De la fabricación soldada al informe NDT, <span style="color:var(--arc-2)">bajo un mismo techo.</span>',
@@ -238,7 +238,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   trace_step7_chip: 'PASO 07 · SHIP.DOSSIER', trace_step7_h: 'Producto + dosier documental entregados juntos.',
   trace_step7_body: 'Tras la inspección final el producto se empaqueta. Un paquete documental completo — WPS, WPQR, certificados de soldadores, certificados de material, informes END, registros dimensionales y EPS, declaración CE — se entrega en un único archivo.',
   trace_step7_d1: 'Albarán de entrega', trace_step7_d2: 'Dosier documental (pdf)', trace_step7_d3: 'CE / DoP', trace_step7_d4: 'Tarjeta QR de seguimiento',
-  home_cmp_eyebrow: '03 / Comparador de procesos de soldadura',
+  home_cmp_eyebrow: '05 / Comparador de procesos de soldadura',
   home_cmp_h2: '¿Qué arco para <span style="color:var(--arc-2)">qué trabajo?</span> Hechos técnicos de un vistazo.',
   home_cmp_mig_full: 'Soldadura por arco metálico con gas — Metal Inert / Active Gas',
   home_cmp_tig_full: 'Soldadura por arco de tungsteno con gas inerte — Inert Gas',
@@ -250,14 +250,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   home_cmp_spec_current: 'Corriente', home_cmp_spec_voltage: 'Tensión', home_cmp_spec_gas: 'Gas',
   home_cmp_spec_wire: 'Diám. hilo', home_cmp_spec_electrode: 'Electrodo', home_cmp_spec_eff: 'Rendimiento', home_cmp_spec_mat: 'Material',
   home_cmp_btn: 'Detalles de todos los métodos →',
-  home_doc_eyebrow: '04 / Ejemplo de documento',
+  home_doc_eyebrow: '06 / Ejemplo de documento',
   home_doc_h2: 'Cada entrega incluye un <span style="color:var(--arc-2)">dosier</span>: WPS, WPQR, END, Seguimiento.',
   home_doc_lede: 'No solo entregamos piezas — junto a cada envío entregamos un dosier documental completo que demuestra cómo se fabricó la pieza, por quién fue soldada, qué materia prima se usó y qué inspecciones superó.',
   home_doc_d1: 'WPS — Especificación de Procedimiento de Soldadura', home_doc_d2: 'WPQR — Registro de Cualificación de Procedimiento',
   home_doc_d3: 'Certificados de Cualificación de Soldadores', home_doc_d4: 'Certificados de Material (3.1)',
   home_doc_d5: 'Informes END (VT / PT / UT)', home_doc_d6: 'Informe de Control Dimensional',
   home_doc_d7: 'Declaración de Conformidad CE (si procede)', home_doc_btn: 'Ver paquete documental →',
-  home_sec_eyebrow: '05 / Sectores',
+  home_sec_eyebrow: '07 / Sectores',
   home_sec_h2: 'Presentes donde se transportan <span style="color:var(--arc-2)">cargas críticas</span> en la industria pesada.',
   home_sec1_title: 'Recipientes a presión<br/>& Depósitos', home_sec2_title: 'Estructuras de acero<br/>& Construcción',
   home_sec3_title: 'Maquinaria de construcción<br/>& Piezas de desgaste', home_sec4_title: 'Grúas & Equipos<br/>de elevación',
@@ -638,7 +638,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   faq_a03: '<p>No. Producimos tanto prototipos de una pieza como series de 1.000 unidades. Sin embargo, trabajar con <span class="inline-tag">MOQ=1</span> traslada todo el coste de preparación a una sola pieza — lo indicamos con transparencia desde el principio.</p>',
   faq_a04: '<p>Sí. En el marco de la <strong>ingeniería inversa</strong> modelamos la muestra con escáner 3D o medición manual y elaboramos el plano de fabricación. Tras su aprobación, pasamos a producción. Durante el proceso entregamos también los archivos al cliente.</p>',
   faq_a05: '<p>En primeros pedidos solemos trabajar con <strong>40% anticipo + 60% antes del envío</strong>. Para clientes recurrentes abrimos cuentas a plazo o cuentas abiertas con carta de garantía bancaria. En pedidos internacionales hay opciones L/C o T/T.</p>',
-  faq_a06: '<p>Certificaciones activas:</p><ul><li><span class="inline-tag">ISO 9001</span> Sistema de gestión de calidad</li><li><span class="inline-tag">ISO 14001</span> Sistema de gestión ambiental</li><li><span class="inline-tag">ISO 45001</span> Sistema de gestión de seguridad y salud en el trabajo</li><li><span class="inline-tag">EN ISO 3834-2</span> Requisitos de calidad integrales en fabricación soldada</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Fabricación de acero estructural y marcado CE</li><li><span class="inline-tag">PED 2014/68/EU</span> Equipos a presión conformes</li><li><span class="inline-tag">EN 15085-2 CL1</span> Fabricación soldada para vehículos ferroviarios</li></ul><p>Podemos compartir el certificado actualizado en la oferta o bajo solicitud.</p>',
+  faq_a06: '<p>Certificaciones activas:</p><ul><li><span class="inline-tag">ISO 9001</span> Sistema de gestión de calidad</li><li><span class="inline-tag">ISO 14001</span> Sistema de gestión ambiental</li><li><span class="inline-tag">ISO 45001</span> Sistema de gestión de seguridad y salud en el trabajo</li><li><span class="inline-tag">EN ISO 3834-2</span> Requisitos de calidad integrales en fabricación soldada</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Fabricación de acero estructural y marcado CE</li></ul><p>Además, la producción se realiza conforme a los requisitos de <strong>PED 2014/68/EU</strong> y <strong>EN 15085-2</strong>.</p><p>Podemos compartir el certificado actualizado en la oferta o bajo solicitud.</p>',
   faq_a07: '<p>Las inspecciones <strong>VT (visual), PT (penetrantes), MT (partículas magnéticas) y UT (ultrasonidos)</strong> se realizan <strong>internamente</strong> por nuestro personal <strong>certificado EN ISO 9712 Nivel II</strong>. Sólo <strong>RT (radiografía)</strong> requiere licencia radiológica y se realiza por nuestro laboratorio asociado autorizado — en ambos casos entregamos toda la cadena de informes al cliente.</p>',
   faq_a08: '<p>Sí. Por defecto, el certificado de material <strong>EN 10204 3.1</strong> se incluye en todos los proyectos. En el ámbito PED o por solicitud especial se obtiene el certificado <strong>3.2</strong> (aprobado por entidad inspectora independiente). Opcionalmente realizamos test <strong>PMI</strong> (Positive Material Identification) para verificar la clase de material antes de obra.</p>',
   faq_a09: '<p>Si el cliente lo solicita, invitamos a un organismo notificado / inspección de tercera parte acreditado a nuestra fábrica y realizamos inspección presencial en las fases <strong>WPQR, FAT (Factory Acceptance Test), END y control dimensional</strong>. Estos informes se entregan al cliente dentro del Final Documentation Dossier.</p>',
@@ -1752,7 +1752,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   stat4_u: 'métodos',
 
-  home_persona_eyebrow: '04 / Para quién',
+  home_persona_eyebrow: '01 / Para quién',
 
   home_persona_h2: 'Un proceso claro para <span style="color:var(--arc-2)">decisores técnicos.</span>',
 
@@ -1774,7 +1774,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   home_persona3_l: 'Plan de producción →',
 
-  home_aud_eyebrow: '05 / A quién servimos',
+  home_aud_eyebrow: '02 / A quién servimos',
 
   home_aud_h2: 'OEM, EPC y <span style="color:var(--arc-2)">socios de fabricación.</span>',
 
@@ -1790,7 +1790,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   home_aud3_d: 'Acero estructural EXC3, apoyo de montaje y kits listos para obra.',
 
-  home_blog_eyebrow: '06 / Contenido técnico',
+  home_blog_eyebrow: '08 / Contenido técnico',
 
   home_blog_h2: 'Notas de <span style="color:var(--arc-2)">ingeniería de soldadura.</span>',
 
@@ -1806,7 +1806,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   home_blog3_d: 'VT, PT, MT, UT — qué método para qué defecto.',
 
-  home_certs_eyebrow: '07 / Certificaciones',
+  home_certs_eyebrow: '09 / Certificaciones',
   home_certs_h2: 'La <span style="color:var(--arc-2)">base documental</span> de una producción auditable.',
   home_certs_lede: 'Cada proyecto se apoya en WPS aprobada, personal certificado y registros de calidad trazables. Los estándares siguientes se mantienen activos.',
   home_certs_link: 'Proceso de calidad y paquete documental →',
@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   cap_cert_h: 'Certificados y alcance',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (acero estructural), EN ISO 3834-2 (calidad de soldadura). Biblioteca WPS basada en WPQR; soldadores EN ISO 9606-1/2. NDT EN ISO 9712 Nivel 2.',
+  cap_cert_p: 'EN 1090-1/2 EXC3 (acero estructural), EN ISO 3834-2 (calidad de soldadura), ISO 9001:2015 (calidad), ISO 14001:2015 (medio ambiente), ISO 45001:2018 (seguridad y salud en el trabajo). Biblioteca WPS basada en WPQR; soldadores EN ISO 9606-1/2. END EN ISO 9712 Nivel 2.',
 
   cap_mat_h: 'Grupos de materiales',
 

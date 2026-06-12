@@ -43,15 +43,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   home_trace_portal_p: 'Consultez les étapes de production, les opérateurs et téléchargez les documents techniques depuis le portail client.',
   home_stat1_lbl: 'ANS D\'EXPÉRIENCE', home_stat2_lbl: 'PROJETS RÉALISÉS',
   home_stat3_lbl: 'CERTIFICATIONS', home_stat4_lbl: 'SOUDEURS ACTIFS',
-  home_svc_eyebrow: '01 / Services', home_svc_h2: 'Tout le traitement<br/>des métaux sous un toit.',
+  home_svc_eyebrow: '03 / Services', home_svc_h2: 'Tout le traitement<br/>des métaux sous un toit.',
   home_svc_lede: 'De l\'ingénierie de soudage à la découpe CNC, au pliage et à l\'assemblage mécanique — chaque opération dans notre propre atelier sous la supervision de nos ingénieurs.',
   home_svc_cta: 'Voir tous les services',
-  home_trace_eyebrow: '02 / Processus de traçabilité',
+  home_trace_eyebrow: '04 / Processus de traçabilité',
   home_trace_h2: 'De la matière première à la livraison ; 7 étapes, zéro angle mort.',
   home_trace_lede: 'Chaque ordre de travail s\'ouvre avec un numéro de série numérique ; numéro de coulée, WPS, soudeur, rapport CND et document d\'expédition s\'accumulent dans le même enregistrement.',
   home_trace_meta_heat: 'N° de coulée', home_trace_meta_wps: 'WPS',
   home_trace_meta_op: 'Opérateur', home_trace_meta_date: 'Date',
-  home_cmp_eyebrow: '03 / Comparateur de procédés',
+  home_cmp_eyebrow: '05 / Comparateur de procédés',
   home_cmp_h2: 'Quel arc pour quel travail ? Faits techniques en un coup d\'œil.',
   home_ref_eyebrow: 'Références',
   home_ref_h2: 'De la fabrication soudée au rapport CND, <span style="color:var(--arc-2)">sous un même toit.</span>',
@@ -238,7 +238,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   trace_step7_chip: 'ÉTAPE 07 · SHIP.DOSSIER', trace_step7_h: 'Produit + dossier documentaire livrés ensemble.',
   trace_step7_body: 'Après l\'inspection finale, le produit est emballé. Un dossier documentaire complet — WPS, WPQR, certificats soudeurs, certificats matière, rapports CND, relevés dimensionnels et EPS, déclaration CE — est livré en un seul fichier.',
   trace_step7_d1: 'Bon de livraison', trace_step7_d2: 'Dossier documentaire (pdf)', trace_step7_d3: 'CE / DoP', trace_step7_d4: 'Carte QR de suivi',
-  home_cmp_eyebrow: '03 / Comparateur de procédés de soudage',
+  home_cmp_eyebrow: '05 / Comparateur de procédés de soudage',
   home_cmp_h2: 'Quel arc pour <span style="color:var(--arc-2)">quel travail ?</span> Faits techniques en un coup d\'œil.',
   home_cmp_mig_full: 'Soudage MIG/MAG — Metal Inert / Active Gas',
   home_cmp_tig_full: 'Soudage TIG — Tungstène sous gaz inerte',
@@ -250,14 +250,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   home_cmp_spec_current: 'Courant', home_cmp_spec_voltage: 'Tension', home_cmp_spec_gas: 'Gaz',
   home_cmp_spec_wire: 'Diam. fil', home_cmp_spec_electrode: 'Électrode', home_cmp_spec_eff: 'Rendement', home_cmp_spec_mat: 'Matériau',
   home_cmp_btn: 'Détails de toutes les méthodes →',
-  home_doc_eyebrow: '04 / Exemple de document',
+  home_doc_eyebrow: '06 / Exemple de document',
   home_doc_h2: 'Chaque livraison inclut un <span style="color:var(--arc-2)">dossier</span> : WPS, WPQR, CND, Traçabilité.',
   home_doc_lede: 'Nous ne livrons pas seulement des pièces — chaque livraison s\'accompagne d\'un dossier documentaire complet prouvant comment la pièce a été fabriquée, par qui elle a été soudée, quelle matière première a été utilisée et quels contrôles elle a passés.',
   home_doc_d1: 'WPS — Descriptif de mode opératoire', home_doc_d2: 'WPQR — Procès-verbal de qualification',
   home_doc_d3: 'Certificats de qualification soudeurs', home_doc_d4: 'Certificats matière (3.1)',
   home_doc_d5: 'Rapports CND (VT / PT / UT)', home_doc_d6: 'Rapport de contrôle dimensionnel',
   home_doc_d7: 'Déclaration de conformité CE (si requis)', home_doc_btn: 'Voir le dossier documentaire →',
-  home_sec_eyebrow: '05 / Secteurs',
+  home_sec_eyebrow: '07 / Secteurs',
   home_sec_h2: 'Présents là où les <span style="color:var(--arc-2)">charges critiques</span> sont portées dans l\'industrie lourde.',
   home_sec1_title: 'Récipients sous pression<br/>& Cuves', home_sec2_title: 'Charpentes métalliques<br/>& Construction',
   home_sec3_title: 'Engins de chantier<br/>& Pièces d\'usure', home_sec4_title: 'Grues & Équipements<br/>de levage',
@@ -638,7 +638,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   faq_a03: '<p>Non. Nous produisons aussi bien des prototypes unitaires que des séries de 1 000 pièces. Cependant, travailler à <span class="inline-tag">MOQ=1</span> reporte l\'intégralité des coûts de mise en place sur une seule pièce — nous l\'indiquons clairement dès le départ.</p>',
   faq_a04: '<p>Oui. Dans le cadre de l\'<strong>ingénierie inverse</strong>, nous modélisons l\'échantillon par scanner 3D ou mesure manuelle et établissons le plan de fabrication. Après votre validation, nous lançons la production. Pendant ce processus, nous remettons également les fichiers de plans au client.</p>',
   faq_a05: '<p>Pour les premières commandes, nous travaillons généralement à <strong>40 % d\'acompte + 60 % avant expédition</strong>. Pour les clients récurrents, nous ouvrons des comptes à terme ou comptes ouverts avec lettre de garantie bancaire. Pour les commandes internationales, options L/C ou T/T disponibles.</p>',
-  faq_a06: '<p>Certifications actives :</p><ul><li><span class="inline-tag">ISO 9001</span> Système de management qualité</li><li><span class="inline-tag">ISO 14001</span> Système de management environnemental</li><li><span class="inline-tag">ISO 45001</span> Système de management santé et sécurité au travail</li><li><span class="inline-tag">EN ISO 3834-2</span> Exigences qualité complètes en soudage</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Fabrication de charpente métallique et marquage CE</li><li><span class="inline-tag">PED 2014/68/UE</span> Conforme équipements sous pression</li><li><span class="inline-tag">EN 15085-2 CL1</span> Soudage de véhicules ferroviaires</li></ul><p>Nous pouvons partager le certificat à jour dans le devis ou sur demande.</p>',
+  faq_a06: '<p>Certifications actives :</p><ul><li><span class="inline-tag">ISO 9001</span> Système de management qualité</li><li><span class="inline-tag">ISO 14001</span> Système de management environnemental</li><li><span class="inline-tag">ISO 45001</span> Système de management santé et sécurité au travail</li><li><span class="inline-tag">EN ISO 3834-2</span> Exigences qualité complètes en soudage</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Fabrication de charpente métallique et marquage CE</li></ul><p>De plus, la production est réalisée conformément aux exigences de <strong>PED 2014/68/UE</strong> et <strong>EN 15085-2</strong>.</p><p>Nous pouvons partager le certificat à jour dans le devis ou sur demande.</p>',
   faq_a07: '<p>Les contrôles <strong>VT (visuel), PT (ressuage), MT (magnétoscopie) et UT (ultrasons)</strong> sont réalisés <strong>en interne</strong> par notre personnel <strong>certifié EN ISO 9712 Niveau II</strong>. Seul le <strong>RT (radiographie)</strong> nécessite une licence radiologique et est réalisé par notre laboratoire partenaire agréé — dans les deux cas, nous fournissons l\'intégralité de la chaîne de rapports au client.</p>',
   faq_a08: '<p>Oui. Par défaut, le certificat matière <strong>EN 10204 3.1</strong> est ajouté à tous les projets. Pour les projets PED ou sur demande spécifique, le certificat <strong>3.2</strong> (validé par organisme indépendant) est délivré. En option, le test <strong>PMI</strong> (Positive Material Identification) vérifie la classe matière avant intervention sur site.</p>',
   faq_a09: '<p>Sur demande client, nous invitons un organisme notifié / inspection tierce accrédité dans notre usine et faisons réaliser des inspections en présence aux phases <strong>WPQR, FAT (Factory Acceptance Test), CND et contrôle dimensionnel</strong>. Ces rapports sont remis au client dans le Final Documentation Dossier.</p>',
@@ -1752,7 +1752,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   stat4_u: 'méthodes',
 
-  home_persona_eyebrow: '04 / Pour qui',
+  home_persona_eyebrow: '01 / Pour qui',
 
   home_persona_h2: 'Un processus clair pour les <span style="color:var(--arc-2)">décideurs techniques.</span>',
 
@@ -1774,7 +1774,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   home_persona3_l: 'Plan de fabrication →',
 
-  home_aud_eyebrow: '05 / Structures clientes',
+  home_aud_eyebrow: '02 / Structures clientes',
 
   home_aud_h2: 'OEM, EPC et <span style="color:var(--arc-2)">partenaires de fabrication.</span>',
 
@@ -1790,7 +1790,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   home_aud3_d: 'Charpente EXC3, aide au montage et kits prêts pour le chantier.',
 
-  home_blog_eyebrow: '06 / Contenu technique',
+  home_blog_eyebrow: '08 / Contenu technique',
 
   home_blog_h2: 'Notes d\'<span style="color:var(--arc-2)">ingénierie soudage.</span>',
 
@@ -1806,7 +1806,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   home_blog3_d: 'VT, PT, MT, UT — quelle méthode pour quel défaut.',
 
-  home_certs_eyebrow: '07 / Certifications',
+  home_certs_eyebrow: '09 / Certifications',
   home_certs_h2: 'Le <span style="color:var(--arc-2)">socle documentaire</span> d\'une production auditable.',
   home_certs_lede: 'Chaque projet repose sur WPS approuvée, personnel certifié et dossiers qualité traçables. Les normes ci-dessous sont activement maintenues.',
   home_certs_link: 'Processus qualité et dossier documentaire →',
@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   cap_cert_h: 'Certificats & périmètre',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (charpente), EN ISO 3834-2 (qualité soudage). Bibliothèque WPS sur WPQR ; soudeurs EN ISO 9606-1/2. CND EN ISO 9712 Niveau 2.',
+  cap_cert_p: 'EN 1090-1/2 EXC3 (charpente), EN ISO 3834-2 (qualité soudage), ISO 9001:2015 (qualité), ISO 14001:2015 (environnement), ISO 45001:2018 (santé et sécurité au travail). Bibliothèque WPS sur WPQR ; soudeurs EN ISO 9606-1/2. CND EN ISO 9712 Niveau 2.',
 
   cap_mat_h: 'Groupes matière',
 

@@ -43,15 +43,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   home_trace_portal_p: 'Produktionsstufen, Operatordaten und technische Dokumente im Kundenportal einsehen und herunterladen.',
   home_stat1_lbl: 'JAHRE ERFAHRUNG', home_stat2_lbl: 'ABGESCHLOSSENE PROJEKTE',
   home_stat3_lbl: 'ZERTIFIZIERUNGEN', home_stat4_lbl: 'AKTIVE SCHWEISSER',
-  home_svc_eyebrow: '01 / Leistungen', home_svc_h2: 'Alle Metallbearbeitungen<br/>unter einem Dach.',
+  home_svc_eyebrow: '03 / Leistungen', home_svc_h2: 'Alle Metallbearbeitungen<br/>unter einem Dach.',
   home_svc_lede: 'Von der Schweißtechnik über CNC-Schneiden, Biegen und mechanische Montage — jeder Vorgang in unserer eigenen Werkstatt unter Aufsicht unserer Ingenieure.',
   home_svc_cta: 'Alle Leistungen ansehen',
-  home_trace_eyebrow: '02 / Rückverfolgbarkeitsprozess',
+  home_trace_eyebrow: '04 / Rückverfolgbarkeitsprozess',
   home_trace_h2: 'Vom Rohmaterial bis zur Lieferung; 7 Schritte, keine blinden Flecken.',
   home_trace_lede: 'Jeder Arbeitsauftrag wird mit einer digitalen Seriennummer eröffnet; Schmelznummer, WPS, Schweißer, ZfP-Bericht und Versanddokument sammeln sich im gleichen Datensatz.',
   home_trace_meta_heat: 'Schmelznummer', home_trace_meta_wps: 'WPS',
   home_trace_meta_op: 'Bediener', home_trace_meta_date: 'Datum',
-  home_cmp_eyebrow: '03 / Schweißverfahrensvergleich',
+  home_cmp_eyebrow: '05 / Schweißverfahrensvergleich',
   home_cmp_h2: 'Welcher Lichtbogen für welche Aufgabe? Technische Fakten auf einen Blick.',
   home_ref_eyebrow: 'Referenzen',
   home_ref_h2: 'Von der Schweißfertigung bis zum NDT-Bericht <span style="color:var(--arc-2)">unter einem Dach.</span>',
@@ -238,7 +238,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   trace_step7_chip: 'SCHRITT 07 · SHIP.DOSSIER', trace_step7_h: 'Produkt + Dokumentationsmappe gemeinsam geliefert.',
   trace_step7_body: 'Nach der Abschlussprüfung wird das Produkt verpackt. Ein vollständiges Dokumentationspaket — WPS, WPQR, Schweißerprüfzeugnisse, Werkstoffzeugnisse, ZfP-Berichte, Maß- und DFT-Aufzeichnungen, CE-Erklärung — wird in einer Datei übergeben.',
   trace_step7_d1: 'Lieferschein', trace_step7_d2: 'Dokumentationsmappe (pdf)', trace_step7_d3: 'CE / DoP', trace_step7_d4: 'QR-Verfolgungskarte',
-  home_cmp_eyebrow: '03 / Schweißverfahrensvergleich',
+  home_cmp_eyebrow: '05 / Schweißverfahrensvergleich',
   home_cmp_h2: 'Welcher Lichtbogen für <span style="color:var(--arc-2)">welche Aufgabe?</span> Technische Fakten auf einen Blick.',
   home_cmp_mig_full: 'Metallschutzgasschweißen — Metal Inert / Active Gas',
   home_cmp_tig_full: 'Wolfram-Inertgasschweißen — Inert Gas',
@@ -250,14 +250,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   home_cmp_spec_current: 'Strom', home_cmp_spec_voltage: 'Spannung', home_cmp_spec_gas: 'Gas',
   home_cmp_spec_wire: 'Drahtdurchm.', home_cmp_spec_electrode: 'Elektrode', home_cmp_spec_eff: 'Wirkungsgrad', home_cmp_spec_mat: 'Werkstoff',
   home_cmp_btn: 'Alle Methodendetails →',
-  home_doc_eyebrow: '04 / Dokumentmuster',
+  home_doc_eyebrow: '06 / Dokumentmuster',
   home_doc_h2: 'Jede Lieferung enthält eine <span style="color:var(--arc-2)">Dokumentenmappe</span>: WPS, WPQR, ZfP, Rückverfolgung.',
   home_doc_lede: 'Wir liefern nicht nur Teile — neben jeder Lieferung übergeben wir eine vollständige Dokumentationsmappe, die beweist, wie das Teil gefertigt wurde, von wem es geschweißt wurde, welcher Werkstoff verwendet wurde und welche Prüfungen es bestanden hat.',
   home_doc_d1: 'WPS — Schweißanweisung', home_doc_d2: 'WPQR — Verfahrensprüfprotokoll',
   home_doc_d3: 'Schweißerprüfzeugnisse', home_doc_d4: 'Werkstoffprüfzeugnisse (3.1)',
   home_doc_d5: 'ZfP-Berichte (VT / PT / UT)', home_doc_d6: 'Maßprüfbericht',
   home_doc_d7: 'EG-Konformitätserklärung (falls erforderlich)', home_doc_btn: 'Dokumentenpaket ansehen →',
-  home_sec_eyebrow: '05 / Branchen',
+  home_sec_eyebrow: '07 / Branchen',
   home_sec_h2: 'Überall präsent, wo in der Schwerindustrie <span style="color:var(--arc-2)">kritische Lasten</span> getragen werden.',
   home_sec1_title: 'Druckbehälter<br/>& Tanks', home_sec2_title: 'Stahlbau<br/>& Konstruktionen',
   home_sec3_title: 'Baumaschinen<br/>& Verschleißteile', home_sec4_title: 'Krane &<br/>Hebezeuge',
@@ -638,7 +638,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   faq_a03: '<p>Nein. Wir fertigen sowohl Einzelteil-Prototypen als auch 1.000-Stück-Serien. Allerdings überträgt eine Arbeit mit <span class="inline-tag">MOQ=1</span> die gesamten Setup-Kosten auf das Einzelteil — wir weisen darauf von Anfang an transparent hin.</p>',
   faq_a04: '<p>Ja. Im Rahmen des <strong>Reverse Engineering</strong> modellieren wir das Muster mit 3D-Scanner oder manueller Messung und erstellen die Fertigungszeichnung. Nach Ihrer Freigabe gehen wir in die Produktion. Auch die Zeichnungsdateien werden dem Kunden übergeben.</p>',
   faq_a05: '<p>Bei Erstaufträgen arbeiten wir in der Regel mit <strong>40 % Anzahlung + 60 % vor Versand</strong>. Bei Bestandskunden öffnen wir Laufzeitkonten oder offene Konten mit Bankbürgschaft. Bei internationalen Aufträgen stehen L/C oder T/T zur Verfügung.</p>',
-  faq_a06: '<p>Aktiv geführte Zertifizierungen:</p><ul><li><span class="inline-tag">ISO 9001</span> Qualitätsmanagementsystem</li><li><span class="inline-tag">ISO 14001</span> Umweltmanagementsystem</li><li><span class="inline-tag">ISO 45001</span> Arbeitsschutzmanagementsystem</li><li><span class="inline-tag">EN ISO 3834-2</span> Umfassende Qualitätsanforderungen geschweißter Fertigung</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Stahlbaufertigung und CE-Kennzeichnung</li><li><span class="inline-tag">PED 2014/68/EU</span> Druckgeräte-konform</li><li><span class="inline-tag">EN 15085-2 CL1</span> Geschweißte Bahnfahrzeug-Fertigung</li></ul><p>Wir können das aktuelle Zertifikat auf Wunsch oder im Angebot freigeben.</p>',
+  faq_a06: '<p>Aktiv geführte Zertifizierungen:</p><ul><li><span class="inline-tag">ISO 9001</span> Qualitätsmanagementsystem</li><li><span class="inline-tag">ISO 14001</span> Umweltmanagementsystem</li><li><span class="inline-tag">ISO 45001</span> Arbeitsschutzmanagementsystem</li><li><span class="inline-tag">EN ISO 3834-2</span> Umfassende Qualitätsanforderungen geschweißter Fertigung</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Stahlbaufertigung und CE-Kennzeichnung</li></ul><p>Darüber hinaus erfolgt die Fertigung konform zu den Anforderungen von <strong>PED 2014/68/EU</strong> und <strong>EN 15085-2</strong>.</p><p>Wir können das aktuelle Zertifikat auf Wunsch oder im Angebot freigeben.</p>',
   faq_a07: '<p><strong>VT (Sicht-), PT (Eindring-), MT (Magnetpulver-) und UT (Ultraschall-)</strong>-Prüfungen werden <strong>intern</strong> von unserem <strong>EN ISO 9712 Level II zertifizierten</strong> Personal durchgeführt. Nur <strong>RT (Röntgen)</strong> erfordert eine Strahlenschutzlizenz und wird von unserem zugelassenen Laborpartner durchgeführt — in beiden Fällen liefern wir die vollständige Berichtskette.</p>',
   faq_a08: '<p>Ja. Standardmäßig wird das Werkstoffzeugnis <strong>EN 10204 3.1</strong> allen Projekten beigefügt. Bei PED-Projekten oder auf Kundenwunsch wird Zeugnis <strong>3.2</strong> (durch unabhängige Prüfstelle abgenommen) ausgestellt. Optionale <strong>PMI</strong>-Tests (Positive Material Identification) verifizieren die Werkstoffklasse vor Ort.</p>',
   faq_a09: '<p>Auf Kundenwunsch laden wir eine akkreditierte Drittparteienprüfstelle (Notified Body) in unser Werk ein und lassen Zeugendurchführungen bei <strong>WPQR, FAT (Factory Acceptance Test), ZfP und Maßkontrolle</strong> durchführen. Diese Berichte werden im Final Documentation Dossier an den Kunden geliefert.</p>',
@@ -1752,7 +1752,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   stat4_u: 'Verfahren',
 
-  home_persona_eyebrow: '04 / Für wen',
+  home_persona_eyebrow: '01 / Für wen',
 
   home_persona_h2: 'Ein klarer Prozess für <span style="color:var(--arc-2)">technische Entscheider.</span>',
 
@@ -1774,7 +1774,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   home_persona3_l: 'Fertigungsplan →',
 
-  home_aud_eyebrow: '05 / Kundenstrukturen',
+  home_aud_eyebrow: '02 / Kundenstrukturen',
 
   home_aud_h2: 'OEMs, EPCs und <span style="color:var(--arc-2)">Fertigungspartner.</span>',
 
@@ -1790,7 +1790,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   home_aud3_d: 'EXC3-Stahlbau, Montageunterstützung und baustellfertige Bauteilpakete.',
 
-  home_blog_eyebrow: '06 / Fachwissen',
+  home_blog_eyebrow: '08 / Fachwissen',
 
   home_blog_h2: 'Schweißtechnik-<span style="color:var(--arc-2)">Notizen.</span>',
 
@@ -1806,7 +1806,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   home_blog3_d: 'VT, PT, MT, UT — welches Verfahren für welchen Fehler.',
 
-  home_certs_eyebrow: '07 / Zertifizierungen',
+  home_certs_eyebrow: '09 / Zertifizierungen',
   home_certs_h2: 'Das <span style="color:var(--arc-2)">Dokumentenfundament</span> prüfbarer Produktion.',
   home_certs_lede: 'Jedes Projekt basiert auf genehmigter WPS, zertifiziertem Personal und nachvollziehbaren Qualitätsunterlagen. Die folgenden Standards werden aktiv gepflegt.',
   home_certs_link: 'Qualitätsprozess und Dokumentenpaket →',
@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   cap_cert_h: 'Zertifikate & Umfang',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (Stahlbau), EN ISO 3834-2 (Schweißqualität). WPQR-basierte WPS-Bibliothek; Schweißer EN ISO 9606-1/2. NDT EN ISO 9712 Level 2.',
+  cap_cert_p: 'EN 1090-1/2 EXC3 (Stahlbau), EN ISO 3834-2 (Schweißqualität), ISO 9001:2015 (Qualität), ISO 14001:2015 (Umwelt), ISO 45001:2018 (Arbeitsschutz). WPQR-basierte WPS-Bibliothek; Schweißer EN ISO 9606-1/2. ZfP EN ISO 9712 Stufe 2.',
 
   cap_mat_h: 'Werkstoffgruppen',
 

@@ -44,15 +44,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   home_trace_portal_p: 'View production stages, operator records and download technical documents from the customer portal.',
   home_stat1_lbl: 'YEARS EXPERIENCE', home_stat2_lbl: 'COMPLETED PROJECTS',
   home_stat3_lbl: 'CERTIFICATIONS', home_stat4_lbl: 'ACTIVE WELDERS',
-  home_svc_eyebrow: '01 / Services', home_svc_h2: 'Welded fabrication with<br/>integrated project management.',
+  home_svc_eyebrow: '03 / Services', home_svc_h2: 'Welded fabrication with<br/>integrated project management.',
   home_svc_lede: 'Welding engineering and NDT in-house; cutting, bending and mechanical assembly planned into the project flow. Single point of contact, engineer-supervised process.',
   home_svc_cta: 'View All Services',
-  home_trace_eyebrow: '02 / Traceability Process',
+  home_trace_eyebrow: '04 / Traceability Process',
   home_trace_h2: 'Raw material to delivery; 7 steps, zero blind spots.',
   home_trace_lede: 'Every work order opens with a digital serial number; heat number, WPS, welder, NDT report and shipping document all accumulate in the same record.',
   home_trace_meta_heat: 'Heat Number', home_trace_meta_wps: 'WPS',
   home_trace_meta_op: 'Operator', home_trace_meta_date: 'Date',
-  home_cmp_eyebrow: '03 / Welding Process Comparator',
+  home_cmp_eyebrow: '05 / Welding Process Comparator',
   home_cmp_h2: 'Which arc for which job? Technical facts at a glance.',
   home_ref_eyebrow: 'References',
   home_ref_h2: 'From welded fabrication to NDT reports, <span style="color:var(--arc-2)">single accountability chain.</span>',
@@ -247,7 +247,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   trace_step7_chip: 'STEP 07 · SHIP.DOSSIER', trace_step7_h: 'Product + document dossier delivered together.',
   trace_step7_body: 'After final inspection the product is packaged. A complete document package linked to the work order — WPS, WPQR, welder certificates, material certificates, NDT reports, dimensional and DFT records, CE declaration — is delivered in a single file.',
   trace_step7_d1: 'Delivery Note', trace_step7_d2: 'Document Dossier (pdf)', trace_step7_d3: 'CE / DoP', trace_step7_d4: 'QR Tracking Card',
-  home_cmp_eyebrow: '03 / Welding Process Comparator',
+  home_cmp_eyebrow: '05 / Welding Process Comparator',
   home_cmp_h2: 'Which arc for <span style="color:var(--arc-2)">which job?</span> Technical facts at a glance.',
   home_cmp_mig_full: 'Gas Metal Arc Welding — Metal Inert / Active Gas',
   home_cmp_tig_full: 'Gas Tungsten Arc Welding — Inert Gas',
@@ -259,14 +259,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   home_cmp_spec_current: 'Current', home_cmp_spec_voltage: 'Voltage', home_cmp_spec_gas: 'Gas',
   home_cmp_spec_wire: 'Wire Dia.', home_cmp_spec_electrode: 'Electrode', home_cmp_spec_eff: 'Efficiency', home_cmp_spec_mat: 'Material',
   home_cmp_btn: 'All Method Details →',
-  home_doc_eyebrow: '04 / Document Sample',
+  home_doc_eyebrow: '06 / Document Sample',
   home_doc_h2: 'Every delivery includes a <span style="color:var(--arc-2)">dossier</span>: WPS, WPQR, NDT, Tracking.',
   home_doc_lede: 'We don\'t just deliver parts — alongside every shipment we deliver a complete document dossier proving how the part was manufactured, by whom it was welded, what raw material was used and which inspections it passed.',
   home_doc_d1: 'WPS — Welding Procedure Specification', home_doc_d2: 'WPQR — Procedure Qualification Record',
   home_doc_d3: 'Welder Qualification Certificates', home_doc_d4: 'Raw Material Test Certificates (3.1)',
   home_doc_d5: 'NDT Reports (VT / PT / UT)', home_doc_d6: 'Dimensional Inspection Report',
   home_doc_d7: 'CE Declaration of Conformity (if required)', home_doc_btn: 'View Document Package →',
-  home_sec_eyebrow: '05 / Sectors',
+  home_sec_eyebrow: '07 / Sectors',
   home_sec_h2: 'Present wherever <span style="color:var(--arc-2)">critical load</span> is carried in heavy industry.',
   home_sec1_title: 'Pressure Vessels<br/>& Tanks', home_sec2_title: 'Steel Structures<br/>& Construction',
   home_sec3_title: 'Construction Machinery<br/>& Wear Parts', home_sec4_title: 'Cranes & Lifting<br/>Equipment',
@@ -647,7 +647,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   faq_a03: '<p>No. We produce both single-part prototypes and 1,000-unit series. However, working at <span class="inline-tag">MOQ=1</span> reflects the entire setup cost onto a single part — we state this transparently from the outset.</p>',
   faq_a04: '<p>Yes. Under <strong>reverse engineering</strong> we model the sample with a 3D scanner or manual measurement and produce the manufacturing drawing. After your approval we proceed to production. We also deliver the drawing files to the customer during this process.</p>',
   faq_a05: '<p>For first orders we generally work with <strong>40% advance + 60% before shipment</strong>. For continuing customers we open term accounts or open accounts secured by bank guarantee letters. International orders have L/C or T/T options.</p>',
-  faq_a06: '<p>Actively held certifications:</p><ul><li><span class="inline-tag">ISO 9001</span> Quality Management System</li><li><span class="inline-tag">ISO 14001</span> Environmental Management System</li><li><span class="inline-tag">ISO 45001</span> Occupational Health & Safety Management System</li><li><span class="inline-tag">EN ISO 3834-2</span> Welded fabrication comprehensive quality requirements</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Structural steel fabrication and CE marking</li><li><span class="inline-tag">PED 2014/68/EU</span> Pressure equipment compliant</li><li><span class="inline-tag">EN 15085-2 CL1</span> Railway vehicle welded fabrication</li></ul><p>For each certification we can share the current certificate file in the quote or upon request.</p>',
+  faq_a06: '<p>Actively held certifications:</p><ul><li><span class="inline-tag">ISO 9001</span> Quality Management System</li><li><span class="inline-tag">ISO 14001</span> Environmental Management System</li><li><span class="inline-tag">ISO 45001</span> Occupational Health & Safety Management System</li><li><span class="inline-tag">EN ISO 3834-2</span> Welded fabrication comprehensive quality requirements</li><li><span class="inline-tag">EN 1090-2 EXC3</span> Structural steel fabrication and CE marking</li></ul><p>In addition, production is carried out in compliance with <strong>PED 2014/68/EU</strong> and <strong>EN 15085-2</strong> requirements.</p><p>For each certification we can share the current certificate file in the quote or upon request.</p>',
   faq_a07: '<p><strong>VT (visual), PT (penetrant), MT (magnetic particle) and UT (ultrasonic)</strong> inspections are performed <strong>in-house</strong> by our <strong>EN ISO 9712 Level II certified</strong> personnel. Only <strong>RT (radiography)</strong> requires a radiation licence and is performed by our authorised laboratory partner — in either case we deliver the full report chain to the customer.</p>',
   faq_a08: '<p>Yes. By default, <strong>EN 10204 3.1</strong> material certificates are added to all projects. For PED scope or special customer requests, <strong>3.2</strong> certificates (independent inspection body approved) are obtained. Optional <strong>PMI</strong> (Positive Material Identification) testing verifies material grade before site work.</p>',
   faq_a09: '<p>If the customer requests, we invite an accredited third-party inspection body (notified body) to our factory and have witness inspections performed at the <strong>WPQR, FAT (Factory Acceptance Test), NDT and dimensional control</strong> stages. These reports are delivered to the customer in the Final Documentation Dossier.</p>',
@@ -1761,7 +1761,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   stat4_u: 'methods',
 
-  home_persona_eyebrow: '04 / Who it is for',
+  home_persona_eyebrow: '01 / Who it is for',
 
   home_persona_h2: 'A clear process for <span style="color:var(--arc-2)">technical decision-makers.</span>',
 
@@ -1783,7 +1783,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   home_persona3_l: 'Production plan →',
 
-  home_aud_eyebrow: '05 / Who we serve',
+  home_aud_eyebrow: '02 / Who we serve',
 
   home_aud_h2: 'OEMs, EPCs and <span style="color:var(--arc-2)">fabrication partners.</span>',
 
@@ -1799,7 +1799,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   home_aud3_d: 'EXC3 structural steel, assembly support and site-ready part kits.',
 
-  home_blog_eyebrow: '06 / Technical insights',
+  home_blog_eyebrow: '08 / Technical insights',
 
   home_blog_h2: 'Welding engineering <span style="color:var(--arc-2)">notes.</span>',
 
@@ -1815,7 +1815,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   home_blog3_d: 'VT, PT, MT, UT — which method for which defect.',
 
-  home_certs_eyebrow: '07 / Certifications',
+  home_certs_eyebrow: '09 / Certifications',
   home_certs_h2: 'The <span style="color:var(--arc-2)">document backbone</span> of auditable production.',
   home_certs_lede: 'Every project is built on approved WPS, certified personnel and traceable quality records. The standards below are actively maintained.',
   home_certs_link: 'Quality process and document pack →',
@@ -1872,7 +1872,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   cap_cert_h: 'Certificates & scope',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (structural steel), EN ISO 3834-2 (welding quality). WPQR-based WPS library; welders EN ISO 9606-1/2. NDT staff EN ISO 9712 Level 2.',
+  cap_cert_p: 'EN 1090-1/2 EXC3 (structural steel), EN ISO 3834-2 (welding quality), ISO 9001:2015 (quality), ISO 14001:2015 (environment), ISO 45001:2018 (occupational health & safety). WPQR-based WPS library; welders EN ISO 9606-1/2. NDT staff EN ISO 9712 Level 2.',
 
   cap_mat_h: 'Material groups',
 
