@@ -1872,7 +1872,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   cap_cert_h: 'Certificates & scope',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (structural steel), EN ISO 3834-2 (welding quality), ISO 9001:2015 (quality), ISO 14001:2015 (environment), ISO 45001:2018 (occupational health & safety). WPQR-based WPS library; welders EN ISO 9606-1/2. NDT staff EN ISO 9712 Level 2.',
+  cap_cert_p: 'EN 1090-2 EXC3 (structural steel), EN ISO 3834-2 (welding quality), ISO 9001:2015 (quality), ISO 14001:2015 (environment), ISO 45001:2018 (occupational health & safety). WPQR-based WPS library; welders EN ISO 9606-1/2. NDT staff EN ISO 9712 Level 2.',
 
   cap_mat_h: 'Material groups',
 

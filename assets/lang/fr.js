@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   cap_cert_h: 'Certificats & périmètre',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (charpente), EN ISO 3834-2 (qualité soudage), ISO 9001:2015 (qualité), ISO 14001:2015 (environnement), ISO 45001:2018 (santé et sécurité au travail). Bibliothèque WPS sur WPQR ; soudeurs EN ISO 9606-1/2. CND EN ISO 9712 Niveau 2.',
+  cap_cert_p: 'EN 1090-2 EXC3 (charpente), EN ISO 3834-2 (qualité soudage), ISO 9001:2015 (qualité), ISO 14001:2015 (environnement), ISO 45001:2018 (santé et sécurité au travail). Bibliothèque WPS sur WPQR ; soudeurs EN ISO 9606-1/2. CND EN ISO 9712 Niveau 2.',
 
   cap_mat_h: 'Groupes matière',
 

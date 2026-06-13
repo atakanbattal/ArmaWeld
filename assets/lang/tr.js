@@ -1918,7 +1918,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   cap_cert_h: 'Sertifikalar & kapsam',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (yapısal çelik), EN ISO 3834-2 (kaynak kalitesi), ISO 9001:2015 (kalite), ISO 14001:2015 (çevre), ISO 45001:2018 (iş sağlığı ve güvenliği). WPQR tabanlı WPS kütüphanesi; kaynakçılar EN ISO 9606-1/2. NDT personeli EN ISO 9712 Seviye 2.',
+  cap_cert_p: 'EN 1090-2 EXC3 (yapısal çelik), EN ISO 3834-2 (kaynak kalitesi), ISO 9001:2015 (kalite), ISO 14001:2015 (çevre), ISO 45001:2018 (iş sağlığı ve güvenliği). WPQR tabanlı WPS kütüphanesi; kaynakçılar EN ISO 9606-1/2. NDT personeli EN ISO 9712 Seviye 2.',
 
   cap_mat_h: 'Malzeme grupları',
 

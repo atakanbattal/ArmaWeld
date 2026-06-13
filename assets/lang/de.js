@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   cap_cert_h: 'Zertifikate & Umfang',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (Stahlbau), EN ISO 3834-2 (Schweißqualität), ISO 9001:2015 (Qualität), ISO 14001:2015 (Umwelt), ISO 45001:2018 (Arbeitsschutz). WPQR-basierte WPS-Bibliothek; Schweißer EN ISO 9606-1/2. ZfP EN ISO 9712 Stufe 2.',
+  cap_cert_p: 'EN 1090-2 EXC3 (Stahlbau), EN ISO 3834-2 (Schweißqualität), ISO 9001:2015 (Qualität), ISO 14001:2015 (Umwelt), ISO 45001:2018 (Arbeitsschutz). WPQR-basierte WPS-Bibliothek; Schweißer EN ISO 9606-1/2. ZfP EN ISO 9712 Stufe 2.',
 
   cap_mat_h: 'Werkstoffgruppen',
 

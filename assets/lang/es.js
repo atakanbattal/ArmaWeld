@@ -1863,7 +1863,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   cap_cert_h: 'Certificados y alcance',
 
-  cap_cert_p: 'EN 1090-1/2 EXC3 (acero estructural), EN ISO 3834-2 (calidad de soldadura), ISO 9001:2015 (calidad), ISO 14001:2015 (medio ambiente), ISO 45001:2018 (seguridad y salud en el trabajo). Biblioteca WPS basada en WPQR; soldadores EN ISO 9606-1/2. END EN ISO 9712 Nivel 2.',
+  cap_cert_p: 'EN 1090-2 EXC3 (acero estructural), EN ISO 3834-2 (calidad de soldadura), ISO 9001:2015 (calidad), ISO 14001:2015 (medio ambiente), ISO 45001:2018 (seguridad y salud en el trabajo). Biblioteca WPS basada en WPQR; soldadores EN ISO 9606-1/2. END EN ISO 9712 Nivel 2.',
 
   cap_mat_h: 'Grupos de materiales',
 
