@@ -297,6 +297,16 @@ function initReveals() {
   function show(el) {
     el.classList.add('in', 'visible');
   }
+  function showAll() {
+    document.querySelectorAll('.reveal:not(.in):not(.visible)').forEach(show);
+  }
+  // Safety net: never leave content invisible if IO fails or i18n stalls
+  var fallbackTimer = setTimeout(showAll, 2500);
+  if (!('IntersectionObserver' in window)) {
+    clearTimeout(fallbackTimer);
+    showAll();
+    return;
+  }
   const io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (e.isIntersecting) {
@@ -304,6 +314,9 @@ function initReveals() {
         io.unobserve(e.target);
       }
     });
+    if (!document.querySelector('.reveal:not(.in):not(.visible)')) {
+      clearTimeout(fallbackTimer);
+    }
   }, { threshold: 0.06, rootMargin: '0px 0px 8% 0px' });
   els.forEach(function (el) {
     var rect = el.getBoundingClientRect();
@@ -515,13 +528,13 @@ function injectSiteEnhancements(base) {
     var css = document.createElement('link');
     css.id = 'aw-site-enh-css';
     css.rel = 'stylesheet';
-    css.href = b + 'assets/site-enhancements.css?v=20260620';
+    css.href = b + 'assets/site-enhancements.css?v=202606162';
     document.head.appendChild(css);
   }
   if (!document.getElementById('aw-site-enh-js')) {
     var js = document.createElement('script');
     js.id = 'aw-site-enh-js';
-    js.src = b + 'assets/site-enhancements.js?v=20260620';
+    js.src = b + 'assets/site-enhancements.js?v=202606162';
     js.defer = true;
     document.body.appendChild(js);
   }
@@ -611,13 +624,21 @@ function mountChrome(activePage, base) {
   document.dispatchEvent(new CustomEvent('armaweld:chrome-ready'));
   };
 
-  if (window.i18n && window.i18n.ready) {
-    return Promise.race([
-      window.i18n.ready(),
-      new Promise(function (resolve) { setTimeout(resolve, 4000); }),
-    ]).then(doMount);
-  }
+  // Mount nav/footer/reveals immediately — never block the page on i18n bundles
   doMount();
+
+  if (window.i18n && window.i18n.ready) {
+    return window.i18n.ready()
+      .then(function () {
+        if (window.i18n) window.i18n.apply();
+        initReveals();
+      })
+      .catch(function (err) {
+        console.warn('[ArmaWeld] i18n bundle failed; using inline fallbacks.', err);
+        if (window.i18n) window.i18n.apply();
+        initReveals();
+      });
+  }
   return Promise.resolve();
 }
 

@@ -3,7 +3,7 @@
    Karbon siyahı + kaynak arkı turuncusu
    ============================================ */
 
-@import url('site-enhancements.css?v=20260620');
+/* site-enhancements.css — chrome.js injectSiteEnhancements() ile yüklenir (@import render-blocking yapar) */
 
 /* Google Fonts HTML <link> etiketleriyle yükleniyor (render-blocking önleme) */
 
@@ -821,10 +821,13 @@ section { position: relative; }
   opacity: 0;
   transform: translateY(24px);
   transition: opacity .9s ease, transform .9s cubic-bezier(.2,.7,.2,1);
+  pointer-events: none;
 }
-.reveal.in {
+.reveal.in,
+.reveal.visible {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: auto;
 }
 
 @media (min-width: 1281px) {
@@ -1043,15 +1046,9 @@ section { position: relative; }
   transition: background .25s ease, color .25s ease;
 }
 
-/* Scroll reveal with slight upward drift */
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .55s ease, transform .55s ease;
-}
-.reveal.in {
-  opacity: 1;
-  transform: translateY(0);
+/* Scroll reveal with slight upward drift (duplicate block kept for cascade compat) */
+.reveal:not(.in):not(.visible) {
+  pointer-events: none;
 }
 
 /* Testimonial quote marks: pulse on hover */
