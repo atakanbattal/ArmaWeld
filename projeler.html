@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="assets/theme.css?v=202606122" />
+<link rel="stylesheet" href="assets/theme.css?v=20260620" />
 <style>
   .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
   .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(255,122,26,.15), transparent 60%); }
@@ -321,7 +321,7 @@
 <!-- Projects -->
 <div class="proj-grid" id="proj-grid">
   <!-- P1 -->
-  <div class="proj reveal" data-cat="makine">
+  <div class="proj reveal" data-cat="makine" onclick="location.href='proje-detay.html?p=1'" role="link" tabindex="0">
     <div class="proj-img">
       <picture><source srcset="uploads/bom.webp" type="image/webp"><img class="proj-img-real" src="uploads/bom.png" alt="HARDOX kepçe imalatı" loading="lazy" width="1536" height="1024" /></picture>
       <div class="badge" data-i18n="proj1_badge">■ 01 · OEM İMALAT</div>
@@ -339,11 +339,12 @@
         <div><div class="k" data-i18n="proj1_m3k">NDT</div><div class="v" data-i18n="proj1_m3v">VT + MT %20</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj1_outcome">→ Seri üretimde tekrarlanabilir HARDOX kalitesi</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 
   <!-- P2 -->
-  <div class="proj reveal" data-d="1" data-cat="yapisal">
+  <div class="proj reveal" data-d="1" data-cat="yapisal" onclick="location.href='proje-detay.html?p=2'" role="link" tabindex="0">
     <div class="proj-img">
       <picture><source srcset="uploads/kaynak.webp" type="image/webp"><img class="proj-img-real" src="uploads/kaynak.png" alt="Yapısal çelik kaynaklı imalat" loading="lazy" width="1536" height="1024" /></picture>
       <div class="badge" data-i18n="proj2_badge">■ 02 · EN 1090 EXC2</div>
@@ -361,11 +362,12 @@
         <div><div class="k" data-i18n="proj2_m3k">Süre</div><div class="v" data-i18n="proj2_m3v">14 hafta</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj2_outcome">→ 14 haftada EXC2 kapsamında komple fabrika imalatı</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 
   <!-- P3 -->
-  <div class="proj reveal" data-d="2" data-cat="proses">
+  <div class="proj reveal" data-d="2" data-cat="proses" onclick="location.href='proje-detay.html?p=3'" role="link" tabindex="0">
     <div class="proj-img">
       <picture><source srcset="uploads/tig.webp" type="image/webp"><img class="proj-img-real" src="uploads/tig.jpeg" alt="TIG kaynak - basınçlı kap imalatı" loading="lazy" width="2048" height="1344" /></picture>
       <div class="badge" data-i18n="proj3_badge">■ 03 · PED CAT.II</div>
@@ -383,12 +385,14 @@
         <div><div class="k" data-i18n="proj3_m3k">NDT</div><div class="v" data-i18n="proj3_m3v">RT %100</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj3_outcome">→ PED Cat.II, RT %100 ile CE işaretleme</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 
   <!-- P4 -->
-  <div class="proj reveal" data-cat="enerji">
+  <div class="proj reveal" data-cat="enerji" onclick="location.href='proje-detay.html?p=4'" role="link" tabindex="0">
     <div class="proj-img">
+      <picture><source srcset="uploads/kesim.webp" type="image/webp"><img class="proj-img-real" src="uploads/kesim.png" alt="GES montaj konstrüksiyonu imalatı" loading="lazy" width="1536" height="1024" /></picture>
       <div class="badge" data-i18n="proj4_badge">■ 04 · GES YAPISI</div>
       <div class="year">’25</div>
       <div class="pi-glyph">G</div>
@@ -405,11 +409,12 @@
         <div><div class="k" data-i18n="proj4_m3k">Ömür</div><div class="v" data-i18n="proj4_m3v">25 yıl (C5)</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj4_outcome">→ 920 tripod, HDG kaplama ile saha teslimi</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 
   <!-- P5 -->
-  <div class="proj reveal" data-d="1" data-cat="ulasim">
+  <div class="proj reveal" data-d="1" data-cat="ulasim" onclick="location.href='proje-detay.html?p=5'" role="link" tabindex="0">
     <div class="proj-img">
       <picture><source srcset="uploads/taslama.webp" type="image/webp"><img class="proj-img-real" src="uploads/taslama.jpeg" alt="Demiryolu boji çerçevesi imalatı" loading="lazy" width="2048" height="1360" /></picture>
       <div class="badge" data-i18n="proj5_badge">■ 05 · EN 15085 CL1</div>
@@ -427,11 +432,12 @@
         <div><div class="k" data-i18n="proj5_m3k">NDT</div><div class="v" data-i18n="proj5_m3v">UT %100</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj5_outcome">→ EN 15085 CL1, UT %100 boji çerçevesi</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 
   <!-- P6 -->
-  <div class="proj reveal" data-d="2" data-cat="yapisal">
+  <div class="proj reveal" data-d="2" data-cat="yapisal" onclick="location.href='proje-detay.html?p=6'" role="link" tabindex="0">
     <div class="proj-img">
       <picture><source srcset="uploads/bukum.webp" type="image/webp"><img class="proj-img-real" src="uploads/bukum.png" alt="Büküm ve şekillendirme imalat" loading="lazy" width="1536" height="1024" /></picture>
       <div class="badge" data-i18n="proj6_badge">■ 06 · ENDÜSTRİYEL PLT.</div>
@@ -449,6 +455,7 @@
         <div><div class="k" data-i18n="proj6_m3k">Yük</div><div class="v" data-i18n="proj6_m3v">5 kN/m²</div></div>
       </div>
       <div class="proj-outcome" data-i18n="proj6_outcome">→ Endüstriyel platform, montaja hazır teslim</div>
+      <div class="proj-link-hint" data-i18n="proj_detail_link">Vaka çalışmasını gör →</div>
     </div>
   </div>
 </div>
@@ -548,16 +555,6 @@
 <script src="assets/analytics.js?v=20260604"></script>
 <script>
 mountChrome('projeler');
-document.querySelectorAll('.f-pill').forEach(p => {
-  p.addEventListener('click', () => {
-    document.querySelectorAll('.f-pill').forEach(x => x.classList.remove('active'));
-    p.classList.add('active');
-    const f = p.dataset.f;
-    document.querySelectorAll('.proj').forEach(card => {
-      card.classList.toggle('hidden', !(f === 'all' || card.dataset.cat === f));
-    });
-  });
-});
 
 // Scroll reveal
 const revealObs = new IntersectionObserver((entries) => {

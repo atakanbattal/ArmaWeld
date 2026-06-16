@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="assets/theme.css?v=202606122" />
+<link rel="stylesheet" href="assets/theme.css?v=20260620" />
 <style>
   /* ===== Hero ===== */
   .hero {
@@ -1137,6 +1137,8 @@
         <span class="arc">mühendis</span> imzası.
       </h1>
 
+      <p class="hero-tagline" data-i18n="home_hero_tagline">Prosedürlü · Belgeli · İzlenebilir kaynaklı imalat</p>
+
       <p class="hero-lede" data-i18n="home_hero_lede">
         EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. Sac kesim, büküm ve montaj adımları proje planına entegre koordine edilir — S235'ten Strenx 1100'e onaylı WPS ve belgeli kaynakçılar.
       </p>
@@ -1363,7 +1365,7 @@
       <h2 class="display h2" data-i18n-html="home_persona_h2">Teknik karar veren ekipler için net süreç.</h2>
     </div>
     <div class="aw-persona-grid">
-      <a href="iletisim.html" class="aw-persona-card reveal">
+      <a href="iletisim.html?mode=quick" class="aw-persona-card reveal">
         <h3 data-i18n="home_persona1_t">Satın Alma / Tedarik</h3>
         <p data-i18n="home_persona1_d">48 saatlik teklif, MOQ esnekliği ve termin netliği.</p>
         <span class="link" data-i18n="home_persona1_l">Teklif süreci →</span>
@@ -1373,11 +1375,103 @@
         <p data-i18n="home_persona2_d">WPS, WPQR, NDT kayıtları teslim paketine dahil.</p>
         <span class="link" data-i18n="home_persona2_l">Belge paketi →</span>
       </a>
-      <a href="hizmetler.html" class="aw-persona-card reveal" data-d="2">
+      <a href="yetkinlik.html" class="aw-persona-card reveal" data-d="2">
         <h3 data-i18n="home_persona3_t">Proje / Üretim Mühendisliği</h3>
-        <p data-i18n="home_persona3_d">Kaynak yöntemi ve tolerans planı teklif aşamasında netleşir.</p>
+        <p data-i18n="home_persona3_d">Kaynak yöntemi, ısı girdisi ve tolerans planı teklif aşamasında netleşir.</p>
         <span class="link" data-i18n="home_persona3_l">Üretim planı →</span>
       </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ARMAWELD -->
+<section class="aw-band section-pad" style="background:var(--ink-1); border-top:1px solid var(--ink-4);">
+  <div class="container">
+    <div class="section-head section-head--stack">
+      <div class="section-head__intro">
+        <div class="eyebrow" data-i18n="home_why_eyebrow">01b / Neden ArmaWeld</div>
+        <h2 class="display h2" data-i18n-html="home_why_h2">Genel fason atölyeden <span style="color:var(--arc-2)">farkımız.</span></h2>
+        <p class="lede" data-i18n="home_why_lede">Teknik resimden sevkiyat dosyasına kadar prosedür, belge ve izlenebilirlik disiplini — denetimde soru işareti bırakmayan üretim modeli.</p>
+      </div>
+    </div>
+    <div class="aw-why-compare" role="table" aria-label="ArmaWeld karşılaştırma">
+      <div class="aw-why-compare__row aw-why-compare__row--head" role="row">
+        <div class="aw-why-compare__topic" role="columnheader" data-i18n="home_why_col_topic">Konu</div>
+        <div class="aw-why-compare__col" role="columnheader" data-i18n="home_why_col_generic">Genel fason atölye</div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="columnheader" data-i18n="home_why_col_aw">ArmaWeld</div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></span>
+          <span data-i18n="home_why_r1_k">Kaynak prosedürü (WPS/WPQR)</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r1_v1">İş emrine göre sözlü uygulama; onaylı WPS çoğunlukla yok</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r1_v2">EN ISO 15614'e göre onaylı, malzeme ve kalınlığa özel WPS / WPQR</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M6 21v-1a4 4 0 0 1 4-4h1"/><path d="m16 19 2 2 4-4"/></svg></span>
+          <span data-i18n="home_why_r2_k">Kaynakçı yeterliliği</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r2_v1">Belgesiz veya süresi geçmiş kaynakçı sertifikası</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r2_v2">EN ISO 9606 güncel sertifikalı kaynakçılar; geçerlilik takibi</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6M8 11h6"/></svg></span>
+          <span data-i18n="home_why_r3_k">NDT muayenesi</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r3_v1">Alt yükleniciye verilir; planlama ve rapor gecikmesi</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r3_v2">VT · PT · MT · UT bünyede — EN ISO 9712 Level 2 personel</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"/></svg></span>
+          <span data-i18n="home_why_r4_k">İzlenebilirlik</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r4_v1">Excel / kağıt kayıt; heat numarası zinciri kopuk</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r4_v2">Heat no. → WPS → operatör → parça; %100 dijital kayıt</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 13.5 7.5 22l4.5-2.5L16.5 22 15 13.5"/></svg></span>
+          <span data-i18n="home_why_r5_k">Malzeme sertifikası (MTC)</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r5_v1">Talep edilirse; çoğunlukla EN 10204 2.1</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r5_v2">EN 10204 3.1 sertifika; her dökümle eşleştirilmiş teslim</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <span data-i18n="home_why_r6_k">CE / EN 1090</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r6_v1">Kapsam belirsiz; DoP ve teknik dosya eksik</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r6_v2">EXC2 / EXC3 uyumlu üretim; DoP + teknik dosya teslimi</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18v10H3z"/><path d="M7 7v3M11 7v5M15 7v3M19 7v5"/></svg></span>
+          <span data-i18n="home_why_r7_k">Boyutsal kontrol</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r7_v1">Göz kararı / şerit metre; ölçüm raporu yok</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r7_v2">Lazer tracker / 3D tarama; boyutsal muayene raporu</span></div>
+      </div>
+
+      <div class="aw-why-compare__row" role="row">
+        <div class="aw-why-compare__topic" role="rowheader">
+          <span class="aw-why-compare__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <span data-i18n="home_why_r8_k">Teklif & raporlama</span>
+        </div>
+        <div class="aw-why-compare__col aw-why-compare__col--weak" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">—</span><span data-i18n="home_why_r8_v1">Belirsiz süre; takip telefon/e-posta ile manuel</span></div>
+        <div class="aw-why-compare__col aw-why-compare__col--aw" role="cell"><span class="aw-why-compare__mark" aria-hidden="true">✓</span><span data-i18n="home_why_r8_v2">24–48 saat teklif SLA; canlı müşteri portalı ile takip</span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -1586,6 +1680,55 @@
         <span class="arrow">→</span>
       </a>
     </div>
+
+    <div class="portal-showcase">
+      <div class="portal-showcase__copy">
+        <div class="eyebrow" data-i18n="home_portal_eyebrow">Portal · Canlı takip</div>
+        <h3 class="display h2 portal-showcase__title" data-i18n="home_portal_h">ArmaWeld ile çalışmak nasıl hissettirir?</h3>
+        <div class="portal-features">
+          <div class="portal-feat">
+            <div class="ico">01</div>
+            <div><h4 data-i18n="home_portal_f1_t">Üretim aşamaları</h4><p data-i18n="home_portal_f1_d">Kesim, kaynak, NDT ve sevkiyat adımları gerçek zamanlı güncellenir.</p></div>
+          </div>
+          <div class="portal-feat">
+            <div class="ico">02</div>
+            <div><h4 data-i18n="home_portal_f2_t">Belge indirme</h4><p data-i18n="home_portal_f2_d">WPS, MTC, NDT raporları ve sevkiyat dosyası tek tıkla.</p></div>
+          </div>
+          <div class="portal-feat">
+            <div class="ico">03</div>
+            <div><h4 data-i18n="home_portal_f3_t">Mesaj & bildirim</h4><p data-i18n="home_portal_f3_d">Teknik sorularınız doğrudan proje mühendisine iletilir.</p></div>
+          </div>
+        </div>
+        <a href="https://portal.armaweld.com/login" data-portal-link class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="home_portal_cta">Portala giriş yap →</a>
+      </div>
+      <div class="portal-mock" aria-hidden="true">
+        <div class="portal-mock__chrome">
+          <span class="portal-mock__dot"></span>
+          <span class="portal-mock__dot"></span>
+          <span class="portal-mock__dot portal-mock__dot--on"></span>
+          <span class="portal-mock__url">portal.armaweld.com</span>
+        </div>
+        <div class="portal-mock__body">
+          <div class="portal-mock__job">
+            <span class="portal-mock__job-k">İş emri</span>
+            <span class="portal-mock__job-v">JOB-A142 · SER-0142</span>
+          </div>
+          <div class="portal-mock__stages">
+            <span class="portal-mock__chip portal-mock__chip--done">Kesim</span>
+            <span class="portal-mock__chip portal-mock__chip--done">Kaynak</span>
+            <span class="portal-mock__chip portal-mock__chip--active">NDT</span>
+            <span class="portal-mock__chip">Boya</span>
+            <span class="portal-mock__chip">Sevk</span>
+          </div>
+          <ul class="portal-mock__docs">
+            <li><span class="portal-mock__doc-k">WPS-142-A</span><span class="portal-mock__doc-v">Onaylı</span></li>
+            <li><span class="portal-mock__doc-k">MTC · A41E2</span><span class="portal-mock__doc-v">3.1</span></li>
+            <li><span class="portal-mock__doc-k">NDT-2026-0248</span><span class="portal-mock__doc-v">VT %100</span></li>
+            <li><span class="portal-mock__doc-k">dossier.zip</span><span class="portal-mock__doc-v portal-mock__doc-v--ready">Hazır</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1721,6 +1864,27 @@
 
     <div style="margin-top: 40px; text-align: right;">
       <a href="kaynak-yontemleri.html" class="btn btn-ghost" data-i18n="home_cmp_btn">Tüm Yöntem Detayları →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FIT WIZARD + TOOLS -->
+<section class="section-pad" style="background:var(--ink-0); border-top:1px solid var(--ink-4);">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow" data-i18n="home_fit_eyebrow">05b / Proje uygunluğu</div></div>
+      <h2 class="display h2" data-i18n-html="home_fit_h2">Projeniz bize <span style="color:var(--arc-2)">uygun mu?</span></h2>
+      <p class="lede" style="max-width:58ch;margin-top:16px" data-i18n="home_fit_lede">Sektör, malzeme ve kalite kapsamını seçin — tipik üretim yaklaşımımızı ve gerekli belge setini görün.</p>
+    </div>
+    <div id="fit-wizard" class="fit-wizard"></div>
+
+    <div class="tools-teaser reveal" style="margin-top:64px;padding-top:48px;border-top:1px solid var(--ink-4);">
+      <div>
+        <div class="eyebrow" data-i18n="tool_section_eyebrow">Mühendislik Araçları</div>
+        <h2 class="display h2" data-i18n="tool_section_h2">Teknik hesaplayıcılar.</h2>
+        <p data-i18n="tool_section_lede">Isı girdisi, ön ısıtma tahmini, sektöre göre malzeme önerisi ve proje tipine göre belge listesi — WPS hazırlığına hızlı başlangıç.</p>
+      </div>
+      <a href="muhendislik.html#tools" class="btn btn-primary" data-i18n="home_tools_btn">Tüm araçları aç →</a>
     </div>
   </div>
 </section>
@@ -2021,19 +2185,6 @@
   </div>
 </section>
 
-<section class="section-pad-sm" style="background:var(--ink-0); border-top:1px solid var(--ink-4);">
-  <div class="container">
-    <div class="tools-teaser reveal">
-      <div>
-        <div class="eyebrow" data-i18n="tool_section_eyebrow">Mühendislik Araçları</div>
-        <h2 class="display h2" data-i18n="tool_section_h2">Teknik hesaplayıcılar.</h2>
-        <p data-i18n="tool_section_lede">Isı girdisi, ön ısıtma tahmini, sektöre göre malzeme önerisi ve proje tipine göre belge listesi — WPS hazırlığına hızlı başlangıç.</p>
-      </div>
-      <a href="muhendislik.html#tools" class="btn btn-primary" data-i18n="home_tools_btn">Tüm araçları aç →</a>
-    </div>
-  </div>
-</section>
-
 <!-- CTA BIG -->
 <section class="cta-big">
   <div class="cta-inner">
@@ -2051,7 +2202,7 @@
   </div>
 </section>
 <script src="assets/lang/tr.js?v=202606122"></script>
-<script src="assets/i18n.js?v=202606122"></script>
+<script src="assets/i18n.js?v=20260620"></script>
 <script src="assets/chrome.js?v=202606122"></script>
 <script src="assets/sample-docs-data.js?v=202605253"></script>
 <script src="assets/analytics.js?v=20260604"></script>

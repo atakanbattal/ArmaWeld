@@ -121,19 +121,19 @@ function buildNav(activePage, base) {
   const b = base || '';
   const primaryLinks = [
     { id: 'index',       i18n: 'nav_home',        href: b + 'index.html' },
-    { id: 'hakkimizda',  i18n: 'nav_about',       href: b + 'hakkimizda.html' },
     { id: 'hizmetler',   i18n: 'nav_services',    href: b + 'hizmetler.html' },
-    { id: 'muhendislik', i18n: 'nav_engineering', href: b + 'muhendislik.html' },
     { id: 'kalite',      i18n: 'nav_quality',     href: b + 'kalite.html' },
+    { id: 'ndt',         i18n: 'nav_ndt',         href: b + 'ndt.html' },
+    { id: 'sektorler',   i18n: 'nav_sectors',     href: b + 'sektorler.html' },
+    { id: 'projeler',    i18n: 'nav_projects',    href: b + 'projeler.html' },
+    { id: 'iletisim',    i18n: 'nav_contact',     href: b + 'iletisim.html' },
     { id: 'blog',        i18n: 'nav_blog',        href: b + 'blog/' },
   ];
   const moreLinks = [
-    { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
-    { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
-    { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
-    { id: 'projeler',    i18n: 'nav_projects', href: b + 'projeler.html' },
-    { id: 'sss',         i18n: 'nav_faq',      href: b + 'sss.html' },
-    { id: 'iletisim',    i18n: 'nav_contact',  href: b + 'iletisim.html' },
+    { id: 'hakkimizda',  i18n: 'nav_about',       href: b + 'hakkimizda.html' },
+    { id: 'muhendislik', i18n: 'nav_engineering', href: b + 'muhendislik.html' },
+    { id: 'kaynak',      i18n: 'nav_welding',     href: b + 'kaynak-yontemleri.html' },
+    { id: 'sss',         i18n: 'nav_faq',         href: b + 'sss.html' },
   ];
   const allLinks = primaryLinks.concat(moreLinks);
 
@@ -294,15 +294,25 @@ function buildFooter(base) {
 function initReveals() {
   const els = document.querySelectorAll('.reveal:not(.in):not(.visible)');
   if (!els.length) return;
+  function show(el) {
+    el.classList.add('in', 'visible');
+  }
   const io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (e.isIntersecting) {
-        e.target.classList.add('in', 'visible');
+        show(e.target);
         io.unobserve(e.target);
       }
     });
-  }, { threshold: 0.12 });
-  els.forEach(function (el) { io.observe(el); });
+  }, { threshold: 0.06, rootMargin: '0px 0px 8% 0px' });
+  els.forEach(function (el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.92 && rect.bottom > 0) {
+      show(el);
+    } else {
+      io.observe(el);
+    }
+  });
 }
 
 // Animated counter
@@ -499,6 +509,24 @@ function injectMobileCSS(base) {
   document.head.appendChild(link);
 }
 
+function injectSiteEnhancements(base) {
+  var b = base || '';
+  if (!document.getElementById('aw-site-enh-css')) {
+    var css = document.createElement('link');
+    css.id = 'aw-site-enh-css';
+    css.rel = 'stylesheet';
+    css.href = b + 'assets/site-enhancements.css?v=20260620';
+    document.head.appendChild(css);
+  }
+  if (!document.getElementById('aw-site-enh-js')) {
+    var js = document.createElement('script');
+    js.id = 'aw-site-enh-js';
+    js.src = b + 'assets/site-enhancements.js?v=20260620';
+    js.defer = true;
+    document.body.appendChild(js);
+  }
+}
+
 function wrapWideTables() {
   const sel = '.accept-tbl, .doc-table, .svc-table, .specs-table, table.table, .mat-table, .deep-table:not(.deep-table-wide)';
   document.querySelectorAll(sel).forEach(function (tbl) {
@@ -541,6 +569,7 @@ function mountChrome(activePage, base) {
   syncThemeColorMeta(savedTheme);
 
   injectMobileCSS(base);
+  injectSiteEnhancements(base);
   injectNavTypography();
   document.body.insertAdjacentHTML('afterbegin', buildScrollBar() + buildNav(activePage, base));
   document.body.insertAdjacentHTML('beforeend', buildFooter(base));
