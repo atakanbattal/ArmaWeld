@@ -121,19 +121,19 @@ function buildNav(activePage, base) {
   const b = base || '';
   const primaryLinks = [
     { id: 'index',       i18n: 'nav_home',        href: b + 'index.html' },
+    { id: 'hakkimizda',  i18n: 'nav_about',       href: b + 'hakkimizda.html' },
     { id: 'hizmetler',   i18n: 'nav_services',    href: b + 'hizmetler.html' },
+    { id: 'muhendislik', i18n: 'nav_engineering', href: b + 'muhendislik.html' },
     { id: 'kalite',      i18n: 'nav_quality',     href: b + 'kalite.html' },
-    { id: 'ndt',         i18n: 'nav_ndt',         href: b + 'ndt.html' },
-    { id: 'sektorler',   i18n: 'nav_sectors',     href: b + 'sektorler.html' },
-    { id: 'projeler',    i18n: 'nav_projects',    href: b + 'projeler.html' },
-    { id: 'iletisim',    i18n: 'nav_contact',     href: b + 'iletisim.html' },
     { id: 'blog',        i18n: 'nav_blog',        href: b + 'blog/' },
   ];
   const moreLinks = [
-    { id: 'hakkimizda',  i18n: 'nav_about',       href: b + 'hakkimizda.html' },
-    { id: 'muhendislik', i18n: 'nav_engineering', href: b + 'muhendislik.html' },
-    { id: 'kaynak',      i18n: 'nav_welding',     href: b + 'kaynak-yontemleri.html' },
-    { id: 'sss',         i18n: 'nav_faq',         href: b + 'sss.html' },
+    { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
+    { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
+    { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
+    { id: 'projeler',    i18n: 'nav_projects', href: b + 'projeler.html' },
+    { id: 'sss',         i18n: 'nav_faq',      href: b + 'sss.html' },
+    { id: 'iletisim',    i18n: 'nav_contact',  href: b + 'iletisim.html' },
   ];
   const allLinks = primaryLinks.concat(moreLinks);
 
@@ -294,38 +294,15 @@ function buildFooter(base) {
 function initReveals() {
   const els = document.querySelectorAll('.reveal:not(.in):not(.visible)');
   if (!els.length) return;
-  function show(el) {
-    el.classList.add('in', 'visible');
-  }
-  function showAll() {
-    document.querySelectorAll('.reveal:not(.in):not(.visible)').forEach(show);
-  }
-  // Safety net: never leave content invisible if IO fails or i18n stalls
-  var fallbackTimer = setTimeout(showAll, 2500);
-  if (!('IntersectionObserver' in window)) {
-    clearTimeout(fallbackTimer);
-    showAll();
-    return;
-  }
   const io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (e.isIntersecting) {
-        show(e.target);
+        e.target.classList.add('in', 'visible');
         io.unobserve(e.target);
       }
     });
-    if (!document.querySelector('.reveal:not(.in):not(.visible)')) {
-      clearTimeout(fallbackTimer);
-    }
-  }, { threshold: 0.06, rootMargin: '0px 0px 8% 0px' });
-  els.forEach(function (el) {
-    var rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight * 0.92 && rect.bottom > 0) {
-      show(el);
-    } else {
-      io.observe(el);
-    }
-  });
+  }, { threshold: 0.12 });
+  els.forEach(function (el) { io.observe(el); });
 }
 
 // Animated counter
@@ -522,24 +499,6 @@ function injectMobileCSS(base) {
   document.head.appendChild(link);
 }
 
-function injectSiteEnhancements(base) {
-  var b = base || '';
-  if (!document.getElementById('aw-site-enh-css')) {
-    var css = document.createElement('link');
-    css.id = 'aw-site-enh-css';
-    css.rel = 'stylesheet';
-    css.href = b + 'assets/site-enhancements.css?v=202606162';
-    document.head.appendChild(css);
-  }
-  if (!document.getElementById('aw-site-enh-js')) {
-    var js = document.createElement('script');
-    js.id = 'aw-site-enh-js';
-    js.src = b + 'assets/site-enhancements.js?v=202606162';
-    js.defer = true;
-    document.body.appendChild(js);
-  }
-}
-
 function wrapWideTables() {
   const sel = '.accept-tbl, .doc-table, .svc-table, .specs-table, table.table, .mat-table, .deep-table:not(.deep-table-wide)';
   document.querySelectorAll(sel).forEach(function (tbl) {
@@ -582,7 +541,6 @@ function mountChrome(activePage, base) {
   syncThemeColorMeta(savedTheme);
 
   injectMobileCSS(base);
-  injectSiteEnhancements(base);
   injectNavTypography();
   document.body.insertAdjacentHTML('afterbegin', buildScrollBar() + buildNav(activePage, base));
   document.body.insertAdjacentHTML('beforeend', buildFooter(base));
@@ -624,21 +582,13 @@ function mountChrome(activePage, base) {
   document.dispatchEvent(new CustomEvent('armaweld:chrome-ready'));
   };
 
-  // Mount nav/footer/reveals immediately — never block the page on i18n bundles
-  doMount();
-
   if (window.i18n && window.i18n.ready) {
-    return window.i18n.ready()
-      .then(function () {
-        if (window.i18n) window.i18n.apply();
-        initReveals();
-      })
-      .catch(function (err) {
-        console.warn('[ArmaWeld] i18n bundle failed; using inline fallbacks.', err);
-        if (window.i18n) window.i18n.apply();
-        initReveals();
-      });
+    return Promise.race([
+      window.i18n.ready(),
+      new Promise(function (resolve) { setTimeout(resolve, 4000); }),
+    ]).then(doMount);
   }
+  doMount();
   return Promise.resolve();
 }
 
