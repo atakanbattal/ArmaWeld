@@ -7,6 +7,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   nav_documents: 'Belgelerimiz',
   nav_portal: 'Müşteri Portalı',
   nav_more: 'Diğer',
+  nav_drawer_main: 'Menü',
   nav_cta: 'Teklif Al →',
   nav_aria_home: 'ArmaWeld ana sayfa', nav_aria_theme: 'Tema değiştir',
   nav_aria_menu: 'Menü', nav_aria_lang: 'Dil seç', nav_aria_more: 'Diğer menü',

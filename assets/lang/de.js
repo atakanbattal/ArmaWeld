@@ -6,6 +6,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   nav_engineering: 'Technik',
   nav_portal: 'Kundenportal',
   nav_more: 'Mehr',
+  nav_drawer_main: 'Menü',
   nav_cta: 'Angebot →',
   nav_aria_home: 'ArmaWeld Startseite', nav_aria_theme: 'Design wechseln',
   nav_aria_menu: 'Menü', nav_aria_lang: 'Sprache wählen', nav_aria_more: 'Weitere Menüpunkte',

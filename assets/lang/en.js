@@ -6,6 +6,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   nav_documents: 'Certificates',
   nav_portal: 'Customer Portal',
   nav_more: 'More',
+  nav_drawer_main: 'Menu',
   nav_cta: 'Get Quote →',
   nav_aria_home: 'ArmaWeld homepage', nav_aria_theme: 'Toggle theme',
   nav_aria_menu: 'Menu', nav_aria_lang: 'Select language', nav_aria_more: 'More menu',

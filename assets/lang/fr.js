@@ -6,6 +6,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   nav_engineering: 'Ingénierie',
   nav_portal: 'Portail Client',
   nav_more: 'Plus',
+  nav_drawer_main: 'Menu',
   nav_cta: 'Devis →',
   nav_aria_home: 'Page d\'accueil ArmaWeld', nav_aria_theme: 'Changer le thème',
   nav_aria_menu: 'Menu', nav_aria_lang: 'Sélectionner la langue', nav_aria_more: 'Plus d\'options',

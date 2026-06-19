@@ -27,6 +27,7 @@ const NAV_LABELS = {
   nav_projects: 'Projeler',
   nav_faq: 'SSS',
   nav_documents: 'Belgelerimiz',
+  nav_drawer_main: 'Menü',
 };
 
 function isLocalDevHost() {
@@ -89,6 +90,19 @@ function injectNavTypography() {
         font-size: 16px !important;
         padding: 14px 0 !important;
       }
+      .nav-drawer-label {
+        font-family: var(--ff-mono) !important;
+        font-size: 10px !important;
+        letter-spacing: .06em !important;
+        text-transform: uppercase !important;
+        color: var(--steel-1) !important;
+        padding: 12px 0 6px !important;
+      }
+      .nav-drawer-label--more {
+        margin-top: 6px;
+        padding-top: 18px !important;
+        border-top: 1px solid var(--ink-3);
+      }
     }
     .nav .nav-more-menu {
       left: auto !important;
@@ -137,7 +151,6 @@ function buildNav(activePage, base) {
     { id: 'sss',         i18n: 'nav_faq',      href: b + 'sss.html' },
     { id: 'iletisim',    i18n: 'nav_contact',  href: b + 'iletisim.html' },
   ];
-  const allLinks = primaryLinks.concat(moreLinks);
 
   const portalUrl = getPortalUrl();
   const isMoreActive = moreLinks.some(function (l) { return l.id === activePage; });
@@ -145,6 +158,15 @@ function buildNav(activePage, base) {
   function renderLink(l) {
     const label = NAV_LABELS[l.i18n] || '';
     return '<a class="nav-link ' + (l.id === activePage ? 'active' : '') + '" href="' + l.href + '" data-i18n="' + l.i18n + '">' + label + '</a>';
+  }
+
+  function renderMobileDrawerLinks() {
+    return (
+      '<div class="nav-drawer-label" data-i18n="nav_drawer_main">Menü</div>' +
+      primaryLinks.map(renderLink).join('') +
+      '<div class="nav-drawer-label nav-drawer-label--more" data-i18n="nav_more">Diğer</div>' +
+      moreLinks.map(renderLink).join('')
+    );
   }
 
   const desktopLinksHtml = primaryLinks.map(renderLink).join('') +
@@ -161,7 +183,7 @@ function buildNav(activePage, base) {
       '</div>' +
     '</div>';
 
-  const mobileLinksHtml = allLinks.map(renderLink).join('');
+  const mobileLinksHtml = renderMobileDrawerLinks();
 
   const currentTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('armaweld-theme') || 'light';
 
@@ -498,7 +520,7 @@ function injectMobileCSS(base) {
   const link = document.createElement('link');
   link.id = 'aw-mobile-css';
   link.rel = 'stylesheet';
-  link.href = (base || '') + 'assets/mobile.css?v=202605255';
+  link.href = (base || '') + 'assets/mobile.css?v=202606191';
   document.head.appendChild(link);
 }
 
