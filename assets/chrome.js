@@ -26,6 +26,7 @@ const NAV_LABELS = {
   nav_sectors: 'Sektörler',
   nav_projects: 'Projeler',
   nav_faq: 'SSS',
+  nav_documents: 'Belgelerimiz',
 };
 
 function isLocalDevHost() {
@@ -125,6 +126,7 @@ function buildNav(activePage, base) {
     { id: 'hizmetler',   i18n: 'nav_services',    href: b + 'hizmetler.html' },
     { id: 'muhendislik', i18n: 'nav_engineering', href: b + 'muhendislik.html' },
     { id: 'kalite',      i18n: 'nav_quality',     href: b + 'kalite.html' },
+    { id: 'belgelerimiz', i18n: 'nav_documents', href: b + 'belgelerimiz.html' },
     { id: 'blog',        i18n: 'nav_blog',        href: b + 'blog/' },
   ];
   const moreLinks = [
@@ -255,6 +257,7 @@ function buildFooter(base) {
             <li><a href="${b}hakkimizda.html" data-i18n="footer_c1"></a></li>
             <li><a href="${b}muhendislik.html" data-i18n="footer_c7"></a></li>
             <li><a href="${b}kalite.html" data-i18n="footer_c2"></a></li>
+            <li><a href="${b}belgelerimiz.html" data-i18n="footer_c8"></a></li>
             <li><a href="${b}sektorler.html" data-i18n="footer_c3"></a></li>
             <li><a href="${b}projeler.html" data-i18n="footer_c4"></a></li>
             <li><a href="${b}sss.html" data-i18n="footer_c5"></a></li>
