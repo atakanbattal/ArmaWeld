@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_n26_gmaw_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_n26_gmaw_title">Gazaltı Kaynağı (MIG/MAG) Nedir? Nasıl Yapılır? | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_n26_gmaw_meta_desc" content="Gazaltı kaynağı nedir, nasıl yapılır? MIG ve MAG farkı, ark geçiş türleri, tel ve gaz seçimi, parametre ayarları, avantajlar ve sık yapılan hatalar." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_n26_gmaw_og_title" content="Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları" />
+  <meta property="og:description" data-i18n="blog_n26_gmaw_meta_desc" content="Gazaltı kaynağı nedir, nasıl yapılır? MIG ve MAG farkı, ark geçiş türleri, tel ve gaz seçimi, parametre ayarları, avantajlar ve sık yapılan hatalar." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-10-01" />
+  <meta property="article:modified_time" content="2026-10-01" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Kaynak Teknolojisi" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=202606162" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları",
+  "description": "Gazaltı kaynağı nedir, nasıl yapılır? MIG ve MAG farkı, ark geçiş türleri, tel ve gaz seçimi, parametre ayarları, avantajlar ve sık yapılan hatalar.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html"
+  },
+  "url": "https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları",
+      "item": "https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Gazaltı kaynağında hangi gaz kullanılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yapı çeliklerinde en yaygın gaz argon ve %15–25 CO₂ karışımıdır (EN ISO 14175 M21). %100 CO₂ daha ekonomiktir ama sıçrantıyı artırır. Alüminyumda saf argon kullanılır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gazaltı kaynağı ile elektrot kaynağı arasındaki fark nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gazaltı kaynağında tel sürekli beslenir ve gazla korunur; daha hızlıdır ve cüruf oluşmaz. Elektrot kaynağı daha basit ekipmanla, rüzgârlı sahada da yapılabilir ama yavaştır ve her elektrottan sonra cüruf temizliği gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gazaltı kaynağında tel hızı neyi belirler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sabit gerilimli makinelerde tel besleme hızı kaynak akımını belirler. Tel hızı arttıkça akım ve yığma oranı artar; gerilim ise ark boyunu ve dikiş genişliğini etkiler."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_n26_gmaw_breadcrumb3">Gazaltı Kaynağı (MIG/MAG)</span></div>
+    <div class="article-tag" data-i18n="blog_n26_gmaw_tag">Kaynak Teknolojisi</div>
+    <h1 data-i18n="blog_n26_gmaw_h1">Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-01">2026-10-01</time></span>
+      <span data-i18n="blog_n26_gmaw_read">9 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_n26_gmaw_body">
+<p><strong>Gazaltı kaynağı</strong>, makaradan sürekli beslenen bir tel elektrot ile iş parçası arasında ark oluşturulan ve kaynak bölgesinin koruyucu gazla korunduğu yöntemdir. Uluslararası literatürde GMAW (Gas Metal Arc Welding) olarak geçer; <span class="tag-inline">EN ISO 4063</span>'te kullanılan gaza göre 131 (MIG) ve 135 (MAG) numaralarıyla tanımlanır.</p>
+<p>Yüksek üretim hızı, öğrenme kolaylığı ve robotla otomasyona uygunluğu sayesinde endüstriyel kaynaklı imalatta en yaygın kullanılan yöntemdir.</p>
+
+<h2>MIG ve MAG Farkı</h2>
+<ul>
+<li><strong>MAG (Metal Active Gas, 135):</strong> CO₂ veya Ar/CO₂ karışımı gibi aktif gazlar kullanılır. Karbon ve düşük alaşımlı çeliklerde standarttır.</li>
+<li><strong>MIG (Metal Inert Gas, 131):</strong> Argon veya argon-helyum gibi inert gazlar kullanılır. Alüminyum ve diğer demir dışı metallerde tercih edilir.</li>
+</ul>
+<p>Hangi gazın ne zaman kullanılacağını <a href="koruyucu-gaz-secimi-mig-mag.html">koruyucu gaz seçimi</a> yazımızda ayrıntılı anlattık.</p>
+
+<h2>Gazaltı Kaynak Makinesinin Bileşenleri</h2>
+<ul>
+<li><strong>Güç kaynağı:</strong> Sabit gerilimli (CV) inverter veya trafo tipi makine.</li>
+<li><strong>Tel besleme ünitesi:</strong> Teli ayarlanan hızda torca iletir; tel hızı kaynak akımını belirler.</li>
+<li><strong>Torç ve kablo paketi:</strong> Teli, akımı ve gazı kaynak bölgesine taşır.</li>
+<li><strong>Gaz tüpü ve regülatör:</strong> Gaz debisini (tipik olarak 12–18 l/dk) ayarlar.</li>
+</ul>
+
+<h2>Ark Geçiş Türleri</h2>
+<table class="data-table">
+<thead><tr><th>Geçiş Türü</th><th>Akım / Gerilim</th><th>Kullanım</th></tr></thead>
+<tbody>
+<tr><td>Kısa devre</td><td>Düşük</td><td>İnce sac, kök paso, tüm pozisyonlar</td></tr>
+<tr><td>Globüler</td><td>Orta</td><td>Genellikle istenmez; sıçrantı yüksek</td></tr>
+<tr><td>Sprey ark</td><td>Yüksek</td><td>Kalın kesit, yatay ve oluk pozisyon, yüksek yığma</td></tr>
+<tr><td>Darbeli (pulse)</td><td>Değişken</td><td>Alüminyum, paslanmaz, düşük ısı girdisi ve az sıçrantı</td></tr>
+</tbody>
+</table>
+
+<h2>Gazaltı Kaynağı Nasıl Yapılır?</h2>
+<ol>
+<li><strong>Tel ve gaz seçimi:</strong> Yapı çeliği için genellikle G3Si1 (SG2) tel ve M21 (Ar/%18 CO₂) gaz kullanılır.</li>
+<li><strong>Parametre ayarı:</strong> Tel hızı (akım), gerilim ve gaz debisi malzeme kalınlığına göre ayarlanır. Detaylı değerler için <a href="mig-mag-parametreleri.html">MIG/MAG kaynak parametreleri</a> yazımıza bakın.</li>
+<li><strong>Serbest tel uzunluğu:</strong> Kontak meme ile parça arası genellikle 10–15 mm tutulur.</li>
+<li><strong>Torç açısı ve yönü:</strong> 10–15° itme açısı daha düz ve geniş dikiş, çekme açısı daha derin nüfuziyet verir.</li>
+<li><strong>Kontrol:</strong> Dikiş görsel muayene ile kontrol edilir; kritik işlerde NDT uygulanır.</li>
+</ol>
+
+<h2>Avantajlar ve Sınırlamalar</h2>
+<table class="data-table">
+<thead><tr><th>Avantajlar</th><th>Sınırlamalar</th></tr></thead>
+<tbody>
+<tr><td>Yüksek kaynak hızı ve yığma oranı</td><td>Açık alanda rüzgâr gaz korumasını bozar</td></tr>
+<tr><td>Cüruf yok, az temizlik</td><td>Torç boyutu dar alanlarda erişimi zorlaştırabilir</td></tr>
+<tr><td>Robot ve otomasyona çok uygun</td><td>Yanlış ayarda ergime yetersizliği riski</td></tr>
+<tr><td>Çelik, paslanmaz ve alüminyumda kullanılabilir</td><td>Ekipman elektrot kaynağına göre daha karmaşık</td></tr>
+</tbody>
+</table>
+
+<h2>Sık Yapılan Hatalar</h2>
+<ul>
+<li><strong>Gözenek:</strong> Yetersiz veya aşırı gaz debisi, kirli yüzey, hava akımı.</li>
+<li><strong>Ergime yetersizliği:</strong> Düşük gerilim, hızlı ilerleme veya yanlış torç açısı; özellikle kısa devre arkta dikkat edilmelidir.</li>
+<li><strong>Aşırı sıçrantı:</strong> Gerilim-tel hızı dengesizliği veya yüksek CO₂ oranı.</li>
+<li><strong>Yanma oluğu:</strong> Aşırı akım ve gerilim.</li>
+</ul>
+<p>Hata türleri ve onarımı için <a href="kaynak-hatalari-onarim.html">kaynak hataları</a> yazımızı inceleyebilirsiniz.</p>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Şase, konstrüksiyon ve makine parçalarında MAG ve robotik MAG kaynağını onaylı WPS'lerle uyguluyoruz. Seri işlerde <a href="robotik-kaynak-uretim.html">robotik kaynak</a> tekrarlanabilir kalite ve kısa çevrim süresi sağlar.</p></div>
+</div>
+
+<div data-i18n-html="blog_n26_gmaw_faq">
+<h2>Sık Sorulan Sorular</h2>
+<div class="faq-item"><h3>Gazaltı kaynağında hangi gaz kullanılır?</h3><p>Yapı çeliklerinde en yaygın gaz argon ve %15–25 CO₂ karışımıdır (EN ISO 14175 M21). %100 CO₂ daha ekonomiktir ama sıçrantıyı artırır. Alüminyumda saf argon kullanılır.</p></div>
+<div class="faq-item"><h3>Gazaltı kaynağı ile elektrot kaynağı arasındaki fark nedir?</h3><p>Gazaltı kaynağında tel sürekli beslenir ve gazla korunur; daha hızlıdır ve cüruf oluşmaz. Elektrot kaynağı daha basit ekipmanla, rüzgârlı sahada da yapılabilir ama yavaştır ve her elektrottan sonra cüruf temizliği gerekir.</p></div>
+<div class="faq-item"><h3>Gazaltı kaynağında tel hızı neyi belirler?</h3><p>Sabit gerilimli makinelerde tel besleme hızı kaynak akımını belirler. Tel hızı arttıkça akım ve yığma oranı artar; gerilim ise ark boyunu ve dikiş genişliğini etkiler.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_n26_gmaw_cta_h3">Gazaltı Kaynaklı İmalat İçin Teklif Alın</h3>
+      <p data-i18n="blog_n26_gmaw_cta_p">Çizim ve adetlerinizi paylaşın; MAG ve robotik kaynakla üretim planını birlikte çıkaralım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_n26_gmaw_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">MIG/MAG Kaynak Parametreleri: Tel Hızı, Gaz ve Voltaj Optimizasyonu</a></li>
+        <li><a href="koruyucu-gaz-secimi-mig-mag.html" data-i18n="blog_n26_gas_h1">MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Kaynak Çeşitleri: Endüstride Kullanılan Kaynak Yöntemleri ve Farkları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=202606122"></script>
+<script src="../assets/i18n.js?v=202610031"></script>
+<script src="../assets/chrome.js?v=202606162"></script>
+<script src="../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>
