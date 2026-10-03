@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_on_isitma_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_on_isitma_meta_desc" content="" />
+<title data-i18n="blog_on_isitma_title_tag">Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_on_isitma_meta_desc" content="Kaynak ön ısıtma sıcaklığı nasıl hesaplanır? EN ISO 1011-2 Metot A (CEV) ve Metot B (CET) formülleri, S690QL örneği, pratik uygulama yöntemleri." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/on-isitma-hesaplama.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_on_isitma_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_on_isitma_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_on_isitma_og_title" content="Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B" />
+  <meta property="og:description" data-i18n="blog_on_isitma_meta_desc" content="Kaynak ön ısıtma sıcaklığı nasıl hesaplanır? EN ISO 1011-2 Metot A (CEV) ve Metot B (CET) formülleri, S690QL örneği, pratik uygulama yöntemleri." />
   <meta property="og:url" content="https://www.armaweld.com/blog/on-isitma-hesaplama.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2026-04-17" />
@@ -67,20 +70,83 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Kaynakta Ön Isıtma Sıcaklığı Hesaplama (EN ISO 1011-2)",
   "description": "Ön ısıtma sıcaklığı nasıl hesaplanır? EN ISO 1011-2 Metot A ve Metot B, CEV, CET, kalınlık ve hidrojen etkisi.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2026-04-17",
   "dateModified": "2026-04-17",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/on-isitma-hesaplama.html"
+  },
   "url": "https://www.armaweld.com/blog/on-isitma-hesaplama.html",
   "inLanguage": "tr-TR",
-  "about": [{"@type": "Thing", "name": "Ön Isıtma"}, {"@type": "Thing", "name": "EN ISO 1011-2"}, {"@type": "Thing", "name": "CEV"}]
+  "articleSection": "Kaynak Parametreleri",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ön Isıtma"
+    },
+    {
+      "@type": "Thing",
+      "name": "EN ISO 1011-2"
+    },
+    {
+      "@type": "Thing",
+      "name": "CEV"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B",
+      "item": "https://www.armaweld.com/blog/on-isitma-hesaplama.html"
+    }
+  ]
 }
 </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
@@ -99,13 +165,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_on_isitma_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_on_isitma_tag"></div>
-    <h1 data-i18n="blog_on_isitma_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_on_isitma_breadcrumb3">Ön Isıtma Hesaplama</span></div>
+    <div class="article-tag" data-i18n="blog_on_isitma_tag">Kaynak Parametreleri</div>
+    <h1 data-i18n="blog_on_isitma_h1">Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B</h1>
     <div class="article-meta">
       <span>2026-04-17</span>
-      <span data-i18n="blog_on_isitma_read"></span>
-      <span data-i18n="blog_on_isitma_author"></span>
+      <span data-i18n="blog_on_isitma_read">8 dk okuma</span>
+      <span data-i18n="blog_on_isitma_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -113,19 +179,44 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_on_isitma_s0"></div>
-    <div data-i18n-html="blog_on_isitma_s1"></div>
-    <div data-i18n-html="blog_on_isitma_s2"></div>
-    <div data-i18n-html="blog_on_isitma_s3"></div>
-    <div data-i18n-html="blog_on_isitma_s4"></div>
-    <div data-i18n-html="blog_on_isitma_s5"></div>
-    <div data-i18n-html="blog_on_isitma_s6"></div>
+    <div data-i18n-html="blog_on_isitma_s0">
+<p>Ön ısıtma, kaynak öncesinde malzemenin belirli bir sıcaklığa çıkarılmasıdır. Amaç: Soğuma hızını yavaşlatarak <strong>soğuk çatlak (hidrojen indükle çatlak)</strong> riskini düşürmek, hidrojen difüzyonunu kolaylaştırmak ve sert mikroyapı oluşumunu engellemek.</p><div class="callout"><p><strong>Genel kural:</strong> Karbon eşdeğeri (CEV) yüksek malzemelerde, yüksek kalınlıklarda ve düşük ortam sıcaklıklarında ön ısıtma zorunludur.</p></div>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s1">
+<h2>EN ISO 1011-2: İki Metot</h2><ul><li><strong>Metot A:</strong> CEV (Carbon Equivalent Value) tabanlı. Genel yapı çelikleri için kullanılır.</li><li><strong>Metot B:</strong> CET (Compositional Equivalent for Tempered steels) tabanlı. Yüksek mukavemetli çelikler (S460–S960) için tasarlanmıştır.</li></ul>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s2">
+<h2>Metot A: CEV Tabanlı Hesap</h2><p><span class="tag-inline">CEV = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15</span></p><table class="data-table"><thead><tr><th>Çelik</th><th>CEV (tipik)</th><th>Ön Isıtma Gereksinimi</th></tr></thead><tbody><tr><td>S235JR</td><td>0.35–0.40</td><td>Genelde gerekmez (kalınlık ≤30 mm)</td></tr><tr><td>S355J2+N</td><td>0.40–0.45</td><td>Kalın kesitlerde (≥25 mm) önerilir</td></tr><tr><td>S460M / S500MC</td><td>0.40–0.50</td><td>Genelde 50–100°C</td></tr><tr><td>S690QL</td><td>0.55–0.65</td><td>100–150°C zorunlu</td></tr><tr><td>S960QL</td><td>0.65–0.82</td><td>150–200°C zorunlu</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s3">
+<h2>Metot B: CET ve Pratik Formül</h2><p><span class="tag-inline">CET = C + (Mn+Mo)/10 + (Cr+Cu)/20 + Ni/40</span></p><p>Ön ısıtma sıcaklığı (T<sub>p</sub>):</p><p><span class="tag-inline">T<sub>p</sub> = 700·CET + 160·tanh(d/35) + 62·HD<sup>0.35</sup> + (53·CET - 32)·Q - 330</span></p><ul><li><strong>d:</strong> Plaka kalınlığı (mm)</li><li><strong>HD:</strong> Difüzible hidrojen (ml/100g kaynak metali)</li><li><strong>Q:</strong> Isı girdisi (kJ/mm)</li></ul>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s4">
+<h2>Pratik Hesaplama Örneği — S690QL</h2><p>Bileşim: C=0.16, Mn=1.50, Mo=0.40, Cr=0.30, Cu=0.20, Ni=0.40</p><ul><li>CET = 0.16 + (1.50+0.40)/10 + (0.30+0.20)/20 + 0.40/40 = <strong>0.385</strong></li><li>20 mm kalınlık, H5 sarf, 1.0 kJ/mm için:</li><li>T<sub>p</sub> = 269.5 + 82.4 + 110.0 − 11.6 − 330 = <strong>120.3°C</strong></li></ul><div class="callout"><p><strong>Sonuç:</strong> Bu durumda ön ısıtma sıcaklığı <strong>≥120°C</strong> olarak uygulanmalı. Üretici teknik dokümanı 100–150°C aralığını öneriyorsa 150°C tercih edilir.</p></div>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s5">
+<h2>Düşük Sıcaklık Düzeltmesi</h2><ul><li>Ortam +5°C ila 0°C → +25°C eklenir</li><li>Ortam 0°C ila −10°C → +50°C eklenir</li><li>Ortam −10°C altı → kaynak ertelenir veya barınak yapılır</li></ul><h2>Pratik Uygulama: Ön Isıtma Yöntemleri</h2><ul><li><strong>Resistans bant:</strong> Yüksek hassasiyetli, boru ve kalın plaka için ideal.</li><li><strong>Endüksiyon:</strong> Hızlı, temiz. Üretim hattı için tercih.</li><li><strong>Gaz brülörü:</strong> Saha kaynaklarında yaygın. Termal çubuk ile sıcaklık ölçülmeli.</li><li><strong>Termal çubuk (Tempil stick):</strong> Sıcaklık doğrulama için pratik araç.</li></ul>
+    </div>
+    <div data-i18n-html="blog_on_isitma_s6">
+<h2>Pasolar Arası Sıcaklık ile İlişki</h2><ul><li>Pasolar arası ≥ ön ısıtma sıcaklığı (asla altına düşmez)</li><li>Pasolar arası ≤ üretici tavsiyesi (S960QL için ≤220°C)</li><li>Her paso öncesi termal çubuk veya dijital pirometre ile ölçüm</li></ul>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_on_isitma_cta_h3"></h3>
-      <p data-i18n="blog_on_isitma_cta_p"></p>
-      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_on_isitma_cta_btn"></a>
+      <h3 data-i18n="blog_on_isitma_cta_h3">Ön Isıtma Hesaplama Desteğine mi İhtiyacınız Var?</h3>
+      <p data-i18n="blog_on_isitma_cta_p">Yüksek mukavemetli çelik projeleriniz için ön ısıtma ve WPS hazırlama konularında yardım alın.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_on_isitma_cta_btn">İletişime Geçin →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları</a></li>
+        <li><a href="argon-kaynagi-nedir.html" data-i18n="blog_n26_tig_h1">Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Kaynak Çeşitleri: Endüstride Kullanılan Kaynak Yöntemleri ve Farkları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
@@ -133,8 +224,8 @@
   </div>
 </section>
 <script src="../assets/blog-translations-2026.js?v=202606122"></script>
-<script src="../assets/lang/tr.js?v=202606122"></script>
-<script src="../assets/i18n.js?v=202606122"></script>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
 <script src="../assets/chrome.js?v=202606162"></script>
 <script src="../assets/analytics.js?v=20260526"></script>
 <script>mountChrome('blog', '../');</script>

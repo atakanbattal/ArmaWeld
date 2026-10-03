@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_tig_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_tig_meta_desc" content="" />
+<title data-i18n="blog_tig_title_tag">TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_tig_meta_desc" content="304 ve 316L paslanmaz çeliğin TIG/GTAW kaynağı: parametreler, koruyucu gaz, arka pürj, hassaslaşma önleme ve çarpılma yönetimi." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/tig-paslanmaz-celik.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_tig_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_tig_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_tig_og_title" content="TIG Kaynak ile 304 ve 316L Paslanmaz Çelik | ArmaWeld" />
+  <meta property="og:description" data-i18n="blog_tig_meta_desc" content="304 ve 316L paslanmaz çeliğin TIG/GTAW kaynağı: parametreler, koruyucu gaz, arka pürj, hassaslaşma önleme ve çarpılma yönetimi." />
   <meta property="og:url" content="https://www.armaweld.com/blog/tig-paslanmaz-celik.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2025-03-26" />
@@ -67,16 +70,69 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
+  "headline": "TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları",
+  "description": "304 ve 316L paslanmaz çeliğin TIG/GTAW kaynağı: parametreler, koruyucu gaz, arka pürj, hassaslaşma önleme ve çarpılma yönetimi.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2025-03-26",
   "dateModified": "2025-03-26",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
-  "url": "https://www.armaweld.com/blog/tig-paslanmaz-celik.html"
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/tig-paslanmaz-celik.html"
+  },
+  "url": "https://www.armaweld.com/blog/tig-paslanmaz-celik.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları",
+      "item": "https://www.armaweld.com/blog/tig-paslanmaz-celik.html"
+    }
+  ]
 }
 </script>
   <!-- Google tag (gtag.js) -->
@@ -96,13 +152,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_tig_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_tig_tag"></div>
-    <h1 data-i18n="blog_tig_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_tig_breadcrumb3">TIG Paslanmaz Çelik</span></div>
+    <div class="article-tag" data-i18n="blog_tig_tag">Kaynak Teknolojisi</div>
+    <h1 data-i18n="blog_tig_h1">TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları</h1>
     <div class="article-meta">
       <span>2025-03-26</span>
-      <span data-i18n="blog_tig_read"></span>
-      <span data-i18n="blog_tig_author"></span>
+      <span data-i18n="blog_tig_read">7 dk okuma</span>
+      <span data-i18n="blog_tig_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -110,17 +166,38 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_tig_s0"></div>
-    <div data-i18n-html="blog_tig_s1"></div>
-    <div data-i18n-html="blog_tig_s2"></div>
-    <div data-i18n-html="blog_tig_s3"></div>
-    <div data-i18n-html="blog_tig_s4"></div>
+    <div data-i18n-html="blog_tig_s0">
+<p>Östenitik paslanmaz çelikler (304, 304L, 316, 316L) hem korozyon direnci hem de estetik görünüm açısından yüksek kalite kaynağı gerektirir. TIG/GTAW (Proses 141), bu malzemelerde en temiz, en kontrollü ve en yaygın kullanılan kaynak yöntemidir.</p><p>Paslanmaz çelik kaynağında iki kritik risk vardır: <strong>sensitizasyon</strong> (hassaslaşma — sınır bölgelerinde krom karbür çökelmesi) ve <strong>çarpılma</strong> (distorsiyon). Her ikisi de ısı yönetimiyle doğrudan bağlantılıdır.</p>
+    </div>
+    <div data-i18n-html="blog_tig_s1">
+<h2>304 ve 316L Alaşım Karşılaştırması</h2><table class="data-table"><thead><tr><th>Özellik</th><th>304 / 304L</th><th>316 / 316L</th></tr></thead><tbody><tr><td>Kimyasal Fark</td><td>18% Cr, 8% Ni</td><td>16% Cr, 10% Ni, 2% Mo</td></tr><tr><td>Korozyon Direnci</td><td>İyi — genel uygulama</td><td>Çok iyi — klorür ve asit ortamı</td></tr><tr><td>Kaynak Kabiliyeti</td><td>Mükemmel</td><td>Mükemmel</td></tr><tr><td>Önerilen Dolgu Teli</td><td>ER308L</td><td>ER316L</td></tr><tr><td>Sensitizasyon Riski</td><td>Orta (L versiyonu düşürür)</td><td>Orta (L versiyonu düşürür)</td></tr><tr><td>Tipik Uygulama</td><td>Gıda ekipmanı, genel paslanmaz</td><td>Kimyasal tank, deniz uygulaması, ilaç</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_tig_s2">
+<h2>TIG Parametre Seti</h2><p>Paslanmaz çelik TIG kaynağında tipik parametreler:</p><ul><li><strong>Akım:</strong> DC− (doğru akım elektrod negatif); 60–180 A aralığında kalınlığa göre</li><li><strong>Koruyucu Gaz:</strong> %100 Argon (akış hızı 8–12 l/dk torch tarafı)</li><li><strong>Arka Pürj (Back Purge):</strong> Kök geçiminde %100 Argon ile koruma — oksidasyonu önlemek için kritik</li><li><strong>Tungsten Elektrod:</strong> EWTh-2 (toryumlu) veya EWCe-2 (seryumlu) — DC− için uçlu</li><li><strong>Pasolar Arası Sıcaklık:</strong> Maksimum 150°C — sensitizasyonu önlemek için</li></ul><div class="callout"><p><strong>Arka pürj zorunluluğu:</strong> Kapalı profil veya boru birleştirmelerinde kök geçiminin arkası argon ile korunmazsa mavi/siyah oksidasyon oluşur. Bu durum hem korozyon direncini hem de kabul kriterini (EN ISO 5817 B) bozar.</p></div>
+    </div>
+    <div data-i18n-html="blog_tig_s3">
+<h2>Sensitizasyon (Hassaslaşma) Önleme</h2><p>Sensitizasyon, kaynak ısısıyla 450–850°C aralığında kalan paslanmaz çelikte krom karbür (Cr₂₃C₆) çökelmesidir. Bu çökelme, tane sınırlarını krom açısından fakirleştirir ve taneler arası korozyon riskini artırır.</p><p>Önlem yöntemleri:</p><ul><li><strong>L versiyonu kullanımı (304L, 316L):</strong> Düşük karbon içeriği (≤0,03%) karbür çökelmesini engeller.</li><li><strong>Düşük ısı girdisi:</strong> Isı girdisini sınırlı tutmak (≤1,0 kJ/mm) kritik sıcaklık aralığında kalma süresini kısaltır.</li><li><strong>Hızlı soğutma:</strong> Islak bezle veya serinletilmiş jig ile yardımcı soğutma (kontaminasyona dikkat).</li><li><strong>Fırın tavlaması (solution annealing):</strong> Yüksek kritiklik durumunda 1050–1100°C'de ardıl ısıl işlem.</li></ul>
+    </div>
+    <div data-i18n-html="blog_tig_s4">
+<h2>Çarpılma Yönetimi</h2><p>Paslanmaz çeliğin termal genleşme katsayısı karbona göre %50 daha yüksektir; bu nedenle ince paslanmaz saclarda kaynak çarpılması belirgindir. Çarpılmayı minimize etmek için: simetrik dikiş sırası (arka yüz dikişleri ile denge), minimum paso ısısı, kısa paso boyu, fikstür ve kelepçe kullanımı ile ağırlıklı sabitleme uygulanır. ArmaWeld'de paslanmaz projeler için çarpılma toleransı teknik resimde belirlenir ve her parça geometri kontrolünden geçer.</p>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_tig_cta_h3"></h3>
-      <p data-i18n="blog_tig_cta_p"></p>
-      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_tig_cta_btn"></a>
+      <h3 data-i18n="blog_tig_cta_h3">Paslanmaz Çelik Kaynak Projeniz İçin Teknik Değerlendirme</h3>
+      <p data-i18n="blog_tig_cta_p">304, 316L veya duplex paslanmaz çelik projeniz için WPS ve NDT planı ile birlikte teklif alın.</p>
+      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_tig_cta_btn">Teklif İste →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları</a></li>
+        <li><a href="argon-kaynagi-nedir.html" data-i18n="blog_n26_tig_h1">Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Kaynak Çeşitleri: Endüstride Kullanılan Kaynak Yöntemleri ve Farkları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
@@ -128,8 +205,8 @@
 
   </div>
 </section>
-<script src="../assets/lang/tr.js?v=202606122"></script>
-<script src="../assets/i18n.js?v=202606122"></script>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
 <script src="../assets/chrome.js?v=202606162"></script>
 <script src="../assets/analytics.js?v=20260526"></script>
 <script>mountChrome('blog', '../');</script>

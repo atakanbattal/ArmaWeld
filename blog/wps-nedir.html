@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_wps_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_wps_meta_desc" content="" />
+<title data-i18n="blog_wps_title_tag">WPS Nedir? Kaynakta WPS Açılımı ve Hazırlama Kılavuzu | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_wps_meta_desc" content="WPS açılımı Welding Procedure Specification, yani Kaynak Prosedür Şartnamesidir. Kaynakta WPS nedir, neleri içerir, WPQR ilişkisi ve EN ISO 15614-1 süreci." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/wps-nedir.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_wps_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_wps_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_wps_og_title" content="WPS Nedir? Kaynak Prosedür Şartnamesi Kılavuzu | ArmaWeld" />
+  <meta property="og:description" data-i18n="blog_wps_meta_desc" content="WPS açılımı Welding Procedure Specification, yani Kaynak Prosedür Şartnamesidir. Kaynakta WPS nedir, neleri içerir, WPQR ilişkisi ve EN ISO 15614-1 süreci." />
   <meta property="og:url" content="https://www.armaweld.com/blog/wps-nedir.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2024-07-30" />
@@ -67,16 +70,69 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
+  "headline": "WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu",
+  "description": "WPS'in zorunluluk temelleri, içeriği, WPQR ilişkisi ve EN ISO 15614-1 kapsamındaki nitelendirme süreci. ArmaWeld WPS portföyü.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2024-07-30",
   "dateModified": "2024-07-30",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
-  "url": "https://www.armaweld.com/blog/wps-nedir.html"
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/wps-nedir.html"
+  },
+  "url": "https://www.armaweld.com/blog/wps-nedir.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Standartlar & Sertifikasyon"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu",
+      "item": "https://www.armaweld.com/blog/wps-nedir.html"
+    }
+  ]
 }
 </script>
   <!-- Google tag (gtag.js) -->
@@ -96,13 +152,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_wps_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_wps_tag"></div>
-    <h1 data-i18n="blog_wps_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_wps_breadcrumb3">WPS Nedir?</span></div>
+    <div class="article-tag" data-i18n="blog_wps_tag">Standartlar &amp; Sertifikasyon</div>
+    <h1 data-i18n="blog_wps_h1">WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu</h1>
     <div class="article-meta">
       <span>2024-07-30</span>
-      <span data-i18n="blog_wps_read"></span>
-      <span data-i18n="blog_wps_author"></span>
+      <span data-i18n="blog_wps_read">9 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -110,17 +166,38 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_wps_s0"></div>
-    <div data-i18n-html="blog_wps_s1"></div>
-    <div data-i18n-html="blog_wps_s2"></div>
-    <div data-i18n-html="blog_wps_s3"></div>
-    <div data-i18n-html="blog_wps_s4"></div>
+    <div data-i18n-html="blog_wps_s0">
+<p>Kaynak Prosedür Şartnamesi (WPS — Welding Procedure Specification), belirli bir kaynak bağlantısının nasıl gerçekleştirileceğini tanımlayan teknik belgedir. İçinde yer alan parametreler — proses, malzeme grubu, kalınlık aralığı, kaynak pozisyonu, dolgu metali, koruyucu gaz, ön ısıtma ve pasolar arası sıcaklık — üretim sırasında kaynakçının bağlı kalması gereken çerçeveyi çizer.</p><p>EN ISO 3834-2 ve EN 1090 EXC2/3/4 kapsamındaki her üretimde WPS zorunludur. Onaysız WPS ile atılan kaynak, yapının sertifikasyonunu ve CE belgesini geçersiz kılabilir.</p>
+    </div>
+    <div data-i18n-html="blog_wps_s1">
+<h2>WPS'in Zorunluluk Temeli</h2><p>WPS gerekliliği birden fazla standarttan kaynaklanır:</p><ul><li><span class="tag-inline">EN ISO 3834-2</span> — Kapsamlı kalite gerekliliklerinde onaylı WPS zorunludur.</li><li><span class="tag-inline">EN 1090-2</span> — EXC2 ve üzeri yürütme sınıflarında her kaynak prosesi için WPS şarttır.</li><li><span class="tag-inline">EN 13445</span> — Basınçlı kap imalatında WPS + WPQR çifti olmadan kaynak yapılamaz.</li><li><span class="tag-inline">PED 2014/68/EU</span> — Kategori II ve üzeri basınçlı ekipmanlarda kaynak prosedür onayı zorunludur.</li></ul><p>Yani WPS yalnızca bir kural değil; yapının güvenilirliğini kanıtlayan teknik altyapının temelidir.</p>
+    </div>
+    <div data-i18n-html="blog_wps_s2">
+<h2>WPS Ne İçerir?</h2><table class="data-table"><thead><tr><th>Bölüm</th><th>İçerik</th></tr></thead><tbody><tr><td>Temel Bilgiler</td><td>WPS numarası, revizyon, WPQR referansı, hazırlayan mühendis</td></tr><tr><td>Ana Metal</td><td>Malzeme standardı, çelik grubu (ISO/TR 15608), kalınlık aralığı</td></tr><tr><td>Kaynak Prosesi</td><td>Proses kodu (ör. 135 MAG, 141 TIG), tek/çok paso, kaynak pozisyonu</td></tr><tr><td>Dolgu Metali</td><td>Standart, sınıf, çap, difüzible hidrojen sınıfı (H5 vb.)</td></tr><tr><td>Koruyucu Gaz</td><td>Bileşim (Ar/CO₂ %), akış hızı (l/min)</td></tr><tr><td>Elektrik Parametreleri</td><td>Akım (A), gerilim (V), polarite, kaynak hızı (cm/dk), ısı girdisi (kJ/mm)</td></tr><tr><td>Termal Koşullar</td><td>Ön ısıtma sıcaklığı (°C), pasolar arası maks. sıcaklık (°C), PWHT</td></tr><tr><td>Kaynak Ağzı</td><td>Bağlantı tipi, ağız açısı, kök açıklığı, kök yüzü</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_wps_s3">
+<h2>WPQR ile İlişkisi</h2><p>WPS, deneysel olarak doğrulanmış bir belge olan <strong>WPQR (Welding Procedure Qualification Record — Kaynak Prosedürü Nitelendirme Kaydı)</strong>'a dayanmalıdır. Sıra şudur:</p><ol><li><strong>pWPS (ön WPS)</strong> hazırlanır — mühendis tarafından teknik bilgiye dayalı taslak.</li><li><strong>Nitelendirme kaynağı</strong> yapılır — tahribatlı test numuneleri ile.</li><li><strong>Tahribatlı testler</strong> gerçekleştirilir — çekme, eğme, sertlik, Charpy, makro.</li><li><strong>WPQR</strong> düzenlenir — bağımsız onaylayan kuruluş (NB veya akredite lab) imzalar.</li><li><strong>WPS</strong> WPQR'a referans verilerek onaylanır ve üretimde kullanılır.</li></ol><div class="callout"><p><strong>Önemli:</strong> WPS kapsamı (onay aralığı), WPQR'daki test koşullarından türetilir. Örneğin, 12 mm için yapılan WPQR 6–24 mm aralığını kapsayabilir; ancak bu 25 mm'yi kapsamaz.</p></div>
+    </div>
+    <div data-i18n-html="blog_wps_s4">
+<h2>ArmaWeld WPS Portföyü</h2><p>ArmaWeld, EN ISO 15614-1 (çelik) ve EN ISO 15614-2 (alüminyum) kapsamında geniş bir onaylı WPS kütüphanesi işletmektedir. Bu kütüphane şu malzeme gruplarını kapsar: S235–S960QL ve Strenx 700/900/960/1100 yapı çelikleri, P265GH / P355NH basınçlı kap çelikleri, 304L / 316L östenitik paslanmaz çelikler, HARDOX 400/450/500 aşınma dirençli çelikler ve EN AW-5754 / 6082 alüminyum alaşımları. Her yeni proje başlangıcında WPS uygunluğu kaynak mühendisi tarafından doğrulanır; kapsam dışı kalınma durumunda yeni pWPS ve WPQR süreci başlatılır.</p>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_wps_cta_h3"></h3>
-      <p data-i18n="blog_wps_cta_p"></p>
-      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_wps_cta_btn"></a>
+      <h3 data-i18n="blog_wps_cta_h3">WPS Portföyünü İnceleyin</h3>
+      <p data-i18n="blog_wps_cta_p">Projenizin malzeme ve kalınlık aralığını paylaşın; hangi onaylı WPS'in geçerli olduğunu 48 saat içinde yanıtlayalım.</p>
+      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_wps_cta_btn">Teklif İste →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynakci-sertifikasi-en-iso-9606-1.html" data-i18n="blog_n26_iso9606_h1">Kaynakçı Sertifikası Nedir? EN ISO 9606-1 Rehberi</a></li>
+        <li><a href="wpqr-nedir.html" data-i18n="blog_wpqr_h1">WPQR Nedir? Kaynak Prosedür Onay Kayıtları</a></li>
+        <li><a href="en-1090-exc3-nedir.html" data-i18n="blog_exc3_h1">EN 1090 EXC3 Nedir? Yapısal Çelik CE İşaretlemesi Rehberi</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
@@ -128,8 +205,8 @@
 
   </div>
 </section>
-<script src="../assets/lang/tr.js?v=202606122"></script>
-<script src="../assets/i18n.js?v=202606122"></script>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
 <script src="../assets/chrome.js?v=202606162"></script>
 <script src="../assets/analytics.js?v=20260526"></script>
 <script>mountChrome('blog', '../');</script>

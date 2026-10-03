@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_n26_gas_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_n26_gas_title">MIG/MAG Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_n26_gas_meta_desc" content="MIG/MAG kaynağında koruyucu gaz nasıl seçilir? %100 CO₂, Ar/CO₂ karışımları, paslanmaz ve alüminyum için gazlar, ISO 14175 sınıfları ve debi ayarı." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/koruyucu-gaz-secimi-mig-mag.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_n26_gas_og_title" content="MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar" />
+  <meta property="og:description" data-i18n="blog_n26_gas_meta_desc" content="MIG/MAG kaynağında koruyucu gaz nasıl seçilir? %100 CO₂, Ar/CO₂ karışımları, paslanmaz ve alüminyum için gazlar, ISO 14175 sınıfları ve debi ayarı." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/koruyucu-gaz-secimi-mig-mag.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-07-09" />
+  <meta property="article:modified_time" content="2026-07-09" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Kaynak Teknolojisi" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=202606162" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar",
+  "description": "MIG/MAG kaynağında koruyucu gaz nasıl seçilir? %100 CO₂, Ar/CO₂ karışımları, paslanmaz ve alüminyum için gazlar, ISO 14175 sınıfları ve debi ayarı.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/koruyucu-gaz-secimi-mig-mag.html"
+  },
+  "url": "https://www.armaweld.com/blog/koruyucu-gaz-secimi-mig-mag.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar",
+      "item": "https://www.armaweld.com/blog/koruyucu-gaz-secimi-mig-mag.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "MAG kaynağında en çok hangi gaz kullanılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yapı çeliklerinde en yaygın gaz, EN ISO 14175'e göre M21 sınıfındaki argon ve %15–25 CO₂ karışımıdır; pratikte genellikle %82 Ar / %18 CO₂ kullanılır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Paslanmaz çelik MIG kaynağında CO₂ kullanılır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yalnızca düşük oranlarda. Paslanmaz çelikte genellikle %0,5–5 CO₂ içeren M12 sınıfı karışımlar veya Ar/O₂ karışımları kullanılır; yüksek CO₂ korozyon direncini düşürebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Koruyucu gaz debisi kaç olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MIG/MAG kaynağında tipik debi tel ve nozul çapına göre 12–18 l/dk aralığındadır. Değer WPS'te belirtilmeli ve üretimde kontrol edilmelidir."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_n26_gas_breadcrumb3">Koruyucu Gaz Seçimi</span></div>
+    <div class="article-tag" data-i18n="blog_n26_gas_tag">Kaynak Teknolojisi</div>
+    <h1 data-i18n="blog_n26_gas_h1">MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-07-09">2026-07-09</time></span>
+      <span data-i18n="blog_n26_gas_read">9 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_n26_gas_body">
+<p>MIG/MAG kaynağında koruyucu gaz, yalnızca erimiş metali atmosferden korumakla kalmaz; ark kararlılığını, nüfuziyet profilini, sıçrantı miktarını, dikiş görünümünü ve hatta kaynak metalinin mekanik özelliklerini doğrudan etkiler. Yanlış gaz seçimi gözenek, yetersiz ergime ve gereksiz taşlama maliyeti olarak geri döner.</p>
+<p>Gazlar <span class="tag-inline">EN ISO 14175</span> standardına göre sınıflandırılır ve bu sınıf WPS üzerinde açıkça belirtilir. Aşağıda en yaygın seçenekleri ve hangi işte tercih edildiklerini özetliyoruz.</p>
+
+<h2>Aktif ve İnert Gaz Farkı: MIG mi, MAG mı?</h2>
+<ul>
+<li><strong>MAG (Metal Active Gas, proses 135):</strong> CO₂ veya O₂ içeren aktif gazlar kullanılır. Karbon ve düşük alaşımlı çeliklerde standarttır.</li>
+<li><strong>MIG (Metal Inert Gas, proses 131):</strong> Argon, helyum veya karışımları gibi inert gazlar kullanılır. Alüminyum, bakır ve diğer demir dışı metallerde tercih edilir.</li>
+</ul>
+<p>Parametre tarafı için <a href="mig-mag-parametreleri.html">MIG/MAG kaynak parametreleri</a> yazımızı inceleyebilirsiniz.</p>
+
+<h2>En Yaygın Koruyucu Gazlar</h2>
+<table class="data-table">
+<thead><tr><th>ISO 14175</th><th>Bileşim</th><th>Tipik Kullanım</th><th>Öne Çıkan Özellik</th></tr></thead>
+<tbody>
+<tr><td>C1</td><td>%100 CO₂</td><td>Karbon çeliği, kalın kesit, özlü tel</td><td>Derin nüfuziyet, düşük maliyet; sıçrantı yüksek</td></tr>
+<tr><td>M21</td><td>Ar + %15–25 CO₂ (en yaygın %18)</td><td>Yapı çeliği S235–S355, genel imalat</td><td>Kararlı ark, az sıçrantı, sprey ark imkânı</td></tr>
+<tr><td>M20</td><td>Ar + %5–15 CO₂</td><td>İnce sac, darbeli (pulse) kaynak</td><td>Düşük sıçrantı, düzgün dikiş görünümü</td></tr>
+<tr><td>M12</td><td>Ar + %0,5–5 CO₂</td><td>Paslanmaz çelik (304L, 316L)</td><td>Düşük karbon alımı, iyi ıslatma</td></tr>
+<tr><td>I1</td><td>%100 Argon</td><td>Alüminyum MIG, TIG kaynağı</td><td>Temiz ark, oksit temizleme etkisi</td></tr>
+<tr><td>I3</td><td>Ar + He</td><td>Kalın alüminyum, bakır</td><td>Daha yüksek ısı, daha geniş nüfuziyet</td></tr>
+</tbody>
+</table>
+
+<h2>Malzemeye Göre Gaz Seçimi</h2>
+<h3>Karbon ve Yapı Çelikleri</h3>
+<p>Seri imalatta en dengeli seçenek M21 (Ar/%18 CO₂) karışımıdır. %100 CO₂ daha ucuzdur ve derin nüfuziyet sağlar; ancak sıçrantı ve taşlama süresi toplam maliyeti artırabilir. Görünür yüzeylerde ve boyalı parçalarda karışım gaz genellikle daha ekonomik sonuç verir.</p>
+<h3>Yüksek Mukavemetli Çelikler</h3>
+<p>S690QL, S960QL ve aşınma plakalarında düşük hidrojenli sarf ile birlikte M21 veya M20 sınıfı karışımlar tercih edilir. Burada gazdan çok ısı girdisi ve ön ısıtma belirleyicidir; ayrıntılar için <a href="s960ql-kaynak-parametreleri.html">S960QL kaynak parametreleri</a> ve <a href="hardox-kaynak.html">Hardox kaynağı</a> yazılarına bakabilirsiniz.</p>
+<h3>Paslanmaz Çelik</h3>
+<p>CO₂ oranı yüksek gazlar kaynak metaline karbon taşır ve korozyon direncini düşürebilir. Bu nedenle M12 sınıfı düşük CO₂'li karışımlar veya Ar/O₂ karışımları kullanılır. Kök tarafında oksidasyonu önlemek için formier gaz veya argonla <strong>kök koruma (backing)</strong> uygulanır.</p>
+<h3>Alüminyum</h3>
+<p>Saf argon (I1) standarttır. 10 mm üzeri kalınlıklarda helyum katkılı karışımlar (I3) ısı aktarımını artırarak ön ısıtma ihtiyacını azaltır. Bkz. <a href="aluminyum-kaynak.html">alüminyum kaynağı</a>.</p>
+
+<h2>Gaz Debisi: Fazlası da Zarar</h2>
+<p>Genel kural olarak MIG/MAG'da debi, tel çapı ve nozul çapına bağlı olarak 12–18 l/dk aralığında ayarlanır. Çok düşük debi gözeneğe yol açar; çok yüksek debi ise türbülans yaratarak havayı ark bölgesine çeker ve yine gözenek üretir. Açık alanda veya hava akımı olan ortamlarda rüzgâr perdesi kullanılmalıdır.</p>
+<div class="callout"><p><strong>Kalite notu:</strong> Gaz sınıfı WPS'in esas değişkenlerinden biridir. WPQR'da M21 ile nitelendirilmiş bir prosedür, kapsam dışı bir gazla kullanılamaz. Gaz değişikliği WPS revizyonu gerektirebilir.</p></div>
+
+<h2>Sık Görülen Gaz Kaynaklı Hatalar</h2>
+<ul>
+<li><strong>Gözenek:</strong> Yetersiz debi, kaçak hortum, kirli nozul veya hava akımı.</li>
+<li><strong>Aşırı sıçrantı:</strong> Yüksek CO₂ oranı ile kısa ark ayarında parametre uyumsuzluğu.</li>
+<li><strong>Paslanmazda renklenme:</strong> Yetersiz kök koruma veya yüksek CO₂/O₂ oranı.</li>
+</ul>
+<p>Hata türleri ve onarım yaklaşımı için <a href="kaynak-hatalari-onarim.html">kaynak hataları</a> yazımızı okuyabilirsiniz.</p>
+</div>
+
+<div data-i18n-html="blog_n26_gas_faq">
+<h2>Sık Sorulan Sorular</h2>
+<div class="faq-item"><h3>MAG kaynağında en çok hangi gaz kullanılır?</h3><p>Yapı çeliklerinde en yaygın gaz, EN ISO 14175&#x27;e göre M21 sınıfındaki argon ve %15–25 CO₂ karışımıdır; pratikte genellikle %82 Ar / %18 CO₂ kullanılır.</p></div>
+<div class="faq-item"><h3>Paslanmaz çelik MIG kaynağında CO₂ kullanılır mı?</h3><p>Yalnızca düşük oranlarda. Paslanmaz çelikte genellikle %0,5–5 CO₂ içeren M12 sınıfı karışımlar veya Ar/O₂ karışımları kullanılır; yüksek CO₂ korozyon direncini düşürebilir.</p></div>
+<div class="faq-item"><h3>Koruyucu gaz debisi kaç olmalı?</h3><p>MIG/MAG kaynağında tipik debi tel ve nozul çapına göre 12–18 l/dk aralığındadır. Değer WPS&#x27;te belirtilmeli ve üretimde kontrol edilmelidir.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_n26_gas_cta_h3">Malzemenize Uygun Prosesi Birlikte Seçelim</h3>
+      <p data-i18n="blog_n26_gas_cta_p">Malzeme, kalınlık ve adetleri paylaşın; uygun proses ve WPS önerisiyle teklif hazırlayalım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_n26_gas_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">MIG/MAG Kaynak Parametreleri: Tel Hızı, Gaz ve Voltaj Optimizasyonu</a></li>
+        <li><a href="tig-paslanmaz-celik.html" data-i18n="blog_tig_h1">TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları</a></li>
+        <li><a href="fcaw-ozlu-tel.html" data-i18n="blog_fcaw_h1">FCAW (Özlü Tel Kaynağı): Avantajlar, Parametre Optimizasyonu ve Uygulama Alanları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
+<script src="../assets/chrome.js?v=202606162"></script>
+<script src="../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>

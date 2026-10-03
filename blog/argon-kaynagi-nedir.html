@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_n26_tig_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_n26_tig_title">Argon Kaynağı (TIG) Nedir? Nasıl Yapılır? | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_n26_tig_meta_desc" content="Argon kaynağı (TIG) nedir, nasıl yapılır? Tungsten elektrot seçimi, AC/DC akım, gaz debisi, avantajlar, dezavantajlar ve paslanmaz ile alüminyumda kullanımı." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/argon-kaynagi-nedir.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_n26_tig_og_title" content="Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?" />
+  <meta property="og:description" data-i18n="blog_n26_tig_meta_desc" content="Argon kaynağı (TIG) nedir, nasıl yapılır? Tungsten elektrot seçimi, AC/DC akım, gaz debisi, avantajlar, dezavantajlar ve paslanmaz ile alüminyumda kullanımı." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/argon-kaynagi-nedir.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-09-03" />
+  <meta property="article:modified_time" content="2026-09-03" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Kaynak Teknolojisi" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=202606162" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?",
+  "description": "Argon kaynağı (TIG) nedir, nasıl yapılır? Tungsten elektrot seçimi, AC/DC akım, gaz debisi, avantajlar, dezavantajlar ve paslanmaz ile alüminyumda kullanımı.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/argon-kaynagi-nedir.html"
+  },
+  "url": "https://www.armaweld.com/blog/argon-kaynagi-nedir.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?",
+      "item": "https://www.armaweld.com/blog/argon-kaynagi-nedir.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Argon kaynağı ile TIG kaynağı aynı şey mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Türkiye'de \"argon kaynağı\" denilen yöntem, teknik adıyla TIG (Tungsten Inert Gas) kaynağıdır ve EN ISO 4063'te 141 numarasıyla tanımlanır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Argon kaynağında hangi gaz kullanılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çoğunlukla saf argon (EN ISO 14175 I1) kullanılır. Kalın alüminyum ve bakırda ısı girdisini artırmak için argon-helyum karışımları tercih edilebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Alüminyum argon kaynağı AC mi DC mi yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alüminyum, yüzeyindeki oksit tabakasını temizleyen temizleme etkisi nedeniyle genellikle alternatif akımla (AC) kaynak yapılır. Çelik ve paslanmaz çelikte doğru akım (DC, elektrot negatif) kullanılır."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_n26_tig_breadcrumb3">Argon Kaynağı (TIG)</span></div>
+    <div class="article-tag" data-i18n="blog_n26_tig_tag">Kaynak Teknolojisi</div>
+    <h1 data-i18n="blog_n26_tig_h1">Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-09-03">2026-09-03</time></span>
+      <span data-i18n="blog_n26_tig_read">9 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_n26_tig_body">
+<p>Türkiye'de halk arasında <strong>argon kaynağı</strong> olarak bilinen yöntemin teknik adı <strong>TIG kaynağıdır</strong> (Tungsten Inert Gas; Almanca kaynaklarda WIG). <span class="tag-inline">EN ISO 4063</span>'te 141 numarasıyla tanımlanır. Ark, erimeyen bir tungsten elektrot ile iş parçası arasında oluşur; kaynak banyosu argon gazıyla korunur.</p>
+<p>TIG, sıçrantısız, temiz ve görsel olarak kusursuz dikişler verdiği için paslanmaz çelik, alüminyum, ince sac ve kritik kök pasolarında ilk tercihtir.</p>
+
+<h2>Argon Kaynağı Nasıl Çalışır?</h2>
+<ul>
+<li><strong>Tungsten elektrot:</strong> Arkı oluşturur ama erimez. Bu nedenle elektrot ile dolgu metali birbirinden bağımsızdır.</li>
+<li><strong>Dolgu çubuğu:</strong> Gerekirse kaynakçı tarafından elle (veya otomatik tel besleme ile) banyoya eklenir. İnce saclarda dolgusuz da kaynak yapılabilir.</li>
+<li><strong>Koruyucu gaz:</strong> Genellikle saf argon (EN ISO 14175 I1). Kalın alüminyum ve bakırda argon-helyum karışımları kullanılır.</li>
+<li><strong>Akım türü:</strong> Çelik ve paslanmaz çelikte doğru akım (DC, elektrot negatif); alüminyum ve magnezyumda oksit tabakasını temizlemek için alternatif akım (AC).</li>
+</ul>
+
+<h2>Tungsten Elektrot Seçimi</h2>
+<table class="data-table">
+<thead><tr><th>Tip</th><th>Renk Kodu</th><th>Kullanım</th></tr></thead>
+<tbody>
+<tr><td>WC20 (seryumlu)</td><td>Gri</td><td>DC ve AC, genel amaçlı; toryumlu elektrota yaygın alternatif</td></tr>
+<tr><td>WL15 / WL20 (lantanlı)</td><td>Altın / Mavi</td><td>DC ve AC, kolay ark başlatma, uzun ömür</td></tr>
+<tr><td>WZ8 (zirkonyumlu)</td><td>Beyaz</td><td>AC, alüminyum kaynağı</td></tr>
+<tr><td>WT20 (toryumlu)</td><td>Kırmızı</td><td>DC; radyoaktif içerik nedeniyle kullanımı giderek azalıyor</td></tr>
+</tbody>
+</table>
+<p>DC kaynakta elektrot ucu sivri, AC kaynakta ise küt veya hafif yuvarlatılmış hazırlanır.</p>
+
+<h2>Argon Kaynağı Nasıl Yapılır? Temel Adımlar</h2>
+<ol>
+<li><strong>Yüzey hazırlığı:</strong> Yağ, boya, pas ve oksit tamamen temizlenir. Paslanmazda ayrı fırça ve aparat kullanılır.</li>
+<li><strong>Parametre ayarı:</strong> Akım türü, amper (kabaca her 1 mm kalınlık için 30–40 A) ve gaz debisi (genellikle 6–12 l/dk) ayarlanır.</li>
+<li><strong>Ark başlatma:</strong> Elektrot iş parçasına değdirilmeden yüksek frekans (HF) veya lift-arc ile ark başlatılır.</li>
+<li><strong>Kaynak:</strong> Torç 70–80° açıyla tutulur, dolgu çubuğu banyonun ön kenarından eklenir; çubuk ucu gaz koruması dışına çıkarılmaz.</li>
+<li><strong>Bitiş:</strong> Akım kademeli düşürülerek krater kapatılır, gaz bir süre daha akmaya devam eder (post-flow).</li>
+</ol>
+<div class="callout"><p><strong>Paslanmazda önemli:</strong> Kökün arka yüzü de oksitlenmeye karşı argon veya formier gazla korunmalıdır (kök koruma). Aksi halde kökte renklenme ve korozyon direncinde kayıp oluşur. Ayrıntılar: <a href="tig-paslanmaz-celik.html">paslanmaz çelikte TIG kaynağı</a>.</p></div>
+
+<h2>Avantajlar ve Dezavantajlar</h2>
+<table class="data-table">
+<thead><tr><th>Avantajlar</th><th>Dezavantajlar</th></tr></thead>
+<tbody>
+<tr><td>Sıçrantısız, temiz ve estetik dikiş</td><td>Düşük kaynak hızı ve yığma oranı</td></tr>
+<tr><td>Isı girdisinin hassas kontrolü</td><td>Yüksek kaynakçı becerisi gerektirir</td></tr>
+<tr><td>Çok geniş malzeme yelpazesi</td><td>Rüzgâra ve kirliliğe hassastır</td></tr>
+<tr><td>Cüruf ve taşlama ihtiyacı yok</td><td>Kalın kesitlerde maliyetli</td></tr>
+</tbody>
+</table>
+
+<h2>Argon Kaynağı Nerelerde Kullanılır?</h2>
+<ul>
+<li>Paslanmaz çelik tanklar, gıda ve ilaç ekipmanları, hijyenik borulama</li>
+<li><a href="aluminyum-kaynak.html">Alüminyum</a> gövde, şase ve panel imalatı</li>
+<li>Basınçlı kap ve boru hatlarında kök pasoları</li>
+<li>İnce sac, hassas makine parçaları ve görünür yüzeyler</li>
+<li>Titanyum, bakır ve nikel alaşımları</li>
+</ul>
+<p>Kalın kesit ve yüksek hızın önemli olduğu işlerde ise genellikle <a href="gazalti-kaynagi-nedir.html">gazaltı (MIG/MAG) kaynağı</a> tercih edilir. Tüm yöntemleri karşılaştırmak için <a href="kaynak-cesitleri.html">kaynak çeşitleri</a> yazımıza bakabilirsiniz.</p>
+</div>
+
+<div data-i18n-html="blog_n26_tig_faq">
+<h2>Sık Sorulan Sorular</h2>
+<div class="faq-item"><h3>Argon kaynağı ile TIG kaynağı aynı şey mi?</h3><p>Evet. Türkiye&#x27;de &quot;argon kaynağı&quot; denilen yöntem, teknik adıyla TIG (Tungsten Inert Gas) kaynağıdır ve EN ISO 4063&#x27;te 141 numarasıyla tanımlanır.</p></div>
+<div class="faq-item"><h3>Argon kaynağında hangi gaz kullanılır?</h3><p>Çoğunlukla saf argon (EN ISO 14175 I1) kullanılır. Kalın alüminyum ve bakırda ısı girdisini artırmak için argon-helyum karışımları tercih edilebilir.</p></div>
+<div class="faq-item"><h3>Alüminyum argon kaynağı AC mi DC mi yapılır?</h3><p>Alüminyum, yüzeyindeki oksit tabakasını temizleyen temizleme etkisi nedeniyle genellikle alternatif akımla (AC) kaynak yapılır. Çelik ve paslanmaz çelikte doğru akım (DC, elektrot negatif) kullanılır.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_n26_tig_cta_h3">Paslanmaz ve Alüminyum İşleriniz İçin</h3>
+      <p data-i18n="blog_n26_tig_cta_p">TIG kaynağı gerektiren paslanmaz ve alüminyum parçalarınız için teklif alın.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_n26_tig_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="tig-paslanmaz-celik.html" data-i18n="blog_tig_h1">TIG Kaynak ile Paslanmaz Çelik İşleme: 304 ve 316L Alaşımları</a></li>
+        <li><a href="aluminyum-kaynak.html" data-i18n="blog_alum_h1">Alüminyum Kaynak Zorlukları: 5083 ve 6061 Alaşımlarında Uygulama Rehberi</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Kaynak Çeşitleri: Endüstride Kullanılan Kaynak Yöntemleri ve Farkları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
+<script src="../assets/chrome.js?v=202606162"></script>
+<script src="../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>

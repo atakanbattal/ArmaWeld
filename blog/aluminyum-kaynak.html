@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_alum_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_alum_meta_desc" content="" />
+<title data-i18n="blog_alum_title_tag">Alüminyum Kaynak Zorlukları: 5083 ve 6061 Alaşımlarında Uygulama Rehberi | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_alum_meta_desc" content="Alüminyum kaynağında oksit tabakası ve gözenek önleme, 5083 vs 6061 karşılaştırması, ön temizlik, TIG vs MIG ve dolgu teli seçimi." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/aluminyum-kaynak.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_alum_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_alum_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_alum_og_title" content="Alüminyum Kaynak: 5083 ve 6061 Rehberi | ArmaWeld" />
+  <meta property="og:description" data-i18n="blog_alum_meta_desc" content="Alüminyum kaynağında oksit tabakası ve gözenek önleme, 5083 vs 6061 karşılaştırması, ön temizlik, TIG vs MIG ve dolgu teli seçimi." />
   <meta property="og:url" content="https://www.armaweld.com/blog/aluminyum-kaynak.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2025-07-12" />
@@ -67,16 +70,69 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
+  "headline": "Alüminyum Kaynak Zorlukları: 5083 ve 6061 Alaşımlarında Uygulama Rehberi",
+  "description": "Alüminyum kaynağında oksit tabakası ve gözenek önleme, 5083 vs 6061 karşılaştırması, ön temizlik, TIG vs MIG ve dolgu teli seçimi.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2025-07-12",
   "dateModified": "2025-07-12",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
-  "url": "https://www.armaweld.com/blog/aluminyum-kaynak.html"
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/aluminyum-kaynak.html"
+  },
+  "url": "https://www.armaweld.com/blog/aluminyum-kaynak.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Malzeme Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Alüminyum Kaynak Zorlukları: 5083 ve 6061 Alaşımlarında Uygulama Rehberi",
+      "item": "https://www.armaweld.com/blog/aluminyum-kaynak.html"
+    }
+  ]
 }
 </script>
   <!-- Google tag (gtag.js) -->
@@ -96,13 +152,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_alum_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_alum_tag"></div>
-    <h1 data-i18n="blog_alum_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_alum_breadcrumb3">Alüminyum Kaynağı</span></div>
+    <div class="article-tag" data-i18n="blog_alum_tag">Malzeme Teknolojisi</div>
+    <h1 data-i18n="blog_alum_h1">Alüminyum Kaynak Zorlukları: 5083 ve 6061 Alaşımlarında Uygulama Rehberi</h1>
     <div class="article-meta">
       <span>2025-07-12</span>
-      <span data-i18n="blog_alum_read"></span>
-      <span data-i18n="blog_alum_author"></span>
+      <span data-i18n="blog_alum_read">8 dk okuma</span>
+      <span data-i18n="blog_alum_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -110,17 +166,38 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_alum_s0"></div>
-    <div data-i18n-html="blog_alum_s1"></div>
-    <div data-i18n-html="blog_alum_s2"></div>
-    <div data-i18n-html="blog_alum_s3"></div>
-    <div data-i18n-html="blog_alum_s4"></div>
+    <div data-i18n-html="blog_alum_s0">
+<p>Alüminyum kaynağı, çelik kaynağından köklü biçimde farklı teknik gereklilikler içerir. Düşük erime noktası (660°C), yüksek termal iletkenlik, yüzey oksit tabakası (Al₂O₃, erime noktası ~2050°C) ve hidrojen gözeneklilik hassasiyeti ana zorlukları oluşturur.</p><p>Endüstriyel alüminyum alaşımları içinde 5xxx serisi (5083, 5754 — Al-Mg) ve 6xxx serisi (6061, 6082 — Al-Mg-Si) en yaygın kaynak uygulamalarını kapsar. Bu iki grup farklı kaynak kabiliyetine ve dolgu teli gereksinimlerine sahiptir.</p>
+    </div>
+    <div data-i18n-html="blog_alum_s1">
+<h2>5083 ve 6061 Karşılaştırması</h2><table class="data-table"><thead><tr><th>Özellik</th><th>EN AW-5083 (Al-Mg4,5Mn)</th><th>EN AW-6061-T6 (Al-Mg1Si)</th></tr></thead><tbody><tr><td>Akma Dayanımı</td><td>~145 MPa (H111)</td><td>~276 MPa (T6 temperli)</td></tr><tr><td>Kaynak Kabiliyeti</td><td>Mükemmel</td><td>İyi (HAZ mukavemet kaybı var)</td></tr><tr><td>HAZ Mukavemet Kaybı</td><td>Minimal</td><td>Belirgin (%40'a kadar)</td></tr><tr><td>Çatlama Hassasiyeti</td><td>Düşük</td><td>Sıcak çatlama riski yüksek (ER4043 ile azaltılır)</td></tr><tr><td>Önerilen Dolgu Teli</td><td>ER5356</td><td>ER4043 veya ER5356</td></tr><tr><td>Tipik Uygulama</td><td>Deniz yapıları, basınçlı kap, kriyo tank</td><td>Yapısal profil, makine parçası, otomotiv</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_alum_s2">
+<h2>Oksit Temizliği ve Gözenek Önleme</h2><p>Alüminyum yüzeyindeki Al₂O₃ tabakası ana metalin erime noktasının üç katı sıcaklıkta erir. TIG kaynağında AC akım bu tabakayı katodik temizleme (cleaning action) ile giderir; MIG kaynağında ise uygun kaynak öncesi mekanik veya kimyasal temizlik zorunludur.</p><p>Gözenek oluşumunun başlıca nedenleri:</p><ul><li>Yüzey nemi ve yağ (kaynak öncesi aseton silme zorunludur)</li><li>Koruyucu gaz kalitesi (%99,998 saflıkta Argon)</li><li>Tel veya yüzey üzerindeki hidroksit kalıntıları</li><li>Yüksek kaynak hızı ile yetersiz gaz koruması</li></ul><div class="callout"><p><strong>Kritik önlem:</strong> Alüminyum kaynak teli, kullanımdan hemen önce ambalajından çıkarılmalıdır. Depoda nem alan tel gözenek riskini dramatik biçimde artırır.</p></div>
+    </div>
+    <div data-i18n-html="blog_alum_s3">
+<h2>TIG mi MIG mi? Proses Seçimi</h2><p>Alüminyum için proses seçimi kalınlık ve görünüm gereksinimlerine göre yapılır:</p><ul><li><strong>TIG (141) — Tercih:</strong> ≤ 6 mm, hassas kök pasoları, estetik görünüm gereken uygulamalar, basınçlı kapların kritik dikişleri. AC-TIG, yüzey temizleme etkisiyle mükemmel dikiş kalitesi verir.</li><li><strong>MIG (131) — Tercih:</strong> > 6 mm, yüksek yığma oranı gereken yapısal uygulamalar, seri üretim. Pulse-MIG ile sıçrama minimize edilir.</li></ul><p>Dolgu teli seçiminde temel kural: <span class="tag-inline">ER4043</span> (düşük erime, iyi akışkanlık, az çatlama — 6xxx serisi için) veya <span class="tag-inline">ER5356</span> (yüksek mukavemet, korozyon direnci — 5xxx ve deniz uygulamaları için).</p>
+    </div>
+    <div data-i18n-html="blog_alum_s4">
+<h2>ArmaWeld Alüminyum Kaynak Yetkinliği</h2><p>ArmaWeld, EN ISO 9606-2 (FM21 ve FM22 malzeme grupları) kapsamında sertifikalı kaynakçılarla alüminyum kaynak hizmeti vermektedir. Kaynak prosedürleri EN ISO 15614-2 kapsamında onaylı WPQR'a dayanmaktadır. Alüminyum imalatı için karbon çelik kontaminasyonunu sıfıra indirmek amacıyla fiziksel olarak ayrılmış üretim tesisi bölümü, ayrı takım setleri ve renk kodlu ekipman uygulanmaktadır. Kabul kriteri EN ISO 10042 B sınıfıdır.</p>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_alum_cta_h3"></h3>
-      <p data-i18n="blog_alum_cta_p"></p>
-      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_alum_cta_btn"></a>
+      <h3 data-i18n="blog_alum_cta_h3">Alüminyum Yapı veya Konstrüksiyon Projeniz</h3>
+      <p data-i18n="blog_alum_cta_p">Alaşım, kalınlık ve uygulama gereksinimleri paylaşıldığında uygun WPS ve dolgu teli önerisi teklif paketine eklenir.</p>
+      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_alum_cta_btn">Teklif İste →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">Gazaltı Kaynağı (MIG/MAG) Nedir? Çalışma Prensibi, Ayarları ve Kullanım Alanları</a></li>
+        <li><a href="argon-kaynagi-nedir.html" data-i18n="blog_n26_tig_h1">Argon Kaynağı (TIG) Nedir? Nasıl Yapılır, Nerelerde Kullanılır?</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Kaynak Çeşitleri: Endüstride Kullanılan Kaynak Yöntemleri ve Farkları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
@@ -128,8 +205,8 @@
 
   </div>
 </section>
-<script src="../assets/lang/tr.js?v=202606122"></script>
-<script src="../assets/i18n.js?v=202606122"></script>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610032"></script>
 <script src="../assets/chrome.js?v=202606162"></script>
 <script src="../assets/analytics.js?v=20260526"></script>
 <script>mountChrome('blog', '../');</script>
