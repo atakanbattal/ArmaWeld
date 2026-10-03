@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_pwht_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_pwht_meta_desc" content="" />
+<title data-i18n="blog_pwht_title_tag">Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_pwht_meta_desc" content="Kaynak sonrası ısıl işlem PWHT nedir, gerilim giderme ve tavlama, EN 13445 ve ASME VIII gereksinimleri, sıcaklık ve süre." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/kaynak-sonrasi-isil-islem-pwht.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_pwht_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_pwht_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_pwht_og_title" content="Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama" />
+  <meta property="og:description" data-i18n="blog_pwht_meta_desc" content="Kaynak sonrası ısıl işlem PWHT nedir, gerilim giderme ve tavlama, EN 13445 ve ASME VIII gereksinimleri, sıcaklık ve süre." />
   <meta property="og:url" content="https://www.armaweld.com/blog/kaynak-sonrasi-isil-islem-pwht.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2026-01-26" />
@@ -67,20 +70,83 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama",
   "description": "Kaynak sonrası ısıl işlem PWHT nedir, gerilim giderme ve tavlama, EN 13445 ve ASME VIII gereksinimleri, sıcaklık ve süre.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2026-01-26",
   "dateModified": "2026-01-26",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynak-sonrasi-isil-islem-pwht.html"
+  },
   "url": "https://www.armaweld.com/blog/kaynak-sonrasi-isil-islem-pwht.html",
   "inLanguage": "tr-TR",
-  "about": [{"@type": "Thing", "name": "PWHT"}, {"@type": "Thing", "name": "Gerilim Giderme"}, {"@type": "Thing", "name": "Tavlama"}]
+  "articleSection": "Isıl İşlem & Kalite",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "PWHT"
+    },
+    {
+      "@type": "Thing",
+      "name": "Gerilim Giderme"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tavlama"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama",
+      "item": "https://www.armaweld.com/blog/kaynak-sonrasi-isil-islem-pwht.html"
+    }
+  ]
 }
 </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
@@ -99,13 +165,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_pwht_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_pwht_tag"></div>
-    <h1 data-i18n="blog_pwht_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_pwht_breadcrumb3">PWHT</span></div>
+    <div class="article-tag" data-i18n="blog_pwht_tag">Isıl İşlem &amp; Kalite</div>
+    <h1 data-i18n="blog_pwht_h1">Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama</h1>
     <div class="article-meta">
       <span>2026-01-26</span>
-      <span data-i18n="blog_pwht_read"></span>
-      <span data-i18n="blog_pwht_author"></span>
+      <span data-i18n="blog_pwht_read">9 dk okuma</span>
+      <span data-i18n="blog_pwht_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -113,21 +179,50 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_pwht_s0"></div>
-    <div data-i18n-html="blog_pwht_s1"></div>
-    <div data-i18n-html="blog_pwht_s2"></div>
-    <div data-i18n-html="blog_pwht_s3"></div>
-    <div data-i18n-html="blog_pwht_s4"></div>
-    <div data-i18n-html="blog_pwht_s5"></div>
-    <div data-i18n-html="blog_pwht_s6"></div>
-    <div data-i18n-html="blog_pwht_s7"></div>
-    <div data-i18n-html="blog_pwht_s8"></div>
+    <div data-i18n-html="blog_pwht_s0">
+<p><strong>PWHT (Post Weld Heat Treatment — Kaynak Sonrası Isıl İşlem)</strong>, kaynaklanan parçanın belirli bir sıcaklığa ısıtılıp kontrollü soğutulması sürecidir. Amaç: kaynak gerilmelerini gidermek, mikroyapıyı dengelemek ve hidrojeni difüze ederek soğuk çatlak riskini ortadan kaldırmak.</p>
+    </div>
+    <div data-i18n-html="blog_pwht_s1">
+<h2>Neden PWHT Yapılır?</h2><ul><li><strong>Gerilim giderme:</strong> Kalıcı çekme gerilmeleri PWHT ile %80'e kadar azaltılır.</li><li><strong>Hidrojen difüzyonu:</strong> Diffüzible hidrojen ısıl işlemde difüze olur ve uzaklaşır.</li><li><strong>HAZ tokluk artışı:</strong> Sertleşmiş HAZ temperlenir, charpy değerleri iyileşir.</li><li><strong>Boyutsal stabilite:</strong> İç gerilmeler azaltılarak servis deformasyonu önlenir.</li><li><strong>Korozyon dayanımı:</strong> Paslanmaz çeliklerde sensitizasyon önlenir.</li></ul>
+    </div>
+    <div data-i18n-html="blog_pwht_s2">
+<h2>Hangi Durumlarda Zorunlu?</h2><table class="data-table"><thead><tr><th>Standart</th><th>PWHT Gereksinimi</th></tr></thead><tbody><tr><td>EN 13445 (basınçlı kap)</td><td>Karbon çelikte t > 35 mm; düşük alaşımlı çelikte t > 19 mm</td></tr><tr><td>EN 13480 (proses borulaması)</td><td>P-No 1 grup için 19 mm; P-No 4–6 için 13 mm</td></tr><tr><td>ASME VIII Div 1</td><td>Karbon çeliği t > 38 mm</td></tr><tr><td>API 650 (depolama tankı)</td><td>Genelde 38 mm üstü</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_pwht_s3">
+<h2>PWHT Sıcaklık ve Süresi</h2><table class="data-table"><thead><tr><th>Çelik Sınıfı</th><th>Sıcaklık (°C)</th><th>Süre Kuralı</th></tr></thead><tbody><tr><td>P-No 1 (S235, S355)</td><td>580–620</td><td>1 saat / 25 mm, min 30 dk</td></tr><tr><td>P-No 3 (1.25Cr-0.5Mo)</td><td>620–680</td><td>1 saat / 25 mm</td></tr><tr><td>P-No 4 (2.25Cr-1Mo)</td><td>680–720</td><td>1 saat / 25 mm</td></tr><tr><td>P-No 6 (12-13Cr martenzitik)</td><td>720–780</td><td>2 saat min</td></tr><tr><td>P-No 8 (304L/316L)</td><td>1010–1100 (çözeltileme)</td><td>Kalınlığa göre</td></tr></tbody></table><div class="callout"><p><strong>S690QL ve S960QL:</strong> Bu QT çeliklerde PWHT genellikle <strong>YASAKTIR</strong>. Tempereleme sıcaklığının üzerine çıkıldığında akma dayanımı geri dönüşsüz düşer.</p></div>
+    </div>
+    <div data-i18n-html="blog_pwht_s4">
+<h2>Isıtma ve Soğutma Hızları</h2><ul><li><strong>Isıtma hızı (300°C üstü):</strong> Maksimum 220°C/saat × (25 / t)</li><li><strong>Tutma sıcaklığı toleransı:</strong> ±20°C (genel)</li><li><strong>Soğutma hızı (300°C üstü):</strong> Maksimum 275°C/saat × (25 / t)</li><li><strong>300°C altında:</strong> Serbest hava soğutması</li></ul>
+    </div>
+    <div data-i18n-html="blog_pwht_s5">
+<h2>Isıtma Yöntemleri</h2><ul><li><strong>Ocak (furnace):</strong> En homojen, küçük-orta parçalar için ideal</li><li><strong>Endüksiyon:</strong> Boru çevresel kaynakları için yaygın</li><li><strong>Resistans bant:</strong> Lokal kaynaklarda, ekonomik</li><li><strong>Gaz brülörü:</strong> Saha onarımları, sıcaklık kontrolü zor</li></ul>
+    </div>
+    <div data-i18n-html="blog_pwht_s6">
+<h2>Termoçift Yerleşimi</h2><ul><li>Minimum 2 termoçift (giriş/çıkış kontrolü)</li><li>Cidar kalınlığı > 50 mm: iç ve dış yüzeyde ayrı</li><li>Yerel ısıtmada: dikiş hattı + 2× cidar kalınlığı uzaklıkta kontrol noktaları</li><li>Termoçift kayıt cihazına bağlanır; tüm grafikler saklanır (10 yıl)</li></ul>
+    </div>
+    <div data-i18n-html="blog_pwht_s7">
+<h2>Yerel Isıtma Bant Genişliği</h2><ul><li><strong>Heated band:</strong> 5 × R<sub>i</sub> × t</li><li><strong>Soaked band:</strong> Heated band'in iç yarısı</li><li><strong>Gradient control band:</strong> Heated band'in dışında 2,5 × R<sub>i</sub> × t kadar izole alan</li></ul>
+    </div>
+    <div data-i18n-html="blog_pwht_s8">
+<h2>Yaygın Hatalar</h2><ul><li>Yetersiz tutma süresi</li><li>Çok hızlı soğutma</li><li>Termoçift eksikliği veya hatalı yerleşimi</li><li>Yerel ısıtmada yetersiz bant genişliği</li><li>S690QL / S960QL'de uygulama (YASAK)</li></ul><h2>PWHT Sonrası Doğrulama</h2><ul><li>Sertlik testi (HV10)</li><li>NDT: PT/MT ile yeni çatlak kontrolü</li><li>Boyutsal kontrol: distorsiyon mu oldu?</li></ul><div class="callout"><p><strong>ArmaWeld kapsamı:</strong> 8 m × 3 m × 3 m ölçülerine kadar parçalar için ocak PWHT. EN 13445 ve ASME VIII kapsamında ısıl işlem süreç şeması ve sıcaklık kayıtları sunulur.</p></div>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_pwht_cta_h3"></h3>
-      <p data-i18n="blog_pwht_cta_p"></p>
-      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_pwht_cta_btn"></a>
+      <h3 data-i18n="blog_pwht_cta_h3">PWHT ve Gerilim Giderme Hizmeti</h3>
+      <p data-i18n="blog_pwht_cta_p">Kaynak sonrası ısıl işlem planlama ve uygulama konularında mühendislik desteği alın.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_pwht_cta_btn">İletişime Geçin →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2>İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynakta-dijital-izlenebilirlik.html">Kaynakta Dijital İzlenebilirlik: Kaynak Verisi İzleme ve Akıllı Kalite Kontrol</a></li>
+        <li><a href="kaynak-hatalari-onarim.html">Kaynak Hataları ve Onarım Yöntemleri</a></li>
+        <li><a href="kaynak-kalite-kontrol.html">Kaynaklı İmalatta Kalite Kontrol: VT, NDT ve İzlenebilirlik</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>

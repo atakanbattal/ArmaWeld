@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_saw_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_saw_meta_desc" content="" />
+<title data-i18n="blog_saw_title_tag">SAW (Tozaltı Kaynağı): Kalın Kesit Uygulamaları ve Parametre Optimizasyonu | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_saw_meta_desc" content="SAW prosesi, parametre tablosu (akım/voltaj/hız/toz), derin nüfuziyet avantajları, sınırlamalar ve ağır yapılardaki uygulamalar." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/saw-tozalti-kaynagi.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_saw_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_saw_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_saw_og_title" content="SAW Tozaltı Kaynağı: Kalın Kesit ve Parametre Optimizasyonu | ArmaWeld" />
+  <meta property="og:description" data-i18n="blog_saw_meta_desc" content="SAW prosesi, parametre tablosu (akım/voltaj/hız/toz), derin nüfuziyet avantajları, sınırlamalar ve ağır yapılardaki uygulamalar." />
   <meta property="og:url" content="https://www.armaweld.com/blog/saw-tozalti-kaynagi.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2025-06-20" />
@@ -67,16 +70,69 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
+  "headline": "SAW (Tozaltı Kaynağı): Kalın Kesit Uygulamaları ve Parametre Optimizasyonu",
+  "description": "SAW prosesi, parametre tablosu (akım/voltaj/hız/toz), derin nüfuziyet avantajları, sınırlamalar ve ağır yapılardaki uygulamalar.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2025-06-20",
   "dateModified": "2025-06-20",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
-  "url": "https://www.armaweld.com/blog/saw-tozalti-kaynagi.html"
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/saw-tozalti-kaynagi.html"
+  },
+  "url": "https://www.armaweld.com/blog/saw-tozalti-kaynagi.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "SAW (Tozaltı Kaynağı): Kalın Kesit Uygulamaları ve Parametre Optimizasyonu",
+      "item": "https://www.armaweld.com/blog/saw-tozalti-kaynagi.html"
+    }
+  ]
 }
 </script>
   <!-- Google tag (gtag.js) -->
@@ -96,13 +152,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_saw_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_saw_tag"></div>
-    <h1 data-i18n="blog_saw_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_saw_breadcrumb3">SAW Tozaltı Kaynağı</span></div>
+    <div class="article-tag" data-i18n="blog_saw_tag">Kaynak Teknolojisi</div>
+    <h1 data-i18n="blog_saw_h1">SAW (Tozaltı Kaynağı): Kalın Kesit Uygulamaları ve Parametre Optimizasyonu</h1>
     <div class="article-meta">
       <span>2025-06-20</span>
-      <span data-i18n="blog_saw_read"></span>
-      <span data-i18n="blog_saw_author"></span>
+      <span data-i18n="blog_saw_read">7 dk okuma</span>
+      <span data-i18n="blog_saw_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -110,17 +166,38 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_saw_s0"></div>
-    <div data-i18n-html="blog_saw_s1"></div>
-    <div data-i18n-html="blog_saw_s2"></div>
-    <div data-i18n-html="blog_saw_s3"></div>
-    <div data-i18n-html="blog_saw_s4"></div>
+    <div data-i18n-html="blog_saw_s0">
+<p>Tozaltı kaynağı (SAW — Submerged Arc Welding, ISO 4063 Proses 121), ark'ın granüler toz örtüsü altında gizlendiği yüksek yığma hızlı bir otomatik kaynak yöntemidir. Yüksek akım kapasitesi, derin nüfuziyet ve mükemmel mekanik özellikler sayesinde kalın kesitli yapısal elemanlar, basınçlı kaplar ve köprü kirişleri için tercih edilen prosestir.</p><p>SAW, insan faktörünü minimuma indirdiğinden ve kaynak parametreleri kesin olarak kayıt altına alındığından EN ISO 3834-2 kalite sistemiyle mükemmel uyum sağlar.</p>
+    </div>
+    <div data-i18n-html="blog_saw_s1">
+<h2>SAW Parametre Tablosu</h2><table class="data-table"><thead><tr><th>Parametre</th><th>Tipik Aralık</th><th>Etkisi</th></tr></thead><tbody><tr><td>Kaynak Akımı (A)</td><td>300–1200 A (DC veya AC)</td><td>Nüfuziyet ve yığma hızını doğrudan etkiler</td></tr><tr><td>Ark Gerilimi (V)</td><td>26–42 V</td><td>Dikiş genişliği ve toz erimesini belirler</td></tr><tr><td>Kaynak Hızı (cm/dk)</td><td>30–120 cm/dk</td><td>Isı girdisi ve dikiş geometrisini etkiler</td></tr><tr><td>Tel Çapı (mm)</td><td>2,0 – 6,0 mm</td><td>Büyük çap = yüksek akım kapasitesi</td></tr><tr><td>Tel Besleme Hızı (m/dk)</td><td>0,5 – 3,0 m/dk</td><td>Akımla bağlantılı; yığma hızını belirler</td></tr><tr><td>Toz Tipi</td><td>Bazik, asidik veya nötr</td><td>Mekanik özellikler ve cüruf karakterini etkiler</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_saw_s2">
+<h2>Avantajlar ve Sınırlamalar</h2><p><strong>Avantajları:</strong></p><ul><li>Çok yüksek yığma hızı (5–20 kg/saat) — MAG'ın 3–5 katı</li><li>Derin nüfuziyet — tek paso kalın kesit mümkün</li><li>Ark açık havaya maruz kalmadığından UV radyasyon ve duman minimumdur</li><li>Mükemmel mekanik özellikler (özellikle bazik toz ile)</li><li>Tam otomasyon uyumluluğu</li></ul><p><strong>Sınırlamaları:</strong></p><ul><li>Yalnızca yatay (PA) ve yatay köşe (PB) pozisyonlarda uygulanabilir</li><li>Toz yönetimi gerektirir — geri dönüşüm ve nem kontrolü</li><li>Kısa dikişler için ekonomik değil (setup süresi uzun)</li><li>İnce saclarda (≤ 6 mm) aşırı nüfuziyet riski</li></ul>
+    </div>
+    <div data-i18n-html="blog_saw_s3">
+<h2>Uygulama Alanları</h2><p>SAW'ın ideal olduğu yapısal uygulamalar:</p><ul><li><strong>Basınçlı Kaplar:</strong> Silindirik gövde uzunlamasına ve çevre dikişleri; 20–80 mm kalınlık aralığında tek veya çift taraflı</li><li><strong>Köprü Kirişleri:</strong> Flanş-gövde (web-flange) T-birleştirme dikişleri; yüksek yığma ve iz bırakmayan dikiş</li><li><strong>Ağır Makine Şaseleri:</strong> Kalın levha alın kaynakları</li><li><strong>Boru Üretimi:</strong> Spiral veya uzunlamasına dikiş boru imalatı</li></ul><div class="callout"><p><strong>Isı Girdisi Notu:</strong> SAW'da yüksek akım nedeniyle ısı girdisi 3–8 kJ/mm olabilir. Yüksek mukavemetli çelikler (S690QL vb.) için maksimum ısı girdisi aşılmaması WPS'de açıkça belirtilmelidir.</p></div>
+    </div>
+    <div data-i18n-html="blog_saw_s4">
+<h2>ArmaWeld SAW Kapasitesi</h2><p>ArmaWeld tozaltı kaynak hattı; 1200 A DC kaynak kaynağı, otomatik tel besleme ünitesi ve toz geri dönüşüm sistemi ile donatılmıştır. Sistemin çalışma zarfı: 6–80 mm arası çelik, PA ve PB pozisyonlarında, maks. 6 m dikiş uzunluğu. SAW ile üretilen her bileşen için ısı girdisi, akım, voltaj ve kaynak hızı otomatik kayıt altına alınır ve WPS ile karşılaştırılır.</p>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_saw_cta_h3"></h3>
-      <p data-i18n="blog_saw_cta_p"></p>
-      <a href="../kaynak-yontemleri.html" class="btn-arc" data-i18n="blog_saw_cta_btn"></a>
+      <h3 data-i18n="blog_saw_cta_h3">Kalın Kesitli Yapılarınız İçin SAW Kapasitesi</h3>
+      <p data-i18n="blog_saw_cta_p">Basınçlı kap, kiriş veya ağır konstrüksiyon projeleri teknik değerlendirme ile ele alınır.</p>
+      <a href="../kaynak-yontemleri.html" class="btn-arc" data-i18n="blog_saw_cta_btn">Teklif İste →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2>İlgili Makaleler</h2>
+      <ul>
+        <li><a href="koruyucu-gaz-secimi-mig-mag.html">MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar</a></li>
+        <li><a href="on-isitma-hesaplama.html">Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B</a></li>
+        <li><a href="kaynak-distorsiyonu.html">Kaynak Distorsiyonu: Önleme ve Düzeltme Yöntemleri</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>

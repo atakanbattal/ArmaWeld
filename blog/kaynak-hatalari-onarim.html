@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_kaynak_hatalari_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_kaynak_hatalari_meta_desc" content="" />
+<title data-i18n="blog_kaynak_hatalari_title_tag">Kaynak Hataları ve Onarım Yöntemleri | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_kaynak_hatalari_meta_desc" content="Kaynak hataları EN ISO 6520-1 sınıflandırması, EN ISO 5817 kabul kriterleri, soğuk çatlak, porozite, eksik nüfuziyet ve onarım stratejileri." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/kaynak-hatalari-onarim.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_kaynak_hatalari_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_kaynak_hatalari_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_kaynak_hatalari_og_title" content="Kaynak Hataları ve Onarım Yöntemleri" />
+  <meta property="og:description" data-i18n="blog_kaynak_hatalari_meta_desc" content="Kaynak hataları EN ISO 6520-1 sınıflandırması, EN ISO 5817 kabul kriterleri, soğuk çatlak, porozite, eksik nüfuziyet ve onarım stratejileri." />
   <meta property="og:url" content="https://www.armaweld.com/blog/kaynak-hatalari-onarim.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2026-04-28" />
@@ -67,20 +70,83 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Kaynak Hataları: Türler, Tespit Yöntemleri ve Onarım",
   "description": "Kaynak hataları, EN ISO 5817 sınıflandırması, gözenek, çatlak, eksik nüfuziyet, yan duvar yetmezliği — hata türleri ve onarım stratejileri.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2026-04-28",
   "dateModified": "2026-04-28",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynak-hatalari-onarim.html"
+  },
   "url": "https://www.armaweld.com/blog/kaynak-hatalari-onarim.html",
   "inLanguage": "tr-TR",
-  "about": [{"@type": "Thing", "name": "Kaynak Hataları"}, {"@type": "Thing", "name": "EN ISO 5817"}, {"@type": "Thing", "name": "NDT"}]
+  "articleSection": "Kalite & NDT",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Kaynak Hataları"
+    },
+    {
+      "@type": "Thing",
+      "name": "EN ISO 5817"
+    },
+    {
+      "@type": "Thing",
+      "name": "NDT"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak Hataları ve Onarım Yöntemleri",
+      "item": "https://www.armaweld.com/blog/kaynak-hatalari-onarim.html"
+    }
+  ]
 }
 </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
@@ -99,13 +165,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_hatalari_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_kaynak_hatalari_tag"></div>
-    <h1 data-i18n="blog_kaynak_hatalari_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_hatalari_breadcrumb3">Kaynak Hataları</span></div>
+    <div class="article-tag" data-i18n="blog_kaynak_hatalari_tag">Kalite &amp; NDT</div>
+    <h1 data-i18n="blog_kaynak_hatalari_h1">Kaynak Hataları ve Onarım Yöntemleri</h1>
     <div class="article-meta">
       <span>2026-04-28</span>
-      <span data-i18n="blog_kaynak_hatalari_read"></span>
-      <span data-i18n="blog_kaynak_hatalari_author"></span>
+      <span data-i18n="blog_kaynak_hatalari_read">11 dk okuma</span>
+      <span data-i18n="blog_kaynak_hatalari_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -113,19 +179,44 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_kaynak_hatalari_s0"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s1"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s2"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s3"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s4"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s5"></div>
-    <div data-i18n-html="blog_kaynak_hatalari_s6"></div>
+    <div data-i18n-html="blog_kaynak_hatalari_s0">
+<p>Kaynak hataları, dikişin mekanik mukavemetini, korozyon dayanımını ve yorulma ömrünü doğrudan etkiler. Modern kaynak kalite yönetiminde hatalar <strong>EN ISO 6520-1</strong> standardı ile sınıflandırılır ve <strong>EN ISO 5817</strong> kapsamında kabul kriterleri belirlenir.</p>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s1">
+<h2>Hata Sınıflandırması (EN ISO 6520-1)</h2><p>Kaynak hataları altı ana grupta toplanır:</p><table class="data-table"><thead><tr><th>Grup</th><th>Hata Türü</th><th>Tipik Örnek</th></tr></thead><tbody><tr><td>1</td><td>Çatlaklar</td><td>Soğuk çatlak, sıcak çatlak, lameller yırtılma</td></tr><tr><td>2</td><td>Boşluklar</td><td>Gözenek (porozite), gaz delikleri</td></tr><tr><td>3</td><td>Katı kalıntılar</td><td>Cüruf kalıntısı, oksit kalıntısı</td></tr><tr><td>4</td><td>Birleşim hataları</td><td>Eksik nüfuziyet, yan duvar yetmezliği</td></tr><tr><td>5</td><td>Şekil hataları</td><td>Çentikli kenar, yetersiz dolgu, sarkma</td></tr><tr><td>6</td><td>Diğer</td><td>Ark sıçraması, ark izleri</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s2">
+<h2>EN ISO 5817 Kabul Sınıfları</h2><p>EN ISO 5817 standardı üç farklı kalite seviyesi tanımlar:</p><ul><li><strong>Sınıf B (yüksek):</strong> Yorulma yüklü yapı, basınçlı kap, savunma sanayi.</li><li><strong>Sınıf C (orta):</strong> Standart yapısal çelik konstrüksiyon, EN 1090 EXC2.</li><li><strong>Sınıf D (düşük):</strong> Düşük yüklü, statik yüklü genel imalat.</li></ul>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s3">
+<h2>1. Soğuk Çatlak (Cold Crack)</h2><p>Soğuk çatlak, kaynak bittikten saatler hatta günler sonra oluşan, hidrojen kaynaklı gecikmiş çatlaktır. Üç koşulun bir arada olması gerekir:</p><ol><li>Difüzible hidrojen (yetersiz kurutma, nemli ortam)</li><li>Yüksek çekme gerilmesi (kalın kesit, kısıtlı bağlantı)</li><li>Çatlamaya duyarlı mikroyapı (martenzit, yüksek karbon eşdeğeri)</li></ol><div class="callout"><p><strong>Önleme:</strong> Ön ısıtma + bazik elektrod + H5 sınıfı sarf + yavaş soğutma. EN ISO 1011-2 Metot B'ye göre hesaplanır.</p></div>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s4">
+<h2>2. Sıcak Çatlak (Hot Crack)</h2><p>Katılaşma sırasında, yüksek sıcaklıkta oluşur. Tipik olarak paslanmaz çeliklerde, alüminyumda ve nikel alaşımlarında karşılaşılır. Sebep: Kükürt, fosfor gibi düşük erime noktalı bileşenlerin tane sınırında segregasyonu.</p><h2>3. Gözenek (Porozite)</h2><p>Kaynak metalinde tutulu kalan gaz boşluklarıdır. Ana sebepleri:</p><ul><li>Yüzey kirliliği (yağ, pas, boya, nem)</li><li>Yetersiz koruyucu gaz akışı veya yanlış gaz seçimi</li><li>Yanlış elektrod açısı veya hızı</li><li>Rüzgar etkisi (saha kaynağında)</li></ul>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s5">
+<h2>4. Eksik Nüfuziyet (Lack of Penetration)</h2><p>Kaynak metalinin kök bölgesine yeterince inememesi durumudur. Kalın kesit kaynaklarında en kritik hatadır. <strong>Tespit:</strong> Ultrasonik (UT) veya radyografik (RT) muayene zorunludur.</p><h2>5. Yan Duvar Yetmezliği (Lack of Side Wall Fusion)</h2><p>Kaynak metali ile ana metal arasındaki erime hattının yetersiz olmasıdır. Genellikle düşük ısı girdisi, hızlı kaynak veya yanlış elektrod açısı sonucu oluşur. UT ve RT ile tespit edilir.</p>
+    </div>
+    <div data-i18n-html="blog_kaynak_hatalari_s6">
+<h2>Hata Tespiti — NDT Yöntemleri</h2><table class="data-table"><thead><tr><th>Yöntem</th><th>Tespit Edilen Hatalar</th><th>Standart</th></tr></thead><tbody><tr><td>VT (Görsel)</td><td>Yüzey çatlağı, gözenek, çentik kenar</td><td>EN ISO 17637</td></tr><tr><td>PT (Penetrant)</td><td>Yüzeye açık çatlak, gözenek</td><td>EN ISO 3452</td></tr><tr><td>MT (Manyetik)</td><td>Yüzey + yüzey altı çatlak (ferromanyetik)</td><td>EN ISO 17638</td></tr><tr><td>UT (Ultrasonik)</td><td>İç hatalar, eksik nüfuziyet, yan duvar yetmezliği</td><td>EN ISO 17640</td></tr><tr><td>RT (Radyografik)</td><td>İç hatalar, gözenek, cüruf, çatlak</td><td>EN ISO 17636</td></tr></tbody></table><h2>Onarım Stratejisi</h2><ol><li><strong>Hata sınırlandırması:</strong> NDT ile boyut ve konum belirlenir.</li><li><strong>Çıkarma:</strong> Karbon ark olukçuğu (gouging), taşlama veya frezelemeyle hatalı bölge kaldırılır.</li><li><strong>NDT kontrol:</strong> Hata tamamen çıkarıldı mı? PT/MT ile doğrulanır.</li><li><strong>Onarım kaynağı:</strong> Aynı veya daha düşük ısı girdisi, ön ısıtma + bazik elektrod.</li><li><strong>Final NDT:</strong> Onarım sonrası tam VT + UT/RT.</li></ol><div class="callout"><p><strong>Pratik kural:</strong> Aynı bölgede 2 onarım sonrası başarısız olunursa parça reddedilir veya komple yeniden imal edilir.</p></div>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_kaynak_hatalari_cta_h3"></h3>
-      <p data-i18n="blog_kaynak_hatalari_cta_p"></p>
-      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_hatalari_cta_btn"></a>
+      <h3 data-i18n="blog_kaynak_hatalari_cta_h3">NDT ve Kaynak Kalite Denetimine mi İhtiyacınız Var?</h3>
+      <p data-i18n="blog_kaynak_hatalari_cta_p">Kaynak hata analizi, NDT planlama ve onarım prosedürü hazırlama konularında destek alın.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_hatalari_cta_btn">İletişime Geçin →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2>İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynakta-dijital-izlenebilirlik.html">Kaynakta Dijital İzlenebilirlik: Kaynak Verisi İzleme ve Akıllı Kalite Kontrol</a></li>
+        <li><a href="kaynak-kalite-kontrol.html">Kaynaklı İmalatta Kalite Kontrol: VT, NDT ve İzlenebilirlik</a></li>
+        <li><a href="kaynak-sonrasi-isil-islem-pwht.html">Kaynak Sonrası Isıl İşlem (PWHT): Gerilim Giderme ve Tavlama</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>

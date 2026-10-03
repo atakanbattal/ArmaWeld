@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_kaynak_pozis_title_tag">ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_kaynak_pozis_meta_desc" content="" />
+<title data-i18n="blog_kaynak_pozis_title_tag">Kaynak Pozisyonları: EN ISO 6947 ve AWS A3.0 Karşılaştırması | ArmaWeld Blog</title>
+  <meta name="description" data-i18n="blog_kaynak_pozis_meta_desc" content="Kaynak pozisyonları PA-PG ve 1G-6G tanımları, EN ISO 6947 ile AWS A3.0 farkları, EN ISO 9606 yetkinlik aralığı ve parametre ayarları." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -18,10 +18,13 @@
   <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
   <link rel="canonical" href="https://www.armaweld.com/blog/kaynak-pozisyonlari.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_kaynak_pozis_og_title" content="" />
-  <meta property="og:description" data-i18n="blog_kaynak_pozis_meta_desc" content="" />
+  <meta property="og:title" data-i18n="blog_kaynak_pozis_og_title" content="Kaynak Pozisyonları: EN ISO 6947 ve AWS A3.0 Karşılaştırması" />
+  <meta property="og:description" data-i18n="blog_kaynak_pozis_meta_desc" content="Kaynak pozisyonları PA-PG ve 1G-6G tanımları, EN ISO 6947 ile AWS A3.0 farkları, EN ISO 9606 yetkinlik aralığı ve parametre ayarları." />
   <meta property="og:url" content="https://www.armaweld.com/blog/kaynak-pozisyonlari.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2026-03-27" />
@@ -67,20 +70,83 @@
   .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
   .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
   .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Kaynak Pozisyonları: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)",
   "description": "Kaynak pozisyonları PA, PB, PC, PD, PE, PF, PG nedir? EN ISO 6947 standardı, plaka ve boru pozisyonları, zorluk dereceleri.",
+  "image": "https://www.armaweld.com/assets/og-image.jpg",
   "datePublished": "2026-03-27",
   "dateModified": "2026-03-27",
-  "author": {"@type": "Organization", "name": "ArmaWeld Mühendislik", "url": "https://www.armaweld.com"},
-  "publisher": {"@id": "https://www.armaweld.com/#organization"},
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynak-pozisyonlari.html"
+  },
   "url": "https://www.armaweld.com/blog/kaynak-pozisyonlari.html",
   "inLanguage": "tr-TR",
-  "about": [{"@type": "Thing", "name": "Kaynak Pozisyonları"}, {"@type": "Thing", "name": "EN ISO 6947"}, {"@type": "Thing", "name": "PG"}]
+  "articleSection": "Kaynak Mühendisliği",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Kaynak Pozisyonları"
+    },
+    {
+      "@type": "Thing",
+      "name": "EN ISO 6947"
+    },
+    {
+      "@type": "Thing",
+      "name": "PG"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak Pozisyonları: EN ISO 6947 ve AWS A3.0 Karşılaştırması",
+      "item": "https://www.armaweld.com/blog/kaynak-pozisyonlari.html"
+    }
+  ]
 }
 </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
@@ -99,13 +165,13 @@
 
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_pozis_breadcrumb3"></span></div>
-    <div class="article-tag" data-i18n="blog_kaynak_pozis_tag"></div>
-    <h1 data-i18n="blog_kaynak_pozis_h1"></h1>
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_pozis_breadcrumb3">Kaynak Pozisyonları</span></div>
+    <div class="article-tag" data-i18n="blog_kaynak_pozis_tag">Kaynak Mühendisliği</div>
+    <h1 data-i18n="blog_kaynak_pozis_h1">Kaynak Pozisyonları: EN ISO 6947 ve AWS A3.0 Karşılaştırması</h1>
     <div class="article-meta">
       <span>2026-03-27</span>
-      <span data-i18n="blog_kaynak_pozis_read"></span>
-      <span data-i18n="blog_kaynak_pozis_author"></span>
+      <span data-i18n="blog_kaynak_pozis_read">7 dk okuma</span>
+      <span data-i18n="blog_kaynak_pozis_author">ArmaWeld Mühendislik</span>
     </div>
   </div>
 </section>
@@ -113,18 +179,41 @@
 <section class="article-wrap">
   <div class="article-body">
 
-    <div data-i18n-html="blog_kaynak_pozis_s0"></div>
-    <div data-i18n-html="blog_kaynak_pozis_s1"></div>
-    <div data-i18n-html="blog_kaynak_pozis_s2"></div>
-    <div data-i18n-html="blog_kaynak_pozis_s3"></div>
-    <div data-i18n-html="blog_kaynak_pozis_s4"></div>
-    <div data-i18n-html="blog_kaynak_pozis_s5"></div>
+    <div data-i18n-html="blog_kaynak_pozis_s0">
+<p>Kaynak pozisyonu, kaynaklanan dikişin yer çekimine göre konumudur. Bir kaynakçının yetkinlik belgesi (EN ISO 9606) ve onaylı WPS (EN ISO 15614) belirli pozisyonları kapsar.</p><div class="callout"><p><strong>EN ISO 6947</strong>, plaka ve boru kaynak pozisyonlarını uluslararası ortak terimlerle tanımlar. ABD'de AWS A3.0 farklı kodlar (1G, 2G, 3G, 4G, 5G, 6G) kullanır.</p></div>
+    </div>
+    <div data-i18n-html="blog_kaynak_pozis_s1">
+<h2>Plaka Pozisyonları</h2><table class="data-table"><thead><tr><th>Pozisyon</th><th>Açıklama</th><th>AWS Karşılığı</th></tr></thead><tbody><tr><td>PA</td><td>Düz pozisyon (yatay), aşağıdan dikiş üst yüzeyde</td><td>1G / 1F</td></tr><tr><td>PB</td><td>Yatay köşe (T birleşim, dikiş 45°)</td><td>2F</td></tr><tr><td>PC</td><td>Yatay alın (parça dikey, dikiş yatay)</td><td>2G</td></tr><tr><td>PD</td><td>Yatay tavan köşe (yukarı bakan T birleşim)</td><td>4F</td></tr><tr><td>PE</td><td>Tavan (parça yatay, dikiş aşağıdan)</td><td>4G</td></tr><tr><td>PF</td><td>Yukarı dikey (aşağıdan yukarı kaynak)</td><td>3G yukarı</td></tr><tr><td>PG</td><td>Aşağı dikey (yukarıdan aşağı kaynak)</td><td>3G aşağı</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_kaynak_pozis_s2">
+<h2>Boru Pozisyonları</h2><table class="data-table"><thead><tr><th>Pozisyon</th><th>Açıklama</th><th>AWS Karşılığı</th></tr></thead><tbody><tr><td>PA (boru)</td><td>Boru yatay, döner — dikiş hep tepe pozisyonda</td><td>1G boru</td></tr><tr><td>PC (boru)</td><td>Boru dikey, sabit — dikiş yatay</td><td>2G boru</td></tr><tr><td>H-L045</td><td>Boru 45°, sabit — kombinasyon pozisyon</td><td>6G</td></tr><tr><td>PF (boru)</td><td>Boru yatay sabit, kaynak yukarı</td><td>5G yukarı</td></tr><tr><td>PG (boru)</td><td>Boru yatay sabit, kaynak aşağı</td><td>5G aşağı</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_kaynak_pozis_s3">
+<h2>Pozisyonlara Göre Zorluk Sıralaması</h2><p>Kolay → Zor:</p><ol><li>PA / PB — yer çekimi yardımcı</li><li>PC — banyo akıcılığı zor</li><li>PF — banyo damlamasını engellemek zor</li><li>PG — banyo cüruf üzerinde gezer</li><li>PD — yer çekimi karşıt</li><li>PE — en zor</li><li>H-L045 (6G) — kombinasyon; tüm pozisyonları içerir</li></ol>
+    </div>
+    <div data-i18n-html="blog_kaynak_pozis_s4">
+<h2>Pozisyona Göre Parametre Ayarı</h2><table class="data-table"><thead><tr><th>Pozisyon</th><th>Akım Ayarı</th><th>Tipik MIG/MAG Transfer</th></tr></thead><tbody><tr><td>PA</td><td>Maksimum (referans)</td><td>Spray, Pulse</td></tr><tr><td>PB</td><td>−5 ila −10%</td><td>Spray, Globular</td></tr><tr><td>PC</td><td>−10 ila −15%</td><td>Pulse, Short-arc</td></tr><tr><td>PF</td><td>−20 ila −25%</td><td>Short-arc, Pulse</td></tr><tr><td>PG</td><td>+5 ila +10% (kayma için)</td><td>Short-arc</td></tr><tr><td>PE</td><td>−25 ila −30%</td><td>Short-arc, Pulse, FCAW</td></tr></tbody></table>
+    </div>
+    <div data-i18n-html="blog_kaynak_pozis_s5">
+<h2>WPS ve EN ISO 9606 Yetkinlik Aralığı</h2><ul><li><strong>PE pozisyonu sınavı</strong> — PA, PB, PC, PD, PE pozisyonlarını kapsar</li><li><strong>PF pozisyonu sınavı</strong> — PA, PB, PF pozisyonlarını kapsar</li><li><strong>PG pozisyonu sınavı</strong> — yalnızca PG pozisyonunu kapsar</li><li><strong>H-L045 pozisyonu (boru sınavı)</strong> — tüm sabit boru pozisyonlarını kapsar</li></ul><div class="callout"><p><strong>Pratik öneri:</strong> Saha ekibi için H-L045 (6G) sınavı en kapsamlı yetkinliği verir. Boru hatları, basınçlı kap ve gemi inşa kaynakçıları genellikle 6G belgelidir.</p></div><h2>Aşağı Dikey (PG) Tartışması</h2><p>PG pozisyonu hızlı uygulama için tercih edilir. Ancak <strong>EN 1090-2 EXC3 ve EXC4 yapısal kaynaklarda PG çoğunlukla yasaktır</strong> — yan duvar yetmezliği riski yüksek olduğu için.</p>
+    </div>
 
     <div class="cta-box">
-      <h3 data-i18n="blog_kaynak_pozis_cta_h3"></h3>
-      <p data-i18n="blog_kaynak_pozis_cta_p"></p>
-      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_pozis_cta_btn"></a>
+      <h3 data-i18n="blog_kaynak_pozis_cta_h3">Kaynakçı Yetkinlik Sınavı ve WPS Desteği</h3>
+      <p data-i18n="blog_kaynak_pozis_cta_p">EN ISO 9606 kaynakçı sınavı organizasyonu ve WPS hazırlama konularında destek alın.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_pozis_cta_btn">İletişime Geçin →</a>
     </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2>İlgili Makaleler</h2>
+      <ul>
+        <li><a href="koruyucu-gaz-secimi-mig-mag.html">MIG/MAG Kaynağında Koruyucu Gaz Seçimi: Argon, CO₂ ve Karışımlar</a></li>
+        <li><a href="on-isitma-hesaplama.html">Kaynak Ön Isıtma Hesaplama: EN ISO 1011-2 Metot A ve B</a></li>
+        <li><a href="kaynak-distorsiyonu.html">Kaynak Distorsiyonu: Önleme ve Düzeltme Yöntemleri</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
 
     <div class="article-footer">
       <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
