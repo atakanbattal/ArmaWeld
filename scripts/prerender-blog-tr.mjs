@@ -119,6 +119,7 @@ function meta(file) {
   return {
     file,
     title: stripTags((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || ''),
+    key: (html.match(/<h1[^>]*data-i18n="([^"]+)"/) || [])[1] || '',
     tag: stripTags((html.match(/<div class="article-tag"[^>]*>([\s\S]*?)<\/div>/) || [])[1] || ''),
     date: (html.match(/article:published_time" content="([^"]+)"/) || [])[1] || '',
   };
@@ -136,9 +137,9 @@ function addRelated(file, all) {
   for (const m of others) { if (pick.length >= 3) break; if (!pick.includes(m)) pick.push(m); }
   const block = `<!-- related:start -->
     <nav class="related" aria-label="İlgili makaleler">
-      <h2>İlgili Makaleler</h2>
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
       <ul>
-${pick.map((m) => `        <li><a href="${m.file}">${escText(m.title)}</a></li>`).join('\n')}
+${pick.map((m) => `        <li><a href="${m.file}"${m.key ? ` data-i18n="${m.key}"` : ''}>${escText(m.title)}</a></li>`).join('\n')}
       </ul>
     </nav>
     <!-- related:end -->
