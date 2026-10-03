@@ -1506,7 +1506,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   blog_card3_read: 'Makaleyi Oku →',
 
   // NDT article
-  blog_ndt_title: 'NDT Yöntemleri Nedir? VT, PT, MT, UT, RT Karşılaştırması | ArmaWeld Blog',
+  blog_ndt_title: 'NDT Nedir? Açılımı ve Yöntemleri (VT, PT, MT, UT, RT) | ArmaWeld Blog',
   blog_ndt_tag: 'NDT · Tahribatsız Muayene',
   blog_ndt_h1: 'NDT Yöntemleri Nedir? VT, PT, MT, UT, RT Karşılaştırması',
   blog_ndt_read: '8 dk okuma',
@@ -1606,8 +1606,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   blog_card15_h2: 'Yapısal Çelik İmalatında Boyutsal Toleranslar: EN ISO 13920 Kılavuzu',
   blog_card15_p: 'EN ISO 13920 tolerans sınıfları, ölçüm yöntemleri ve EN 1090 EXC3 ile ilişkisi.',
   blog_card15_read: 'Makaleyi Oku →',
-  blog_wps_title: 'WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu | ArmaWeld Blog',
-  blog_wps_meta_desc: 'WPS\'in zorunluluk temelleri, içeriği, WPQR ilişkisi ve EN ISO 15614-1 kapsamındaki nitelendirme süreci. ArmaWeld WPS portföyü.',
+  blog_wps_title: 'WPS Nedir? Kaynakta WPS Açılımı ve Hazırlama Kılavuzu | ArmaWeld Blog',
+  blog_wps_meta_desc: 'WPS açılımı Welding Procedure Specification, yani Kaynak Prosedür Şartnamesidir. Kaynakta WPS nedir, neleri içerir, WPQR ilişkisi ve EN ISO 15614-1 süreci.',
   blog_wps_og_title: 'WPS Nedir? Kaynak Prosedür Şartnamesi Kılavuzu | ArmaWeld',
   blog_wps_tag: 'Standartlar & Sertifikasyon',
   blog_wps_h1: 'WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu',
