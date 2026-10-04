@@ -1551,3 +1551,49 @@ body.has-cookie-banner {
     word-break: break-word;
   }
 }
+
+/* ── Mobile overflow guards (2026-10) ──────────────────────────────
+   Grid items default to min-width:auto, so a long select option, a wide
+   table or a big number can push a `1fr` column wider than the phone
+   screen. Letting these items shrink keeps every column inside the viewport. */
+.rfq-layout > *,
+.field-grid > *,
+.field,
+.two-col > *,
+.doc-wrap > *,
+.trace-panel > *,
+.fac-wrap > *,
+.team-stats > *,
+.page-hero-grid > *,
+.page-hero-inner > *,
+.kpi-row > *,
+.fac-stats > *,
+.svc-index > * { min-width: 0; }
+.field select,
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="tel"],
+.field input[type="number"],
+.field textarea { width: 100%; max-width: 100%; min-width: 0; }
+
+@media (max-width: 768px) {
+  /* Cookie banner: in column layout the 320px flex-basis became a 320px
+     height and the banner covered more than half of the screen. */
+  .cookie-banner { gap: 12px; }
+  .cookie-banner__body { flex: 0 0 auto; }
+  .cookie-banner__legal { margin-top: 6px; }
+  .cookie-banner__btn { padding: 11px 12px; }
+
+  /* Two-column spec tables fit the screen; no need for a 520px side-scroll */
+  .table-scroll table.specs-table { min-width: 0; }
+  table.specs-table th, table.specs-table td { padding-left: 10px; padding-right: 10px; }
+  table.specs-table td:first-child { width: 38%; font-size: 12px; }
+  /* Long button labels (DE/ES/FR) may wrap instead of running off-screen */
+  .btn { white-space: normal; text-align: center; max-width: 100%; }
+}
+@media (max-width: 480px) {
+  /* Long German/Spanish words in headings hyphenate instead of overflowing */
+  h1, h2, h3, .display { -webkit-hyphens: auto; hyphens: auto; overflow-wrap: break-word; }
+  /* Two-up stat tiles: long words must break inside the tile */
+  .fac-stat .l, .ts { overflow-wrap: break-word; -webkit-hyphens: auto; hyphens: auto; }
+}

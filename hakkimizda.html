@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="assets/theme.css?v=202606162" />
+<link rel="stylesheet" href="assets/theme.css?v=202610041" />
 <style>
   .page-hero {
     padding: calc(var(--nav-h) + 80px) 0 80px;
@@ -728,6 +728,13 @@
     .team-grid { grid-template-columns: 1fr; }
     .val-grid { grid-template-columns: 1fr; }
     .fac-wrap { grid-template-columns: 1fr; gap: 40px; }
+  }
+  @media (max-width: 480px) {
+    .val { padding: 32px 20px; }
+    .val h3 { font-size: 23px; max-width: none; }
+    .fac-stats { grid-template-columns: 1fr; }
+    .fac-stat { padding: 20px 18px; }
+    .fac-stat .n { font-size: 24px; }
   }
 
   /* ── Görsel kart ───────────────────────────── */
