@@ -9,6 +9,7 @@
     "start:portal": "npm run start --prefix portal"
   },
   "devDependencies": {
+    "cheerio": "^1.2.0",
     "concurrently": "^9.2.1",
     "serve": "^14.2.4"
   }

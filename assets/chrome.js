@@ -132,6 +132,11 @@ function injectNavTypography() {
   document.head.appendChild(style);
 }
 
+// Assets live at the site root; pages under /en/ etc. are one level deeper than their links.
+function assetRoot(base) {
+  return typeof window.AW_ROOT === 'string' ? window.AW_ROOT : (base || '');
+}
+
 function buildNav(activePage, base) {
   const b = base || '';
   const primaryLinks = [
@@ -191,7 +196,7 @@ function buildNav(activePage, base) {
   <nav class="nav">
     <div class="nav-inner">
       <a href="${b}index.html" class="logo" data-i18n-aria="nav_aria_home" aria-label="">
-        <img id="nav-logo" src="${b}assets/${currentTheme === 'dark' ? 'logo-armaweld-dark.svg' : 'logo-armaweld-light.svg'}" alt="ArmaWeld" class="logo-img" width="240" height="23" />
+        <img id="nav-logo" src="${assetRoot(b)}assets/${currentTheme === 'dark' ? 'logo-armaweld-dark.svg' : 'logo-armaweld-light.svg'}" alt="ArmaWeld" class="logo-img" width="240" height="23" />
       </a>
       <div class="nav-desktop">
         <div class="nav-links">
@@ -250,7 +255,7 @@ function buildNav(activePage, base) {
 function buildFooter(base) {
   const b = base || '';
   const currentTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('armaweld-theme') || 'light';
-  const logoSrc = b + 'assets/' + (currentTheme === 'dark' ? 'logo-armaweld-full-dark.svg' : 'logo-armaweld-full-light.svg');
+  const logoSrc = assetRoot(b) + 'assets/' + (currentTheme === 'dark' ? 'logo-armaweld-full-dark.svg' : 'logo-armaweld-full-light.svg');
 
   return `
   <footer class="footer">
@@ -522,7 +527,7 @@ function injectMobileCSS(base) {
   const link = document.createElement('link');
   link.id = 'aw-mobile-css';
   link.rel = 'stylesheet';
-  link.href = (base || '') + 'assets/mobile.css?v=202606191';
+  link.href = assetRoot(base) + 'assets/mobile.css?v=202606191';
   document.head.appendChild(link);
 }
 
