@@ -1,9 +1,13 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
-import { Plus, Pencil } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import { createClient } from '@/lib/supabase/server';
 import { getServerI18n } from '@/lib/i18n/server';
 import type { Customer } from '@/lib/types';
+import {
+  AdminCustomersTable,
+  type CustomerOrderStats,
+} from '@/components/admin/AdminCustomersTable';
 
 export default async function AdminCustomersPage() {
   const { t } = await getServerI18n();
@@ -22,10 +26,18 @@ export default async function AdminCustomersPage() {
 
   if (!staff?.is_admin) redirect('/dashboard');
 
-  const { data: customers } = await supabase
-    .from('customers')
-    .select('*')
-    .order('company_name');
+  const [{ data: customers }, { data: orders }] = await Promise.all([
+    supabase.from('customers').select('*').order('company_name'),
+    supabase.from('orders').select('customer_id, status, created_at'),
+  ]);
+
+  const stats: Record<string, CustomerOrderStats> = {};
+  for (const o of orders ?? []) {
+    const s = (stats[o.customer_id] ??= { total: 0, open: 0, lastOrderAt: null });
+    s.total += 1;
+    if (o.status === 'active' || o.status === 'on_hold' || o.status === 'draft') s.open += 1;
+    if (!s.lastOrderAt || o.created_at > s.lastOrderAt) s.lastOrderAt = o.created_at;
+  }
 
   return (
     <div className="portal-page">
@@ -39,60 +51,7 @@ export default async function AdminCustomersPage() {
           </Link>
         </div>
 
-        <div className="card overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm table-fixed border-collapse">
-              <thead>
-                <tr className="border-b border-ink-4 bg-ink-3">
-                  <th className="text-left p-4 table-head">{t('admin.company')}</th>
-                  <th className="text-left p-4 table-head">{t('admin.contactPerson')}</th>
-                  <th className="text-left p-4 table-head">{t('admin.email')}</th>
-                  <th className="text-left p-4 table-head">{t('admin.phone')}</th>
-                  <th className="text-left p-4 table-head">{t('common.status')}</th>
-                  <th className="text-right p-4 table-head">{t('admin.action')}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {!customers?.length ? (
-                  <tr>
-                    <td colSpan={6} className="p-8 text-center text-steel-2">
-                      {t('admin.noCustomers')}
-                    </td>
-                  </tr>
-                ) : (
-                  (customers as Customer[]).map((c) => (
-                    <tr
-                      key={c.id}
-                      className="border-b border-ink-4 hover:bg-ink-3/30 transition-colors"
-                    >
-                      <td className="p-4 font-medium text-bone">{c.company_name}</td>
-                      <td className="p-4 text-steel-3">{c.contact_name ?? '—'}</td>
-                      <td className="p-4 text-steel-3">{c.email}</td>
-                      <td className="p-4 text-steel-3">{c.phone ?? '—'}</td>
-                      <td className="p-4">
-                        <span
-                          className={`text-xs font-mono uppercase ${
-                            c.is_active ? 'text-success' : 'text-steel-2'
-                          }`}
-                        >
-                          {c.is_active ? t('common.active') : t('common.inactive')}
-                        </span>
-                      </td>
-                      <td className="p-4 text-right">
-                        <Link
-                          href={`/admin/customers/${c.id}`}
-                          className="inline-flex items-center gap-1.5 text-sm text-arc-2 hover:text-arc-1 transition-colors"
-                        >
-                          <Pencil size={14} /> {t('common.edit')}
-                        </Link>
-                      </td>
-                    </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
-          </div>
-        </div>
+        <AdminCustomersTable customers={(customers ?? []) as Customer[]} stats={stats} />
     </div>
   );
 }

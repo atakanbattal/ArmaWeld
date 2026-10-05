@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { Plus } from 'lucide-react';
 import { createClient } from '@/lib/supabase/server';
-import { StatusBadge } from '@/components/StatusBadge';
+import { AdminOrdersTable } from '@/components/admin/AdminOrdersTable';
 import { OrdersFilterBanner } from '@/components/admin/OrdersFilterBanner';
 import { getServerI18n } from '@/lib/i18n/server';
 import {
@@ -15,12 +15,12 @@ import {
 import type { Order } from '@/lib/types';
 
 interface AdminOrdersPageProps {
-  searchParams: Promise<{ filter?: string; status?: string }>;
+  searchParams: Promise<{ filter?: string; status?: string; customer?: string }>;
 }
 
 export default async function AdminOrdersPage({ searchParams }: AdminOrdersPageProps) {
   const { t } = await getServerI18n();
-  const { filter, status } = await searchParams;
+  const { filter, status, customer } = await searchParams;
   const parsed = parseOrderListQuery({ filter, status });
   const filterLabelKey = orderListFilterLabelKey(parsed);
 
@@ -45,14 +45,15 @@ export default async function AdminOrdersPage({ searchParams }: AdminOrdersPageP
     .order('job_number', { ascending: false });
 
   const allOrders = (orders ?? []) as (Order & { customers: { company_name: string } })[];
+  const customerOrders = customer ? allOrders.filter((o) => o.customer_id === customer) : allOrders;
+  const customerName = customer ? customerOrders[0]?.customers?.company_name : undefined;
   const visibleOrders = parsed.preset
-    ? filterOrdersByPreset(allOrders, parsed.preset)
+    ? filterOrdersByPreset(customerOrders, parsed.preset)
     : parsed.status
-      ? filterOrdersByStatus(allOrders, parsed.status)
-      : allOrders;
+      ? filterOrdersByStatus(customerOrders, parsed.status)
+      : customerOrders;
   const showDelayColumn =
     parsed.preset === 'overdue' || visibleOrders.some((o) => isOrderOverdue(o));
-  const colSpan = showDelayColumn ? 7 : 6;
 
   return (
     <div className="portal-page">
@@ -66,78 +67,22 @@ export default async function AdminOrdersPage({ searchParams }: AdminOrdersPageP
         </Link>
       </div>
 
-      {filterLabelKey && (
+      {(filterLabelKey || customer) && (
         <OrdersFilterBanner
-          labelKey={filterLabelKey}
+          labelKey={filterLabelKey ?? undefined}
+          label={
+            customer
+              ? [customerName ?? t('admin.customer'), filterLabelKey ? t(filterLabelKey) : null]
+                  .filter(Boolean)
+                  .join(' · ')
+              : undefined
+          }
           count={visibleOrders.length}
           total={allOrders.length}
         />
       )}
 
-      <div className="card overflow-hidden">
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm border-collapse admin-orders-table">
-            <thead>
-              <tr className="border-b border-ink-4 bg-ink-3">
-                <th className="text-left p-4 table-head">{t('admin.jobNumber')}</th>
-                <th className="text-left p-4 table-head">{t('admin.title')}</th>
-                <th className="text-left p-4 table-head">{t('admin.customer')}</th>
-                {showDelayColumn && (
-                  <th className="text-left p-4 table-head">{t('admin.delayReason.column')}</th>
-                )}
-                <th className="text-left p-4 table-head">{t('common.stage')}</th>
-                <th className="text-left p-4 table-head">{t('common.status')}</th>
-                <th className="text-left p-4 table-head"></th>
-              </tr>
-            </thead>
-            <tbody>
-              {!visibleOrders.length ? (
-                <tr>
-                  <td colSpan={colSpan} className="p-8 text-center text-steel-2">
-                    {filterLabelKey ? t('orders.filterEmpty') : t('admin.noOrders')}
-                  </td>
-                </tr>
-              ) : (
-                visibleOrders.map((order) => (
-                  <tr
-                    key={order.id}
-                    className="border-b border-ink-4 hover:bg-ink-3/30 transition-colors"
-                  >
-                    <td className="p-4 font-mono text-arc-2 whitespace-nowrap">{order.job_number}</td>
-                    <td className="p-4 text-bone font-medium">{order.title}</td>
-                    <td className="p-4 text-steel-3">{order.customers?.company_name}</td>
-                    {showDelayColumn && (
-                      <td className="p-4 text-steel-2 text-xs max-w-xs">
-                        {isOrderOverdue(order) ? (
-                          order.delay_reason?.trim() ? (
-                            <span className="line-clamp-3">{order.delay_reason}</span>
-                          ) : (
-                            <span className="text-danger">{t('admin.delayReason.missing')}</span>
-                          )
-                        ) : (
-                          '—'
-                        )}
-                      </td>
-                    )}
-                    <td className="p-4 text-steel-2 whitespace-nowrap">{order.current_stage}/7</td>
-                    <td className="p-4">
-                      <StatusBadge status={order.status} />
-                    </td>
-                    <td className="p-4 whitespace-nowrap">
-                      <Link
-                        href={`/admin/orders/${order.id}`}
-                        className="text-arc-2 hover:underline text-sm"
-                      >
-                        {t('admin.manage')}
-                      </Link>
-                    </td>
-                  </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      <AdminOrdersTable orders={visibleOrders} showDelayColumn={showDelayColumn} />
     </div>
   );
 }
