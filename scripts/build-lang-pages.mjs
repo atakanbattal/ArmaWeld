@@ -43,7 +43,7 @@ function hreflangBlock(page, indent) {
 
 // Visitors who picked another language before land on that language's address.
 // Search engines have no stored preference, so they always see the Turkish page.
-const TR_REDIRECT = `<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(a)location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>`;
+const TR_REDIRECT = `<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>`;
 
 function upsertHreflang(html, page, extra) {
   const block = hreflangBlock(page, '') + (extra ? '\n' + extra : '');
