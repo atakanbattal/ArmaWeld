@@ -18,7 +18,7 @@ function ndtTone(result: string) {
 }
 
 export function TraceabilityPanel({ nodes }: TraceabilityPanelProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [loadingId, setLoadingId] = useState<string | null>(null);
 
   async function downloadDoc(docId: string, directUrl?: string | null) {
@@ -28,7 +28,7 @@ export function TraceabilityPanel({ nodes }: TraceabilityPanelProps) {
     }
     setLoadingId(docId);
     try {
-      const res = await fetch(`/api/documents/${docId}`);
+      const res = await fetch(`/api/documents/${docId}?lang=${locale}`);
       if (!res.ok) return;
       const data = await res.json();
       if (data.url) window.open(data.url, '_blank', 'noopener,noreferrer');
