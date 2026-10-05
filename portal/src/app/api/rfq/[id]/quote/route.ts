@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { createAdminClient } from '@/lib/supabase/admin';
 import { mimeFromFileName } from '@/lib/documents';
+import { downloadLocalized, requestLocale, signLocalized } from '@/lib/localized-files';
 
 interface RouteProps {
   params: Promise<{ id: string }>;
@@ -43,14 +44,17 @@ export async function GET(request: Request, { params }: RouteProps) {
   }
 
   const inline = new URL(request.url).searchParams.get('inline') === '1';
+  const locale = await requestLocale(request);
   const storageClient = process.env.SUPABASE_SERVICE_ROLE_KEY
     ? createAdminClient()
     : await createClient();
 
   if (inline) {
-    const { data: fileData, error } = await storageClient.storage
-      .from('order-documents')
-      .download(rfq.quote_file_path);
+    const { data: fileData, error } = await downloadLocalized(
+      storageClient.storage.from('order-documents'),
+      rfq.quote_file_path,
+      locale
+    );
 
     if (error || !fileData) {
       return NextResponse.json({ error: error?.message ?? 'Dosya alınamadı' }, { status: 500 });
@@ -64,14 +68,17 @@ export async function GET(request: Request, { params }: RouteProps) {
       headers: {
         'Content-Type': mime,
         'Content-Disposition': `inline; filename="${encodeURIComponent(fileName)}"`,
-        'Cache-Control': 'private, max-age=3600',
+        'Cache-Control': 'private, no-store',
       },
     });
   }
 
-  const { data, error } = await storageClient.storage
-    .from('order-documents')
-    .createSignedUrl(rfq.quote_file_path, 3600);
+  const { data, error } = await signLocalized(
+    storageClient.storage.from('order-documents'),
+    rfq.quote_file_path,
+    locale,
+    3600
+  );
 
   if (error || !data?.signedUrl) {
     return NextResponse.json({ error: error?.message ?? 'URL oluşturulamadı' }, { status: 500 });
