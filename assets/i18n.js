@@ -19,7 +19,11 @@
 
   let lang = PAGE_LANG || storedLang() || DEFAULT;
   if (!SUPPORTED.includes(lang)) lang = DEFAULT;
-  if (PAGE_LANG) storeLang(PAGE_LANG);
+  if (PAGE_LANG) {
+    storeLang(PAGE_LANG);
+    // Arrived on the language page: clear the Turkish page's one-shot redirect guard.
+    try { sessionStorage.removeItem('aw-redir'); } catch (e) { /* storage blocked */ }
+  }
 
   // Site root relative to this page, taken from this script's own src
   // ("assets/i18n.js", "../assets/i18n.js", "../../assets/i18n.js").
