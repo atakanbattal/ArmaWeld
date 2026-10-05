@@ -1,6 +1,9 @@
 AddDefaultCharset UTF-8
 AddCharset UTF-8 .js .css .html .json
 
+# Bulunamayan adresler için markalı 404 sayfası (5 dil)
+ErrorDocument 404 /404.html
+
 # HTTPS yönlendirme
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -14,6 +17,11 @@ AddCharset UTF-8 .js .css .html .json
   # /index.html ve /blog/index.html -> klasör adresi (çift kayıt olmasın)
   RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
   RewriteRule ^(.*/)?index\.html$ https://www.armaweld.com/$1 [L,R=301]
+
+  # Dil adresleri (/en/, /de/, /es/, /fr/): çevirisi olmayan sayfa Türkçe asıl sayfaya gider
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(en|de|es|fr)/(.*)$ /$2 [R=302,L]
 
   # Eski/yanlış portal linklerini subdomain'e yönlendir
   RewriteRule ^login/?$ https://portal.armaweld.com/login [R=302,L]

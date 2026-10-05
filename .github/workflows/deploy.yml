@@ -12,6 +12,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Build language pages (/en/, /de/, /es/, /fr/)
+        run: |
+          npm ci --ignore-scripts
+          node scripts/build-lang-pages.mjs
+
       - name: Deploy site via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:

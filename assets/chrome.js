@@ -132,6 +132,11 @@ function injectNavTypography() {
   document.head.appendChild(style);
 }
 
+// Assets live at the site root; pages under /en/ etc. are one level deeper than their links.
+function assetRoot(base) {
+  return typeof window.AW_ROOT === 'string' ? window.AW_ROOT : (base || '');
+}
+
 function buildNav(activePage, base) {
   const b = base || '';
   const primaryLinks = [
@@ -191,7 +196,7 @@ function buildNav(activePage, base) {
   <nav class="nav">
     <div class="nav-inner">
       <a href="${b}index.html" class="logo" data-i18n-aria="nav_aria_home" aria-label="">
-        <img id="nav-logo" src="${b}assets/${currentTheme === 'dark' ? 'logo-dark.png' : 'logo-light.png'}" alt="ArmaWeld" class="logo-img" />
+        <img id="nav-logo" src="${assetRoot(b)}assets/${currentTheme === 'dark' ? 'logo-armaweld-dark.svg' : 'logo-armaweld-light.svg'}" alt="ArmaWeld" class="logo-img" width="240" height="23" />
       </a>
       <div class="nav-desktop">
         <div class="nav-links">
@@ -250,13 +255,14 @@ function buildNav(activePage, base) {
 function buildFooter(base) {
   const b = base || '';
   const currentTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('armaweld-theme') || 'light';
-  const logoSrc = b + 'assets/' + (currentTheme === 'dark' ? 'logo-dark.png' : 'logo-light.png');
+  const logoSrc = assetRoot(b) + 'assets/' + (currentTheme === 'dark' ? 'logo-armaweld-full-dark.svg' : 'logo-armaweld-full-light.svg');
 
   return `
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div>
+          <img id="footer-logo" src="${logoSrc}" alt="ArmaWeld — Stronger Together" class="footer-logo" width="300" height="56" loading="lazy" />
           <p class="footer-tag" data-i18n="footer_tag"></p>
           <p class="footer-contact" data-i18n="footer_desc"></p>
         </div>
@@ -264,7 +270,7 @@ function buildFooter(base) {
           <h5 data-i18n="footer_services_h"></h5>
           <ul>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s1"></a></li>
-            <li><a href="${b}hizmetler.html#fason" data-i18n="footer_fason"></a></li>
+            <li><a href="${b}konya-fason-kaynak.html" data-i18n="footer_fason"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s2"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s3"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s4"></a></li>
@@ -505,9 +511,9 @@ function initBlogSchema() {
     publisher: {
       '@type': 'Organization',
       name: 'ArmaWeld',
-      logo: { '@type': 'ImageObject', url: 'https://www.armaweld.com/assets/og-image.jpg' }
+      logo: { '@type': 'ImageObject', url: 'https://www.armaweld.com/assets/logo-armaweld.png' }
     },
-    image: 'https://www.armaweld.com/assets/og-image.jpg'
+    image: 'https://www.armaweld.com/assets/og-armaweld.jpg'
   };
   const el = document.createElement('script');
   el.id = 'aw-article-schema';
@@ -521,7 +527,7 @@ function injectMobileCSS(base) {
   const link = document.createElement('link');
   link.id = 'aw-mobile-css';
   link.rel = 'stylesheet';
-  link.href = (base || '') + 'assets/mobile.css?v=202606191';
+  link.href = assetRoot(base) + 'assets/mobile.css?v=202606191';
   document.head.appendChild(link);
 }
 
@@ -628,9 +634,10 @@ function toggleTheme() {
 
   const navLogo = document.getElementById('nav-logo');
   const footerLogo = document.getElementById('footer-logo');
-  const logoSrc = next === 'dark' ? 'assets/logo-dark.png' : 'assets/logo-light.png';
-  if (navLogo) navLogo.src = logoSrc;
-  if (footerLogo) footerLogo.src = logoSrc;
+  // Keep the page's own asset prefix (blog pages use ../assets/)
+  [navLogo, footerLogo].forEach(function (img) {
+    if (img) img.src = img.getAttribute('src').replace(/-(dark|light)\.svg$/, '-' + next + '.svg');
+  });
 }
 
 // ── WhatsApp Floating Button ────────────────────────────────────────────────

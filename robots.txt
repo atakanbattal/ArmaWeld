@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.armaweld.com/sitemap.xml
+Sitemap: https://www.armaweld.com/sitemap-i18n.xml

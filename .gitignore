@@ -15,3 +15,9 @@ portal/.hostinger-deploy/
 portal/supabase/.temp/
 portal.zip
 portal-linux.zip
+
+# Dil sayfaları yayın sırasında üretilir (scripts/build-lang-pages.mjs)
+/en/
+/de/
+/es/
+/fr/
