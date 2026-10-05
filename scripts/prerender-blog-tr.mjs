@@ -81,7 +81,7 @@ function prerender(file, tr) {
       '@type': 'BlogPosting',
       headline: data.headline || h1,
       description: data.description || desc,
-      image: `${SITE}/assets/og-image.jpg`,
+      image: `${SITE}/assets/og-armaweld.jpg`,
       datePublished: data.datePublished,
       dateModified: data.dateModified || data.datePublished,
       author: data.author,

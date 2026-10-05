@@ -191,7 +191,7 @@ function buildNav(activePage, base) {
   <nav class="nav">
     <div class="nav-inner">
       <a href="${b}index.html" class="logo" data-i18n-aria="nav_aria_home" aria-label="">
-        <img id="nav-logo" src="${b}assets/${currentTheme === 'dark' ? 'logo-dark.png' : 'logo-light.png'}" alt="ArmaWeld" class="logo-img" />
+        <img id="nav-logo" src="${b}assets/${currentTheme === 'dark' ? 'logo-armaweld-dark.svg' : 'logo-armaweld-light.svg'}" alt="ArmaWeld" class="logo-img" width="240" height="23" />
       </a>
       <div class="nav-desktop">
         <div class="nav-links">
@@ -250,13 +250,14 @@ function buildNav(activePage, base) {
 function buildFooter(base) {
   const b = base || '';
   const currentTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('armaweld-theme') || 'light';
-  const logoSrc = b + 'assets/' + (currentTheme === 'dark' ? 'logo-dark.png' : 'logo-light.png');
+  const logoSrc = b + 'assets/' + (currentTheme === 'dark' ? 'logo-armaweld-full-dark.svg' : 'logo-armaweld-full-light.svg');
 
   return `
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div>
+          <img id="footer-logo" src="${logoSrc}" alt="ArmaWeld — Stronger Together" class="footer-logo" width="300" height="56" loading="lazy" />
           <p class="footer-tag" data-i18n="footer_tag"></p>
           <p class="footer-contact" data-i18n="footer_desc"></p>
         </div>
@@ -505,9 +506,9 @@ function initBlogSchema() {
     publisher: {
       '@type': 'Organization',
       name: 'ArmaWeld',
-      logo: { '@type': 'ImageObject', url: 'https://www.armaweld.com/assets/og-image.jpg' }
+      logo: { '@type': 'ImageObject', url: 'https://www.armaweld.com/assets/logo-armaweld.png' }
     },
-    image: 'https://www.armaweld.com/assets/og-image.jpg'
+    image: 'https://www.armaweld.com/assets/og-armaweld.jpg'
   };
   const el = document.createElement('script');
   el.id = 'aw-article-schema';
@@ -628,10 +629,9 @@ function toggleTheme() {
 
   const navLogo = document.getElementById('nav-logo');
   const footerLogo = document.getElementById('footer-logo');
-  const logoFile = next === 'dark' ? 'logo-dark.png' : 'logo-light.png';
   // Keep the page's own asset prefix (blog pages use ../assets/)
   [navLogo, footerLogo].forEach(function (img) {
-    if (img) img.src = img.getAttribute('src').replace(/logo-(dark|light)\.png/, logoFile);
+    if (img) img.src = img.getAttribute('src').replace(/-(dark|light)\.svg$/, '-' + next + '.svg');
   });
 }
 
