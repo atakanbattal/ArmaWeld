@@ -265,7 +265,17 @@ for (const page of PAGES) if (syncTurkishPage(page)) changedTr++;
 buildSitemap();
 
 let written = 0;
-if (!CHECK) {
+if (CHECK) {
+  // The language folders are committed (the host also deploys main by git pull), so they must match.
+  for (const lang of LANGS) {
+    for (const page of PAGES) {
+      const out = path.join(ROOT, lang, page);
+      if (!fs.existsSync(out) || fs.readFileSync(out, 'utf8') !== buildPage(page, lang)) {
+        throw new Error(`${lang}/${page} is out of date; run node scripts/build-lang-pages.mjs`);
+      }
+    }
+  }
+} else {
   for (const lang of LANGS) {
     fs.rmSync(path.join(ROOT, lang), { recursive: true, force: true });
     for (const page of PAGES) {

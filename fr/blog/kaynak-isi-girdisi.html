@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcul et Optimisation de l'Apport Thermique en Soudage | ArmaWeld Blog</title>
+  <meta name="description" content="Apport thermique soudage, formule EN ISO 1011, effet sur microstructure, distorsion et propriétés mécaniques, optimisation.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-isi-girdisi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-isi-girdisi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-isi-girdisi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-isi-girdisi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/kaynak-isi-girdisi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Calcul et Optimisation de l'Apport Thermique en Soudage | ArmaWeld Blog">
+  <meta property="og:description" content="Apport thermique soudage, formule EN ISO 1011, effet sur microstructure, distorsion et propriétés mécaniques, optimisation.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-02-05">
+  <meta property="article:author" content="ArmaWeld Mühendislik">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Calcul et Optimisation de l'Apport Thermique en Soudage",
+  "description": "Apport thermique soudage, formule EN ISO 1011, effet sur microstructure, distorsion et propriétés mécaniques, optimisation.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-02-05",
+  "dateModified": "2026-02-05",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html",
+  "inLanguage": "fr",
+  "articleSection": "Kaynak Parametreleri",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Isı Girdisi"
+    },
+    {
+      "@type": "Thing",
+      "name": "Heat Input"
+    },
+    {
+      "@type": "Thing",
+      "name": "EN ISO 1011"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcul et Optimisation de l'Apport Thermique en Soudage",
+      "item": "https://www.armaweld.com/fr/blog/kaynak-isi-girdisi.html"
+    }
+  ]
+}
+</script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_isi_girdisi_breadcrumb3">Apport Thermique</span></div>
+    <div class="article-tag" data-i18n="blog_kaynak_isi_girdisi_tag">Procédés de Soudage</div>
+    <h1 data-i18n="blog_kaynak_isi_girdisi_h1">Apport Thermique en Soudage : Calcul et Optimisation</h1>
+    <div class="article-meta">
+      <span>2026-02-05</span>
+      <span data-i18n="blog_kaynak_isi_girdisi_read">8 min de lecture</span>
+      <span data-i18n="blog_kaynak_isi_girdisi_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <div class="article-body">
+
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s0"><p>L'<strong>apport thermique (Heat Input)</strong> est l'énergie thermique par unité de longueur introduite dans le joint lors du soudage. Il est l'un des paramètres les plus critiques de la WPS : trop faible, il provoque une trempe excessive et une fragilisation de la ZAC ; trop élevé, il dégrade la résilience et augmente la distorsion. Une maîtrise précise de l'apport thermique est essentielle pour les structures en acier haute limite élastique (HLE).</p></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s1"><h2>Formule de Calcul de l'Apport Thermique</h2><p>Selon EN ISO 1011-1, l'apport thermique Q est calculé comme suit :</p><ul><li><strong>Q = (U × I × 60) / (v × 1000) [kJ/mm]</strong></li><li>U = tension d'arc (V)</li><li>I = intensité de courant (A)</li><li>v = vitesse de soudage (mm/min)</li><li><strong>Facteur d'efficacité thermique (η) :</strong> SMAW η=0,80 ; GMAW/FCAW η=0,80 ; SAW η=1,00 ; TIG η=0,60</li><li><strong>Q corrigé = Q × η</strong></li></ul></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s2"><h2>Plages d'Apport Thermique par Procédé</h2><table class="data-table"><thead><tr><th>Procédé</th><th>Plage Typique</th><th>Application</th></tr></thead><tbody><tr><td>TIG (141)</td><td>0,1 – 1,0 kJ/mm</td><td>Inox mince, titane</td></tr><tr><td>MAG (135)</td><td>0,5 – 2,5 kJ/mm</td><td>Construction générale</td></tr><tr><td>SMAW (111)</td><td>1,0 – 3,5 kJ/mm</td><td>Construction, chaudronnerie</td></tr><tr><td>SAW (121)</td><td>2,0 – 5,0 kJ/mm</td><td>Plaques épaisses, tuyaux</td></tr><tr><td>Electroslag</td><td>&gt; 15 kJ/mm</td><td>Grandes épaisseurs, monopasse</td></tr></tbody></table></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s3"><h2>Effet de l'Apport Thermique sur la Microstructure</h2><ul><li><strong>Apport faible (&lt;1 kJ/mm) :</strong> Refroidissement rapide → martensite dans la ZAC → fragilisation → risque de fissuration à froid.</li><li><strong>Apport optimal (1–2,5 kJ/mm) :</strong> ZAC fine, bonne résilience, propriétés mécaniques conformes à la WPS.</li><li><strong>Apport élevé (&gt;3 kJ/mm) :</strong> Croissance des grains dans la ZAC → chute de la résilience Charpy → distorsion accrue → risque de fissuration à chaud dans les aciers sensibles.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s4"><h2>Apport Thermique et Aciers Haute Limite Élastique</h2><ul><li>Pour les aciers THLE (S460–S960), l'apport thermique maximal est défini par le fabricant de l'acier (fiche technique).</li><li><strong>S690QL :</strong> apport thermique max. typique 2,5–3,0 kJ/mm (à confirmer selon le fabricant).</li><li><strong>S960QL :</strong> apport thermique max. typique 1,5–2,0 kJ/mm.</li><li>Un dépassement de la limite maximale entraîne une perte irréversible des propriétés mécaniques.</li><li>L'apport thermique doit être mesuré et enregistré pour chaque passe conformément à la WPS.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s5"><h2>Vitesse de Refroidissement t8/5</h2><p>Le temps de refroidissement de 800°C à 500°C, noté <strong>t8/5</strong>, est le paramètre métallurgique clé :</p><ul><li>t8/5 court (5–15 s) : refroidissement rapide → risque martensitique → fragilisation.</li><li>t8/5 optimal (15–25 s) : bainite inférieure ou ferrite aciculaire → bonnes propriétés.</li><li>t8/5 long (&gt; 30 s) : ferrite polygonale grossière → résilience dégradée.</li><li>t8/5 augmente avec l'apport thermique, l'épaisseur et la température de préchauffage.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s6"><h2>Surveillance et Enregistrement de l'Apport Thermique</h2><ul><li>Les systèmes de surveillance de l'arc modernes (ex. : WeldCloud, HKS Arc Monitoring) enregistrent U, I et v en temps réel.</li><li>Le calcul automatique de l'apport thermique est comparé aux limites de la WPS et une alarme est déclenchée en cas de dépassement.</li><li>Obligatoire pour les équipements sous pression (EN 13445), les structures ferroviaires (EN 15085) et les structures EN 1090.</li><li>Les enregistrements sont archivés avec le dossier de soudage.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_isi_girdisi_s7"><h2>Optimisation de l'Apport Thermique</h2><ul><li>Ajuster simultanément U, I et v plutôt qu'un seul paramètre.</li><li>Un passage de SMAW à MAG à fil fourré (FCAW) peut réduire l'apport thermique de 30 % avec la même productivité.</li><li>Le soudage pulsé (MAG pulsé) offre un apport thermique réduit avec une bonne fusion.</li><li>Envisager la technique tandem pour les grandes vitesses avec faible apport thermique.</li></ul></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_kaynak_isi_girdisi_cta_h3">Développement WPS et Contrôle de l'Apport Thermique</h3>
+      <p data-i18n="blog_kaynak_isi_girdisi_cta_p">Calcul, vérification et enregistrement de l'apport thermique selon EN ISO 1011-1 et EN 13445.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_isi_girdisi_cta_btn">Contactez-nous →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">Soudage MIG/MAG : principe de fonctionnement, réglages et domaines d'application</a></li>
+        <li><a href="argon-kaynagi-nedir.html" data-i18n="blog_n26_tig_h1">Soudage TIG : définition, mise en œuvre et domaines d'application</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Types de soudage : les procédés utilisés dans l'industrie et leurs différences</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+  </div>
+</section>
+<script src="../../assets/blog-translations-2026.js?v=202606122"></script>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

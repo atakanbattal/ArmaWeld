@@ -1,0 +1,281 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soudage MIG/MAG : définition et mise en œuvre | ArmaWeld</title>
+  <meta name="description" content="Soudage MIG/MAG : définition et mise en œuvre. Différence MIG/MAG, modes de transfert, choix du fil et du gaz, réglages, avantages et défauts fréquents.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/gazalti-kaynagi-nedir.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/gazalti-kaynagi-nedir.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/gazalti-kaynagi-nedir.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/gazalti-kaynagi-nedir.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Soudage MIG/MAG : définition et mise en œuvre | ArmaWeld">
+  <meta property="og:description" content="Soudage MIG/MAG : définition et mise en œuvre. Différence MIG/MAG, modes de transfert, choix du fil et du gaz, réglages, avantages et défauts fréquents.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-10-01">
+  <meta property="article:modified_time" content="2026-10-01">
+  <meta property="article:author" content="ArmaWeld Mühendislik">
+  <meta property="article:section" content="Kaynak Teknolojisi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Soudage MIG/MAG : définition et mise en œuvre",
+  "description": "Soudage MIG/MAG : définition et mise en œuvre. Différence MIG/MAG, modes de transfert, choix du fil et du gaz, réglages, avantages et défauts fréquents.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html",
+  "inLanguage": "fr",
+  "articleSection": "Kaynak Teknolojisi"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Soudage MIG/MAG : définition et mise en œuvre",
+      "item": "https://www.armaweld.com/fr/blog/gazalti-kaynagi-nedir.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_n26_gmaw_breadcrumb3">Soudage MIG/MAG</span></div>
+    <div class="article-tag" data-i18n="blog_n26_gmaw_tag">Technologie du soudage</div>
+    <h1 data-i18n="blog_n26_gmaw_h1">Soudage MIG/MAG : principe de fonctionnement, réglages et domaines d'application</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-01">2026-10-01</time></span>
+      <span data-i18n="blog_n26_gmaw_read">9 min de lecture</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_n26_gmaw_body"><p>Le <strong>soudage MIG/MAG</strong> est un procédé dans lequel un arc s'établit entre un fil-électrode dévidé en continu depuis une bobine et la pièce, la zone de soudage étant protégée par un gaz de protection. Il est désigné dans la littérature internationale par GMAW (Gas Metal Arc Welding) ; dans la norme <span class="tag-inline">EN ISO 4063</span>, il est identifié par les numéros 131 (MIG) et 135 (MAG) selon le gaz utilisé.</p>
+<p>Grâce à sa productivité élevée, sa facilité d'apprentissage et son aptitude à l'automatisation robotisée, c'est le procédé le plus utilisé dans la fabrication soudée industrielle.</p>
+
+<h2>Différence entre MIG et MAG</h2>
+<ul>
+<li><strong>MAG (Metal Active Gas, 135) :</strong> on utilise des gaz actifs comme le CO₂ ou les mélanges Ar/CO₂. C'est le standard pour les aciers au carbone et faiblement alliés.</li>
+<li><strong>MIG (Metal Inert Gas, 131) :</strong> on utilise des gaz inertes comme l'argon ou l'argon-hélium. Il est privilégié pour l'aluminium et les autres métaux non ferreux.</li>
+</ul>
+<p>Nous expliquons en détail quel gaz utiliser et dans quel cas dans notre article sur le <a href="koruyucu-gaz-secimi-mig-mag.html">choix du gaz de protection</a>.</p>
+
+<h2>Composants d'un poste de soudage MIG/MAG</h2>
+<ul>
+<li><strong>Source de courant :</strong> poste à tension constante (CV), de type onduleur (inverter) ou transformateur.</li>
+<li><strong>Dévidoir :</strong> il achemine le fil vers la torche à la vitesse réglée ; la vitesse du fil détermine le courant de soudage.</li>
+<li><strong>Torche et faisceau :</strong> ils amènent le fil, le courant et le gaz jusqu'à la zone de soudage.</li>
+<li><strong>Bouteille de gaz et détendeur :</strong> ils règlent le débit de gaz (typiquement 12 à 18 l/min).</li>
+</ul>
+
+<h2>Modes de transfert de l'arc</h2>
+<table class="data-table">
+<thead><tr><th>Mode de transfert</th><th>Courant / Tension</th><th>Utilisation</th></tr></thead>
+<tbody>
+<tr><td>Court-circuit</td><td>Faible</td><td>Tôles fines, passe de racine, toutes positions</td></tr>
+<tr><td>Globulaire</td><td>Moyen</td><td>Généralement à éviter ; projections importantes</td></tr>
+<tr><td>Pulvérisation axiale</td><td>Élevé</td><td>Fortes épaisseurs, positions horizontale et à plat, taux de dépôt élevé</td></tr>
+<tr><td>Pulsé</td><td>Variable</td><td>Aluminium, inox, faible apport de chaleur et peu de projections</td></tr>
+</tbody>
+</table>
+
+<h2>Comment réaliser une soudure MIG/MAG ?</h2>
+<ol>
+<li><strong>Choix du fil et du gaz :</strong> pour l'acier de construction, on utilise généralement un fil G3Si1 (SG2) et un gaz M21 (Ar/18 % CO₂).</li>
+<li><strong>Réglage des paramètres :</strong> la vitesse du fil (courant), la tension et le débit de gaz sont réglés selon l'épaisseur du matériau. Pour des valeurs détaillées, consultez notre article sur les <a href="mig-mag-parametreleri.html">paramètres de soudage MIG/MAG</a>.</li>
+<li><strong>Longueur terminale libre (stick-out) :</strong> la distance entre le tube contact et la pièce est généralement maintenue entre 10 et 15 mm.</li>
+<li><strong>Angle et sens de la torche :</strong> un angle poussé de 10 à 15° donne un cordon plus plat et plus large, un angle tiré une pénétration plus profonde.</li>
+<li><strong>Contrôle :</strong> le cordon est vérifié par contrôle visuel ; pour les travaux critiques, des CND sont réalisés.</li>
+</ol>
+
+<h2>Avantages et limites</h2>
+<table class="data-table">
+<thead><tr><th>Avantages</th><th>Limites</th></tr></thead>
+<tbody>
+<tr><td>Vitesse de soudage et taux de dépôt élevés</td><td>En extérieur, le vent perturbe la protection gazeuse</td></tr>
+<tr><td>Pas de laitier, peu de nettoyage</td><td>La taille de la torche peut gêner l'accès dans les espaces restreints</td></tr>
+<tr><td>Très bien adapté à la robotisation et à l'automatisation</td><td>Risque de manque de fusion en cas de mauvais réglage</td></tr>
+<tr><td>Utilisable sur l'acier, l'inox et l'aluminium</td><td>Équipement plus complexe que pour le soudage à l'électrode enrobée</td></tr>
+</tbody>
+</table>
+
+<h2>Défauts fréquents</h2>
+<ul>
+<li><strong>Porosités :</strong> débit de gaz insuffisant ou excessif, surface sale, courants d'air.</li>
+<li><strong>Manque de fusion :</strong> tension trop faible, avance trop rapide ou mauvais angle de torche ; à surveiller tout particulièrement en régime court-circuit.</li>
+<li><strong>Projections excessives :</strong> déséquilibre entre tension et vitesse du fil, ou teneur en CO₂ trop élevée.</li>
+<li><strong>Caniveaux :</strong> courant et tension excessifs.</li>
+</ul>
+<p>Pour les types de défauts et leur réparation, consultez notre article sur les <a href="kaynak-hatalari-onarim.html">défauts de soudage</a>.</p>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous réalisons le soudage MAG et MAG robotisé de châssis, de charpentes métalliques et de pièces de machines avec des DMOS (WPS) qualifiés. Pour les travaux de série, le <a href="robotik-kaynak-uretim.html">soudage robotisé</a> garantit une qualité reproductible et des temps de cycle courts.</p></div></div>
+
+<div data-i18n-html="blog_n26_gmaw_faq"><h2>Questions fréquentes</h2>
+<div class="faq-item"><h3>Quel gaz utilise-t-on en soudage MIG/MAG ?</h3><p>Pour les aciers de construction, le gaz le plus courant est un mélange d'argon et de 15 à 25 % de CO₂ (EN ISO 14175 M21). Le CO₂ pur est plus économique mais augmente les projections. Pour l'aluminium, on utilise de l'argon pur.</p></div>
+<div class="faq-item"><h3>Quelle est la différence entre le soudage MIG/MAG et le soudage à l'électrode enrobée ?</h3><p>En soudage MIG/MAG, le fil est dévidé en continu et protégé par un gaz ; le procédé est plus rapide et ne produit pas de laitier. Le soudage à l'électrode enrobée se pratique avec un équipement plus simple, y compris sur un chantier venté, mais il est lent et nécessite un décrassage du laitier après chaque électrode.</p></div>
+<div class="faq-item"><h3>Que détermine la vitesse du fil en soudage MIG/MAG ?</h3><p>Sur les postes à tension constante, la vitesse de dévidage du fil détermine le courant de soudage. Plus la vitesse du fil augmente, plus le courant et le taux de dépôt augmentent ; la tension, elle, influe sur la longueur d'arc et la largeur du cordon.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_n26_gmaw_cta_h3">Demandez un devis pour vos fabrications soudées MIG/MAG</h3>
+      <p data-i18n="blog_n26_gmaw_cta_p">Transmettez-nous vos plans et quantités ; nous établirons ensemble le plan de production en soudage MAG et robotisé.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_n26_gmaw_cta_btn">Demander un devis →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">Paramètres MIG/MAG : Guide pratique des réglages</a></li>
+        <li><a href="koruyucu-gaz-secimi-mig-mag.html" data-i18n="blog_n26_gas_h1">Choisir le gaz de protection en soudage MIG/MAG : argon, CO₂ et mélanges</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Types de soudage : les procédés utilisés dans l'industrie et leurs différences</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+
+</body></html>

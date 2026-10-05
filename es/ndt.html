@@ -1,0 +1,992 @@
+<!DOCTYPE html><html lang="es" data-aw-page-lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>END — Ensayos no destructivos — ArmaWeld</title>
+  <meta name="description" content="Ensayos no destructivos VT, PT, MT, UT y RT realizados por personal certificado EN ISO 9712 nivel 2.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/es/ndt.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/ndt.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/ndt.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/ndt.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/ndt.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/ndt.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/ndt.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="END — Ensayos no destructivos — ArmaWeld">
+  <meta property="og:description" content="Ensayos no destructivos VT, PT, MT, UT y RT realizados por personal certificado EN ISO 9712 nivel 2.">
+  <meta property="og:url" content="https://www.armaweld.com/es/ndt.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="END — Ensayos no destructivos — ArmaWeld">
+  <meta name="twitter:description" content="Ensayos no destructivos VT, PT, MT, UT y RT realizados por personal certificado EN ISO 9712 nivel 2.">
+  <meta name="twitter:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(255,122,26,.15), transparent 60%); }
+  .page-hero-inner { position: relative; }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 32px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+
+  /* Methods tabs */
+  .methods { padding: 80px 0; background: var(--ink-1); }
+  .ndt-scope {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--ink-4);
+    border: 1px solid var(--ink-4);
+    margin: 48px 0 0;
+  }
+  .scope-col { background: var(--ink-0); padding: 28px 32px; display: flex; flex-direction: column; gap: 10px; position: relative; }
+  .scope-col.in { border-left: 3px solid var(--arc-2); }
+  .scope-col.out { border-left: 3px solid var(--steel-1); }
+  .scope-col .k { font-family: var(--ff-mono); font-size: 10px; color: var(--steel-1); letter-spacing: .05em; }
+  .scope-col.in .k { color: var(--arc-2); }
+  .scope-col .v { font-family: var(--ff-display); font-weight: 900; font-size: 32px; color: var(--bone); letter-spacing: -.02em; }
+  .scope-col .sub { font-size: 13px; color: var(--steel-2); line-height: 1.55; }
+  @media (max-width: 900px) { .ndt-scope { grid-template-columns: 1fr; } }
+  .ndt-tabs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid var(--ink-4);
+    margin: 48px 0 0;
+  }
+  .ndt-tab {
+    padding: 28px 20px;
+    border-right: 1px solid var(--ink-4);
+    background: var(--ink-1);
+    text-align: left;
+    cursor: pointer;
+    transition: all .2s ease;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .ndt-tab:last-child { border-right: 0; }
+  .ndt-tab:hover { background: var(--ink-2); }
+  .ndt-tab .code { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); letter-spacing: .05em; }
+  .ndt-tab .abbr { font-family: var(--ff-display); font-weight: 900; font-size: 32px; color: var(--bone); letter-spacing: -.02em; }
+  .ndt-tab .name { font-size: 12px; color: var(--steel-2); }
+  .ndt-tab.active { background: var(--ink-0); border-bottom: 3px solid var(--arc-2); }
+  .ndt-tab.active .abbr { color: var(--arc-2); }
+
+  .ndt-panel {
+    border: 1px solid var(--ink-4);
+    border-top: 0;
+    background: var(--ink-0);
+    padding: 56px;
+    display: none;
+  }
+  .ndt-panel.active { display: block; }
+  .ndt-panel-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .ndt-head .i { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); letter-spacing: .05em; margin-bottom: 12px; }
+  .ndt-head h2 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(40px, 4vw, 68px); line-height: .95; letter-spacing: -.03em; color: var(--bone); margin-bottom: 20px; }
+  .ndt-head p { font-size: 15px; line-height: 1.65; color: var(--steel-3); margin-bottom: 28px; }
+
+  .ndt-spec {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 1px; background: var(--ink-4); border: 1px solid var(--ink-4);
+    margin-bottom: 24px;
+  }
+  .ndt-spec > div { background: var(--ink-0); padding: 16px; }
+  .ndt-spec .k { font-family: var(--ff-mono); font-size: 10px; color: var(--steel-1); letter-spacing: .04em; text-transform: uppercase; }
+  .ndt-spec .v { font-family: var(--ff-display); font-weight: 700; font-size: 15px; color: var(--bone); margin-top: 6px; }
+
+  .ndt-detects h5 { font-family: var(--ff-mono); font-size: 10px; color: var(--steel-2); letter-spacing: .05em; text-transform: uppercase; margin-bottom: 10px; }
+  .ndt-detects ul { list-style: none; }
+  .ndt-detects li { font-size: 13px; color: var(--steel-3); padding: 8px 0; border-bottom: 1px dashed var(--ink-4); display: grid; grid-template-columns: auto 1fr; gap: 10px; }
+  .ndt-detects li::before { content: '●'; color: var(--arc-2); font-size: 8px; align-self: center; }
+
+  .ndt-visual { background: var(--ink-1); border: 1px solid var(--ink-4); padding: 32px 28px; position: relative; align-self: start; display: flex; flex-direction: column; }
+  .nv-head { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 18px; border-bottom: 1px solid var(--ink-4); margin-bottom: 24px; }
+  .nv-head .t { font-family: var(--ff-mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--arc-2); }
+  .nv-head .r { font-family: var(--ff-mono); font-size: 10px; letter-spacing: .04em; color: var(--steel-1); }
+  .nv-big { font-family: var(--ff-display); font-weight: 700; font-size: clamp(52px, 5.5vw, 86px); line-height: .95; letter-spacing: -.02em; color: var(--paper); }
+  .nv-sub { font-family: var(--ff-mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-2); margin-top: 8px; padding-bottom: 24px; border-bottom: 1px dashed var(--ink-4); }
+  .nv-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 24px 0; border-top: 1px dashed var(--ink-4); }
+  .nv-sp { padding: 16px 0; border-bottom: 1px dashed var(--ink-4); }
+  .nv-sp:first-child, .nv-sp:nth-child(2) { padding-right: 16px; }
+  .nv-sp:nth-child(even) { padding-left: 16px; border-left: 1px dashed var(--ink-4); }
+  .nv-sp .k { font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-1); margin-bottom: 6px; }
+  .nv-sp .v { font-family: var(--ff-sans); font-size: 13px; color: var(--paper); line-height: 1.35; }
+  .nv-tags { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 20px; border-top: 1px dashed var(--ink-4); }
+  .nv-tags span { font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-2); padding: 4px 8px; border: 1px solid var(--ink-4); }
+  .nv-foot { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--ink-4); display: flex; justify-content: space-between; font-family: var(--ff-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-1); }
+  .nv-foot .ok { color: var(--arc-2); }
+  .nv-foot .ext { color: var(--steel-2); }
+
+  /* Expanded NDT card elements */
+  .nv-hero-row { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 0; }
+  .nv-iso-badge {
+    font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em;
+    color: var(--steel-1); border: 1px solid var(--ink-4);
+    padding: 6px 10px; align-self: flex-start; margin-top: 8px;
+    text-transform: uppercase;
+  }
+  .nv-divider { height: 1px; background: var(--ink-4); margin: 20px 0; }
+  .nv-steps {
+    display: flex; flex-direction: column; gap: 0;
+    margin-top: 20px; border: 1px solid var(--ink-4);
+  }
+  .nv-step {
+    display: grid; grid-template-columns: 36px 1fr;
+    border-bottom: 1px solid var(--ink-4); align-items: stretch;
+  }
+  .nv-step:last-child { border-bottom: 0; }
+  .nv-step-n {
+    font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em;
+    color: var(--arc-2); padding: 10px; border-right: 1px solid var(--ink-4);
+    display: flex; align-items: center; justify-content: center;
+    background: var(--ink-2);
+  }
+  .nv-step-t {
+    font-family: var(--ff-sans); font-size: 12px; color: var(--paper);
+    padding: 10px 14px; display: flex; align-items: center;
+  }
+  .nv-params {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+    border: 1px solid var(--ink-4); margin-bottom: 16px;
+  }
+  .nv-param {
+    padding: 12px 14px; border-bottom: 1px dashed var(--ink-4);
+    border-right: 1px dashed var(--ink-4);
+  }
+  .nv-param:nth-child(even) { border-right: 0; }
+  .nv-param:nth-last-child(-n+2) { border-bottom: 0; }
+  .nv-param .k { font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-1); margin-bottom: 5px; }
+  .nv-param .v { font-family: var(--ff-sans); font-size: 12px; color: var(--paper); line-height: 1.35; }
+  .nv-caps { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+  .nv-cap { display: grid; grid-template-columns: 160px 1fr 90px; gap: 12px; align-items: center; }
+  .nv-cap .cl { font-family: var(--ff-mono); font-size: 9px; letter-spacing: .03em; text-transform: uppercase; color: var(--steel-1); }
+  .nv-cap .cb { height: 2px; background: var(--ink-4); position: relative; overflow: hidden; }
+  .nv-cap .cb i { position: absolute; top: 0; left: 0; bottom: 0; background: var(--arc-2); display: block; }
+  .nv-cap .cr { font-family: var(--ff-mono); font-size: 9px; letter-spacing: .04em; color: var(--paper); text-align: right; }
+
+  /* Defect catalog */
+  .catalog { padding: 80px 0; background: var(--ink-0); }
+  .def-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--ink-4);
+    border: 1px solid var(--ink-4);
+    margin-top: 48px;
+  }
+  .def { background: var(--ink-1); padding: 32px 28px; position: relative; }
+  .def:hover { background: var(--ink-2); }
+  .def-visual {
+    background: var(--ink-2);
+    border: 1px solid var(--ink-4);
+    margin-bottom: 20px;
+    padding: 28px 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .dv-code {
+    font-family: var(--ff-mono); font-size: 9px;
+    letter-spacing: .05em; color: var(--steel-1);
+    text-transform: uppercase;
+  }
+  .dv-letter {
+    font-family: var(--ff-display); font-weight: 700;
+    font-size: clamp(56px, 5vw, 80px); line-height: .9;
+    letter-spacing: -.02em;
+    margin: 8px 0 4px;
+  }
+  .dv-name {
+    font-family: var(--ff-mono); font-size: 10px;
+    letter-spacing: .05em; color: var(--paper);
+    text-transform: uppercase;
+  }
+  .def-code {
+    font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2);
+    letter-spacing: .05em; margin-bottom: 6px;
+  }
+  .def h4 {
+    font-family: var(--ff-display); font-weight: 700;
+    font-size: 20px; color: var(--bone); letter-spacing: -.01em;
+    margin-bottom: 10px; line-height: 1.15;
+  }
+  .def p { font-size: 13px; color: var(--steel-3); line-height: 1.55; margin-bottom: 12px; }
+  .def .ndt-list {
+    font-family: var(--ff-mono); font-size: 10px;
+    color: var(--steel-2); letter-spacing: .04em;
+    padding-top: 12px; border-top: 1px solid var(--ink-4);
+  }
+  .def .ndt-list .m { color: var(--arc-2); margin-right: 6px; }
+
+  /* Acceptance matrix */
+  .accept { padding: 72px 0; background: var(--ink-1); }
+  .accept-tbl { width: 100%; border-collapse: collapse; margin-top: 40px; font-family: var(--ff-mono); font-size: 12px; }
+  .accept-tbl th, .accept-tbl td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--ink-4); color: var(--steel-3); }
+  .accept-tbl th { background: var(--ink-0); color: var(--steel-1); font-size: 10px; letter-spacing: .05em; text-transform: uppercase; border-bottom: 1px solid var(--ink-5); }
+  .accept-tbl td:first-child { color: var(--bone); }
+  .accept-tbl .lv { display: inline-block; padding: 3px 10px; border: 1px solid var(--ink-5); font-size: 10px; }
+  .accept-tbl .lv.b { border-color: var(--arc-2); color: var(--arc-2); }
+  .accept-tbl .lv.c { border-color: var(--steel-2); color: var(--steel-2); }
+  .accept-tbl .lv.d { border-color: var(--ink-6); color: var(--steel-2); }
+
+  @media (max-width: 1100px) {
+    .ndt-tabs { grid-template-columns: repeat(2, 1fr); }
+    .ndt-tab { border-bottom: 1px solid var(--ink-4); }
+    .ndt-panel-inner { grid-template-columns: 1fr; }
+    .def-grid { grid-template-columns: 1fr; }
+    .ndt-scope { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 768px) {
+    .ndt-tabs { grid-template-columns: 1fr; }
+    .ndt-panel { padding: 24px 16px; }
+    .ndt-panel-inner { gap: 32px; }
+    .ndt-visual { padding: 20px 16px; min-width: 0; overflow-x: auto; }
+    .nv-cap { grid-template-columns: 1fr; gap: 6px; }
+    .nv-cap .cr { text-align: left; }
+    .nv-params { grid-template-columns: 1fr; }
+    .nv-param { border-right: 0 !important; }
+    .nv-param:nth-child(even) { border-left: 0; }
+    .nv-param:nth-last-child(-n+2) { border-bottom: 1px dashed var(--ink-4); }
+    .nv-param:last-child { border-bottom: 0; }
+    .nv-specs { grid-template-columns: 1fr; }
+    .nv-sp:nth-child(even) { border-left: 0; padding-left: 0; }
+    .nv-sp:first-child, .nv-sp:nth-child(2) { padding-right: 0; }
+    .nv-big { font-size: clamp(36px, 11vw, 52px); word-break: break-word; }
+    .nv-foot { flex-direction: column; gap: 8px; align-items: flex-start; }
+  }
+
+  /* ── Görsel kart ───────────────────────────── */
+  .img-card { position: relative; overflow: hidden; background: var(--ink-2); }
+  .img-card img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform .7s cubic-bezier(.25,.46,.45,.94), filter .5s ease;
+    filter: brightness(.88) saturate(.92);
+  }
+  .img-card:hover img { transform: scale(1.05); filter: brightness(1.1) saturate(1.08); }
+  .img-card .ic-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,.55) 100%);
+    transition: opacity .45s ease;
+  }
+  .img-card:hover .ic-overlay { opacity: .2; }
+  .img-card .ic-badge {
+    position: absolute; bottom: 14px; left: 16px;
+    font-family: var(--ff-mono); font-size: 10px;
+    color: var(--arc-2); letter-spacing: .05em; text-transform: uppercase;
+    opacity: 0; transform: translateY(6px);
+    transition: opacity .4s ease, transform .4s ease;
+  }
+  .img-card:hover .ic-badge { opacity: 1; transform: none; }
+  .ndt-panel-img { aspect-ratio: 16/9; margin-bottom: 20px; }
+  .hero-img-strip { width: 100%; aspect-ratio: 21/8; }
+  @media (max-width: 768px) { .hero-img-strip { aspect-ratio: 16/9; } }
+
+  /* ── Scroll reveal ─────────────────────────── */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .75s ease, transform .75s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+  .reveal[data-d="1"] { transition-delay: .12s; }
+</style>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">ArmaWeld</a> &nbsp;/&nbsp; <span data-i18n="ndt_breadcrumb">END</span></div>
+    <h1 data-i18n-html="ndt_h1">END /<br><span class="arc">Ensayos No Destructivos.</span></h1>
+    <p class="lede" style="font-size: clamp(17px,1.4vw,22px);" data-i18n="ndt_lede">VT, PT, MT y UT internamente con personal certificado EN ISO 9712 Nivel II. Socio autorizado para RT.</p>
+  </div>
+</section>
+
+<div class="img-card hero-img-strip reveal">
+  <picture><source srcset="../uploads/ndt-4.webp" type="image/webp"><img src="../uploads/ndt-4.jpeg" alt="NDT muayene" loading="lazy" width="2048" height="1366"></picture>
+  <div class="ic-overlay"></div>
+  <span class="ic-badge" data-i18n="ndt_badge_hero">● Ensayos No Destructivos · EN ISO 9712</span>
+</div>
+
+<!-- Methods -->
+<section class="methods">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="ndt_methods_eyebrow">02 / Métodos</div>
+        <p class="idx mono" style="margin-top:12px; color: var(--steel-1);">NDT.METHODS — 5</p>
+      </div>
+      <h2 class="display h2" data-i18n-html="ndt_methods_h2">Perfil técnico de cada método.</h2>
+    </div>
+
+    <div class="ndt-scope">
+      <div class="scope-col in">
+        <div class="k" data-i18n="ndt_scope_in_k">INTERNO</div>
+        <div class="v">VT · PT · MT · UT</div>
+        <div class="sub" data-i18n="ndt_scope_in_sub">Personal certificado ISO 9712 Nivel II · informes internos · trazabilidad completa</div>
+      </div>
+      <div class="scope-col out">
+        <div class="k" data-i18n="ndt_scope_out_k">SUBCONTRATADO</div>
+        <div class="v">RT</div>
+        <div class="sub" data-i18n="ndt_scope_out_sub">Requiere licencia de radiación. Se realiza con nuestro laboratorio asociado autorizado — los informes en película/digital se incorporan directamente al expediente del proyecto.</div>
+      </div>
+    </div>
+
+    <div class="ndt-tabs">
+      <button class="ndt-tab active" data-tab="vt">
+        <div class="code">// 01</div>
+        <div class="abbr">VT</div>
+        <div class="name">Visual Testing</div>
+      </button>
+      <button class="ndt-tab" data-tab="pt">
+        <div class="code">// 02</div>
+        <div class="abbr">PT</div>
+        <div class="name">Penetrant Testing</div>
+      </button>
+      <button class="ndt-tab" data-tab="mt">
+        <div class="code">// 03</div>
+        <div class="abbr">MT</div>
+        <div class="name">Magnetic Particle</div>
+      </button>
+      <button class="ndt-tab" data-tab="ut">
+        <div class="code">// 04</div>
+        <div class="abbr">UT</div>
+        <div class="name" data-i18n="px_nd_1">Ultrasonidos (en planta)</div>
+      </button>
+      <button class="ndt-tab" data-tab="rt">
+        <div class="code">// 05</div>
+        <div class="abbr">RT</div>
+        <div class="name">Radiographic (out.)</div>
+      </button>
+    </div>
+
+    <!-- VT -->
+    <div class="ndt-panel active" data-panel="vt">
+      <div class="ndt-panel-inner">
+        <div class="ndt-head">
+          <div class="i" data-i18n="ndt_vt_i">// 01 · VT — INSPECCIÓN VISUAL</div>
+          <h2 data-i18n="ndt_vt_h2">Inspección Visual.</h2>
+          <p data-i18n="ndt_vt_p">El primer paso, el más fundamental e importante de toda inspección. El cordón se evalúa visualmente con espejos, lámparas LED, calibres de soldadura y microscopios digitales. Se realiza a 20 °C con iluminación ≥ 350 lux.</p>
+
+          <div class="ndt-spec">
+            <div><div class="k" data-i18n="ndt_p_std">Norma</div><div class="v">EN ISO 17637</div></div>
+            <div><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v">EN ISO 9712 L2</div></div>
+            <div><div class="k" data-i18n="ndt_p_equip">Equipo</div><div class="v" data-i18n="ndtv_gauge">Calibre de soldadura</div></div>
+            <div><div class="k" data-i18n="ndt_p_depth">Profundidad de detección</div><div class="v" data-i18n="ndtv_surface">Solo superficial</div></div>
+          </div>
+
+          <div class="ndt-detects">
+            <h5 data-i18n="ndt_detects_h">Defectos detectables</h5>
+            <ul>
+              <li data-i18n="ndt_vt_d1">Fisuras superficiales (macro)</li>
+              <li data-i18n="ndt_vt_d2">Desviaciones de geometría del cordón (altura, longitud, borde)</li>
+              <li data-i18n="ndt_vt_d3">Mordedura (undercut)</li>
+              <li data-i18n="ndt_vt_d4">Salpicaduras, golpes superficiales, rugosidad</li>
+              <li data-i18n="ndt_vt_d5">Desalineación de junta, descolgamiento</li>
+              <li data-i18n="ndt_vt_d6">Falta de penetración en raíz (si es accesible)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ndt-visual">
+          <div class="img-card ndt-panel-img reveal">
+            <picture><source srcset="../uploads/ndt-vt.webp" type="image/webp"><img src="../uploads/ndt-vt.png" alt="Gözle muayene" loading="lazy" width="1456" height="816"></picture>
+            <div class="ic-overlay"></div>
+            <span class="ic-badge" data-i18n="ndt_badge_vt">● Gözle Muayene · VT</span>
+          </div>
+          <div class="nv-head">
+            <span class="t">■ VT · VISUAL TESTING</span>
+            <span class="r">EN ISO 17637</span>
+          </div>
+          <div class="nv-hero-row">
+            <div>
+              <div class="nv-big">VT</div>
+              <div class="nv-sub" data-i18n="ndt_vt_sub">Inspección visual</div>
+            </div>
+            <div class="nv-iso-badge">EN ISO 17637</div>
+          </div>
+          
+        <div class="nv-steps">
+          <div class="nv-step"><div class="nv-step-n">01</div><div class="nv-step-t" data-i18n="ndt_vt_st1">Limpieza de superficie y preparación de luz</div></div><div class="nv-step"><div class="nv-step-n">02</div><div class="nv-step-t" data-i18n="ndt_vt_st2">Control geométrico previo a soldadura</div></div><div class="nv-step"><div class="nv-step-n">03</div><div class="nv-step-t" data-i18n="ndt_vt_st3">Supervisión entre pasadas</div></div><div class="nv-step"><div class="nv-step-n">04</div><div class="nv-step-t" data-i18n="ndt_vt_st4">Inspección final (≥ 350 lux)</div></div><div class="nv-step"><div class="nv-step-n">05</div><div class="nv-step-t" data-i18n="ndt_vt_st5">Medición y registro</div></div>
+        </div>
+          <div class="nv-divider"></div>
+          
+        <div class="nv-params">
+          <div class="nv-param"><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v">EN ISO 9712 · Seviye 2</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_minlight">Intensidad lumínica mín.</div><div class="v" data-i18n="ndtv_lux">≥ 350 lux (luz blanca)</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_dist">Distancia de observación</div><div class="v" data-i18n="ndtv_dist">600 mm · ángulo 30°</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_format">Formato de registro</div><div class="v" data-i18n="ndtv_record">Informe de inspección + foto</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_scope">Alcance</div><div class="v" data-i18n="ndtv_full">100% cordón · obligatorio</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_accept">Criterio de aceptación</div><div class="v">EN ISO 5817 B / C</div></div>
+        </div>
+          
+        <div class="nv-caps">
+          <div class="nv-cap"><div class="cl" data-i18n="ndt_vt_c1">Sensibilidad superficial</div><div class="cb"><i style="width:95%"></i></div><div class="cr" data-i18n="ndt_cr_vhigh">Muy alta</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_vt_c2">Control geométrico</div><div class="cb"><i style="width:90%"></i></div><div class="cr" data-i18n="ndt_cr_high">Alta</div></div><div class="nv-cap"><div class="cl">Hacim Tespiti</div><div class="cb"><i style="width:5%"></i></div><div class="cr" data-i18n="ndt_cr_no">No posible</div></div>
+        </div>
+          <div class="nv-tags"><span data-i18n="tag_pre">PRE-SOLDADURA</span><span data-i18n="tag_during">DURANTE SOLDADURA</span><span data-i18n="tag_post">POST-SOLDADURA</span><span data-i18n="tag_geom">GEOMETRÍA</span><span data-i18n="tag_surf">SUPERFICIE</span><span data-i18n="tag_full">COBERTURA 100%</span></div>
+          <div class="nv-foot">
+            <span data-i18n="ndt_foot_in">SE REALIZA INTERNAMENTE</span>
+            <span class="ok" data-i18n="ndt_foot_op">● OPERATIVO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PT -->
+    <div class="ndt-panel" data-panel="pt">
+      <div class="ndt-panel-inner">
+        <div class="ndt-head">
+          <div class="i" data-i18n="ndt_pt_i">// 02 · PT — LÍQUIDOS PENETRANTES</div>
+          <h2 data-i18n="ndt_pt_h2">Inspección por Líquidos Penetrantes.</h2>
+          <p data-i18n="ndt_pt_p">Un líquido penetrante se introduce por capilaridad en fisuras abiertas a la superficie; tras el lavado y la aplicación de un revelador, la indicación se extrae y se hace visible. Imprescindible en materiales no magnéticos (inoxidable, aluminio, aleaciones de cobre).</p>
+
+          <div class="ndt-spec">
+            <div><div class="k" data-i18n="ndt_p_std">Norma</div><div class="v">EN ISO 3452</div></div>
+            <div><div class="k" data-i18n="ndt_p_dwell">Tiempo de penetración</div><div class="v" data-i18n="ndtv_20min">≥ 20 minutos</div></div>
+            <div><div class="k" data-i18n="ndt_p_temp">Rango de temperatura</div><div class="v">10 – 50 °C</div></div>
+            <div><div class="k" data-i18n="ndt_p_detlim">Límite de detección</div><div class="v" data-i18n="ndtv_only_surface">Solo superficial</div></div>
+          </div>
+
+          <div class="ndt-detects">
+            <h5 data-i18n="ndt_detects_h">Defectos detectables</h5>
+            <ul>
+              <li data-i18n="ndt_pt_d1">Fisuras superficiales (en caliente, en frío)</li>
+              <li data-i18n="ndt_pt_d2">Poros y cráteres en superficie</li>
+              <li data-i18n="ndt_pt_d3">Líneas de unión no fusionadas</li>
+              <li data-i18n-html="ndt_pt_d4">Defectos finos en superficie (&gt;1 µm)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ndt-visual">
+          <div class="img-card ndt-panel-img reveal">
+            <picture><source srcset="../uploads/ndt-pt.webp" type="image/webp"><img src="../uploads/ndt-pt.png" alt="Penetrant muayene" loading="lazy" width="1456" height="816"></picture>
+            <div class="ic-overlay"></div>
+            <span class="ic-badge" data-i18n="ndt_badge_pt">● Penetrant Muayene · PT</span>
+          </div>
+          <div class="nv-head">
+            <span class="t">■ PT · PENETRANT TESTING</span>
+            <span class="r">EN ISO 3452</span>
+          </div>
+          <div class="nv-hero-row">
+            <div>
+              <div class="nv-big">PT</div>
+              <div class="nv-sub" data-i18n="ndt_pt_sub">Inspección con líquidos penetrantes</div>
+            </div>
+            <div class="nv-iso-badge">EN ISO 3452</div>
+          </div>
+          
+        <div class="nv-steps">
+          <div class="nv-step"><div class="nv-step-n">01</div><div class="nv-step-t" data-i18n="ndt_pt_st1">Limpieza de superficie</div></div><div class="nv-step"><div class="nv-step-n">02</div><div class="nv-step-t" data-i18n="ndt_pt_st2">Aplicación del penetrante</div></div><div class="nv-step"><div class="nv-step-n">03</div><div class="nv-step-t" data-i18n="ndt_pt_st3">Tiempo de penetración (≥ 20 min)</div></div><div class="nv-step"><div class="nv-step-n">04</div><div class="nv-step-t" data-i18n="ndt_pt_st4">Lavado y revelador</div></div><div class="nv-step"><div class="nv-step-n">05</div><div class="nv-step-t" data-i18n="ndt_pt_st5">Inspección y registro</div></div>
+        </div>
+          <div class="nv-divider"></div>
+          
+        <div class="nv-params">
+          <div class="nv-param"><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v">EN ISO 9712 · Seviye 2</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_dwell">Tiempo de penetración</div><div class="v" data-i18n="ndtv_20min">≥ 20 minutos</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_temp">Rango de temperatura</div><div class="v">10 – 50 °C</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_detlim">Límite de detección</div><div class="v" data-i18n="px_nd_3">&gt; 1 µm de ancho</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_mat">Material</div><div class="v" data-i18n="ndtv_nonferro">No ferromagnético · todos los metales</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_accept">Criterio de aceptación</div><div class="v">EN ISO 23277</div></div>
+        </div>
+          
+        <div class="nv-caps">
+          <div class="nv-cap"><div class="cl" data-i18n="ndt_pt_c1">Detección de fisuras en superficie</div><div class="cb"><i style="width:98%"></i></div><div class="cr" data-i18n="ndt_cr_vhigh">Muy alta</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_pt_c2">Materiales aplicables</div><div class="cb"><i style="width:85%"></i></div><div class="cr" data-i18n="ndt_cr_widenm">Amplio (no magn.)</div></div><div class="nv-cap"><div class="cl">Hacim Tespiti</div><div class="cb"><i style="width:0%"></i></div><div class="cr" data-i18n="ndt_cr_no">No posible</div></div>
+        </div>
+          <div class="nv-tags"><span data-i18n="tag_stainless">INOXIDABLE</span><span data-i18n="tag_alu">ALUMINIO</span><span data-i18n="tag_copper">COBRE</span><span data-i18n="tag_nonmag">NO MAGNÉTICO</span><span data-i18n="tag_crack">FISURA</span><span data-i18n="tag_pore">POROSIDAD</span></div>
+          <div class="nv-foot">
+            <span data-i18n="ndt_foot_in">SE REALIZA INTERNAMENTE</span>
+            <span class="ok" data-i18n="ndt_foot_op">● OPERATIVO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MT -->
+    <div class="ndt-panel" data-panel="mt">
+      <div class="ndt-panel-inner">
+        <div class="ndt-head">
+          <div class="i" data-i18n="ndt_mt_i">// 03 · MT — PARTÍCULAS MAGNÉTICAS</div>
+          <h2 data-i18n="ndt_mt_h2">Partículas Magnéticas.</h2>
+          <p data-i18n="ndt_mt_p">Al aplicar un campo magnético a un material ferromagnético, las partículas de hierro son atraídas por la fuga de flujo alrededor de defectos superficiales y subsuperficiales (2–3 mm). Se prefiere a PT en aceros al carbono y de baja aleación.</p>
+
+          <div class="ndt-spec">
+            <div><div class="k" data-i18n="ndt_p_std">Norma</div><div class="v">EN ISO 17638</div></div>
+            <div><div class="k" data-i18n="ndt_p_compat">Material compatible</div><div class="v" data-i18n="ndtv_ferro_only">Ferromagnético</div></div>
+            <div><div class="k" data-i18n="ndt_p_field">Campo magnético</div><div class="v">2 – 6 kA/m</div></div>
+            <div><div class="k" data-i18n="ndt_p_depth">Profundidad de detección</div><div class="v">≤ 3 mm</div></div>
+          </div>
+
+          <div class="ndt-detects">
+            <h5 data-i18n="ndt_detects_h">Defectos detectables</h5>
+            <ul>
+              <li data-i18n="ndt_mt_d1">Fisuras superficiales y subsuperficiales</li>
+              <li data-i18n="ndt_mt_d2">Falta de fusión en frío</li>
+              <li data-i18n="ndt_mt_d3">Acumulación de poros subsuperficial (poco profunda)</li>
+              <li data-i18n="ndt_mt_d4">Defectos de laminado/plegado</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ndt-visual">
+          <div class="img-card ndt-panel-img reveal">
+            <picture><source srcset="../uploads/ndt-mt.webp" type="image/webp"><img src="../uploads/ndt-mt.png" alt="Manyetik parçacık muayene" loading="lazy" width="1456" height="816"></picture>
+            <div class="ic-overlay"></div>
+            <span class="ic-badge" data-i18n="ndt_badge_mt">● Manyetik Parçacık · MT</span>
+          </div>
+          <div class="nv-head">
+            <span class="t">■ MT · MAGNETIC PARTICLE</span>
+            <span class="r">EN ISO 17638</span>
+          </div>
+          <div class="nv-hero-row">
+            <div>
+              <div class="nv-big">MT</div>
+              <div class="nv-sub" data-i18n="ndt_mt_sub">Inspección por partículas magnéticas</div>
+            </div>
+            <div class="nv-iso-badge">EN ISO 17638</div>
+          </div>
+          
+        <div class="nv-steps">
+          <div class="nv-step"><div class="nv-step-n">01</div><div class="nv-step-t" data-i18n="ndt_mt_st1">Magnetización con yugo</div></div><div class="nv-step"><div class="nv-step-n">02</div><div class="nv-step-t" data-i18n="ndt_mt_st2">Aplicación de partículas (húmedo/seco)</div></div><div class="nv-step"><div class="nv-step-n">03</div><div class="nv-step-t" data-i18n="ndt_mt_st3">Inspección con luz UV / blanca</div></div><div class="nv-step"><div class="nv-step-n">04</div><div class="nv-step-t" data-i18n="ndt_mt_st4">Desmagnetización</div></div><div class="nv-step"><div class="nv-step-n">05</div><div class="nv-step-t" data-i18n="ndt_mt_st5">Registro</div></div>
+        </div>
+          <div class="nv-divider"></div>
+          
+        <div class="nv-params">
+          <div class="nv-param"><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v">EN ISO 9712 · Seviye 2</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_equip">Equipo</div><div class="v" data-i18n="ndtv_yoke">Yugo (CA/CC) · de banco</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_depth">Profundidad de detección</div><div class="v" data-i18n="ndtv_subsurf">Superficie + subsuperficie ≤ 2 mm</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_part">Tipo de partícula</div><div class="v" data-i18n="ndtv_part">Fluorescente (UV) · color</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_mat">Material</div><div class="v" data-i18n="ndtv_only_ferro">Solo acero ferromagnético</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_accept">Criterio de aceptación</div><div class="v">EN ISO 23278</div></div>
+        </div>
+          
+        <div class="nv-caps">
+          <div class="nv-cap"><div class="cl" data-i18n="ndt_pt_c1">Detección de fisuras en superficie</div><div class="cb"><i style="width:99%"></i></div><div class="cr" data-i18n="ndt_cr_highest">Máxima</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_mt_c1">Subsuperficial (≤2 mm)</div><div class="cb"><i style="width:70%"></i></div><div class="cr" data-i18n="ndt_cr_good">Buena</div></div><div class="nv-cap"><div class="cl">Hacim Tespiti</div><div class="cb"><i style="width:0%"></i></div><div class="cr" data-i18n="ndt_cr_no">No posible</div></div>
+        </div>
+          <div class="nv-tags"><span data-i18n="tag_ferro">FERROMAGNÉTICO</span><span data-i18n="tag_carbon">ACERO AL CARBONO</span><span data-i18n="tag_yoke">YUGO</span><span data-i18n="tag_acdc">CA/CC</span><span data-i18n="tag_fluo">FLUORESCENTE</span><span data-i18n="tag_critical">CORDÓN CRÍTICO</span></div>
+          <div class="nv-foot">
+            <span data-i18n="ndt_foot_in">SE REALIZA INTERNAMENTE</span>
+            <span class="ok" data-i18n="ndt_foot_op">● OPERATIVO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UT -->
+    <div class="ndt-panel" data-panel="ut">
+      <div class="ndt-panel-inner">
+        <div class="ndt-head">
+          <div class="i" data-i18n="ndt_ut_i">// 04 · UT — ULTRASONIDOS (INTERNO)</div>
+          <h2 data-i18n="ndt_ut_h2">Inspección Ultrasónica.</h2>
+          <p data-i18n-html="ndt_ut_p">Ondas sonoras de alta frecuencia atraviesan el material y se reflejan al encontrar una discontinuidad (defecto, superficie interior). El método más seguro y económico para detectar defectos volumétricos (internos). En chapas gruesas es mucho más seguro que RT (sin radiación). <strong>Lo realiza nuestro personal certificado ISO 9712 Nivel II</strong> — informe interno.</p>
+
+          <div class="ndt-spec">
+            <div><div class="k" data-i18n="ndt_p_std">Norma</div><div class="v">EN ISO 17640</div></div>
+            <div><div class="k" data-i18n="ndt_p_probe">Ángulo de palpador</div><div class="v">0° · 45° · 60° · 70°</div></div>
+            <div><div class="k" data-i18n="ndt_p_freq">Frecuencia</div><div class="v">2 – 5 MHz</div></div>
+            <div><div class="k" data-i18n="ndt_p_depth">Profundidad de detección</div><div class="v" data-i18n="ndtv_volfull">Volumétrico (sección completa)</div></div>
+          </div>
+
+          <div class="ndt-detects">
+            <h5 data-i18n="ndt_detects_h">Defectos detectables</h5>
+            <ul>
+              <li data-i18n="ndt_ut_d1">Fisuras internas (en todas direcciones)</li>
+              <li data-i18n="ndt_ut_d2">Falta de penetración, falta de fusión</li>
+              <li data-i18n="ndt_ut_d3">Defectos volumétricos (poros grandes, inclusiones de escoria)</li>
+              <li data-i18n="ndt_ut_d4">Laminación</li>
+              <li data-i18n="ndt_ut_d5">Todos los defectos clasificados como volumétricos en ISO 5817</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ndt-visual">
+          <div class="img-card ndt-panel-img reveal">
+            <picture><source srcset="../uploads/ndt-3.webp" type="image/webp"><img src="../uploads/ndt-3.jpeg" alt="Ultrasonik muayene" loading="lazy" width="2048" height="1365"></picture>
+            <div class="ic-overlay"></div>
+            <span class="ic-badge" data-i18n="ndt_badge_ut">● Ensayo Ultrasónico · UT</span>
+          </div>
+          <div class="nv-head">
+            <span class="t">■ UT · ULTRASONIC TESTING</span>
+            <span class="r">EN ISO 17640</span>
+          </div>
+          <div class="nv-hero-row">
+            <div>
+              <div class="nv-big">UT</div>
+              <div class="nv-sub" data-i18n="ndt_ut_sub">Inspección por ultrasonidos</div>
+            </div>
+            <div class="nv-iso-badge">EN ISO 17640</div>
+          </div>
+          
+        <div class="nv-steps">
+          <div class="nv-step"><div class="nv-step-n">01</div><div class="nv-step-t" data-i18n="ndt_ut_st1">Calibración (bloque de referencia)</div></div><div class="nv-step"><div class="nv-step-n">02</div><div class="nv-step-t" data-i18n="ndt_ut_st2">Escaneo (A-scan pulse-echo)</div></div><div class="nv-step"><div class="nv-step-n">03</div><div class="nv-step-t" data-i18n="ndt_ut_st3">Evaluación de eco</div></div><div class="nv-step"><div class="nv-step-n">04</div><div class="nv-step-t" data-i18n="ndt_ut_st4">Tamaño y posición del defecto</div></div><div class="nv-step"><div class="nv-step-n">05</div><div class="nv-step-t" data-i18n="ndt_ut_st5">Informe y aceptación/rechazo</div></div>
+        </div>
+          <div class="nv-divider"></div>
+          
+        <div class="nv-params">
+          <div class="nv-param"><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v">EN ISO 9712 · Seviye 2</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_freq">Frecuencia</div><div class="v" data-i18n="ndtv_5mhz">Ø 5 MHz (estándar)</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_method">Método</div><div class="v" data-i18n="ndtv_ascanpe">A-scan · pulso-eco</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_refblock">Bloque de referencia</div><div class="v">IIW/V1 + V2</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_scope">Alcance</div><div class="v" data-i18n="ndtv_fullpen">Cordones de penetración completa</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_accept">Criterio de aceptación</div><div class="v">EN ISO 11666</div></div>
+        </div>
+          
+        <div class="nv-caps">
+          <div class="nv-cap"><div class="cl" data-i18n="ndt_ut_c1">Detección de defectos volumétricos</div><div class="cb"><i style="width:95%"></i></div><div class="cr" data-i18n="ndt_cr_vhigh">Muy alta</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_ut_c2">Profundidad de detección</div><div class="cb"><i style="width:100%"></i></div><div class="cr" data-i18n="ndt_cr_full">Sección completa</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_ut_c3">Defectos superficiales</div><div class="cb"><i style="width:40%"></i></div><div class="cr" data-i18n="ndt_cr_lim">Limitada</div></div>
+        </div>
+          <div class="nv-tags"><span data-i18n="tag_ascan">A-SCAN</span><span data-i18n="tag_pe">PULSE-ECHO</span><span data-i18n="tag_5mhz">Ø5 MHz</span><span data-i18n="tag_inner">DEFECTO INTERNO</span><span data-i18n="tag_thick">SECCIÓN GRUESA</span><span data-i18n="tag_pv">RECIPIENTE A PRESIÓN</span></div>
+          <div class="nv-foot">
+            <span data-i18n="ndt_foot_in">SE REALIZA INTERNAMENTE</span>
+            <span class="ok" data-i18n="ndt_foot_op">● OPERATIVO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RT -->
+    <div class="ndt-panel" data-panel="rt">
+      <div class="ndt-panel-inner">
+        <div class="ndt-head">
+          <div class="i" data-i18n="ndt_rt_i">// 05 · RT — RADIOGRAFÍA (SUBCONTRATADA)</div>
+          <h2 data-i18n="ndt_rt_h2">Inspección Radiográfica.</h2>
+          <p data-i18n="ndt_rt_p">La radiación X o gamma atraviesa el material y se atenúa de manera distinta en los defectos, haciéndolos visibles en película o detectores digitales. Por seguridad, ArmaWeld lo realiza a través de un laboratorio asociado autorizado; los informes se incorporan a su expediente.</p>
+
+          <div class="ndt-spec">
+            <div><div class="k" data-i18n="ndt_p_std">Norma</div><div class="v">EN ISO 17636</div></div>
+            <div><div class="k" data-i18n="ndt_p_src">Tipo de fuente</div><div class="v" data-i18n="px_nd_5">Rayos X · Ir-192</div></div>
+            <div><div class="k" data-i18n="ndt_p_partner">Socio</div><div class="v" data-i18n="ndtv_lab">Lab. autorizado</div></div>
+            <div><div class="k" data-i18n="ndt_p_depth">Profundidad de detección</div><div class="v" data-i18n="ndtv_vol2d">Volumétrico · imagen 2D</div></div>
+          </div>
+
+          <div class="ndt-detects">
+            <h5 data-i18n="ndt_detects_h">Defectos detectables</h5>
+            <ul>
+              <li data-i18n="ndt_rt_d1">Defectos volumétricos (porosidades, inclusiones de escoria)</li>
+              <li data-i18n="ndt_rt_d2">Defectos planares (fisuras) — si la orientación es favorable</li>
+              <li data-i18n="px_nd_6">Falta de penetración, falta de fusión</li>
+              <li data-i18n="ndt_rt_d4">Reacciones e irregularidades en superficie interior</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ndt-visual ndt-visual-ext">
+          <div class="img-card ndt-panel-img reveal">
+            <picture><source srcset="../uploads/ndt-rt.webp" type="image/webp"><img src="../uploads/ndt-rt.png" alt="Radyografik muayene" loading="lazy" width="1456" height="816"></picture>
+            <div class="ic-overlay"></div>
+            <span class="ic-badge" data-i18n="ndt_badge_rt">● Radyografik Muayene · RT</span>
+          </div>
+          <div class="nv-head">
+            <span class="t">■ RT · RADIOGRAPHIC TESTING</span>
+            <span class="r">EN ISO 17636</span>
+          </div>
+          <div class="nv-hero-row">
+            <div>
+              <div class="nv-big">RT</div>
+              <div class="nv-sub" data-i18n="ndt_rt_sub">Inspección radiográfica</div>
+            </div>
+            <div class="nv-iso-badge">EN ISO 17636</div>
+          </div>
+          
+        <div class="nv-steps">
+          <div class="nv-step"><div class="nv-step-n">01</div><div class="nv-step-t" data-i18n="ndt_rt_st1">Preparación de seguridad de la fuente y del entorno</div></div><div class="nv-step"><div class="nv-step-n">02</div><div class="nv-step-t" data-i18n="ndt_rt_st2">Colocación de película / detector digital</div></div><div class="nv-step"><div class="nv-step-n">03</div><div class="nv-step-t" data-i18n="ndt_rt_st3">Exposición (rayos X / gamma)</div></div><div class="nv-step"><div class="nv-step-n">04</div><div class="nv-step-t" data-i18n="ndt_rt_st4">Revelado de película / lectura digital</div></div><div class="nv-step"><div class="nv-step-n">05</div><div class="nv-step-t" data-i18n="ndt_rt_st5">Interpretación de imagen e informe</div></div>
+        </div>
+          <div class="nv-divider"></div>
+          
+        <div class="nv-params">
+          <div class="nv-param"><div class="k" data-i18n="ndt_p_src">Tipo de fuente</div><div class="v" data-i18n="ndtv_xrgamma">Rayos X · gamma (Ir-192 / Se-75)</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_personnel">Cualificación del personal</div><div class="v" data-i18n="ndtv_l2_lic">EN ISO 9712 · Nivel II + licencia de irradiación</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_cap">Capacidad de detección</div><div class="v" data-i18n="ndtv_volsec">Volumétrico · sección completa</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_dig">Opción digital</div><div class="v" data-i18n="ndtv_crdr">Panel CR / DR</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_app">Aplicación</div><div class="v" data-i18n="ndtv_app_pv">Recipiente a presión · cordón crítico</div></div><div class="nv-param"><div class="k" data-i18n="ndt_p_accept">Criterio de aceptación</div><div class="v">EN ISO 10675</div></div>
+        </div>
+          
+        <div class="nv-caps">
+          <div class="nv-cap"><div class="cl" data-i18n="ndt_rt_c1">Detección de defectos volumétricos</div><div class="cb"><i style="width:90%"></i></div><div class="cr" data-i18n="ndt_cr_vhigh">Muy alta</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_rt_c2">Defectos superficiales</div><div class="cb"><i style="width:75%"></i></div><div class="cr" data-i18n="ndt_cr_good">Buena</div></div><div class="nv-cap"><div class="cl" data-i18n="ndt_rt_c3">Independencia del espesor</div><div class="cb"><i style="width:80%"></i></div><div class="cr" data-i18n="ndt_cr_widerange">Amplio rango</div></div>
+        </div>
+          <div class="nv-tags"><span data-i18n="tag_xray">RAYOS X</span><span data-i18n="tag_gamma">GAMMA</span><span data-i18n="tag_pv2">RECIPIENTE A PRESIÓN</span><span data-i18n="tag_dig">DIGITAL</span><span data-i18n="tag_lic">AUTORIZADO</span></div>
+          <div class="nv-foot">
+            <span data-i18n="ndt_foot_out">SUBCONTRATADO · SOCIO AUTORIZADO</span>
+            <span class="ext" data-i18n="ndt_foot_partner">● LAB. SOCIO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Defect catalog -->
+<section class="catalog">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="ndt_defect_eyebrow">02 / Catálogo de Defectos</div>
+        <p class="idx mono" style="margin-top:12px; color: var(--steel-1);">DEFECT — 6 TYPES</p>
+      </div>
+      <h2 class="display h2">
+        <span data-i18n-html="ndt_defect_h2">El método de inspección <span style="color:var(--arc-2)">adecuado</span> según el tipo de defecto.</span>
+      </h2>
+    </div>
+
+    <div class="def-grid">
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 100</div>
+          <div class="dv-letter" style="color: #ff3a1a;">C</div>
+          <div class="dv-name" data-i18n="px_nd_7">GRIETA</div>
+        </div>
+        <div class="def-code">100 · CRACK</div>
+        <h4 data-i18n="ndt_def1_h">Fisura</h4>
+        <p data-i18n="ndt_def1_p">Separación por pérdida de cohesión. Puede ser en caliente (solidificación) o en frío (hidrógeno). La clase de defecto más peligrosa.</p>
+        <div class="ndt-list"><span class="m">▶</span> VT · PT · MT · UT · RT</div>
+      </div>
+
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 2011</div>
+          <div class="dv-letter" style="color: #ff7a1a;">P</div>
+          <div class="dv-name" data-i18n="px_nd_8">POROSIDAD</div>
+        </div>
+        <div class="def-code">200 · POROSITY</div>
+        <h4 data-i18n="ndt_def2_h">Porosidad</h4>
+        <p data-i18n="ndt_def2_p">Huecos esféricos por gas atrapado durante la solidificación. Se previene con pureza del gas de protección, electrodos secos y superficie limpia.</p>
+        <div class="ndt-list"><span class="m">▶</span> <span data-i18n="px_nd_9">UT · RT (principal) · VT (si abierta)</span></div>
+      </div>
+
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 301</div>
+          <div class="dv-letter" style="color: #ffb766;">S</div>
+          <div class="dv-name" data-i18n="px_nd_10">ESCORIA</div>
+        </div>
+        <div class="def-code">300 · SLAG</div>
+        <h4 data-i18n="ndt_def3_h">Inclusión de escoria</h4>
+        <p data-i18n="ndt_def3_p">Restos de escoria en el cordón por limpieza insuficiente entre pasadas. Se previene con esmerilado/cepillado disciplinado en soldaduras multipasada.</p>
+        <div class="ndt-list"><span class="m">▶</span> UT · RT</div>
+      </div>
+
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 401</div>
+          <div class="dv-letter" style="color: #ff7a1a;">F</div>
+          <div class="dv-name" data-i18n="px_nd_11">FUSIÓN</div>
+        </div>
+        <div class="def-code">401 · LACK OF FUSION</div>
+        <h4 data-i18n="ndt_def4_h">Falta de fusión</h4>
+        <p data-i18n="ndt_def4_p">Falta de fusión total entre el material de aporte y el metal base o entre pasadas. Causada por baja corriente o técnica incorrecta.</p>
+        <div class="ndt-list"><span class="m">▶</span> UT (primer) · RT</div>
+      </div>
+
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 4021</div>
+          <div class="dv-letter" style="color: #ff3a1a;">R</div>
+          <div class="dv-name" data-i18n="px_nd_12">RAÍZ</div>
+        </div>
+        <div class="def-code">402 · LACK OF PEN.</div>
+        <h4 data-i18n="ndt_def5_h">Falta de penetración</h4>
+        <p data-i18n="ndt_def5_p">La pasada de raíz no atraviesa todo el espesor. Aparece con ángulo, abertura o parámetros de raíz incorrectos.</p>
+        <div class="ndt-list"><span class="m">▶</span> <span data-i18n="px_nd_13">UT · RT · VT (si accesible)</span></div>
+      </div>
+
+      <div class="def">
+        <div class="def-visual">
+          <div class="dv-code">ISO 6520-1 / 5011</div>
+          <div class="dv-letter" style="color: #ffb766;">U</div>
+          <div class="dv-name">OLUK</div>
+        </div>
+        <div class="def-code">501 · UNDERCUT</div>
+        <h4 data-i18n="ndt_def6_h">Mordedura</h4>
+        <p data-i18n="ndt_def6_p">Entalla/canal en el material base en el pie del cordón. Causada por exceso de corriente o ángulo de antorcha incorrecto. Punto de inicio de fisuras por fatiga.</p>
+        <div class="ndt-list"><span class="m">▶</span> VT (primer) · MT · PT</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Acceptance matrix -->
+<section class="accept">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="ndt_accept_eyebrow">03 / Criterios de Aceptación</div>
+        <p class="idx mono" style="margin-top:12px; color: var(--steel-1);">EN ISO 5817</p>
+      </div>
+      <h2 class="display h2">
+        <span data-i18n-html="ndt_accept_h2">Los niveles de aceptación <span style="color:var(--arc-2)">se determinan por el requisito de aplicación.</span></span>
+      </h2>
+    </div>
+
+    <p class="lede" data-i18n="ndt_accept_lede">No todo trabajo se inspecciona con la misma exigencia. Según la clase de riesgo de la estructura se aplica el nivel de aceptación EN ISO 5817 B, C o D. Salvo indicación contraria, el nivel por defecto de ArmaWeld es el más estricto, B.</p>
+
+    <table class="accept-tbl">
+      <thead>
+        <tr>
+          <th data-i18n="ndt_accept_th_class">Clase</th>
+          <th data-i18n="ndt_accept_th_app">Aplicación típica</th>
+          <th data-i18n="ndt_accept_th_crack">Fisura</th>
+          <th data-i18n="ndt_accept_th_pore">Poro (único)</th>
+          <th data-i18n="ndt_accept_th_uc">Mordedura</th>
+          <th data-i18n="ndt_accept_th_misalign">Desalineación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="lv b" data-i18n="ndt_accept_b_label">B · Estricto</span></td>
+          <td data-i18n="ndt_accept_b_app">Recipiente a presión, grúa, carga dinámica, estructura crítica</td>
+          <td data-i18n="ndt_accept_no_crack">No admisible</td>
+          <td>d ≤ 0.2·t · max 3mm</td>
+          <td>≤ 0.5 mm</td>
+          <td>≤ 0.1·t · max 3 mm</td>
+        </tr>
+        <tr>
+          <td><span class="lv c" data-i18n="ndt_accept_c_label">C · Medio</span></td>
+          <td data-i18n="ndt_accept_c_app">Acero estructural general, elementos de máquina</td>
+          <td data-i18n="ndt_accept_no_crack">No admisible</td>
+          <td>d ≤ 0.3·t · max 4mm</td>
+          <td>≤ 1.0 mm</td>
+          <td>≤ 0.15·t · max 4 mm</td>
+        </tr>
+        <tr>
+          <td><span class="lv d" data-i18n="ndt_accept_d_label">D · Bajo</span></td>
+          <td data-i18n="ndt_accept_d_app">Carga estática, oculto, baja importancia</td>
+          <td data-i18n="ndt_accept_no_crack">No admisible</td>
+          <td>d ≤ 0.4·t · max 5mm</td>
+          <td>≤ 1.5 mm</td>
+          <td>≤ 0.25·t · max 5 mm</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<link rel="stylesheet" href="../assets/deep-sections.css?v=202606122">
+<section class="deep-section alt">
+  <div class="container">
+    <div class="deep-head reveal"><div class="eyebrow">04 / Teknik Derinlik</div><h2 data-i18n="px_nd_14">Alcance de END y pruebas de aceptación</h2></div>
+    <div class="deep-subsection reveal">
+      <div class="deep-head"><div class="eyebrow">Matris</div><h2 data-i18n="deep_ndt_matrix_h2">Matriz de Alcance END (por Sector)</h2></div>
+      <div data-i18n-html="deep_ndt_matrix_html"><div class="deep-table-wrap"><table class="deep-table deep-table-wide"><thead><tr><th>Sector / Standard</th><th>VT</th><th>PT</th><th>MT</th><th>UT</th><th>RT</th><th>VT Accept.</th><th>UT Accept.</th><th>MT Accept.</th><th>PT Accept.</th><th>RT Accept.</th><th>Application Note</th></tr></thead><tbody><tr><td>EN 1090 EXC3</td><td>100%</td><td>—</td><td>10% critical</td><td>5% full pen.</td><td>—</td><td>EN ISO 5817 B</td><td>EN ISO 11666 Level B</td><td>EN ISO 17638</td><td>—</td><td>—</td><td>5817 applies to VT only. UT: t≥8 mm, full pen., accessible prep. Fillet/corner: MT or VT.</td></tr><tr><td>PED Cat. II–III</td><td>100%</td><td>100% (SS/Al)</td><td>—</td><td>100% full pen.</td><td>100% weld</td><td>EN ISO 5817 B</td><td>EN ISO 11666 / 17640</td><td>—</td><td>EN ISO 23277</td><td>EN ISO 17636 / EN 13445</td><td>PT instead of MT on stainless/aluminium. RT via partner lab.</td></tr><tr><td>EN 15085 CL1</td><td>100%</td><td>—</td><td>—</td><td>100%</td><td>—</td><td>EN ISO 5817 B</td><td>EN ISO 11666 + EN 15085</td><td>—</td><td>—</td><td>—</td><td>UT mandatory on fatigue joints; VT alone insufficient.</td></tr><tr><td>HARDOX bucket</td><td>100%</td><td>—</td><td>20%</td><td>—</td><td>—</td><td>EN ISO 5817 C</td><td>—</td><td>EN ISO 17638</td><td>—</td><td>—</td><td>UT rarely applied (t&lt;12 mm fillet). MT for ferromagnetic HARDOX.</td></tr><tr><td>Stainless process</td><td>100%</td><td>100% critical</td><td>—</td><td>Project-based</td><td>Partner lab</td><td>EN ISO 5817 B</td><td>EN ISO 11666 / 17640</td><td>—</td><td>EN ISO 23277 / 3452-1</td><td>EN ISO 17636</td><td>MT not applicable (non-magnetic). PT or UT preferred.</td></tr><tr><td>General machinery</td><td>100%</td><td>SS/Al critical</td><td>10% (CS)</td><td>t≥8 mm full pen.</td><td>Partner lab</td><td>EN ISO 5817 B/C</td><td>EN ISO 11666 (project)</td><td>EN ISO 17638</td><td>EN ISO 23277</td><td>EN ISO 17636 (project)</td><td>NDT scope defined in ITP; method selected by material and joint type.</td></tr></tbody></table></div><div class="deep-callout"><p><strong>Important:</strong> EN ISO 5817 is the VT acceptance class only. UT → EN ISO 11666/17640, MT → EN ISO 17638, PT → EN ISO 23277/3452-1, RT → EN ISO 17636. No UT on fillet/corner welds without full penetration.</p></div></div>
+    </div>
+    <div class="deep-subsection reveal">
+      <div class="deep-head"><div class="eyebrow">Personel</div><h2 data-i18n="deep_ndt_personnel_h2">Tabla de Competencia del Personal END</h2></div>
+      <div data-i18n-html="deep_ndt_personnel_html"><table class="deep-table"><thead><tr><th>Method</th><th>Level</th><th>Certificate</th><th>Scope</th></tr></thead><tbody><tr><td>VT (Visual)</td><td>Level II</td><td>EN ISO 9712</td><td>All project types</td></tr><tr><td>PT (Penetrant)</td><td>Level II</td><td>EN ISO 9712</td><td>Stainless, aluminium, critical CS</td></tr><tr><td>MT (Magnetic)</td><td>Level II</td><td>EN ISO 9712</td><td>Ferromagnetic steel, HARDOX</td></tr><tr><td>UT (Ultrasonic)</td><td>Level II</td><td>EN ISO 9712</td><td>Thick plate, full penetration, EN 15085</td></tr><tr><td>RT (Radiography)</td><td>Partner lab</td><td>Accredited (TÜRKAK)</td><td>PED, pressure vessel, critical welds</td></tr></tbody></table></div>
+    </div>
+    <div class="deep-subsection reveal">
+      <div class="deep-head"><div class="eyebrow">FAT</div><h2 data-i18n="deep_fat_h2">FAT — Prueba de Aceptación en Fábrica</h2></div>
+      <div data-i18n-html="deep_fat_html"><ol style="font-size:13px;color:var(--steel-3);line-height:1.8;padding-left:20px"><li><strong>Pre-meeting (Pre-FAT):</strong> ITP, test plan and acceptance criteria approved with customer/third party.</li><li><strong>Document review:</strong> WPS, MTC, NDT reports, dimensional report, CE DoP checked.</li><li><strong>Visual inspection:</strong> VT 100%; surface treatment, marking, paint/galvanize quality.</li><li><strong>Dimensional verification:</strong> Drawing tolerances; dimensional report.</li><li><strong>Functional test:</strong> Hydrostatic, pneumatic, mechanical movement — per project specification.</li><li><strong>Re-NDT (if required):</strong> Additional UT/RT on critical welds; reject rate reported.</li><li><strong>Punch list &amp; closure:</strong> Open items listed; correction and re-test recorded.</li><li><strong>FAT report:</strong> Signed acceptance/rejection document; shipment approval.</li></ol></div>
+      <div class="deep-links"><a href="kalite.html" data-i18n="px_nd_15">Simulador de documentos →</a><a href="blog/kaynak-kalite-kontrol.html">Kalite kontrol rehberi →</a></div>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.armaweld.com/es/ndt.html#ndt",
+      "name": "NDT Tahribatsız Muayene",
+      "description": "VT, PT, MT, UT, RT yöntemleriyle EN ISO 9712 Seviye 2 sertifikalı personel tarafından gerçekleştirilen tahribatsız muayene hizmetleri. Kaynaklı yapılar, basınçlı ekipmanlar ve taşıyıcı konstrüksiyonlar için.",
+      "provider": {
+        "@id": "https://www.armaweld.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      },
+      "url": "https://www.armaweld.com/es/ndt.html",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "NDT Yöntemleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "VT — Görsel Muayene"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "PT — Penetrant Muayene"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "MT — Manyetik Parçacık Muayenesi"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UT — Ultrasonik Muayene"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RT — Radyografik Muayene"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://www.armaweld.com/es/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "END — Ensayos no destructivos",
+          "item": "https://www.armaweld.com/es/ndt.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<script src="../assets/lang/tr.js?v=202610033"></script>
+<script src="../assets/i18n.js?v=202610053"></script>
+<script src="../assets/chrome.js?v=202610053"></script>
+<script src="../assets/analytics.js?v=20260604"></script>
+<script>
+mountChrome('ndt');
+document.querySelectorAll('.ndt-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const id = tab.dataset.tab;
+    document.querySelectorAll('.ndt-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.ndt-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.querySelector(`.ndt-panel[data-panel="${id}"]`).classList.add('active');
+  });
+});
+</script>
+<script>
+(function(){
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+
+
+</body></html>

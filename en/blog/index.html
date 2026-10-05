@@ -1,0 +1,844 @@
+<!DOCTYPE html><html lang="en" data-aw-page-lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Blog — Welding &amp; Metal Processing | ArmaWeld</title>
+  <meta name="description" content="Industry notes on welding engineering, NDT inspection methods and high-strength steel fabrication.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/en/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Technical Blog — Welding &amp; Metal Processing | ArmaWeld">
+  <meta property="og:description" content="Industry notes on welding engineering, NDT inspection methods and high-strength steel fabrication.">
+  <meta property="og:url" content="https://www.armaweld.com/en/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Kaynak mühendisliği, NDT ve metal işleme üzerine teknik makaleler",
+  "url": "https://www.armaweld.com/en/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Technical Articles.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Industry notes on welding engineering, NDT inspection methods and high-strength steel fabrication.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Welding Technology · Submerged Arc</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">Submerged Arc Welding Machines for Booms, Chassis and Long Seams</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">How does a submerged arc welding machine work? When to choose SAW for long linear seams, booms and chassis, how it compares with MAG, quality control and the benefit of a 35 m machine.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 min read</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Welding Technology</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">What Is MIG/MAG Welding? Working Principle, Settings and Applications</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">What is MIG/MAG welding and how is it done? MIG vs MAG, metal transfer modes, wire and gas selection, parameter settings, advantages and common defects.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 min read</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Quality · Industry 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Digital Traceability in Welding: Weld Data Monitoring and Smart Quality Control</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">How weld data monitoring, digital weld records and part-level traceability improve quality: EN ISO 3834 requirements, record scope and customer benefits.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 min read</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Regulation · Export</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM and Steel Exports: A 2026 Guide for Welded Fabrication Companies</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">CBAM entered its definitive period in 2026. What steel structure and welded fabrication exporters need to know, and how to prepare emissions data.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 min read</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Welding Technology</div>
+          <h2 data-i18n="blog_n26_tig_h1">What Is TIG (Argon) Welding? How Is It Done and Where Is It Used?</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">What is TIG (argon) welding and how is it done? Tungsten electrode selection, AC/DC current, gas flow, pros and cons, and use on stainless steel and aluminium.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 min read</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Regulation · CE Marking</div>
+          <h2 data-i18n="blog_n26_machreg_h1">New Machinery Regulation (EU) 2023/1230: What Changes for Machine Builders and Their Suppliers?</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">EU Machinery Regulation 2023/1230 replaces 2006/42/EC on 20 January 2027. Preparation steps for machine builders and welded fabrication suppliers.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 min read</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Welding Technology · Fundamentals</div>
+          <h2 data-i18n="blog_n26_types_h1">Types of Welding: Industrial Welding Processes and How They Differ</h2>
+          <p data-i18n="blog_n26_types_meta_desc">What are the types of welding? Arc, gas, beam and pressure welding; how MIG/MAG, TIG, stick, submerged arc, laser and spot welding: differences and uses.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 min read</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Subcontract Manufacturing · Purchasing</div>
+          <h2 data-i18n="blog_n26_supplier_h1">10 Criteria to Check When Choosing a Welding Subcontractor</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 criteria for evaluating a welding subcontractor: certifications, WPS portfolio, NDT, capacity, traceability and delivery performance.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 min read</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Welding Technology</div>
+          <h2 data-i18n="blog_n26_gas_h1">Choosing a Shielding Gas for MIG/MAG Welding: Argon, CO₂ and Mixtures</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">How to choose a MIG/MAG shielding gas: 100% CO₂, Ar/CO₂ mixtures, gases for stainless and aluminium, ISO 14175 classes and flow rate setting.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 min read</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">What Is a Welder Certificate? A Guide to EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">What is EN ISO 9606-1 welder certification, how is the test run, what does it cover and how is it prolonged? A practical guide for subcontracting buyers.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 min read</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_wpqr_card_h2">What is WPQR? Welding Procedure Qualification Records and EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">What is a WPQR (Welding Procedure Qualification Record), how is a welding procedure qualified under EN ISO 15614-1 and 15614-2, and what tests are required?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 min read</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Quality Control</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Welding Defects: Types, Detection Methods and Repair</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Welding defects, EN ISO 5817 classification, porosity, cracks, incomplete penetration, lack of fusion — defect types and repair strategies.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 min read</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Welded Manufacturing · Fundamentals</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">What Is Welded Manufacturing? Core Processes and Standards</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">What is welded manufacturing, what processes does it cover, and how is it executed under EN ISO 3834-2 and EN 1090? A technical guide from ArmaWeld in Konya, Türkiye.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 min read</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Welding Engineering</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Preheat Temperature Calculation in Welding (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">How to calculate preheat temperature? EN ISO 1011-2 Method A and B, CEV, CET, thickness and hydrogen effects.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 min read</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industry</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Welded Manufacturing in Konya: Production at Türkiye’s Industrial Hub</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">The strength of Konya’s welded manufacturing sector, ArmaWeld’s production infrastructure in the Konya OIZ, sectors and capacities. EN 1090 and EN ISO 3834-2 production.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 min read</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Manufacturing Engineering</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Welding Distortion: Types, Causes and Prevention Strategies</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">What is welding distortion, what types exist, and control strategies: welding sequence, pre-setting, fixturing and heat balancing.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 min read</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Defense · Ballistic Steel</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Welded Manufacturing for Defense: STANAG, MIL-STD and Special Steels</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Welded manufacturing for the defense industry: STANAG 4569 armor levels, MIL-STD-1941, ballistic steel welding and quality requirements.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 min read</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Welding Technique</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Welding Positions: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">What are welding positions PA, PB, PC, PD, PE, PF, PG? EN ISO 6947 standard, plate and pipe positions, difficulty levels.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 min read</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Steel Structures · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Steel Structure Manufacturing: From Design to Erection</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Steel structure manufacturing processes, EN 1090 execution classes, shop and site welding requirements. A technical guide from ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 min read</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Technical Drawing</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Welding Symbols — EN ISO 2553 Symbol Guide</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Welding symbols, EN ISO 2553, AWS A2.4, butt weld, fillet weld, K-V-X-Y weld symbols, dimension notation.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 min read</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Industrial Welding · Plant</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Industrial Welding Services: Plant and Factory Applications</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Industrial welding services: plant, factory and process equipment, on-site and shop welding. From Konya-based ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 min read</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Pressure Vessels &amp; PED</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Pressure Vessel Manufacturing: PED 2014/68/EU and EN 13445 Guide</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Pressure vessel manufacturing, PED 2014/68/EU directive, EN 13445, category classification, conformity assessment, CE marking.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 min read</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Quality Control · NDT</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Quality Control in Welded Manufacturing: VT, NDT and Traceability</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Quality control processes in welded manufacturing: visual inspection, NDT methods, acceptance criteria and digital traceability.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 min read</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">NDT · Non-Destructive Testing</div>
+          <h2 data-i18n="blog_card1_h2">What Is NDT? Comparison of VT, PT, MT, UT, RT Methods</h2>
+          <p data-i18n="blog_card1_p">Five fundamental non-destructive testing methods used in welded fabrication, when to choose each, and EN ISO 9712 certification requirements.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 min read</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Railway Industry</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Railway Welding Standard EN 15085: Wagon and Bogie Manufacturing</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">EN 15085 railway welding standard, certification levels CL1–CL4, welded wagon manufacturing, bogie production, ECWS documents.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 min read</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Automotive Industry</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Automotive Tier Supplier Welding Solutions: IATF 16949 &amp; PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Automotive tier supplier welded fabrication, IATF 16949 quality system, PPAP process, robotic welding, MAG and laser welding applications.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 min read</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Agricultural Machinery</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Welded Manufacturing for Agricultural Machinery</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Welding for agricultural machinery: plows, seeders, trailers, combine chassis fabrication. Subcontract and serial production from Konya-based ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 min read</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Welding Engineering</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Heat Input Calculation and Optimization in Welding</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">What is welding heat input, how is it calculated, EN ISO 1011 formula, microstructure effects, relationship to distortion and mechanical properties.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 min read</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Energy Sector</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Welded Manufacturing in the Energy Sector: Wind, Solar, Hydro</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Welded manufacturing for the energy sector: wind turbine components, solar structures, hydroelectric cabinets. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 min read</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Heat Treatment</div>
+          <h2 data-i18n="blog_pwht_card_h2">Post Weld Heat Treatment (PWHT): Stress Relief and Annealing</h2>
+          <p data-i18n="blog_pwht_card_p">What is PWHT post weld heat treatment, stress relief and annealing, EN 13445 and ASME VIII requirements, temperature and duration.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 min read</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Robotic Welding · Serial Production</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Serial Production with Robotic Welding</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Serial production with robotic welding: repeatability, cycle time, programming and applications. ArmaWeld’s robotic welding cells.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 min read</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">High-Strength Steel</div>
+          <h2 data-i18n="blog_card2_h2">S960QL Welding Parameters: Preheat, Heat Input and WPS</h2>
+          <p data-i18n="blog_card2_p">Critical parameters for welding ultra-high-strength S960QL steel: CEV calculation, mandatory H5 filler material and interpass temperature control.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 min read</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Stainless Steel · Hygienic</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Stainless Steel Welded Manufacturing: Food, Pharma, Chemical</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Stainless steel welded manufacturing: 304/316L welding, food, pharma and chemical applications, surface and hygiene requirements.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 min read</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Construction · Structural Steel</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Welded Steel Fabrication for the Construction Sector</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Welded steel fabrication for construction: EN 1090 EXC2/EXC3, load-bearing systems, shop and site welding. Konya-based ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 min read</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_card3_h2">What Is EN 1090 EXC3? Structural Steel CE Marking Guide</h2>
+          <p data-i18n="blog_card3_p">The difference between EN 1090-1 and EN 1090-2, EXC1–EXC4 execution classes, and steps required to obtain CE certification.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 min read</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Defense · Armored Vehicles</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Welding for Armored Vehicles and Defense Platforms</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Armored vehicle welding: STANAG 4569 levels, ARMOX/MARS ballistic steel parameters and ballistic acceptance criteria for welds.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 min read</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Tubes &amp; Sections</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Welded Tube and Section Fabrication</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Welded tube and section fabrication: hollow sections, rectangular tubes, welded pipe production processes and applications.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 min read</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Hydraulic · Pneumatic</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Welded Manufacturing of Hydraulic and Pneumatic Systems</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Welded fabrication of hydraulic cylinders, tanks and manifolds: pressure resistance, leak-tightness, NDT and test processes.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 min read</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Standards</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">CE-Marked Welded Manufacturing: EN 1090 and PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">CE marking: welded manufacturing requirements and process steps for EN 1090 structural steel and PED 2014/68/EU pressure equipment.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 min read</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Quality &amp; Measurement</div>
+          <h2 data-i18n="blog_card15_h2">Dimensional Tolerances in Structural Steel Fabrication: EN ISO 13920 Guide</h2>
+          <p data-i18n="blog_card15_p">EN ISO 13920 tolerance classes, measurement methods and the relationship with EN 1090 EXC3.</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Read Article →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Cost · Productivity</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Cost Optimization in Welded Manufacturing</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Cost optimization in welded manufacturing: material efficiency, weld process selection, automation and quality cost control.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 min read</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Light Structures · Modular</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Light Welded Steel Structures</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Light welded steel structures: containers, modular buildings, steel cabin manufacturing. EN 1090 and lightweight solutions.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 min read</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Welding Technology</div>
+          <h2 data-i18n="blog_card14_h2">FCAW (Flux-Cored Arc Welding): Advantages, Parameter Optimisation and Applications</h2>
+          <p data-i18n="blog_card14_p">FCAW wire types, gas-shielded vs self-shielded comparison, parameter optimisation and structural steel applications.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Read Article →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Mining · Construction Equipment</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Welded Manufacturing for Mining and Construction Equipment</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Welding for mining equipment: conveyors, screening, buckets, wear-plate applications. HARDOX welding and wear solutions.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 min read</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Subcontract · Welding</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Subcontract Welding Services in Konya</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Subcontract welding services in Konya: customer-design welded fabrication and quality benefits.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 min read</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_card13_h2">Pressure Equipment Directive (PED 2014/68/EU) and Welding Requirements</h2>
+          <p data-i18n="blog_card13_p">PED scope, categories I–IV, welding requirements for pressure equipment and the Notified Body role.</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Read Article →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Welding Engineer · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">The Role of the Welding Engineer in Welded Manufacturing Projects</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Welding engineer (IWE/EWE) responsibilities: WPS/PQR management, quality coordination, EN ISO 14731 and project duties.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 min read</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Material Technology</div>
+          <h2 data-i18n="blog_card12_h2">Aluminium Welding Challenges: Application Guide for 5083 and 6061 Alloys</h2>
+          <p data-i18n="blog_card12_p">Oxide layer and porosity prevention in aluminium welding, 5083 vs 6061 comparison, pre-cleaning and filler wire selection.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Read Article →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Welding Technology</div>
+          <h2 data-i18n="blog_card11_h2">SAW (Submerged Arc Welding): Heavy-Section Applications and Parameter Optimisation</h2>
+          <p data-i18n="blog_card11_p">SAW process, parameter table, high deposition rate advantages and applications in heavy structural fabrication.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Read Article →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_card10_h2">What Is EN ISO 3834-2? Fundamentals of the Welding Quality Management System</h2>
+          <p data-i18n="blog_card10_p">EN ISO 3834-2 comprehensive quality requirements, differences from 3834-3 and 3834-4, and its relationship with EN 1090.</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Read Article →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Welding Technology</div>
+          <h2 data-i18n="blog_card9_h2">TIG Welding of Stainless Steel: 304 and 316L Alloys</h2>
+          <p data-i18n="blog_card9_p">TIG/GTAW welding of 304 and 316L stainless steel: parameters, shielding gas, back purging, sensitisation prevention and distortion control.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Read Article →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">High-Strength Steel</div>
+          <h2 data-i18n="blog_card8_h2">Welding Techniques for HARDOX Wear-Resistant Steel</h2>
+          <p data-i18n="blog_card8_p">HARDOX 400/450/500/600 comparison table, welding challenges, preheat requirements, CEV calculation and filler selection.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Read Article →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Forming &amp; Bending</div>
+          <h2 data-i18n="blog_card7_h2">Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods</h2>
+          <p data-i18n="blog_card7_p">Sheet metal bending principles, K-factor, bend allowance calculation, material-specific K values and EN ISO 2768 tolerances.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Read Article →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Cutting Technologies</div>
+          <h2 data-i18n="blog_card6_h2">Laser Cutting vs Plasma Cutting: A Guide to Choosing the Right Method</h2>
+          <p data-i18n="blog_card6_p">Thickness ranges, tolerances, edge quality, heat-affected zone and cost-per-part comparison for laser vs plasma cutting.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Read Article →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Welding Technology</div>
+          <h2 data-i18n="blog_card5_h2">MIG/MAG Welding Parameters: Wire Speed, Gas and Voltage Optimisation</h2>
+          <p data-i18n="blog_card5_p">GMAW/MAG welding current, voltage, wire feed speed, shielding gas mixtures and transfer mode selection.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Read Article →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Standards &amp; Certification</div>
+          <h2 data-i18n="blog_card4_h2">What Is WPS? A Guide to Welding Procedure Specification</h2>
+          <p data-i18n="blog_card4_p">The mandatory basis of WPS, its contents, the WPS/WPQR relationship and the qualification process under EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Read Article →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Read Article →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
