@@ -42,7 +42,13 @@ export default async function EditCustomerPage({ params }: PageProps) {
           <div className="eyebrow mb-2">{t('admin.editCustomerPage')}</div>
           <h1 className="text-2xl font-black text-bone">{customer.company_name}</h1>
           <p className="text-sm text-steel-2 mt-1">
-            {t('admin.orderCountRegistered', { count: orderCount ?? 0 })}
+            {orderCount ? (
+              <Link href={`/admin/orders?customer=${id}`} className="text-arc-2 hover:underline">
+                {t('admin.orderCountRegistered', { count: orderCount })} →
+              </Link>
+            ) : (
+              t('admin.orderCountRegistered', { count: 0 })
+            )}
           </p>
         </div>
         <EditCustomerForm customer={customer as Customer} />
