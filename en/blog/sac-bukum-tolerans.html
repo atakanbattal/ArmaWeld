@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en" data-aw-page-lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods | ArmaWeld Blog</title>
+  <meta name="description" content="Sheet metal bending principles, K-factor calculation, material-specific K values table and EN ISO 2768 tolerances. Practical bending recommendations.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/en/blog/sac-bukum-tolerans.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/sac-bukum-tolerans.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/sac-bukum-tolerans.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/sac-bukum-tolerans.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/sac-bukum-tolerans.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/sac-bukum-tolerans.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/sac-bukum-tolerans.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods | ArmaWeld Blog">
+  <meta property="og:description" content="Sheet metal bending principles, K-factor calculation, material-specific K values table and EN ISO 2768 tolerances. Practical bending recommendations.">
+  <meta property="og:url" content="https://www.armaweld.com/en/blog/sac-bukum-tolerans.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2024-12-25">
+  <meta property="article:author" content="ArmaWeld Mühendislik">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods",
+  "description": "Sheet metal bending principles, K-factor calculation, material-specific K values table and EN ISO 2768 tolerances. Practical bending recommendations.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2024-12-25",
+  "dateModified": "2024-12-25",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/en/blog/sac-bukum-tolerans.html"
+  },
+  "url": "https://www.armaweld.com/en/blog/sac-bukum-tolerans.html",
+  "inLanguage": "en",
+  "articleSection": "Şekillendirme & Büküm"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/en/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods",
+      "item": "https://www.armaweld.com/en/blog/sac-bukum-tolerans.html"
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_bukum_breadcrumb3">Bending &amp; K-Factor</span></div>
+    <div class="article-tag" data-i18n="blog_bukum_tag">Forming &amp; Bending</div>
+    <h1 data-i18n="blog_bukum_h1">Sheet Metal Bending and K-Factor: Tolerances and Calculation Methods</h1>
+    <div class="article-meta">
+      <span>2024-12-25</span>
+      <span data-i18n="blog_bukum_read">8 min read</span>
+      <span data-i18n="blog_bukum_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <div class="article-body">
+
+    <div data-i18n-html="blog_bukum_s0"><p>In sheet metal bending operations, the K-factor is the most critical parameter. It defines the position of the neutral axis within the sheet thickness during bending and forms the basis of bend allowance calculation.</p><p>Using an incorrect K-factor means an error in the flat (blank) length calculation, resulting in the part dimension after bending deviating from the drawing. In tight-tolerance parts this error can accumulate and exceed acceptance limits.</p></div>
+    <div data-i18n-html="blog_bukum_s1"><h2>K-Factor and Bend Allowance Calculation</h2><p>The K-factor (ranging between 0 and 0.5) is the ratio of the neutral axis offset from the inner bend radius to the sheet thickness: <span class="tag-inline">K = t_neutral / t</span></p><p>Bend Allowance (BA) formula:</p><p><span class="tag-inline">BA = (π/180) × A × (r + K×t)</span></p><p>Where A = bend angle (degrees), r = inside bend radius (mm), t = sheet thickness (mm).</p><table class="data-table"><thead><tr><th>Material</th><th>Typical K-Factor</th><th>Note</th></tr></thead><tbody><tr><td>Mild steel (S235/S275)</td><td>0.33–0.38</td><td>Reliable value for standard production</td></tr><tr><td>High-strength steel (S355/S420)</td><td>0.38–0.42</td><td>Springback must be considered</td></tr><tr><td>304 Stainless steel</td><td>0.38–0.45</td><td>Springback is pronounced</td></tr><tr><td>Aluminium (5xxx series)</td><td>0.38–0.45</td><td>Varies with temper condition</td></tr><tr><td>Aluminium (6xxx series, T6)</td><td>0.40–0.50</td><td>r/t ≥ 2 recommended to avoid cracking</td></tr></tbody></table></div>
+    <div data-i18n-html="blog_bukum_s2"><h2>Springback Management</h2><p>Elastic springback after bending causes significant angular deviation, particularly in high-strength steels and stainless. Springback increases as yield strength rises (pronounced in S960QL), as inner bend radius increases, and as sheet thickness decreases. In press brake applications, springback compensation is applied as an angular correction by the CAM software. At ArmaWeld a test bend is performed for each new material and thickness combination, and the compensation factor is added to the calibration record.</p></div>
+    <div data-i18n-html="blog_bukum_s3"><h2>EN ISO 2768 Tolerance Classes</h2><p>Bending dimensional tolerances are evaluated according to EN ISO 2768. For angular tolerances:</p><table class="data-table"><thead><tr><th>Class</th><th>≤ 10 mm</th><th>10–50 mm</th><th>50–120 mm</th><th>Typical Application</th></tr></thead><tbody><tr><td>f (fine)</td><td>±0.05 mm</td><td>±0.05 mm</td><td>±0.08 mm</td><td>Precision machine parts</td></tr><tr><td>m (medium)</td><td>±0.1 mm</td><td>±0.1 mm</td><td>±0.15 mm</td><td>General fabrication</td></tr><tr><td>c (coarse)</td><td>±0.2 mm</td><td>±0.3 mm</td><td>±0.5 mm</td><td>Structural steel</td></tr><tr><td>v (very coarse)</td><td>±0.5 mm</td><td>±0.8 mm</td><td>±1.2 mm</td><td>Secondary components</td></tr></tbody></table><div class="callout"><p><strong>EN 1090-2 tolerance requirements</strong> refer to EN ISO 13920 for dimensional accuracy. In EXC3, tighter tolerance classes (B or C) are generally required.</p></div></div>
+    <div data-i18n-html="blog_bukum_s4"><h2>Practical Bending Recommendations</h2><p>Key points to improve bending quality in manufacturing engineering: A minimum inside bend radius of <strong>r ≥ 1×t</strong> (mild steel) and <strong>r ≥ 1.5×t</strong> (stainless/high-strength) should be applied. Cracking risk is reduced when the bend line is perpendicular to the rolling direction — this is especially critical for high-strength and tempered steels. Bending sequence: for complex geometries such as closed boxes, inner bends must be made first and each step verified with a collision check.</p></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_bukum_cta_h3">Technical Evaluation for Your Bending Project</h3>
+      <p data-i18n="blog_bukum_cta_p">Send your DXF file or drawing; we will carry out K-factor, blank length and bending sequence analysis together.</p>
+      <a href="../hizmetler.html" class="btn-arc" data-i18n="blog_bukum_cta_btn">Request a Quote →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">Related Articles</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">What Is MIG/MAG Welding? Working Principle, Settings and Applications</a></li>
+        <li><a href="kaynakta-dijital-izlenebilirlik.html" data-i18n="blog_n26_trace_h1">Digital Traceability in Welding: Weld Data Monitoring and Smart Quality Control</a></li>
+        <li><a href="cbam-celik-ihracat-kaynakli-imalat.html" data-i18n="blog_n26_cbam_h1">CBAM and Steel Exports: A 2026 Guide for Welded Fabrication Companies</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Back to Blog</a>
+    </div>
+
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+
+</body></html>

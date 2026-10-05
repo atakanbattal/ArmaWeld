@@ -1,0 +1,844 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog Technique — Soudage et Travail des Métaux | ArmaWeld</title>
+  <meta name="description" content="Notes sectorielles sur l'ingénierie du soudage, les méthodes de contrôle CND et le traitement des aciers à haute résistance.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog Technique — Soudage et Travail des Métaux | ArmaWeld">
+  <meta property="og:description" content="Notes sectorielles sur l'ingénierie du soudage, les méthodes de contrôle CND et le traitement des aciers à haute résistance.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Kaynak mühendisliği, NDT ve metal işleme üzerine teknik makaleler",
+  "url": "https://www.armaweld.com/fr/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "fr"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Articles Techniques.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Notes sectorielles sur l'ingénierie du soudage, les méthodes de contrôle CND et le traitement des aciers à haute résistance.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Technologie de soudage · Arc submergé</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">Machine de soudage à l'arc submergé : flèches, châssis et soudures longues</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">Comment fonctionne une machine de soudage à l'arc submergé ? Quand choisir le SAW pour les soudures linéaires longues, flèches et châssis, comparaison avec le MAG, qualité et avantage d'une machine de 35 m.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 min de lecture</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Technologie du soudage</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">Soudage MIG/MAG : principe de fonctionnement, réglages et domaines d'application</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">Soudage MIG/MAG : définition et mise en œuvre. Différence MIG/MAG, modes de transfert, choix du fil et du gaz, réglages, avantages et défauts fréquents.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 min de lecture</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Qualité · Industrie 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Traçabilité numérique en soudage : suivi des données de soudage et contrôle qualité intelligent</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">Suivi des données de soudage et traçabilité par pièce : exigences EN ISO 3834, contenu des enregistrements et bénéfices pour le client.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 min de lecture</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Réglementation · Export</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM (MACF) et export d'acier : guide 2026 pour les entreprises de fabrication soudée</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">Le CBAM (MACF) est entré en phase définitive en 2026. Ce que les exportateurs de charpente et de fabrication soudée doivent savoir et données d'émissions.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 min de lecture</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Technologie du soudage</div>
+          <h2 data-i18n="blog_n26_tig_h1">Soudage TIG : définition, mise en œuvre et domaines d'application</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">Soudage TIG : définition et mise en œuvre. Choix de l'électrode tungstène, courant AC/DC, débit de gaz, avantages, inconvénients, usage sur inox et aluminium.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 min de lecture</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Réglementation · Marquage CE</div>
+          <h2 data-i18n="blog_n26_machreg_h1">Nouveau Règlement Machines (UE) 2023/1230 : ce qui change pour les fabricants de machines et leurs fournisseurs</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">Le Règlement Machines (UE) 2023/1230 remplace la directive 2006/42/CE le 20 janvier 2027. Étapes de préparation pour fabricants et sous-traitants soudure.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 min de lecture</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Technologie du soudage · Notions de base</div>
+          <h2 data-i18n="blog_n26_types_h1">Types de soudage : les procédés utilisés dans l'industrie et leurs différences</h2>
+          <p data-i18n="blog_n26_types_meta_desc">Quels sont les types de soudage ? Arc, gaz, faisceau, pression : différences et applications du MIG/MAG, TIG, électrode enrobée, arc submergé, laser et points.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 min de lecture</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Sous-traitance · Achats</div>
+          <h2 data-i18n="blog_n26_supplier_h1">Sous-traitance en soudure : 10 critères pour choisir votre fournisseur</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 critères pour évaluer un sous-traitant en soudure : certifications, DMOS, CND, capacité, traçabilité et respect des délais de livraison.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 min de lecture</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Technologie du soudage</div>
+          <h2 data-i18n="blog_n26_gas_h1">Choisir le gaz de protection en soudage MIG/MAG : argon, CO₂ et mélanges</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">Choisir son gaz de protection MIG/MAG : 100 % CO₂, mélanges Ar/CO₂, gaz pour inox et aluminium, classes ISO 14175 et réglage du débit.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 min de lecture</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Normes &amp; Certification</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">Qu'est-ce que la qualification des soudeurs ? Guide EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">Qualification soudeur EN ISO 9606-1 : déroulement de l'examen, domaine de validité et prolongation. Guide pratique pour les acheteurs en sous-traitance.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 min de lecture</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Normes &amp; Certification</div>
+          <h2 data-i18n="blog_wpqr_card_h2">Qu'est-ce qu'un WPQR ? Certificats de Qualification de Procédure et EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">Qu'est-ce qu'un WPQR (Welding Procedure Qualification Record), comment qualifier un procédé de soudage selon EN ISO 15614-1 et 15614-2 et quels essais sont requis ?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 min de lecture</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Contrôle Qualité</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Défauts de Soudage : Types, Méthodes de Détection et Réparation</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Défauts de soudage, classification EN ISO 5817, porosités, fissures, manque de pénétration, défauts de fusion — types de défauts et stratégies de réparation.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 min de lecture</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Fabrication Soudée · Fondamentaux</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">Qu’est-ce que la Fabrication Soudée ? Procédés et Normes</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">Qu’est-ce que la fabrication soudée, quels procédés couvre-t-elle et comment est-elle exécutée selon EN ISO 3834-2 et EN 1090 ? Guide technique d’ArmaWeld à Konya, Turquie.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 min de lecture</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Ingénierie de Soudage</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Calcul de la Température de Préchauffage en Soudage (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">Comment calculer la température de préchauffage ? EN ISO 1011-2 Méthode A et B, CEV, CET, effets de l'épaisseur et de l'hydrogène.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 min de lecture</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industrie</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Fabrication Soudée à Konya : Production au Pôle Industriel</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">Force du secteur soudage à Konya, infrastructure ArmaWeld, secteurs et capacités.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 min de lecture</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Ingénierie de Fabrication</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Distorsion de Soudage : Types, Causes et Stratégies de Prévention</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">Qu'est-ce que la distorsion de soudage, quels types existent, stratégies de contrôle : séquence de soudage, prédéformation, bridage et équilibrage thermique.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 min de lecture</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Défense · Acier Balistique</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Fabrication Soudée pour la Défense : STANAG, MIL-STD</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Fabrication soudée défense : STANAG 4569, MIL-STD-1941, soudage des aciers balistiques.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 min de lecture</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Technique de Soudage</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Positions de Soudage : PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">Que sont les positions de soudage PA, PB, PC, PD, PE, PF, PG ? Norme EN ISO 6947, positions sur tôle et tube, degrés de difficulté.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 min de lecture</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Charpente · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Fabrication de Charpentes Métalliques : du Calcul au Montage</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Charpente métallique : classes EN 1090, atelier et chantier.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 min de lecture</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Dessin Technique</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Symbolisation de Soudage — Guide des Symboles EN ISO 2553</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Symboles de soudage, EN ISO 2553, AWS A2.4, soudure bout à bout, soudure d'angle, symboles K-V-X-Y, notation des dimensions.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 min de lecture</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Soudage Industriel · Site</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Services de Soudage Industriel : Sites et Usines</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Services de soudage industriel : sites, usines, équipements de procédé.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 min de lecture</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Équipements sous Pression &amp; PED</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Fabrication d'Équipements sous Pression : PED 2014/68/EU et Guide EN 13445</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Fabrication d'équipements sous pression, directive PED 2014/68/EU, EN 13445, classification des catégories, évaluation de conformité, marquage CE.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 min de lecture</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Qualité · CND</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Contrôle Qualité en Fabrication Soudée : VT, CND, Traçabilité</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Contrôle qualité : VT, méthodes CND, critères, traçabilité numérique.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 min de lecture</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">CND · Contrôles Non Destructifs</div>
+          <h2 data-i18n="blog_card1_h2">Qu'est-ce que le CND ? Comparaison VT, PT, MT, UT, RT</h2>
+          <p data-i18n="blog_card1_p">Les cinq méthodes fondamentales de contrôle non destructif en fabrication soudée, quand choisir chacune et les exigences de certification EN ISO 9712.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 min de lecture</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Industrie Ferroviaire</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Norme de Soudage Ferroviaire EN 15085 : Fabrication de Wagons et Bogies</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">Norme de soudage ferroviaire EN 15085, niveaux de certification CL1–CL4, fabrication de wagons soudés, production de bogies, documents ECWS.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 min de lecture</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Industrie Automobile</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Solutions de Soudage pour Sous-traitants Automobiles : IATF 16949 &amp; PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Fabrication soudée pour sous-traitant automobile, système qualité IATF 16949, processus PPAP, soudage robotisé, applications MAG et laser.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 min de lecture</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Machines Agricoles</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Fabrication Soudée pour Machines Agricoles</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Soudage machines agricoles : charrue, semoir, remorque, châssis moissonneuse.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 min de lecture</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Ingénierie de Soudage</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Calcul et Optimisation de l'Apport Thermique en Soudage</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">Qu'est-ce que l'apport thermique, comment est-il calculé, formule EN ISO 1011, effets sur la microstructure, relation avec la distorsion et les propriétés mécaniques.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 min de lecture</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Énergie</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Fabrication Soudée pour l’Énergie : Éolien, Solaire, Hydro</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Soudage énergie : éoliennes, solaire, hydroélectrique. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 min de lecture</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Traitement Thermique</div>
+          <h2 data-i18n="blog_pwht_card_h2">Traitement Thermique Post-Soudage (PWHT) : Détensionnement et Recuit</h2>
+          <p data-i18n="blog_pwht_card_p">Qu'est-ce que le PWHT traitement thermique post-soudage, détensionnement et recuit, exigences EN 13445 et ASME VIII, température et durée.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 min de lecture</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Robot · Série</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Production en Série par Soudage Robotisé</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Soudage robotisé série : répétabilité, cycle, applications.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 min de lecture</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">Acier Haute Résistance</div>
+          <h2 data-i18n="blog_card2_h2">Paramètres de Soudage S960QL : Préchauffage, Apport Thermique et WPS</h2>
+          <p data-i18n="blog_card2_p">Paramètres critiques pour le soudage de l'acier ultra-haute résistance S960QL : calcul du CEV, obligation du métal d'apport H5 et contrôle de la température entre passes.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 min de lecture</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Inox · Hygiénique</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Fabrication Soudée Inox : Agroalimentaire, Pharma, Chimie</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Inox 304/316L : agro, pharma, chimie, hygiène.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 min de lecture</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Construction · Charpente</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Fabrication Soudée Acier pour la Construction</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Acier construction : EN 1090 EXC2/EXC3, systèmes porteurs.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 min de lecture</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Normes et Certification</div>
+          <h2 data-i18n="blog_card3_h2">Qu'est-ce que EN 1090 EXC3 ? Guide du Marquage CE des Structures Métalliques</h2>
+          <p data-i18n="blog_card3_p">La différence entre EN 1090-1 et EN 1090-2, les classes d'exécution EXC1–EXC4 et les étapes nécessaires pour obtenir la certification CE.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 min de lecture</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Défense · Blindés</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Soudage des Véhicules Blindés et Plateformes</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Soudage blindés : STANAG 4569, ARMOX/MARS, critères balistiques.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 min de lecture</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Tubes · Profilés</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Fabrication Soudée Tubes et Profilés</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Tubes et profilés soudés : creux, rectangulaires, applications.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 min de lecture</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Hydraulique · Pneumatique</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Fabrication Soudée Systèmes Hydrauliques et Pneumatiques</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Vérins, réservoirs, blocs : pression, étanchéité, CND.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 min de lecture</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Normes</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">Fabrication Soudée Marquage CE : EN 1090 et PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">Marquage CE : exigences EN 1090 charpente et PED 2014/68/UE.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 min de lecture</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Qualité et Métrologie</div>
+          <h2 data-i18n="blog_card15_h2">Tolérances dimensionnelles EN ISO 13920 : Classes A-D pour constructions soudées</h2>
+          <p data-i18n="blog_card15_p">La norme EN ISO 13920 définit les tolérances géométriques des constructions soudées. Comment choisir la classe de tolérance adaptée à votre application ?</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Lire l'article →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Coûts · Productivité</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Optimisation des Coûts en Fabrication Soudée</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Optimisation coûts : matière, procédé, automatisation, qualité.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 min de lecture</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Léger · Modulaire</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Structures Soudées Légères</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Structures légères : conteneurs, modulaires, cabines.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 min de lecture</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Technologie de Soudage</div>
+          <h2 data-i18n="blog_card14_h2">Soudage FCAW (fil fourré) : Avantages, paramètres et domaines d'application</h2>
+          <p data-i18n="blog_card14_p">Le procédé FCAW combine la productivité du MIG/MAG avec les avantages du flux intégré. Comparaison des fils rutiles et basiques avec paramètres pratiques.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Lire l'article →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Mines · Engins</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Fabrication Soudée Mines et Engins</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Soudage mines : convoyeurs, cribles, godets, anti-usure HARDOX.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 min de lecture</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Sous-traitance</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Service de Soudage Sous-Traité à Konya</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Soudage sous-traité à Konya : fabrication selon design client.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 min de lecture</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Normes et Certification</div>
+          <h2 data-i18n="blog_card13_h2">Directive équipements sous pression PED 2014/68/UE : Classification et exigences</h2>
+          <p data-i18n="blog_card13_p">La directive PED classe les équipements sous pression selon le fluide et la pression. Comment ArmaWeld répond-il aux exigences des catégories III et IV ?</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Lire l'article →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Ingénieur · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">Le Rôle de l’Ingénieur Soudage dans les Projets</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Ingénieur soudage IWE/EWE : DMOS/QMOS, coordination qualité, EN ISO 14731.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 min de lecture</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Technologie des Matériaux</div>
+          <h2 data-i18n="blog_card12_h2">Soudage de l'aluminium 5083 et 6061 : Procédés, fils et précautions</h2>
+          <p data-i18n="blog_card12_p">Le soudage de l'aluminium nécessite une maîtrise de la couche d'oxyde, du préchauffage et du choix du métal d'apport. Guide complet pour les alliages 5083 et 6061.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Lire l'article →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Technologie de Soudage</div>
+          <h2 data-i18n="blog_card11_h2">Soudage à l'arc submergé (SAW) : Productivité et qualité pour fortes épaisseurs</h2>
+          <p data-i18n="blog_card11_p">Le procédé SAW permet des vitesses de dépôt élevées et une excellente reproductibilité. Paramètres, flux et fils d'apport pour constructions métalliques lourdes.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Lire l'article →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Normes et Certification</div>
+          <h2 data-i18n="blog_card10_h2">EN ISO 3834-2 : Management de la qualité du soudage — Guide pratique</h2>
+          <p data-i18n="blog_card10_p">La norme EN ISO 3834-2 définit les exigences de qualité complètes pour la fusion. Comment cette norme structure-t-elle les processus de production chez ArmaWeld ?</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Lire l'article →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Technologie de Soudage</div>
+          <h2 data-i18n="blog_card9_h2">Soudage TIG de l'acier inoxydable 304 et 316L : Guide des paramètres</h2>
+          <p data-i18n="blog_card9_p">Le soudage TIG de l'inox 304 et 316L exige une gestion précise des paramètres et du gaz de protection. Guide technique avec valeurs d'intensité et vitesses de soudage.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Lire l'article →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">Aciers Haute Résistance</div>
+          <h2 data-i18n="blog_card8_h2">Soudage de l'acier HARDOX : Préchauffage, apport de chaleur et CEV</h2>
+          <p data-i18n="blog_card8_p">L'acier HARDOX nécessite des conditions de soudage spécifiques. Paramètres de préchauffage, valeurs CEV et choix des consommables pour des soudures de qualité.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Lire l'article →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Formage et Pliage</div>
+          <h2 data-i18n="blog_card7_h2">Pliage de tôle et facteur K : Calcul du développé et des tolérances</h2>
+          <p data-i18n="blog_card7_p">Le facteur K et l'allongement au pliage sont essentiels pour un développé précis. Guide complet avec formules et tableaux pour différentes nuances d'acier.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Lire l'article →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Technologies de Découpe</div>
+          <h2 data-i18n="blog_card6_h2">Découpe Laser vs Plasma : Lequel choisir pour votre projet ?</h2>
+          <p data-i18n="blog_card6_p">La découpe laser offre une précision de ±0,1 mm tandis que le plasma convient mieux aux fortes épaisseurs. Comparaison complète des deux procédés.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Lire l'article →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Technologie de Soudage</div>
+          <h2 data-i18n="blog_card5_h2">Paramètres MIG/MAG : Vitesse de fil, Tension et Débit de gaz</h2>
+          <p data-i18n="blog_card5_p">Les paramètres MIG/MAG — vitesse de fil, tension d'arc et débit de gaz de protection — déterminent directement la qualité de la soudure. Guide pratique avec tableaux de valeurs.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Lire l'article →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Normes et Certification</div>
+          <h2 data-i18n="blog_card4_h2">Qu'est-ce qu'un WPS ? Guide complet de la Spécification de Procédure de Soudage</h2>
+          <p data-i18n="blog_card4_p">La WPS (Welding Procedure Specification) est le document central qui définit les paramètres de soudage. Apprenez comment elle est qualifiée selon EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Lire l'article →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Lire l'article →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

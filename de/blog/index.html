@@ -1,0 +1,844 @@
+<!DOCTYPE html><html lang="de" data-aw-page-lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technischer Blog — Schweißen &amp; Metallverarbeitung | ArmaWeld</title>
+  <meta name="description" content="Branchennotizen zu Schweißtechnik, ZfP-Prüfverfahren und Verarbeitung hochfester Stähle.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/de/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Technischer Blog — Schweißen &amp; Metallverarbeitung | ArmaWeld">
+  <meta property="og:description" content="Branchennotizen zu Schweißtechnik, ZfP-Prüfverfahren und Verarbeitung hochfester Stähle.">
+  <meta property="og:url" content="https://www.armaweld.com/de/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Kaynak mühendisliği, NDT ve metal işleme üzerine teknik makaleler",
+  "url": "https://www.armaweld.com/de/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "de"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Technische Artikel.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Branchennotizen zu Schweißtechnik, ZfP-Prüfverfahren und Verarbeitung hochfester Stähle.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Schweißtechnik · Unterpulverschweißen</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">UP-Schweißanlage für Ausleger, Rahmen und lange Nähte</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">Wie funktioniert eine Unterpulverschweißanlage? Wann sich UP-Schweißen für lange Längsnähte, Ausleger und Rahmen lohnt, Vergleich mit MAG, Qualitätssicherung und Vorteile einer 35-m-Anlage.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">MIG/MAG-Schweißen: Was ist das? Funktionsprinzip, Einstellungen und Einsatzbereiche</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">Was ist MIG/MAG-Schweißen und wie funktioniert es? Unterschied MIG/MAG, Lichtbogenarten, Draht- und Gaswahl, Parameter, Vorteile und häufige Fehler.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Qualität · Industrie 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Digitale Rückverfolgbarkeit beim Schweißen: Schweißdatenüberwachung und intelligente Qualitätskontrolle</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">Wie steigern Schweißdatenüberwachung, digitale Schweißprotokolle und bauteilbezogene Rückverfolgbarkeit die Qualität? EN ISO 3834, Umfang und Nutzen.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Regulierung · Export</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM und Stahlexport: Leitfaden 2026 für Schweißfachbetriebe</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">CBAM ist seit 2026 in der Regelphase. Was Exporteure von Stahlbau und Schweißkonstruktionen wissen müssen – und wie sie Emissionsdaten vorbereiten.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_n26_tig_h1">WIG-Schweißen (TIG): Was ist das, wie funktioniert es, wo wird es eingesetzt?</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">Was ist WIG-Schweißen und wie funktioniert es? Wolframelektroden, AC/DC, Gasmenge, Vor- und Nachteile sowie Einsatz bei Edelstahl und Aluminium.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Regulierung · CE-Kennzeichnung</div>
+          <h2 data-i18n="blog_n26_machreg_h1">Neue Maschinenverordnung (EU) 2023/1230: Was ändert sich für Maschinenhersteller und Zulieferer?</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">Die Maschinenverordnung (EU) 2023/1230 ersetzt am 20. Januar 2027 die Richtlinie 2006/42/EG. Vorbereitung für Maschinenbauer und Schweißzulieferer.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Schweißtechnik · Grundlagen</div>
+          <h2 data-i18n="blog_n26_types_h1">Schweißverfahren: In der Industrie eingesetzte Verfahren und ihre Unterschiede</h2>
+          <p data-i18n="blog_n26_types_meta_desc">Welche Schweißverfahren gibt es? Lichtbogen-, Gas-, Strahl- und Pressschweißen: MIG/MAG, WIG, E-Hand, UP, Laser und Punkt – Unterschiede und Einsatz.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Lohnfertigung · Einkauf</div>
+          <h2 data-i18n="blog_n26_supplier_h1">10 Kriterien für die Auswahl eines Lieferanten für Lohnschweißen</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 Kriterien zur Bewertung von Lohnschweißbetrieben: Zertifikate, WPS-Portfolio, ZfP, Kapazität, Rückverfolgbarkeit und Liefertreue.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_n26_gas_h1">Schutzgasauswahl beim MIG/MAG-Schweißen: Argon, CO₂ und Mischgase</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">Wie wählt man das Schutzgas beim MIG/MAG-Schweißen? 100 % CO₂, Ar/CO₂-Gemische, Gase für Edelstahl und Aluminium, ISO-14175-Klassen und Gasdurchfluss.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">Was ist eine Schweißerprüfung? Leitfaden zu EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">Was ist die Schweißerprüfung nach EN ISO 9606-1, wie läuft sie ab, was deckt sie ab und wie wird sie verlängert? Praxisleitfaden für Einkäufer.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_wpqr_card_h2">Was ist ein WPQR? Schweißverfahrensprüfung und EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">Was ist ein WPQR (Welding Procedure Qualification Record), wie wird ein Schweißverfahren nach EN ISO 15614-1 und 15614-2 qualifiziert und welche Prüfungen sind erforderlich?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Qualitätskontrolle</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Schweißfehler: Arten, Erkennungsmethoden und Reparatur</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Schweißfehler, EN ISO 5817 Klassifizierung, Poren, Risse, unvollständige Durchschweißung, Bindefehler — Fehlerarten und Reparaturstrategien.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Schweißfertigung · Grundlagen</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">Was ist Schweißfertigung? Grundprozesse und Normen</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">Was ist Schweißfertigung, welche Prozesse umfasst sie und wie wird sie nach EN ISO 3834-2 und EN 1090 ausgeführt? Technischer Leitfaden von ArmaWeld in Konya.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Vorwärmtemperatur-Berechnung beim Schweißen (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">Wie wird die Vorwärmtemperatur berechnet? EN ISO 1011-2 Methode A und B, CEV, CET, Dicken- und Wasserstoffeinfluss.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industrie</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Schweißfertigung in Konya: Produktion im Industriezentrum</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">Stärke der Schweißfertigung in Konya, Produktionsinfrastruktur von ArmaWeld im Konya OSB, Branchen und Kapazitäten. Fertigung nach EN 1090 und EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Fertigungstechnik</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Schweißverzug: Arten, Ursachen und Gegenmaßnahmen</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">Was ist Schweißverzug, welche Arten gibt es, Gegenmaßnahmen: Schweißreihenfolge, Vorkrümmung, Einspannung und Wärmeausgleich.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Verteidigung · Panzerstahl</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Schweißfertigung für die Verteidigung: STANAG, MIL-STD und Sonderstähle</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Schweißfertigung für die Verteidigungsindustrie: STANAG 4569 Schutzklassen, MIL-STD-1941, Schweißen von Panzerstählen.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Schweißpositionen: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">Was sind die Schweißpositionen PA, PB, PC, PD, PE, PF, PG? EN ISO 6947 Norm, Blech- und Rohrpositionen, Schwierigkeitsgrade.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Stahlbau · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Stahlkonstruktion: Von der Konstruktion zur Montage</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Stahlkonstruktion: Prozesse, EN 1090 Ausführungsklassen, Werkstatt- und Baustellenanforderungen. Technischer Leitfaden von ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Technisches Zeichnen</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Schweißsymbole — EN ISO 2553 Symbolführer</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Schweißsymbole, EN ISO 2553, AWS A2.4, Stumpfnaht, Kehlnaht, K-V-X-Y-Schweißsymbole, Maßdarstellung.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Industrielles Schweißen · Anlagen</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Industrielle Schweißdienstleistung: Anlagen und Werke</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Industrielle Schweißdienstleistung: Anlagen, Fabriken, Prozessanlagen, Baustellen- und Werkstattschweißen.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Druckbehälter &amp; DGRL</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Druckbehälterfertigung: DGRL 2014/68/EU und EN 13445 Leitfaden</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Druckbehälterfertigung, DGRL 2014/68/EU, EN 13445, Kategorisierung, Konformitätsbewertung, CE-Kennzeichnung.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Qualität · ZfP</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Qualitätskontrolle in der Schweißfertigung: VT, ZfP und Rückverfolgbarkeit</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Qualitätskontrollprozesse in der Schweißfertigung: Sichtprüfung, ZfP-Verfahren, Akzeptanzkriterien und digitale Rückverfolgbarkeit.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">ZfP · Zerstörungsfreie Prüfung</div>
+          <h2 data-i18n="blog_card1_h2">Was ist ZfP? Vergleich von VT, PT, MT, UT, RT</h2>
+          <p data-i18n="blog_card1_p">Die fünf grundlegenden zerstörungsfreien Prüfverfahren im Schweißbetrieb, Auswahlkriterien und Zertifizierungsanforderungen nach EN ISO 9712.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Bahnindustrie</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Bahnschweißnorm EN 15085: Wagen- und Drehgestellfertigung</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">EN 15085 Bahnschweißnorm, Zertifizierungsstufen CL1–CL4, geschweißte Wagenfertigung, Drehgestellproduktion, ECWS-Dokumente.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Automobilindustrie</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Schweißlösungen für Automobilzulieferer: IATF 16949 &amp; PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Schweißkonstruktion im Automobilzulieferbereich, IATF 16949 Qualitätssystem, PPAP-Prozess, Roboterschweißen, MAG- und Laserschweißanwendungen.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Landmaschinen</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Schweißfertigung für Landmaschinen</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Schweißen für Landmaschinen: Pflug, Sämaschine, Anhänger, Mähdrescher-Chassis. Subcontract und Serie aus Konya.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Schweißtechnik</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Streckenenergie-Berechnung und Optimierung beim Schweißen</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">Was ist Streckenenergie, wie wird sie berechnet, EN ISO 1011 Formel, Mikrostrukturauswirkungen, Verzug und mechanische Eigenschaften.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Energiebranche</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Schweißfertigung in der Energiebranche: Wind, Solar, Wasserkraft</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Schweißen für die Energiebranche: Windturbinenkomponenten, Solaranlagen, Wasserkraftwerke. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Wärmebehandlung</div>
+          <h2 data-i18n="blog_pwht_card_h2">Spannungsarmglühen nach dem Schweißen (PWHT): Anlassen und Normalglühen</h2>
+          <p data-i18n="blog_pwht_card_p">Was ist PWHT nach dem Schweißen, Spannungsarmglühen und Anlassen, EN 13445 und ASME VIII Anforderungen, Temperatur und Haltezeit.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Roboter · Serie</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Serienfertigung mit Roboterschweißen</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Serienfertigung mit Roboterschweißen: Wiederholbarkeit, Zykluszeit, Programmierung und Anwendungen. ArmaWeld Roboterzellen.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">Hochfester Stahl</div>
+          <h2 data-i18n="blog_card2_h2">S960QL Schweißparameter: Vorwärmen, Wärmeeinbringung und WPS</h2>
+          <p data-i18n="blog_card2_p">Kritische Parameter beim Schweißen von ultrahochfestem S960QL-Stahl: CEV-Berechnung, Pflicht zum H5-Schweißzusatz und Zwischenlagentemperaturkontrolle.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 Min. Lesezeit</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Edelstahl · Hygienisch</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Edelstahl-Schweißfertigung: Lebensmittel, Pharma, Chemie</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Edelstahl-Schweißfertigung: 304/316L, hygienische Anforderungen für Lebensmittel, Pharma und Chemie.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Bau · Stahlbau</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Stahlbau-Schweißfertigung für die Bauindustrie</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Stahlbau für die Bauindustrie: EN 1090 EXC2/EXC3, Tragsysteme, Werkstatt- und Baustellenschweißen.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_card3_h2">Was ist EN 1090 EXC3? Leitfaden zur CE-Kennzeichnung von Stahlkonstruktionen</h2>
+          <p data-i18n="blog_card3_p">Der Unterschied zwischen EN 1090-1 und EN 1090-2, die Ausführungsklassen EXC1–EXC4 und die erforderlichen Schritte zur CE-Zertifizierung.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Verteidigung · Gepanzerte Fahrzeuge</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Schweißen für gepanzerte Fahrzeuge und Verteidigungsplattformen</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Schweißen gepanzerter Fahrzeuge: STANAG 4569, ARMOX/MARS Panzerstahl-Parameter und ballistische Akzeptanzkriterien.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 Min. Lesezeit</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Rohre · Profile</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Geschweißte Rohr- und Profilfertigung</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Geschweißte Rohr- und Profilfertigung: Hohlprofile, Rechteckrohre, Anwendungen.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Hydraulik · Pneumatik</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Schweißfertigung hydraulischer und pneumatischer Systeme</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Hydraulische Zylinder, Tanks und Manifolds: Druck, Dichtheit, ZfP und Tests.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Normen</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">CE-gekennzeichnete Schweißfertigung: EN 1090 und PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">CE-Kennzeichnung: Anforderungen für EN 1090 Stahlbau und PED 2014/68/EU Druckgeräte.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 Min. Lesezeit</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Qualität &amp; Messtechnik</div>
+          <h2 data-i18n="blog_card15_h2">Maßtoleranzen im Stahlbau: Leitfaden zu EN ISO 13920</h2>
+          <p data-i18n="blog_card15_p">Toleranzklassen nach EN ISO 13920, Messmethoden und Verhältnis zu EN 1090 EXC3.</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Artikel lesen →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Kosten · Effizienz</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Kostenoptimierung in der Schweißfertigung</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Kostenoptimierung in der Schweißfertigung: Materialeffizienz, Verfahrenswahl, Automatisierung und Qualitätskosten.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Leichtbau · Modular</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Leichte geschweißte Stahlkonstruktionen</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Leichte geschweißte Stahlkonstruktionen: Container, Modulgebäude, Stahlkabinen.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 Min. Lesezeit</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Schweißtechnologie</div>
+          <h2 data-i18n="blog_card14_h2">FCAW (Fülldrahtschweißen): Vorteile, Parameteroptimierung und Anwendungsgebiete</h2>
+          <p data-i18n="blog_card14_p">FCAW-Drahttypen, gas- vs. selbstgeschützt, Parameteroptimierung und Anwendungen im Stahlbau.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Artikel lesen →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Bergbau · Baumaschinen</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Schweißfertigung für Bergbau und Baumaschinen</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Bergbau-Schweißen: Förderer, Sieb, Löffel, Verschleißbleche. HARDOX und Verschleißlösungen.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Lohnfertigung · Subcontract</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Subcontract-Schweißen Konya</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Subcontract-Schweißen in Konya: Lohnfertigung nach Kundendesign mit Qualitätsvorteilen.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 Min. Lesezeit</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_card13_h2">Druckgeräterichtlinie (PED 2014/68/EU) und Schweißanforderungen</h2>
+          <p data-i18n="blog_card13_p">PED-Anwendungsbereich, Kategorien I–IV, Schweißanforderungen für Druckgeräte und Rolle der Benannten Stelle.</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Artikel lesen →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Schweißingenieur · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">Die Rolle des Schweißingenieurs in Schweißfertigungsprojekten</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Schweißingenieur (IWE/EWE): WPS/PQR-Management, Qualitätskoordination, EN ISO 14731.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 Min. Lesezeit</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Werkstofftechnologie</div>
+          <h2 data-i18n="blog_card12_h2">Herausforderungen beim Aluminiumschweißen: Anwendungsleitfaden für 5083 und 6061</h2>
+          <p data-i18n="blog_card12_p">Oxidschicht und Porenvermeidung beim Aluminiumschweißen, Vergleich 5083 vs. 6061 und Schweißzusatzauswahl.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Artikel lesen →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Schweißtechnologie</div>
+          <h2 data-i18n="blog_card11_h2">UP-Schweißen (Unterpulverschweißen): Dicke Querschnitte und Parameteroptimierung</h2>
+          <p data-i18n="blog_card11_p">UP-Prozess, Parametertabelle, Vorteile der hohen Abschmelzleistung und Anwendungen im Schwermaschinenbau.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Artikel lesen →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_card10_h2">Was ist EN ISO 3834-2? Grundlagen des Schweißqualitätsmanagementsystems</h2>
+          <p data-i18n="blog_card10_p">Umfassende Qualitätsanforderungen nach EN ISO 3834-2, Unterschiede zu 3834-3 und 3834-4 sowie Verhältnis zu EN 1090.</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Artikel lesen →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Schweißtechnologie</div>
+          <h2 data-i18n="blog_card9_h2">WIG-Schweißen von Edelstahl: 304 und 316L Legierungen</h2>
+          <p data-i18n="blog_card9_p">TIG/GTAW-Schweißen von 304 und 316L: Parameter, Schutzgas, Wurzelschutz, Sensibilisierungsprävention und Verzugsmanagement.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Artikel lesen →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">Hochfester Stahl</div>
+          <h2 data-i18n="blog_card8_h2">Schweißtechniken für HARDOX-Verschleißstahl</h2>
+          <p data-i18n="blog_card8_p">Vergleichstabelle HARDOX 400/450/500/600, Vorwärmanforderungen, CEV-Berechnung und Zusatzwerkstoffauswahl.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Artikel lesen →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Umformen &amp; Biegen</div>
+          <h2 data-i18n="blog_card7_h2">Blechbiegen und K-Faktor: Toleranzen und Berechnungsmethoden</h2>
+          <p data-i18n="blog_card7_p">Biegeprinzipien, K-Faktor, Biegezugabe, materialspezifische K-Werte und EN ISO 2768-Toleranzen.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Artikel lesen →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Schneidtechnologien</div>
+          <h2 data-i18n="blog_card6_h2">Laserschneiden oder Plasmaschneiden? Leitfaden zur Wahl der richtigen Methode</h2>
+          <p data-i18n="blog_card6_p">Dickenbereich, Toleranzen, Kantenqualität, Wärmeeinflusszone und Kostenvergleich pro Teil.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Artikel lesen →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Schweißtechnologie</div>
+          <h2 data-i18n="blog_card5_h2">MIG/MAG-Schweißparameter: Drahtvorschub, Gas und Spannungsoptimierung</h2>
+          <p data-i18n="blog_card5_p">Stromstärke, Spannung, Drahtvorschubgeschwindigkeit, Schutzgasgemische und Lichtbogenübergangsarten beim MIG/MAG-Schweißen.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Artikel lesen →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Normen &amp; Zertifizierung</div>
+          <h2 data-i18n="blog_card4_h2">Was ist ein WPS? Leitfaden zur Schweißverfahrensprüfung</h2>
+          <p data-i18n="blog_card4_p">Grundlage der WPS-Pflicht, Inhalt, Beziehung zum WPQR und Qualifizierungsverfahren nach EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Artikel lesen →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lesen →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

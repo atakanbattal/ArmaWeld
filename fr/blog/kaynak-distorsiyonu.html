@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Distorsion de Soudage : Causes et Méthodes de Contrôle | ArmaWeld Blog</title>
+  <meta name="description" content="Distorsion de soudage angulaire longitudinale transversale, méthodes de contrôle par bridage et séquence de soudage, redressage thermique.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-distorsiyonu.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-distorsiyonu.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-distorsiyonu.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-distorsiyonu.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/kaynak-distorsiyonu.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Distorsion de Soudage : Causes et Méthodes de Contrôle | ArmaWeld Blog">
+  <meta property="og:description" content="Distorsion de soudage angulaire longitudinale transversale, méthodes de contrôle par bridage et séquence de soudage, redressage thermique.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-04-07">
+  <meta property="article:author" content="ArmaWeld Mühendislik">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Distorsion de Soudage : Causes et Méthodes de Contrôle",
+  "description": "Distorsion de soudage angulaire longitudinale transversale, méthodes de contrôle par bridage et séquence de soudage, redressage thermique.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-04-07",
+  "dateModified": "2026-04-07",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html",
+  "inLanguage": "fr",
+  "articleSection": "Kaynak Mühendisliği",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Distorsiyon"
+    },
+    {
+      "@type": "Thing",
+      "name": "Kaynak Çekmesi"
+    },
+    {
+      "@type": "Thing",
+      "name": "Fikstür"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Distorsion de Soudage : Causes et Méthodes de Contrôle",
+      "item": "https://www.armaweld.com/fr/blog/kaynak-distorsiyonu.html"
+    }
+  ]
+}
+</script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_kaynak_distors_breadcrumb3">Distorsion</span></div>
+    <div class="article-tag" data-i18n="blog_kaynak_distors_tag">Qualité &amp; Fabrication</div>
+    <h1 data-i18n="blog_kaynak_distors_h1">Distorsion de Soudage : Causes et Méthodes de Contrôle</h1>
+    <div class="article-meta">
+      <span>2026-04-07</span>
+      <span data-i18n="blog_kaynak_distors_read">9 min de lecture</span>
+      <span data-i18n="blog_kaynak_distors_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <div class="article-body">
+
+    <div data-i18n-html="blog_kaynak_distors_s0"><p>La <strong>distorsion de soudage</strong> désigne la déformation permanente de la pièce résultant des contraintes thermiques générées pendant le soudage. Elle se manifeste sous plusieurs formes — retrait longitudinal, retrait transversal, déformation angulaire, gauchissement — et peut rendre un assemblage hors tolérances géométriques. La compréhension et le contrôle de la distorsion sont essentiels pour la qualité de fabrication.</p></div>
+    <div data-i18n-html="blog_kaynak_distors_s1"><h2>Types de Distorsion</h2><ul><li><strong>Retrait longitudinal :</strong> Raccourcissement dans l'axe du cordon — typiquement 0,1–0,3 % de la longueur.</li><li><strong>Retrait transversal :</strong> Réduction de la largeur du joint — dépend de la préparation et du volume de métal déposé.</li><li><strong>Déformation angulaire :</strong> Rotation autour de l'axe du cordon ; critique dans les joints en V.</li><li><strong>Gauchissement :</strong> Flambement des tôles minces sous l'effet des contraintes compressives.</li><li><strong>Déflexion (cambre) :</strong> Fléchissement des poutres soudées sous les forces longitudinales.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_distors_s2"><h2>Facteurs Influençant la Distorsion</h2><ul><li><strong>Énergie de soudage :</strong> Volume de métal déposé et apport thermique plus élevés → plus grande distorsion.</li><li><strong>Préparation du joint :</strong> Les joints en V simples sont plus sujets à la déformation angulaire que les joints en X ou double V.</li><li><strong>Séquence de soudage :</strong> Le sens et l'ordre des passes modifient la distribution des contraintes.</li><li><strong>Rigidité de la structure :</strong> Les structures bridées tolèrent moins de déformation mais accumulent plus de contraintes internes.</li><li><strong>Propriétés du matériau :</strong> L'acier inoxydable austénitique se déforme environ 2–3 fois plus que l'acier au carbone (coefficient de dilatation plus élevé).</li></ul></div>
+    <div data-i18n-html="blog_kaynak_distors_s3"><h2>Méthodes de Prévention</h2><ul><li><strong>Bridage et gabarits :</strong> Immobiliser la pièce pendant le soudage réduit la distorsion angulaire.</li><li><strong>Prédéformation (cambrage) :</strong> Donner à la pièce une déformation opposée anticipée avant soudage.</li><li><strong>Optimisation de la séquence :</strong> Alternance des passes des deux côtés (soudure en X) ; progression en retour (back-step).</li><li><strong>Réduction de l'énergie de soudage :</strong> Passes multiples de faible énergie plutôt qu'une seule passe de forte énergie.</li><li><strong>Symétrie de la soudure :</strong> Préférer les joints symétriques (double V, double J) pour équilibrer les déformations.</li></ul></div>
+    <div data-i18n-html="blog_kaynak_distors_s4"><h2>Méthodes de Redressage</h2><ul><li><strong>Redressage mécanique :</strong> Pressage ou martelage ; adapté aux aciers au carbone (attention à la fragilisation).</li><li><strong>Redressage thermique à la flamme :</strong> Chauffage localisé puis refroidissement contrôlé → contraction thermique ciblée. Températures typiques : 600–700 °C pour aciers au carbone.</li><li><strong>Recuit de détensionnement :</strong> PWHT pour relâcher les contraintes résiduelles sans correction géométrique active.</li></ul><div class="callout"><p><strong>Note :</strong> Le redressage thermique est interdit sur les aciers THLE (S690QL, S960QL) au-dessus de la température de revenu spécifiée par le fabricant. Consulter la fiche technique du métal de base avant toute intervention.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_kaynak_distors_cta_h3">Contrôle de la Distorsion et Conseil Technique</h3>
+      <p data-i18n="blog_kaynak_distors_cta_p">Optimisation de la séquence de soudage et solutions de bridage pour un assemblage conforme aux tolérances.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_kaynak_distors_cta_btn">Contactez-nous →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="gazalti-kaynagi-nedir.html" data-i18n="blog_n26_gmaw_h1">Soudage MIG/MAG : principe de fonctionnement, réglages et domaines d'application</a></li>
+        <li><a href="argon-kaynagi-nedir.html" data-i18n="blog_n26_tig_h1">Soudage TIG : définition, mise en œuvre et domaines d'application</a></li>
+        <li><a href="kaynak-cesitleri.html" data-i18n="blog_n26_types_h1">Types de soudage : les procédés utilisés dans l'industrie et leurs différences</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+  </div>
+</section>
+<script src="../../assets/blog-translations-2026.js?v=202606122"></script>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610053"></script>
+<script src="../../assets/chrome.js?v=202610053"></script>
+<script src="../../assets/analytics.js?v=20260526"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
