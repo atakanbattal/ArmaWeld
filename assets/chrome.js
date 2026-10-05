@@ -264,7 +264,7 @@ function buildFooter(base) {
           <h5 data-i18n="footer_services_h"></h5>
           <ul>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s1"></a></li>
-            <li><a href="${b}hizmetler.html#fason" data-i18n="footer_fason"></a></li>
+            <li><a href="${b}konya-fason-kaynak.html" data-i18n="footer_fason"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s2"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s3"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s4"></a></li>
@@ -628,9 +628,11 @@ function toggleTheme() {
 
   const navLogo = document.getElementById('nav-logo');
   const footerLogo = document.getElementById('footer-logo');
-  const logoSrc = next === 'dark' ? 'assets/logo-dark.png' : 'assets/logo-light.png';
-  if (navLogo) navLogo.src = logoSrc;
-  if (footerLogo) footerLogo.src = logoSrc;
+  const logoFile = next === 'dark' ? 'logo-dark.png' : 'logo-light.png';
+  // Keep the page's own asset prefix (blog pages use ../assets/)
+  [navLogo, footerLogo].forEach(function (img) {
+    if (img) img.src = img.getAttribute('src').replace(/logo-(dark|light)\.png/, logoFile);
+  });
 }
 
 // ── WhatsApp Floating Button ────────────────────────────────────────────────

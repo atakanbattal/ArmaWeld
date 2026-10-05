@@ -1,6 +1,9 @@
 AddDefaultCharset UTF-8
 AddCharset UTF-8 .js .css .html .json
 
+# Bulunamayan adresler için markalı 404 sayfası (5 dil)
+ErrorDocument 404 /404.html
+
 # HTTPS yönlendirme
 <IfModule mod_rewrite.c>
   RewriteEngine On
