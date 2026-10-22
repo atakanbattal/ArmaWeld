@@ -2,12 +2,13 @@ import { NextResponse } from 'next/server';
 import JSZip from 'jszip';
 import { createClient } from '@/lib/supabase/server';
 import { createAdminClient } from '@/lib/supabase/admin';
+import { downloadLocalized, requestLocale } from '@/lib/localized-files';
 
 interface RouteParams {
   params: Promise<{ id: string }>;
 }
 
-export async function GET(_request: Request, { params }: RouteParams) {
+export async function GET(request: Request, { params }: RouteParams) {
   const { id: orderId } = await params;
   const supabase = await createClient();
   const {
@@ -55,12 +56,15 @@ export async function GET(_request: Request, { params }: RouteParams) {
   }
 
   const admin = createAdminClient();
+  const locale = await requestLocale(request);
   const zip = new JSZip();
 
   for (const doc of documents) {
-    const { data: fileData, error } = await admin.storage
-      .from('order-documents')
-      .download(doc.file_path);
+    const { data: fileData, error } = await downloadLocalized(
+      admin.storage.from('order-documents'),
+      doc.file_path,
+      locale
+    );
 
     if (error || !fileData) continue;
 
@@ -76,6 +80,7 @@ export async function GET(_request: Request, { params }: RouteParams) {
     headers: {
       'Content-Type': 'application/zip',
       'Content-Disposition': `attachment; filename="${filename}"`,
+      'Cache-Control': 'private, no-store',
     },
   });
 }

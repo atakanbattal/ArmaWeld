@@ -163,7 +163,7 @@ export function DocumentList({
   groupByType = false,
   groupTypeOrder,
 }: DocumentListProps) {
-  const { t, dateLocale } = useI18n();
+  const { t, dateLocale, locale } = useI18n();
   const [preview, setPreview] = useState<{ url: string; name: string; mime: string } | null>(null);
   const [loading, setLoading] = useState<string | null>(null);
 
@@ -172,7 +172,7 @@ export function DocumentList({
     : documents.filter((d) => d.is_visible_to_customer);
 
   async function getDocUrl(docId: string) {
-    const res = await fetch(`/api/documents/${docId}`);
+    const res = await fetch(`/api/documents/${docId}?lang=${locale}`);
     const data = await res.json();
     if (!res.ok) throw new Error(data.error ?? t('documents.fetchError'));
     return data as { url: string; name: string; mime_type: string };
@@ -201,7 +201,7 @@ export function DocumentList({
   async function handlePreview(doc: OrderDocument) {
     setLoading(doc.id);
     try {
-      const res = await fetch(`/api/documents/${doc.id}?inline=1`);
+      const res = await fetch(`/api/documents/${doc.id}?inline=1&lang=${locale}`);
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
         throw new Error((data as { error?: string }).error ?? t('documents.previewFailed'));

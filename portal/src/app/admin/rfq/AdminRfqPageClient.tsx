@@ -36,7 +36,7 @@ function statusVariant(status: RfqStatus) {
 }
 
 export function AdminRfqPageClient({ requests }: AdminRfqPageClientProps) {
-  const { t, dateLocale } = useI18n();
+  const { t, dateLocale, locale } = useI18n();
   const router = useRouter();
 
   const [notesById, setNotesById] = useState<Record<string, string>>(() =>
@@ -193,7 +193,7 @@ export function AdminRfqPageClient({ requests }: AdminRfqPageClientProps) {
   async function downloadQuote(rfq: RfqRequest) {
     if (!rfq.quote_file_path) return;
 
-    const res = await fetch(`/api/rfq/${rfq.id}/quote`);
+    const res = await fetch(`/api/rfq/${rfq.id}/quote?lang=${locale}`);
     if (!res.ok) return;
 
     const data = await res.json();

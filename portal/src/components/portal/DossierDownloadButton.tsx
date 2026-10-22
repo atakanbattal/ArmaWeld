@@ -10,7 +10,7 @@ interface DossierDownloadButtonProps {
 }
 
 export function DossierDownloadButton({ orderId, jobNumber }: DossierDownloadButtonProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -19,7 +19,7 @@ export function DossierDownloadButton({ orderId, jobNumber }: DossierDownloadBut
     setError('');
 
     try {
-      const res = await fetch(`/api/orders/${orderId}/dossier`);
+      const res = await fetch(`/api/orders/${orderId}/dossier?lang=${locale}`);
       if (!res.ok) {
         setError(t('dossier.error'));
         setLoading(false);
