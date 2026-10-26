@@ -1671,8 +1671,75 @@
       <h2 data-i18n-html="br_portal_h2">Cada etapa de su pedido, <span class="arc">en una sola pantalla y en tiempo real.</span></h2>
       <p data-i18n="br_portal_lede">Al aprobar la oferta se abre una cuenta de portal exclusiva para usted. Alimentada con datos reales de producción, sus equipos de compras, calidad e ingeniería ven el mismo registro. No llamadas: una única fuente de verdad.</p>
     </div>
+    <!-- PORTAL SHOWCASE -->
+    <div class="pt-show reveal" id="pt-show">
+      <div class="pt-tabs" role="group">
+        <button type="button" class="pt-tab active" data-shot="panel" data-url="portal.armaweld.com" data-cap="pt_s_panel_p" aria-pressed="true"><span class="mono">01</span><b data-i18n="pt_s_panel_h">Panel de control</b></button>
+        <button type="button" class="pt-tab" data-shot="takip" data-url="portal.armaweld.com" data-cap="pt_s_takip_p" aria-pressed="false"><span class="mono">02</span><b data-i18n="pt_s_takip_h">Rendimiento de entregas y seguimiento en vivo</b></button>
+        <button type="button" class="pt-tab" data-shot="siparisler" data-url="portal.armaweld.com/siparisler" data-cap="pt_s_siparisler_p" aria-pressed="false"><span class="mono">03</span><b data-i18n="pt_s_siparisler_h">Mis pedidos</b></button>
+        <button type="button" class="pt-tab" data-shot="izlenebilirlik" data-url="portal.armaweld.com/siparis/JOB-2026-0034" data-cap="pt_s_izlenebilirlik_p" aria-pressed="false"><span class="mono">04</span><b data-i18n="pt_s_izlenebilirlik_h">Cronología de trazabilidad</b></button>
+        <button type="button" class="pt-tab" data-shot="belgeler" data-url="portal.armaweld.com/belgeler" data-cap="pt_s_belgeler_p" aria-pressed="false"><span class="mono">05</span><b data-i18n="pt_s_belgeler_h">Documentos de calidad</b></button>
+        <button type="button" class="pt-tab" data-shot="teklif" data-url="portal.armaweld.com/teklif" data-cap="pt_s_teklif_p" aria-pressed="false"><span class="mono">06</span><b data-i18n="pt_s_teklif_h">Solicitud de oferta en el portal (RFQ)</b></button>
+      </div>
+      <figure class="pt-show-shot">
+        <div class="pt-show-bar"><span></span><span></span><span></span><em id="pt-show-url">portal.armaweld.com</em></div>
+        <a href="musteri-portali.html#ekran-panel" id="pt-show-link"><img id="pt-show-img" src="../assets/portal/panel.jpg" width="1400" loading="lazy" decoding="async" alt="Pantalla del portal de clientes de ArmaWeld: Panel de control" data-i18n-alt="pt_s_panel_alt"></a>
+        <figcaption><span id="pt-show-cap" data-i18n="pt_s_panel_p">Nada más entrar, tiene delante el resumen de todos sus pedidos.</span> <em data-i18n="pt_sample">Pantallas de ejemplo · datos representativos de cliente y pedido</em></figcaption>
+      </figure>
+    </div>
+    <style>
+      .pt-show { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: start; margin-bottom: 48px; }
+      .pt-tabs { display: flex; flex-direction: column; border: 1px solid var(--ink-4); }
+      .pt-tab { display: flex; gap: 12px; align-items: baseline; text-align: left; padding: 14px 16px; background: transparent; border: 0; border-top: 1px solid var(--ink-4); color: var(--steel-3); cursor: pointer; font: inherit; font-size: 14px; }
+      .pt-tab:first-child { border-top: 0; }
+      .pt-tab .mono { font-family: var(--ff-mono); font-size: 10px; color: var(--steel-1); }
+      .pt-tab b { font-weight: 600; }
+      .pt-tab:hover { color: var(--bone); }
+      .pt-tab.active { background: var(--ink-0); color: var(--bone); box-shadow: inset 3px 0 0 var(--arc-2); }
+      .pt-tab.active .mono { color: var(--arc-2); }
+      .pt-show-shot { margin: 0; border: 1px solid var(--ink-4); background: var(--ink-2); box-shadow: 0 18px 40px rgba(0,0,0,.08); }
+      .pt-show-shot img { display: block; width: 100%; height: auto; }
+      .pt-show-bar { display: flex; align-items: center; gap: 6px; padding: 9px 12px; border-bottom: 1px solid var(--ink-4); }
+      .pt-show-bar span { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-4); }
+      .pt-show-bar em { font-style: normal; font-family: var(--ff-mono); font-size: 10px; color: var(--steel-2); margin-left: 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .pt-show-shot figcaption { padding: 12px 14px; border-top: 1px solid var(--ink-4); font-size: 13px; color: var(--steel-3); line-height: 1.5; }
+      .pt-show-shot figcaption em { display: block; font-style: normal; font-family: var(--ff-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-1); margin-top: 4px; }
+      @media (max-width: 900px) {
+        .pt-show { grid-template-columns: 1fr; }
+        .pt-tabs { flex-direction: row; overflow-x: auto; }
+        .pt-tab { flex: 0 0 auto; border-top: 0; border-left: 1px solid var(--ink-4); }
+        .pt-tab:first-child { border-left: 0; }
+        .pt-tab.active { box-shadow: inset 0 -3px 0 var(--arc-2); }
+      }
+    </style>
+    <script>
+      (function () {
+        var root = document.getElementById('pt-show');
+        if (!root) return;
+        var img = document.getElementById('pt-show-img'), url = document.getElementById('pt-show-url');
+        var cap = document.getElementById('pt-show-cap'), link = document.getElementById('pt-show-link');
+        var base = img.getAttribute('src').replace(/panel\.jpg$/, '');
+        root.querySelectorAll('.pt-tab').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            root.querySelectorAll('.pt-tab').forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+            btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
+            var id = btn.dataset.shot, k = id.replace('-', '_');
+            img.src = base + id + '.jpg';
+            img.setAttribute('data-i18n-alt', 'pt_s_' + k + '_alt');
+            cap.setAttribute('data-i18n', btn.dataset.cap);
+            url.textContent = btn.dataset.url;
+            link.href = link.getAttribute('href').replace(/#.*$/, '') + '#ekran-' + id;
+            var t = window.i18n && window.i18n.get;
+            var tr = function (key) { var v = typeof t === 'function' ? t(key) : null; return v && v !== key ? v : null; };
+            cap.textContent = tr(btn.dataset.cap) || btn.querySelector('b').textContent;
+            img.alt = tr('pt_s_' + k + '_alt') || btn.querySelector('b').textContent;
+          });
+        });
+      })();
+    </script>
     <div class="reveal" data-i18n-html="br_portal_html"><div class="deep-grid-4"><div class="deep-card"><h3>Panel de control</h3><p>Pedidos abiertos, en producción y terminados, y rendimiento de entregas de un vistazo.</p></div><div class="deep-card"><h3>Seguimiento en vivo</h3><p>Dónde está su pedido en la línea de 7 etapas, en tiempo real.</p></div><div class="deep-card"><h3>Cronología de trazabilidad</h3><p>Operario, fecha, nota y documento en cada etapa.</p></div><div class="deep-card"><h3>Documentos de calidad</h3><p>WPS, WPQR, 3.1, END y CE / DoP como PDF firmados.</p></div><div class="deep-card"><h3>Plazos y rendimiento</h3><p>Entrega estimada, entregas mensuales, tasa de entrega a tiempo.</p></div><div class="deep-card"><h3>Avisos y mensajes</h3><p>Avisos de etapa y documento; cada conversación ligada a su trabajo.</p></div><div class="deep-card"><h3>Solicitud de oferta en el portal</h3><p>Suba DWG / DXF / PDF y siga el proceso de oferta en vivo.</p></div><div class="deep-card"><h3>Posventa</h3><p>Productos instalados, repuestos, solicitudes de servicio y garantía.</p></div></div><h3 class="br-sub">¿Qué aporta el portal a cada equipo?</h3><div class="deep-grid-3"><div class="deep-card"><h3>Compras</h3><p>Ve antes el riesgo de plazo y planifica con datos reales.</p></div><div class="deep-card"><h3>Calidad / Ingeniería</h3><p>Revisa y aprueba WPS, END e informes dimensionales antes del envío.</p></div><div class="deep-card"><h3>Dirección / Auditoría</h3><p>Gestiona al proveedor con evidencias; presenta documentos del archivo con un clic en las auditorías.</p></div></div><div class="deep-callout"><p>Conexión cifrada TLS · acceso por roles · copias de seguridad periódicas · bajo acuerdo de confidencialidad.</p></div></div>
-    <div class="deep-links"><a href="musteri-portali.html" data-i18n="pt_home_link">Ver el portal pantalla a pantalla →</a></div>
+    <div style="margin-top:32px"><a href="musteri-portali.html" class="btn btn-primary" data-i18n="pt_home_link">Ver el portal pantalla a pantalla →</a></div>
   </div>
 </section>
 
@@ -2109,8 +2176,8 @@
   </div>
 </section>
 <script src="../assets/lang/tr.js?v=202610033"></script>
-<script src="../assets/i18n.js?v=202610261"></script>
-<script src="../assets/chrome.js?v=202610053"></script>
+<script src="../assets/i18n.js?v=202610262"></script>
+<script src="../assets/chrome.js?v=202610262"></script>
 <script src="../assets/sample-docs-data.js?v=202605253"></script>
 <script src="../assets/analytics.js?v=20260604"></script>
 <script>
