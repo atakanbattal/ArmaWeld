@@ -4,7 +4,7 @@
   const STORAGE_KEY = 'armaweld-lang';
   const DEFAULT = 'tr';
   const SUPPORTED = ['tr', 'en', 'de', 'es', 'fr'];
-  const BUNDLE_V = '202610262';
+  const BUNDLE_V = '202610263';
 
   // Pages under /en/, /de/, /es/, /fr/ are built per language (scripts/build-lang-pages.mjs)
   // and carry their language on <html data-aw-page-lang>; Turkish pages live at the root.
@@ -205,6 +205,10 @@
     document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
       var v = resolve(el.dataset.i18nTitle);
       if (v) el.title = decodeEntities(v);
+    });
+    document.querySelectorAll('[data-i18n-src]').forEach(function (el) {
+      var v = resolve(el.dataset.i18nSrc);
+      if (v && el.getAttribute('src') !== v) el.setAttribute('src', v);
     });
     document.querySelectorAll('[data-i18n-alt]').forEach(function (el) {
       var v = resolve(el.dataset.i18nAlt);
