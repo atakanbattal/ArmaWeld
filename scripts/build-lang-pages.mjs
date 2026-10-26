@@ -179,7 +179,7 @@ function buildPage(page, lang) {
     const v = resolve(el.attribs['data-i18n-html']);
     if (v) $(el).html(v);
   });
-  for (const [attr, target] of [['data-i18n-placeholder', 'placeholder'], ['data-i18n-value', 'value'], ['data-i18n-aria', 'aria-label'], ['data-i18n-title', 'title']]) {
+  for (const [attr, target] of [['data-i18n-placeholder', 'placeholder'], ['data-i18n-value', 'value'], ['data-i18n-aria', 'aria-label'], ['data-i18n-title', 'title'], ['data-i18n-alt', 'alt']]) {
     $(`body [${attr}]`).each((_, el) => {
       const v = resolve(el.attribs[attr]);
       if (v) $(el).attr(target, decode(v));

@@ -243,3 +243,10 @@
   .cert-grid { grid-template-columns: 1fr; }
   .cert-card { min-height: 0; }
 }
+
+/* Brochure sections */
+.br-sub { font-family: var(--ff-display); font-weight: 700; font-size: 20px; color: var(--bone); margin: 40px 0 16px; letter-spacing: -.01em; }
+.br-cmp td:nth-child(2) { color: var(--steel-2); }
+.br-cmp td:last-child { color: var(--bone); }
+.deep-grid-4 .deep-card p { font-size: 13px; }
+@media (max-width: 1100px) and (min-width: 769px) { .deep-grid-4 { grid-template-columns: repeat(2, 1fr); } }
