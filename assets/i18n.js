@@ -206,6 +206,10 @@
       var v = resolve(el.dataset.i18nTitle);
       if (v) el.title = decodeEntities(v);
     });
+    document.querySelectorAll('[data-i18n-alt]').forEach(function (el) {
+      var v = resolve(el.dataset.i18nAlt);
+      if (v) el.alt = decodeEntities(v);
+    });
 
     var titleKey = document.documentElement.dataset.i18nTitle;
     if (titleKey) {
