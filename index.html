@@ -1638,8 +1638,75 @@
       <h2 data-i18n-html="br_portal_h2">Siparişinizin her aşaması, <span class="arc">tek ekranda ve gerçek zamanlı.</span></h2>
       <p data-i18n="br_portal_lede">Teklif onayıyla size özel bir portal hesabı açılır. Gerçek üretim verisinden beslenen bu ekranda satınalma, kalite ve mühendislik ekipleriniz aynı kaydı görür. Telefon trafiği değil; tek doğruluk kaynağı.</p>
     </div>
+    <!-- PORTAL SHOWCASE -->
+    <div class="pt-show reveal" id="pt-show">
+      <div class="pt-tabs" role="group">
+        <button type="button" class="pt-tab active" data-shot="panel" data-url="portal.armaweld.com" data-cap="pt_s_panel_p" aria-pressed="true"><span class="mono">01</span><b data-i18n="pt_s_panel_h">Gösterge paneli</b></button>
+        <button type="button" class="pt-tab" data-shot="takip" data-url="portal.armaweld.com" data-cap="pt_s_takip_p" aria-pressed="false"><span class="mono">02</span><b data-i18n="pt_s_takip_h">Teslimat performansı ve canlı sipariş takibi</b></button>
+        <button type="button" class="pt-tab" data-shot="siparisler" data-url="portal.armaweld.com/siparisler" data-cap="pt_s_siparisler_p" aria-pressed="false"><span class="mono">03</span><b data-i18n="pt_s_siparisler_h">Siparişlerim</b></button>
+        <button type="button" class="pt-tab" data-shot="izlenebilirlik" data-url="portal.armaweld.com/siparis/JOB-2026-0034" data-cap="pt_s_izlenebilirlik_p" aria-pressed="false"><span class="mono">04</span><b data-i18n="pt_s_izlenebilirlik_h">İzlenebilirlik zaman çizelgesi</b></button>
+        <button type="button" class="pt-tab" data-shot="belgeler" data-url="portal.armaweld.com/belgeler" data-cap="pt_s_belgeler_p" aria-pressed="false"><span class="mono">05</span><b data-i18n="pt_s_belgeler_h">Kalite belgeleri</b></button>
+        <button type="button" class="pt-tab" data-shot="teklif" data-url="portal.armaweld.com/teklif" data-cap="pt_s_teklif_p" aria-pressed="false"><span class="mono">06</span><b data-i18n="pt_s_teklif_h">Portaldan teklif talebi (RFQ)</b></button>
+      </div>
+      <figure class="pt-show-shot">
+        <div class="pt-show-bar"><span></span><span></span><span></span><em id="pt-show-url">portal.armaweld.com</em></div>
+        <a href="musteri-portali.html#ekran-panel" id="pt-show-link"><img id="pt-show-img" src="assets/portal/panel.jpg" width="1400" loading="lazy" decoding="async" alt="ArmaWeld müşteri portalı ekranı: Gösterge paneli" data-i18n-alt="pt_s_panel_alt" /></a>
+        <figcaption><span id="pt-show-cap" data-i18n="pt_s_panel_p">Portala girdiğiniz anda tüm siparişlerinizin özeti karşınızda.</span> <em data-i18n="pt_sample">Örnek ekranlar · temsili müşteri ve sipariş verisi</em></figcaption>
+      </figure>
+    </div>
+    <style>
+      .pt-show { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: start; margin-bottom: 48px; }
+      .pt-tabs { display: flex; flex-direction: column; border: 1px solid var(--ink-4); }
+      .pt-tab { display: flex; gap: 12px; align-items: baseline; text-align: left; padding: 14px 16px; background: transparent; border: 0; border-top: 1px solid var(--ink-4); color: var(--steel-3); cursor: pointer; font: inherit; font-size: 14px; }
+      .pt-tab:first-child { border-top: 0; }
+      .pt-tab .mono { font-family: var(--ff-mono); font-size: 10px; color: var(--steel-1); }
+      .pt-tab b { font-weight: 600; }
+      .pt-tab:hover { color: var(--bone); }
+      .pt-tab.active { background: var(--ink-0); color: var(--bone); box-shadow: inset 3px 0 0 var(--arc-2); }
+      .pt-tab.active .mono { color: var(--arc-2); }
+      .pt-show-shot { margin: 0; border: 1px solid var(--ink-4); background: var(--ink-2); box-shadow: 0 18px 40px rgba(0,0,0,.08); }
+      .pt-show-shot img { display: block; width: 100%; height: auto; }
+      .pt-show-bar { display: flex; align-items: center; gap: 6px; padding: 9px 12px; border-bottom: 1px solid var(--ink-4); }
+      .pt-show-bar span { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-4); }
+      .pt-show-bar em { font-style: normal; font-family: var(--ff-mono); font-size: 10px; color: var(--steel-2); margin-left: 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .pt-show-shot figcaption { padding: 12px 14px; border-top: 1px solid var(--ink-4); font-size: 13px; color: var(--steel-3); line-height: 1.5; }
+      .pt-show-shot figcaption em { display: block; font-style: normal; font-family: var(--ff-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--steel-1); margin-top: 4px; }
+      @media (max-width: 900px) {
+        .pt-show { grid-template-columns: 1fr; }
+        .pt-tabs { flex-direction: row; overflow-x: auto; }
+        .pt-tab { flex: 0 0 auto; border-top: 0; border-left: 1px solid var(--ink-4); }
+        .pt-tab:first-child { border-left: 0; }
+        .pt-tab.active { box-shadow: inset 0 -3px 0 var(--arc-2); }
+      }
+    </style>
+    <script>
+      (function () {
+        var root = document.getElementById('pt-show');
+        if (!root) return;
+        var img = document.getElementById('pt-show-img'), url = document.getElementById('pt-show-url');
+        var cap = document.getElementById('pt-show-cap'), link = document.getElementById('pt-show-link');
+        var base = img.getAttribute('src').replace(/panel\.jpg$/, '');
+        root.querySelectorAll('.pt-tab').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            root.querySelectorAll('.pt-tab').forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+            btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
+            var id = btn.dataset.shot, k = id.replace('-', '_');
+            img.src = base + id + '.jpg';
+            img.setAttribute('data-i18n-alt', 'pt_s_' + k + '_alt');
+            cap.setAttribute('data-i18n', btn.dataset.cap);
+            url.textContent = btn.dataset.url;
+            link.href = link.getAttribute('href').replace(/#.*$/, '') + '#ekran-' + id;
+            var t = window.i18n && window.i18n.get;
+            var tr = function (key) { var v = typeof t === 'function' ? t(key) : null; return v && v !== key ? v : null; };
+            cap.textContent = tr(btn.dataset.cap) || btn.querySelector('b').textContent;
+            img.alt = tr('pt_s_' + k + '_alt') || btn.querySelector('b').textContent;
+          });
+        });
+      })();
+    </script>
     <div class="reveal" data-i18n-html="br_portal_html"><div class="deep-grid-4"><div class="deep-card"><h3>Gösterge paneli</h3><p>Açık, üretimde ve tamamlanan siparişler ile teslimat performansı tek bakışta.</p></div><div class="deep-card"><h3>Canlı sipariş takibi</h3><p>7 aşamalı hatta siparişin bulunduğu nokta anlık olarak.</p></div><div class="deep-card"><h3>İzlenebilirlik zaman çizelgesi</h3><p>Her aşamada operatör, tarih, açıklama ve belge.</p></div><div class="deep-card"><h3>Kalite belgeleri</h3><p>WPS, WPQR, 3.1, NDT ve CE / DoP belgeleri imzalı PDF olarak.</p></div><div class="deep-card"><h3>Termin &amp; performans</h3><p>Tahmini teslim, aylık teslimatlar, zamanında teslim oranı.</p></div><div class="deep-card"><h3>Bildirim &amp; mesaj</h3><p>Aşama ve belge bildirimleri; her yazışma ilgili işe bağlı.</p></div><div class="deep-card"><h3>Portaldan teklif talebi</h3><p>DWG / DXF / PDF yükleyin, teklif sürecini canlı izleyin.</p></div><div class="deep-card"><h3>Satış sonrası</h3><p>Kurulu ürünler, yedek parça, servis ve garanti talepleri.</p></div></div><h3 class="br-sub">Portal kime ne kazandırır?</h3><div class="deep-grid-3"><div class="deep-card"><h3>Satınalma</h3><p>Termin riskini önceden görür; planını gerçek veriye göre yapar.</p></div><div class="deep-card"><h3>Kalite / Mühendislik</h3><p>WPS, NDT ve boyut raporunu sevkten önce inceler ve onaylar.</p></div><div class="deep-card"><h3>Yönetim / Denetim</h3><p>Tedarikçiyi kanıtla yönetir; denetimde arşivden tek tıkla belge sunar.</p></div></div><div class="deep-callout"><p>TLS şifreli bağlantı · rol bazlı erişim · düzenli yedekleme · gizlilik sözleşmesi kapsamında.</p></div></div>
-    <div class="deep-links"><a href="musteri-portali.html" data-i18n="pt_home_link">Portalı ekran ekran inceleyin →</a></div>
+    <div style="margin-top:32px"><a href="musteri-portali.html" class="btn btn-primary" data-i18n="pt_home_link">Portalı ekran ekran inceleyin →</a></div>
   </div>
 </section>
 
@@ -2105,8 +2172,8 @@
   </div>
 </section>
 <script src="assets/lang/tr.js?v=202610033"></script>
-<script src="assets/i18n.js?v=202610261"></script>
-<script src="assets/chrome.js?v=202610053"></script>
+<script src="assets/i18n.js?v=202610262"></script>
+<script src="assets/chrome.js?v=202610262"></script>
 <script src="assets/sample-docs-data.js?v=202605253"></script>
 <script src="assets/analytics.js?v=20260604"></script>
 <script>

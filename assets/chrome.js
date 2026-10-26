@@ -27,6 +27,7 @@ const NAV_LABELS = {
   nav_projects: 'Projeler',
   nav_faq: 'SSS',
   nav_documents: 'Belgelerimiz',
+  nav_portal_page: 'Müşteri Portalı',
   nav_drawer_main: 'Menü',
 };
 
@@ -149,6 +150,7 @@ function buildNav(activePage, base) {
     { id: 'blog',        i18n: 'nav_blog',        href: b + 'blog/' },
   ];
   const moreLinks = [
+    { id: 'musteri-portali', i18n: 'nav_portal_page', href: b + 'musteri-portali.html' },
     { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
     { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
     { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
@@ -287,6 +289,7 @@ function buildFooter(base) {
             <li><a href="${b}muhendislik.html" data-i18n="footer_c7"></a></li>
             <li><a href="${b}kalite.html" data-i18n="footer_c2"></a></li>
             <li><a href="${b}belgelerimiz.html" data-i18n="footer_c8"></a></li>
+            <li><a href="${b}musteri-portali.html" data-i18n="footer_c9"></a></li>
             <li><a href="${b}sektorler.html" data-i18n="footer_c3"></a></li>
             <li><a href="${b}projeler.html" data-i18n="footer_c4"></a></li>
             <li><a href="${b}sss.html" data-i18n="footer_c5"></a></li>
