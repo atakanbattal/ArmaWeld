@@ -110,7 +110,7 @@
         fields: [
           ['trace_doc_lbl_welder', 'Kemal Demir'],
           ['trace_doc_lbl_welder_code', 'W-07'],
-          ['trace_doc_lbl_doc_no', 'ERK-WL-07-2026'],
+          ['trace_doc_lbl_doc_no', 'AW-WL-07-2026'],
           ['trace_doc_lbl_weld_log', 'LOG-A142'],
           ['trace_doc_lbl_wps', JOB.wps],
           ['trace_doc_lbl_process', 'trace_doc_val_root_fill'],
@@ -216,7 +216,7 @@
         sub: 'trace_doc_dop_sub',
         stamp: 'trace_doc_dop_stamp',
         fields: [
-          ['trace_doc_lbl_dop_no', 'ERK-DOP-2026-0142'],
+          ['trace_doc_lbl_dop_no', 'AW-DOP-2026-0142'],
           ['trace_doc_lbl_delivery_note', 'IRS-A142-2026'],
           ['trace_doc_lbl_job', JOB.id],
           ['trace_doc_lbl_serial', JOB.serial],
@@ -235,9 +235,9 @@
           rows: [
             ['MTC 3.1', 'MTC-2026-4182', 'trace_doc_st_ok'],
             ['WPS / WPQR', 'WPS-142-A', 'trace_doc_st_ok'],
-            ['trace_doc_val_welder_cert', 'ERK-WL-07-2026', 'trace_doc_st_ok'],
+            ['trace_doc_val_welder_cert', 'AW-WL-07-2026', 'trace_doc_st_ok'],
             ['trace_doc_val_ndt_report', 'NDT-2026-0248', 'trace_doc_st_ok'],
-            ['DoP / CE', 'ERK-DOP-2026-0142', 'trace_doc_st_ok']
+            ['DoP / CE', 'AW-DOP-2026-0142', 'trace_doc_st_ok']
           ]
         }],
         badge: 'trace_doc_dop_badge'
