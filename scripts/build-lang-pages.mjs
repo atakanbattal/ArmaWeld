@@ -24,6 +24,13 @@ const HREFLANG_START = '<!-- aw:hreflang -->';
 const HREFLANG_END = '<!-- /aw:hreflang -->';
 
 const DICT = { root: loadTranslations({ blog: false }), blog: loadTranslations({ blog: true }) };
+// Turkish text that sits in the markup without an i18n key (alt texts, blog tags,
+// structured data): exact Turkish string -> { en, de, es, fr }
+const STATIC_TEXT = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/static-text-i18n.json'), 'utf8'));
+const staticText = (value, lang) => {
+  const hit = STATIC_TEXT[value.trim()];
+  return hit && hit[lang] ? hit[lang] : value;
+};
 
 const rootPages = fs.readdirSync(ROOT).filter((f) => f.endsWith('.html') && f !== '404.html').sort();
 const blogPages = fs.readdirSync(path.join(ROOT, 'blog')).filter((f) => f.endsWith('.html')).sort().map((f) => 'blog/' + f);
@@ -112,7 +119,7 @@ function localizeJsonLd(json, page, lang, title, desc) {
   const to = urlFor(lang, page);
   const fix = (node) => {
     if (Array.isArray(node)) return node.map(fix).filter((n) => n !== undefined);
-    if (typeof node === 'string') return localizeSiteUrl(node, lang);
+    if (typeof node === 'string') return staticText(localizeSiteUrl(node, lang), lang);
     if (!node || typeof node !== 'object') return node;
     const type = [].concat(node['@type'] || []);
     // FAQ answers are Turkish-only text in the markup
@@ -185,6 +192,17 @@ function buildPage(page, lang) {
       if (v) $(el).attr(target, decode(v));
     });
   }
+
+  $('body *').contents().each((_, node) => {
+    if (node.type === 'text' && node.data.trim()) {
+      const v = staticText(node.data, lang);
+      if (v !== node.data) node.data = node.data.replace(node.data.trim(), v);
+    }
+  });
+  for (const attr of ['alt', 'title', 'aria-label']) {
+    $(`[${attr}]`).each((_, el) => { $(el).attr(attr, staticText(el.attribs[attr], lang)); });
+  }
+  $('meta[property="article:section"], meta[property="article:author"], meta[name="keywords"]').each((_, el) => { $(el).attr('content', staticText(el.attribs.content || '', lang)); });
 
   // --- head ---
   const url = urlFor(lang, page);

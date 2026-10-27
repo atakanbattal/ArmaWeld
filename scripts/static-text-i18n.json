@@ -1,0 +1,728 @@
+{
+  "İlgili makaleler": {
+    "en": "Related articles",
+    "de": "Verwandte Artikel",
+    "es": "Artículos relacionados",
+    "fr": "Articles associés"
+  },
+  "EN 1090-2 EXC3 Sertifikası": {
+    "en": "EN 1090-2 EXC3 Certificate",
+    "de": "EN 1090-2 EXC3 Zertifikat",
+    "es": "Certificado EN 1090-2 EXC3",
+    "fr": "Certificat EN 1090-2 EXC3"
+  },
+  "EN ISO 3834-2 Sertifikası": {
+    "en": "EN ISO 3834-2 Certificate",
+    "de": "EN ISO 3834-2 Zertifikat",
+    "es": "Certificado EN ISO 3834-2",
+    "fr": "Certificat EN ISO 3834-2"
+  },
+  "ISO 9001:2015 Sertifikası": {
+    "en": "ISO 9001:2015 Certificate",
+    "de": "ISO 9001:2015 Zertifikat",
+    "es": "Certificado ISO 9001:2015",
+    "fr": "Certificat ISO 9001:2015"
+  },
+  "ISO 14001:2015 Sertifikası": {
+    "en": "ISO 14001:2015 Certificate",
+    "de": "ISO 14001:2015 Zertifikat",
+    "es": "Certificado ISO 14001:2015",
+    "fr": "Certificat ISO 14001:2015"
+  },
+  "ISO 45001:2018 Sertifikası": {
+    "en": "ISO 45001:2018 Certificate",
+    "de": "ISO 45001:2018 Zertifikat",
+    "es": "Certificado ISO 45001:2018",
+    "fr": "Certificat ISO 45001:2018"
+  },
+  "Basınçlı Kap & Proses": {
+    "en": "Pressure Vessels & Process",
+    "de": "Druckbehälter & Prozess",
+    "es": "Recipientes a presión y proceso",
+    "fr": "Appareils à pression & process"
+  },
+  "Basınçlı Kap": {
+    "en": "Pressure Vessels",
+    "de": "Druckbehälter",
+    "es": "Recipientes a presión",
+    "fr": "Appareils à pression"
+  },
+  "Mevzuat · İhracat": {
+    "en": "Regulation · Export",
+    "de": "Regulierung · Export",
+    "es": "Normativa · Exportación",
+    "fr": "Réglementation · Export"
+  },
+  "Demiryolu & Ulaşım": {
+    "en": "Railway & Transport",
+    "de": "Eisenbahn & Transport",
+    "es": "Ferrocarril y transporte",
+    "fr": "Ferroviaire & transport"
+  },
+  "CE İşaretlemesi": {
+    "en": "CE Marking",
+    "de": "CE-Kennzeichnung",
+    "es": "Marcado CE",
+    "fr": "Marquage CE"
+  },
+  "Yapısal Çelik": {
+    "en": "Structural Steel",
+    "de": "Stahlbau",
+    "es": "Acero estructural",
+    "fr": "Acier de construction"
+  },
+  "Fason İmalat · Satın Alma": {
+    "en": "Contract Manufacturing · Purchasing",
+    "de": "Lohnfertigung · Einkauf",
+    "es": "Fabricación por encargo · Compras",
+    "fr": "Sous-traitance · Achats"
+  },
+  "Hafif Yapı · Modüler": {
+    "en": "Lightweight Structures · Modular",
+    "de": "Leichtbau · Modular",
+    "es": "Estructuras ligeras · Modular",
+    "fr": "Structures légères · Modulaire"
+  },
+  "Kaynak mühendisliği, NDT ve metal işleme üzerine teknik makaleler": {
+    "en": "Technical articles on welding engineering, NDT and metalworking",
+    "de": "Fachartikel zu Schweißtechnik, ZfP und Metallbearbeitung",
+    "es": "Artículos técnicos sobre ingeniería de soldadura, END y metalurgia",
+    "fr": "Articles techniques sur l'ingénierie du soudage, le CND et la métallurgie"
+  },
+  "İnşaat · Yapısal Çelik": {
+    "en": "Construction · Structural Steel",
+    "de": "Bau · Stahlbau",
+    "es": "Construcción · Acero estructural",
+    "fr": "Construction · Acier de construction"
+  },
+  "Kaynak Mühendisliği": {
+    "en": "Welding Engineering",
+    "de": "Schweißtechnik",
+    "es": "Ingeniería de soldadura",
+    "fr": "Ingénierie du soudage"
+  },
+  "Kaynak Hataları": {
+    "en": "Weld Defects",
+    "de": "Schweißfehler",
+    "es": "Defectos de soldadura",
+    "fr": "Défauts de soudure"
+  },
+  "Isı Girdisi": {
+    "en": "Heat Input",
+    "de": "Wärmeeinbringung",
+    "es": "Aporte térmico",
+    "fr": "Apport de chaleur"
+  },
+  "Kaynak Pozisyonları": {
+    "en": "Welding Positions",
+    "de": "Schweißpositionen",
+    "es": "Posiciones de soldadura",
+    "fr": "Positions de soudage"
+  },
+  "Isıl İşlem & Kalite": {
+    "en": "Heat Treatment & Quality",
+    "de": "Wärmebehandlung & Qualität",
+    "es": "Tratamiento térmico y calidad",
+    "fr": "Traitement thermique & qualité"
+  },
+  "Kaynaklı İmalat · Temel Bilgiler": {
+    "en": "Welded Fabrication · Basics",
+    "de": "Schweißfertigung · Grundlagen",
+    "es": "Fabricación soldada · Fundamentos",
+    "fr": "Fabrication soudée · Notions de base"
+  },
+  "Madencilik · İş Makineleri": {
+    "en": "Mining · Construction Machinery",
+    "de": "Bergbau · Baumaschinen",
+    "es": "Minería · Maquinaria de construcción",
+    "fr": "Mines · Engins de chantier"
+  },
+  "NDT · Tahribatsız Muayene": {
+    "en": "NDT · Non-Destructive Testing",
+    "de": "ZfP · Zerstörungsfreie Prüfung",
+    "es": "END · Ensayos no destructivos",
+    "fr": "CND · Contrôle non destructif"
+  },
+  "Tahribatsız Muayene": {
+    "en": "Non-Destructive Testing",
+    "de": "Zerstörungsfreie Prüfung",
+    "es": "Ensayos no destructivos",
+    "fr": "Contrôle non destructif"
+  },
+  "Ön Isıtma": {
+    "en": "Preheating",
+    "de": "Vorwärmen",
+    "es": "Precalentamiento",
+    "fr": "Préchauffage"
+  },
+  "Paslanmaz Çelik · Hijyenik İmalat": {
+    "en": "Stainless Steel · Hygienic Fabrication",
+    "de": "Edelstahl · Hygienische Fertigung",
+    "es": "Acero inoxidable · Fabricación higiénica",
+    "fr": "Acier inoxydable · Fabrication hygiénique"
+  },
+  "Şekillendirme & Büküm": {
+    "en": "Forming & Bending",
+    "de": "Umformen & Biegen",
+    "es": "Conformado y plegado",
+    "fr": "Formage & pliage"
+  },
+  "Tarım Makineleri": {
+    "en": "Agricultural Machinery",
+    "de": "Landmaschinen",
+    "es": "Maquinaria agrícola",
+    "fr": "Machines agricoles"
+  },
+  "Kaynak Teknolojisi · Tozaltı Kaynak": {
+    "en": "Welding Technology · Submerged Arc Welding",
+    "de": "Schweißtechnik · Unterpulverschweißen",
+    "es": "Tecnología de soldadura · Arco sumergido",
+    "fr": "Technologie de soudage · Soudage à l'arc submergé"
+  },
+  "tozaltı kaynak makinesi, toz altı kaynak, SAW kaynak, bom kaynağı, şasi kaynağı, lineer kaynak": {
+    "en": "submerged arc welding machine, SAW welding, boom welding, chassis welding, linear seam welding",
+    "de": "Unterpulverschweißanlage, UP-Schweißen, SAW, Auslegerschweißen, Rahmenschweißen, Längsnahtschweißen",
+    "es": "máquina de soldadura por arco sumergido, soldadura SAW, soldadura de plumas, soldadura de chasis, soldadura lineal",
+    "fr": "machine de soudage à l'arc submergé, soudage SAW, soudage de flèches, soudage de châssis, soudage linéaire"
+  },
+  "Mevzuat · CE İşaretleme": {
+    "en": "Regulation · CE Marking",
+    "de": "Regulierung · CE-Kennzeichnung",
+    "es": "Normativa · Marcado CE",
+    "fr": "Réglementation · Marquage CE"
+  },
+  "Savunma · Zırhlı Araç": {
+    "en": "Defence · Armoured Vehicles",
+    "de": "Verteidigung · Panzerfahrzeuge",
+    "es": "Defensa · Vehículos blindados",
+    "fr": "Défense · Véhicules blindés"
+  },
+  "ArmaWeld kaynakçı": {
+    "en": "ArmaWeld welder",
+    "de": "ArmaWeld Schweißer",
+    "es": "Soldador de ArmaWeld",
+    "fr": "Soudeur ArmaWeld"
+  },
+  "03 — Kaynaklı İmalat": {
+    "en": "03 — Welded Fabrication",
+    "de": "03 — Schweißfertigung",
+    "es": "03 — Fabricación soldada",
+    "fr": "03 — Fabrication soudée"
+  },
+  "Kaynaklı İmalat Hizmeti — Mühendislik Disiplinli Üretim, Optimum Maliyet": {
+    "en": "Welded Fabrication Service — Engineering-Led Production, Optimised Cost",
+    "de": "Schweißfertigung — ingenieurgeführte Produktion, optimierte Kosten",
+    "es": "Servicio de fabricación soldada — producción con rigor de ingeniería, coste óptimo",
+    "fr": "Fabrication soudée — production pilotée par l'ingénierie, coût optimisé"
+  },
+  "Kaynaklı imalat hizmeti — mühendislik disipliniyle optimize edilmiş maliyet, sertifikalı kalite. Fason kaynaklı imalat, proje bazlı endüstriyel çözümler, lazer kesim, CNC büküm. EN 1090 & ISO 3834-2 belgeli.": {
+    "en": "Welded fabrication service — cost optimised through engineering discipline, certified quality. Contract welded fabrication, project-based industrial solutions, laser cutting, CNC bending. Certified to EN 1090 & ISO 3834-2.",
+    "de": "Schweißfertigung — durch ingenieurmäßige Disziplin optimierte Kosten, zertifizierte Qualität. Lohnschweißfertigung, projektbezogene Industrielösungen, Laserschneiden, CNC-Abkanten. Zertifiziert nach EN 1090 & ISO 3834-2.",
+    "es": "Servicio de fabricación soldada — coste optimizado con rigor de ingeniería, calidad certificada. Fabricación soldada por encargo, soluciones industriales por proyecto, corte láser, plegado CNC. Certificado EN 1090 e ISO 3834-2.",
+    "fr": "Service de fabrication soudée — coût optimisé par la rigueur de l'ingénierie, qualité certifiée. Fabrication soudée en sous-traitance, solutions industrielles par projet, découpe laser, pliage CNC. Certifié EN 1090 & ISO 3834-2."
+  },
+  "Kaynaklı İmalat Hizmeti": {
+    "en": "Welded Fabrication Service",
+    "de": "Schweißfertigung",
+    "es": "Servicio de fabricación soldada",
+    "fr": "Service de fabrication soudée"
+  },
+  "Fason Kaynaklı İmalat": {
+    "en": "Contract Welded Fabrication",
+    "de": "Lohnschweißfertigung",
+    "es": "Fabricación soldada por encargo",
+    "fr": "Fabrication soudée en sous-traitance"
+  },
+  "Yüzey İşleme": {
+    "en": "Surface Treatment",
+    "de": "Oberflächenbehandlung",
+    "es": "Tratamiento superficial",
+    "fr": "Traitement de surface"
+  },
+  "Kaynaklı İmalat": {
+    "en": "Welded Fabrication",
+    "de": "Schweißfertigung",
+    "es": "Fabricación soldada",
+    "fr": "Fabrication soudée"
+  },
+  "EN ISO 3834-2 ve EN 1090 EXC3 kapsamında onaylı WPS ile kaynaklı imalat. S235'ten S960QL ve Strenx 1100'e, alüminyumdan HARDOX'a tüm çelik gruplarında belgeli kaynakçılarla üretim.": {
+    "en": "Welded fabrication with approved WPS under EN ISO 3834-2 and EN 1090 EXC3. Certified welders across all steel groups, from S235 to S960QL and Strenx 1100, from aluminium to HARDOX.",
+    "de": "Schweißfertigung mit qualifizierten WPS nach EN ISO 3834-2 und EN 1090 EXC3. Geprüfte Schweißer für alle Stahlgruppen, von S235 bis S960QL und Strenx 1100, von Aluminium bis HARDOX.",
+    "es": "Fabricación soldada con WPS aprobadas según EN ISO 3834-2 y EN 1090 EXC3. Soldadores certificados en todos los grupos de acero, de S235 a S960QL y Strenx 1100, del aluminio al HARDOX.",
+    "fr": "Fabrication soudée avec DMOS qualifiés selon EN ISO 3834-2 et EN 1090 EXC3. Soudeurs certifiés pour tous les groupes d'acier, du S235 au S960QL et Strenx 1100, de l'aluminium au HARDOX."
+  },
+  "Sac lazer kesim, plazma kesim ve CNC pres bükme hizmetleri. 0.5–80 mm kalınlık aralığında karbon çelik, paslanmaz ve alüminyum işleme.": {
+    "en": "Sheet metal laser cutting, plasma cutting and CNC press brake bending. Carbon steel, stainless steel and aluminium from 0.5 to 80 mm thickness.",
+    "de": "Laserschneiden, Plasmaschneiden und CNC-Abkanten von Blechen. Baustahl, Edelstahl und Aluminium von 0,5 bis 80 mm Dicke.",
+    "es": "Corte láser, corte por plasma y plegado CNC de chapa. Acero al carbono, inoxidable y aluminio de 0,5 a 80 mm de espesor.",
+    "fr": "Découpe laser, découpe plasma et pliage CNC de tôles. Acier carbone, inox et aluminium de 0,5 à 80 mm d'épaisseur."
+  },
+  "Kaynaklı imalat": {
+    "en": "Welded fabrication",
+    "de": "Schweißfertigung",
+    "es": "Fabricación soldada",
+    "fr": "Fabrication soudée"
+  },
+  "Büküm ve şekillendirme": {
+    "en": "Bending and forming",
+    "de": "Biegen und Umformen",
+    "es": "Plegado y conformado",
+    "fr": "Pliage et formage"
+  },
+  "EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat, sac kesim, büküm, NDT hizmetleri. S235'ten Strenx 1100'e, alüminyumdan HARDOX'a tüm çelik gruplarında üretim.": {
+    "en": "Welded fabrication, sheet metal cutting, bending and NDT services certified to EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 and ISO 45001. Production across all steel groups, from S235 to Strenx 1100 and from aluminium to HARDOX.",
+    "de": "Schweißfertigung, Blechzuschnitt, Biegen und ZfP, zertifiziert nach EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 und ISO 45001. Fertigung in allen Stahlgruppen, von S235 bis Strenx 1100 und von Aluminium bis HARDOX.",
+    "es": "Fabricación soldada, corte de chapa, plegado y END certificados según EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 e ISO 45001. Producción en todos los grupos de acero, de S235 a Strenx 1100 y del aluminio al HARDOX.",
+    "fr": "Fabrication soudée, découpe de tôles, pliage et CND certifiés EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 et ISO 45001. Production dans tous les groupes d'acier, du S235 au Strenx 1100 et de l'aluminium au HARDOX."
+  },
+  "ISO 45001:2018 İş Sağlığı ve Güvenliği Yönetim Sistemi": {
+    "en": "ISO 45001:2018 Occupational Health and Safety Management System",
+    "de": "ISO 45001:2018 Managementsystem für Sicherheit und Gesundheit bei der Arbeit",
+    "es": "ISO 45001:2018 Sistema de gestión de la seguridad y salud en el trabajo",
+    "fr": "ISO 45001:2018 Système de management de la santé et de la sécurité au travail"
+  },
+  "EN ISO 3834-2 Kapsamlı Kaynak Kalite Gereksinimleri": {
+    "en": "EN ISO 3834-2 Comprehensive Quality Requirements for Welding",
+    "de": "EN ISO 3834-2 Umfassende Qualitätsanforderungen an das Schweißen",
+    "es": "EN ISO 3834-2 Requisitos de calidad completos para el soldeo",
+    "fr": "EN ISO 3834-2 Exigences de qualité complète en soudage"
+  },
+  "EN 1090-2 Çelik Yapı İmalatı (EXC3)": {
+    "en": "EN 1090-2 Execution of Steel Structures (EXC3)",
+    "de": "EN 1090-2 Ausführung von Stahltragwerken (EXC3)",
+    "es": "EN 1090-2 Ejecución de estructuras de acero (EXC3)",
+    "fr": "EN 1090-2 Exécution des structures en acier (EXC3)"
+  },
+  "NDT Tahribatsız Muayene": {
+    "en": "NDT Non-Destructive Testing",
+    "de": "ZfP Zerstörungsfreie Prüfung",
+    "es": "END Ensayos no destructivos",
+    "fr": "CND Contrôle non destructif"
+  },
+  "Tozaltı Kaynak (SAW) — 35 m Lineer, Bom ve Şasi Kaynağı": {
+    "en": "Submerged Arc Welding (SAW) — 35 m Linear, Boom and Chassis Welding",
+    "de": "Unterpulverschweißen (UP/SAW) — 35 m Längsnaht-, Ausleger- und Rahmenschweißen",
+    "es": "Soldadura por arco sumergido (SAW) — 35 m lineal, plumas y chasis",
+    "fr": "Soudage à l'arc submergé (SAW) — 35 m linéaire, flèches et châssis"
+  },
+  "MIG MAG & TIG Kaynak Hizmetleri — Profesyonel Kaynak İmalatı": {
+    "en": "MIG/MAG & TIG Welding Services — Professional Welded Fabrication",
+    "de": "MIG/MAG- & WIG-Schweißen — professionelle Schweißfertigung",
+    "es": "Servicios de soldadura MIG/MAG y TIG — fabricación soldada profesional",
+    "fr": "Soudage MIG/MAG & TIG — fabrication soudée professionnelle"
+  },
+  "MIG MAG kaynak hizmet ve TIG kaynak imalat — EN ISO 3834-2 belgeli, onaylı WPS ve WPQR belgeli üretim. Proje bazlı endüstriyel kaynak hizmetleri.": {
+    "en": "MIG/MAG and TIG welding — EN ISO 3834-2 certified production with approved WPS and WPQR. Project-based industrial welding services.",
+    "de": "MIG/MAG- und WIG-Schweißen — nach EN ISO 3834-2 zertifizierte Fertigung mit qualifizierten WPS und WPQR. Projektbezogene industrielle Schweißdienstleistungen.",
+    "es": "Soldadura MIG/MAG y TIG — producción certificada EN ISO 3834-2 con WPS y WPQR aprobadas. Servicios industriales de soldadura por proyecto.",
+    "fr": "Soudage MIG/MAG et TIG — production certifiée EN ISO 3834-2 avec DMOS et QMOS qualifiés. Services de soudage industriel par projet."
+  },
+  "MAG Kaynağı (ISO 135/138)": {
+    "en": "MAG Welding (ISO 135/138)",
+    "de": "MAG-Schweißen (ISO 135/138)",
+    "es": "Soldadura MAG (ISO 135/138)",
+    "fr": "Soudage MAG (ISO 135/138)"
+  },
+  "TIG Kaynağı (ISO 141)": {
+    "en": "TIG Welding (ISO 141)",
+    "de": "WIG-Schweißen (ISO 141)",
+    "es": "Soldadura TIG (ISO 141)",
+    "fr": "Soudage TIG (ISO 141)"
+  },
+  "MMA Elektrod Kaynağı (ISO 111)": {
+    "en": "MMA Stick Welding (ISO 111)",
+    "de": "E-Hand-Schweißen (ISO 111)",
+    "es": "Soldadura por electrodo revestido MMA (ISO 111)",
+    "fr": "Soudage à l'électrode enrobée MMA (ISO 111)"
+  },
+  "Tozaltı Kaynağı SAW (ISO 121)": {
+    "en": "Submerged Arc Welding SAW (ISO 121)",
+    "de": "Unterpulverschweißen SAW (ISO 121)",
+    "es": "Soldadura por arco sumergido SAW (ISO 121)",
+    "fr": "Soudage à l'arc submergé SAW (ISO 121)"
+  },
+  "Boru kaynağı uygulaması": {
+    "en": "Pipe welding in progress",
+    "de": "Rohrschweißung in der Praxis",
+    "es": "Soldadura de tubería en curso",
+    "fr": "Soudage de tube en cours"
+  },
+  "MIG/MAG kaynak uygulaması": {
+    "en": "MIG/MAG welding in progress",
+    "de": "MIG/MAG-Schweißung in der Praxis",
+    "es": "Soldadura MIG/MAG en curso",
+    "fr": "Soudage MIG/MAG en cours"
+  },
+  "TIG kaynak uygulaması": {
+    "en": "TIG welding in progress",
+    "de": "WIG-Schweißung in der Praxis",
+    "es": "Soldadura TIG en curso",
+    "fr": "Soudage TIG en cours"
+  },
+  "Konya OSB'den fason kaynaklı imalat: MIG/MAG, TIG, robot kaynak, lazer kesim, CNC büküm. EN 1090 ve ISO 3834-2 belgeli üretim.": {
+    "en": "Contract welded fabrication from Konya: MIG/MAG, TIG, robotic welding, laser cutting, CNC bending. Production certified to EN 1090 and ISO 3834-2.",
+    "de": "Lohnschweißfertigung aus Konya: MIG/MAG, WIG, Roboterschweißen, Laserschneiden, CNC-Abkanten. Fertigung zertifiziert nach EN 1090 und ISO 3834-2.",
+    "es": "Fabricación soldada por encargo desde Konya: MIG/MAG, TIG, soldadura robotizada, corte láser, plegado CNC. Producción certificada EN 1090 e ISO 3834-2.",
+    "fr": "Fabrication soudée en sous-traitance depuis Konya : MIG/MAG, TIG, soudage robotisé, découpe laser, pliage CNC. Production certifiée EN 1090 et ISO 3834-2."
+  },
+  "MT — Manyetik Parçacık Muayenesi": {
+    "en": "MT — Magnetic Particle Testing",
+    "de": "MT — Magnetpulverprüfung",
+    "es": "MT — Partículas magnéticas",
+    "fr": "MT — Magnétoscopie"
+  },
+  "Manyetik parçacık muayene": {
+    "en": "Magnetic particle testing",
+    "de": "Magnetpulverprüfung",
+    "es": "Inspección por partículas magnéticas",
+    "fr": "Contrôle par magnétoscopie"
+  },
+  "Gözle muayene": {
+    "en": "Visual testing",
+    "de": "Sichtprüfung",
+    "es": "Inspección visual",
+    "fr": "Contrôle visuel"
+  },
+  "ArmaWeld imalat projesi referansı": {
+    "en": "ArmaWeld fabrication project reference",
+    "de": "ArmaWeld Fertigungsprojekt (Referenz)",
+    "es": "Referencia de proyecto de fabricación de ArmaWeld",
+    "fr": "Référence de projet de fabrication ArmaWeld"
+  },
+  "HARDOX kepçe imalatı": {
+    "en": "HARDOX bucket fabrication",
+    "de": "Fertigung von HARDOX-Schaufeln",
+    "es": "Fabricación de cazos HARDOX",
+    "fr": "Fabrication de godets HARDOX"
+  },
+  "Yapısal çelik kaynaklı imalat": {
+    "en": "Structural steel welded fabrication",
+    "de": "Geschweißte Stahlbaufertigung",
+    "es": "Fabricación soldada de acero estructural",
+    "fr": "Fabrication soudée en acier de construction"
+  },
+  "TIG kaynak - basınçlı kap imalatı": {
+    "en": "TIG welding — pressure vessel fabrication",
+    "de": "WIG-Schweißen — Druckbehälterfertigung",
+    "es": "Soldadura TIG — fabricación de recipientes a presión",
+    "fr": "Soudage TIG — fabrication d'appareils à pression"
+  },
+  "Demiryolu boji çerçevesi imalatı": {
+    "en": "Railway bogie frame fabrication",
+    "de": "Fertigung von Drehgestellrahmen",
+    "es": "Fabricación de bastidores de bogie ferroviario",
+    "fr": "Fabrication de châssis de bogie ferroviaire"
+  },
+  "Büküm ve şekillendirme imalat": {
+    "en": "Bending and forming",
+    "de": "Biegen und Umformen",
+    "es": "Plegado y conformado",
+    "fr": "Pliage et formage"
+  },
+  "Tozaltı Kaynak Hizmeti (SAW) — 35 m Tozaltı Kaynak Makinesi": {
+    "en": "Submerged Arc Welding Service (SAW) — 35 m SAW Machine",
+    "de": "Unterpulverschweißen (SAW) — 35 m UP-Schweißanlage",
+    "es": "Servicio de soldadura por arco sumergido (SAW) — máquina de 35 m",
+    "fr": "Soudage à l'arc submergé (SAW) — machine de 35 m"
+  },
+  "Toz altı kaynak": {
+    "en": "Submerged arc welding",
+    "de": "Unterpulverschweißen",
+    "es": "Soldadura por arco sumergido",
+    "fr": "Soudage à l'arc submergé"
+  },
+  "35 m tozaltı (toz altı) kaynak makinemizle lineer uzun dikiş, bom ve şasi kaynağı. EN 1090 ve EN ISO 3834-2 belgeli, onaylı WPS ile fason SAW kaynak hizmeti. Teklif alın.": {
+    "en": "Long linear seams, booms and chassis welded on our 35 m submerged arc welding machine. Contract SAW welding with approved WPS, certified to EN 1090 and EN ISO 3834-2. Request a quote.",
+    "de": "Lange Längsnähte, Ausleger und Rahmen auf unserer 35-m-Unterpulverschweißanlage. UP-Lohnschweißen mit qualifizierten WPS, zertifiziert nach EN 1090 und EN ISO 3834-2. Angebot anfordern.",
+    "es": "Costuras lineales largas, plumas y chasis en nuestra máquina de arco sumergido de 35 m. Soldadura SAW por encargo con WPS aprobadas, certificada EN 1090 y EN ISO 3834-2. Solicite presupuesto.",
+    "fr": "Longues soudures linéaires, flèches et châssis sur notre machine de soudage à l'arc submergé de 35 m. Soudage SAW en sous-traitance avec DMOS qualifiés, certifié EN 1090 et EN ISO 3834-2. Demandez un devis."
+  },
+  "Tozaltı Kaynak (SAW)": {
+    "en": "Submerged Arc Welding (SAW)",
+    "de": "Unterpulverschweißen (SAW)",
+    "es": "Soldadura por arco sumergido (SAW)",
+    "fr": "Soudage à l'arc submergé (SAW)"
+  },
+  "Tozaltı Kaynak Hizmetleri": {
+    "en": "Submerged Arc Welding Services",
+    "de": "Unterpulverschweißen",
+    "es": "Servicios de soldadura por arco sumergido",
+    "fr": "Services de soudage à l'arc submergé"
+  },
+  "Lineer (uzun dikiş) kaynak": {
+    "en": "Linear (long seam) welding",
+    "de": "Längsnahtschweißen",
+    "es": "Soldadura lineal (costura larga)",
+    "fr": "Soudage linéaire (longue soudure)"
+  },
+  "Bom kaynağı": {
+    "en": "Boom welding",
+    "de": "Auslegerschweißen",
+    "es": "Soldadura de plumas",
+    "fr": "Soudage de flèches"
+  },
+  "Şasi kaynağı": {
+    "en": "Chassis welding",
+    "de": "Rahmenschweißen",
+    "es": "Soldadura de chasis",
+    "fr": "Soudage de châssis"
+  },
+  "VT, PT, MT, UT, RT yöntemleriyle EN ISO 9712 Seviye 2 sertifikalı personel tarafından gerçekleştirilen tahribatsız muayene hizmetleri. Kaynaklı yapılar, basınçlı ekipmanlar ve taşıyıcı konstrüksiyonlar için.": {
+    "en": "Non-destructive testing by EN ISO 9712 Level 2 certified personnel using VT, PT, MT, UT and RT. For welded structures, pressure equipment and load-bearing structures.",
+    "de": "Zerstörungsfreie Prüfung mit VT, PT, MT, UT und RT durch nach EN ISO 9712 Stufe 2 zertifiziertes Personal. Für Schweißkonstruktionen, Druckgeräte und tragende Konstruktionen.",
+    "es": "Ensayos no destructivos con VT, PT, MT, UT y RT realizados por personal certificado EN ISO 9712 Nivel 2. Para estructuras soldadas, equipos a presión y estructuras portantes.",
+    "fr": "Contrôle non destructif par VT, PT, MT, UT et RT, réalisé par du personnel certifié EN ISO 9712 niveau 2. Pour structures soudées, équipements sous pression et structures porteuses."
+  },
+  "ArmaWeld Mühendislik": {
+    "en": "ArmaWeld Engineering",
+    "de": "ArmaWeld Engineering",
+    "es": "ArmaWeld Ingeniería",
+    "fr": "ArmaWeld Ingénierie"
+  },
+  "CNC Büküm": {
+    "en": "CNC Bending",
+    "de": "CNC-Abkanten",
+    "es": "Plegado CNC",
+    "fr": "Pliage CNC"
+  },
+  "Endüstriyel Kaynak · Tesis": {
+    "en": "Industrial Welding · Plants",
+    "de": "Industrieschweißen · Anlagen",
+    "es": "Soldadura industrial · Plantas",
+    "fr": "Soudage industriel · Usines"
+  },
+  "Enerji Sektörü": {
+    "en": "Energy Sector",
+    "de": "Energiebranche",
+    "es": "Sector energético",
+    "fr": "Secteur de l'énergie"
+  },
+  "Fikstür": {
+    "en": "Fixtures",
+    "de": "Vorrichtungen",
+    "es": "Utillajes",
+    "fr": "Gabarits"
+  },
+  "Geçerli bir e-posta adresi girin (örn: ad@firma.com)": {
+    "en": "Enter a valid email address (e.g. name@company.com)",
+    "de": "Geben Sie eine gültige E-Mail-Adresse ein (z. B. name@firma.de)",
+    "es": "Introduzca un correo electrónico válido (p. ej. nombre@empresa.com)",
+    "fr": "Saisissez une adresse e-mail valide (ex. : nom@entreprise.fr)"
+  },
+  "Hidrolik · Pnömatik": {
+    "en": "Hydraulics · Pneumatics",
+    "de": "Hydraulik · Pneumatik",
+    "es": "Hidráulica · Neumática",
+    "fr": "Hydraulique · Pneumatique"
+  },
+  "ISO 14001:2015 Çevre Yönetim Sistemi": {
+    "en": "ISO 14001:2015 Environmental Management System",
+    "de": "ISO 14001:2015 Umweltmanagementsystem",
+    "es": "ISO 14001:2015 Sistema de gestión ambiental",
+    "fr": "ISO 14001:2015 Système de management environnemental"
+  },
+  "ISO 9001:2015 Kalite Yönetim Sistemi": {
+    "en": "ISO 9001:2015 Quality Management System",
+    "de": "ISO 9001:2015 Qualitätsmanagementsystem",
+    "es": "ISO 9001:2015 Sistema de gestión de la calidad",
+    "fr": "ISO 9001:2015 Système de management de la qualité"
+  },
+  "Kalite & Ölçüm": {
+    "en": "Quality & Measurement",
+    "de": "Qualität & Messtechnik",
+    "es": "Calidad y medición",
+    "fr": "Qualité & mesure"
+  },
+  "Kalite Yönetim Sistemi": {
+    "en": "Quality Management System",
+    "de": "Qualitätsmanagementsystem",
+    "es": "Sistema de gestión de la calidad",
+    "fr": "Système de management de la qualité"
+  },
+  "Kalite · Endüstri 4.0": {
+    "en": "Quality · Industry 4.0",
+    "de": "Qualität · Industrie 4.0",
+    "es": "Calidad · Industria 4.0",
+    "fr": "Qualité · Industrie 4.0"
+  },
+  "Kaynak Mühendisi · IWE": {
+    "en": "Welding Engineer · IWE",
+    "de": "Schweißfachingenieur · IWE",
+    "es": "Ingeniero de soldadura · IWE",
+    "fr": "Ingénieur soudage · IWE"
+  },
+  "Kaynak Prosedürü": {
+    "en": "Welding Procedure",
+    "de": "Schweißverfahren",
+    "es": "Procedimiento de soldadura",
+    "fr": "Procédure de soudage"
+  },
+  "Kaynak Yöntemleri MIG/MAG TIG SAW": {
+    "en": "Welding Processes MIG/MAG TIG SAW",
+    "de": "Schweißverfahren MIG/MAG WIG UP",
+    "es": "Procesos de soldadura MIG/MAG TIG SAW",
+    "fr": "Procédés de soudage MIG/MAG TIG SAW"
+  },
+  "Kaynak Çekmesi": {
+    "en": "Weld Shrinkage",
+    "de": "Schweißschrumpfung",
+    "es": "Contracción de soldadura",
+    "fr": "Retrait de soudage"
+  },
+  "Lazer Kesim & CNC Büküm": {
+    "en": "Laser Cutting & CNC Bending",
+    "de": "Laserschneiden & CNC-Abkanten",
+    "es": "Corte láser y plegado CNC",
+    "fr": "Découpe laser & pliage CNC"
+  },
+  "NDT Yöntemleri": {
+    "en": "NDT Methods",
+    "de": "ZfP-Verfahren",
+    "es": "Métodos END",
+    "fr": "Méthodes CND"
+  },
+  "Otomotiv & Üretim": {
+    "en": "Automotive & Manufacturing",
+    "de": "Automobil & Fertigung",
+    "es": "Automoción y producción",
+    "fr": "Automobile & production"
+  },
+  "Robotik Kaynak · Seri Üretim": {
+    "en": "Robotic Welding · Series Production",
+    "de": "Roboterschweißen · Serienfertigung",
+    "es": "Soldadura robotizada · Producción en serie",
+    "fr": "Soudage robotisé · Production en série"
+  },
+  "Sac Kesim & Büküm": {
+    "en": "Sheet Metal Cutting & Bending",
+    "de": "Blechzuschnitt & Abkanten",
+    "es": "Corte y plegado de chapa",
+    "fr": "Découpe & pliage de tôles"
+  },
+  "Savunma Sanayii · Balistik Çelik": {
+    "en": "Defence Industry · Ballistic Steel",
+    "de": "Verteidigungsindustrie · Panzerstahl",
+    "es": "Industria de defensa · Acero balístico",
+    "fr": "Industrie de défense · Acier balistique"
+  },
+  "VT — Görsel Muayene": {
+    "en": "VT — Visual Testing",
+    "de": "VT — Sichtprüfung",
+    "es": "VT — Inspección visual",
+    "fr": "VT — Contrôle visuel"
+  },
+  "Yüksek Mukavemetli Çelik": {
+    "en": "High-Strength Steel",
+    "de": "Hochfester Stahl",
+    "es": "Acero de alta resistencia",
+    "fr": "Acier à haute résistance"
+  },
+  "Çelik Konstrüksiyon · EN 1090": {
+    "en": "Steel Construction · EN 1090",
+    "de": "Stahlbau · EN 1090",
+    "es": "Construcción metálica · EN 1090",
+    "fr": "Construction métallique · EN 1090"
+  },
+  "Üretim Hizmetleri": {
+    "en": "Manufacturing Services",
+    "de": "Fertigungsleistungen",
+    "es": "Servicios de fabricación",
+    "fr": "Services de fabrication"
+  },
+  "SAW kaynak": {
+    "en": "SAW welding",
+    "de": "UP-Schweißen",
+    "es": "Soldadura SAW",
+    "fr": "Soudage SAW"
+  },
+  "ArmaWeld fabrika konumu — Konya": {
+    "en": "ArmaWeld factory location — Konya",
+    "de": "ArmaWeld Werksstandort — Konya",
+    "es": "Ubicación de la fábrica de ArmaWeld — Konya",
+    "fr": "Emplacement de l'usine ArmaWeld — Konya"
+  },
+  "01 — Malzeme Kabul": {
+    "en": "01 — Material Receiving",
+    "de": "01 — Wareneingang",
+    "es": "01 — Recepción de material",
+    "fr": "01 — Réception matière"
+  },
+  "02 — Sac Kesim": {
+    "en": "02 — Sheet Metal Cutting",
+    "de": "02 — Blechzuschnitt",
+    "es": "02 — Corte de chapa",
+    "fr": "02 — Découpe de tôles"
+  },
+  "04 — NDT ve Muayene": {
+    "en": "04 — NDT & Inspection",
+    "de": "04 — ZfP & Prüfung",
+    "es": "04 — END e inspección",
+    "fr": "04 — CND & contrôle"
+  },
+  "05 — Sevkiyat": {
+    "en": "05 — Shipping",
+    "de": "05 — Versand",
+    "es": "05 — Expedición",
+    "fr": "05 — Expédition"
+  },
+  "Sac kesim": {
+    "en": "Sheet metal cutting",
+    "de": "Blechzuschnitt",
+    "es": "Corte de chapa",
+    "fr": "Découpe de tôles"
+  },
+  "Mekanik montaj": {
+    "en": "Mechanical assembly",
+    "de": "Mechanische Montage",
+    "es": "Montaje mecánico",
+    "fr": "Assemblage mécanique"
+  },
+  "Ultrasonik muayene": {
+    "en": "Ultrasonic testing",
+    "de": "Ultraschallprüfung",
+    "es": "Inspección por ultrasonidos",
+    "fr": "Contrôle par ultrasons"
+  },
+  "Radyografik muayene": {
+    "en": "Radiographic testing",
+    "de": "Durchstrahlungsprüfung",
+    "es": "Inspección radiográfica",
+    "fr": "Contrôle radiographique"
+  },
+  "Penetrant muayene": {
+    "en": "Penetrant testing",
+    "de": "Eindringprüfung",
+    "es": "Inspección por líquidos penetrantes",
+    "fr": "Contrôle par ressuage"
+  },
+  "NDT ve kalite kontrol": {
+    "en": "NDT and quality control",
+    "de": "ZfP und Qualitätskontrolle",
+    "es": "END y control de calidad",
+    "fr": "CND et contrôle qualité"
+  },
+  "NDT muayene": {
+    "en": "NDT inspection",
+    "de": "ZfP-Prüfung",
+    "es": "Inspección END",
+    "fr": "Contrôle CND"
+  },
+  "Kalite belgesi ve sertifika": {
+    "en": "Quality documents and certificates",
+    "de": "Qualitätsnachweise und Zertifikate",
+    "es": "Documentos de calidad y certificados",
+    "fr": "Documents qualité et certificats"
+  },
+  "WPS nedir? →": {
+    "en": "What is a WPS? →",
+    "de": "Was ist eine WPS? →",
+    "es": "¿Qué es una WPS? →",
+    "fr": "Qu'est-ce qu'un DMOS (WPS) ? →"
+  },
+  "WPQR nedir? →": {
+    "en": "What is a WPQR? →",
+    "de": "Was ist ein WPQR? →",
+    "es": "¿Qué es un WPQR? →",
+    "fr": "Qu'est-ce qu'un QMOS (WPQR) ? →"
+  }
+}
