@@ -724,5 +724,23 @@
     "de": "Was ist ein WPQR? →",
     "es": "¿Qué es un WPQR? →",
     "fr": "Qu'est-ce qu'un QMOS (WPQR) ? →"
+  },
+  "Konya fason kaynak hizmeti: kapsam, belgeler ve teklif": {
+    "en": "Contract welding in Konya: scope, certificates and quotation",
+    "de": "Lohnschweißen in Konya: Leistungsumfang, Zertifikate und Angebot",
+    "es": "Soldadura por contrato en Konya: alcance, certificados y presupuesto",
+    "fr": "Soudage en sous-traitance à Konya : périmètre, certificats et devis"
+  },
+  "Konya Fason Kaynak Hizmeti": {
+    "en": "Contract Welding Service in Konya",
+    "de": "Lohnschweißen in Konya",
+    "es": "Soldadura por contrato en Konya",
+    "fr": "Soudage en sous-traitance à Konya"
+  },
+  "Konya'da çiziminize göre fason kaynak işleri: şasi, bom, çelik konstrüksiyon ve makine parçaları. MIG/MAG, TIG ve tozaltı kaynak, lazer kesim, CNC büküm. EN 1090 EXC3 ve EN ISO 3834-2 belgeli üretim.": {
+    "en": "Contract welding in Konya to your drawings: chassis, booms, structural steel and machine parts. MIG/MAG, TIG and submerged arc welding, laser cutting, CNC bending. EN 1090 EXC3 and EN ISO 3834-2 certified.",
+    "de": "Lohnschweißen in Konya nach Ihrer Zeichnung: Rahmen, Ausleger, Stahlbauteile und Maschinenteile. MAG-, WIG- und UP-Schweißen, Laserschneiden, CNC-Biegen. Zertifiziert nach EN 1090 EXC3 und EN ISO 3834-2.",
+    "es": "Soldadura por contrato en Konya según sus planos: chasis, plumas, estructuras de acero y piezas de maquinaria. MIG/MAG, TIG y arco sumergido, corte láser, plegado CNC. Certificación EN 1090 EXC3 y EN ISO 3834-2.",
+    "fr": "Soudage en sous-traitance à Konya selon vos plans : châssis, flèches, charpente et pièces de machines. MIG/MAG, TIG et arc submergé, découpe laser, pliage CNC. Certifié EN 1090 EXC3 et EN ISO 3834-2."
   }
 }
