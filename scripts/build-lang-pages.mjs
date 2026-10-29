@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Builds static per-language copies of the site: /en/, /de/, /es/, /fr/.
+// Builds static per-language copies of the site: /en/, /de/, /es/, /fr/, /it/, /nl/, /no/.
 //
 // Turkish stays at the root. For every root page and blog post this script
 // writes <lang>/<same path> with the translations from the i18n bundles baked
@@ -19,7 +19,7 @@ import { ROOT, LANGS, ALL_LANGS, loadTranslations } from './lang-lib.mjs';
 
 const SITE = 'https://www.armaweld.com';
 const CHECK = process.argv.includes('--check');
-const OG_LOCALE = { tr: 'tr_TR', en: 'en_US', de: 'de_DE', es: 'es_ES', fr: 'fr_FR' };
+const OG_LOCALE = { tr: 'tr_TR', en: 'en_US', de: 'de_DE', es: 'es_ES', fr: 'fr_FR', it: 'it_IT', nl: 'nl_NL', no: 'nb_NO' };
 const HREFLANG_START = '<!-- aw:hreflang -->';
 const HREFLANG_END = '<!-- /aw:hreflang -->';
 

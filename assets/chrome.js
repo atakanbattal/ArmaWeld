@@ -232,6 +232,9 @@ function buildNav(activePage, base) {
             <button class="lang-option" data-lang="de" onclick="selectLang('de')">🇩🇪 Deutsch</button>
             <button class="lang-option" data-lang="es" onclick="selectLang('es')">🇪🇸 Español</button>
             <button class="lang-option" data-lang="fr" onclick="selectLang('fr')">🇫🇷 Français</button>
+            <button class="lang-option" data-lang="it" onclick="selectLang('it')">🇮🇹 Italiano</button>
+            <button class="lang-option" data-lang="nl" onclick="selectLang('nl')">🇳🇱 Nederlands</button>
+            <button class="lang-option" data-lang="no" onclick="selectLang('no')">🇳🇴 Norsk</button>
           </div>
         </div>
 
