@@ -1,0 +1,847 @@
+<!DOCTYPE html><html lang="no" data-aw-page-lang="no"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teknisk blogg — Sveising og metallbearbeiding | ArmaWeld</title>
+  <meta name="description" content="Bransjenotater om sveiseteknikk, NDT-inspeksjonsmetoder og fabrikasjon i høyfast stål.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/no/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Teknisk blogg — Sveising og metallbearbeiding | ArmaWeld">
+  <meta property="og:description" content="Bransjenotater om sveiseteknikk, NDT-inspeksjonsmetoder og fabrikasjon i høyfast stål.">
+  <meta property="og:url" content="https://www.armaweld.com/no/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Tekniske artikler om sveiseteknikk, NDT og metallbearbeiding",
+  "url": "https://www.armaweld.com/no/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "no"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Tekniske artikler.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Bransjenotater om sveiseteknikk, NDT-inspeksjonsmetoder og fabrikasjon i høyfast stål.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Sveiseteknologi · Pulverbuesveising</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">Pulverbuesveisemaskin for bommer, chassis og lange sømmer</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">Hvordan fungerer en pulverbuesveisemaskin? Når SAW passer for lange lineære sømmer, bommer og chassis, sammenligning med MAG, kvalitetskontroll og fordelen med en 35 m maskin.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 min lesetid</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">Hva er MIG/MAG-sveising? Virkemåte, innstillinger og bruksområder</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">Hva er MIG/MAG-sveising, og hvordan utføres den? MIG vs. MAG, materialoverganger, valg av tråd og gass, parameterinnstillinger, fordeler og vanlige feil.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 min lesetid</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Kvalitet · Industri 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Digital sporbarhet i sveising: Sveisedataovervåking og smart kvalitetskontroll</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">Hvordan sveisedataovervåking, digitale sveiseregistreringer og sporbarhet på delnivå forbedrer kvaliteten: krav i EN ISO 3834, omfang av registreringer og kundefordeler.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 min lesetid</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Regelverk · Eksport</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM og ståleksport: En 2026-guide for bedrifter innen sveiset fabrikasjon</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">CBAM gikk inn i sin definitive periode i 2026. Hva eksportører av stålkonstruksjoner og sveiset fabrikasjon må vite, og hvordan utslippsdata forberedes.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 min lesetid</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_n26_tig_h1">Hva er TIG-sveising (argonsveising)? Hvordan utføres den, og hvor brukes den?</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">Hva er TIG-sveising (argonsveising)? Valg av wolframelektrode, AC/DC-strøm, gassmengde, fordeler og ulemper, og bruk på rustfritt stål og aluminium.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 min lesetid</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Regelverk · CE-merking</div>
+          <h2 data-i18n="blog_n26_machreg_h1">Ny maskinforordning (EU) 2023/1230: Hva endres for maskinprodusenter og leverandørene deres?</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">EUs maskinforordning 2023/1230 erstatter 2006/42/EF 20. januar 2027. Forberedelsestrinn for maskinprodusenter og leverandører av sveiset fabrikasjon.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 min lesetid</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Sveiseteknologi · Grunnleggende</div>
+          <h2 data-i18n="blog_n26_types_h1">Sveisemetoder: Industrielle sveiseprosesser og hvordan de skiller seg fra hverandre</h2>
+          <p data-i18n="blog_n26_types_meta_desc">Hvilke sveisemetoder finnes? Lysbue-, gass-, stråle- og trykksveising; MIG/MAG, TIG, elektrode, pulverbue, laser og punktsveising: forskjeller og bruk.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 min lesetid</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Leieproduksjon · Innkjøp</div>
+          <h2 data-i18n="blog_n26_supplier_h1">10 kriterier å sjekke når dere velger sveiseunderleverandør</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 kriterier for å vurdere en sveiseunderleverandør: sertifiseringer, WPS-portefølje, NDT, kapasitet, sporbarhet og leveringspresisjon.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 min lesetid</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_n26_gas_h1">Valg av dekkgass for MIG/MAG-sveising: Argon, CO₂ og blandinger</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">Slik velger du dekkgass for MIG/MAG: 100% CO₂, Ar/CO₂-blandinger, gasser for rustfritt stål og aluminium, ISO 14175-klasser og innstilling av gassmengde.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 min lesetid</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Standarder &amp; Sertifisering</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">Hva er et sveisesertifikat? En guide til EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">Hva er et EN ISO 9606-1-sveisesertifikat, hvordan avlegges prøven, hva dekker det, og hvordan forlenges det? En praktisk guide for innkjøpere av leieproduksjon.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 min lesetid</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Standarder &amp; Sertifisering</div>
+          <h2 data-i18n="blog_wpqr_card_h2">Hva er WPQR? Sveiseprosedyrekvalifisering og EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">Hva er en WPQR (Welding Procedure Qualification Record), hvordan kvalifiseres en sveiseprosedyre iht. EN ISO 15614-1 og 15614-2, og hvilke prøver kreves?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 min lesetid</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Kvalitetskontroll</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Sveisefeil: Typer, påvisningsmetoder og reparasjon</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Sveisefeil, klassifisering iht. EN ISO 5817, porer, sprekker, manglende gjennomsveising, bindefeil — feiltyper og reparasjonsstrategier.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 min lesetid</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Sveiset fabrikasjon · Grunnleggende</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">Hva er sveiset fabrikasjon? Kjerneprosesser og standarder</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">Hva er sveiset fabrikasjon, hvilke prosesser omfatter den, og hvordan utføres den etter EN ISO 3834-2 og EN 1090? En teknisk guide fra ArmaWeld i Konya, Tyrkia.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 min lesetid</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Sveiseteknikk</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Beregning av forvarmingstemperatur ved sveising (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">Hvordan beregnes forvarmingstemperaturen? EN ISO 1011-2 metode A og B, CEV, CET, innvirkning av tykkelse og hydrogen.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 min lesetid</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industri</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Sveiset fabrikasjon i Konya: Produksjon i Tyrkias industriknutepunkt</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">Styrken i Konyas sektor for sveiset fabrikasjon, ArmaWelds produksjonsinfrastruktur i Konya OIZ, bransjer og kapasiteter. Produksjon etter EN 1090 og EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 min lesetid</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Produksjonsteknikk</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Sveisedeformasjon: Typer, årsaker og forebyggende strategier</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">Hva er sveisedeformasjon, hvilke typer finnes, og kontrollstrategier: sveiserekkefølge, forhåndsbøying, oppspenning og varmebalansering.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 min lesetid</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Forsvar · Ballistisk stål</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Sveiset fabrikasjon for forsvar: STANAG, MIL-STD og spesialstål</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Sveiset fabrikasjon for forsvarsindustrien: STANAG 4569 beskyttelsesnivåer, MIL-STD-1941, sveising av ballistisk stål og kvalitetskrav.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 min lesetid</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Sveiseteknikk</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Sveiseposisjoner: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">Hva er sveiseposisjonene PA, PB, PC, PD, PE, PF, PG? Standarden EN ISO 6947, plate- og rørposisjoner, vanskelighetsgrader.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 min lesetid</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Stålkonstruksjoner · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Stålkonstruksjonsproduksjon: Fra design til montasje</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Prosesser i stålkonstruksjonsproduksjon, utførelsesklasser etter EN 1090, krav til verksted- og byggeplassveising. En teknisk guide fra ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 min lesetid</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Teknisk tegning</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Sveisesymboler — symbolguide til EN ISO 2553</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Sveisesymboler, EN ISO 2553, AWS A2.4, buttsveis, kilsveis, K-, V-, X- og Y-fugesymboler, målangivelse.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 min lesetid</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Industriell sveising · Anlegg</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Industrielle sveisetjenester: Anvendelser i anlegg og fabrikker</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Industrielle sveisetjenester: anlegg, fabrikker og prosessutstyr, sveising på stedet og i verksted. Fra Konya-baserte ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 min lesetid</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Trykkbeholdere &amp; PED</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Produksjon av trykkbeholdere: Guide til PED 2014/68/EU og EN 13445</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Produksjon av trykkbeholdere, PED-direktivet 2014/68/EU, EN 13445, kategoriinndeling, samsvarsvurdering, CE-merking.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 min lesetid</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Kvalitetskontroll · NDT</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Kvalitetskontroll i sveiset fabrikasjon: VT, NDT og sporbarhet</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Kvalitetskontrollprosesser i sveiset fabrikasjon: visuell kontroll, NDT-metoder, akseptkriterier og digital sporbarhet.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 min lesetid</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">NDT · Ikke-destruktiv testing</div>
+          <h2 data-i18n="blog_card1_h2">Hva er NDT? Sammenligning av metodene VT, PT, MT, UT og RT</h2>
+          <p data-i18n="blog_card1_p">Fem grunnleggende metoder for ikke-destruktiv testing i sveiset fabrikasjon, når hver av dem bør velges, og sertifiseringskravene i EN ISO 9712.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 min lesetid</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Jernbaneindustri</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Sveisestandarden EN 15085 for jernbane: Produksjon av vogner og boggier</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">Jernbanesveisestandarden EN 15085, sertifiseringsnivåene CL1–CL4, produksjon av sveisede vogner, boggiproduksjon, ECWS-dokumenter.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 min lesetid</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Bilindustri</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Sveiseløsninger for underleverandører til bilindustrien: IATF 16949 &amp; PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Sveiset fabrikasjon for underleverandører til bilindustrien, kvalitetssystemet IATF 16949, PPAP-prosessen, robotsveising, MAG- og lasersveising i praksis.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 min lesetid</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Landbruksmaskiner</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Sveiset fabrikasjon for landbruksmaskiner</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Sveising for landbruksmaskiner: fabrikasjon av ploger, såmaskiner, tilhengere og skurtreskerchassis. Underleveranse og serieproduksjon fra Konya-baserte ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 min lesetid</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Sveiseteknikk</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Beregning og optimalisering av varmetilførsel ved sveising</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">Hva er varmetilførsel ved sveising, hvordan beregnes den, formelen i EN ISO 1011, innvirkning på mikrostruktur, sammenheng med deformasjon og mekaniske egenskaper.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 min lesetid</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Energisektoren</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Sveiset fabrikasjon i energisektoren: Vind, sol, vannkraft</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Sveiset fabrikasjon for energisektoren: vindturbinkomponenter, solcellekonstruksjoner, skap for vannkraft. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 min lesetid</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Varmebehandling</div>
+          <h2 data-i18n="blog_pwht_card_h2">Varmebehandling etter sveising (PWHT): Spenningsgløding og gløding</h2>
+          <p data-i18n="blog_pwht_card_p">Hva er PWHT (varmebehandling etter sveising), spenningsgløding og gløding, krav i EN 13445 og ASME VIII, temperatur og varighet.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 min lesetid</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Robotsveising · Serieproduksjon</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Serieproduksjon med robotsveising</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Serieproduksjon med robotsveising: repeterbarhet, syklustid, programmering og anvendelser. ArmaWelds robotsveiseceller.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 min lesetid</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">Høyfast stål</div>
+          <h2 data-i18n="blog_card2_h2">Sveiseparametere for S960QL: Forvarming, varmetilførsel og WPS</h2>
+          <p data-i18n="blog_card2_p">Kritiske parametere for sveising av ultrahøyfast S960QL-stål: CEV-beregning, obligatorisk H5-tilsettmateriale og kontroll av mellomstrengtemperatur.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 min lesetid</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Rustfritt stål · Hygienisk</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Sveiset fabrikasjon i rustfritt stål: Næringsmiddel, farmasi, kjemi</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Sveiset fabrikasjon i rustfritt stål: sveising av 304/316L, anvendelser innen næringsmiddel, farmasi og kjemi, krav til overflate og hygiene.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 min lesetid</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Bygg · Konstruksjonsstål</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Sveiset stålfabrikasjon for byggebransjen</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Sveiset stålfabrikasjon for bygg: EN 1090 EXC2/EXC3, bærende systemer, verksted- og byggeplassveising. ArmaWeld i Konya.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 min lesetid</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Standarder og sertifisering</div>
+          <h2 data-i18n="blog_card3_h2">Hva er EN 1090 EXC3? Guide til CE-merking av stålkonstruksjoner</h2>
+          <p data-i18n="blog_card3_p">Forskjellen mellom EN 1090-1 og EN 1090-2, utførelsesklassene EXC1–EXC4, og trinnene som kreves for å oppnå CE-sertifisering.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 min lesetid</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Forsvar · Pansrede kjøretøy</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Sveising av pansrede kjøretøy og forsvarsplattformer</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Sveising av pansrede kjøretøy: STANAG 4569-nivåer, parametere for ballistisk stål ARMOX/MARS og ballistiske akseptkriterier for sveiser.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 min lesetid</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Rør &amp; Profiler</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Fabrikasjon av sveiste rør og profiler</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Fabrikasjon av sveiste rør og profiler: hulprofiler, rektangulære rør, produksjonsprosesser for sveiste rør og bruksområder.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 min lesetid</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Hydraulikk · Pneumatikk</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Sveiset produksjon av hydrauliske og pneumatiske systemer</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Sveiset fabrikasjon av hydraulikksylindre, tanker og manifolder: trykkbestandighet, tetthet, NDT og testprosesser.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 min lesetid</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Standarder</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">CE-merket sveiset produksjon: EN 1090 og PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">CE-merking: krav og prosesstrinn for sveiset produksjon av konstruksjonsstål iht. EN 1090 og trykkpåkjent utstyr iht. PED 2014/68/EU.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 min lesetid</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Kvalitet &amp; Måling</div>
+          <h2 data-i18n="blog_card15_h2">Dimensjonstoleranser i stålkonstruksjon: guide til EN ISO 13920</h2>
+          <p data-i18n="blog_card15_p">Toleranseklassene i EN ISO 13920, målemetoder og forholdet til EN 1090 EXC3.</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Les artikkelen →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Kostnad · Produktivitet</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Kostnadsoptimalisering i sveiset produksjon</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Kostnadsoptimalisering i sveiset produksjon: materialeffektivitet, valg av sveiseprosess, automatisering og kontroll av kvalitetskostnader.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 min lesetid</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Lette konstruksjoner · Modulært</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Lette sveiste stålkonstruksjoner</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Lette sveiste stålkonstruksjoner: containere, modulbygg, produksjon av stålbrakker. EN 1090 og lettvektsløsninger.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 min lesetid</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_card14_h2">FCAW (rørtrådsveising): fordeler, parameteroptimalisering og anvendelser</h2>
+          <p data-i18n="blog_card14_p">FCAW-trådtyper, sammenligning av gassbeskyttet og selvbeskyttende tråd, parameteroptimalisering og anvendelser i konstruksjonsstål.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Les artikkelen →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Gruvedrift · Anleggsmaskiner</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Sveiset produksjon for gruve- og anleggsutstyr</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Sveising av gruveutstyr: transportører, sikter, skuffer, slitestålløsninger. HARDOX-sveising og slitasjeløsninger.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 min lesetid</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Leieproduksjon · Sveising</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Hva er sveising på kontrakt? Fordeler og produksjonsprosessen</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Hva er sveising på kontrakt, og hvorfor setter OEM-er ut sveiset fabrikasjon? Fordeler, produksjonsprosessen trinn for trinn og hvorfor Konya egner seg godt.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 min lesetid</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Standarder &amp; Sertifisering</div>
+          <h2 data-i18n="blog_card13_h2">Direktivet for trykkpåkjent utstyr (PED 2014/68/EU) og krav til sveising</h2>
+          <p data-i18n="blog_card13_p">PED-omfang, kategoriene I–IV, sveisekrav for trykkpåkjent utstyr og rollen til det tekniske kontrollorganet.</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Les artikkelen →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Sveiseingeniør · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">Sveiseingeniørens rolle i sveiste produksjonsprosjekter</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Sveiseingeniørens (IWE/EWE) ansvar: WPS/PQR-styring, kvalitetskoordinering, EN ISO 14731 og oppgaver i prosjekter.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 min lesetid</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Materialteknologi</div>
+          <h2 data-i18n="blog_card12_h2">Utfordringer ved aluminiumsveising: bruksguide for legeringene 5083 og 6061</h2>
+          <p data-i18n="blog_card12_p">Oksidsjikt og forebygging av porøsitet ved aluminiumsveising, sammenligning av 5083 og 6061, forrengjøring og valg av tilsettråd.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Les artikkelen →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_card11_h2">SAW (pulverbuesveising): anvendelser i grove tykkelser og parameteroptimalisering</h2>
+          <p data-i18n="blog_card11_p">SAW-prosessen, parametertabell, fordelene med høy avsmeltingsytelse og anvendelser i tung stålkonstruksjon.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Les artikkelen →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Standarder &amp; Sertifisering</div>
+          <h2 data-i18n="blog_card10_h2">Hva er EN ISO 3834-2? Grunnlaget for kvalitetsstyringssystemet for sveising</h2>
+          <p data-i18n="blog_card10_p">De omfattende kvalitetskravene i EN ISO 3834-2, forskjellene fra 3834-3 og 3834-4, og forholdet til EN 1090.</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Les artikkelen →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_card9_h2">TIG-sveising av rustfritt stål: legeringene 304 og 316L</h2>
+          <p data-i18n="blog_card9_p">TIG/GTAW-sveising av rustfritt stål 304 og 316L: parametere, dekkgass, rotgass, forebygging av sensibilisering og deformasjonskontroll.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Les artikkelen →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">Høyfast stål</div>
+          <h2 data-i18n="blog_card8_h2">Sveiseteknikker for slitebestandig HARDOX-stål</h2>
+          <p data-i18n="blog_card8_p">Sammenligningstabell for HARDOX 400/450/500/600, utfordringer ved sveising, krav til forvarming, CEV-beregning og valg av tilsettmateriale.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Les artikkelen →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Forming &amp; Bøying</div>
+          <h2 data-i18n="blog_card7_h2">Platebøying og K-faktor: toleranser og beregningsmetoder</h2>
+          <p data-i18n="blog_card7_p">Prinsipper for platebøying, K-faktor, beregning av bøyetillegg, materialspesifikke K-verdier og toleranser etter EN ISO 2768.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Les artikkelen →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Kutteteknologier</div>
+          <h2 data-i18n="blog_card6_h2">Laserskjæring vs. plasmaskjæring: en guide til valg av riktig metode</h2>
+          <p data-i18n="blog_card6_p">Tykkelsesområder, toleranser, kantkvalitet, varmepåvirket sone og sammenligning av kostnad per del for laser- vs. plasmaskjæring.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Les artikkelen →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Sveiseteknologi</div>
+          <h2 data-i18n="blog_card5_h2">MIG/MAG-sveiseparametere: optimalisering av trådhastighet, gass og spenning</h2>
+          <p data-i18n="blog_card5_p">Strøm, spenning, trådmatingshastighet, dekkgassblandinger og valg av overføringsmodus ved GMAW/MAG-sveising.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Les artikkelen →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Standarder &amp; Sertifisering</div>
+          <h2 data-i18n="blog_card4_h2">Hva er WPS? En guide til sveiseprosedyrespesifikasjon</h2>
+          <p data-i18n="blog_card4_p">Det obligatoriske grunnlaget for WPS, innholdet, forholdet WPS/WPQR og kvalifiseringsprosessen i henhold til EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Les artikkelen →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Les artikkelen →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610292"></script>
+<script src="../../assets/chrome.js?v=202610262"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

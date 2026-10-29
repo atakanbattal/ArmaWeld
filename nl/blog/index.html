@@ -1,0 +1,847 @@
+<!DOCTYPE html><html lang="nl" data-aw-page-lang="nl"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technische blog — Lassen &amp; metaalbewerking | ArmaWeld</title>
+  <meta name="description" content="Vaknotities over lastechniek, NDO-onderzoeksmethoden en de fabricage van hoogsterktestaal.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/nl/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Technische blog — Lassen &amp; metaalbewerking | ArmaWeld">
+  <meta property="og:description" content="Vaknotities over lastechniek, NDO-onderzoeksmethoden en de fabricage van hoogsterktestaal.">
+  <meta property="og:url" content="https://www.armaweld.com/nl/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Technische artikelen over lastechniek, NDO en metaalbewerking",
+  "url": "https://www.armaweld.com/nl/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "nl"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Technische artikelen.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Vaknotities over lastechniek, NDO-onderzoeksmethoden en de fabricage van hoogsterktestaal.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Lastechnologie · Onderpoederdek</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">Onderpoederdeklasmachines voor gieken, chassis en lange naden</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">Hoe werkt een onderpoederdeklasmachine? Wanneer u SAW kiest voor lange rechte naden, gieken en chassis, de vergelijking met MAG, kwaliteitscontrole en het voordeel van een 35 m-machine.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 min lezen</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">Wat is MIG/MAG-lassen? Werkingsprincipe, instellingen en toepassingen</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">Wat is MIG/MAG-lassen en hoe werkt het? MIG vs. MAG, materiaaloverdrachtsvormen, draad- en gaskeuze, parameterinstellingen, voordelen en veelvoorkomende lasfouten.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 min lezen</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Kwaliteit · Industrie 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Digitale traceerbaarheid bij het lassen: lasdatamonitoring en slimme kwaliteitscontrole</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">Hoe lasdatamonitoring, digitale lasregistraties en traceerbaarheid op onderdeelniveau de kwaliteit verbeteren: eisen EN ISO 3834, omvang van registraties en klantvoordelen.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 min lezen</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Regelgeving · Export</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM en staalexport: een gids 2026 voor bedrijven in de gelaste constructiebouw</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">CBAM is in 2026 de definitieve fase ingegaan. Wat exporteurs van staalconstructies en gelaste constructies moeten weten, en hoe u emissiegegevens voorbereidt.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 min lezen</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_n26_tig_h1">Wat is TIG-lassen (argonlassen)? Hoe werkt het en waar wordt het toegepast?</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">Wat is TIG-lassen (argonlassen) en hoe werkt het? Keuze van de wolfraamelektrode, AC/DC-stroom, gasdebiet, voor- en nadelen en gebruik op roestvast staal en aluminium.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 min lezen</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Regelgeving · CE-markering</div>
+          <h2 data-i18n="blog_n26_machreg_h1">Nieuwe Machineverordening (EU) 2023/1230: wat verandert er voor machinebouwers en hun leveranciers?</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">EU-Machineverordening 2023/1230 vervangt 2006/42/EG op 20 januari 2027. Voorbereidingsstappen voor machinebouwers en leveranciers van gelaste constructies.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 min lezen</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Lastechnologie · Basiskennis</div>
+          <h2 data-i18n="blog_n26_types_h1">Soorten lassen: industriële lasprocessen en hun verschillen</h2>
+          <p data-i18n="blog_n26_types_meta_desc">Welke soorten lassen zijn er? Boog-, autogeen-, bundel- en druklassen; MIG/MAG, TIG, elektrode, onderpoederdek, laser en puntlassen: verschillen en toepassingen.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 min lezen</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Uitbesteed laswerk · Inkoop</div>
+          <h2 data-i18n="blog_n26_supplier_h1">10 criteria om te controleren bij het kiezen van een lasonderaannemer</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 criteria om een lasonderaannemer te beoordelen: certificeringen, WPS-portfolio, NDO, capaciteit, traceerbaarheid en leverprestaties.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 min lezen</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_n26_gas_h1">Beschermgas kiezen voor MIG/MAG-lassen: argon, CO₂ en mengsels</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">Hoe kiest u een MIG/MAG-beschermgas: 100% CO₂, Ar/CO₂-mengsels, gassen voor roestvast staal en aluminium, ISO 14175-klassen en instelling van het debiet.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 min lezen</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Normen &amp; certificering</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">Wat is een lascertificaat? Een gids voor EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">Wat is een lascertificaat volgens EN ISO 9606-1, hoe verloopt de proef, wat dekt het en hoe wordt het verlengd? Een praktische gids voor inkopers van uitbesteed laswerk.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 min lezen</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Normen &amp; certificering</div>
+          <h2 data-i18n="blog_wpqr_card_h2">Wat is een WPQR? Lasmethodekwalificaties en EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">Wat is een WPQR (Welding Procedure Qualification Record), hoe wordt een lasmethode gekwalificeerd volgens EN ISO 15614-1 en 15614-2, en welke beproevingen zijn vereist?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 min leestijd</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Kwaliteitscontrole</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Lasfouten: soorten, detectiemethoden en reparatie</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Lasfouten, classificatie volgens EN ISO 5817, porositeit, scheuren, onvolledige doorlassing, bindingsfouten — soorten fouten en reparatiestrategieën.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 min leestijd</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Gelaste constructiebouw · Basiskennis</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">Wat is gelaste constructiebouw? Kernprocessen en normen</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">Wat is gelaste constructiebouw, welke processen omvat het en hoe wordt het uitgevoerd volgens EN ISO 3834-2 en EN 1090? Een technische gids van ArmaWeld in Konya, Turkije.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 min lezen</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Lastechniek (engineering)</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Berekening van de voorwarmtemperatuur bij het lassen (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">Hoe berekent u de voorwarmtemperatuur? EN ISO 1011-2 methode A en B, CEV, CET, invloed van dikte en waterstof.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 min leestijd</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industrie</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Gelaste constructiebouw in Konya: productie in het industriële hart van Turkije</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">De kracht van de sector gelaste constructiebouw in Konya, de productie-infrastructuur van ArmaWeld in het industriegebied van Konya, sectoren en capaciteiten. Productie volgens EN 1090 en EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 min lezen</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Productie-engineering</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Lasvervorming: soorten, oorzaken en preventiestrategieën</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">Wat is lasvervorming, welke soorten bestaan er en welke beheersstrategieën zijn er: lasvolgorde, voorinstelling, opspannen en warmtebalans.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 min leestijd</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Defensie · Ballistisch staal</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Gelaste constructiebouw voor defensie: STANAG, MIL-STD en speciale staalsoorten</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Gelaste constructiebouw voor de defensie-industrie: STANAG 4569-beschermingsniveaus, MIL-STD-1941, lassen van ballistisch staal en kwaliteitseisen.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 min lezen</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Lastechniek</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Lasposities: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">Wat zijn de lasposities PA, PB, PC, PD, PE, PF, PG? Norm EN ISO 6947, plaat- en buisposities, moeilijkheidsgraden.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 min leestijd</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Staalconstructies · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Staalbouw: van ontwerp tot montage</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Productieprocessen in de staalbouw, uitvoeringsklassen volgens EN 1090, eisen voor lassen in de werkplaats en op de bouwplaats. Een technische gids van ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 min lezen</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Technisch tekenen</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Lassymbolen — symbolengids EN ISO 2553</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Lassymbolen, EN ISO 2553, AWS A2.4, stompe las, hoeklas, K-V-X-Y-lassymbolen, maataanduiding.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 min leestijd</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Industrieel lassen · Installaties</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Industriële lasdiensten: toepassingen in installaties en fabrieken</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Industriële lasdiensten: installaties, fabrieken en procesapparatuur, lassen op locatie en in de werkplaats. Van ArmaWeld, gevestigd in Konya.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 min lezen</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Drukvaten &amp; PED</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Drukvatenbouw: gids voor PED 2014/68/EU en EN 13445</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Drukvatenbouw, richtlijn PED 2014/68/EU, EN 13445, categorie-indeling, conformiteitsbeoordeling, CE-markering.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 min leestijd</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Kwaliteitscontrole · NDO</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Kwaliteitscontrole in gelaste constructiebouw: VT, NDO en traceerbaarheid</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Kwaliteitscontroleprocessen in gelaste constructiebouw: visueel onderzoek, NDO-methoden, acceptatiecriteria en digitale traceerbaarheid.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 min lezen</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">NDO · Niet-destructief onderzoek</div>
+          <h2 data-i18n="blog_card1_h2">Wat is NDO? Vergelijking van de methoden VT, PT, MT, UT en RT</h2>
+          <p data-i18n="blog_card1_p">Vijf fundamentele niet-destructieve onderzoeksmethoden in de gelaste constructiebouw, wanneer u welke kiest en de certificeringseisen van EN ISO 9712.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 min lezen</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Spoorwegindustrie</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Spoorweglasnorm EN 15085: wagon- en draaistelbouw</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">Spoorweglasnorm EN 15085, certificeringsniveaus CL1–CL4, gelaste wagonbouw, draaistelproductie, ECWS-documenten.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 min leestijd</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Automobielindustrie</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Lasoplossingen voor automotive toeleveranciers: IATF 16949 &amp; PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Gelaste constructiebouw voor automotive toeleveranciers, kwaliteitssysteem IATF 16949, PPAP-proces, robotlassen, MAG- en laserlastoepassingen.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 min leestijd</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Landbouwmachines</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Gelaste constructiebouw voor landbouwmachines</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Lassen voor landbouwmachines: fabricage van ploegen, zaaimachines, aanhangers en maaidorserchassis. Uitbestede en serieproductie van ArmaWeld, gevestigd in Konya.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 min lezen</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Lastechniek (engineering)</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Berekening en optimalisatie van de warmte-inbreng bij het lassen</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">Wat is warmte-inbreng bij het lassen, hoe wordt die berekend, formule EN ISO 1011, invloed op de microstructuur, relatie met vervorming en mechanische eigenschappen.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 min leestijd</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Energiesector</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Gelaste constructiebouw in de energiesector: wind, zon, water</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Gelaste constructiebouw voor de energiesector: windturbinecomponenten, zonne-energieconstructies, kasten voor waterkrachtcentrales. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 min lezen</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Warmtebehandeling</div>
+          <h2 data-i18n="blog_pwht_card_h2">Warmtebehandeling na het lassen (PWHT): spanningsarmgloeien en gloeien</h2>
+          <p data-i18n="blog_pwht_card_p">Wat is PWHT (warmtebehandeling na het lassen), spanningsarmgloeien en gloeien, eisen van EN 13445 en ASME VIII, temperatuur en duur.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 min leestijd</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Robotlassen · Serieproductie</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Serieproductie met robotlassen</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Serieproductie met robotlassen: herhaalbaarheid, cyclustijd, programmering en toepassingen. De robotlascellen van ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 min lezen</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">Hoogsterktestaal</div>
+          <h2 data-i18n="blog_card2_h2">Lasparameters S960QL: voorwarmen, warmte-inbreng en WPS</h2>
+          <p data-i18n="blog_card2_p">Kritische parameters voor het lassen van ultrahoogsterkte S960QL-staal: CEV-berekening, verplicht H5-toevoegmateriaal en beheersing van de tussenlaagtemperatuur.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 min lezen</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Roestvast staal · Hygiënisch</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Gelaste constructiebouw in roestvast staal: voeding, farma, chemie</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Gelaste constructiebouw in roestvast staal: lassen van 304/316L, toepassingen in voeding, farma en chemie, oppervlakte- en hygiëne-eisen.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 min lezen</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Bouw · Constructiestaal</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Gelaste staalconstructies voor de bouwsector</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Gelaste staalbouw voor de bouwsector: EN 1090 EXC2/EXC3, dragende systemen, lassen in de werkplaats en op locatie. ArmaWeld, gevestigd in Konya.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 min leestijd</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Normen &amp; certificering</div>
+          <h2 data-i18n="blog_card3_h2">Wat is EN 1090 EXC3? Gids CE-markering voor staalconstructies</h2>
+          <p data-i18n="blog_card3_p">Het verschil tussen EN 1090-1 en EN 1090-2, de uitvoeringsklassen EXC1–EXC4 en de stappen die nodig zijn om CE-certificering te verkrijgen.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 min leestijd</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Defensie · Gepantserde voertuigen</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Lassen voor gepantserde voertuigen en defensieplatforms</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Lassen van gepantserde voertuigen: STANAG 4569-niveaus, lasparameters voor ARMOX/MARS pantserstaal en ballistische acceptatiecriteria voor lassen.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 min leestijd</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Buizen &amp; profielen</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Gelaste buis- en profielfabricage</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Gelaste buis- en profielfabricage: kokerprofielen, rechthoekige buizen, productieprocessen voor gelaste buis en toepassingen.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 min leestijd</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Hydrauliek · Pneumatiek</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Gelaste productie van hydraulische en pneumatische systemen</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Gelaste fabricage van hydraulische cilinders, tanks en verdeelblokken: drukbestendigheid, lekdichtheid, NDO en testprocessen.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 min leestijd</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Normen</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">Gelaste productie met CE-markering: EN 1090 en PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">CE-markering: eisen en processtappen voor gelaste productie volgens EN 1090 voor constructiestaal en PED 2014/68/EU voor drukapparatuur.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 min leestijd</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Kwaliteit &amp; Meten</div>
+          <h2 data-i18n="blog_card15_h2">Maattoleranties in de staalbouw: gids EN ISO 13920</h2>
+          <p data-i18n="blog_card15_p">Tolerantieklassen van EN ISO 13920, meetmethoden en de relatie met EN 1090 EXC3.</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Lees artikel →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Kosten · Productiviteit</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Kostenoptimalisatie in gelaste productie</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Kostenoptimalisatie in gelaste productie: materiaalefficiëntie, keuze van het lasproces, automatisering en beheersing van kwaliteitskosten.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 min leestijd</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Lichte constructies · Modulair</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Lichte gelaste staalconstructies</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Lichte gelaste staalconstructies: containers, modulaire gebouwen, productie van stalen cabines. EN 1090 en lichtgewichtoplossingen.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 min leestijd</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_card14_h2">FCAW (lassen met gevulde draad): voordelen, parameteroptimalisatie en toepassingen</h2>
+          <p data-i18n="blog_card14_p">FCAW-draadtypen, vergelijking gasbeschermd vs. zelfbeschermend, parameteroptimalisatie en toepassingen in constructiestaal.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Lees artikel →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Mijnbouw · Bouwmachines</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Gelaste productie voor mijnbouw- en bouwmachines</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Lassen voor mijnbouwmaterieel: transportbanden, zeven, bakken, slijtplaattoepassingen. HARDOX lassen en slijtageoplossingen.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 min leestijd</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Uitbesteding · Lassen</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Wat is uitbesteed laswerk? Voordelen en het productieproces</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Wat is uitbesteed laswerk en waarom besteden OEM's gelaste productie uit? Voordelen, het stapsgewijze productieproces en waarom Konya hiervoor zo geschikt is.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 min leestijd</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Normen &amp; Certificering</div>
+          <h2 data-i18n="blog_card13_h2">Richtlijn Drukapparatuur (PED 2014/68/EU) en laseisen</h2>
+          <p data-i18n="blog_card13_p">Toepassingsgebied van de PED, categorieën I–IV, laseisen voor drukapparatuur en de rol van de aangemelde instantie.</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Lees artikel →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Lasingenieur · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">De rol van de lasingenieur in gelaste productieprojecten</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Verantwoordelijkheden van de lasingenieur (IWE/EWE): WPS/PQR-beheer, kwaliteitscoördinatie, EN ISO 14731 en projecttaken.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 min leestijd</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Materiaaltechnologie</div>
+          <h2 data-i18n="blog_card12_h2">Uitdagingen bij het lassen van aluminium: toepassingsgids voor de legeringen 5083 en 6061</h2>
+          <p data-i18n="blog_card12_p">Oxidelaag en het voorkomen van porositeit bij aluminiumlassen, vergelijking 5083 vs. 6061, voorreiniging en keuze van de lasdraad.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Lees artikel →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_card11_h2">SAW (onderpoederdeklassen): toepassingen voor zware secties en parameteroptimalisatie</h2>
+          <p data-i18n="blog_card11_p">Het SAW-proces, parametertabel, voordelen van de hoge neersmeltsnelheid en toepassingen in zware staalconstructies.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Lees artikel →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Normen &amp; Certificering</div>
+          <h2 data-i18n="blog_card10_h2">Wat is EN ISO 3834-2? Grondslagen van het laskwaliteitsmanagementsysteem</h2>
+          <p data-i18n="blog_card10_p">De uitgebreide kwaliteitseisen van EN ISO 3834-2, verschillen met 3834-3 en 3834-4, en de relatie met EN 1090.</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Lees artikel →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_card9_h2">TIG-lassen van roestvast staal: legeringen 304 en 316L</h2>
+          <p data-i18n="blog_card9_p">TIG/GTAW-lassen van roestvast staal 304 en 316L: parameters, beschermgas, formeergas, voorkomen van sensibilisering en beheersing van vervorming.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Lees artikel →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">Hoogsterktestaal</div>
+          <h2 data-i18n="blog_card8_h2">Lastechnieken voor slijtvast HARDOX-staal</h2>
+          <p data-i18n="blog_card8_p">Vergelijkingstabel HARDOX 400/450/500/600, uitdagingen bij het lassen, voorwarmeisen, CEV-berekening en keuze van toevoegmateriaal.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Lees artikel →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Vormen &amp; Zetten</div>
+          <h2 data-i18n="blog_card7_h2">Plaatzetten en K-factor: toleranties en berekeningsmethoden</h2>
+          <p data-i18n="blog_card7_p">Principes van plaatzetten, K-factor, berekening van de buigtoeslag, materiaalspecifieke K-waarden en toleranties volgens EN ISO 2768.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Lees artikel →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Snijtechnieken</div>
+          <h2 data-i18n="blog_card6_h2">Lasersnijden vs. plasmasnijden: gids voor de juiste methodekeuze</h2>
+          <p data-i18n="blog_card6_p">Vergelijking van diktebereik, toleranties, snijkantkwaliteit, warmtebeïnvloede zone en kosten per onderdeel bij laser- en plasmasnijden.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Lees artikel →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Lastechnologie</div>
+          <h2 data-i18n="blog_card5_h2">MIG/MAG-lasparameters: optimalisatie van draadsnelheid, gas en spanning</h2>
+          <p data-i18n="blog_card5_p">Stroomsterkte, spanning, draadaanvoersnelheid, beschermgasmengsels en keuze van de druppelovergang bij GMAW/MAG-lassen.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Lees artikel →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Normen &amp; Certificering</div>
+          <h2 data-i18n="blog_card4_h2">Wat is een WPS? Gids voor de lasmethodebeschrijving</h2>
+          <p data-i18n="blog_card4_p">De verplichte grondslag van de WPS, de inhoud, de relatie WPS/WPQR en het kwalificatieproces volgens EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Lees artikel →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Artikel lezen →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610292"></script>
+<script src="../../assets/chrome.js?v=202610262"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
