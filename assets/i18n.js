@@ -3,8 +3,8 @@
   'use strict';
   const STORAGE_KEY = 'armaweld-lang';
   const DEFAULT = 'tr';
-  const SUPPORTED = ['tr', 'en', 'de', 'es', 'fr'];
-  const BUNDLE_V = '202610270';
+  const SUPPORTED = ['tr', 'en', 'de', 'es', 'fr', 'it', 'nl', 'no'];
+  const BUNDLE_V = '202610292';
 
   // Pages under /en/, /de/, /es/, /fr/ are built per language (scripts/build-lang-pages.mjs)
   // and carry their language on <html data-aw-page-lang>; Turkish pages live at the root.
@@ -241,7 +241,7 @@
     if (!PAGE_LANG || PAGE_LANG === DEFAULT) return;
     document.querySelectorAll('a[href^="/"]').forEach(function (a) {
       var h = a.getAttribute('href');
-      if (/^\/\//.test(h) || /^\/(en|de|es|fr|assets|uploads)\//.test(h)) return;
+      if (/^\/\//.test(h) || /^\/(en|de|es|fr|it|nl|no|assets|uploads)\//.test(h)) return;
       if (!/(\.html|\/)([?#].*)?$/.test(h)) return;
       a.setAttribute('href', '/' + PAGE_LANG + h);
     });

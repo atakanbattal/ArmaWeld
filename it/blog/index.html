@@ -1,0 +1,847 @@
+<!DOCTYPE html><html lang="it" data-aw-page-lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog tecnico — Saldatura e lavorazione dei metalli | ArmaWeld</title>
+  <meta name="description" content="Note di settore su ingegneria della saldatura, metodi di controllo CND e fabbricazione in acciai ad alta resistenza.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/it/blog/">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/blog/" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog tecnico — Saldatura e lavorazione dei metalli | ArmaWeld">
+  <meta property="og:description" content="Note di settore su ingegneria della saldatura, metodi di controllo CND e fabbricazione in acciai ad alta resistenza.">
+  <meta property="og:url" content="https://www.armaweld.com/it/blog/">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="ArmaWeld">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=202610052">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 80px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.12), transparent 60%); }
+  .page-hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 40px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .page-hero h1 { font-family: var(--ff-display); font-weight: 900; font-size: clamp(28px, 4vw, 62px); line-height: .98; letter-spacing: -.035em; color: var(--bone); margin-bottom: 24px; }
+  .page-hero h1 .arc { color: var(--arc-2); }
+  .page-hero .lede { font-size: clamp(15px, 1.2vw, 18px); color: var(--steel-2); max-width: 600px; line-height: 1.6; }
+
+  .blog-wrap { padding: 80px 0 120px; background: var(--ink-0); }
+  .blog-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+  @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 4px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--arc-2); transform: translateY(-3px); }
+  .card-body { padding: 32px; flex: 1; display: flex; flex-direction: column; }
+  .card-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+  .card h2 { font-size: 20px; font-weight: 700; color: var(--bone); line-height: 1.25; margin-bottom: 14px; letter-spacing: -.02em; }
+  .card p { font-size: 14px; color: var(--steel-2); line-height: 1.65; flex: 1; margin-bottom: 24px; }
+  .card-meta { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); display: flex; gap: 16px; margin-bottom: 20px; }
+  .card-link { font-family: var(--ff-mono); font-size: 12px; color: var(--arc-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .card-link:hover { color: var(--arc-3); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "ArmaWeld Teknik Blog",
+  "description": "Articoli tecnici su ingegneria della saldatura, CND e lavorazione dei metalli",
+  "url": "https://www.armaweld.com/it/blog/",
+  "publisher": {
+    "@id": "https://www.armaweld.com/#organization"
+  },
+  "inLanguage": "it"
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <span>Blog</span></div>
+    <h1 data-i18n="blog_idx_h1">Articoli tecnici.</h1>
+    <p class="lede" data-i18n="blog_idx_lede">Note di settore su ingegneria della saldatura, metodi di controllo CND e fabbricazione in acciai ad alta resistenza.</p>
+  </div>
+</section>
+
+<section class="blog-wrap">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_sawbom_tag">Tecnologia della saldatura · Arco sommerso</div>
+          <h2 data-i18n="blog_n26_sawbom_h1">Saldatrici ad arco sommerso per bracci, telai e cordoni lunghi</h2>
+          <p data-i18n="blog_n26_sawbom_meta_desc">Saldatrice ad arco sommerso: come funziona, quando scegliere la SAW per cordoni lunghi, bracci e telai, SAW o MAG, qualità e vantaggi di una linea da 35 m.</p>
+          <div class="card-meta">
+            <span>2026-10-04</span>
+            <span data-i18n="blog_n26_sawbom_read">8 min di lettura</span>
+          </div>
+          <a href="tozalti-kaynak-makinesi-bom-sasi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gmaw_tag">Tecnologia della saldatura</div>
+          <h2 data-i18n="blog_n26_gmaw_h1">Che cos'è la saldatura MIG/MAG? Principio di funzionamento, regolazioni e applicazioni</h2>
+          <p data-i18n="blog_n26_gmaw_meta_desc">Che cos'è la saldatura MIG/MAG e come si esegue? MIG o MAG, modi di trasferimento, scelta di filo e gas, regolazione dei parametri, vantaggi e difetti comuni.</p>
+          <div class="card-meta">
+            <span>2026-10-01</span>
+            <span data-i18n="blog_n26_gmaw_read">9 min di lettura</span>
+          </div>
+          <a href="gazalti-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_trace_tag">Qualità · Industria 4.0</div>
+          <h2 data-i18n="blog_n26_trace_h1">Tracciabilità digitale in saldatura: monitoraggio dei dati di saldatura e controllo qualità intelligente</h2>
+          <p data-i18n="blog_n26_trace_meta_desc">Monitoraggio dei dati di saldatura, registri digitali e tracciabilità: come migliorano la qualità, requisiti EN ISO 3834 e vantaggi per il cliente.</p>
+          <div class="card-meta">
+            <span>2026-09-29</span>
+            <span data-i18n="blog_n26_trace_read">8 min di lettura</span>
+          </div>
+          <a href="kaynakta-dijital-izlenebilirlik.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_cbam_tag">Normativa · Export</div>
+          <h2 data-i18n="blog_n26_cbam_h1">CBAM ed esportazioni di acciaio: guida 2026 per le aziende di carpenteria metallica saldata</h2>
+          <p data-i18n="blog_n26_cbam_meta_desc">Il CBAM è nel periodo definitivo dal 2026. Cosa devono sapere gli esportatori di strutture in acciaio e carpenteria saldata e come preparare i dati emissivi.</p>
+          <div class="card-meta">
+            <span>2026-09-10</span>
+            <span data-i18n="blog_n26_cbam_read">10 min di lettura</span>
+          </div>
+          <a href="cbam-celik-ihracat-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_tig_tag">Tecnologia della saldatura</div>
+          <h2 data-i18n="blog_n26_tig_h1">Che cos'è la saldatura TIG (ad argon)? Come si esegue e dove si utilizza?</h2>
+          <p data-i18n="blog_n26_tig_meta_desc">Che cos'è la saldatura TIG (ad argon) e come si esegue? Elettrodo di tungsteno, corrente AC/DC, portata del gas, pro e contro, impiego su inox e alluminio.</p>
+          <div class="card-meta">
+            <span>2026-09-03</span>
+            <span data-i18n="blog_n26_tig_read">9 min di lettura</span>
+          </div>
+          <a href="argon-kaynagi-nedir.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_machreg_tag">Normativa · Marcatura CE</div>
+          <h2 data-i18n="blog_n26_machreg_h1">Nuovo Regolamento Macchine (UE) 2023/1230: cosa cambia per i costruttori di macchine e i loro fornitori?</h2>
+          <p data-i18n="blog_n26_machreg_meta_desc">Il Regolamento Macchine UE 2023/1230 sostituisce la 2006/42/CE dal 20 gennaio 2027. Guida per costruttori di macchine e fornitori di carpenteria saldata.</p>
+          <div class="card-meta">
+            <span>2026-08-20</span>
+            <span data-i18n="blog_n26_machreg_read">9 min di lettura</span>
+          </div>
+          <a href="yeni-makine-yonetmeligi-2023-1230.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_types_tag">Tecnologia della saldatura · Fondamenti</div>
+          <h2 data-i18n="blog_n26_types_h1">Tipi di saldatura: i processi di saldatura industriali e le loro differenze</h2>
+          <p data-i18n="blog_n26_types_meta_desc">Quali sono i tipi di saldatura? Ad arco, a gas, a fascio e a pressione; MIG/MAG, TIG, elettrodo, arco sommerso, laser e a punti: differenze e impieghi.</p>
+          <div class="card-meta">
+            <span>2026-08-06</span>
+            <span data-i18n="blog_n26_types_read">10 min di lettura</span>
+          </div>
+          <a href="kaynak-cesitleri.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_supplier_tag">Produzione conto terzi · Acquisti</div>
+          <h2 data-i18n="blog_n26_supplier_h1">10 criteri da verificare nella scelta di un fornitore di saldatura conto terzi</h2>
+          <p data-i18n="blog_n26_supplier_meta_desc">10 criteri per valutare un fornitore di saldatura conto terzi: certificazioni, portafoglio WPS, CND, capacità, tracciabilità e puntualità delle consegne.</p>
+          <div class="card-meta">
+            <span>2026-07-30</span>
+            <span data-i18n="blog_n26_supplier_read">8 min di lettura</span>
+          </div>
+          <a href="fason-kaynak-tedarikci-secimi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_gas_tag">Tecnologia della saldatura</div>
+          <h2 data-i18n="blog_n26_gas_h1">Scelta del gas di protezione per la saldatura MIG/MAG: argon, CO₂ e miscele</h2>
+          <p data-i18n="blog_n26_gas_meta_desc">Come scegliere il gas di protezione MIG/MAG: CO₂ al 100%, miscele Ar/CO₂, gas per inox e alluminio, classi ISO 14175 e regolazione della portata.</p>
+          <div class="card-meta">
+            <span>2026-07-09</span>
+            <span data-i18n="blog_n26_gas_read">9 min di lettura</span>
+          </div>
+          <a href="koruyucu-gaz-secimi-mig-mag.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_n26_iso9606_tag">Norme e certificazione</div>
+          <h2 data-i18n="blog_n26_iso9606_h1">Che cos'è il patentino del saldatore? Guida alla EN ISO 9606-1</h2>
+          <p data-i18n="blog_n26_iso9606_meta_desc">Patentino del saldatore EN ISO 9606-1: come si svolge la prova, cosa copre e come si proroga. Guida pratica per chi acquista saldatura conto terzi.</p>
+          <div class="card-meta">
+            <span>2026-06-18</span>
+            <span data-i18n="blog_n26_iso9606_read">8 min di lettura</span>
+          </div>
+          <a href="kaynakci-sertifikasi-en-iso-9606-1.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_wpqr_card_tag">Norme e certificazione</div>
+          <h2 data-i18n="blog_wpqr_card_h2">Che cos'è il WPQR? Qualifica delle procedure di saldatura ed EN ISO 15614</h2>
+          <p data-i18n="blog_wpqr_card_p">Che cos'è un WPQR (Welding Procedure Qualification Record), come si qualifica una procedura di saldatura secondo EN ISO 15614-1 e 15614-2 e quali prove sono richieste?</p>
+          <div class="card-meta">
+            <span>2026-05-02</span>
+            <span data-i18n="blog_wpqr_read">9 min di lettura</span>
+          </div>
+          <a href="wpqr-nedir.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_hatalari_card_tag">Controllo qualità</div>
+          <h2 data-i18n="blog_kaynak_hatalari_card_h2">Difetti di saldatura: tipologie, metodi di rilevamento e riparazione</h2>
+          <p data-i18n="blog_kaynak_hatalari_card_p">Difetti di saldatura, classificazione EN ISO 5817, porosità, cricche, mancata penetrazione, mancanza di fusione — tipologie di difetti e strategie di riparazione.</p>
+          <div class="card-meta">
+            <span>2026-04-28</span>
+            <span data-i18n="blog_kaynak_hatalari_read">11 min di lettura</span>
+          </div>
+          <a href="kaynak-hatalari-onarim.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynakli_imalat_nedir_tag">Carpenteria saldata · Fondamenti</div>
+          <h2 data-i18n="blog_kaynakli_imalat_nedir_h1">Cos'è la carpenteria saldata? Processi fondamentali e norme</h2>
+          <p data-i18n="blog_kaynakli_imalat_nedir_meta_desc">Cos'è la carpenteria saldata, quali processi comprende e come viene eseguita secondo EN ISO 3834-2 ed EN 1090? Una guida tecnica di ArmaWeld, Konya, Turchia.</p>
+          <div class="card-meta">
+            <span>2026-04-22</span>
+            <span data-i18n="blog_kaynakli_imalat_nedir_read">8 min di lettura</span>
+          </div>
+          <a href="kaynakli-imalat-nedir.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_on_isitma_card_tag">Ingegneria della saldatura</div>
+          <h2 data-i18n="blog_on_isitma_card_h2">Calcolo della temperatura di preriscaldo in saldatura (EN ISO 1011-2)</h2>
+          <p data-i18n="blog_on_isitma_card_p">Come si calcola la temperatura di preriscaldo? EN ISO 1011-2 Metodo A e B, CEV, CET, effetti dello spessore e dell'idrogeno.</p>
+          <div class="card-meta">
+            <span>2026-04-17</span>
+            <span data-i18n="blog_on_isitma_read">8 min di lettura</span>
+          </div>
+          <a href="on-isitma-hesaplama.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_konya_kaynakli_imalat_tag">Konya · Industria</div>
+          <h2 data-i18n="blog_konya_kaynakli_imalat_h1">Carpenteria saldata a Konya: produzione nel polo industriale della Turchia</h2>
+          <p data-i18n="blog_konya_kaynakli_imalat_meta_desc">La forza della carpenteria saldata di Konya, l'infrastruttura produttiva ArmaWeld nella zona industriale di Konya, settori e capacità. Produzione EN 1090 ed EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-04-12</span>
+            <span data-i18n="blog_konya_kaynakli_imalat_read">7 min di lettura</span>
+          </div>
+          <a href="konya-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_distors_card_tag">Ingegneria di produzione</div>
+          <h2 data-i18n="blog_kaynak_distors_card_h2">Deformazioni da saldatura: tipologie, cause e strategie di prevenzione</h2>
+          <p data-i18n="blog_kaynak_distors_card_p">Che cos'è la deformazione da saldatura, quali tipologie esistono e le strategie di controllo: sequenza di saldatura, pre-deformazione, attrezzature di bloccaggio e bilanciamento termico.</p>
+          <div class="card-meta">
+            <span>2026-04-07</span>
+            <span data-i18n="blog_kaynak_distors_read">9 min di lettura</span>
+          </div>
+          <a href="kaynak-distorsiyonu.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_savunma_sanayi_kaynakli_imalat_tag">Difesa · Acciaio balistico</div>
+          <h2 data-i18n="blog_savunma_sanayi_kaynakli_imalat_h1">Carpenteria saldata per la difesa: STANAG, MIL-STD e acciai speciali</h2>
+          <p data-i18n="blog_savunma_sanayi_kaynakli_imalat_meta_desc">Carpenteria saldata per l'industria della difesa: livelli di protezione STANAG 4569, MIL-STD-1941, saldatura degli acciai balistici e requisiti di qualità.</p>
+          <div class="card-meta">
+            <span>2026-04-02</span>
+            <span data-i18n="blog_savunma_sanayi_kaynakli_imalat_read">10 min di lettura</span>
+          </div>
+          <a href="savunma-sanayi-kaynakli-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_pozis_card_tag">Tecnica di saldatura</div>
+          <h2 data-i18n="blog_kaynak_pozis_card_h2">Posizioni di saldatura: PA, PB, PC, PD, PE, PF, PG (EN ISO 6947)</h2>
+          <p data-i18n="blog_kaynak_pozis_card_p">Cosa sono le posizioni di saldatura PA, PB, PC, PD, PE, PF, PG? Norma EN ISO 6947, posizioni su lamiera e su tubo, livelli di difficoltà.</p>
+          <div class="card-meta">
+            <span>2026-03-27</span>
+            <span data-i18n="blog_kaynak_pozis_read">7 min di lettura</span>
+          </div>
+          <a href="kaynak-pozisyonlari.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_celik_konstruksiyon_imalat_tag">Strutture in acciaio · EN 1090</div>
+          <h2 data-i18n="blog_celik_konstruksiyon_imalat_h1">Carpenteria metallica: dalla progettazione al montaggio</h2>
+          <p data-i18n="blog_celik_konstruksiyon_imalat_meta_desc">Processi di fabbricazione delle strutture in acciaio, classi di esecuzione EN 1090, requisiti di saldatura in officina e in cantiere. Guida tecnica ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-03-22</span>
+            <span data-i18n="blog_celik_konstruksiyon_imalat_read">8 min di lettura</span>
+          </div>
+          <a href="celik-konstruksiyon-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_sembol_card_tag">Disegno tecnico</div>
+          <h2 data-i18n="blog_kaynak_sembol_card_h2">Simboli di saldatura — Guida ai simboli EN ISO 2553</h2>
+          <p data-i18n="blog_kaynak_sembol_card_p">Simboli di saldatura, EN ISO 2553, AWS A2.4, giunto testa a testa, giunto d'angolo, simboli di saldatura a K-V-X-Y, indicazione delle quote.</p>
+          <div class="card-meta">
+            <span>2026-03-17</span>
+            <span data-i18n="blog_kaynak_sembol_read">8 min di lettura</span>
+          </div>
+          <a href="kaynak-sembolizasyonu.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_endustriyel_kaynak_hizmeti_tag">Saldatura industriale · Impianti</div>
+          <h2 data-i18n="blog_endustriyel_kaynak_hizmeti_h1">Servizi di saldatura industriale: applicazioni per impianti e fabbriche</h2>
+          <p data-i18n="blog_endustriyel_kaynak_hizmeti_meta_desc">Servizi di saldatura industriale: impianti, fabbriche e apparecchiature di processo, saldatura in cantiere e in officina. Da ArmaWeld, con sede a Konya.</p>
+          <div class="card-meta">
+            <span>2026-03-12</span>
+            <span data-i18n="blog_endustriyel_kaynak_hizmeti_read">7 min di lettura</span>
+          </div>
+          <a href="endustriyel-kaynak-hizmeti.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_basincli_kap_card_tag">Recipienti in pressione e PED</div>
+          <h2 data-i18n="blog_basincli_kap_card_h2">Costruzione di recipienti in pressione: guida alla PED 2014/68/UE e alla EN 13445</h2>
+          <p data-i18n="blog_basincli_kap_card_p">Costruzione di recipienti in pressione, direttiva PED 2014/68/UE, EN 13445, classificazione per categorie, valutazione della conformità, marcatura CE.</p>
+          <div class="card-meta">
+            <span>2026-03-07</span>
+            <span data-i18n="blog_basincli_kap_read">10 min di lettura</span>
+          </div>
+          <a href="basincli-kap-imalati.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_kalite_kontrol_tag">Controllo qualità · CND</div>
+          <h2 data-i18n="blog_kaynak_kalite_kontrol_h1">Controllo qualità nella carpenteria saldata: VT, CND e tracciabilità</h2>
+          <p data-i18n="blog_kaynak_kalite_kontrol_meta_desc">Processi di controllo qualità nella carpenteria saldata: esame visivo, metodi CND, criteri di accettazione e tracciabilità digitale.</p>
+          <div class="card-meta">
+            <span>2026-03-02</span>
+            <span data-i18n="blog_kaynak_kalite_kontrol_read">8 min di lettura</span>
+          </div>
+          <a href="kaynak-kalite-kontrol.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card1_tag">CND · Controlli non distruttivi</div>
+          <h2 data-i18n="blog_card1_h2">Cosa sono i CND? Confronto tra i metodi VT, PT, MT, UT, RT</h2>
+          <p data-i18n="blog_card1_p">I cinque metodi fondamentali di controllo non distruttivo usati nella carpenteria saldata, quando scegliere ciascuno e i requisiti di certificazione EN ISO 9712.</p>
+          <div class="card-meta">
+            <span>2026-02-25</span>
+            <span data-i18n="blog_ndt_read">8 min di lettura</span>
+          </div>
+          <a href="ndt-tahribatsiz-muayene-yontemleri.html" class="card-link" data-i18n="blog_card1_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_demiryolu_kaynak_card_tag">Settore ferroviario</div>
+          <h2 data-i18n="blog_demiryolu_kaynak_card_h2">Norma di saldatura ferroviaria EN 15085: costruzione di carri e carrelli</h2>
+          <p data-i18n="blog_demiryolu_kaynak_card_p">Norma di saldatura ferroviaria EN 15085, livelli di certificazione CL1–CL4, costruzione di carri saldati, produzione di carrelli, documenti ECWS.</p>
+          <div class="card-meta">
+            <span>2026-02-20</span>
+            <span data-i18n="blog_demiryolu_kaynak_read">10 min di lettura</span>
+          </div>
+          <a href="demiryolu-kaynak-en15085.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_otomotiv_yan_card_tag">Settore automotive</div>
+          <h2 data-i18n="blog_otomotiv_yan_card_h2">Soluzioni di saldatura per fornitori automotive: IATF 16949 e PPAP</h2>
+          <p data-i18n="blog_otomotiv_yan_card_p">Carpenteria metallica saldata per fornitori automotive, sistema qualità IATF 16949, processo PPAP, saldatura robotizzata, applicazioni di saldatura MAG e laser.</p>
+          <div class="card-meta">
+            <span>2026-02-15</span>
+            <span data-i18n="blog_otomotiv_yan_read">9 min di lettura</span>
+          </div>
+          <a href="otomotiv-yan-sanayi-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_tarim_makinesi_kaynak_tag">Macchine agricole</div>
+          <h2 data-i18n="blog_tarim_makinesi_kaynak_h1">Carpenteria saldata per macchine agricole</h2>
+          <p data-i18n="blog_tarim_makinesi_kaynak_meta_desc">Saldatura per macchine agricole: aratri, seminatrici, rimorchi, telai per mietitrebbie. Subfornitura e produzione in serie da ArmaWeld, Konya.</p>
+          <div class="card-meta">
+            <span>2026-02-10</span>
+            <span data-i18n="blog_tarim_makinesi_kaynak_read">7 min di lettura</span>
+          </div>
+          <a href="tarim-makinesi-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_isi_girdisi_card_tag">Ingegneria della saldatura</div>
+          <h2 data-i18n="blog_kaynak_isi_girdisi_card_h2">Calcolo e ottimizzazione dell'apporto termico in saldatura</h2>
+          <p data-i18n="blog_kaynak_isi_girdisi_card_p">Che cos'è l'apporto termico in saldatura, come si calcola, formula EN ISO 1011, effetti sulla microstruttura, relazione con deformazioni e proprietà meccaniche.</p>
+          <div class="card-meta">
+            <span>2026-02-05</span>
+            <span data-i18n="blog_kaynak_isi_girdisi_read">8 min di lettura</span>
+          </div>
+          <a href="kaynak-isi-girdisi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_enerji_sektoru_kaynak_tag">Settore energetico</div>
+          <h2 data-i18n="blog_enerji_sektoru_kaynak_h1">Carpenteria saldata nel settore energetico: eolico, solare, idroelettrico</h2>
+          <p data-i18n="blog_enerji_sektoru_kaynak_meta_desc">Carpenteria saldata per il settore energetico: componenti per turbine eoliche, strutture fotovoltaiche, quadri per idroelettrico. EN 1090 + EN ISO 3834-2.</p>
+          <div class="card-meta">
+            <span>2026-01-31</span>
+            <span data-i18n="blog_enerji_sektoru_kaynak_read">8 min di lettura</span>
+          </div>
+          <a href="enerji-sektoru-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_pwht_card_tag">Trattamento termico</div>
+          <h2 data-i18n="blog_pwht_card_h2">Trattamento termico post-saldatura (PWHT): distensione e ricottura</h2>
+          <p data-i18n="blog_pwht_card_p">Che cos'è il trattamento termico post-saldatura PWHT, distensione e ricottura, requisiti EN 13445 e ASME VIII, temperatura e durata.</p>
+          <div class="card-meta">
+            <span>2026-01-26</span>
+            <span data-i18n="blog_pwht_read">9 min di lettura</span>
+          </div>
+          <a href="kaynak-sonrasi-isil-islem-pwht.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_robotik_kaynak_uretim_tag">Saldatura robotizzata · Produzione in serie</div>
+          <h2 data-i18n="blog_robotik_kaynak_uretim_h1">Produzione in serie con saldatura robotizzata</h2>
+          <p data-i18n="blog_robotik_kaynak_uretim_meta_desc">Produzione in serie con saldatura robotizzata: ripetibilità, tempo ciclo, programmazione e applicazioni. Le celle di saldatura robotizzata di ArmaWeld.</p>
+          <div class="card-meta">
+            <span>2026-01-21</span>
+            <span data-i18n="blog_robotik_kaynak_uretim_read">7 min di lettura</span>
+          </div>
+          <a href="robotik-kaynak-uretim.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card2_tag">Acciaio ad alta resistenza</div>
+          <h2 data-i18n="blog_card2_h2">Parametri di saldatura dell'S960QL: preriscaldo, apporto termico e WPS</h2>
+          <p data-i18n="blog_card2_p">I parametri critici per saldare l'acciaio ad altissima resistenza S960QL: calcolo del CEV, materiale d'apporto H5 obbligatorio e controllo della temperatura interpass.</p>
+          <div class="card-meta">
+            <span>2026-01-16</span>
+            <span data-i18n="blog_s960_read">10 min di lettura</span>
+          </div>
+          <a href="s960ql-kaynak-parametreleri.html" class="card-link" data-i18n="blog_card2_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_paslanmaz_celik_imalat_tag">Acciaio inossidabile · Igienico</div>
+          <h2 data-i18n="blog_paslanmaz_celik_imalat_h1">Carpenteria saldata in acciaio inossidabile: alimentare, farmaceutico, chimico</h2>
+          <p data-i18n="blog_paslanmaz_celik_imalat_meta_desc">Carpenteria saldata in acciaio inossidabile: saldatura di 304/316L, applicazioni alimentari, farmaceutiche e chimiche, requisiti superficiali e igienici.</p>
+          <div class="card-meta">
+            <span>2026-01-11</span>
+            <span data-i18n="blog_paslanmaz_celik_imalat_read">8 min di lettura</span>
+          </div>
+          <a href="paslanmaz-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_insaat_celik_imalat_tag">Edilizia · Acciaio strutturale</div>
+          <h2 data-i18n="blog_insaat_celik_imalat_h1">Carpenteria metallica saldata per il settore edile</h2>
+          <p data-i18n="blog_insaat_celik_imalat_meta_desc">Carpenteria metallica saldata per l'edilizia: EN 1090 EXC2/EXC3, sistemi portanti, saldatura in officina e in cantiere. ArmaWeld, con sede a Konya.</p>
+          <div class="card-meta">
+            <span>2026-01-06</span>
+            <span data-i18n="blog_insaat_celik_imalat_read">7 min di lettura</span>
+          </div>
+          <a href="insaat-celik-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card3_tag">Norme e certificazione</div>
+          <h2 data-i18n="blog_card3_h2">Cos'è la EN 1090 EXC3? Guida alla marcatura CE delle strutture in acciaio</h2>
+          <p data-i18n="blog_card3_p">La differenza tra EN 1090-1 ed EN 1090-2, le classi di esecuzione EXC1–EXC4 e i passaggi necessari per ottenere la certificazione CE.</p>
+          <div class="card-meta">
+            <span>2025-12-28</span>
+            <span data-i18n="blog_exc3_read">7 min di lettura</span>
+          </div>
+          <a href="en-1090-exc3-nedir.html" class="card-link" data-i18n="blog_card3_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_zirhli_arac_kaynak_tag">Difesa · Veicoli blindati</div>
+          <h2 data-i18n="blog_zirhli_arac_kaynak_h1">Saldatura di veicoli blindati e piattaforme per la difesa</h2>
+          <p data-i18n="blog_zirhli_arac_kaynak_meta_desc">Saldatura di veicoli blindati: livelli STANAG 4569, parametri per acciai balistici ARMOX/MARS e criteri di accettazione balistica delle saldature.</p>
+          <div class="card-meta">
+            <span>2025-12-15</span>
+            <span data-i18n="blog_zirhli_arac_kaynak_read">9 min di lettura</span>
+          </div>
+          <a href="zirhli-arac-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_boru_profil_imalat_tag">Tubi e profilati</div>
+          <h2 data-i18n="blog_boru_profil_imalat_h1">Fabbricazione di tubi e profilati saldati</h2>
+          <p data-i18n="blog_boru_profil_imalat_meta_desc">Fabbricazione di tubi e profilati saldati: profilati cavi, tubi rettangolari, processi di produzione dei tubi saldati e applicazioni.</p>
+          <div class="card-meta">
+            <span>2025-12-02</span>
+            <span data-i18n="blog_boru_profil_imalat_read">7 min di lettura</span>
+          </div>
+          <a href="boru-profil-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hidrolik_sistem_imalat_tag">Idraulica · Pneumatica</div>
+          <h2 data-i18n="blog_hidrolik_sistem_imalat_h1">Fabbricazione saldata di sistemi idraulici e pneumatici</h2>
+          <p data-i18n="blog_hidrolik_sistem_imalat_meta_desc">Carpenteria saldata di cilindri idraulici, serbatoi e manifold: resistenza alla pressione, tenuta, CND e processi di collaudo.</p>
+          <div class="card-meta">
+            <span>2025-11-19</span>
+            <span data-i18n="blog_hidrolik_sistem_imalat_read">7 min di lettura</span>
+          </div>
+          <a href="hidrolik-sistem-imalat.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_ce_isaretleme_kaynak_tag">CE · Norme</div>
+          <h2 data-i18n="blog_ce_isaretleme_kaynak_h1">Produzione saldata con marcatura CE: EN 1090 e PED</h2>
+          <p data-i18n="blog_ce_isaretleme_kaynak_meta_desc">Marcatura CE: requisiti e fasi del processo per la produzione saldata di carpenteria strutturale EN 1090 e attrezzature a pressione PED 2014/68/UE.</p>
+          <div class="card-meta">
+            <span>2025-11-06</span>
+            <span data-i18n="blog_ce_isaretleme_kaynak_read">8 min di lettura</span>
+          </div>
+          <a href="ce-isaretleme-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card15_tag">Qualità e misura</div>
+          <h2 data-i18n="blog_card15_h2">Tolleranze dimensionali nella carpenteria metallica: guida alla EN ISO 13920</h2>
+          <p data-i18n="blog_card15_p">Classi di tolleranza EN ISO 13920, metodi di misura e relazione con la EN 1090 EXC3.</p>
+          <div class="card-meta">
+            <span>2025-10-24</span>
+            <span data-i18n="blog_card15_read">Leggi l'articolo →</span>
+          </div>
+          <a href="boyutsal-tolerans.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_maliyet_optimizasyon_tag">Costi · Produttività</div>
+          <h2 data-i18n="blog_maliyet_optimizasyon_h1">Ottimizzazione dei costi nella produzione saldata</h2>
+          <p data-i18n="blog_maliyet_optimizasyon_meta_desc">Ottimizzazione dei costi nella produzione saldata: efficienza dei materiali, scelta del processo di saldatura, automazione e controllo dei costi della qualità.</p>
+          <div class="card-meta">
+            <span>2025-10-11</span>
+            <span data-i18n="blog_maliyet_optimizasyon_read">7 min di lettura</span>
+          </div>
+          <a href="maliyet-optimizasyon.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_hafif_celik_yapi_tag">Strutture leggere · Modulare</div>
+          <h2 data-i18n="blog_hafif_celik_yapi_h1">Strutture leggere in acciaio saldato</h2>
+          <p data-i18n="blog_hafif_celik_yapi_meta_desc">Strutture leggere in acciaio saldato: container, edifici modulari, produzione di cabine in acciaio. EN 1090 e soluzioni leggere.</p>
+          <div class="card-meta">
+            <span>2025-09-28</span>
+            <span data-i18n="blog_hafif_celik_yapi_read">6 min di lettura</span>
+          </div>
+          <a href="hafif-celik-yapi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card14_tag">Tecnologia di saldatura</div>
+          <h2 data-i18n="blog_card14_h2">FCAW (saldatura a filo animato): vantaggi, ottimizzazione dei parametri e applicazioni</h2>
+          <p data-i18n="blog_card14_p">Tipi di filo FCAW, confronto tra filo con gas di protezione e autoprotetto, ottimizzazione dei parametri e applicazioni nelle strutture in acciaio.</p>
+          <div class="card-meta">
+            <span>2025-09-15</span>
+            <span data-i18n="blog_card14_read">Leggi l'articolo →</span>
+          </div>
+          <a href="fcaw-ozlu-tel.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_madencilik_ekipman_kaynak_tag">Minerario · Macchine movimento terra</div>
+          <h2 data-i18n="blog_madencilik_ekipman_kaynak_h1">Produzione saldata per macchine minerarie e movimento terra</h2>
+          <p data-i18n="blog_madencilik_ekipman_kaynak_meta_desc">Saldatura per attrezzature minerarie: nastri trasportatori, vagli, benne, applicazioni con lamiere antiusura. Saldatura HARDOX e soluzioni antiusura.</p>
+          <div class="card-meta">
+            <span>2025-09-02</span>
+            <span data-i18n="blog_madencilik_ekipman_kaynak_read">7 min di lettura</span>
+          </div>
+          <a href="madencilik-ekipman-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_fason_kaynak_konya_tag">Conto terzi · Saldatura</div>
+          <h2 data-i18n="blog_fason_kaynak_konya_h1">Cos'è la saldatura conto terzi? Vantaggi e processo produttivo</h2>
+          <p data-i18n="blog_fason_kaynak_konya_meta_desc">Cos'è la saldatura conto terzi e perché gli OEM esternalizzano la carpenteria saldata? Vantaggi, processo produttivo passo dopo passo e perché Konya è ideale.</p>
+          <div class="card-meta">
+            <span>2025-08-20</span>
+            <span data-i18n="blog_fason_kaynak_konya_read">6 min di lettura</span>
+          </div>
+          <a href="fason-kaynak-konya.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card13_tag">Norme e certificazioni</div>
+          <h2 data-i18n="blog_card13_h2">Direttiva Attrezzature a Pressione (PED 2014/68/UE) e requisiti di saldatura</h2>
+          <p data-i18n="blog_card13_p">Campo di applicazione della PED, categorie I–IV, requisiti di saldatura per le attrezzature a pressione e ruolo dell'organismo notificato.</p>
+          <div class="card-meta">
+            <span>2025-08-07</span>
+            <span data-i18n="blog_card13_read">Leggi l'articolo →</span>
+          </div>
+          <a href="ped-direktifi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_kaynak_muhendisi_rolu_tag">Ingegnere di saldatura · IWE</div>
+          <h2 data-i18n="blog_kaynak_muhendisi_rolu_h1">Il ruolo dell'ingegnere di saldatura nei progetti di produzione saldata</h2>
+          <p data-i18n="blog_kaynak_muhendisi_rolu_meta_desc">Responsabilità dell'ingegnere di saldatura (IWE/EWE): gestione WPS/PQR, coordinamento della qualità, EN ISO 14731 e compiti di progetto.</p>
+          <div class="card-meta">
+            <span>2025-07-25</span>
+            <span data-i18n="blog_kaynak_muhendisi_rolu_read">7 min di lettura</span>
+          </div>
+          <a href="kaynak-muhendisi-rolu.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card12_tag">Tecnologia dei materiali</div>
+          <h2 data-i18n="blog_card12_h2">Le sfide della saldatura dell'alluminio: guida applicativa per le leghe 5083 e 6061</h2>
+          <p data-i18n="blog_card12_p">Strato di ossido e prevenzione della porosità nella saldatura dell'alluminio, confronto 5083 vs 6061, pulizia preliminare e scelta del filo d'apporto.</p>
+          <div class="card-meta">
+            <span>2025-07-12</span>
+            <span data-i18n="blog_card12_read">Leggi l'articolo →</span>
+          </div>
+          <a href="aluminyum-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card11_tag">Tecnologia di saldatura</div>
+          <h2 data-i18n="blog_card11_h2">SAW (saldatura ad arco sommerso): applicazioni su grossi spessori e ottimizzazione dei parametri</h2>
+          <p data-i18n="blog_card11_p">Processo SAW, tabella dei parametri, vantaggi dell'elevato tasso di deposito e applicazioni nella carpenteria strutturale pesante.</p>
+          <div class="card-meta">
+            <span>2025-06-20</span>
+            <span data-i18n="blog_card11_read">Leggi l'articolo →</span>
+          </div>
+          <a href="saw-tozalti-kaynagi.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card10_tag">Norme e certificazioni</div>
+          <h2 data-i18n="blog_card10_h2">Cos'è la EN ISO 3834-2? Fondamenti del sistema di gestione della qualità in saldatura</h2>
+          <p data-i18n="blog_card10_p">Requisiti di qualità estesi EN ISO 3834-2, differenze rispetto a 3834-3 e 3834-4 e relazione con la EN 1090.</p>
+          <div class="card-meta">
+            <span>2025-05-08</span>
+            <span data-i18n="blog_card10_read">Leggi l'articolo →</span>
+          </div>
+          <a href="en-iso-3834-2.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card9_tag">Tecnologia di saldatura</div>
+          <h2 data-i18n="blog_card9_h2">Saldatura TIG dell'acciaio inossidabile: leghe 304 e 316L</h2>
+          <p data-i18n="blog_card9_p">Saldatura TIG/GTAW degli acciai inossidabili 304 e 316L: parametri, gas di protezione, protezione al rovescio, prevenzione della sensibilizzazione e controllo delle deformazioni.</p>
+          <div class="card-meta">
+            <span>2025-03-26</span>
+            <span data-i18n="blog_card9_read">Leggi l'articolo →</span>
+          </div>
+          <a href="tig-paslanmaz-celik.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card8_tag">Acciaio ad alta resistenza</div>
+          <h2 data-i18n="blog_card8_h2">Tecniche di saldatura per l'acciaio antiusura HARDOX</h2>
+          <p data-i18n="blog_card8_p">Tabella di confronto HARDOX 400/450/500/600, criticità di saldatura, requisiti di preriscaldo, calcolo del CEV e scelta del materiale d'apporto.</p>
+          <div class="card-meta">
+            <span>2025-02-13</span>
+            <span data-i18n="blog_card8_read">Leggi l'articolo →</span>
+          </div>
+          <a href="hardox-kaynak.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card7_tag">Formatura e piegatura</div>
+          <h2 data-i18n="blog_card7_h2">Piegatura lamiera e fattore K: tolleranze e metodi di calcolo</h2>
+          <p data-i18n="blog_card7_p">Principi di piegatura della lamiera, fattore K, calcolo dello sviluppo di piega, valori K specifici per materiale e tolleranze EN ISO 2768.</p>
+          <div class="card-meta">
+            <span>2024-12-25</span>
+            <span data-i18n="blog_card7_read">Leggi l'articolo →</span>
+          </div>
+          <a href="sac-bukum-tolerans.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card6_tag">Tecnologie di taglio</div>
+          <h2 data-i18n="blog_card6_h2">Taglio laser vs taglio plasma: guida alla scelta del metodo giusto</h2>
+          <p data-i18n="blog_card6_p">Campi di spessore, tolleranze, qualità del bordo, zona termicamente alterata e confronto del costo per pezzo tra taglio laser e plasma.</p>
+          <div class="card-meta">
+            <span>2024-11-07</span>
+            <span data-i18n="blog_card6_read">Leggi l'articolo →</span>
+          </div>
+          <a href="lazer-plazma-kesim.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card5_tag">Tecnologia di saldatura</div>
+          <h2 data-i18n="blog_card5_h2">Parametri di saldatura MIG/MAG: ottimizzazione di velocità filo, gas e tensione</h2>
+          <p data-i18n="blog_card5_p">Corrente, tensione, velocità di avanzamento filo, miscele di gas di protezione e scelta del modo di trasferimento nella saldatura GMAW/MAG.</p>
+          <div class="card-meta">
+            <span>2024-09-18</span>
+            <span data-i18n="blog_card5_read">Leggi l'articolo →</span>
+          </div>
+          <a href="mig-mag-parametreleri.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <div class="card-tag" data-i18n="blog_card4_tag">Norme e certificazioni</div>
+          <h2 data-i18n="blog_card4_h2">Cos'è la WPS? Guida alla specifica di procedura di saldatura</h2>
+          <p data-i18n="blog_card4_p">La base normativa della WPS, i suoi contenuti, la relazione WPS/WPQR e il processo di qualifica secondo EN ISO 15614-1.</p>
+          <div class="card-meta">
+            <span>2024-07-30</span>
+            <span data-i18n="blog_card4_read">Leggi l'articolo →</span>
+          </div>
+          <a href="wps-nedir.html" class="card-link" data-i18n="blog_back_read">Leggi l'articolo →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<script src="../../assets/lang/tr.js?v=202610033"></script>
+<script src="../../assets/i18n.js?v=202610292"></script>
+<script src="../../assets/chrome.js?v=202610262"></script>
+<script src="../../assets/analytics.js?v=20260530"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

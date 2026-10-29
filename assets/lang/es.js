@@ -24,6 +24,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Fabricación por contrato',
+
+  footer_steel: 'Construcción metálica',
+
+  footer_chassis: 'Chasis y plumas',
+
+  footer_export: 'Exportación a Europa',
+
+  nav_export: 'Exportación a Europa',
   footer_kvkk: 'Privacidad / RGPD',
   cookie_title: 'Preferencias de cookies',
   cookie_text: 'Las cookies esenciales son necesarias para el funcionamiento del sitio. Las cookies analíticas solo se activan con su consentimiento y nos ayudan a medir el uso de forma anónima.',
@@ -845,8 +853,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   ndt_ut_c1: `Detección de defectos volumétricos`,
   ndt_ut_c2: `Profundidad de detección`,
   ndt_ut_c3: `Defectos superficiales`,
-  ndt_rt_i: `// 05 · RT — RADIOGRAFÍA (SUBCONTRATADA)`,
-  ndt_rt_p: `La radiación X o gamma atraviesa el material y se atenúa de manera distinta en los defectos, haciéndolos visibles en película o detectores digitales. Por seguridad, ArmaWeld lo realiza a través de un laboratorio asociado autorizado; los informes se incorporan a su expediente.`,
+  ndt_rt_i: `// 05 · RT — RADIOGRAFÍA (EXPOSICIÓN: SOCIO · EVALUACIÓN: INTERNA)`,
+  ndt_rt_p: `La radiación X o gamma atraviesa el material y se atenúa de manera distinta en los defectos, haciéndolos visibles en película o detectores digitales. La exposición de la película la realiza una empresa asociada autorizada; la evaluación y el informe los realiza nuestro personal RT interno de nivel 2 según EN ISO 9712, y los informes se añaden al expediente del pedido.`,
   ndt_rt_sub: `Inspección radiográfica`,
   ndt_rt_st1: `Preparación de seguridad de la fuente y del entorno`,
   ndt_rt_st2: `Colocación de película / detector digital`,
@@ -861,7 +869,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   ndt_rt_c2: `Defectos superficiales`,
   ndt_rt_c3: `Independencia del espesor`,
   ndt_foot_in: `SE REALIZA INTERNAMENTE`,
-  ndt_foot_out: `SUBCONTRATADO · SOCIO AUTORIZADO`,
+  ndt_foot_out: `EXPOSICIÓN: SOCIO AUTORIZADO · EVALUACIÓN: NIVEL 2 INTERNA`,
   ndt_foot_op: `● OPERATIVO`,
   ndt_foot_partner: `● LAB. SOCIO`,
   ndt_def1_h: `Fisura`,
@@ -963,7 +971,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   services_s05_f2: `PT — Líquidos penetrantes (EN ISO 3452)`,
   services_s05_f3: `MT — Partículas magnéticas (EN ISO 17638)`,
   services_s05_f4: `UT — Inspección por ultrasonidos (EN ISO 17640)`,
-  services_s05_f5: `RT — Inspección radiográfica (asociado) (EN ISO 17636)`,
+  services_s05_f5: `RT — Inspección radiográfica (exposición por socio, evaluación interna nivel 2) (EN ISO 17636)`,
   services_s05_f6: `Personal certificado Nivel 2 (EN ISO 9712)`,
   services_s05_btn: `Ir a la página END`,
   // === kaynak-yontemleri.html ek anahtarlar ===

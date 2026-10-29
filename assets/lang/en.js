@@ -25,6 +25,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Contract Welded Fabrication',
+
+  footer_steel: 'Steel Construction',
+
+  footer_chassis: 'Chassis & Boom Fabrication',
+
+  footer_export: 'Export to Europe',
+
+  nav_export: 'Export to Europe',
   footer_kvkk: 'Privacy / GDPR',
   cookie_title: 'Cookie preferences',
   cookie_text: 'Essential cookies are required for the site to work. Analytics cookies are only enabled with your consent and help us measure site usage anonymously.',
@@ -855,8 +863,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   ndt_ut_c1: `Volumetric Defect Detection`,
   ndt_ut_c2: `Detection Depth`,
   ndt_ut_c3: `Surface Defects`,
-  ndt_rt_i: `// 05 · RT — RADIOGRAPHY (OUTSOURCED)`,
-  ndt_rt_p: `X-ray or gamma radiation passes through the material and is attenuated differently at defects, making them visible on film or digital detectors. For safety reasons ArmaWeld carries this out via an authorised partner laboratory; reports are added to your job dossier.`,
+  ndt_rt_i: `// 05 · RT — RADIOGRAPHY (EXPOSURE: PARTNER · EVALUATION: IN-HOUSE)`,
+  ndt_rt_p: `X-ray or gamma radiation passes through the material and is attenuated differently at defects, making them visible on film or digital detectors. Film exposure is carried out by a licensed partner company; film evaluation and reporting are done by our in-house EN ISO 9712 Level 2 RT personnel, and reports are added to your job dossier.`,
   ndt_rt_sub: `Radiographic Testing`,
   ndt_rt_st1: `Source & area safety preparation`,
   ndt_rt_st2: `Film / digital detector placement`,
@@ -871,7 +879,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   ndt_rt_c2: `Surface Defects`,
   ndt_rt_c3: `Thickness Independence`,
   ndt_foot_in: `PERFORMED IN-HOUSE`,
-  ndt_foot_out: `OUTSOURCED · LICENSED PARTNER`,
+  ndt_foot_out: `EXPOSURE: LICENSED PARTNER · EVALUATION: LEVEL 2 IN-HOUSE`,
   ndt_foot_op: `● OPERATIONAL`,
   ndt_foot_partner: `● PARTNER LAB`,
   ndt_def1_h: `Crack`,
@@ -973,7 +981,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   services_s05_f2: `PT — Liquid Penetrant (EN ISO 3452)`,
   services_s05_f3: `MT — Magnetic Particle (EN ISO 17638)`,
   services_s05_f4: `UT — Ultrasonic Testing (EN ISO 17640)`,
-  services_s05_f5: `RT — Radiographic Testing (partner) (EN ISO 17636)`,
+  services_s05_f5: `RT — Radiographic Testing (exposure by partner, in-house Level 2 evaluation) (EN ISO 17636)`,
   services_s05_f6: `Level 2 certified personnel (EN ISO 9712)`,
   services_s05_btn: `Go to NDT page`,
   // === kaynak-yontemleri.html ek anahtarlar ===

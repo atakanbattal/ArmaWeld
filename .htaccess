@@ -18,10 +18,10 @@ ErrorDocument 404 /404.html
   RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
   RewriteRule ^(.*/)?index\.html$ https://www.armaweld.com/$1 [L,R=301]
 
-  # Dil adresleri (/en/, /de/, /es/, /fr/): çevirisi olmayan sayfa Türkçe asıl sayfaya gider
+  # Dil adresleri (/en/, /de/, /es/, /fr/, /it/, /nl/, /no/): çevirisi olmayan sayfa Türkçe asıl sayfaya gider
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(en|de|es|fr)/(.*)$ /$2 [R=302,L]
+  RewriteRule ^(en|de|es|fr|it|nl|no)/(.*)$ /$2 [R=302,L]
 
   # Eski/yanlış portal linklerini subdomain'e yönlendir
   RewriteRule ^login/?$ https://portal.armaweld.com/login [R=302,L]

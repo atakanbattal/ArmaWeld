@@ -24,6 +24,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Lohnfertigung Schweißen',
+
+  footer_steel: 'Stahlbau',
+
+  footer_chassis: 'Rahmen- & Auslegerbau',
+
+  footer_export: 'Export nach Europa',
+
+  nav_export: 'Export nach Europa',
   footer_kvkk: 'Datenschutz / DSGVO',
   cookie_title: 'Cookie-Einstellungen',
   cookie_text: 'Notwendige Cookies sind für den Betrieb der Website erforderlich. Analyse-Cookies werden nur mit Ihrer Einwilligung aktiviert und helfen uns, die Nutzung anonym zu messen.',
@@ -845,8 +853,8 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   ndt_ut_c1: `Volumenfehlererkennung`,
   ndt_ut_c2: `Erkennungstiefe`,
   ndt_ut_c3: `Oberflächenfehler`,
-  ndt_rt_i: `// 05 · RT — DURCHSTRAHLUNG (AUSGELAGERT)`,
-  ndt_rt_p: `Röntgen- oder Gammastrahlung durchdringt den Werkstoff und wird an Fehlerstellen unterschiedlich geschwächt, sodass diese auf Film- oder Digitaldetektoren sichtbar werden. Aus Sicherheitsgründen führt ArmaWeld dies über ein autorisiertes Partnerlabor durch; die Berichte werden Ihrer Auftragsmappe beigefügt.`,
+  ndt_rt_i: `// 05 · RT — RADIOGRAFIE (AUFNAHME: PARTNER · AUSWERTUNG: INTERN)`,
+  ndt_rt_p: `Röntgen- oder Gammastrahlung durchdringt den Werkstoff und wird an Fehlerstellen unterschiedlich geschwächt, sodass diese auf Film- oder Digitaldetektoren sichtbar werden. Die Filmaufnahme erfolgt durch ein lizenziertes Partnerunternehmen; Auswertung und Berichterstellung übernimmt unser eigenes RT-Personal der Stufe 2 nach EN ISO 9712, die Berichte werden Ihrer Auftragsmappe beigefügt.`,
   ndt_rt_sub: `Durchstrahlungsprüfung`,
   ndt_rt_st1: `Quellen- & Umgebungssicherheitsvorbereitung`,
   ndt_rt_st2: `Anbringen von Film / Digitaldetektor`,
@@ -861,7 +869,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   ndt_rt_c2: `Oberflächenfehler`,
   ndt_rt_c3: `Dickenunabhängigkeit`,
   ndt_foot_in: `IM HAUS DURCHGEFÜHRT`,
-  ndt_foot_out: `AUSGELAGERT · LIZENZIERTER PARTNER`,
+  ndt_foot_out: `AUFNAHME: LIZENZIERTER PARTNER · AUSWERTUNG: STUFE 2 INTERN`,
   ndt_foot_op: `● BETRIEBSBEREIT`,
   ndt_foot_partner: `● PARTNERLABOR`,
   ndt_def1_h: `Riss`,
@@ -963,7 +971,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   services_s05_f2: `PT — Eindringprüfung (EN ISO 3452)`,
   services_s05_f3: `MT — Magnetpulverprüfung (EN ISO 17638)`,
   services_s05_f4: `UT — Ultraschallprüfung (EN ISO 17640)`,
-  services_s05_f5: `RT — Durchstrahlungsprüfung (Partner) (EN ISO 17636)`,
+  services_s05_f5: `RT — Durchstrahlungsprüfung (Aufnahme durch Partner, interne Auswertung Stufe 2) (EN ISO 17636)`,
   services_s05_f6: `Personal mit Stufe-2-Zertifikat (EN ISO 9712)`,
   services_s05_btn: `Zur ZfP-Seite`,
   // === kaynak-yontemleri.html ek anahtarlar ===

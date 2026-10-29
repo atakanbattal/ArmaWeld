@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="kf_title">Konya Fason Kaynak Hizmeti | ArmaWeld — Subcontract Kaynaklı İmalat</title>
-<meta name="description" data-i18n="kf_meta_desc" content="Konya'da fason kaynak hizmeti arıyorsanız ArmaWeld doğru adres. EN 1090 & ISO 3834-2 belgeli, Konya OSB'den MIG/MAG, TIG, robot kaynak ve fason imalat. Hemen teklif alın." />
+<title data-i18n="kf_title">Konya Fason Kaynak Hizmeti | Fason Kaynak İşleri — ArmaWeld</title>
+<meta name="description" data-i18n="kf_meta_desc" content="Konya fason kaynak hizmeti: şasi, bom, çelik konstrüksiyon ve makine parçalarında fason kaynak işleri. EN 1090 EXC3 ve ISO 3834-2 belgeli, MIG/MAG, TIG ve tozaltı kaynak. 48 saatte teklif." />
 <meta name="robots" content="index, follow" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261005">
 <link rel="icon" type="image/x-icon" href="favicon.ico?v=20261005">
@@ -18,12 +18,15 @@
 <link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/konya-fason-kaynak.html" />
 <link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/konya-fason-kaynak.html" />
 <link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/konya-fason-kaynak.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/konya-fason-kaynak.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/konya-fason-kaynak.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/konya-fason-kaynak.html" />
 <link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/konya-fason-kaynak.html" />
 <!-- /aw:hreflang -->
 <script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
 <meta property="og:type" content="website" />
 <meta property="og:title" data-i18n="kf_og_title" content="Konya Fason Kaynak Hizmeti | ArmaWeld" />
-<meta property="og:description" data-i18n="kf_meta_desc" content="Konya'da fason kaynak hizmeti: EN 1090 & ISO 3834-2 belgeli fason kaynaklı imalat. Konya OSB'den MIG/MAG, TIG, robot kaynak." />
+<meta property="og:description" data-i18n="kf_meta_desc" content="Konya fason kaynak hizmeti: şasi, bom, çelik konstrüksiyon ve makine parçalarında fason kaynak işleri. EN 1090 EXC3 ve ISO 3834-2 belgeli, MIG/MAG, TIG ve tozaltı kaynak. 48 saatte teklif." />
 <meta property="og:url" content="https://www.armaweld.com/konya-fason-kaynak.html" />
 <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
 <meta property="og:locale" content="tr_TR" />
@@ -82,6 +85,10 @@
   .sectors-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
   .sector-pill { background: var(--ink-2); border: 1px solid var(--ink-4); border-radius: 3px; padding: 16px 20px; font-size: 14px; color: var(--steel-2); font-weight: 500; }
   .sector-pill strong { display: block; color: var(--bone); font-weight: 700; margin-bottom: 4px; font-size: 15px; }
+  a.sector-pill { display: block; text-decoration: none; transition: border-color .2s; }
+  a.sector-pill:hover { border-color: #ff7a1a; }
+  a.sector-pill strong { margin-bottom: 0; }
+  .service-card p a, .sector-pill span a { color: #ff7a1a; }
 
   .faq-list { display: grid; gap: 0; }
   .faq-item { padding: 24px 0; border-bottom: 1px solid var(--ink-4); }
@@ -106,8 +113,18 @@
       "@type": "Service",
       "@id": "https://www.armaweld.com/konya-fason-kaynak.html#service",
       "name": "Konya Fason Kaynak Hizmeti",
-      "description": "Konya OSB'den fason kaynaklı imalat: MIG/MAG, TIG, robot kaynak, lazer kesim, CNC büküm. EN 1090 ve ISO 3834-2 belgeli üretim.",
-      "provider": {"@id": "https://www.armaweld.com/#organization"},
+      "description": "Konya'da çiziminize göre fason kaynak işleri: şasi, bom, çelik konstrüksiyon ve makine parçaları. MIG/MAG, TIG ve tozaltı kaynak, lazer kesim, CNC büküm. EN 1090 EXC3 ve EN ISO 3834-2 belgeli üretim.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.armaweld.com/#organization",
+        "name": "ArmaWeld",
+        "legalName": "ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.",
+        "url": "https://www.armaweld.com",
+        "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+        "telephone": "+905438400332",
+        "email": "info@armaweld.com",
+        "address": {"@type": "PostalAddress", "streetAddress": "Fevziçakmak Mah. 10758. Sk. No: 25/H", "addressLocality": "Karatay", "addressRegion": "Konya", "addressCountry": "TR"}
+      },
       "areaServed": [
         {"@type": "City", "name": "Konya"},
         {"@type": "Country", "name": "Türkiye"}
@@ -144,6 +161,16 @@
           "@type": "Question",
           "name": "EN 1090 belgesi neden önemlidir?",
           "acceptedAnswer": {"@type": "Answer", "text": "EN 1090, yapısal çelik ve alüminyum bileşenlerin CE işaretlemesi için zorunlu Avrupa standardıdır. Bu belge, ihracata yönelik ve kamu projelerinde ürünlerin piyasaya sürülebilmesi için gereklidir."}
+        },
+        {
+          "@type": "Question",
+          "name": "Fason kaynak fiyatı nasıl belirlenir?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Fiyat; malzeme, kaynak metrajı, parça adedi, kesim ve büküm ihtiyacı, NDT kapsamı ve istenen belgelere göre hesaplanır. Çizim ve adet bilgisini ilettiğinizde 48 saat içinde teklif verilir."}
+        },
+        {
+          "@type": "Question",
+          "name": "Konya dışından fason kaynak işi verebilir miyim?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Evet. Konya'daki tesisimizden Türkiye geneline ve ihracat müşterilerine üretim yapılır; sevkiyat ve teslim şekli teklif aşamasında netleştirilir."}
         }
       ]
     }
@@ -221,6 +248,39 @@
 </section>
 
 <section class="section">
+<div class="container">
+<div class="section-label" data-i18n="kf_s6_label">Fason Kaynak İşleri</div>
+<h2 class="section-title" data-i18n="kf_s6_title">Hangi Fason Kaynak İşlerini Yapıyoruz?</h2>
+<p class="section-desc" data-i18n="kf_s6_desc">Çiziminize göre tekli, numune veya seri parti fason kaynak işleri. Kesim, büküm, kaynak, muayene ve teslim dosyası tek tedarikçide.</p>
+<div class="services-grid">
+<div class="service-card">
+<h3 data-i18n="kf_j1_h">Makine Şasi ve Gövdeleri</h3>
+<p data-i18n="kf_j1_p">OEM üreticileri için şase, gövde, çerçeve ve özel aparatlar; tekrar edilebilir kaliteyle seri veya tekli üretim.</p>
+</div>
+<div class="service-card">
+<h3 data-i18n="kf_j2_h">İş Makinesi Parçaları</h3>
+<p data-i18n="kf_j2_p">Kova, bom, arka tampon ve ikmal kasası gibi parçalar; HARDOX, Strenx ve S700MC gibi yüksek mukavemetli çeliklerde.</p>
+</div>
+<div class="service-card">
+<h3 data-i18n="kf_j3_h">Çelik Konstrüksiyon Elemanları</h3>
+<p data-i18n="kf_j3_p">EN 1090-2 kapsamında EXC1–EXC3 kolon, kiriş, çatı makası, platform ve merdivenler; CE işaretli üretim.</p>
+</div>
+<div class="service-card">
+<h3 data-i18n="kf_j4_h">Uzun Dikişli Parçalar</h3>
+<p data-i18n-html="kf_j4_p">Bom, kutu kiriş ve şasi gibi uzun lineer dikişler <a href="tozalti-kaynak.html">35 m tozaltı kaynak makinemizde</a>.</p>
+</div>
+<div class="service-card">
+<h3 data-i18n="kf_j5_h">Paslanmaz ve Alüminyum Parçalar</h3>
+<p data-i18n="kf_j5_p">304, 316L paslanmaz ve 5083, 6082 alüminyumda TIG kaynaklı gövde ve proses ekipmanı parçaları.</p>
+</div>
+<div class="service-card">
+<h3 data-i18n="kf_j6_h">Kesim + Büküm + Kaynak Paketleri</h3>
+<p data-i18n="kf_j6_p">Lazer kesim, CNC büküm, kaynak ve mekanik montaj tek siparişte; parçalar montaja hazır teslim edilir.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section">
   <div class="container">
     <div class="two-col">
       <div>
@@ -278,6 +338,18 @@
   </div>
 </section>
 
+<section class="section">
+<div class="container">
+<div class="section-label" data-i18n="kf_s7_label">Neden ArmaWeld?</div>
+<h2 class="section-title" data-i18n="kf_s7_title">Fason Kaynakta Belgeli ve Takip Edilebilir Üretim</h2>
+<div class="sectors-grid">
+<div class="sector-pill"><strong data-i18n="kf_w1_h">Belgeli kaynak</strong><span data-i18n="kf_w1_p">EN 1090 EXC3 ve EN ISO 3834-2; onaylı WPS/WPQR ve EN ISO 9606-1 belgeli kaynakçılar.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_w2_h">Bünyede muayene</strong><span data-i18n="kf_w2_p">VT, PT, MT ve UT muayeneleri ISO 9712 Seviye 2 personelle bünyemizde yapılır.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_w3_h">48 saatte teklif</strong><span data-i18n="kf_w3_p">Çizim ve adet bilgisini ilettiğinizde 48 saat içinde teklif; NDA standart olarak imzalanır.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_w4_h">Siparişinizi canlı takip edin</strong><span data-i18n-html="kf_w4_p">Üretim aşaması, belgeler ve sevkiyat bilgisi <a href="musteri-portali.html">müşteri portalında</a>.</span></div>
+</div>
+</div>
+</section>
 <section class="section section-alt">
   <div class="container">
     <div class="section-label" data-i18n="kf_s4_label">Sektörler</div>
@@ -319,10 +391,48 @@
         <h3 data-i18n="kf_f5_q">Teslimatta hangi belgeler sağlanıyor?</h3>
         <p data-i18n="kf_f5_a">Her teslimatla birlikte ölçü raporu, NDT muayene belgesi (gerektiğinde), malzeme test sertifikası (EN 10204 3.1) ve kaynak prosedür uygunluk beyanı sunulmaktadır.</p>
       </div>
-    </div>
+    <div class="faq-item">
+<h3 data-i18n="kf_f6_q">Fason kaynak fiyatı nasıl belirlenir?</h3>
+<p data-i18n="kf_f6_a">Fiyat; malzeme, kaynak metrajı, parça adedi, kesim ve büküm ihtiyacı, NDT kapsamı ve istenen belgelere göre hesaplanır. Çizim ve adet bilgisini ilettiğinizde 48 saat içinde teklif verilir.</p>
+</div>
+<div class="faq-item">
+<h3 data-i18n="kf_f7_q">Konya dışından fason kaynak işi verebilir miyim?</h3>
+<p data-i18n="kf_f7_a">Evet. Konya'daki tesisimizden Türkiye geneline ve ihracat müşterilerine üretim yapılır; sevkiyat ve teslim şekli teklif aşamasında netleştirilir.</p>
+</div>
+</div>
   </div>
 </section>
 
+<section class="section">
+<div class="container">
+<div class="section-label" data-i18n="kf_s9_label">Fason Kaynak İşi Veren Firmalar İçin</div>
+<h2 class="section-title" data-i18n="kf_s9_title">Fason Kaynak İşi Vermeden Önce Bilmeniz Gerekenler</h2>
+<p class="section-desc" data-i18n="kf_s9_desc">Fason kaynak işi veren firmaların en sık sorduğu dört konu: fiyatı ne belirler, teklif için ne göndermeli, kalite nasıl güvence altına alınır, iş nasıl takip edilir.</p>
+<div class="sectors-grid">
+<div class="sector-pill"><strong data-i18n="kf_b1_h">Teklif için ne göndermeliyim?</strong><span data-i18n="kf_b1_p">Teknik resim (DWG/DXF/STEP/PDF), malzeme kalitesi, adet, istenen belgeler (3.1, NDT, DoP) ve teslim tarihi. Çizim yoksa numune parça veya el krokisiyle de başlanabilir.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_b2_h">Fason kaynak fiyatını ne belirler?</strong><span data-i18n="kf_b2_p">Malzeme, kaynak metrajı ve pozisyonu, parça adedi, kesim/büküm ihtiyacı, NDT kapsamı ve belge seti. Teklifimizde bu kalemler ayrı satırlarda görünür; karşılaştırma yaparken aynı kapsamı isteyin.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_b3_h">Kaliteyi nasıl güvence altına alırsınız?</strong><span data-i18n="kf_b3_p">Her iş için onaylı WPS, EN ISO 9606-1 belgeli kaynakçı ve NDT planı. Malzeme 3.1 sertifikasıyla girer; kaynak haritası ve muayene kayıtları parça seri numarasına bağlanır.</span></div>
+<div class="sector-pill"><strong data-i18n="kf_b4_h">İşimi nasıl takip ederim?</strong><span data-i18n="kf_b4_p">Sipariş onayıyla müşteri portalında hesabınız açılır: üretim aşaması, tahmini teslim, belgeler ve sevkiyat 7/24 görünür. Telefonla sormanıza gerek kalmaz.</span></div>
+</div>
+</div>
+</section>
+<section class="section section-alt">
+<div class="container">
+<div class="section-label" data-i18n="kf_s8_label">İlgili Sayfalar</div>
+<h2 class="section-title" data-i18n="kf_s8_title">Fason Kaynak Hizmetimizle İlgili Detaylar</h2>
+<div class="sectors-grid">
+<a class="sector-pill" href="kaynak-yontemleri.html"><strong data-i18n="kf_l1">MIG/MAG ve TIG kaynak yöntemleri</strong></a>
+<a class="sector-pill" href="tozalti-kaynak.html"><strong data-i18n="kf_l2">Tozaltı kaynak hizmeti (35 m)</strong></a>
+<a class="sector-pill" href="ndt.html"><strong data-i18n="kf_l3">NDT tahribatsız muayene</strong></a>
+<a class="sector-pill" href="kalite.html"><strong data-i18n="kf_l4">Kalite ve izlenebilirlik</strong></a>
+<a class="sector-pill" href="blog/fason-kaynak-tedarikci-secimi.html"><strong data-i18n="kf_l5">Fason kaynak tedarikçisi nasıl seçilir?</strong></a>
+<a class="sector-pill" href="blog/fason-kaynak-konya.html"><strong data-i18n="kf_l6">Fason kaynak nedir? Avantajları ve süreç</strong></a>
+<a class="sector-pill" href="celik-konstruksiyon.html"><strong data-i18n="kf_l7">Çelik konstrüksiyon imalatı (EN 1090 EXC3)</strong></a>
+<a class="sector-pill" href="sasi-bom-imalati.html"><strong data-i18n="kf_l8">Şasi ve bom imalatı</strong></a>
+<a class="sector-pill" href="avrupa-kaynakli-imalat.html"><strong data-i18n="kf_l9">Avrupa'ya ihracat: EN 1090 CE, İngilizce belge dosyası</strong></a>
+</div>
+</div>
+</section>
 <section class="cta-section">
   <div class="container">
     <h2 data-i18n="kf_cta_h">Konya'da fason kaynak ortağınız</h2>
@@ -340,7 +450,7 @@
   </div>
 </section>
 <script src="assets/lang/tr.js?v=202610033"></script>
-<script src="assets/i18n.js?v=202610270"></script>
+<script src="assets/i18n.js?v=202610292"></script>
 <script src="assets/chrome.js?v=202610262"></script>
 <script src="assets/analytics.js?v=20260526"></script>
 <script>mountChrome('landing', '');</script>

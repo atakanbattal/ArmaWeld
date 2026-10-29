@@ -1,10 +1,11 @@
-// Shared helpers for building per-language static pages (/en/, /de/, /es/, /fr/).
+// Shared helpers for building per-language static pages (/en/, /de/, /es/, /fr/, /it/, /nl/, /no/).
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-export const LANGS = ['en', 'de', 'es', 'fr'];
+// AW_LANGS=en,it limits a build to some languages (e.g. while a new bundle is being prepared).
+export const LANGS = process.env.AW_LANGS ? process.env.AW_LANGS.split(',') : ['en', 'de', 'es', 'fr', 'it', 'nl', 'no'];
 export const ALL_LANGS = ['tr', ...LANGS];
 
 // Mirrors the runtime load order in assets/i18n.js
