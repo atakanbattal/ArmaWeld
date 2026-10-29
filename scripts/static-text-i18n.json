@@ -742,5 +742,77 @@
     "de": "Lohnschweißen in Konya nach Ihrer Zeichnung: Rahmen, Ausleger, Stahlbauteile und Maschinenteile. MAG-, WIG- und UP-Schweißen, Laserschneiden, CNC-Biegen. Zertifiziert nach EN 1090 EXC3 und EN ISO 3834-2.",
     "es": "Soldadura por contrato en Konya según sus planos: chasis, plumas, estructuras de acero y piezas de maquinaria. MIG/MAG, TIG y arco sumergido, corte láser, plegado CNC. Certificación EN 1090 EXC3 y EN ISO 3834-2.",
     "fr": "Soudage en sous-traitance à Konya selon vos plans : châssis, flèches, charpente et pièces de machines. MIG/MAG, TIG et arc submergé, découpe laser, pliage CNC. Certifié EN 1090 EXC3 et EN ISO 3834-2."
+  },
+  "Çelik Konstrüksiyon İmalatı": {
+    "en": "Structural Steel Fabrication",
+    "de": "Stahlbau",
+    "es": "Fabricación de estructuras de acero",
+    "fr": "Fabrication de charpente métallique"
+  },
+  "Konya'da EN 1090-2 EXC3 belgeli, CE işaretli çelik konstrüksiyon imalatı: taşıyıcı çerçeve, platform, merdiven, çatı makası, ekipman kaidesi ve enerji yapıları.": {
+    "en": "EN 1090-2 EXC3 certified, CE-marked structural steel fabrication in Konya, Türkiye: load-bearing frames, platforms, stairs, roof trusses, equipment bases and energy structures.",
+    "de": "Nach EN 1090-2 EXC3 zertifizierter, CE-gekennzeichneter Stahlbau aus Konya, Türkei: Tragrahmen, Bühnen, Treppen, Dachbinder, Maschinenfundamente und Energiebauwerke.",
+    "es": "Fabricación de estructuras de acero certificada EN 1090-2 EXC3 con marcado CE en Konya, Turquía: pórticos, plataformas, escaleras, cerchas, bancadas y estructuras para energía.",
+    "fr": "Fabrication de charpente métallique certifiée EN 1090-2 EXC3 et marquée CE à Konya, Turquie : ossatures porteuses, plateformes, escaliers, fermes, châssis d'équipements et structures pour l'énergie."
+  },
+  "Şasi ve Bom İmalatı": {
+    "en": "Chassis and Boom Fabrication",
+    "de": "Rahmen- und Auslegerfertigung",
+    "es": "Fabricación de chasis y plumas",
+    "fr": "Fabrication de châssis et de flèches"
+  },
+  "Treyler ve lowbed şasi modülleri, vinç ve iş makinesi bomları, tarım römorku ve makine şasileri; S690QL, S960QL, Strenx ve HARDOX'ta onaylı WPS ile, Konya'dan montaja hazır teslim.": {
+    "en": "Trailer and lowbed chassis modules, crane and excavator booms, agricultural trailer and machine frames; welded to approved WPS in S690QL, S960QL, Strenx and HARDOX, delivered line-ready from Konya, Türkiye.",
+    "de": "Anhänger- und Tieflader-Rahmenmodule, Kran- und Baggerausleger, Rahmen für Landmaschinen und Maschinenbau; nach freigegebener WPS in S690QL, S960QL, Strenx und HARDOX, montagefertig aus Konya, Türkei.",
+    "es": "Módulos de chasis para remolques y góndolas, plumas de grúa y excavadora, bastidores agrícolas y de maquinaria; con WPS aprobados en S690QL, S960QL, Strenx y HARDOX, entregados listos para montar desde Konya, Turquía.",
+    "fr": "Modules de châssis de remorques et porte-engins, flèches de grues et de pelles, châssis agricoles et de machines ; soudés selon DMOS approuvés en S690QL, S960QL, Strenx et HARDOX, livrés prêts à monter depuis Konya, Turquie."
+  },
+  "Kaynaklı Şasi ve Bom İmalatı": {
+    "en": "Welded Chassis and Boom Fabrication",
+    "de": "Geschweißte Rahmen und Ausleger",
+    "es": "Fabricación soldada de chasis y plumas",
+    "fr": "Fabrication soudée de châssis et flèches"
+  },
+  "Sac Kesim, Büküm ve Kaynak": {
+    "en": "Sheet Metal Cutting, Bending and Welding",
+    "de": "Blechzuschnitt, Biegen und Schweißen",
+    "es": "Corte, plegado y soldadura de chapa",
+    "fr": "Découpe, pliage et soudage de tôle"
+  },
+  "Konya'da lazer ve plazma kesim, CNC abkant büküm, kaynak, NDT ve montaj tek siparişte. Kesim planı ve giriş kontrolü ArmaWeld'de; parçalar montaja hazır teslim edilir.": {
+    "en": "Laser and plasma cutting, CNC press-brake bending, welding, NDT and assembly in one order from Konya, Türkiye. Cutting plan and incoming inspection by ArmaWeld; parts delivered ready to assemble.",
+    "de": "Laser- und Plasmaschneiden, CNC-Abkanten, Schweißen, ZfP und Montage in einem Auftrag aus Konya, Türkei. Schnittplan und Eingangsprüfung bei ArmaWeld; montagefertige Lieferung.",
+    "es": "Corte láser y plasma, plegado CNC, soldadura, END y montaje en un solo pedido desde Konya, Turquía. Plan de corte y control de entrada en ArmaWeld; piezas entregadas listas para montar.",
+    "fr": "Découpe laser et plasma, pliage CNC, soudage, CND et montage en une seule commande depuis Konya, Turquie. Plan de coupe et contrôle d'entrée chez ArmaWeld ; pièces livrées prêtes à monter."
+  },
+  "Sac İşleme ve Kaynaklı İmalat": {
+    "en": "Sheet Metal Processing and Welded Fabrication",
+    "de": "Blechbearbeitung und Schweißfertigung",
+    "es": "Procesado de chapa y fabricación soldada",
+    "fr": "Travail de la tôle et mécano-soudure"
+  },
+  "Türkiye'den Avrupa'ya Kaynaklı İmalat": {
+    "en": "Contract Manufacturing from Türkiye for Europe",
+    "de": "Schweißkonstruktionen aus der Türkei für Europa",
+    "es": "Fabricación soldada desde Turquía para Europa",
+    "fr": "Mécano-soudure depuis la Turquie pour l'Europe"
+  },
+  "Avrupa'daki makine üreticileri ve müteahhitler için EN 1090 CE işaretli, EN ISO 3834-2 belgeli kaynaklı imalat; İngilizce belge dosyası, EXW/DAP teslim ve portalda canlı takip.": {
+    "en": "EN 1090 CE-marked, EN ISO 3834-2 certified welded fabrication for machine builders and contractors in Europe; English document file, EXW/DAP delivery and live tracking in the customer portal.",
+    "de": "CE-gekennzeichnete Schweißkonstruktionen nach EN 1090 und EN ISO 3834-2 für Maschinenbauer und Bauunternehmen in Europa; Dokumentation auf Englisch, Lieferung EXW/DAP und Live-Verfolgung im Kundenportal.",
+    "es": "Fabricación soldada con marcado CE EN 1090 y certificación EN ISO 3834-2 para fabricantes de maquinaria y contratistas en Europa; dossier en inglés, entrega EXW/DAP y seguimiento en vivo en el portal.",
+    "fr": "Mécano-soudure marquée CE EN 1090 et certifiée EN ISO 3834-2 pour les constructeurs de machines et entreprises en Europe ; dossier en anglais, livraison EXW/DAP et suivi en direct dans le portail client."
+  },
+  "İhracata Yönelik Kaynaklı İmalat": {
+    "en": "Export Welded Fabrication",
+    "de": "Schweißkonstruktionen für den Export",
+    "es": "Fabricación soldada para exportación",
+    "fr": "Mécano-soudure pour l'export"
+  },
+  "S235–S960 · HARDOX · Paslanmaz · Alüminyum": {
+    "en": "S235–S960 · HARDOX · Stainless · Aluminium",
+    "de": "S235–S960 · HARDOX · Edelstahl · Aluminium",
+    "es": "S235–S960 · HARDOX · Inoxidable · Aluminio",
+    "fr": "S235–S960 · HARDOX · Inox · Aluminium"
   }
 }

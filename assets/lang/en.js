@@ -25,6 +25,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Contract Welded Fabrication',
+
+  footer_steel: 'Steel Construction',
+
+  footer_chassis: 'Chassis & Boom Fabrication',
+
+  footer_export: 'Export to Europe',
+
+  nav_export: 'Export to Europe',
   footer_kvkk: 'Privacy / GDPR',
   cookie_title: 'Cookie preferences',
   cookie_text: 'Essential cookies are required for the site to work. Analytics cookies are only enabled with your consent and help us measure site usage anonymously.',

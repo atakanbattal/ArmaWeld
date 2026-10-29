@@ -24,6 +24,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Lohnfertigung Schweißen',
+
+  footer_steel: 'Stahlbau',
+
+  footer_chassis: 'Rahmen- & Auslegerbau',
+
+  footer_export: 'Export nach Europa',
+
+  nav_export: 'Export nach Europa',
   footer_kvkk: 'Datenschutz / DSGVO',
   cookie_title: 'Cookie-Einstellungen',
   cookie_text: 'Notwendige Cookies sind für den Betrieb der Website erforderlich. Analyse-Cookies werden nur mit Ihrer Einwilligung aktiviert und helfen uns, die Nutzung anonym zu messen.',

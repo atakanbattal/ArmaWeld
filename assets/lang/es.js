@@ -24,6 +24,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Fabricación por contrato',
+
+  footer_steel: 'Construcción metálica',
+
+  footer_chassis: 'Chasis y plumas',
+
+  footer_export: 'Exportación a Europa',
+
+  nav_export: 'Exportación a Europa',
   footer_kvkk: 'Privacidad / RGPD',
   cookie_title: 'Preferencias de cookies',
   cookie_text: 'Las cookies esenciales son necesarias para el funcionamiento del sitio. Las cookies analíticas solo se activan con su consentimiento y nos ayudan a medir el uso de forma anónima.',

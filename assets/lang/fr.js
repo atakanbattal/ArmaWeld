@@ -24,6 +24,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Fabrication en sous-traitance',
+
+  footer_steel: 'Construction métallique',
+
+  footer_chassis: 'Châssis & flèches',
+
+  footer_export: 'Export vers l\'Europe',
+
+  nav_export: 'Export vers l\'Europe',
   footer_kvkk: 'Confidentialité / RGPD',
   cookie_title: 'Préférences cookies',
   cookie_text: 'Les cookies essentiels sont nécessaires au fonctionnement du site. Les cookies analytiques ne sont activés qu\'avec votre consentement et nous aident à mesurer l\'usage de façon anonyme.',

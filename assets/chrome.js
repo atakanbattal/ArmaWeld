@@ -151,6 +151,7 @@ function buildNav(activePage, base) {
   ];
   const moreLinks = [
     { id: 'musteri-portali', i18n: 'nav_portal_page', href: b + 'musteri-portali.html' },
+    { id: 'ihracat',     i18n: 'nav_export',   href: b + 'avrupa-kaynakli-imalat.html' },
     { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
     { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
     { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
@@ -273,9 +274,12 @@ function buildFooter(base) {
           <ul>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s1"></a></li>
             <li><a href="${b}konya-fason-kaynak.html" data-i18n="footer_fason"></a></li>
-            <li><a href="${b}hizmetler.html" data-i18n="footer_s2"></a></li>
-            <li><a href="${b}hizmetler.html" data-i18n="footer_s3"></a></li>
+            <li><a href="${b}celik-konstruksiyon.html" data-i18n="footer_steel"></a></li>
+            <li><a href="${b}sasi-bom-imalati.html" data-i18n="footer_chassis"></a></li>
+            <li><a href="${b}sac-kesim-bukum.html" data-i18n="footer_s2"></a></li>
+            <li><a href="${b}sac-kesim-bukum.html" data-i18n="footer_s3"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s4"></a></li>
+            <li><a href="${b}avrupa-kaynakli-imalat.html" data-i18n="footer_export"></a></li>
             <li><a href="${b}muhendislik.html" data-i18n="footer_s7"></a></li>
             <li><a href="${b}kaynak-yontemleri.html" data-i18n="footer_s5"></a></li>
             <li><a href="${b}tozalti-kaynak.html" data-i18n="footer_saw"></a></li>

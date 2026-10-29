@@ -27,6 +27,14 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
   footer_fason: 'Fason Kaynaklı İmalat',
+
+  footer_steel: 'Çelik Konstrüksiyon',
+
+  footer_chassis: 'Şasi & Bom İmalatı',
+
+  footer_export: 'Avrupa\'ya İhracat',
+
+  nav_export: 'Avrupa\'ya İhracat',
   footer_kvkk: 'KVKK / Gizlilik',
   cookie_title: 'Çerez tercihleri',
   cookie_text: 'Sitemizin çalışması için zorunlu çerezler kullanılır. Analitik çerezler yalnızca onayınızla etkinleşir ve site kullanımını anonim olarak ölçmemize yardımcı olur.',
