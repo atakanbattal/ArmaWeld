@@ -52,7 +52,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   // ── Home ──
   home_hero_eyebrow: 'EN 1090 · EN ISO 3834-2 · ISO 9001',
   home_hero_h1: 'Kaynaklı<br/>İmalat.',
-  home_hero_lede: 'EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. Sac kesim, büküm ve montaj adımları proje planına entegre koordine edilir — S235\'ten Strenx 1100\'e onaylı WPS ve belgeli kaynakçılar.',
+  home_hero_lede: "EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. S235'ten Strenx 1100'e her çelik grubu için onaylı WPS ve belgeli kaynakçılar.",
   home_hero_cta1: 'Teklif Formu', home_hero_cta2: 'Hizmetlerimiz',
   home_hero_cta_portal: 'Müşteri Portalına Giriş',
   home_trace_portal_h: 'Siparişinizi canlı takip edin.',
@@ -265,6 +265,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   cine_b3_h: "Her dikiş muayeneli.",
   cine_b3_p: "VT, PT, MT ve UT muayeneleri bünyemizde. Her parça raporuyla teslim edilir.",
   cine_scroll: "Kaydırın",
+  cine_replay: "Videoyu tekrar oynat",
 
   // ── Hizmetler bölümü (index) ──
   home_svc_h2: 'Metal işleme süreçleri <span style="color:var(--arc-2)">mühendislik</span> disipliniyle uçtan uca yönetilir.',
