@@ -247,6 +247,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   cine_b3_p: "VT, PT, MT y UT en nuestras instalaciones. Cada pieza se entrega con su informe.",
   cine_scroll: "Desliza",
   cine_replay: "Volver a ver el vídeo",
+  cine_play: "Ver el vídeo",
   home_svc_h2: 'Gestionamos los procesos de transformación metálica <span style="color:var(--arc-2)">con disciplina de ingeniería</span> de principio a fin.',
   home_svc_r1_name: 'Fabricación soldada', home_svc_r1_brief: 'De S235 a Strenx 1100, S690QL y S960QL a HARDOX — fabricación fiable en todos los grupos de acero incl. inoxidable y aluminio con WPS aprobada.',
   home_svc_r2_name: 'Corte de chapa & procesado de perfiles', home_svc_r2_brief: 'Acero al carbono, inoxidable, Hardox, Strenx y aluminio — corte tolerado y preparación lista para soldar según plano técnico.',

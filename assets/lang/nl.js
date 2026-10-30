@@ -74,6 +74,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.nl={
  "cine_b3_p": "VT, PT, MT en UT in eigen huis. Elk onderdeel wordt geleverd met keuringsrapport.",
  "cine_scroll": "Scroll",
  cine_replay: "Video opnieuw afspelen",
+ cine_play: "Bekijk de film",
  "home_hero_lede": "Gelaste constructies en NDO, gecertificeerd volgens EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 en ISO 45001. Van S235 tot Strenx 1100: goedgekeurde WPS en gecertificeerde lassers voor elke staalgroep.",
  "home_hero_cta1": "Offerte aanvragen",
  "home_hero_cta2": "Onze diensten",

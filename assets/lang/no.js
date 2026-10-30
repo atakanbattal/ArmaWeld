@@ -74,6 +74,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.no={
  "cine_b3_p": "VT, PT, MT og UT utføres internt. Hver del leveres med kontrollrapport.",
  "cine_scroll": "Rull",
  cine_replay: "Spill av videoen på nytt",
+ cine_play: "Se filmen",
  "home_hero_lede": "Sveiset fabrikasjon og NDT sertifisert etter EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 og ISO 45001. Fra S235 til Strenx 1100: godkjente WPS og sertifiserte sveisere for hver stålgruppe.",
  "home_hero_cta1": "Be om tilbud",
  "home_hero_cta2": "Våre tjenester",

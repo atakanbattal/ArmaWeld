@@ -247,6 +247,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   cine_b3_p: "VT, PT, MT et UT réalisés en interne. Chaque pièce est livrée avec son rapport d'essai.",
   cine_scroll: "Faites défiler",
   cine_replay: "Revoir la vidéo",
+  cine_play: "Voir le film",
   home_svc_h2: 'Nous pilotons les processus de transformation métallique <span style="color:var(--arc-2)">avec discipline d\'ingénierie</span> de bout en bout.',
   home_svc_r1_name: 'Fabrication soudée', home_svc_r1_brief: 'De S235 à Strenx 1100, S690QL et S960QL à HARDOX — fabrication fiable dans tous les groupes d\'acier incl. inox et aluminium avec WPS approuvées.',
   home_svc_r2_name: 'Découpe de tôle & profilage', home_svc_r2_brief: 'Acier au carbone, inox, Hardox, Strenx et aluminium — découpe tolérancée et préparation prête à souder selon plan technique.',
