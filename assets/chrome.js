@@ -537,7 +537,7 @@ function injectMobileCSS(base) {
   const link = document.createElement('link');
   link.id = 'aw-mobile-css';
   link.rel = 'stylesheet';
-  link.href = assetRoot(base) + 'assets/mobile.css?v=202606191';
+  link.href = assetRoot(base) + 'assets/mobile.css?v=20261030b';
   document.head.appendChild(link);
 }
 

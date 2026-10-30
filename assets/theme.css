@@ -570,8 +570,7 @@ input:focus-visible, select:focus-visible, textarea:focus-visible {
 .footer-bottom span {
   min-width: 0;
   white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .footer-legal {
@@ -586,8 +585,7 @@ input:focus-visible, select:focus-visible, textarea:focus-visible {
   opacity: .6;
   line-height: 1.55;
   white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* ===== Language Switcher ===== */
@@ -1504,8 +1502,7 @@ body.has-cookie-banner {
   color: var(--bone);
   flex: 1;
   min-width: 0;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
   hyphens: auto;
 }
 .ref-quote-who {
@@ -1516,14 +1513,12 @@ body.has-cookie-banner {
   color: var(--steel-2);
   letter-spacing: .1em;
   line-height: 1.5;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Testimonials (projeler + shared) */
 .tm-quote {
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
   hyphens: auto;
   min-width: 0;
 }
@@ -1594,37 +1589,43 @@ body.has-cookie-banner {
 }
 @media (max-width: 480px) {
   /* Long German/Spanish words in headings hyphenate instead of overflowing */
-  h1, h2, h3, .display { -webkit-hyphens: auto; hyphens: auto; overflow-wrap: break-word; }
+  h1, h2, h3, .display { -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 10 4 4; overflow-wrap: break-word; }
   /* Two-up stat tiles: long words must break inside the tile */
   .fac-stat .l, .ts { overflow-wrap: break-word; -webkit-hyphens: auto; hyphens: auto; }
 }
 
-/* Home: service links as buttons instead of underlined inline links */
-.hero-fason-link {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
-  margin: 22px 0 0; font-size: 14px; color: var(--steel-2);
+/* Home: service links as an even button grid (fason first, then service pages) */
+.hf-grid {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px;
+  margin: 26px 0 30px;
 }
-.hero-fason-link.hero-fason-pages { margin-top: 12px; margin-bottom: 28px; }
-.hero-fason-link .hf-lbl {
+.hf-grid .hero-fason-link { display: contents; }
+.hf-grid .hf-lbl {
+  grid-column: 1 / -1; order: 0;
   font-family: var(--ff-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--steel-2); margin-right: 6px; flex-basis: 100%;
+  color: var(--steel-2);
 }
-.hero-fason-link a {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 10px 16px;
-  border: 1px solid var(--ink-4);
-  border-radius: 2px;
+.hf-grid .hero-fason-link:not(.hero-fason-pages) .hf-lbl { display: none; }
+.hf-grid .hero-fason-link a {
+  order: 2;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  min-height: 52px; padding: 12px 16px;
+  border: 1px solid var(--ink-4); border-radius: 2px;
   background: rgba(232,98,15,.04);
   color: var(--bone);
-  font-family: var(--ff-display); font-weight: 600; font-size: 14px;
+  font-family: var(--ff-display); font-weight: 600; font-size: 14px; line-height: 1.25;
   text-decoration: none;
-  transition: background .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+  transition: background .2s ease, border-color .2s ease, color .2s ease;
 }
-.hero-fason-link a::after { content: "→"; color: var(--arc-2); transition: transform .2s ease, color .2s ease; }
-.hero-fason-link a:hover, .hero-fason-link a:focus-visible {
-  background: var(--arc-2); border-color: var(--arc-2); color: #fff; transform: translateY(-1px);
+.hf-grid .hero-fason-link a::after { content: "\2192"; color: var(--arc-2); flex: none; transition: transform .2s ease, color .2s ease; }
+.hf-grid .hero-fason-link a:hover, .hf-grid .hero-fason-link a:focus-visible {
+  background: var(--arc-2); border-color: var(--arc-2); color: #fff;
 }
-.hero-fason-link a:hover::after, .hero-fason-link a:focus-visible::after { color: #fff; transform: translateX(3px); }
-.hero-fason-link:not(.hero-fason-pages) a { background: var(--arc-2); border-color: var(--arc-2); color: #fff; }
-.hero-fason-link:not(.hero-fason-pages) a::after { content: none; }
-.hero-fason-link:not(.hero-fason-pages) a:hover { background: var(--arc-3); border-color: var(--arc-3); }
+.hf-grid .hero-fason-link a:hover::after, .hf-grid .hero-fason-link a:focus-visible::after { color: #fff; transform: translateX(3px); }
+.hf-grid .hero-fason-link:not(.hero-fason-pages) a { order: 1; background: var(--arc-2); border-color: var(--arc-2); color: #fff; }
+.hf-grid .hero-fason-link:not(.hero-fason-pages) a::after { color: #fff; }
+.hf-grid .hero-fason-link:not(.hero-fason-pages) a:hover { background: var(--arc-3); border-color: var(--arc-3); }
+@media (max-width: 700px) {
+  .hf-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .hf-grid .hero-fason-link a { font-size: 13.5px; padding: 10px 12px; min-height: 56px; }
+}
