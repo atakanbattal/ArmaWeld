@@ -2404,8 +2404,6 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.it={
  "reel_2_d": "Colonne, travi e travature reticolari fino a EN 1090-2 EXC3, fabbricate nella nostra officina e consegnate pronte per la spedizione.",
  "reel_3_t": "Saldatura ad arco sommerso",
  "reel_3_d": "Lunghi cordoni lineari sulla nostra linea SAW da 35 m, in un solo piazzamento e con qualità ripetibile.",
- "reel_4_t": "Controlli CND",
- "reel_4_d": "VT, PT, MT e UT interni con personale di livello 2; ogni saldatura viene consegnata con rapporto.",
  "reel_more": "Scopri",
  "reel_hint_touch": "Scorrete, i video partono da soli",
  "px_svc_pages": "Pagine di dettaglio dei servizi: <a href=\"celik-konstruksiyon.html\">Fabbricazione di carpenteria metallica</a> · <a href=\"sasi-bom-imalati.html\">Fabbricazione di telai e bracci</a> · <a href=\"sac-kesim-bukum.html\">Taglio, piegatura e saldatura lamiera</a> · <a href=\"tozalti-kaynak.html\">Saldatura ad arco sommerso (35 m)</a> · <a href=\"ndt.html\">CND</a> · <a href=\"avrupa-kaynakli-imalat.html\">Export in Europa</a>",

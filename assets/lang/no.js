@@ -2404,8 +2404,6 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.no={
  "reel_2_d": "Søyler, bjelker og fagverk opp til EN 1090-2 EXC3, produsert i vårt verksted og levert klare for forsendelse.",
  "reel_3_t": "Pulverbuesveising",
  "reel_3_d": "Lange lineære sømmer på vår 35 m SAW-linje, i én oppspenning og med repeterbar kvalitet.",
- "reel_4_t": "NDT-kontroll",
- "reel_4_d": "VT, PT, MT og UT internt med nivå 2-personell; hver sveis leveres med rapport.",
  "reel_more": "Se mer",
  "reel_hint_touch": "Rull, videoene spilles av automatisk",
  "px_svc_pages": "Detaljerte tjenestesider: <a href=\"celik-konstruksiyon.html\">Fabrikasjon av stålkonstruksjoner</a> · <a href=\"sasi-bom-imalati.html\">Chassis- og bomfabrikasjon</a> · <a href=\"sac-kesim-bukum.html\">Platekutting, bøying og sveising</a> · <a href=\"tozalti-kaynak.html\">Pulverbuesveising (35 m)</a> · <a href=\"ndt.html\">NDT</a> · <a href=\"avrupa-kaynakli-imalat.html\">Eksport til Europa</a>",

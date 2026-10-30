@@ -2404,8 +2404,6 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.nl={
  "reel_2_d": "Kolommen, liggers en vakwerken tot EN 1090-2 EXC3, gefabriceerd in onze werkplaats en verzendklaar geleverd.",
  "reel_3_t": "Onderpoederlassen",
  "reel_3_d": "Lange lineaire naden op onze 35 m SAW-lijn, in één opspanning en met herhaalbare kwaliteit.",
- "reel_4_t": "NDO-inspectie",
- "reel_4_d": "VT, PT, MT en UT in eigen huis met niveau 2-personeel; elke las wordt met rapport geleverd.",
  "reel_more": "Bekijken",
  "reel_hint_touch": "Scroll, de video’s spelen vanzelf",
  "px_svc_pages": "Gedetailleerde dienstenpagina's: <a href=\"celik-konstruksiyon.html\">Staalbouw</a> · <a href=\"sasi-bom-imalati.html\">Fabricage van chassis en gieken</a> · <a href=\"sac-kesim-bukum.html\">Plaatsnijden, zetten en lassen</a> · <a href=\"tozalti-kaynak.html\">Onderpoederdeklassen (35 m)</a> · <a href=\"ndt.html\">NDO</a> · <a href=\"avrupa-kaynakli-imalat.html\">Export naar Europa</a>",

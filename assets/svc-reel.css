@@ -6,7 +6,7 @@
 .reel-hint::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--arc-2); box-shadow: 0 0 0 4px rgba(232,98,15,.18); }
 .reel-hint--touch { display: none; }
 @media (hover: none), (pointer: coarse) { .reel-hint--hover { display: none; } .reel-hint--touch { display: inline-flex; } }
-.reel-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.reel-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .reel-card {
   position: relative; display: block; overflow: hidden; border-radius: 3px;
   aspect-ratio: 3 / 4; background: #1b1714; color: #fff; text-decoration: none;
@@ -36,7 +36,8 @@
 .reel-play { position: absolute; top: 16px; right: 16px; z-index: 2; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: rgba(10,8,6,.45); border: 1px solid rgba(255,255,255,.35); transition: opacity .3s ease; }
 .reel-play svg { width: 12px; height: 12px; margin-left: 2px; fill: #fff; }
 .reel-card.is-playing .reel-play { opacity: 0; }
-@media (max-width: 1100px) { .reel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .reel-card { aspect-ratio: 4 / 3; } }
+@media (max-width: 1100px) { .reel-card { aspect-ratio: 4 / 5; } }
+@media (max-width: 860px) { .reel-grid { grid-template-columns: 1fr; } .reel-card { aspect-ratio: 4 / 3; } }
 @media (max-width: 640px) {
   .reel-grid { grid-template-columns: 1fr; gap: 12px; }
   .reel-card { aspect-ratio: 4 / 3; }
