@@ -63,7 +63,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.no={
  "footer_ver": "Ver. 2026.01 — Tyrkia",
  "home_hero_eyebrow": "EN 1090 · EN ISO 3834-2 · ISO 9001",
  "home_hero_h1": "Hver sveis bærer<br/>en ingeniørs<br/><span class=\"arc\">signatur.</span>",
- "cine_b1_k": "Konya · Sveiseverksted",
+ "cine_b1_k": "EN ISO 3834-2",
  "cine_b1_h": "Sertifisert sveising av tungt stål.",
  "cine_b1_p": "Kvalifiserte sveisere og godkjent WPS, nøyaktig etter tegning.",
  "cine_b2_k": "EN 1090-2 · EXC3",

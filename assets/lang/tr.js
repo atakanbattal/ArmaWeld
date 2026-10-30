@@ -255,7 +255,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   // ── Home hero (doğru metin) ──
   home_hero_h1: 'Her dikişin<br/>arkasında bir<br/><span class="arc">mühendis</span> imzası.',
-  cine_b1_k: "Konya · Kaynak Atölyesi",
+  cine_b1_k: "EN ISO 3834-2",
   cine_b1_h: "Ağır çelikte sertifikalı kaynak.",
   cine_b1_p: "Belgeli kaynakçılar ve onaylı WPS ile, çizime birebir imalat.",
   cine_b2_k: "EN 1090-2 · EXC3",

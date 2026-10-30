@@ -236,7 +236,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   contact_side_h: 'Pourquoi ArmaWeld ?',
 
   home_hero_h1: 'Derrière chaque cordon<br/>se cache la signature<br/>d\'un <span class="arc">ingénieur.</span>',
-  cine_b1_k: "Konya · Atelier de soudage",
+  cine_b1_k: "EN ISO 3834-2",
   cine_b1_h: "Soudage certifié pour acier lourd.",
   cine_b1_p: "Soudeurs qualifiés et WPS approuvé, fabrication conforme au plan.",
   cine_b2_k: "EN 1090-2 · EXC3",
