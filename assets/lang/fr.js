@@ -237,10 +237,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   home_hero_h1: 'Derrière chaque cordon<br/>se cache la signature<br/>d\'un <span class="arc">ingénieur.</span>',
   cine_b1_k: "Konya · Atelier de soudage",
-  cine_b1_h: "Le soudage, notre métier.",
-  cine_b1_p: "Nos soudeurs certifiés soudent des pièces lourdes en acier conformes au plan, avec WPS approuvé.",
+  cine_b1_h: "Soudage certifié pour acier lourd.",
+  cine_b1_p: "Soudeurs qualifiés et WPS approuvé, fabrication conforme au plan.",
   cine_b2_k: "EN 1090-2 · EXC3",
-  cine_b2_h: "Pièces lourdes, zéro compromis.",
+  cine_b2_h: "Grandes pièces, zéro compromis.",
   cine_b2_p: "Flèches, châssis et pièces porteuses. Procédés approuvés pour chaque nuance, de S235 à Strenx 1100.",
   cine_b3_k: "CND · Livraison avec rapport",
   cine_b3_h: "Chaque cordon contrôlé.",

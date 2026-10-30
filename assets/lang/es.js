@@ -237,10 +237,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   home_hero_h1: 'Detrás de cada<br/>cordón está la<br/><span class="arc">firma</span> de un ingeniero.',
   cine_b1_k: "Konya · Taller de soldadura",
-  cine_b1_h: "Soldar es nuestro oficio.",
-  cine_b1_p: "Nuestros soldadores certificados sueldan piezas pesadas de acero fieles al plano, con WPS aprobado.",
+  cine_b1_h: "Soldadura certificada para acero pesado.",
+  cine_b1_p: "Soldadores cualificados y WPS aprobado, fiel al plano.",
   cine_b2_k: "EN 1090-2 · EXC3",
-  cine_b2_h: "Piezas pesadas, sin concesiones.",
+  cine_b2_h: "Piezas grandes, sin concesiones.",
   cine_b2_p: "Plumas, chasis y piezas estructurales. Procedimientos aprobados para cada acero, de S235 a Strenx 1100.",
   cine_b3_k: "END · Entrega con informe",
   cine_b3_h: "Cada cordón, inspeccionado.",

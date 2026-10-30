@@ -237,10 +237,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   home_hero_h1: 'Hinter jeder Naht<br/>steckt die Unterschrift<br/>eines <span class="arc">Ingenieurs.</span>',
   cine_b1_k: "Konya · Schweißbetrieb",
-  cine_b1_h: "Schweißen ist unser Handwerk.",
-  cine_b1_p: "Unsere zertifizierten Schweißer fertigen schwere Stahlteile nach Zeichnung, mit freigegebener WPS.",
+  cine_b1_h: "Zertifiziertes Schweißen für schweren Stahl.",
+  cine_b1_p: "Geprüfte Schweißer und freigegebene WPS, exakt nach Zeichnung gefertigt.",
   cine_b2_k: "EN 1090-2 · EXC3",
-  cine_b2_h: "Schwere Teile, keine Kompromisse.",
+  cine_b2_h: "Große Teile, keine Kompromisse.",
   cine_b2_p: "Ausleger, Fahrgestelle und tragende Teile. Freigegebene Schweißverfahren für jeden Werkstoff, von S235 bis Strenx 1100.",
   cine_b3_k: "ZfP · Mit Prüfbericht",
   cine_b3_h: "Jede Naht geprüft.",

@@ -239,10 +239,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   home_hero_h1: 'Every weld bears<br/>an engineer\'s<br/><span class="arc">signature.</span>',
   cine_b1_k: "Konya · Welding shop",
-  cine_b1_h: "Welding is what we do.",
-  cine_b1_p: "Our certified welders weld heavy steel parts to drawing, with approved WPS.",
+  cine_b1_h: "Certified welding for heavy steel.",
+  cine_b1_p: "Qualified welders and approved WPS, built exactly to drawing.",
   cine_b2_k: "EN 1090-2 · EXC3",
-  cine_b2_h: "Heavy parts, no compromise.",
+  cine_b2_h: "Big parts, no compromise.",
   cine_b2_p: "Booms, chassis and load-bearing parts. Approved weld procedures for every grade, from S235 to Strenx 1100.",
   cine_b3_k: "NDT · Reported delivery",
   cine_b3_h: "Every seam inspected.",
