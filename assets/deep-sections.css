@@ -250,3 +250,20 @@
 .br-cmp td:last-child { color: var(--bone); }
 .deep-grid-4 .deep-card p { font-size: 13px; }
 @media (max-width: 1100px) and (min-width: 769px) { .deep-grid-4 { grid-template-columns: repeat(2, 1fr); } }
+
+/* Last cell of the cert grid: link card to the quality page (fills the empty 8th slot) */
+.cert-card--cta {
+  position: relative; text-decoration: none; color: inherit;
+  background: var(--arc-2);
+  transition: background .25s ease;
+}
+.cert-card--cta .cert-card-idx, .cert-card--cta .cert-card-scope { color: rgba(255,255,255,.75); }
+.cert-card--cta .cert-card-code { color: #fff; }
+.cert-card--cta .cert-card-desc { color: rgba(255,255,255,.88); }
+.cert-card--cta .cert-card-go {
+  margin-top: auto; align-self: flex-end;
+  font-family: var(--ff-display); font-size: 28px; line-height: 1; color: #fff;
+  transition: transform .25s ease;
+}
+.cert-card--cta:hover, .cert-card--cta:focus-visible { background: var(--arc-3, #c4520c); }
+.cert-card--cta:hover .cert-card-go { transform: translateX(6px); }

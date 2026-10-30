@@ -42,8 +42,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../assets/theme.css?v=20261030">
+<link rel="stylesheet" href="../assets/theme.css?v=20261030d">
 <link rel="stylesheet" href="../assets/cine-hero.css?v=20261030e">
+<link rel="stylesheet" href="../assets/svc-reel.css?v=20261030b">
 <style>
   /* ===== Hero ===== */
   .hero {
@@ -1034,7 +1035,6 @@
       max-width: none;
     }
   }
-  .hero-fason-link a { color: var(--arc-2); font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; }
 </style>
 <script type="application/ld+json">
 {
@@ -1284,8 +1284,10 @@
         <span>KONYA · TR</span>
       </div>
 
-      <p class="hero-fason-link" style="margin:18px 0 0;font-size:15px;color:var(--steel-2);" data-i18n-html="px_home_fason">¿Necesita piezas soldadas según sus planos? <a href="konya-fason-kaynak.html">Soldadura por contrato en Konya →</a></p>
-      <p class="hero-fason-link hero-fason-pages" style="margin:8px 0 0;font-size:14px;color:var(--steel-2);" data-i18n-html="px_home_pages">Páginas de servicios: <a href="celik-konstruksiyon.html">Construcción metálica</a> · <a href="sasi-bom-imalati.html">Chasis y plumas</a> · <a href="sac-kesim-bukum.html">Corte y plegado de chapa</a> · <a href="tozalti-kaynak.html">Arco sumergido</a> · <a href="avrupa-kaynakli-imalat.html">Exportación a Europa</a></p>
+      <div class="hf-grid">
+        <p class="hero-fason-link" data-i18n-html="px_home_fason"><span class="hf-lbl">¿Necesita piezas soldadas según sus planos?</span><a href="konya-fason-kaynak.html">Soldadura por contrato en Konya</a></p>
+        <p class="hero-fason-link hero-fason-pages" data-i18n-html="px_home_pages"><span class="hf-lbl">Páginas de servicios</span><a href="celik-konstruksiyon.html">Construcción metálica</a><a href="sasi-bom-imalati.html">Chasis y plumas</a><a href="sac-kesim-bukum.html">Corte y plegado de chapa</a><a href="tozalti-kaynak.html">Arco sumergido</a><a href="avrupa-kaynakli-imalat.html">Exportación a Europa</a></p>
+      </div>
 
       <div class="hero-stats">
         <div class="hero-stat">
@@ -1485,6 +1487,55 @@
   </div>
 </section>
 
+<!-- SERVICE REEL (video cards) -->
+<section class="reel section-pad" aria-labelledby="reel-h">
+  <div class="container">
+    <div class="reel-head">
+      <div>
+        <div class="eyebrow" data-i18n="reel_eyebrow">Desde el taller</div>
+        <h2 id="reel-h" class="display h2" data-i18n-html="reel_h2">Vea nuestro <span style="color: var(--arc-2);">trabajo.</span></h2>
+      </div>
+      <span class="reel-hint reel-hint--hover" data-i18n="reel_hint">Pase el cursor sobre una tarjeta para ver el vídeo</span>
+      <span class="reel-hint reel-hint--touch" data-i18n="reel_hint_touch">Desplácese y los vídeos se reproducen solos</span>
+    </div>
+    <div class="reel-grid">
+      <a class="reel-card" href="sasi-bom-imalati.html">
+        <img src="/assets/reel/sasi.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/sasi.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">01</span>
+          <h3 data-i18n="reel_1_t">Fabricación de chasis y plumas</h3>
+          <p data-i18n="reel_1_d">Chasis de remolque, plumas de maquinaria y bastidores portantes, soldados en utillaje con WPS aprobado.</p>
+          <span class="reel-more" data-i18n="reel_more">Ver</span>
+        </div>
+      </a>
+      <a class="reel-card" href="celik-konstruksiyon.html">
+        <img src="/assets/reel/celik.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/celik.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">02</span>
+          <h3 data-i18n="reel_2_t">Construcción metálica</h3>
+          <p data-i18n="reel_2_d">Pilares, vigas y cerchas hasta EN 1090-2 EXC3, fabricados en nuestro taller y entregados listos para el envío.</p>
+          <span class="reel-more" data-i18n="reel_more">Ver</span>
+        </div>
+      </a>
+      <a class="reel-card" href="tozalti-kaynak.html">
+        <img src="/assets/reel/tozalti.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/tozalti.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">03</span>
+          <h3 data-i18n="reel_3_t">Soldadura por arco sumergido</h3>
+          <p data-i18n="reel_3_d">Cordones lineales largos en nuestra línea SAW de 35 m, en un solo amarre y con calidad repetible.</p>
+          <span class="reel-more" data-i18n="reel_more">Ver</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- PERSONA PATHS -->
 <section class="aw-band aw-personas section-pad" style="background:var(--ink-0);">
   <div class="container">
@@ -1679,7 +1730,7 @@
   </div>
 </section>
 
-<link rel="stylesheet" href="../assets/deep-sections.css?v=202610261">
+<link rel="stylesheet" href="../assets/deep-sections.css?v=20261030a">
 <!-- NEDEN-ARMAWELD (kurumsal broşür 2026) -->
 <section class="deep-section alt" id="neden-armaweld">
   <div class="container">
@@ -2209,7 +2260,7 @@
   </div>
 </section>
 
-<link rel="stylesheet" href="../assets/deep-sections.css?v=202610261">
+<link rel="stylesheet" href="../assets/deep-sections.css?v=20261030a">
 
 <!-- CERTIFICATIONS -->
 <section class="deep-section compact certs-section alt">
@@ -2219,10 +2270,7 @@
       <h2 class="display h2" data-i18n-html="home_certs_h2">La <span style="color:var(--arc-2)">base documental</span> de una producción auditable.</h2>
     </div>
     <p class="certs-lede reveal" data-i18n="home_certs_lede">Cada proyecto se apoya en WPS aprobada, personal certificado y registros de calidad trazables. Los estándares siguientes se mantienen activos.</p>
-    <div class="reveal" data-i18n-html="deep_certs_badges_html"><div class="cert-grid"><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">01</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN 1090-2 <em>EXC3</em></h3><p class="cert-card-scope">Acero estructural · marcado CE</p><p class="cert-card-desc">Control de producción en fábrica y clase de ejecución EXC3 para estructuras portantes; entrega de DoP y expediente técnico.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">02</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 3834-2</h3><p class="cert-card-scope">Sistema de calidad en soldadura</p><p class="cert-card-desc">Marco de calidad que cubre WPS, WPQR, cualificación de soldadores y trazabilidad completa.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">03</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 9001:2015</h3><p class="cert-card-scope">Sistema de gestión de calidad</p><p class="cert-card-desc">Sistema corporativo basado en gestión por procesos, orientación al cliente y mejora continua.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">04</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 14001:2015</h3><p class="cert-card-scope">Sistema de gestión ambiental</p><p class="cert-card-desc">Gestión ambiental certificada: residuos, eficiencia de recursos y control del impacto ambiental.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">05</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 45001:2018</h3><p class="cert-card-scope">Seguridad y salud en el trabajo</p><p class="cert-card-desc">Sistema certificado de gestión de SST con evaluación de riesgos, gestión de EPI y auditorías.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">06</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 9712</h3><p class="cert-card-scope">Personal END Nivel 2</p><p class="cert-card-desc">Equipo certificado Nivel 2 in-house para inspecciones VT, PT, MT y UT.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">07</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 9606-1</h3><p class="cert-card-scope">Soldadores certificados</p><p class="cert-card-desc">Cualificaciones de soldadores para MAG, TIG y MMA por grupo de material y posición.</p></article></div></div>
-    <div class="cert-cta reveal">
-      <a href="kalite.html" class="btn btn-ghost" data-i18n="home_certs_link">Proceso de calidad y paquete documental →</a>
-    </div>
+    <div class="reveal" data-i18n-html="deep_certs_badges_html"><div class="cert-grid"><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">01</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN 1090-2 <em>EXC3</em></h3><p class="cert-card-scope">Acero estructural · marcado CE</p><p class="cert-card-desc">Control de producción en fábrica y clase de ejecución EXC3 para estructuras portantes; entrega de DoP y expediente técnico.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">02</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 3834-2</h3><p class="cert-card-scope">Sistema de calidad en soldadura</p><p class="cert-card-desc">Marco de calidad que cubre WPS, WPQR, cualificación de soldadores y trazabilidad completa.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">03</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 9001:2015</h3><p class="cert-card-scope">Sistema de gestión de calidad</p><p class="cert-card-desc">Sistema corporativo basado en gestión por procesos, orientación al cliente y mejora continua.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">04</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 14001:2015</h3><p class="cert-card-scope">Sistema de gestión ambiental</p><p class="cert-card-desc">Gestión ambiental certificada: residuos, eficiencia de recursos y control del impacto ambiental.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">05</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">ISO 45001:2018</h3><p class="cert-card-scope">Seguridad y salud en el trabajo</p><p class="cert-card-desc">Sistema certificado de gestión de SST con evaluación de riesgos, gestión de EPI y auditorías.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">06</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 9712</h3><p class="cert-card-scope">Personal END Nivel 2</p><p class="cert-card-desc">Equipo certificado Nivel 2 in-house para inspecciones VT, PT, MT y UT.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">07</span><span class="cert-card-status">Activa</span></div><h3 class="cert-card-code">EN ISO 9606-1</h3><p class="cert-card-scope">Soldadores certificados</p><p class="cert-card-desc">Cualificaciones de soldadores para MAG, TIG y MMA por grupo de material y posición.</p></article><a class="cert-card cert-card--cta" href="kalite.html"><div class="cert-card-head"><span class="cert-card-idx">08</span></div><h3 class="cert-card-code">Ver todos los documentos</h3><p class="cert-card-scope">Paquete documental</p><p class="cert-card-desc">Certificados, WPS/WPQR de muestra y el dossier de entrega en nuestra página de calidad.</p><span class="cert-card-go" aria-hidden="true">→</span></a></div></div>
   </div>
 </section>
 
@@ -2252,11 +2300,12 @@
   </div>
 </section>
 <script src="../assets/lang/tr.js?v=202610033"></script>
-<script src="../assets/i18n.js?v=202610292"></script>
-<script src="../assets/chrome.js?v=202610262"></script>
+<script src="../assets/i18n.js?v=20261030a"></script>
+<script src="../assets/chrome.js?v=20261030b"></script>
 <script src="../assets/sample-docs-data.js?v=202605253"></script>
 <script src="../assets/analytics.js?v=20260604"></script>
 <script src="../assets/cine-hero.js?v=20261030e"></script>
+<script src="../assets/svc-reel.js?v=20261030a" defer=""></script>
 <script>
   // Hero weld animation (runs immediately — viewBox coords scale on mobile)
   (function initHeroWeldAnim() {

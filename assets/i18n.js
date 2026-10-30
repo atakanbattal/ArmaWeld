@@ -4,7 +4,7 @@
   const STORAGE_KEY = 'armaweld-lang';
   const DEFAULT = 'tr';
   const SUPPORTED = ['tr', 'en', 'de', 'es', 'fr', 'it', 'nl', 'no'];
-  const BUNDLE_V = '202610292';
+  const BUNDLE_V = '20261030a';
 
   // Pages under /en/, /de/, /es/, /fr/ are built per language (scripts/build-lang-pages.mjs)
   // and carry their language on <html data-aw-page-lang>; Turkish pages live at the root.

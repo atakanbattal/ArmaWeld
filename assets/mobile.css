@@ -172,7 +172,7 @@ svg {
   }
 
   .faq-nav a {
-    grid-template-columns: 24px 1fr !important;
+    grid-template-columns: 24px 1fr auto !important;
   }
 }
 
@@ -242,6 +242,22 @@ h1,
 h2,
 h3,
 h4 {
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  /* break-word (not anywhere) only splits a word that cannot fit a line on its
+     own, so table columns size to whole words instead of breaking "Muhat-ap" */
+  overflow-wrap: break-word;
 }
+@media (max-width: 600px) {
+  .deep-table { font-size: 12.5px; }
+  .deep-table th, .deep-table td { padding: 10px 10px; }
+  .deep-table th { letter-spacing: .02em; }
+}
+
+/* Blog comparison tables: scroll sideways on phones instead of splitting words */
+@media (max-width: 600px) {
+  .comparison-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .comparison-table th, .comparison-table td { padding: 10px 12px; overflow-wrap: normal; }
+  .deep-table-wide td:last-child { overflow-wrap: normal; }
+}
+
+/* Hyphenate only longer words (DE/NL/NO compounds), never short ones like "Ver-trauen" */
+:root, :root * { hyphenate-limit-chars: 10 4 4; }

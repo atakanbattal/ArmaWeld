@@ -42,8 +42,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../assets/theme.css?v=20261030">
+<link rel="stylesheet" href="../assets/theme.css?v=20261030d">
 <link rel="stylesheet" href="../assets/cine-hero.css?v=20261030e">
+<link rel="stylesheet" href="../assets/svc-reel.css?v=20261030b">
 <style>
   /* ===== Hero ===== */
   .hero {
@@ -1034,7 +1035,6 @@
       max-width: none;
     }
   }
-  .hero-fason-link a { color: var(--arc-2); font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; }
 </style>
 <script type="application/ld+json">
 {
@@ -1284,8 +1284,10 @@
         <span>KONYA · TR</span>
       </div>
 
-      <p class="hero-fason-link" style="margin:18px 0 0;font-size:15px;color:var(--steel-2);" data-i18n-html="px_home_fason">Need parts welded to your drawings? <a href="konya-fason-kaynak.html">Contract welding in Konya →</a></p>
-      <p class="hero-fason-link hero-fason-pages" style="margin:8px 0 0;font-size:14px;color:var(--steel-2);" data-i18n-html="px_home_pages">Service pages: <a href="celik-konstruksiyon.html">Steel construction</a> · <a href="sasi-bom-imalati.html">Chassis and boom fabrication</a> · <a href="sac-kesim-bukum.html">Sheet cutting and bending</a> · <a href="tozalti-kaynak.html">Submerged arc welding</a> · <a href="avrupa-kaynakli-imalat.html">Export to Europe</a></p>
+      <div class="hf-grid">
+        <p class="hero-fason-link" data-i18n-html="px_home_fason"><span class="hf-lbl">Need parts welded to your drawings?</span><a href="konya-fason-kaynak.html">Contract welding in Konya</a></p>
+        <p class="hero-fason-link hero-fason-pages" data-i18n-html="px_home_pages"><span class="hf-lbl">Service pages</span><a href="celik-konstruksiyon.html">Steel construction</a><a href="sasi-bom-imalati.html">Chassis and boom fabrication</a><a href="sac-kesim-bukum.html">Sheet cutting and bending</a><a href="tozalti-kaynak.html">Submerged arc welding</a><a href="avrupa-kaynakli-imalat.html">Export to Europe</a></p>
+      </div>
 
       <div class="hero-stats">
         <div class="hero-stat">
@@ -1485,6 +1487,55 @@
   </div>
 </section>
 
+<!-- SERVICE REEL (video cards) -->
+<section class="reel section-pad" aria-labelledby="reel-h">
+  <div class="container">
+    <div class="reel-head">
+      <div>
+        <div class="eyebrow" data-i18n="reel_eyebrow">From the shop floor</div>
+        <h2 id="reel-h" class="display h2" data-i18n-html="reel_h2">See the <span style="color: var(--arc-2);">work.</span></h2>
+      </div>
+      <span class="reel-hint reel-hint--hover" data-i18n="reel_hint">Hover over a card to play the video</span>
+      <span class="reel-hint reel-hint--touch" data-i18n="reel_hint_touch">Scroll and the videos play on their own</span>
+    </div>
+    <div class="reel-grid">
+      <a class="reel-card" href="sasi-bom-imalati.html">
+        <img src="/assets/reel/sasi.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/sasi.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">01</span>
+          <h3 data-i18n="reel_1_t">Chassis and boom fabrication</h3>
+          <p data-i18n="reel_1_d">Trailer chassis, machinery booms and load-bearing frames, welded in fixtures to approved WPS.</p>
+          <span class="reel-more" data-i18n="reel_more">View</span>
+        </div>
+      </a>
+      <a class="reel-card" href="celik-konstruksiyon.html">
+        <img src="/assets/reel/celik.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/celik.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">02</span>
+          <h3 data-i18n="reel_2_t">Steel construction</h3>
+          <p data-i18n="reel_2_d">Columns, beams and trusses up to EN 1090-2 EXC3, fabricated in our shop and delivered ready to ship.</p>
+          <span class="reel-more" data-i18n="reel_more">View</span>
+        </div>
+      </a>
+      <a class="reel-card" href="tozalti-kaynak.html">
+        <img src="/assets/reel/tozalti.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720">
+        <video muted="" loop="" playsinline="" preload="none" disablepictureinpicture="" aria-hidden="true" data-src="/assets/reel/tozalti.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"></path></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">03</span>
+          <h3 data-i18n="reel_3_t">Submerged arc welding</h3>
+          <p data-i18n="reel_3_d">Long linear seams on our 35 m SAW line, in one setup, with repeatable quality.</p>
+          <span class="reel-more" data-i18n="reel_more">View</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- PERSONA PATHS -->
 <section class="aw-band aw-personas section-pad" style="background:var(--ink-0);">
   <div class="container">
@@ -1679,7 +1730,7 @@
   </div>
 </section>
 
-<link rel="stylesheet" href="../assets/deep-sections.css?v=202610261">
+<link rel="stylesheet" href="../assets/deep-sections.css?v=20261030a">
 <!-- NEDEN-ARMAWELD (kurumsal broşür 2026) -->
 <section class="deep-section alt" id="neden-armaweld">
   <div class="container">
@@ -2209,7 +2260,7 @@
   </div>
 </section>
 
-<link rel="stylesheet" href="../assets/deep-sections.css?v=202610261">
+<link rel="stylesheet" href="../assets/deep-sections.css?v=20261030a">
 
 <!-- CERTIFICATIONS -->
 <section class="deep-section compact certs-section alt">
@@ -2219,10 +2270,7 @@
       <h2 class="display h2" data-i18n-html="home_certs_h2">The <span style="color:var(--arc-2)">document backbone</span> of auditable production.</h2>
     </div>
     <p class="certs-lede reveal" data-i18n="home_certs_lede">Every project is built on approved WPS, certified personnel and traceable quality records. The standards below are actively maintained.</p>
-    <div class="reveal" data-i18n-html="deep_certs_badges_html"><div class="cert-grid"><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">01</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN 1090-2 <em>EXC3</em></h3><p class="cert-card-scope">Structural steel · CE marking</p><p class="cert-card-desc">Factory production control and EXC3 execution class for load-bearing steel fabrication; DoP and technical file delivery.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">02</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 3834-2</h3><p class="cert-card-scope">Welding quality system</p><p class="cert-card-desc">Welding quality framework covering WPS, WPQR, welder qualification and full traceability chain.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">03</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 9001:2015</h3><p class="cert-card-scope">Quality management system</p><p class="cert-card-desc">Corporate quality system built on process management, customer focus and continuous improvement.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">04</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 14001:2015</h3><p class="cert-card-scope">Environmental management system</p><p class="cert-card-desc">Certified environmental management covering waste handling, resource efficiency and environmental impact control.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">05</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 45001:2018</h3><p class="cert-card-scope">Occupational health &amp; safety</p><p class="cert-card-desc">Certified OH&amp;S management system with risk assessment, PPE management and site audits.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">06</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 9712</h3><p class="cert-card-scope">NDT Level 2 personnel</p><p class="cert-card-desc">In-house Level 2 certified team performing VT, PT, MT and UT inspections.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">07</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 9606-1</h3><p class="cert-card-scope">Certified welder workforce</p><p class="cert-card-desc">Welder qualifications for MAG, TIG and MMA by material group and welding position.</p></article></div></div>
-    <div class="cert-cta reveal">
-      <a href="kalite.html" class="btn btn-ghost" data-i18n="home_certs_link">Quality process and document pack →</a>
-    </div>
+    <div class="reveal" data-i18n-html="deep_certs_badges_html"><div class="cert-grid"><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">01</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN 1090-2 <em>EXC3</em></h3><p class="cert-card-scope">Structural steel · CE marking</p><p class="cert-card-desc">Factory production control and EXC3 execution class for load-bearing steel fabrication; DoP and technical file delivery.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">02</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 3834-2</h3><p class="cert-card-scope">Welding quality system</p><p class="cert-card-desc">Welding quality framework covering WPS, WPQR, welder qualification and full traceability chain.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">03</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 9001:2015</h3><p class="cert-card-scope">Quality management system</p><p class="cert-card-desc">Corporate quality system built on process management, customer focus and continuous improvement.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">04</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 14001:2015</h3><p class="cert-card-scope">Environmental management system</p><p class="cert-card-desc">Certified environmental management covering waste handling, resource efficiency and environmental impact control.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">05</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">ISO 45001:2018</h3><p class="cert-card-scope">Occupational health &amp; safety</p><p class="cert-card-desc">Certified OH&amp;S management system with risk assessment, PPE management and site audits.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">06</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 9712</h3><p class="cert-card-scope">NDT Level 2 personnel</p><p class="cert-card-desc">In-house Level 2 certified team performing VT, PT, MT and UT inspections.</p></article><article class="cert-card"><div class="cert-card-head"><span class="cert-card-idx">07</span><span class="cert-card-status">Active</span></div><h3 class="cert-card-code">EN ISO 9606-1</h3><p class="cert-card-scope">Certified welder workforce</p><p class="cert-card-desc">Welder qualifications for MAG, TIG and MMA by material group and welding position.</p></article><a class="cert-card cert-card--cta" href="kalite.html"><div class="cert-card-head"><span class="cert-card-idx">08</span></div><h3 class="cert-card-code">View all documents</h3><p class="cert-card-scope">Document pack</p><p class="cert-card-desc">Certificates, sample WPS/WPQR and the delivery file on our quality page.</p><span class="cert-card-go" aria-hidden="true">→</span></a></div></div>
   </div>
 </section>
 
@@ -2252,11 +2300,12 @@
   </div>
 </section>
 <script src="../assets/lang/tr.js?v=202610033"></script>
-<script src="../assets/i18n.js?v=202610292"></script>
-<script src="../assets/chrome.js?v=202610262"></script>
+<script src="../assets/i18n.js?v=20261030a"></script>
+<script src="../assets/chrome.js?v=20261030b"></script>
 <script src="../assets/sample-docs-data.js?v=202605253"></script>
 <script src="../assets/analytics.js?v=20260604"></script>
 <script src="../assets/cine-hero.js?v=20261030e"></script>
+<script src="../assets/svc-reel.js?v=20261030a" defer=""></script>
 <script>
   // Hero weld animation (runs immediately — viewBox coords scale on mobile)
   (function initHeroWeldAnim() {
