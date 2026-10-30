@@ -1598,3 +1598,33 @@ body.has-cookie-banner {
   /* Two-up stat tiles: long words must break inside the tile */
   .fac-stat .l, .ts { overflow-wrap: break-word; -webkit-hyphens: auto; hyphens: auto; }
 }
+
+/* Home: service links as buttons instead of underlined inline links */
+.hero-fason-link {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  margin: 22px 0 0; font-size: 14px; color: var(--steel-2);
+}
+.hero-fason-link.hero-fason-pages { margin-top: 12px; margin-bottom: 28px; }
+.hero-fason-link .hf-lbl {
+  font-family: var(--ff-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--steel-2); margin-right: 6px; flex-basis: 100%;
+}
+.hero-fason-link a {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--ink-4);
+  border-radius: 2px;
+  background: rgba(232,98,15,.04);
+  color: var(--bone);
+  font-family: var(--ff-display); font-weight: 600; font-size: 14px;
+  text-decoration: none;
+  transition: background .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+}
+.hero-fason-link a::after { content: "→"; color: var(--arc-2); transition: transform .2s ease, color .2s ease; }
+.hero-fason-link a:hover, .hero-fason-link a:focus-visible {
+  background: var(--arc-2); border-color: var(--arc-2); color: #fff; transform: translateY(-1px);
+}
+.hero-fason-link a:hover::after, .hero-fason-link a:focus-visible::after { color: #fff; transform: translateX(3px); }
+.hero-fason-link:not(.hero-fason-pages) a { background: var(--arc-2); border-color: var(--arc-2); color: #fff; }
+.hero-fason-link:not(.hero-fason-pages) a::after { content: none; }
+.hero-fason-link:not(.hero-fason-pages) a:hover { background: var(--arc-3); border-color: var(--arc-3); }
