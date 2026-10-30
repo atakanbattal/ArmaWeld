@@ -76,7 +76,7 @@
     for (var i = 0; i < bands.length; i++) {
       var b = bands[i];
       var f = Math.min(0.025, (b.b - b.a) / 3);
-      var op = b.last ? smoothstep(p, b.a, b.a + f) : smoothstep(p, b.a, b.a + f) * (1 - smoothstep(p, b.b - f, b.b));
+      var op = b.last && b.b >= 1 ? smoothstep(p, b.a, b.a + f) : smoothstep(p, b.a, b.a + f) * (1 - smoothstep(p, b.b - f, b.b));
       var k = clamp((p - b.a) / (b.ramp || (b.last ? 0.08 : Math.min(0.05, (b.b - b.a) * 0.35))), 0, 1);
       op = Math.round(op * 1000) / 1000;
       if (op !== b.op) { b.op = op; b.el.style.opacity = op; }
@@ -120,6 +120,8 @@
   video.setAttribute('muted', '');
   if (posterUrl) video.poster = posterUrl;
   video.src = cine.getAttribute(small ? 'data-video-sm' : 'data-video');
+  // a looping film never ends: captions simply follow it round again
+  video.loop = cine.hasAttribute('data-loop');
   updateCaptions(0);
 
   video.addEventListener('playing', function () { stage.classList.add('video-ready'); stage.classList.remove('is-ended'); run(); });
