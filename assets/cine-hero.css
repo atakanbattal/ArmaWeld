@@ -34,11 +34,6 @@
   background-size: cover;
   background-position: center;
 }
-.cine-video {
-  opacity: 0;
-  transition: opacity .8s var(--ease-out);
-}
-.cine-stage.video-ready .cine-video { opacity: 1; }
 /* Before any footage loads, the stage is a warm forge glow, never a blank box */
 .cine-poster {
   background-color: var(--cine-canvas);

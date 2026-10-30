@@ -236,7 +236,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   contact_side_h: '¿Por qué ArmaWeld?',
 
   home_hero_h1: 'Detrás de cada<br/>cordón está la<br/><span class="arc">firma</span> de un ingeniero.',
-  cine_b1_k: "Konya · Taller de soldadura",
+  cine_b1_k: "EN ISO 3834-2",
   cine_b1_h: "Soldadura certificada para acero pesado.",
   cine_b1_p: "Soldadores cualificados y WPS aprobado, fiel al plano.",
   cine_b2_k: "EN 1090-2 · EXC3",

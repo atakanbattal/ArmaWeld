@@ -110,10 +110,17 @@
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { showStill(); return; }
 
   var small = window.matchMedia('(max-width: 900px), (pointer: coarse) and (max-width: 1366px)').matches;
+  // Safari only autoplays a muted video it considers visible, so the video is
+  // never hidden: its own poster shows the opening frame until playback starts.
+  video.muted = true;
+  video.defaultMuted = true;
+  video.setAttribute('muted', '');
+  if (posterUrl) video.poster = posterUrl;
   video.src = cine.getAttribute(small ? 'data-video-sm' : 'data-video');
   updateCaptions(0);
 
   video.addEventListener('playing', function () { stage.classList.add('video-ready'); stage.classList.remove('is-ended'); run(); });
+  video.addEventListener('timeupdate', function () { if (video.currentTime > 0) stage.classList.add('video-ready'); run(); });
   video.addEventListener('ended', finish);
   video.addEventListener('error', showStill);
 
@@ -122,6 +129,8 @@
     if (pr && pr.catch) pr.catch(function () { if (video.paused) showStill(); });
   }
   play();
+  // some browsers start muted autoplay only once the data has arrived
+  video.addEventListener('canplay', function () { if (video.paused && !video.ended && video.currentTime === 0) play(); }, { once: true });
 
   if (replay) replay.addEventListener('click', function () {
     stage.classList.remove('is-still', 'is-ended');

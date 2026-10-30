@@ -236,7 +236,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   contact_side_h: 'Warum ArmaWeld?',
 
   home_hero_h1: 'Hinter jeder Naht<br/>steckt die Unterschrift<br/>eines <span class="arc">Ingenieurs.</span>',
-  cine_b1_k: "Konya · Schweißbetrieb",
+  cine_b1_k: "EN ISO 3834-2",
   cine_b1_h: "Zertifiziertes Schweißen für schweren Stahl.",
   cine_b1_p: "Geprüfte Schweißer und freigegebene WPS, exakt nach Zeichnung gefertigt.",
   cine_b2_k: "EN 1090-2 · EXC3",

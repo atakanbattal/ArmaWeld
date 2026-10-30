@@ -63,7 +63,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.it={
  "footer_ver": "Ver. 2026.01 — Turchia",
  "home_hero_eyebrow": "EN 1090 · EN ISO 3834-2 · ISO 9001",
  "home_hero_h1": "Ogni saldatura porta<br/>la firma di<br/><span class=\"arc\">un ingegnere.</span>",
- "cine_b1_k": "Konya · Officina di saldatura",
+ "cine_b1_k": "EN ISO 3834-2",
  "cine_b1_h": "Saldatura certificata per acciaio pesante.",
  "cine_b1_p": "Saldatori qualificati e WPS approvata, fedeli al disegno.",
  "cine_b2_k": "EN 1090-2 · EXC3",

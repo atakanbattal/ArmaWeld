@@ -434,7 +434,6 @@ input:focus-visible, select:focus-visible, textarea:focus-visible {
   border-left: 1px solid var(--ink-4);
   position: relative;
   z-index: 160;
-  background: var(--nav-bg);
 }
 
 /* Theme toggle */

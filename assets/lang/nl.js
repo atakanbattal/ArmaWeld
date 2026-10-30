@@ -63,7 +63,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.nl={
  "footer_ver": "Ver. 2026.01 — Turkije",
  "home_hero_eyebrow": "EN 1090 · EN ISO 3834-2 · ISO 9001",
  "home_hero_h1": "Elke las draagt<br/>de handtekening<br/><span class=\"arc\">van een ingenieur.</span>",
- "cine_b1_k": "Konya · Lasbedrijf",
+ "cine_b1_k": "EN ISO 3834-2",
  "cine_b1_h": "Gecertificeerd lassen van zwaar staal.",
  "cine_b1_p": "Gekwalificeerde lassers en goedgekeurde WPS, exact volgens tekening.",
  "cine_b2_k": "EN 1090-2 · EXC3",
