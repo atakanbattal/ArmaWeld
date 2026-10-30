@@ -539,14 +539,14 @@
     "nl": "TIG-lassen in uitvoering",
     "no": "TIG-sveising pågår"
   },
-  "Konya OSB'den fason kaynaklı imalat: MIG/MAG, TIG, robot kaynak, lazer kesim, CNC büküm. EN 1090 ve ISO 3834-2 belgeli üretim.": {
-    "en": "Contract welded fabrication from Konya: MIG/MAG, TIG, robotic welding, laser cutting, CNC bending. Production certified to EN 1090 and ISO 3834-2.",
-    "de": "Lohnschweißfertigung aus Konya: MIG/MAG, WIG, Roboterschweißen, Laserschneiden, CNC-Abkanten. Fertigung zertifiziert nach EN 1090 und ISO 3834-2.",
-    "es": "Fabricación soldada por encargo desde Konya: MIG/MAG, TIG, soldadura robotizada, corte láser, plegado CNC. Producción certificada EN 1090 e ISO 3834-2.",
-    "fr": "Fabrication soudée en sous-traitance depuis Konya : MIG/MAG, TIG, soudage robotisé, découpe laser, pliage CNC. Production certifiée EN 1090 et ISO 3834-2.",
-    "it": "Carpenteria saldata conto terzi da Konya: MIG/MAG, TIG, saldatura robotizzata, taglio laser, piegatura CNC. Produzione certificata EN 1090 e ISO 3834-2.",
-    "nl": "Uitbesteed laswerk vanuit Konya: MIG/MAG, TIG, robotlassen, lasersnijden, CNC-zetten. Productie gecertificeerd volgens EN 1090 en ISO 3834-2.",
-    "no": "Sveiset fabrikasjon på kontrakt fra Konya: MIG/MAG, TIG, robotsveising, laserskjæring, CNC-bøying. Produksjon sertifisert iht. EN 1090 og ISO 3834-2."
+  "Konya OSB'den fason kaynaklı imalat: MIG/MAG, TIG, tozaltı kaynak, lazer kesim, CNC büküm. EN 1090 ve ISO 3834-2 belgeli üretim.": {
+    "en": "Contract welded fabrication from Konya: MIG/MAG, TIG, submerged arc welding, laser cutting, CNC bending. Production certified to EN 1090 and ISO 3834-2.",
+    "de": "Lohnschweißfertigung aus Konya: MIG/MAG, WIG, UP-Schweißen, Laserschneiden, CNC-Abkanten. Fertigung zertifiziert nach EN 1090 und ISO 3834-2.",
+    "es": "Fabricación soldada por encargo desde Konya: MIG/MAG, TIG, soldadura por arco sumergido, corte láser, plegado CNC. Producción certificada EN 1090 e ISO 3834-2.",
+    "fr": "Fabrication soudée en sous-traitance depuis Konya : MIG/MAG, TIG, soudage à l’arc submergé, découpe laser, pliage CNC. Production certifiée EN 1090 et ISO 3834-2.",
+    "it": "Carpenteria saldata conto terzi da Konya: MIG/MAG, TIG, saldatura ad arco sommerso, taglio laser, piegatura CNC. Produzione certificata EN 1090 e ISO 3834-2.",
+    "nl": "Uitbesteed laswerk vanuit Konya: MIG/MAG, TIG, onderpoederdeklassen, lasersnijden, CNC-zetten. Productie gecertificeerd volgens EN 1090 en ISO 3834-2.",
+    "no": "Sveiset fabrikasjon på kontrakt fra Konya: MIG/MAG, TIG, pulverbuesveising, laserskjæring, CNC-bøying. Produksjon sertifisert iht. EN 1090 og ISO 3834-2."
   },
   "MT — Manyetik Parçacık Muayenesi": {
     "en": "MT — Magnetic Particle Testing",
