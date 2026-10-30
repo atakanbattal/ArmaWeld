@@ -74,6 +74,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.it={
  "cine_b3_p": "VT, PT, MT e UT eseguiti internamente. Ogni pezzo arriva con il suo rapporto di prova.",
  "cine_scroll": "Scorri",
  cine_replay: "Riguarda il video",
+ cine_play: "Guarda il video",
  "home_hero_lede": "Carpenteria saldata e CND certificati EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 e ISO 45001. Da S235 a Strenx 1100: WPS approvate e saldatori certificati per ogni gruppo di acciaio.",
  "home_hero_cta1": "Richiedi un preventivo",
  "home_hero_cta2": "I nostri servizi",

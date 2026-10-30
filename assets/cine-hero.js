@@ -11,6 +11,7 @@
   var poster = cine.querySelector('.cine-poster');
   var rail = cine.querySelector('.cine-rail');
   var replay = cine.querySelector('.cine-replay');
+  var playBtn = cine.querySelector('.cine-play');
 
   var clamp = function (v, lo, hi) { return Math.min(hi, Math.max(lo, v)); };
   var smoothstep = function (p, e0, e1) {
@@ -71,6 +72,7 @@
 
   // ---- captions follow the film's progress p (0..1) ----
   function updateCaptions(p) {
+    if (stage.classList.contains('is-still')) return;
     for (var i = 0; i < bands.length; i++) {
       var b = bands[i];
       var f = Math.min(0.025, (b.b - b.a) / 3);
@@ -93,8 +95,9 @@
   }
   function run() { if (rafId === null) rafId = requestAnimationFrame(tick); }
 
-  function showStill() {
+  function showStill(blocked) {
     stage.classList.add('is-still');
+    stage.classList.toggle('is-blocked', blocked === true);
     bands.forEach(function (b) { b.el.style.removeProperty('opacity'); b.el.style.removeProperty('--k'); b.el.removeAttribute('inert'); b.op = -1; b.k = -1; b.on = null; });
   }
   function finish() {
@@ -122,22 +125,26 @@
   video.addEventListener('playing', function () { stage.classList.add('video-ready'); stage.classList.remove('is-ended'); run(); });
   video.addEventListener('timeupdate', function () { if (video.currentTime > 0) stage.classList.add('video-ready'); run(); });
   video.addEventListener('ended', finish);
-  video.addEventListener('error', showStill);
+  video.addEventListener('error', function () { showStill(false); });
 
   function play() {
     var pr = video.play();
-    if (pr && pr.catch) pr.catch(function () { if (video.paused) showStill(); });
+    if (pr && pr.catch) pr.catch(function () { if (video.paused) showStill(true); });
   }
   play();
   // some browsers start muted autoplay only once the data has arrived
   video.addEventListener('canplay', function () { if (video.paused && !video.ended && video.currentTime === 0) play(); }, { once: true });
 
-  if (replay) replay.addEventListener('click', function () {
-    stage.classList.remove('is-still', 'is-ended');
+  // replay at the end, or play by hand where the browser blocks autoplay
+  function restart() {
+    stage.classList.remove('is-still', 'is-ended', 'is-blocked');
+    bands.forEach(function (b) { b.op = -1; b.k = -1; b.on = null; });
     video.currentTime = 0;
     updateCaptions(0);
     play();
-  });
+  }
+  if (replay) replay.addEventListener('click', restart);
+  if (playBtn) playBtn.addEventListener('click', restart);
 
   // pause off screen, carry on when the visitor comes back before the film ends
   new IntersectionObserver(function (es) {

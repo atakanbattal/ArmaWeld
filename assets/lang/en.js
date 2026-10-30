@@ -249,6 +249,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   cine_b3_p: "VT, PT, MT and UT done in house. Every part ships with its inspection report.",
   cine_scroll: "Scroll",
   cine_replay: "Replay the video",
+  cine_play: "Watch the film",
   home_svc_h2: 'We manage metal processing <span style="color:var(--arc-2)">with engineering</span> discipline from end to end.',
   home_svc_r1_name: 'Welded Fabrication',
   home_svc_r1_brief: 'From S235 to Strenx 1100, S690QL and S960QL to HARDOX — reliable production across every steel group including stainless and aluminium with approved WPS.',

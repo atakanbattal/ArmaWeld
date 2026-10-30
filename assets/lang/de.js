@@ -247,6 +247,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   cine_b3_p: "VT, PT, MT und UT im eigenen Haus. Jedes Teil wird mit Prüfbericht geliefert.",
   cine_scroll: "Scrollen",
   cine_replay: "Video erneut abspielen",
+  cine_play: "Film ansehen",
   home_svc_h2: 'Wir steuern Metallverarbeitungsprozesse <span style="color:var(--arc-2)">mit Ingenieursdisziplin</span> von Anfang bis Ende.',
   home_svc_r1_name: 'Schweißfertigung', home_svc_r1_brief: 'Von S235 bis Strenx 1100, S690QL und S960QL bis HARDOX — zuverlässige Fertigung in jeder Stahlgruppe inkl. Edelstahl und Aluminium mit zugelassener WPS.',
   home_svc_r2_name: 'Blechschneiden & Profilbearbeitung', home_svc_r2_brief: 'Baustahl, Edelstahl, Hardox, Strenx und Aluminium — toleranzgenaues Schneiden und schweißfertige Vorbereitung nach technischer Zeichnung.',

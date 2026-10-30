@@ -19,10 +19,12 @@
   background: var(--cine-canvas);
   color: var(--cine-text);
 }
+.cine { padding-top: var(--nav-h, 72px); }
 .cine-stage {
   position: relative;
-  height: 100vh;
-  height: 100svh;
+  height: calc(100vh - var(--nav-h, 72px));
+  height: calc(100svh - var(--nav-h, 72px));
+  min-height: 520px;
   overflow: hidden;
   isolation: isolate;
 }
@@ -202,7 +204,7 @@
 
 .cine-replay {
   position: absolute; z-index: 3;
-  right: clamp(20px, 3vw, 40px); top: calc(var(--nav-h, 72px) + 18px);
+  right: clamp(20px, 3vw, 40px); top: 18px;
   width: 44px; height: 44px; border-radius: 50%;
   display: grid; place-items: center;
   background: rgba(10,10,14,.55); color: #fff;
@@ -248,6 +250,28 @@
   .cine-settle .cine-cta { gap: 10px; margin-top: 20px; }
   .cine-settle .cine-cta .btn-ghost { display: none; }
   .cine-cue { display: none; }
+}
+
+/* ---- play by hand: shown only when the browser refused to autoplay ---- */
+.cine-play {
+  position: absolute; z-index: 3;
+  right: clamp(24px, 8vw, 140px); top: 50%; translate: 0 -50%;
+  display: none; align-items: center; gap: 14px;
+  padding: 0; border: 0; background: none; cursor: pointer;
+  color: #fff; font-family: var(--ff-display); font-weight: 700; font-size: 15px; letter-spacing: .02em;
+  text-shadow: var(--tshadow);
+}
+.cine-play i {
+  width: 76px; height: 76px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #e8620f; box-shadow: 0 10px 40px rgba(0,0,0,.45);
+  transition: transform .2s var(--ease-out), background .2s;
+}
+.cine-play i svg { width: 26px; height: 26px; margin-left: 4px; }
+.cine-play:hover i, .cine-play:focus-visible i { transform: scale(1.06); background: #ff7a1a; }
+.cine-stage.is-blocked .cine-play { display: flex; }
+@media (max-width: 900px), (orientation: portrait) and (max-width: 1024px) {
+  .cine-play { right: 50%; translate: 50% 0; top: 22%; flex-direction: column; }
 }
 
 /* ---- still hero: reduced motion, or the browser refused to autoplay ---- */

@@ -266,6 +266,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   cine_b3_p: "VT, PT, MT ve UT muayeneleri bünyemizde. Her parça raporuyla teslim edilir.",
   cine_scroll: "Kaydırın",
   cine_replay: "Videoyu tekrar oynat",
+  cine_play: "Videoyu izle",
 
   // ── Hizmetler bölümü (index) ──
   home_svc_h2: 'Metal işleme süreçleri <span style="color:var(--arc-2)">mühendislik</span> disipliniyle uçtan uca yönetilir.',
