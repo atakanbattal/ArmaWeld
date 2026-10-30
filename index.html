@@ -46,7 +46,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 <link rel="stylesheet" href="assets/theme.css?v=202610052" />
-<link rel="stylesheet" href="assets/cine-hero.css?v=20261030b" />
+<link rel="stylesheet" href="assets/cine-hero.css?v=20261030c" />
 <style>
   /* ===== Hero ===== */
   .hero {
@@ -1111,11 +1111,11 @@
 </head>
 <body>
 
-<!-- CINEMATIC HERO: scroll drives the video -->
-<section class="cine" data-video="/assets/hero/hero-scrub.mp4?v=20261030" data-poster="/assets/hero/hero-poster.jpg?v=20261030" data-still="/assets/hero/hero-poster.jpg?v=20261030" data-bytes="10692914">
+<!-- CINEMATIC HERO: the welding-hall film plays by itself -->
+<section class="cine" data-video="/assets/hero/hero-1080.mp4?v=20261030c" data-video-sm="/assets/hero/hero-720.mp4?v=20261030c" data-poster="/assets/hero/hero-poster.jpg?v=20261030" data-still="/assets/hero/hero-poster.jpg?v=20261030">
   <div class="cine-stage">
     <div class="cine-poster" aria-hidden="true"></div>
-    <video class="cine-video" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+    <video class="cine-video" preload="auto" muted playsinline disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
     <div class="cine-scrim" aria-hidden="true"></div>
 
     <div class="cine-band cine-band--right" data-fx="drift" data-range="0,0.24" style="--scrim:.82">
@@ -1141,7 +1141,7 @@
     </h1>
 
     <p class="cine-lede" data-i18n="home_hero_lede">
-      EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. Sac kesim, büküm ve montaj adımları proje planına entegre koordine edilir — S235'ten Strenx 1100'e onaylı WPS ve belgeli kaynakçılar.
+      EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 ve ISO 45001 sertifikalı kaynaklı imalat ve NDT. S235'ten Strenx 1100'e her çelik grubu için onaylı WPS ve belgeli kaynakçılar.
     </p>
 
     <div class="cine-cta">
@@ -1160,9 +1160,10 @@
     </div>
 
     <div class="cine-cue" aria-hidden="true">
-      <svg class="cine-ring" viewBox="0 0 48 48"><circle class="track" cx="24" cy="24" r="20" fill="none" stroke-width="3"/><circle class="fill" cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+      <span class="cine-chev"></span>
       <span data-i18n="cine_scroll">Kaydırın</span>
     </div>
+    <button type="button" class="cine-replay" aria-label="Videoyu tekrar oynat" data-i18n-aria="cine_replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
     <div class="cine-rail" aria-hidden="true"><i></i></div>
   </div>
 </section>
@@ -2222,7 +2223,7 @@
 <script src="assets/chrome.js?v=202610262"></script>
 <script src="assets/sample-docs-data.js?v=202605253"></script>
 <script src="assets/analytics.js?v=20260604"></script>
-<script src="assets/cine-hero.js?v=20261030"></script>
+<script src="assets/cine-hero.js?v=20261030c"></script>
 <script>
   // Hero weld animation (runs immediately — viewBox coords scale on mobile)
   (function initHeroWeldAnim() {

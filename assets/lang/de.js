@@ -47,7 +47,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   home_hero_eyebrow: 'EN 1090 · EN ISO 3834-2 · ISO 9001',
   home_hero_h1: 'Schweiß&shy;<br/>fertigung.',
-  home_hero_lede: 'EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 und ISO 45001 zertifizierte Schweißfertigung, Blechschneiden, Biegen und ZfP-Dienstleistungen. Von S235 bis Strenx 1100, Aluminium bis HARDOX — zugelassene WPS und zertifizierte Schweißer für jede Stahlgruppe.',
+  home_hero_lede: "Nach EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 und ISO 45001 zertifizierte Schweißfertigung und ZfP. Von S235 bis Strenx 1100: freigegebene WPS und zertifizierte Schweißer für jede Stahlgruppe.",
   home_hero_cta1: 'Angebot anfordern', home_hero_cta2: 'Unsere Leistungen',
   home_hero_cta_portal: 'Kundenportal Login',
   home_trace_portal_h: 'Verfolgen Sie Ihre Bestellung live.',
@@ -246,6 +246,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   cine_b3_h: "Jede Naht geprüft.",
   cine_b3_p: "VT, PT, MT und UT im eigenen Haus. Jedes Teil wird mit Prüfbericht geliefert.",
   cine_scroll: "Scrollen",
+  cine_replay: "Video erneut abspielen",
   home_svc_h2: 'Wir steuern Metallverarbeitungsprozesse <span style="color:var(--arc-2)">mit Ingenieursdisziplin</span> von Anfang bis Ende.',
   home_svc_r1_name: 'Schweißfertigung', home_svc_r1_brief: 'Von S235 bis Strenx 1100, S690QL und S960QL bis HARDOX — zuverlässige Fertigung in jeder Stahlgruppe inkl. Edelstahl und Aluminium mit zugelassener WPS.',
   home_svc_r2_name: 'Blechschneiden & Profilbearbeitung', home_svc_r2_brief: 'Baustahl, Edelstahl, Hardox, Strenx und Aluminium — toleranzgenaues Schneiden und schweißfertige Vorbereitung nach technischer Zeichnung.',

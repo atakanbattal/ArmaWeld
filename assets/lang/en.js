@@ -48,7 +48,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   home_hero_eyebrow: 'EN 1090 · EN ISO 3834-2 · ISO 9001',
   home_hero_h1: 'Welded<br/>Fabrication.',
-  home_hero_lede: 'EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 and ISO 45001 certified welded fabrication and NDT. Cutting, bending and assembly steps are coordinated within the project plan — from S235 to Strenx 1100 with approved WPS and certified welders.',
+  home_hero_lede: "EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 and ISO 45001 certified welded fabrication and NDT. From S235 to Strenx 1100, approved WPS and certified welders for every steel group.",
   home_hero_cta1: 'Request Quote', home_hero_cta2: 'Our Services',
   home_hero_cta_portal: 'Customer Portal Login',
   home_trace_portal_h: 'Track your order live.',
@@ -248,6 +248,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   cine_b3_h: "Every seam inspected.",
   cine_b3_p: "VT, PT, MT and UT done in house. Every part ships with its inspection report.",
   cine_scroll: "Scroll",
+  cine_replay: "Replay the video",
   home_svc_h2: 'We manage metal processing <span style="color:var(--arc-2)">with engineering</span> discipline from end to end.',
   home_svc_r1_name: 'Welded Fabrication',
   home_svc_r1_brief: 'From S235 to Strenx 1100, S690QL and S960QL to HARDOX — reliable production across every steel group including stainless and aluminium with approved WPS.',

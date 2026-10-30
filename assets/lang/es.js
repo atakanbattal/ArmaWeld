@@ -47,7 +47,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   home_hero_eyebrow: 'EN 1090 · EN ISO 3834-2 · ISO 9001',
   home_hero_h1: 'Fabricación<br/>soldada.',
-  home_hero_lede: 'Servicios certificados según EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 e ISO 45001: fabricación soldada, corte de chapa, doblado y END. De S235 a Strenx 1100, de aluminio a HARDOX — WPS aprobadas y soldadores certificados para todos los grupos de acero.',
+  home_hero_lede: "Fabricación soldada y END certificadas según EN 1090-2, EN ISO 3834-2, ISO 9001, ISO 14001 e ISO 45001. De S235 a Strenx 1100: WPS aprobadas y soldadores certificados para cada grupo de acero.",
   home_hero_cta1: 'Solicitar cotización', home_hero_cta2: 'Nuestros servicios',
   home_hero_cta_portal: 'Acceso al Portal de Clientes',
   home_trace_portal_h: 'Siga su pedido en vivo.',
@@ -246,6 +246,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   cine_b3_h: "Cada cordón, inspeccionado.",
   cine_b3_p: "VT, PT, MT y UT en nuestras instalaciones. Cada pieza se entrega con su informe.",
   cine_scroll: "Desliza",
+  cine_replay: "Volver a ver el vídeo",
   home_svc_h2: 'Gestionamos los procesos de transformación metálica <span style="color:var(--arc-2)">con disciplina de ingeniería</span> de principio a fin.',
   home_svc_r1_name: 'Fabricación soldada', home_svc_r1_brief: 'De S235 a Strenx 1100, S690QL y S960QL a HARDOX — fabricación fiable en todos los grupos de acero incl. inoxidable y aluminio con WPS aprobada.',
   home_svc_r2_name: 'Corte de chapa & procesado de perfiles', home_svc_r2_brief: 'Acero al carbono, inoxidable, Hardox, Strenx y aluminio — corte tolerado y preparación lista para soldar según plano técnico.',

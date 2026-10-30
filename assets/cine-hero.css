@@ -1,8 +1,8 @@
-/* ===== Cinematic scroll hero (home page) =====
-   A tall section with a sticky full-viewport stage. Scroll progress through the
-   section drives the hero video's time; caption bands live in the footage's
-   calm left and right thirds. The stage is always dark (it is the footage's
-   world), in both site themes. */
+/* ===== Cinematic hero (home page) =====
+   A full-viewport stage where the welding-hall film plays once by itself;
+   caption bands follow the film's clock in the footage's calm left and right
+   thirds, and the page headline settles on the final frame. The stage is
+   always dark (it is the footage's world), in both site themes. */
 
 @supports (overflow: clip) {
   html, body { overflow-x: clip; }
@@ -16,13 +16,11 @@
   --tshadow: 0 1px 2px rgba(6,6,9,.95), 0 3px 12px rgba(6,6,9,.78), 0 10px 44px rgba(6,6,9,.8);
   --ease-out: cubic-bezier(.22,.61,.36,1);
   position: relative;
-  height: 820vh;
   background: var(--cine-canvas);
   color: var(--cine-text);
 }
 .cine-stage {
-  position: sticky;
-  top: 0;
+  position: relative;
   height: 100vh;
   height: 100svh;
   overflow: hidden;
@@ -38,12 +36,9 @@
 }
 .cine-video {
   opacity: 0;
-  transition: opacity .6s var(--ease-out);
-  will-change: transform;
-  transform: translateZ(0);
+  transition: opacity .8s var(--ease-out);
 }
 .cine-stage.video-ready .cine-video { opacity: 1; }
-.cine-stage.video-failed .cine-video { display: none; }
 /* Before any footage loads, the stage is a warm forge glow, never a blank box */
 .cine-poster {
   background-color: var(--cine-canvas);
@@ -189,19 +184,17 @@
 .cine .btn-ghost:hover { border-color: var(--cine-arc); color: var(--cine-arc); }
 .cine .btn-portal { background: rgba(10,10,14,.5); }
 
-/* ---- loading ring and scroll cue ---- */
+/* ---- scroll cue, replay button and film progress line ---- */
 .cine-cue {
   position: absolute; z-index: 3;
-  left: 50%; bottom: 26px; translate: -50% 0;
-  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  left: 50%; bottom: 22px; translate: -50% 0;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
   font-family: var(--ff-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
   color: var(--cine-text-2);
-  transition: opacity .5s var(--ease-out);
+  opacity: 0;
+  transition: opacity .6s var(--ease-out);
 }
-.cine-cue.is-gone { opacity: 0; }
-.cine-ring { width: 36px; height: 36px; color: var(--cine-arc); transform: rotate(-90deg); }
-.cine-ring .track { stroke: rgba(242,239,233,.18); }
-.cine-ring .fill { stroke-dasharray: 126; stroke-dashoffset: var(--ld, 126); transition: stroke-dashoffset .2s linear; }
+.cine-stage.is-ended .cine-cue, .cine-stage.is-still .cine-cue { opacity: 1; }
 .cine-chev {
   width: 14px; height: 22px; border: 1.5px solid rgba(242,239,233,.55); border-radius: 8px; position: relative;
 }
@@ -212,34 +205,61 @@
 }
 @keyframes cineWheel { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(7px); } }
 
-/* Progress rail on the right edge: the seam's length, drawn as the visitor scrolls */
+.cine-replay {
+  position: absolute; z-index: 3;
+  right: clamp(20px, 3vw, 40px); top: calc(var(--nav-h, 72px) + 18px);
+  width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(10,10,14,.55); color: #fff;
+  border: 1px solid rgba(242,239,233,.35);
+  cursor: pointer;
+  opacity: 0; pointer-events: none;
+  transition: opacity .5s var(--ease-out), border-color .2s, color .2s;
+}
+.cine-replay:hover, .cine-replay:focus-visible { border-color: var(--cine-arc); color: var(--cine-arc); }
+.cine-replay svg { width: 20px; height: 20px; }
+.cine-stage.is-ended .cine-replay { opacity: 1; pointer-events: auto; }
+
 .cine-rail {
-  position: absolute; z-index: 3; right: 22px; top: 50%; translate: 0 -50%;
-  width: 2px; height: 34vh; background: rgba(242,239,233,.14);
+  position: absolute; z-index: 3; left: 0; right: 0; bottom: 0;
+  height: 3px; background: rgba(242,239,233,.12);
 }
 .cine-rail i {
-  position: absolute; left: 0; top: 0; width: 100%; height: 100%;
-  background: linear-gradient(180deg, #ffcf8f, var(--cine-arc));
-  transform-origin: top; transform: scaleY(var(--p, 0));
-  box-shadow: 0 0 10px rgba(255,122,26,.6);
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, #ffcf8f, var(--cine-arc));
+  transform-origin: left; transform: scaleX(var(--p, 0));
+}
+.cine-stage.is-still .cine-rail { display: none; }
+
+/* ---- phones and portrait tablets: the film fills the screen, captions sit low ---- */
+@media (max-width: 900px), (orientation: portrait) and (max-width: 1024px) {
+  .cine-video { object-position: 38% 50%; }
+  .cine-poster { background-position: 38% 50%; }
+  .cine-scrim { background: linear-gradient(180deg, rgba(8,8,12,.5) 0, rgba(8,8,12,0) 22%, rgba(8,8,12,0) 42%, rgba(8,8,12,.82) 78%, rgba(8,8,12,.92) 100%); }
+  .cine-band--left, .cine-band--right {
+    left: 20px; right: 20px; top: auto; bottom: 84px; translate: none; text-align: left;
+  }
+  .cine-band::before { display: none; }
+  .cine-band--right .cine-h, .cine-band--right .cine-p { margin-left: 0; }
+  .cine-band--right .cine-p { padding-right: 0; border-right: 0; padding-left: 14px; border-left: 3px solid #e8620f; }
+  .cine-kicker { font-size: 12px; padding: 6px 10px 5px; margin-bottom: 14px; }
+  .cine-h { font-size: clamp(32px, 9vw, 52px); max-width: 16ch; }
+  .cine-p { font-size: 16px; margin-top: 14px; max-width: none; padding-left: 14px; }
+  .cine-band[data-fx="focus"] .cine-h .sharp { transform-origin: left center; }
+  .cine-settle { left: 20px; right: 20px; width: auto; translate: none; bottom: 84px; }
+  .cine-settle::before { display: none; }
+  .cine-settle h1 { font-size: clamp(38px, 10.5vw, 64px); }
+  .cine-settle .cine-lede { font-size: 15px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .cine-settle .cine-cta { gap: 10px; margin-top: 20px; }
+  .cine-settle .cine-cta .btn-ghost { display: none; }
+  .cine-cue { display: none; }
 }
 
-/* ---- static hero: the same five gates as in cine-hero.js ---- */
-@media (max-width: 720px),
-       (orientation: portrait) and (max-width: 1024px),
-       (orientation: portrait) and (pointer: coarse),
-       (orientation: landscape) and (pointer: coarse) and (max-height: 560px),
-       (prefers-reduced-motion: reduce) {
-  .cine { height: auto; }
-  .cine-stage { position: relative; height: auto; min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; padding: calc(var(--nav-h) + 24px) 0 48px; }
-  .cine-poster { background-image: var(--cine-still, none), radial-gradient(ellipse 70% 50% at 50% 40%, rgba(255,122,26,.3), rgba(255,122,26,0) 70%); background-position: center 30%; }
-  .cine-scrim { background: linear-gradient(180deg, rgba(8,8,12,.45) 0, rgba(8,8,12,.1) 30%, rgba(8,8,12,.78) 62%, rgba(8,8,12,.94) 100%); }
-  .cine-video, .cine-band:not(.cine-settle), .cine-cue, .cine-rail { display: none; }
-  .cine-settle { position: relative; left: auto; bottom: auto; translate: none; width: auto; margin: 0 clamp(20px, 6vw, 96px); opacity: 1; pointer-events: auto; --k: 1; }
-  .cine-settle::before { display: none; }
-  .cine-settle h1 { font-size: clamp(40px, 11vw, 72px); }
-}
-@media (max-height: 560px) { .cine-rail, .cine-cue { display: none; } }
+/* ---- still hero: reduced motion, or the browser refused to autoplay ---- */
+.cine-stage.is-still .cine-poster { background-image: var(--cine-still, none); }
+.cine-stage.is-still .cine-video,
+.cine-stage.is-still .cine-band:not(.cine-settle) { display: none; }
+.cine-stage.is-still .cine-settle { opacity: 1; pointer-events: auto; --k: 1; }
 
 @media (prefers-reduced-motion: reduce) {
   .cine *, .cine *::before, .cine *::after { transition: none !important; animation: none !important; }
