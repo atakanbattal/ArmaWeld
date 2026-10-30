@@ -255,15 +255,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   // ── Home hero (doğru metin) ──
   home_hero_h1: 'Her dikişin<br/>arkasında bir<br/><span class="arc">mühendis</span> imzası.',
-  cine_b1_k: "01 · FABRİKA",
-  cine_b1_h: "Önce fabrika.",
-  cine_b1_p: "Kesim, montaj ve kaynak aynı çatı altında, tek akışta.",
-  cine_b2_k: "02 · PARÇA",
-  cine_b2_h: "Sonra parça.",
-  cine_b2_p: "Ağır çelik parçalar, onaylı WPS ve belgeli kaynakçıyla çizime birebir.",
-  cine_b3_k: "03 · DİKİŞ",
-  cine_b3_h: "Sonra dikiş.",
-  cine_b3_p: "Her dikiş muayene edilir. Her parça raporuyla teslim edilir.",
+  cine_b1_k: "Konya · Kaynak Atölyesi",
+  cine_b1_h: "Kaynak bizim işimiz.",
+  cine_b1_p: "Sertifikalı kaynakçılarımız ağır çelik parçaları onaylı WPS ile, çizime birebir kaynaklar.",
+  cine_b2_k: "EN 1090-2 · EXC3",
+  cine_b2_h: "Ağır parça, sıfır taviz.",
+  cine_b2_p: "Bom, şasi ve taşıyıcı parçalar. S235'ten Strenx 1100'e her malzemeye onaylı kaynak prosedürü.",
+  cine_b3_k: "NDT · Raporlu teslim",
+  cine_b3_h: "Her dikiş muayeneli.",
+  cine_b3_p: "VT, PT, MT ve UT muayeneleri bünyemizde. Her parça raporuyla teslim edilir.",
   cine_scroll: "Kaydırın",
 
   // ── Hizmetler bölümü (index) ──
