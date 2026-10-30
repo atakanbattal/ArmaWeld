@@ -255,6 +255,16 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   // ── Home hero (doğru metin) ──
   home_hero_h1: 'Her dikişin<br/>arkasında bir<br/><span class="arc">mühendis</span> imzası.',
+  cine_b1_k: "Konya · Kaynak Atölyesi",
+  cine_b1_h: "Ağır çelikte sertifikalı kaynak.",
+  cine_b1_p: "Belgeli kaynakçılar ve onaylı WPS ile, çizime birebir imalat.",
+  cine_b2_k: "EN 1090-2 · EXC3",
+  cine_b2_h: "Büyük parça, sıfır taviz.",
+  cine_b2_p: "Bom, şasi ve taşıyıcı parçalar. S235'ten Strenx 1100'e her malzemeye onaylı kaynak prosedürü.",
+  cine_b3_k: "NDT · Raporlu teslim",
+  cine_b3_h: "Her dikiş muayeneli.",
+  cine_b3_p: "VT, PT, MT ve UT muayeneleri bünyemizde. Her parça raporuyla teslim edilir.",
+  cine_scroll: "Kaydırın",
 
   // ── Hizmetler bölümü (index) ──
   home_svc_h2: 'Metal işleme süreçleri <span style="color:var(--arc-2)">mühendislik</span> disipliniyle uçtan uca yönetilir.',

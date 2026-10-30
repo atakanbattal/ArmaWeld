@@ -1,0 +1,252 @@
+/* ===== Cinematic scroll hero (home page) =====
+   A tall section with a sticky full-viewport stage. Scroll progress through the
+   section drives the hero video's time; caption bands live in the footage's
+   calm left and right thirds. The stage is always dark (it is the footage's
+   world), in both site themes. */
+
+@supports (overflow: clip) {
+  html, body { overflow-x: clip; }
+}
+
+.cine {
+  --cine-canvas: #0b0c0f;
+  --cine-text: #f2efe9;
+  --cine-text-2: #c9c4bb;
+  --cine-arc: #ff7a1a;
+  --tshadow: 0 1px 2px rgba(6,6,9,.95), 0 3px 12px rgba(6,6,9,.78), 0 10px 44px rgba(6,6,9,.8);
+  --ease-out: cubic-bezier(.22,.61,.36,1);
+  position: relative;
+  height: 820vh;
+  background: var(--cine-canvas);
+  color: var(--cine-text);
+}
+.cine-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+}
+.cine-poster,
+.cine-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.cine-video {
+  opacity: 0;
+  transition: opacity .6s var(--ease-out);
+  will-change: transform;
+  transform: translateZ(0);
+}
+.cine-stage.video-ready .cine-video { opacity: 1; }
+.cine-stage.video-failed .cine-video { display: none; }
+/* Before any footage loads, the stage is a warm forge glow, never a blank box */
+.cine-poster {
+  background-color: var(--cine-canvas);
+  background-image: radial-gradient(ellipse 55% 45% at 50% 62%, rgba(255,122,26,.28), rgba(255,122,26,0) 70%);
+}
+.cine-scrim {
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(ellipse 120% 90% at 50% 45%, rgba(8,8,12,0) 35%, rgba(8,8,12,.62) 100%),
+    linear-gradient(180deg, rgba(8,8,12,.55) 0, rgba(8,8,12,0) 22%);
+}
+
+/* ---- caption bands ---- */
+.cine-band {
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  text-shadow: var(--tshadow);
+  pointer-events: none;
+}
+.cine-band.is-on { pointer-events: auto; }
+.cine-band::before {
+  content: ""; position: absolute; inset: -18% -14%; z-index: -1; pointer-events: none;
+  opacity: calc(.25 + .75 * var(--k, 1));
+  background: radial-gradient(ellipse 70% 62% at 50% 50%, rgba(6,6,9,var(--scrim,.66)) 0%, rgba(6,6,9,calc(var(--scrim,.66) * .66)) 46%, rgba(6,6,9,0) 76%);
+}
+.cine-band--left  { left: clamp(20px, 6vw, 96px); top: 50%; translate: 0 -50%; }
+.cine-band--right { right: clamp(20px, 6vw, 96px); top: 50%; translate: 0 -50%; text-align: right; }
+.cine-kicker {
+  display: inline-block;
+  font-family: var(--ff-display);
+  font-size: clamp(14px, 1vw, 16px);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #e8620f;
+  padding: 8px 14px 7px;
+  border-radius: 2px;
+  text-shadow: none;
+  margin-bottom: 22px;
+  opacity: calc(var(--k, 0));
+}
+.cine-h {
+  font-family: var(--ff-display);
+  font-weight: 800;
+  font-size: clamp(40px, 5.2vw, 88px);
+  line-height: .96;
+  letter-spacing: -.035em;
+  color: #fff;
+  max-width: 13ch;
+}
+.cine-band--right .cine-h { margin-left: auto; }
+.cine-p {
+  margin-top: 24px;
+  font-size: clamp(18px, 1.45vw, 23px);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  max-width: 34ch;
+  padding-left: 18px;
+  border-left: 3px solid #e8620f;
+  opacity: clamp(0, calc((var(--k, 0) - .3) * 3), 1);
+  transform: translateY(calc((1 - clamp(0, calc((var(--k, 0) - .3) * 3), 1)) * 10px));
+}
+.cine-band--right .cine-p { margin-left: auto; padding-left: 0; border-left: 0; padding-right: 18px; border-right: 3px solid #e8620f; }
+.sr-only {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.cine-split .w { display: inline-block; white-space: nowrap; }
+.cine-split .c { display: inline-block; }
+
+/* Band 1: sparks fall, the words drift down into place */
+.cine-band[data-fx="drift"] .w {
+  --kc: clamp(0, calc((var(--k, 0) - var(--th, 0)) * 2.8), 1);
+  opacity: var(--kc);
+  transform: translateY(calc((1 - var(--kc)) * -28px));
+}
+/* Band 2: method, the letters snap into line in reading order */
+.cine-band[data-fx="snap"] .c {
+  --kc: clamp(0, calc((var(--k, 0) - var(--th, 0)) * 3.2), 1);
+  opacity: var(--kc);
+  transform: translateX(calc((1 - var(--kc)) * var(--jx, 0px)));
+}
+/* Band 3: the seam cools and comes into focus, soft copy hands over to sharp copy */
+.cine-band[data-fx="focus"] .cine-h { position: relative; }
+.cine-band[data-fx="focus"] .cine-h .soft {
+  position: absolute; inset: 0;
+  filter: blur(10px);
+  opacity: calc(1 - var(--k, 0));
+}
+.cine-band[data-fx="focus"] .cine-h .sharp {
+  display: block;
+  opacity: var(--k, 0);
+  transform: scale(calc(.94 + .06 * var(--k, 0)));
+  transform-origin: right center;
+}
+
+/* Settle band: the existing hero headline, lede and buttons arrive in three steps */
+.cine-settle {
+  left: 50%; bottom: clamp(48px, 9vh, 110px);
+  translate: -50% 0;
+  width: min(1180px, calc(100% - 2 * clamp(20px, 6vw, 96px)));
+  text-align: left;
+  --scrim: .72;
+}
+.cine-settle::before {
+  inset: -30% -10% -20%;
+  background: radial-gradient(ellipse 80% 70% at 35% 60%, rgba(6,6,9,.74) 0%, rgba(6,6,9,.5) 48%, rgba(6,6,9,0) 78%);
+}
+.cine-settle h1 {
+  font-family: var(--ff-display);
+  font-weight: 900;
+  font-size: clamp(42px, 6.2vw, 104px);
+  line-height: .9;
+  letter-spacing: -.045em;
+  color: var(--cine-text);
+  max-width: 16ch;
+  opacity: clamp(0, calc(var(--k, 0) * 2.2), 1);
+  transform: translateY(calc((1 - clamp(0, calc(var(--k, 0) * 2.2), 1)) * 34px));
+}
+.cine-settle h1 .arc { color: var(--cine-arc); }
+.cine-settle .cine-lede {
+  margin-top: 26px;
+  max-width: 60ch;
+  font-size: clamp(15px, 1.1vw, 18px);
+  line-height: 1.6;
+  color: var(--cine-text-2);
+  --ks: clamp(0, calc((var(--k, 0) - .5) * 3.4), 1);
+  opacity: var(--ks);
+  transform: translateY(calc((1 - var(--ks)) * 14px));
+}
+.cine-settle .cine-cta {
+  display: flex; flex-wrap: wrap; gap: 14px;
+  margin-top: 30px;
+  --kb: clamp(0, calc((var(--k, 0) - .7) * 4), 1);
+  opacity: var(--kb);
+  transform: translateY(calc((1 - var(--kb)) * 12px));
+}
+.cine-settle .btn { text-shadow: none; }
+.cine .btn-ghost { color: var(--cine-text); border-color: rgba(242,239,233,.42); }
+.cine .btn-ghost:hover { border-color: var(--cine-arc); color: var(--cine-arc); }
+.cine .btn-portal { background: rgba(10,10,14,.5); }
+
+/* ---- loading ring and scroll cue ---- */
+.cine-cue {
+  position: absolute; z-index: 3;
+  left: 50%; bottom: 26px; translate: -50% 0;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  font-family: var(--ff-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--cine-text-2);
+  transition: opacity .5s var(--ease-out);
+}
+.cine-cue.is-gone { opacity: 0; }
+.cine-ring { width: 36px; height: 36px; color: var(--cine-arc); transform: rotate(-90deg); }
+.cine-ring .track { stroke: rgba(242,239,233,.18); }
+.cine-ring .fill { stroke-dasharray: 126; stroke-dashoffset: var(--ld, 126); transition: stroke-dashoffset .2s linear; }
+.cine-chev {
+  width: 14px; height: 22px; border: 1.5px solid rgba(242,239,233,.55); border-radius: 8px; position: relative;
+}
+.cine-chev::after {
+  content: ""; position: absolute; left: 50%; top: 5px; width: 2px; height: 5px; margin-left: -1px;
+  background: var(--cine-arc); border-radius: 2px;
+  animation: cineWheel 2.2s var(--ease-out) infinite -1s;
+}
+@keyframes cineWheel { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(7px); } }
+
+/* Progress rail on the right edge: the seam's length, drawn as the visitor scrolls */
+.cine-rail {
+  position: absolute; z-index: 3; right: 22px; top: 50%; translate: 0 -50%;
+  width: 2px; height: 34vh; background: rgba(242,239,233,.14);
+}
+.cine-rail i {
+  position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+  background: linear-gradient(180deg, #ffcf8f, var(--cine-arc));
+  transform-origin: top; transform: scaleY(var(--p, 0));
+  box-shadow: 0 0 10px rgba(255,122,26,.6);
+}
+
+/* ---- static hero: the same five gates as in cine-hero.js ---- */
+@media (max-width: 720px),
+       (orientation: portrait) and (max-width: 1024px),
+       (orientation: portrait) and (pointer: coarse),
+       (orientation: landscape) and (pointer: coarse) and (max-height: 560px),
+       (prefers-reduced-motion: reduce) {
+  .cine { height: auto; }
+  .cine-stage { position: relative; height: auto; min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; padding: calc(var(--nav-h) + 24px) 0 48px; }
+  .cine-poster { background-image: var(--cine-still, none), radial-gradient(ellipse 70% 50% at 50% 40%, rgba(255,122,26,.3), rgba(255,122,26,0) 70%); background-position: center 30%; }
+  .cine-scrim { background: linear-gradient(180deg, rgba(8,8,12,.45) 0, rgba(8,8,12,.1) 30%, rgba(8,8,12,.78) 62%, rgba(8,8,12,.94) 100%); }
+  .cine-video, .cine-band:not(.cine-settle), .cine-cue, .cine-rail { display: none; }
+  .cine-settle { position: relative; left: auto; bottom: auto; translate: none; width: auto; margin: 0 clamp(20px, 6vw, 96px); opacity: 1; pointer-events: auto; --k: 1; }
+  .cine-settle::before { display: none; }
+  .cine-settle h1 { font-size: clamp(40px, 11vw, 72px); }
+}
+@media (max-height: 560px) { .cine-rail, .cine-cue { display: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .cine *, .cine *::before, .cine *::after { transition: none !important; animation: none !important; }
+}
+body.paused *, body.paused *::before, body.paused *::after { animation-play-state: paused !important; }
+
+/* The old hero follows the cinematic one: no headline of its own any more */
+.cine + .marquee-row { margin-top: 0; border-top: none; }
+.hero.hero--after { min-height: 0; }
+.hero.hero--after .hero-inner { padding-top: 72px; padding-bottom: 88px; }
