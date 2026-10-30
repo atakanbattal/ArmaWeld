@@ -47,6 +47,7 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 <link rel="stylesheet" href="assets/theme.css?v=20261030d" />
 <link rel="stylesheet" href="assets/cine-hero.css?v=20261030e" />
+<link rel="stylesheet" href="assets/svc-reel.css?v=20261030a" />
 <style>
   /* ===== Hero ===== */
   .hero {
@@ -1412,6 +1413,66 @@
   </div>
 </section>
 
+<!-- SERVICE REEL (video cards) -->
+<section class="reel section-pad" aria-labelledby="reel-h">
+  <div class="container">
+    <div class="reel-head">
+      <div>
+        <div class="eyebrow" data-i18n="reel_eyebrow">Atölyeden</div>
+        <h2 id="reel-h" class="display h2" data-i18n-html="reel_h2">İşimizi <span style="color: var(--arc-2);">izleyin.</span></h2>
+      </div>
+      <span class="reel-hint reel-hint--hover" data-i18n="reel_hint">Kartın üzerine gelin, video oynasın</span>
+      <span class="reel-hint reel-hint--touch" data-i18n="reel_hint_touch">Kaydırın, videolar kendiliğinden oynar</span>
+    </div>
+    <div class="reel-grid">
+      <a class="reel-card" href="sasi-bom-imalati.html">
+        <img src="/assets/reel/sasi.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720" />
+        <video muted loop playsinline preload="none" disablepictureinpicture aria-hidden="true" data-src="/assets/reel/sasi.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">01</span>
+          <h3 data-i18n="reel_1_t">Şasi ve bom imalatı</h3>
+          <p data-i18n="reel_1_d">Römork şasileri, iş makinesi bomları ve taşıyıcı çerçeveler; fikstürde ve onaylı WPS ile kaynaklanır.</p>
+          <span class="reel-more" data-i18n="reel_more">İncele</span>
+        </div>
+      </a>
+      <a class="reel-card" href="celik-konstruksiyon.html">
+        <img src="/assets/reel/celik.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720" />
+        <video muted loop playsinline preload="none" disablepictureinpicture aria-hidden="true" data-src="/assets/reel/celik.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">02</span>
+          <h3 data-i18n="reel_2_t">Çelik konstrüksiyon</h3>
+          <p data-i18n="reel_2_d">EN 1090-2 EXC3’e kadar kolon, kiriş ve kafes kirişler; atölyede imal edilir, sevke hazır teslim edilir.</p>
+          <span class="reel-more" data-i18n="reel_more">İncele</span>
+        </div>
+      </a>
+      <a class="reel-card" href="tozalti-kaynak.html">
+        <img src="/assets/reel/tozalti.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720" />
+        <video muted loop playsinline preload="none" disablepictureinpicture aria-hidden="true" data-src="/assets/reel/tozalti.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">03</span>
+          <h3 data-i18n="reel_3_t">Tozaltı kaynak</h3>
+          <p data-i18n="reel_3_d">35 m tozaltı (SAW) hattında uzun lineer dikişler; tek bağlamada, tekrarlanabilir kalitede.</p>
+          <span class="reel-more" data-i18n="reel_more">İncele</span>
+        </div>
+      </a>
+      <a class="reel-card" href="ndt.html">
+        <img src="/assets/reel/ndt.jpg?v=20261030" alt="" loading="lazy" decoding="async" width="960" height="720" />
+        <video muted loop playsinline preload="none" disablepictureinpicture aria-hidden="true" data-src="/assets/reel/ndt.mp4?v=20261030"></video>
+        <span class="reel-play" aria-hidden="true"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>
+        <div class="reel-body">
+          <span class="reel-num">04</span>
+          <h3 data-i18n="reel_4_t">NDT muayene</h3>
+          <p data-i18n="reel_4_d">VT, PT, MT ve UT, Seviye 2 personelle bünyemizde; her dikiş raporla teslim edilir.</p>
+          <span class="reel-more" data-i18n="reel_more">İncele</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- PERSONA PATHS -->
 <section class="aw-band aw-personas section-pad" style="background:var(--ink-0);">
   <div class="container">
@@ -2226,6 +2287,7 @@
 <script src="assets/sample-docs-data.js?v=202605253"></script>
 <script src="assets/analytics.js?v=20260604"></script>
 <script src="assets/cine-hero.js?v=20261030e"></script>
+<script src="assets/svc-reel.js?v=20261030a" defer></script>
 <script>
   // Hero weld animation (runs immediately — viewBox coords scale on mobile)
   (function initHeroWeldAnim() {
