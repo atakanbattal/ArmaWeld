@@ -16,7 +16,7 @@
   --tshadow: 0 1px 2px rgba(6,6,9,.95), 0 3px 12px rgba(6,6,9,.78), 0 10px 44px rgba(6,6,9,.8);
   --ease-out: cubic-bezier(.22,.61,.36,1);
   position: relative;
-  height: 480vh;
+  height: 820vh;
   background: var(--cine-canvas);
   color: var(--cine-text);
 }
@@ -75,10 +75,11 @@
 .cine-kicker {
   display: inline-block;
   font-family: var(--ff-mono);
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--cine-arc);
+  color: #ff8a33;
   margin-bottom: 18px;
   opacity: calc(var(--k, 0));
 }

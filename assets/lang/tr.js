@@ -255,15 +255,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   // ── Home hero (doğru metin) ──
   home_hero_h1: 'Her dikişin<br/>arkasında bir<br/><span class="arc">mühendis</span> imzası.',
-  cine_b1_k: "01 · ARK",
-  cine_b1_h: "Önce ark.",
-  cine_b1_p: "Çelik erir, iki parça tek parça olur.",
-  cine_b2_k: "02 · YÖNTEM",
-  cine_b2_h: "Sonra yöntem.",
-  cine_b2_p: "Onaylı WPS, belgeli kaynakçı, kayıt altında her parametre.",
-  cine_b3_k: "03 · KANIT",
-  cine_b3_h: "Sonra kanıt.",
-  cine_b3_p: "Dikiş soğur, muayene başlar. Her parça raporuyla teslim edilir.",
+  cine_b1_k: "01 · FABRİKA",
+  cine_b1_h: "Önce fabrika.",
+  cine_b1_p: "Kesim, montaj ve kaynak aynı çatı altında, tek akışta.",
+  cine_b2_k: "02 · PARÇA",
+  cine_b2_h: "Sonra parça.",
+  cine_b2_p: "Ağır çelik parçalar, onaylı WPS ve belgeli kaynakçıyla çizime birebir.",
+  cine_b3_k: "03 · DİKİŞ",
+  cine_b3_h: "Sonra dikiş.",
+  cine_b3_p: "Her dikiş muayene edilir. Her parça raporuyla teslim edilir.",
   cine_scroll: "Kaydırın",
 
   // ── Hizmetler bölümü (index) ──

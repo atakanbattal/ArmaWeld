@@ -93,7 +93,7 @@
       var op = (b.last ? smoothstep(p, b.a, b.a + f) : inE * outE);
       var k = clamp((p - b.a) / (b.ramp || Math.min(0.025, (b.b - b.a) * 0.35)), 0, 1);
       if (b.first) k = Math.max(k, loadK);
-      if (b.last) k = clamp((p - b.a) / (b.ramp || 0.12), 0, 1);
+      if (b.last) k = clamp((p - b.a) / (b.ramp || 0.08), 0, 1);
       op = Math.round(op * 1000) / 1000;
       if (op !== b.op) { b.op = op; b.el.style.opacity = op; }
       if (Math.abs(k - b.k) >= 0.008 || (k === 1 && b.k !== 1) || (k === 0 && b.k !== 0)) { b.k = k; b.el.style.setProperty('--k', k.toFixed(3)); }
