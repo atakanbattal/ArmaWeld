@@ -29,6 +29,13 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
 
   footer_chassis: 'Châssis & flèches',
 
+  footer_btp: 'Fabrication sur plan',
+
+  footer_mfr: 'Bâtis de machines',
+  rel_rfq: 'Checklist : que fournir pour un devis',
+  rel_cost: 'Combien coûte une fabrication soudée ?',
+  rel_src: 'Pièces soudées : Turquie, Europe de l’Est ou Asie ?',
+
   footer_export: 'Export vers l\'Europe',
 
   nav_export: 'Export vers l\'Europe',

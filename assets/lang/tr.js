@@ -32,6 +32,13 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
 
   footer_chassis: 'Şasi & Bom İmalatı',
 
+  footer_btp: 'Çizime Göre İmalat',
+
+  footer_mfr: 'Makine Şasesi İmalatı',
+  rel_rfq: 'Teklif isterken gönderilmesi gerekenler (RFQ listesi)',
+  rel_cost: 'Kaynaklı imalat fiyatını ne belirler?',
+  rel_src: 'Türkiye, Doğu Avrupa ve Asya: tedarik karşılaştırması',
+
   footer_export: 'Avrupa\'ya İhracat',
 
   nav_export: 'Avrupa\'ya İhracat',

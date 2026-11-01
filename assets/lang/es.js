@@ -29,6 +29,13 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
 
   footer_chassis: 'Chasis y plumas',
 
+  footer_btp: 'Fabricación según plano',
+
+  footer_mfr: 'Bastidores de máquina',
+  rel_rfq: 'Checklist: qué enviar al pedir presupuesto',
+  rel_cost: '¿Cuánto cuesta la fabricación soldada?',
+  rel_src: 'Piezas soldadas: Turquía, Europa del Este o Asia',
+
   footer_export: 'Exportación a Europa',
 
   nav_export: 'Exportación a Europa',
