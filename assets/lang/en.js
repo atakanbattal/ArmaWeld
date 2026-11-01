@@ -30,6 +30,13 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   footer_chassis: 'Chassis & Boom Fabrication',
 
+  footer_btp: 'Build-to-Print Fabrication',
+
+  footer_mfr: 'Machine Frames & Bases',
+  rel_rfq: 'RFQ checklist: what to send for a quote',
+  rel_cost: 'What drives the cost of welded fabrication?',
+  rel_src: 'Sourcing welded parts: Turkey vs Eastern Europe vs Asia',
+
   footer_export: 'Export to Europe',
 
   nav_export: 'Export to Europe',

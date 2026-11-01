@@ -29,6 +29,13 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
 
   footer_chassis: 'Rahmen- & Auslegerbau',
 
+  footer_btp: 'Fertigung nach Zeichnung',
+
+  footer_mfr: 'Maschinengestelle & -rahmen',
+  rel_rfq: 'Anfrage-Checkliste: was Sie mitschicken sollten',
+  rel_cost: 'Was kostet eine Schweißkonstruktion?',
+  rel_src: 'Schweißteile beschaffen: Türkei, Osteuropa oder Asien?',
+
   footer_export: 'Export nach Europa',
 
   nav_export: 'Export nach Europa',

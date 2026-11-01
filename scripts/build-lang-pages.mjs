@@ -44,7 +44,7 @@ const urlFor = (lang, page) => {
 
 function hreflangBlock(page, indent) {
   const lines = ALL_LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${urlFor(l, page)}" />`);
-  lines.push(`<link rel="alternate" hreflang="x-default" href="${urlFor('tr', page)}" />`);
+  lines.push(`<link rel="alternate" hreflang="x-default" href="${urlFor('en', page)}" />`);
   return [HREFLANG_START, ...lines, HREFLANG_END].map((l) => indent + l).join('\n');
 }
 
@@ -263,7 +263,7 @@ function buildSitemap() {
     const trUrl = urlFor('tr', page);
     if (!lastmod.has(trUrl)) continue; // only pages already listed for Google in Turkish
     const alts = ALL_LANGS.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${urlFor(l, page)}"/>`)
-      .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${trUrl}"/>`).join('\n');
+      .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${urlFor('en', page)}"/>`).join('\n');
     for (const lang of LANGS) {
       out.push('  <url>', `    <loc>${urlFor(lang, page)}</loc>`, `    <lastmod>${lastmod.get(trUrl)}</lastmod>`, alts, '  </url>');
     }

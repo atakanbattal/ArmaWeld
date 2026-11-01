@@ -277,8 +277,10 @@ function buildFooter(base) {
           <ul>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s1"></a></li>
             <li><a href="${b}konya-fason-kaynak.html" data-i18n="footer_fason"></a></li>
+            <li><a href="${b}cizime-gore-imalat.html" data-i18n="footer_btp"></a></li>
             <li><a href="${b}celik-konstruksiyon.html" data-i18n="footer_steel"></a></li>
             <li><a href="${b}sasi-bom-imalati.html" data-i18n="footer_chassis"></a></li>
+            <li><a href="${b}makine-sasesi-imalati.html" data-i18n="footer_mfr"></a></li>
             <li><a href="${b}sac-kesim-bukum.html" data-i18n="footer_s2"></a></li>
             <li><a href="${b}sac-kesim-bukum.html" data-i18n="footer_s3"></a></li>
             <li><a href="${b}hizmetler.html" data-i18n="footer_s4"></a></li>
