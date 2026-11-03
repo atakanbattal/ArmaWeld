@@ -15,6 +15,8 @@
     if (a) track('phone_click', { link_url: a.href });
     const wa = e.target.closest('a.wa-fab, a[href*="wa.me"]');
     if (wa) track('whatsapp_click', { link_url: wa.href });
+    const mail = e.target.closest('a[href^="mailto:"]');
+    if (mail) track('email_click', { link_url: mail.href.split('?')[0] });
     const cta = e.target.closest('.nav-cta, .sticky-cta__btn, .btn-primary[href*="iletisim"]');
     if (cta) track('cta_click', { link_text: (cta.textContent || '').trim().slice(0, 40) });
   }, true);
