@@ -67,6 +67,18 @@
   .pt-sec-h { font-family: var(--ff-display); font-weight: 700; font-size: 18px; color: var(--bone); margin-top: 48px; }
   @media (max-width: 900px) { .pt-screen { grid-template-columns: 1fr; gap: 24px; } .pt-screen.flip { grid-template-columns: 1fr; } .pt-screen.flip .pt-shot { order: 0; } .pt-screens { gap: 56px; } }
 </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
 </head>
 <body>
 
