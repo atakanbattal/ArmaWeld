@@ -41,6 +41,18 @@
   .page-hero h1 .arc { color: var(--arc-2); }
   .page-hero .lede { font-size: clamp(16px, 1.3vw, 20px); color: var(--steel-3); max-width: 62ch; line-height: 1.65; }
 </style>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
 </head>
 <body>
 
