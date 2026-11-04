@@ -2865,7 +2865,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.nl={
  "pg_belgelerimiz_desc": "De officiële certificaten van ArmaWeld: bekijk en download EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 en ISO 45001:2018.",
  "pg_hakkimizda_title": "Over ons | Gelaste constructiebouw in Konya, Turkije — ArmaWeld",
  "pg_hakkimizda_desc": "Het team van ArmaWeld: lasingenieurs, NDO-technici en gecertificeerde lassers die als één interdisciplinair team werken.",
- "pg_hizmetler_title": "Diensten gelaste constructiebouw | MIG/MAG, TIG, SAW, lasersnijden, zetten — ArmaWeld",
+ "pg_hizmetler_title": "Diensten gelaste constructiebouw | MIG/MAG, TIG, onderpoederlassen en NDO — ArmaWeld",
  "pg_hizmetler_desc": "Onze diensten in gelaste constructiebouw: MIG/MAG- en TIG-lassen, 35 m onderpoederdeklassen, lasersnijden, CNC-zetten, mechanische montage en NDO. Gecertificeerd volgens EN 1090-2, ISO 3834-2, ISO 9001, 14001, 45001.",
  "pg_iletisim_title": "Contact & offerte | Gelaste constructiebouw in Konya, Turkije — ArmaWeld",
  "pg_iletisim_desc": "Deel uw technische gegevens en ontvang binnen 48 uur antwoord. Snel offerteformulier voor materiaal, dikte en toepassing.",

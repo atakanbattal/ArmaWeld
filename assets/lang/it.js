@@ -2865,7 +2865,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.it={
  "pg_belgelerimiz_desc": "I certificati ufficiali di ArmaWeld: consultate e scaricate EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018.",
  "pg_hakkimizda_title": "Chi siamo | Carpenteria metallica saldata a Konya, Turchia — ArmaWeld",
  "pg_hakkimizda_desc": "Il team ArmaWeld: ingegneri di saldatura, tecnici CND e saldatori certificati che lavorano come un unico team interdisciplinare.",
- "pg_hizmetler_title": "Carpenteria saldata | MIG/MAG, TIG, SAW, taglio laser, piegatura — ArmaWeld",
+ "pg_hizmetler_title": "Carpenteria saldata | MIG/MAG, TIG, arco sommerso e CND — ArmaWeld",
  "pg_hizmetler_desc": "I nostri servizi di carpenteria saldata: saldatura MIG/MAG e TIG, arco sommerso da 35 m, taglio laser, piegatura CNC, montaggio meccanico e CND. Certificati EN 1090-2, ISO 3834-2, ISO 9001, 14001, 45001.",
  "pg_iletisim_title": "Contatti e preventivo | Carpenteria saldata a Konya, Turchia — ArmaWeld",
  "pg_iletisim_desc": "Condividete i dettagli tecnici e ricevete una risposta entro 48 ore. Modulo di preventivo rapido per materiale, spessore e applicazione.",

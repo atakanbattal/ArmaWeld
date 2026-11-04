@@ -2865,7 +2865,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.no={
  "pg_belgelerimiz_desc": "ArmaWelds offisielle sertifikater: se og last ned EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 og ISO 45001:2018.",
  "pg_hakkimizda_title": "Om oss | Sveisebedrift i Konya, Tyrkia — ArmaWeld",
  "pg_hakkimizda_desc": "ArmaWeld-teamet: sveiseingeniører, NDT-teknikere og sertifiserte sveisere som jobber som ett tverrfaglig team.",
- "pg_hizmetler_title": "Sveisetjenester | MIG/MAG, TIG, SAW, laserkutting, bøying — ArmaWeld",
+ "pg_hizmetler_title": "Sveisetjenester | MIG/MAG, TIG, pulverbuesveising og NDT — ArmaWeld",
  "pg_hizmetler_desc": "Våre tjenester innen sveiset fabrikasjon: MIG/MAG- og TIG-sveising, 35 m pulverbuesveising, laserkutting, CNC-bøying, mekanisk montering og NDT. Sertifisert etter EN 1090-2, ISO 3834-2, ISO 9001, 14001, 45001.",
  "pg_iletisim_title": "Kontakt og tilbud | Sveiset fabrikasjon i Konya, Tyrkia — ArmaWeld",
  "pg_iletisim_desc": "Del de tekniske detaljene og få svar innen 48 timer. Hurtig tilbudsskjema for materiale, tykkelse og bruksområde.",
