@@ -1193,6 +1193,7 @@
     }
     gtag('config', 'G-ML770TF8NC');
   </script>
+<link rel="stylesheet" href="../assets/visuals.css?v=20261111">
 </head>
 <body>
 
@@ -1310,14 +1311,12 @@
     </div>
 
     <!-- Right: technical drawing + workshop photo -->
-    <div class="hero-visual reveal">
-      <div class="hv-photo" aria-hidden="true"></div>
+    <div class="hero-visual hv-real reveal">
       <div class="hv-corner tl"><span class="on">■</span> <span data-i18n="px_ix_2">WPS–142 · SALDATURA D'ANGOLO</span></div>
       <div class="hv-corner tr">MAG 135 / G3Si1</div>
       <div class="hv-corner bl">a = 6 mm · L = 220 mm</div>
       <div class="hv-corner br">EN ISO 9606-1</div>
 
-      <div class="scan-sweep"></div>
 
       <div class="readout r-tl">
         <div data-i18n="px_ix_3">TENSIONE · V</div>
@@ -1328,161 +1327,10 @@
         <div class="rv">7.8 m/dk</div>
       </div>
 
-      <div class="hv-stage">
-        <svg class="hv-svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
-          <defs>
-            <linearGradient id="plateGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#1c2026"></stop>
-              <stop offset="1" stop-color="#0a0c10"></stop>
-            </linearGradient>
-            <linearGradient id="plateTop" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#2c313b"></stop>
-              <stop offset="1" stop-color="#14171c"></stop>
-            </linearGradient>
-            <radialGradient id="hotspot" cx="0.5" cy="0.5" r="0.5">
-              <stop offset="0" stop-color="#fff4d6" stop-opacity="1"></stop>
-              <stop offset="0.3" stop-color="#ff9a3d" stop-opacity="0.7"></stop>
-              <stop offset="1" stop-color="#ff5a1f" stop-opacity="0"></stop>
-            </radialGradient>
-          </defs>
-
-          <!-- Measurement grid -->
-          <g stroke="#1c2026" stroke-width="0.5" opacity="0.7">
-            <line x1="0" y1="100" x2="400" y2="100"></line>
-            <line x1="0" y1="200" x2="400" y2="200"></line>
-            <line x1="0" y1="300" x2="400" y2="300"></line>
-            <line x1="100" y1="0" x2="100" y2="400"></line>
-            <line x1="200" y1="0" x2="200" y2="400"></line>
-            <line x1="300" y1="0" x2="300" y2="400"></line>
-          </g>
-
-          <!-- Axis ticks -->
-          <g font-family="JetBrains Mono" font-size="7" fill="#4a505c" letter-spacing="1">
-            <text x="8" y="12">0</text>
-            <text x="96" y="12">50</text>
-            <text x="196" y="12">100</text>
-            <text x="296" y="12">150</text>
-            <text x="392" y="12" text-anchor="end">mm</text>
-          </g>
-
-          <!-- Horizontal plate (base) - front face + top thickness -->
-          <path d="M 60 240 L 340 240 L 340 268 L 60 268 Z" fill="url(#plateGrad)" stroke="#4a505c" stroke-width="0.8"></path>
-          <line x1="60" y1="240" x2="340" y2="240" stroke="#6b7280" stroke-width="0.5"></line>
-          <!-- Vertical plate - front face -->
-          <path d="M 186 90 L 214 90 L 214 240 L 186 240 Z" fill="url(#plateTop)" stroke="#4a505c" stroke-width="0.8"></path>
-          <!-- Plate edge highlights -->
-          <line x1="186" y1="90" x2="186" y2="240" stroke="#6b7280" stroke-width="0.4" opacity="0.6"></line>
-          <line x1="214" y1="90" x2="214" y2="240" stroke="#6b7280" stroke-width="0.4" opacity="0.6"></line>
-
-          <!-- Fillet weld bead — left side (anatomical triangle + ripple rings) -->
-          <g>
-            <path d="M 186 240 L 174 240 Q 180 232 186 228 Z" fill="#3a3f49" stroke="#6b7280" stroke-width="0.5"></path>
-            <path d="M 186 240 L 176 240 Q 181 233 186 230" fill="none" stroke="#5a6170" stroke-width="0.4"></path>
-            <path d="M 186 240 L 178 240 Q 182 235 186 233" fill="none" stroke="#5a6170" stroke-width="0.4"></path>
-          </g>
-          <!-- Fillet weld bead — right side -->
-          <g>
-            <path d="M 214 240 L 226 240 Q 220 232 214 228 Z" fill="#3a3f49" stroke="#6b7280" stroke-width="0.5"></path>
-            <path d="M 214 240 L 224 240 Q 219 233 214 230" fill="none" stroke="#5a6170" stroke-width="0.4"></path>
-            <path d="M 214 240 L 222 240 Q 218 235 214 233" fill="none" stroke="#5a6170" stroke-width="0.4"></path>
-          </g>
-
-          <!-- Ripple pattern stripes along right bead toe (perspective into page) -->
-          <g opacity="0.55">
-            <line x1="75" y1="238" x2="75" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="87" y1="238" x2="87" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="99" y1="238" x2="99" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="111" y1="238" x2="111" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="123" y1="238" x2="123" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="135" y1="238" x2="135" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="147" y1="238" x2="147" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="159" y1="238" x2="159" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="171" y1="238" x2="171" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="227" y1="238" x2="227" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="239" y1="238" x2="239" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="251" y1="238" x2="251" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="263" y1="238" x2="263" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="275" y1="238" x2="275" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="287" y1="238" x2="287" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="299" y1="238" x2="299" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="311" y1="238" x2="311" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-            <line x1="323" y1="238" x2="323" y2="242" stroke="#6b7280" stroke-width="0.4"></line>
-          </g>
-
-          <!-- Weld seam baseline (dashed ghost - unfinished portion) -->
-          <line x1="75" y1="240" x2="335" y2="240" stroke="#343944" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.5"></line>
-
-          <!-- Completed weld bead (progress) -->
-          <g>
-            <path class="bead-prog" d="M 75 240 L 335 240" stroke="#ff7a1a" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"></path>
-            <path class="bead-prog" d="M 75 240 L 335 240" stroke="#ffcf8f" stroke-width="1" fill="none" stroke-linecap="round"></path>
-          </g>
-
-          <!-- Arc glow + torch (JS-driven — viewBox units, all browsers) -->
-          <g id="weld-travel">
-            <g class="arc-glow">
-              <circle cx="75" cy="240" r="16" fill="url(#hotspot)"></circle>
-              <circle cx="75" cy="240" r="6" fill="#fff4d6" opacity="0.9"></circle>
-            </g>
-            <g class="arc-dot">
-              <rect x="70" y="165" width="10" height="60" fill="#2c313b" stroke="#6b7280" stroke-width="0.6"></rect>
-              <rect x="71" y="168" width="8" height="8" fill="#6b7280"></rect>
-              <line x1="75" y1="225" x2="75" y2="236" stroke="#c8ccd4" stroke-width="1.5"></line>
-              <circle cx="75" cy="237" r="2" fill="#fff4d6"></circle>
-              <circle cx="68" cy="234" r="0.8" fill="#ff9a3d" opacity="0.7"></circle>
-              <circle cx="82" cy="235" r="0.6" fill="#ff9a3d" opacity="0.5"></circle>
-              <circle cx="72" cy="246" r="0.5" fill="#ff9a3d" opacity="0.4"></circle>
-            </g>
-          </g>
-
-          <!-- Dimension — throat thickness (a=6) -->
-          <g stroke="#6b7280" stroke-width="0.6" fill="none">
-            <line x1="230" y1="228" x2="252" y2="228"></line>
-            <line x1="230" y1="240" x2="252" y2="240"></line>
-            <line x1="247" y1="228" x2="247" y2="240"></line>
-            <polygon points="247,228 244,232 250,232" fill="#6b7280"></polygon>
-            <polygon points="247,240 244,236 250,236" fill="#6b7280"></polygon>
-          </g>
-          <text x="254" y="237" font-family="JetBrains Mono" font-size="8" fill="#9aa0ab" letter-spacing="0.5">a = 6</text>
-
-          <!-- Dimension — weld length -->
-          <g stroke="#6b7280" stroke-width="0.6" fill="none">
-            <line x1="75" y1="295" x2="335" y2="295"></line>
-            <line x1="75" y1="290" x2="75" y2="300"></line>
-            <line x1="335" y1="290" x2="335" y2="300"></line>
-          </g>
-          <text x="205" y="310" text-anchor="middle" font-family="JetBrains Mono" font-size="8" fill="#9aa0ab" letter-spacing="0.5">L = 220 mm</text>
-
-          <!-- Plate thickness dimension -->
-          <g stroke="#6b7280" stroke-width="0.5" fill="none" opacity="0.7">
-            <line x1="350" y1="240" x2="360" y2="240"></line>
-            <line x1="350" y1="268" x2="360" y2="268"></line>
-            <line x1="355" y1="240" x2="355" y2="268"></line>
-          </g>
-          <text x="365" y="257" font-family="JetBrains Mono" font-size="7" fill="#6b7280">t=12</text>
-
-          <!-- ISO 2553 weld symbol callout -->
-          <g transform="translate(270,130)">
-            <!-- Reference line -->
-            <line x1="-30" y1="20" x2="40" y2="20" stroke="#ff7a1a" stroke-width="0.9"></line>
-            <!-- Arrow line pointing to weld -->
-            <line x1="-30" y1="20" x2="-70" y2="100" stroke="#ff7a1a" stroke-width="0.9"></line>
-            <polygon points="-70,100 -65,94 -63,100" fill="#ff7a1a"></polygon>
-            <!-- Fillet weld triangle on arrow side -->
-            <polygon points="-4,20 4,20 0,28" fill="#ff7a1a"></polygon>
-            <text x="-12" y="18" font-family="JetBrains Mono" font-size="9" fill="#ff7a1a">6</text>
-            <text x="8" y="18" font-family="JetBrains Mono" font-size="8" fill="#ff7a1a">220</text>
-            <text x="-30" y="38" font-family="JetBrains Mono" font-size="7" fill="#6b7280">ISO 2553</text>
-          </g>
-
-          <!-- Small label: WPS ref -->
-          <g transform="translate(60,100)">
-            <rect x="0" y="0" width="90" height="26" fill="#07080a" stroke="#1c2026"></rect>
-            <text x="8" y="11" font-family="JetBrains Mono" font-size="7" fill="#6b7280" letter-spacing="1">WPS REV.02</text>
-            <text x="8" y="21" font-family="JetBrains Mono" font-size="7" fill="#ff7a1a" letter-spacing="1">WPS-142-A</text>
-          </g>
-        </svg>
-      </div>
+      <video class="hv-video" autoplay="" muted="" loop="" playsinline="" preload="metadata" poster="../assets/visuals/kaynak-poster.webp?v=20261111" aria-label="Video di un saldatore che esegue una saldatura d'angolo MAG su un giunto a T" data-i18n-aria="vis_alt_weld">
+        <source src="../assets/visuals/kaynak-loop.mp4?v=20261111" type="video/mp4">
+      </video>
+      <div class="hv-shade" aria-hidden="true"></div>
     </div>
   </div>
 </section>
@@ -2307,34 +2155,6 @@
 <script src="../assets/cine-hero.js?v=20261030f"></script>
 <script src="../assets/svc-reel.js?v=20261030a" defer=""></script>
 <script>
-  // Hero weld animation (runs immediately — viewBox coords scale on mobile)
-  (function initHeroWeldAnim() {
-    var travel = document.getElementById('weld-travel');
-    var beads = document.querySelectorAll('.bead-prog');
-    if (!travel || !beads.length) return;
-    var start = 75, end = 335, len = end - start, dur = 4500;
-    beads.forEach(function (p) {
-      var plen = typeof p.getTotalLength === 'function' ? p.getTotalLength() : len;
-      p.style.strokeDasharray = plen;
-      p.style.strokeDashoffset = plen;
-    });
-    var t0 = performance.now();
-    function tick(now) {
-      var t = (now - t0) % dur;
-      var phase = t / dur;
-      var prog = phase <= 0.7 ? phase / 0.7 : 1;
-      travel.setAttribute('transform', 'translate(' + (len * prog) + ', 0)');
-      travel.setAttribute('opacity', phase < 0.69 ? '1' : '0');
-      beads.forEach(function (p) {
-        var plen = parseFloat(p.style.strokeDasharray) || len;
-        p.style.strokeDashoffset = plen * (1 - prog);
-        p.style.opacity = phase < 0.69 ? '0.9' : '0';
-      });
-      requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  })();
-
   mountChrome('index').then(function () {
 
   // ============================================

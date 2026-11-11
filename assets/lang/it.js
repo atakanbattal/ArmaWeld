@@ -2272,7 +2272,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.it={
  "vis_alt_fason": "Saldatori che eseguono saldatura MAG su banchi di posizionamento, con pezzi saldati verniciati di fondo su pallet",
  "vis_alt_celik": "Telaio in carpenteria metallica verniciato di fondo in officina mentre un saldatore salda una piastra di rinforzo",
  "vis_alt_sasi": "Saldatore che salda una traversa di un lungo telaio per rimorchio, con un braccio gru saldato sullo sfondo",
- "vis_alt_cizim": "Controllo dimensionale di una staffa saldata con calibro secondo un disegno con simboli di saldatura",
+ "vis_alt_cizim": "Saldatore che punta una staffa su un banco di posizionamento, con il disegno tecnico accanto",
  "vis_alt_makine": "Controllo di planarità di un basamento macchina saldato con superfici di appoggio lavorate",
  "vis_alt_ihracat": "Assiemi saldati e verniciati caricati su un semirimorchio per la consegna in Europa",
  "vis_alt_sac": "Pezzi in lamiera tagliati al laser e piegati al controllo in accettazione prima della saldatura",

@@ -2272,7 +2272,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.no={
  "vis_alt_fason": "Sveisere som MAG-sveiser på fiksturbord, med grunnede sveisede deler på paller",
  "vis_alt_celik": "Grunnet stålkonstruksjonsramme i verkstedet mens en sveiser sveiser en knuteplate",
  "vis_alt_sasi": "Sveiser som sveiser en tverrbjelke på et langt tilhengerchassis, med en sveiset kranbom bak",
- "vis_alt_cizim": "Målkontroll av en sveiset brakett med skyvelære mot en tegning med sveisesymboler",
+ "vis_alt_cizim": "Sveiser som heftsveiser en brakett på et fiksturbord, med den tekniske tegningen ved siden av",
  "vis_alt_makine": "Planhetskontroll av en sveiset maskinramme med maskinerte monteringsflater",
  "vis_alt_ihracat": "Sveisede og lakkerte sammenstillinger lastes på en semitrailer for levering til Europa",
  "vis_alt_sac": "Laserskårne og bukkede platedeler ved mottakskontroll før sveising",

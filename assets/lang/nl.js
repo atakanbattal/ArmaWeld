@@ -2272,7 +2272,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.nl={
  "vis_alt_fason": "Lassers die MAG-lassen op opspantafels, met gegronde laskonstructies op pallets",
  "vis_alt_celik": "Gegrond staalconstructieframe in de werkplaats terwijl een lasser een knoopplaat last",
  "vis_alt_sasi": "Lasser die een dwarsligger van een lang trailerchassis last, met een gelaste kraangiek erachter",
- "vis_alt_cizim": "Maatcontrole van een gelaste beugel met een schuifmaat aan de hand van een tekening met lassymbolen",
+ "vis_alt_cizim": "Lasser die een beugel hecht op een opspantafel, met de technische tekening ernaast",
  "vis_alt_makine": "Vlakheidscontrole van een gelast machineframe met bewerkte montagevlakken",
  "vis_alt_ihracat": "Gelaste en gelakte samenstellingen worden op een oplegger geladen voor levering naar Europa",
  "vis_alt_sac": "Lasergesneden en gezette plaatdelen bij de ingangscontrole vóór het lassen",
