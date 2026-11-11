@@ -2,15 +2,15 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   // Nav
   nav_home: 'Ana Sayfa', nav_about: 'Hakkımızda', nav_services: 'Hizmetler',
   nav_engineering: 'Mühendislik',
-  nav_quality: 'Kalite', nav_welding: 'Kaynak', nav_ndt: 'NDT',
-  nav_sectors: 'Sektörler', nav_projects: 'Projeler', nav_faq: 'SSS', nav_contact: 'İletişim', nav_blog: 'Blog',
+  nav_quality: 'Kalite', nav_welding: 'Kaynak Yöntemleri', nav_ndt: 'Tahribatsız Muayene (NDT)',
+  nav_sectors: 'Hizmet Verdiğimiz Sektörler', nav_projects: 'Referans Projeler', nav_faq: 'Sıkça Sorulan Sorular', nav_contact: 'İletişim', nav_blog: 'Blog',
   nav_documents: 'Belgelerimiz',
   nav_portal: 'Müşteri Portalı',
-  nav_more: 'Diğer',
+  nav_more: 'Kurumsal', nav_grp_tech: 'Teknik Yetkinlik', nav_grp_refs: 'Referanslar', nav_grp_client: 'Müşteri Hizmetleri',
   nav_drawer_main: 'Menü',
   nav_cta: 'Teklif Al →',
   nav_aria_home: 'ArmaWeld ana sayfa', nav_aria_theme: 'Tema değiştir',
-  nav_aria_menu: 'Menü', nav_aria_lang: 'Dil seç', nav_aria_more: 'Diğer menü',
+  nav_aria_menu: 'Menü', nav_aria_lang: 'Dil seç', nav_aria_more: 'Kurumsal menü',
 
   // Footer
   footer_tag: 'Her dikişin arkasında bir mühendis imzası vardır.',
@@ -19,10 +19,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   footer_s1: 'Kaynaklı İmalat', footer_s2: 'Sac Kesim', footer_s3: 'Büküm & Şekillendirme',
   footer_s4: 'Montaj & Mekanik', footer_s5: 'Kaynak Yöntemleri', footer_s6: 'NDT / Tahribatsız Muayene',
   footer_s7: 'Mühendislik Hizmetleri',
-  footer_c1: 'Hakkımızda', footer_c2: 'Kalite & İzlenebilirlik', footer_c3: 'Sektörler',
+  footer_c1: 'Hakkımızda', footer_c2: 'Kalite & İzlenebilirlik', footer_c3: 'Hizmet Verdiğimiz Sektörler',
   footer_c8: 'Belgelerimiz',
   footer_c7: 'Mühendislik',
-  footer_c4: 'Projeler', footer_c5: 'SSS', footer_c6: 'İletişim',
+  footer_c4: 'Referans Projeler', footer_c5: 'Sıkça Sorulan Sorular', footer_c6: 'İletişim',
   footer_copy: '© 2026 ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.',
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 

@@ -1,15 +1,15 @@
 window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   nav_home: 'Inicio', nav_about: 'Nosotros', nav_services: 'Servicios',
-  nav_quality: 'Calidad', nav_welding: 'Soldadura', nav_ndt: 'END',
-  nav_sectors: 'Sectores', nav_projects: 'Proyectos', nav_faq: 'FAQ', nav_contact: 'Contacto', nav_blog: 'Blog',
+  nav_quality: 'Calidad', nav_welding: 'Procesos de soldadura', nav_ndt: 'Ensayos no destructivos (END)',
+  nav_sectors: 'Sectores que atendemos', nav_projects: 'Proyectos de referencia', nav_faq: 'Preguntas frecuentes', nav_contact: 'Contacto', nav_blog: 'Blog',
   nav_documents: 'Certificados',
   nav_engineering: 'Ingeniería',
   nav_portal: 'Portal de Clientes',
-  nav_more: 'Más',
+  nav_more: 'Empresa', nav_grp_tech: 'Capacidad técnica', nav_grp_refs: 'Referencias', nav_grp_client: 'Atención al cliente',
   nav_drawer_main: 'Menú',
   nav_cta: 'Cotización →',
   nav_aria_home: 'Página principal ArmaWeld', nav_aria_theme: 'Cambiar tema',
-  nav_aria_menu: 'Menú', nav_aria_lang: 'Seleccionar idioma', nav_aria_more: 'Más opciones',
+  nav_aria_menu: 'Menú', nav_aria_lang: 'Seleccionar idioma', nav_aria_more: 'Menú Empresa',
 
   footer_tag: 'Detrás de cada cordón hay una firma de ingeniería.',
   footer_desc: 'Fabricación soldada y producción centrada en END; las etapas de corte, plegado y montaje se coordinan dentro del plan del proyecto. Trazabilidad completa y disciplina documental.',
@@ -19,7 +19,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   footer_s7: 'Servicios de ingeniería',
   footer_c1: 'Sobre nosotros', footer_c2: 'Calidad y trazabilidad', footer_c3: 'Sectores',
   footer_c8: 'Certificados',
-  footer_c4: 'Proyectos', footer_c5: 'FAQ', footer_c6: 'Contacto', footer_c7: 'Ingeniería',
+  footer_c4: 'Proyectos de referencia', footer_c5: 'Preguntas frecuentes', footer_c6: 'Contacto', footer_c7: 'Ingeniería',
   footer_copy: '© 2026 ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.',
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 

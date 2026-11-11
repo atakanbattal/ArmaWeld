@@ -1,15 +1,15 @@
 window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   nav_home: 'Startseite', nav_about: 'Über uns', nav_services: 'Leistungen',
-  nav_quality: 'Qualität', nav_welding: 'Schweißen', nav_ndt: 'ZfP',
-  nav_sectors: 'Branchen', nav_projects: 'Projekte', nav_faq: 'FAQ', nav_contact: 'Kontakt', nav_blog: 'Blog',
+  nav_quality: 'Qualität', nav_welding: 'Schweißverfahren', nav_ndt: 'Zerstörungsfreie Prüfung (ZfP)',
+  nav_sectors: 'Branchen, die wir beliefern', nav_projects: 'Referenzprojekte', nav_faq: 'Häufige Fragen', nav_contact: 'Kontakt', nav_blog: 'Blog',
   nav_documents: 'Zertifikate',
   nav_engineering: 'Technik',
   nav_portal: 'Kundenportal',
-  nav_more: 'Mehr',
+  nav_more: 'Unternehmen', nav_grp_tech: 'Technische Kompetenz', nav_grp_refs: 'Referenzen', nav_grp_client: 'Kundenservice',
   nav_drawer_main: 'Menü',
   nav_cta: 'Angebot →',
   nav_aria_home: 'ArmaWeld Startseite', nav_aria_theme: 'Design wechseln',
-  nav_aria_menu: 'Menü', nav_aria_lang: 'Sprache wählen', nav_aria_more: 'Weitere Menüpunkte',
+  nav_aria_menu: 'Menü', nav_aria_lang: 'Sprache wählen', nav_aria_more: 'Menü Unternehmen',
 
   footer_tag: 'Hinter jeder Naht steht die Unterschrift eines Ingenieurs.',
   footer_desc: 'Schweißfertigung und NDT-orientierte Produktion; Zuschnitt, Kanten und Montage werden im Projektplan koordiniert. Vollständige Rückverfolgbarkeit und Dokumentendisziplin.',
@@ -19,7 +19,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   footer_s7: 'Technische Dienstleistungen',
   footer_c1: 'Über uns', footer_c2: 'Qualität & Rückverfolgbarkeit', footer_c3: 'Branchen',
   footer_c8: 'Zertifikate',
-  footer_c4: 'Projekte', footer_c5: 'FAQ', footer_c6: 'Kontakt', footer_c7: 'Technik',
+  footer_c4: 'Referenzprojekte', footer_c5: 'Häufige Fragen', footer_c6: 'Kontakt', footer_c7: 'Technik',
   footer_copy: '© 2026 ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.',
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
