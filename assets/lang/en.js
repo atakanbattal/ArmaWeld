@@ -1,15 +1,15 @@
 window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   nav_home: 'Home', nav_about: 'About', nav_services: 'Services',
   nav_engineering: 'Engineering',
-  nav_quality: 'Quality', nav_welding: 'Welding', nav_ndt: 'NDT',
-  nav_sectors: 'Sectors', nav_projects: 'Projects', nav_faq: 'FAQ', nav_contact: 'Contact', nav_blog: 'Blog',
+  nav_quality: 'Quality', nav_welding: 'Welding Processes', nav_ndt: 'Non-Destructive Testing (NDT)',
+  nav_sectors: 'Industries We Serve', nav_projects: 'Reference Projects', nav_faq: 'Frequently Asked Questions', nav_contact: 'Contact', nav_blog: 'Blog',
   nav_documents: 'Certificates',
   nav_portal: 'Customer Portal',
-  nav_more: 'More',
+  nav_more: 'Company', nav_grp_tech: 'Technical capability', nav_grp_refs: 'References', nav_grp_client: 'Customer service',
   nav_drawer_main: 'Menu',
   nav_cta: 'Get Quote →',
   nav_aria_home: 'ArmaWeld homepage', nav_aria_theme: 'Toggle theme',
-  nav_aria_menu: 'Menu', nav_aria_lang: 'Select language', nav_aria_more: 'More menu',
+  nav_aria_menu: 'Menu', nav_aria_lang: 'Select language', nav_aria_more: 'Company menu',
 
   footer_tag: 'Every weld bears an engineer\'s signature.',
   footer_desc: 'Welded fabrication and NDT-focused production; cutting, bending and assembly steps coordinated within the project plan. Full traceability and document discipline.',
@@ -17,10 +17,10 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   footer_s1: 'Welded Fabrication', footer_s2: 'Sheet Cutting', footer_s3: 'Bending & Forming',
   footer_s4: 'Assembly & Mechanical', footer_s5: 'Welding Methods', footer_s6: 'NDT / Non-Destructive Testing',
   footer_s7: 'Engineering Services',
-  footer_c1: 'About Us', footer_c2: 'Quality & Traceability', footer_c3: 'Sectors',
+  footer_c1: 'About Us', footer_c2: 'Quality & Traceability', footer_c3: 'Industries We Serve',
   footer_c8: 'Certificates',
   footer_c7: 'Engineering',
-  footer_c4: 'Projects', footer_c5: 'FAQ', footer_c6: 'Contact',
+  footer_c4: 'Reference Projects', footer_c5: 'FAQ', footer_c6: 'Contact',
   footer_copy: '© 2026 ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.',
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 
@@ -39,7 +39,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
 
   footer_export: 'Export to Europe',
 
-  nav_export: 'Export to Europe',
+  nav_export: 'Exporting to Europe',
   footer_kvkk: 'Privacy / GDPR',
   cookie_title: 'Cookie preferences',
   cookie_text: 'Essential cookies are required for the site to work. Analytics cookies are only enabled with your consent and help us measure site usage anonymously.',

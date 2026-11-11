@@ -1,15 +1,15 @@
 window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   nav_home: 'Accueil', nav_about: 'À propos', nav_services: 'Services',
-  nav_quality: 'Qualité', nav_welding: 'Soudage', nav_ndt: 'CND',
-  nav_sectors: 'Secteurs', nav_projects: 'Projets', nav_faq: 'FAQ', nav_contact: 'Contact', nav_blog: 'Blog',
+  nav_quality: 'Qualité', nav_welding: 'Procédés de soudage', nav_ndt: 'Contrôles non destructifs (CND)',
+  nav_sectors: 'Secteurs desservis', nav_projects: 'Projets de référence', nav_faq: 'Questions fréquentes', nav_contact: 'Contact', nav_blog: 'Blog',
   nav_documents: 'Certificats',
   nav_engineering: 'Ingénierie',
   nav_portal: 'Portail Client',
-  nav_more: 'Plus',
+  nav_more: 'Entreprise', nav_grp_tech: 'Compétences techniques', nav_grp_refs: 'Références', nav_grp_client: 'Service client',
   nav_drawer_main: 'Menu',
   nav_cta: 'Devis →',
   nav_aria_home: 'Page d\'accueil ArmaWeld', nav_aria_theme: 'Changer le thème',
-  nav_aria_menu: 'Menu', nav_aria_lang: 'Sélectionner la langue', nav_aria_more: 'Plus d\'options',
+  nav_aria_menu: 'Menu', nav_aria_lang: 'Sélectionner la langue', nav_aria_more: 'Menu Entreprise',
 
   footer_tag: 'Derrière chaque cordon, il y a la signature d\'un ingénieur.',
   footer_desc: 'Fabrication soudée et production axée sur le CND ; les étapes de découpe, de pliage et d\'assemblage sont coordonnées dans le plan de projet. Traçabilité complète et rigueur documentaire.',
@@ -19,7 +19,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   footer_s7: 'Services d\'ingénierie',
   footer_c1: 'À propos', footer_c2: 'Qualité et traçabilité', footer_c3: 'Secteurs',
   footer_c8: 'Certificats',
-  footer_c4: 'Projets', footer_c5: 'FAQ', footer_c6: 'Contact', footer_c7: 'Ingénierie',
+  footer_c4: 'Projets de référence', footer_c5: 'Questions fréquentes', footer_c6: 'Contact', footer_c7: 'Ingénierie',
   footer_copy: '© 2026 ArmaWeld Mühendislik ve Teknoloji San. Tic. Ltd. Şti.',
   footer_certs: 'EN 1090-2 · EN ISO 3834-2 · ISO 9001 · ISO 14001 · ISO 45001',
 

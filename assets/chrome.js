@@ -21,13 +21,18 @@ const NAV_LABELS = {
   nav_blog: 'Blog',
   nav_contact: 'İletişim',
   nav_about: 'Hakkımızda',
-  nav_welding: 'Kaynak',
-  nav_ndt: 'NDT',
-  nav_sectors: 'Sektörler',
-  nav_projects: 'Projeler',
-  nav_faq: 'SSS',
+  nav_welding: 'Kaynak Yöntemleri',
+  nav_ndt: 'Tahribatsız Muayene (NDT)',
+  nav_sectors: 'Hizmet Verdiğimiz Sektörler',
+  nav_projects: 'Referans Projeler',
+  nav_faq: 'Sıkça Sorulan Sorular',
+  nav_export: "Avrupa'ya İhracat",
+  nav_more: 'Kurumsal',
+  nav_grp_tech: 'Teknik Yetkinlik',
+  nav_grp_refs: 'Referanslar',
+  nav_grp_client: 'Müşteri Hizmetleri',
   nav_documents: 'Belgelerimiz',
-  nav_portal_page: 'Müşteri Portalı',
+  nav_portal_page: 'Müşteri Portalı Hakkında',
   nav_drawer_main: 'Menü',
 };
 
@@ -149,16 +154,24 @@ function buildNav(activePage, base) {
     { id: 'belgelerimiz', i18n: 'nav_documents', href: b + 'belgelerimiz.html' },
     { id: 'blog',        i18n: 'nav_blog',        href: b + 'blog/' },
   ];
-  const moreLinks = [
-    { id: 'musteri-portali', i18n: 'nav_portal_page', href: b + 'musteri-portali.html' },
-    { id: 'ihracat',     i18n: 'nav_export',   href: b + 'avrupa-kaynakli-imalat.html' },
-    { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
-    { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
-    { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
-    { id: 'projeler',    i18n: 'nav_projects', href: b + 'projeler.html' },
-    { id: 'sss',         i18n: 'nav_faq',      href: b + 'sss.html' },
-    { id: 'iletisim',    i18n: 'nav_contact',  href: b + 'iletisim.html' },
+  // "Kurumsal" dropdown, grouped under small headings so the items read as a structured menu.
+  const moreGroups = [
+    { i18n: 'nav_grp_tech', links: [
+      { id: 'kaynak',      i18n: 'nav_welding',  href: b + 'kaynak-yontemleri.html' },
+      { id: 'ndt',         i18n: 'nav_ndt',      href: b + 'ndt.html' },
+    ] },
+    { i18n: 'nav_grp_refs', links: [
+      { id: 'sektorler',   i18n: 'nav_sectors',  href: b + 'sektorler.html' },
+      { id: 'projeler',    i18n: 'nav_projects', href: b + 'projeler.html' },
+      { id: 'ihracat',     i18n: 'nav_export',   href: b + 'avrupa-kaynakli-imalat.html' },
+    ] },
+    { i18n: 'nav_grp_client', links: [
+      { id: 'musteri-portali', i18n: 'nav_portal_page', href: b + 'musteri-portali.html' },
+      { id: 'sss',         i18n: 'nav_faq',      href: b + 'sss.html' },
+      { id: 'iletisim',    i18n: 'nav_contact',  href: b + 'iletisim.html' },
+    ] },
   ];
+  const moreLinks = moreGroups.reduce(function (all, g) { return all.concat(g.links); }, []);
 
   const portalUrl = getPortalUrl();
   const isMoreActive = moreLinks.some(function (l) { return l.id === activePage; });
@@ -172,7 +185,7 @@ function buildNav(activePage, base) {
     return (
       '<div class="nav-drawer-label" data-i18n="nav_drawer_main">Menü</div>' +
       primaryLinks.map(renderLink).join('') +
-      '<div class="nav-drawer-label nav-drawer-label--more" data-i18n="nav_more">Diğer</div>' +
+      '<div class="nav-drawer-label nav-drawer-label--more" data-i18n="nav_more">' + NAV_LABELS.nav_more + '</div>' +
       moreLinks.map(renderLink).join('')
     );
   }
@@ -180,13 +193,18 @@ function buildNav(activePage, base) {
   const desktopLinksHtml = primaryLinks.map(renderLink).join('') +
     '<div class="nav-more' + (isMoreActive ? ' active' : '') + '">' +
       '<button type="button" class="nav-link nav-more-btn' + (isMoreActive ? ' active' : '') + '" aria-expanded="false" aria-haspopup="true" data-i18n-aria="nav_aria_more" aria-label="">' +
-        '<span data-i18n="nav_more">Diğer</span>' +
+        '<span data-i18n="nav_more">' + NAV_LABELS.nav_more + '</span>' +
         '<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>' +
       '</button>' +
       '<div class="nav-more-menu" role="menu">' +
-        moreLinks.map(function (l) {
-          const label = NAV_LABELS[l.i18n] || '';
-          return '<a class="nav-more-item ' + (l.id === activePage ? 'active' : '') + '" href="' + l.href + '" role="menuitem" data-i18n="' + l.i18n + '">' + label + '</a>';
+        moreGroups.map(function (g) {
+          return '<div class="nav-more-group" role="group">' +
+            '<div class="nav-more-heading" data-i18n="' + g.i18n + '">' + (NAV_LABELS[g.i18n] || '') + '</div>' +
+            g.links.map(function (l) {
+              const label = NAV_LABELS[l.i18n] || '';
+              return '<a class="nav-more-item ' + (l.id === activePage ? 'active' : '') + '" href="' + l.href + '" role="menuitem" data-i18n="' + l.i18n + '">' + label + '</a>';
+            }).join('') +
+          '</div>';
         }).join('') +
       '</div>' +
     '</div>';
