@@ -1222,5 +1222,212 @@
     "it": "S235–S960 · HARDOX · Inox · Alluminio",
     "nl": "S235–S960 · HARDOX · Roestvast · Aluminium",
     "no": "S235–S960 · HARDOX · Rustfritt · Aluminium"
+  },
+  "Parçanız için NDT hizmeti mi arıyorsunuz?": {
+    "en": "Looking for NDT on your parts?",
+    "de": "Suchen Sie ZfP für Ihre Bauteile?",
+    "es": "¿Busca END para sus piezas?",
+    "fr": "Vous cherchez des CND pour vos pièces ?",
+    "it": "Cercate CND per i vostri pezzi?",
+    "nl": "Zoekt u NDO voor uw onderdelen?",
+    "no": "Trenger du NDT på delene dine?"
+  },
+  "Kaynaklı parçalarınızın VT, PT, MT ve UT muayenesini Konya'daki tesisimizde Seviye 2 personelle yapıyor, raporluyoruz.": {
+    "en": "We perform and report VT, PT, MT and UT on welded parts in our Konya plant with Level 2 personnel.",
+    "de": "Wir prüfen Schweißteile mit VT, PT, MT und UT in unserem Werk in Konya mit Stufe-2-Personal und dokumentieren die Ergebnisse.",
+    "es": "Realizamos e informamos VT, PT, MT y UT de piezas soldadas en nuestra planta de Konya con personal de nivel 2.",
+    "fr": "Nous réalisons et documentons VT, PT, MT et UT sur pièces soudées dans notre usine de Konya avec du personnel niveau 2.",
+    "it": "Eseguiamo e certifichiamo VT, PT, MT e UT su pezzi saldati nel nostro stabilimento di Konya con personale di livello 2.",
+    "nl": "Wij voeren VT, PT, MT en UT uit op gelaste onderdelen in onze fabriek in Konya, met niveau 2-personeel en rapportage.",
+    "no": "Vi utfører og rapporterer VT, PT, MT og UT på sveiste deler i fabrikken vår i Konya med nivå 2-personell."
+  },
+  "NDT hizmetimiz →": {
+    "en": "Our NDT service →",
+    "de": "Unsere ZfP-Leistung →",
+    "es": "Nuestro servicio de END →",
+    "fr": "Notre service CND →",
+    "it": "Il nostro servizio CND →",
+    "nl": "Onze NDO-dienst →",
+    "no": "Vår NDT-tjeneste →"
+  },
+  "WPS'li kaynaklı imalat mı arıyorsunuz?": {
+    "en": "Need welded parts made to a WPS?",
+    "de": "Schweißteile nach WPS gesucht?",
+    "es": "¿Necesita piezas soldadas según WPS?",
+    "fr": "Besoin de pièces soudées selon un DMOS ?",
+    "it": "Vi servono pezzi saldati secondo WPS?",
+    "nl": "Gelaste onderdelen volgens WPS nodig?",
+    "no": "Trenger du sveiste deler etter WPS?"
+  },
+  "Parçalarınızı onaylı WPS ve EN ISO 9606-1 belgeli kaynakçılarla, teknik resminize göre üretiyoruz.": {
+    "en": "We fabricate your parts to your drawing with approved WPS and EN ISO 9606-1 qualified welders.",
+    "de": "Wir fertigen Ihre Teile nach Zeichnung, mit freigegebener WPS und nach EN ISO 9606-1 geprüften Schweißern.",
+    "es": "Fabricamos sus piezas según plano con WPS aprobada y soldadores cualificados EN ISO 9606-1.",
+    "fr": "Nous fabriquons vos pièces sur plan avec DMOS approuvé et soudeurs qualifiés EN ISO 9606-1.",
+    "it": "Fabbrichiamo i vostri pezzi su disegno con WPS approvata e saldatori qualificati EN ISO 9606-1.",
+    "nl": "Wij maken uw onderdelen op tekening met goedgekeurde WPS en lassers gekwalificeerd volgens EN ISO 9606-1.",
+    "no": "Vi produserer delene dine etter tegning med godkjent WPS og sveisere sertifisert etter EN ISO 9606-1."
+  },
+  "Çizime göre imalat →": {
+    "en": "Build-to-print fabrication →",
+    "de": "Fertigung nach Zeichnung →",
+    "es": "Fabricación según plano →",
+    "fr": "Fabrication sur plan →",
+    "it": "Produzione su disegno →",
+    "nl": "Productie op tekening →",
+    "no": "Produksjon etter tegning →"
+  },
+  "EN 1090 EXC3 belgeli imalatçı mı arıyorsunuz?": {
+    "en": "Looking for an EN 1090 EXC3 certified fabricator?",
+    "de": "Suchen Sie einen nach EN 1090 EXC3 zertifizierten Hersteller?",
+    "es": "¿Busca un fabricante certificado EN 1090 EXC3?",
+    "fr": "Vous cherchez un fabricant certifié EN 1090 EXC3 ?",
+    "it": "Cercate un costruttore certificato EN 1090 EXC3?",
+    "nl": "Zoekt u een EN 1090 EXC3-gecertificeerde fabrikant?",
+    "no": "Ser du etter en EN 1090 EXC3-sertifisert produsent?"
+  },
+  "Taşıyıcı çelik yapılarınızı EN 1090-2 EXC3 kapsamında, CE işaretli olarak Konya'da üretiyoruz.": {
+    "en": "We fabricate load-bearing steel structures under EN 1090-2 EXC3, CE-marked, in Konya.",
+    "de": "Wir fertigen tragende Stahlbauteile nach EN 1090-2 EXC3 mit CE-Kennzeichnung in Konya.",
+    "es": "Fabricamos estructuras de acero portantes bajo EN 1090-2 EXC3, con marcado CE, en Konya.",
+    "fr": "Nous fabriquons des structures acier porteuses selon EN 1090-2 EXC3, marquées CE, à Konya.",
+    "it": "Fabbrichiamo strutture portanti in acciaio secondo EN 1090-2 EXC3, con marcatura CE, a Konya.",
+    "nl": "Wij maken dragende staalconstructies volgens EN 1090-2 EXC3, met CE-markering, in Konya.",
+    "no": "Vi produserer bærende stålkonstruksjoner etter EN 1090-2 EXC3, CE-merket, i Konya."
+  },
+  "Çelik konstrüksiyon imalatı →": {
+    "en": "Steel construction fabrication →",
+    "de": "Stahlbaufertigung →",
+    "es": "Fabricación de estructuras de acero →",
+    "fr": "Construction métallique →",
+    "it": "Carpenteria metallica →",
+    "nl": "Staalbouw →",
+    "no": "Stålkonstruksjoner →"
+  },
+  "Kaynaklı parça mı yaptıracaksınız?": {
+    "en": "Need welded parts made?",
+    "de": "Möchten Sie Schweißteile fertigen lassen?",
+    "es": "¿Necesita fabricar piezas soldadas?",
+    "fr": "Vous avez des pièces soudées à faire fabriquer ?",
+    "it": "Dovete far realizzare pezzi saldati?",
+    "nl": "Gelaste onderdelen laten maken?",
+    "no": "Skal du få laget sveiste deler?"
+  },
+  "Teknik resminizi gönderin; uygun kaynak yöntemini biz seçelim, 48 saat içinde teklif verelim.": {
+    "en": "Send your drawing; we choose the right welding process and quote within 48 hours.",
+    "de": "Senden Sie Ihre Zeichnung; wir wählen das passende Schweißverfahren und bieten innerhalb von 48 Stunden an.",
+    "es": "Envíe su plano; elegimos el proceso de soldadura adecuado y ofertamos en 48 horas.",
+    "fr": "Envoyez votre plan ; nous choisissons le procédé de soudage adapté et chiffrons sous 48 heures.",
+    "it": "Inviate il disegno; scegliamo il processo di saldatura adatto e quotiamo entro 48 ore.",
+    "nl": "Stuur uw tekening; wij kiezen het juiste lasproces en bieden binnen 48 uur aan.",
+    "no": "Send tegningen; vi velger riktig sveisemetode og gir tilbud innen 48 timer."
+  },
+  "TIG kaynaklı parça mı yaptıracaksınız?": {
+    "en": "Need TIG-welded parts made?",
+    "de": "WIG-geschweißte Teile gesucht?",
+    "es": "¿Necesita piezas soldadas con TIG?",
+    "fr": "Besoin de pièces soudées TIG ?",
+    "it": "Vi servono pezzi saldati TIG?",
+    "nl": "TIG-gelaste onderdelen nodig?",
+    "no": "Trenger du TIG-sveiste deler?"
+  },
+  "Paslanmaz ve alüminyum parçalarınızı teknik resminize göre TIG kaynağıyla üretiyoruz.": {
+    "en": "We fabricate stainless steel and aluminium parts to your drawing with TIG welding.",
+    "de": "Wir fertigen Edelstahl- und Aluminiumteile nach Ihrer Zeichnung im WIG-Verfahren.",
+    "es": "Fabricamos piezas de inoxidable y aluminio según su plano con soldadura TIG.",
+    "fr": "Nous fabriquons vos pièces inox et aluminium sur plan en soudage TIG.",
+    "it": "Fabbrichiamo pezzi in inox e alluminio su vostro disegno con saldatura TIG.",
+    "nl": "Wij maken rvs- en aluminium onderdelen op uw tekening met TIG-lassen.",
+    "no": "Vi produserer deler i rustfritt stål og aluminium etter tegningen din med TIG-sveising."
+  },
+  "Kaynak yöntemlerimiz →": {
+    "en": "Our welding processes →",
+    "de": "Unsere Schweißverfahren →",
+    "es": "Nuestros procesos de soldadura →",
+    "fr": "Nos procédés de soudage →",
+    "it": "I nostri processi di saldatura →",
+    "nl": "Onze lasprocessen →",
+    "no": "Våre sveisemetoder →"
+  },
+  "Gazaltı kaynaklı imalat mı arıyorsunuz?": {
+    "en": "Looking for MAG-welded fabrication?",
+    "de": "MAG-Schweißfertigung gesucht?",
+    "es": "¿Busca fabricación con soldadura MAG?",
+    "fr": "Vous cherchez de la fabrication soudée MAG ?",
+    "it": "Cercate carpenteria saldata MAG?",
+    "nl": "Op zoek naar MAG-laswerk?",
+    "no": "Ser du etter MAG-sveiset produksjon?"
+  },
+  "Çelik parça ve konstrüksiyonlarınızı MAG kaynağıyla, onaylı WPS'e göre tek parça veya seri üretiyoruz.": {
+    "en": "We fabricate steel parts and structures by MAG welding to approved WPS, single units or series.",
+    "de": "Wir fertigen Stahlteile und -konstruktionen im MAG-Verfahren nach freigegebener WPS, als Einzelstück oder Serie.",
+    "es": "Fabricamos piezas y estructuras de acero con soldadura MAG según WPS aprobada, unidad o serie.",
+    "fr": "Nous fabriquons pièces et structures acier en soudage MAG selon DMOS approuvé, à l'unité ou en série.",
+    "it": "Fabbrichiamo pezzi e strutture in acciaio con saldatura MAG secondo WPS approvata, pezzo singolo o serie.",
+    "nl": "Wij maken stalen onderdelen en constructies met MAG-lassen volgens goedgekeurde WPS, enkelstuks of in serie.",
+    "no": "Vi produserer ståldeler og -konstruksjoner med MAG-sveising etter godkjent WPS, enkeltstykker eller serie."
+  },
+  "Konya fason kaynak →": {
+    "en": "Subcontract welding in Konya →",
+    "de": "Lohnschweißen in Konya →",
+    "es": "Soldadura subcontratada en Konya →",
+    "fr": "Sous-traitance soudure à Konya →",
+    "it": "Saldatura conto terzi a Konya →",
+    "nl": "Uitbesteed laswerk in Konya →",
+    "no": "Leiesveising i Konya →"
+  },
+  "Standartlar · Kalite": {
+    "en": "Standards · Quality",
+    "de": "Normen · Qualität",
+    "es": "Normas · Calidad",
+    "fr": "Normes · Qualité",
+    "it": "Norme · Qualità",
+    "nl": "Normen · Kwaliteit",
+    "no": "Standarder · Kvalitet"
+  },
+  "Malzeme · Belgeler": {
+    "en": "Materials · Documents",
+    "de": "Werkstoffe · Dokumente",
+    "es": "Materiales · Documentación",
+    "fr": "Matériaux · Documents",
+    "it": "Materiali · Documenti",
+    "nl": "Materialen · Documenten",
+    "no": "Materialer · Dokumenter"
+  },
+  "Satın Alma · Tedarikçi Denetimi": {
+    "en": "Purchasing · Supplier Audit",
+    "de": "Einkauf · Lieferantenaudit",
+    "es": "Compras · Auditoría de proveedores",
+    "fr": "Achats · Audit fournisseur",
+    "it": "Acquisti · Audit fornitori",
+    "nl": "Inkoop · Leveranciersaudit",
+    "no": "Innkjøp · Leverandørrevisjon"
+  },
+  "Kaynaklı imalat yaptıracak bir atölye mi arıyorsunuz?": {
+    "en": "Looking for a shop to build your welded parts?",
+    "de": "Sie suchen eine Werkstatt für Ihre Schweißkonstruktion?",
+    "es": "¿Busca un taller para fabricar sus piezas soldadas?",
+    "fr": "Vous cherchez un atelier pour vos pièces mécano-soudées ?",
+    "it": "Cercate un'officina per i vostri pezzi saldati?",
+    "nl": "Op zoek naar een werkplaats voor uw gelaste onderdelen?",
+    "no": "Leter du etter et verksted for de sveiste delene dine?"
+  },
+  "Konya'daki atölyemizde EN 1090 EXC3 ve EN ISO 3834-2 kapsamında, çiziminize göre kaynaklı parça ve çelik konstrüksiyon üretiyoruz.": {
+    "en": "In our shop in Konya, Turkey we build welded parts and steel structures to your drawing under EN 1090 EXC3 and EN ISO 3834-2.",
+    "de": "In unserer Werkstatt in Konya, Türkei, fertigen wir Schweißteile und Stahlkonstruktionen nach Ihrer Zeichnung gemäß EN 1090 EXC3 und EN ISO 3834-2.",
+    "es": "En nuestro taller de Konya, Turquía, fabricamos piezas soldadas y estructuras de acero según su plano conforme a EN 1090 EXC3 y EN ISO 3834-2.",
+    "fr": "Dans notre atelier de Konya, en Turquie, nous fabriquons pièces soudées et structures acier sur votre plan selon EN 1090 EXC3 et EN ISO 3834-2.",
+    "it": "Nella nostra officina di Konya, in Turchia, realizziamo pezzi saldati e strutture in acciaio su vostro disegno secondo EN 1090 EXC3 ed EN ISO 3834-2.",
+    "nl": "In onze werkplaats in Konya, Turkije, maken wij gelaste onderdelen en staalconstructies volgens uw tekening onder EN 1090 EXC3 en EN ISO 3834-2.",
+    "no": "I verkstedet vårt i Konya, Tyrkia, produserer vi sveiste deler og stålkonstruksjoner etter tegningen din i henhold til EN 1090 EXC3 og EN ISO 3834-2."
+  },
+  "Kaynaklı imalat atölyemiz →": {
+    "en": "Our welded fabrication shop →",
+    "de": "Unsere Schweißerei →",
+    "es": "Nuestro taller de fabricación soldada →",
+    "fr": "Notre atelier de mécano-soudure →",
+    "it": "La nostra officina di carpenteria saldata →",
+    "nl": "Onze laswerkplaats →",
+    "no": "Sveiseverkstedet vårt →"
   }
 }
