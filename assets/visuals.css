@@ -19,7 +19,7 @@
 
 /* Home: real weld video behind the readouts */
 .hero-visual.hv-real::before { z-index: 3; border-color: rgba(255,255,255,.18); }
-.hero-visual.hv-real .hv-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.hero-visual.hv-real .hv-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 70%; z-index: 0; }
 .hero-visual.hv-real .hv-shade { position: absolute; inset: 0; z-index: 1; pointer-events: none;
   background: linear-gradient(180deg, rgba(7,8,10,.55) 0%, rgba(7,8,10,0) 22%, rgba(7,8,10,0) 72%, rgba(7,8,10,.6) 100%); }
 .hero-visual.hv-real .hv-corner { color: #e7e9ee; }
