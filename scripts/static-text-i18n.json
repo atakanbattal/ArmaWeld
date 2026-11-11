@@ -1375,5 +1375,59 @@
     "it": "Saldatura conto terzi a Konya →",
     "nl": "Uitbesteed laswerk in Konya →",
     "no": "Leiesveising i Konya →"
+  },
+  "Standartlar · Kalite": {
+    "en": "Standards · Quality",
+    "de": "Normen · Qualität",
+    "es": "Normas · Calidad",
+    "fr": "Normes · Qualité",
+    "it": "Norme · Qualità",
+    "nl": "Normen · Kwaliteit",
+    "no": "Standarder · Kvalitet"
+  },
+  "Malzeme · Belgeler": {
+    "en": "Materials · Documents",
+    "de": "Werkstoffe · Dokumente",
+    "es": "Materiales · Documentación",
+    "fr": "Matériaux · Documents",
+    "it": "Materiali · Documenti",
+    "nl": "Materialen · Documenten",
+    "no": "Materialer · Dokumenter"
+  },
+  "Satın Alma · Tedarikçi Denetimi": {
+    "en": "Purchasing · Supplier Audit",
+    "de": "Einkauf · Lieferantenaudit",
+    "es": "Compras · Auditoría de proveedores",
+    "fr": "Achats · Audit fournisseur",
+    "it": "Acquisti · Audit fornitori",
+    "nl": "Inkoop · Leveranciersaudit",
+    "no": "Innkjøp · Leverandørrevisjon"
+  },
+  "Kaynaklı imalat yaptıracak bir atölye mi arıyorsunuz?": {
+    "en": "Looking for a shop to build your welded parts?",
+    "de": "Sie suchen eine Werkstatt für Ihre Schweißkonstruktion?",
+    "es": "¿Busca un taller para fabricar sus piezas soldadas?",
+    "fr": "Vous cherchez un atelier pour vos pièces mécano-soudées ?",
+    "it": "Cercate un'officina per i vostri pezzi saldati?",
+    "nl": "Op zoek naar een werkplaats voor uw gelaste onderdelen?",
+    "no": "Leter du etter et verksted for de sveiste delene dine?"
+  },
+  "Konya'daki atölyemizde EN 1090 EXC3 ve EN ISO 3834-2 kapsamında, çiziminize göre kaynaklı parça ve çelik konstrüksiyon üretiyoruz.": {
+    "en": "In our shop in Konya, Turkey we build welded parts and steel structures to your drawing under EN 1090 EXC3 and EN ISO 3834-2.",
+    "de": "In unserer Werkstatt in Konya, Türkei, fertigen wir Schweißteile und Stahlkonstruktionen nach Ihrer Zeichnung gemäß EN 1090 EXC3 und EN ISO 3834-2.",
+    "es": "En nuestro taller de Konya, Turquía, fabricamos piezas soldadas y estructuras de acero según su plano conforme a EN 1090 EXC3 y EN ISO 3834-2.",
+    "fr": "Dans notre atelier de Konya, en Turquie, nous fabriquons pièces soudées et structures acier sur votre plan selon EN 1090 EXC3 et EN ISO 3834-2.",
+    "it": "Nella nostra officina di Konya, in Turchia, realizziamo pezzi saldati e strutture in acciaio su vostro disegno secondo EN 1090 EXC3 ed EN ISO 3834-2.",
+    "nl": "In onze werkplaats in Konya, Turkije, maken wij gelaste onderdelen en staalconstructies volgens uw tekening onder EN 1090 EXC3 en EN ISO 3834-2.",
+    "no": "I verkstedet vårt i Konya, Tyrkia, produserer vi sveiste deler og stålkonstruksjoner etter tegningen din i henhold til EN 1090 EXC3 og EN ISO 3834-2."
+  },
+  "Kaynaklı imalat atölyemiz →": {
+    "en": "Our welded fabrication shop →",
+    "de": "Unsere Schweißerei →",
+    "es": "Nuestro taller de fabricación soldada →",
+    "fr": "Notre atelier de mécano-soudure →",
+    "it": "La nostra officina di carpenteria saldata →",
+    "nl": "Onze laswerkplaats →",
+    "no": "Sveiseverkstedet vårt →"
   }
 }

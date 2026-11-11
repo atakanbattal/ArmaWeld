@@ -275,7 +275,7 @@ function buildFooter(base) {
         <div>
           <h5 data-i18n="footer_services_h"></h5>
           <ul>
-            <li><a href="${b}hizmetler.html" data-i18n="footer_s1"></a></li>
+            <li><a href="${b}kaynakli-imalat.html" data-i18n="footer_s1"></a></li>
             <li><a href="${b}konya-fason-kaynak.html" data-i18n="footer_fason"></a></li>
             <li><a href="${b}cizime-gore-imalat.html" data-i18n="footer_btp"></a></li>
             <li><a href="${b}celik-konstruksiyon.html" data-i18n="footer_steel"></a></li>
