@@ -2185,5 +2185,41 @@
     "it": "Guida prodotto · Carpenteria pesante",
     "nl": "Productgids · Zware fabricage",
     "no": "Produktguide · Tung fabrikasjon"
+  },
+  "Ürün Rehberi · İş Makinesi": {
+    "en": "Product Guide · Construction Machinery",
+    "de": "Produktleitfaden · Baumaschinen",
+    "es": "Guía de producto · Maquinaria de obra",
+    "fr": "Guide produit · Engins de chantier",
+    "it": "Guida prodotto · Macchine movimento terra",
+    "nl": "Productgids · Grondverzetmachines",
+    "no": "Produktguide · Anleggsmaskiner"
+  },
+  "Ürün Rehberi · Makine Parçası": {
+    "en": "Product Guide · Machine Parts",
+    "de": "Produktleitfaden · Maschinenteile",
+    "es": "Guía de producto · Piezas de máquina",
+    "fr": "Guide produit · Pièces de machines",
+    "it": "Guida prodotto · Parti di macchine",
+    "nl": "Productgids · Machineonderdelen",
+    "no": "Produktguide · Maskindeler"
+  },
+  "Sektör Rehberi · Denizcilik": {
+    "en": "Sector Guide · Marine",
+    "de": "Branchenleitfaden · Maritim",
+    "es": "Guía sectorial · Naval",
+    "fr": "Guide sectoriel · Naval",
+    "it": "Guida di settore · Navale",
+    "nl": "Sectorgids · Maritiem",
+    "no": "Bransjeguide · Maritim"
+  },
+  "Sektör Rehberi · Su ve Atık Su": {
+    "en": "Sector Guide · Water and Wastewater",
+    "de": "Branchenleitfaden · Wasser und Abwasser",
+    "es": "Guía sectorial · Agua y saneamiento",
+    "fr": "Guide sectoriel · Eau et assainissement",
+    "it": "Guida di settore · Acqua e depurazione",
+    "nl": "Sectorgids · Water en afvalwater",
+    "no": "Bransjeguide · Vann og avløp"
   }
 }
