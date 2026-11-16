@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="de" data-aw-page-lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter | ArmaWeld</title>
+  <meta name="description" content="Wie berechnet man Schweißkosten? Schweißgutmasse, Abschmelzleistung, Lichtbogenzeit, Lichtbogenzeitfaktor, Formeln für Gas- und Drahtverbrauch, Rechenbeispiel für eine a5-Kehlnaht und kostensenkende Konstruktionsentscheidungen.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-maliyeti-hesaplama">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter | ArmaWeld">
+  <meta property="og:description" content="Wie berechnet man Schweißkosten? Schweißgutmasse, Abschmelzleistung, Lichtbogenzeit, Lichtbogenzeitfaktor, Formeln für Gas- und Drahtverbrauch, Rechenbeispiel für eine a5-Kehlnaht und kostensenkende Konstruktionsentscheidungen.">
+  <meta property="og:url" content="https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Kosten · Berechnung">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter",
+  "description": "Wie berechnet man Schweißkosten? Schweißgutmasse, Abschmelzleistung, Lichtbogenzeit, Lichtbogenzeitfaktor, Formeln für Gas- und Drahtverbrauch, Rechenbeispiel für eine a5-Kehlnaht und kostensenkende Konstruktionsentscheidungen.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html"
+  },
+  "url": "https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html",
+  "inLanguage": "de",
+  "articleSection": "Kosten · Berechnung",
+  "keywords": "kaynak maliyeti hesaplama, metre başı kaynak maliyeti, kaynak teli sarfiyatı hesabı, ark süresi, operatör faktörü, yığma hızı, welding cost calculation, Schweißkosten berechnen"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/de/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter",
+      "item": "https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p17_cost_breadcrumb3">Schweißkosten</span></div>
+    <div class="article-tag" data-i18n="blog_p17_cost_tag">Kosten · Berechnung</div>
+    <h1 data-i18n="blog_p17_cost_h1">Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p17_cost_read">7 Min. Lesezeit</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p17_cost_body"><p>Im Preis eines Schweißteils ist die Schweißarbeit oft der größte Posten. Sie lässt sich berechnen statt schätzen, mit wenigen Größen: einzubringendes Schweißgut, Abschmelzleistung des Verfahrens und die Zeit, in der der Lichtbogen tatsächlich brennt. Dieser Beitrag zeigt die Schritte mit einem Rechenbeispiel.</p>
+<h2>1. Schweißgutmasse</h2>
+<p>Zuerst die Querschnittsfläche der Naht. Bei einer gleichschenkligen Kehlnaht beträgt sie theoretisch <strong>A ≈ a²</strong> (mm²). Bei Stumpfnähten ergibt sie sich aus der Fugengeometrie (siehe <a href="kaynak-agzi-hazirligi-iso-9692-1.html">Leitfaden zur Nahtvorbereitung</a>). Für die Nahtüberhöhung werden meist 10-20 % aufgeschlagen.</p>
+<p><strong>Schweißgut je Meter (g/m) ≈ A (mm²) × 7,85 × (1 + Überhöhungszuschlag)</strong></p>
+<table class="data-table"><thead><tr><th>Kehlnaht</th><th>Fläche (mm²)</th><th>Schweißgut (g/m, mit 15 % Überhöhung)</th></tr></thead><tbody>
+<tr><td>a3</td><td>9</td><td>≈ 81</td></tr>
+<tr><td>a4</td><td>16</td><td>≈ 144</td></tr>
+<tr><td>a5</td><td>25</td><td>≈ 226</td></tr>
+<tr><td>a6</td><td>36</td><td>≈ 325</td></tr>
+<tr><td>a8</td><td>64</td><td>≈ 578</td></tr>
+</tbody></table>
+<h2>2. Zusatzwerkstoffbedarf</h2>
+<p>Nicht der gesamte Draht wird zu Schweißgut; ein Teil geht als Spritzer, Schlacke oder Reststück verloren. Das Ausbringen hängt vom Verfahren ab:</p>
+<ul>
+<li>MAG mit Massivdraht: etwa 90-95 %</li>
+<li>Fülldraht (FCAW): etwa 80-90 %</li>
+<li>Stabelektrode (MMA): etwa 55-65 % (Reststück- und Schlackeverluste)</li>
+<li>UP-Schweißen: über 95 % beim Draht; Pulver wird gesondert gerechnet</li>
+</ul>
+<p><strong>Drahtbedarf (kg/m) = Schweißgut (kg/m) / Ausbringen</strong></p>
+<h2>3. Lichtbogenzeit</h2>
+<p>Die Abschmelzleistung ist das Schweißgut, das ein Verfahren pro Stunde einbringt. Bei MAG mit 1,2-mm-Massivdraht in Wannenlage typisch 3-5 kg/h, in Steiglage deutlich weniger. UP mit Eindraht erreicht 6-10 kg/h und mehr.</p>
+<p><strong>Lichtbogenzeit (min/m) = Schweißgut (kg/m) / Abschmelzleistung (kg/h) × 60</strong></p>
+<h2>4. Lichtbogenzeitfaktor</h2>
+<p>Nicht die gesamte Arbeitszeit ist Lichtbogenzeit. Wenden, Heften, Schlacke entfernen, Brenner reinigen und Messen kosten ebenfalls Zeit. Das Verhältnis von Lichtbogenbrennzeit zur Gesamtzeit ist der <strong>Lichtbogenzeitfaktor</strong>. Beim Handschweißen liegt er oft bei 20-40 %, beim mechanisierten Schweißen und gut vorrichtungsgestützter Arbeit höher.</p>
+<p><strong>Schweißarbeitszeit (min/m) = Lichtbogenzeit / Lichtbogenzeitfaktor</strong></p>
+<h2>5. Gas und Energie</h2>
+<ul>
+<li><strong>Schutzgas:</strong> Durchfluss (l/min) × Lichtbogenzeit. Bei 15 l/min verbraucht jede Lichtbogenminute 15 Liter.</li>
+<li><strong>Energie:</strong> Strom × Spannung × Lichtbogenzeit / Wirkungsgrad der Stromquelle. Meist ein kleiner Anteil.</li>
+</ul>
+<h2>Rechenbeispiel: a5-Kehlnaht, MAG, Position PB</h2>
+<ol>
+<li>Schweißgut: ≈ 0,226 kg/m</li>
+<li>Draht: 0,226 / 0,93 ≈ <strong>0,243 kg/m</strong></li>
+<li>Lichtbogenzeit: 0,226 / 4 kg/h × 60 ≈ <strong>3,4 min/m</strong></li>
+<li>Mit 30 % Lichtbogenzeitfaktor Arbeitszeit: 3,4 / 0,30 ≈ <strong>11,3 min/m</strong></li>
+<li>Gas: 15 l/min × 3,4 min ≈ <strong>51 l/m</strong></li>
+</ol>
+<p>Kosten je Meter = Arbeitszeit × Stundensatz + Draht × Drahtpreis + Gas × Gaspreis. Der Lohnanteil ist meist ein Vielfaches der Zusatzwerkstoffe. Wäre dieselbe Naht als a6 angegeben, stiege das Schweißgut um 44 % und die Zeit ähnlich.</p>
+<h2>Was die Rechnung nicht enthält</h2>
+<p>Am realen Bauteil übersteigen Nebenzeiten oft die Lichtbogenzeit: Materialvorbereitung, Zusammenbau und Heften, Vorrichtungsaufbau, Richten, Schleifen, Reinigen, Prüfen und Dokumentation. Im Angebot werden sie als eigene Posten behandelt (siehe <a href="kaynakli-imalat-fiyati.html">Preisfaktoren in der Schweißfertigung</a>).</p>
+<h2>Kostensenkende Entscheidungen</h2>
+<ul>
+<li>Nahtmaß nach Berechnung wählen, nicht „sicherheitshalber".</li>
+<li>Bei Dickblech X- oder U- statt V-Naht.</li>
+<li>Bauteil so gestalten, dass in Wannen- und Horizontalposition geschweißt werden kann.</li>
+<li>Wiederkehrende Montagezeiten mit Vorrichtungen verkürzen.</li>
+<li>Lange gerade Nähte auf Verfahren mit hoher Abschmelzleistung wie UP legen.</li>
+<li>Unnötige Schleif- und Optikanforderungen streichen.</li>
+</ul>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir kalkulieren Angebote aus Nahtlänge, Nahtmaß, Position und Verfahren und bewerten Nebenzeiten getrennt. Kostentreiber aus der Konstruktion teilen wir mit dem Angebot als Vorschläge mit. <a href="../cizime-gore-imalat.html">Fertigung nach Zeichnung →</a></p></div></div>
+
+<div data-i18n-html="blog_p17_cost_faq"><h2>Häufige Fragen</h2><div class="faq-item"><h3>Wie berechnet man den Drahtverbrauch je Meter?</h3><p>Nahtquerschnitt (mm²) × 7,85 ergibt das Schweißgut in g/m; Überhöhung aufschlagen und durch das Ausbringen des Verfahrens teilen.</p></div><div class="faq-item"><h3>Wie viel Draht braucht eine a5-Kehlnaht je Meter?</h3><p>Etwa 0,23 kg Schweißgut; bei MAG mit Massivdraht sind das rund 0,24-0,25 kg Draht.</p></div><div class="faq-item"><h3>Was ist der Lichtbogenzeitfaktor?</h3><p>Das Verhältnis der Lichtbogenbrennzeit zur gesamten Arbeitszeit des Schweißers. Beim Handschweißen oft 20-40 %.</p></div><div class="faq-item"><h3>Was ist der größte Kostenposten beim Schweißen?</h3><p>In den meisten Fällen die Arbeitszeit. Zusatzwerkstoffe und Gas machen meist nur einen kleinen Teil davon aus.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p17_cost_cta_h3">Eine transparente Kostenrechnung für Ihr Bauteil</h3>
+      <p data-i18n="blog_p17_cost_cta_p">Senden Sie Ihre Zeichnung; wir erstellen ein Angebot auf Basis von Nahtlänge und Verfahren mit klar benannten Annahmen.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p17_cost_cta_btn">Angebot anfordern →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Verwandte Artikel">
+      <h2 data-i18n="blog_related_h">Verwandte Artikel</h2>
+      <ul>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Was kostet eine Schweißkonstruktion? 9 Faktoren, die den Preis bestimmen</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kostenoptimierung in der Schweißfertigung</a></li>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">a-Maß der Kehlnaht: Nahtdicke, z-Maß und richtige Auslegung</a></li>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">MIG/MAG-Schweißparameter: Drahtvorschub, Gas und Spannungsoptimierung</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Zurück zum Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

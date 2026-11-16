@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="es" data-aw-page-lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fatiga en uniones soldadas: clases FAT, curvas S-N y detalles que alargan la vida | ArmaWeld</title>
+  <meta name="description" content="Por qué fisuran por fatiga las piezas soldadas: clases FAT y curvas S-N, categorías de detalle típicas, efecto del rango de tensiones, mejoras como el amolado del pie, Anexo C de la ISO 5817 y recomendaciones de diseño.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynakli-baglantilarda-yorulma-fat-sinifi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fatiga en uniones soldadas: clases FAT, curvas S-N y detalles que alargan la vida | ArmaWeld">
+  <meta property="og:description" content="Por qué fisuran por fatiga las piezas soldadas: clases FAT y curvas S-N, categorías de detalle típicas, efecto del rango de tensiones, mejoras como el amolado del pie, Anexo C de la ISO 5817 y recomendaciones de diseño.">
+  <meta property="og:url" content="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Ingeniería">
+  <meta property="article:section" content="Diseño · Resistencia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fatiga en uniones soldadas: clases FAT, curvas S-N y detalles que alargan la vida",
+  "description": "Por qué fisuran por fatiga las piezas soldadas: clases FAT y curvas S-N, categorías de detalle típicas, efecto del rango de tensiones, mejoras como el amolado del pie, Anexo C de la ISO 5817 y recomendaciones de diseño.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingeniería",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+  },
+  "url": "https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html",
+  "inLanguage": "es",
+  "articleSection": "Diseño · Resistencia",
+  "keywords": "kaynak yorulma, FAT sınıfı, kaynaklı bağlantı yorulma dayanımı, IIW yorulma, EN 1993-1-9 detay kategorisi, kaynak ucu taşlama, ISO 5817 B90 C63, weld fatigue FAT class, Schweißnaht Ermüdung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/es/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fatiga en uniones soldadas: clases FAT, curvas S-N y detalles que alargan la vida",
+      "item": "https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p18_fatigue_breadcrumb3">Fatiga en soldaduras</span></div>
+    <div class="article-tag" data-i18n="blog_p18_fatigue_tag">Diseño · Resistencia</div>
+    <h1 data-i18n="blog_p18_fatigue_h1">Fatiga en uniones soldadas: clases FAT, curvas S-N y detalles que alargan la vida</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p18_fatigue_read">7 min de lectura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingeniería</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p18_fatigue_body"><p>Una pieza soldada que supera con holgura la comprobación estática puede fisurarse en pocos años bajo cargas variables. Bastidores de remolque, plumas de grúa, bastidores de máquinas vibrantes y equipos agrícolas son ejemplos típicos. Este artículo explica cómo se evalúa la fatiga en uniones soldadas y qué decisiones de diseño y fabricación alargan la vida útil.</p>
+<h2>Por qué la soldadura es el punto débil</h2>
+<ul>
+<li><strong>Concentración geométrica de tensiones:</strong> el pie y la raíz del cordón son puntos de cambio brusco de sección.</li>
+<li><strong>Microdefectos:</strong> en el pie siempre hay pequeñas mordeduras, restos de escoria o transiciones agudas; la fisura apenas necesita tiempo para iniciarse.</li>
+<li><strong>Tensiones residuales:</strong> tras soldar quedan tensiones de tracción cercanas al límite elástico. Por eso en uniones soldadas importa más el <strong>rango de tensiones (Δσ)</strong> que la tensión media.</li>
+</ul>
+<p>Consecuencia importante: en uniones en estado bruto de soldadura, un acero de mayor resistencia apenas aumenta la resistencia a fatiga. En fatiga, la geometría del detalle pesa más que el grado del material.</p>
+<h2>Clases FAT y curva S-N</h2>
+<p>Las recomendaciones del IIW (Instituto Internacional de Soldadura) y la EN 1993-1-9 clasifican los detalles soldados por <strong>clase FAT</strong> o categoría de detalle. El valor FAT es el rango de tensiones (MPa) que resiste el detalle a <strong>2 millones de ciclos</strong>. Para detalles soldados la pendiente típica es <strong>m = 3</strong>:</p>
+<p><strong>N = 2 × 10⁶ × (FAT / Δσ)³</strong></p>
+<p>El efecto es grande: duplicar el rango de tensiones reduce la vida a un octavo; reducirlo un 20 % casi la duplica.</p>
+<h2>Categorías típicas (orientativas)</h2>
+<table class="data-table"><thead><tr><th>Detalle</th><th>FAT aprox. (MPa)</th></tr></thead><tbody>
+<tr><td>Chapa sin soldar con bordes mecanizados</td><td>≈ 160</td></tr>
+<tr><td>Soldadura a tope transversal enrasada</td><td>≈ 112</td></tr>
+<tr><td>Soldadura a tope transversal en bruto</td><td>≈ 80-90</td></tr>
+<tr><td>Rigidizador transversal no resistente (ángulo en T o cruz)</td><td>≈ 80</td></tr>
+<tr><td>Rigidizador longitudinal largo (cartela, más de 100 mm)</td><td>≈ 71 o menos</td></tr>
+<tr><td>Soldadura en ángulo resistente, rotura por raíz (en garganta)</td><td>≈ 36</td></tr>
+</tbody></table>
+<p>Los valores dependen del espesor, la geometría y la norma; en el diseño real deben usarse las tablas de detalles de la norma aplicable. Aun así, la tabla muestra que, con la misma carga, un detalle que rompe por la raíz de un ángulo es más de tres veces más débil en rango de tensiones que una soldadura a tope amolada.</p>
+<h2>Decisiones de diseño que alargan la vida</h2>
+<ul>
+<li><strong>Alejar las soldaduras de zonas muy solicitadas:</strong> situar orejetas, cartelas y rigidizadores cerca de la fibra neutra y no donde el momento es máximo.</li>
+<li><strong>Evitar la rotura por raíz:</strong> en uniones resistentes, considerar penetración completa en lugar de ángulo.</li>
+<li><strong>Suavizar cambios de espesor:</strong> transiciones como 1:4 entre chapas de distinto espesor.</li>
+<li><strong>Suavizar los extremos de rigidizadores:</strong> extremos achaflanados o con radio reducen la concentración.</li>
+<li><strong>Evitar soldadura discontinua en zonas de fatiga:</strong> cada inicio y final es un posible origen de fisura.</li>
+</ul>
+<h2>Métodos de fabricación que alargan la vida</h2>
+<p>Las técnicas de mejora postsoldadura suavizan la geometría del pie o convierten la tensión residual en compresión:</p>
+<ul>
+<li><strong>Amolado del pie (burr grinding):</strong> se amola una ranura de radio pequeño en el pie, suavizando la transición y eliminando microdefectos.</li>
+<li><strong>Refusión TIG (TIG dressing):</strong> el pie se refunde sin aporte para lograr un perfil más suave.</li>
+<li><strong>Impacto mecánico de alta frecuencia (HFMI):</strong> el tratamiento por impacto introduce tensiones residuales de compresión.</li>
+</ul>
+<p>Las recomendaciones IIW reconocen, en condiciones definidas, una resistencia adicional por estas técnicas. No ayudan frente a la rotura por raíz y su aplicación debe documentarse.</p>
+<h2>ISO 5817 Anexo C: soldaduras sometidas a fatiga</h2>
+<p>La edición 2014 de la ISO 5817 define niveles como <strong>B125, B90 y C63</strong> con requisitos adicionales para estructuras sometidas a fatiga. Limitan más el ángulo del pie, las mordeduras y la desalineación. En una pieza crítica a fatiga, el plano debería indicar el nivel adecuado y no solo "B".</p>
+<div class="callout"><p><strong>En ArmaWeld:</strong> en piezas con cargas variables, como bastidores de remolque, plumas y bastidores vibrantes, vigilamos especialmente el perfil del pie, las mordeduras y los puntos de inicio y final en la inspección visual. Donde el plano lo exige, aplicamos amolado del pie y lo registramos. <a href="../tozalti-kaynak.html">Arco sumergido para cordones largos →</a></p></div></div>
+
+<div data-i18n-html="blog_p18_fatigue_faq"><h2>Preguntas frecuentes</h2><div class="faq-item"><h3>¿Qué es una clase FAT?</h3><p>El rango de tensiones (MPa) que resiste un detalle soldado a 2 millones de ciclos. Las recomendaciones IIW y la EN 1993-1-9 clasifican los detalles con este valor.</p></div><div class="faq-item"><h3>¿Un acero de mayor resistencia alarga la vida a fatiga?</h3><p>En uniones en bruto de soldadura, apenas. La geometría del detalle y la calidad del pie son las que mandan.</p></div><div class="faq-item"><h3>¿Cómo se relacionan rango de tensiones y vida?</h3><p>En detalles soldados la pendiente S-N es típicamente 3; duplicar el rango de tensiones reduce la vida a un octavo.</p></div><div class="faq-item"><h3>¿Para qué sirve el amolado del pie?</h3><p>Elimina la transición aguda y los microdefectos del pie, retrasando el inicio de la fisura. No influye en la rotura por raíz.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p18_fatigue_cta_h3">Para piezas que trabajan con cargas variables</h3>
+      <p data-i18n="blog_p18_fatigue_cta_p">Envíenos el plano de su bastidor, pluma o estructura vibrante; revisamos con usted nivel de calidad y detalles de soldadura.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p18_fatigue_cta_btn">Solicitar oferta →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Artículos relacionados">
+      <h2 data-i18n="blog_related_h">Artículos relacionados</h2>
+      <ul>
+        <li><a href="kaynak-dikisi-mukavemet-hesabi.html" data-i18n="blog_p14_strength_h1">Cálculo de resistencia de soldaduras: en ángulo y a tope según EN 1993-1-8</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">Niveles de calidad ISO 5817 B, C y D: ¿cuál debe especificar?</a></li>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Defectos de Soldadura y Métodos de Reparación</a></li>
+        <li><a href="tozalti-kaynak-makinesi-bom-sasi.html" data-i18n="blog_n26_sawbom_h1">Máquina de arco sumergido para plumas, chasis y costuras largas</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Volver al Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

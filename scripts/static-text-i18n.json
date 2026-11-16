@@ -1555,5 +1555,41 @@
     "it": "Progettazione · Offerta",
     "nl": "Ontwerp · Offerte",
     "no": "Konstruksjon · Tilbud"
+  },
+  "Maliyet · Hesap": {
+    "en": "Cost · Calculation",
+    "de": "Kosten · Berechnung",
+    "es": "Coste · Cálculo",
+    "fr": "Coût · Calcul",
+    "it": "Costi · Calcolo",
+    "nl": "Kosten · Berekening",
+    "no": "Kostnad · Beregning"
+  },
+  "Tasarım · Dayanım": {
+    "en": "Design · Strength",
+    "de": "Konstruktion · Festigkeit",
+    "es": "Diseño · Resistencia",
+    "fr": "Conception · Résistance",
+    "it": "Progettazione · Resistenza",
+    "nl": "Ontwerp · Sterkte",
+    "no": "Konstruksjon · Fasthet"
+  },
+  "Tasarım · Karar": {
+    "en": "Design · Decision",
+    "de": "Konstruktion · Entscheidung",
+    "es": "Diseño · Decisión",
+    "fr": "Conception · Décision",
+    "it": "Progettazione · Decisione",
+    "nl": "Ontwerp · Keuze",
+    "no": "Konstruksjon · Valg"
+  },
+  "Malzeme · Kusurlar": {
+    "en": "Materials · Defects",
+    "de": "Werkstoffe · Fehler",
+    "es": "Materiales · Defectos",
+    "fr": "Matériaux · Défauts",
+    "it": "Materiali · Difetti",
+    "nl": "Materialen · Fouten",
+    "no": "Materialer · Feil"
   }
 }

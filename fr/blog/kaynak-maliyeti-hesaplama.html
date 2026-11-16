@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcul du coût de soudage : consommation de fil, temps d’arc et coût au mètre | ArmaWeld</title>
+  <meta name="description" content="Comment calculer le coût de soudage : masse de métal déposé, taux de dépôt, temps d’arc, facteur de marche, formules de consommation de gaz et de fil, exemple chiffré pour une soudure d’angle a5 et choix de conception qui réduisent le coût.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-maliyeti-hesaplama">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Calcul du coût de soudage : consommation de fil, temps d’arc et coût au mètre | ArmaWeld">
+  <meta property="og:description" content="Comment calculer le coût de soudage : masse de métal déposé, taux de dépôt, temps d’arc, facteur de marche, formules de consommation de gaz et de fil, exemple chiffré pour une soudure d’angle a5 et choix de conception qui réduisent le coût.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Ingénierie">
+  <meta property="article:section" content="Coût · Calcul">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Calcul du coût de soudage : consommation de fil, temps d’arc et coût au mètre",
+  "description": "Comment calculer le coût de soudage : masse de métal déposé, taux de dépôt, temps d’arc, facteur de marche, formules de consommation de gaz et de fil, exemple chiffré pour une soudure d’angle a5 et choix de conception qui réduisent le coût.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingénierie",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html",
+  "inLanguage": "fr",
+  "articleSection": "Coût · Calcul",
+  "keywords": "kaynak maliyeti hesaplama, metre başı kaynak maliyeti, kaynak teli sarfiyatı hesabı, ark süresi, operatör faktörü, yığma hızı, welding cost calculation, Schweißkosten berechnen"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcul du coût de soudage : consommation de fil, temps d’arc et coût au mètre",
+      "item": "https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p17_cost_breadcrumb3">Coût de soudage</span></div>
+    <div class="article-tag" data-i18n="blog_p17_cost_tag">Coût · Calcul</div>
+    <h1 data-i18n="blog_p17_cost_h1">Calcul du coût de soudage : consommation de fil, temps d’arc et coût au mètre</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p17_cost_read">7 min de lecture</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p17_cost_body"><p>Dans le prix d’une pièce soudée, la main-d’œuvre de soudage est souvent le poste principal. Elle se calcule plutôt qu’elle ne s’estime, à partir de quelques grandeurs : le métal à déposer, le taux de dépôt du procédé et le temps pendant lequel l’arc brûle réellement. Cet article déroule les étapes avec un exemple chiffré.</p>
+<h2>1. Masse de métal déposé</h2>
+<p>On part de la section du cordon. Pour une soudure d’angle à jambes égales, la section théorique est <strong>A ≈ a²</strong> (mm²). Pour une soudure bout à bout, elle découle du chanfrein (voir notre <a href="kaynak-agzi-hazirligi-iso-9692-1.html">guide de préparation des bords</a>). On ajoute en général 10 à 20 % pour la surépaisseur.</p>
+<p><strong>Métal par mètre (g/m) ≈ A (mm²) × 7,85 × (1 + surépaisseur)</strong></p>
+<table class="data-table"><thead><tr><th>Soudure d’angle</th><th>Section (mm²)</th><th>Métal (g/m, avec 15 % de surépaisseur)</th></tr></thead><tbody>
+<tr><td>a3</td><td>9</td><td>≈ 81</td></tr>
+<tr><td>a4</td><td>16</td><td>≈ 144</td></tr>
+<tr><td>a5</td><td>25</td><td>≈ 226</td></tr>
+<tr><td>a6</td><td>36</td><td>≈ 325</td></tr>
+<tr><td>a8</td><td>64</td><td>≈ 578</td></tr>
+</tbody></table>
+<h2>2. Quantité de produit d’apport</h2>
+<p>Tout le fil acheté ne devient pas métal déposé ; une partie se perd en projections, laitier ou mégots. Le rendement dépend du procédé :</p>
+<ul>
+<li>MAG fil plein : environ 90-95 %</li>
+<li>Fil fourré (FCAW) : environ 80-90 %</li>
+<li>Électrode enrobée (MMA) : environ 55-65 % (pertes de mégot et de laitier)</li>
+<li>Arc submergé : plus de 95 % pour le fil ; le flux se calcule à part</li>
+</ul>
+<p><strong>Fil nécessaire (kg/m) = métal déposé (kg/m) / rendement</strong></p>
+<h2>3. Temps d’arc</h2>
+<p>Le taux de dépôt est la masse de métal déposée par heure. En MAG fil plein de 1,2 mm à plat, il est typiquement de 3 à 5 kg/h, nettement moins en montante. L’arc submergé mono-fil atteint 6 à 10 kg/h et plus.</p>
+<p><strong>Temps d’arc (min/m) = métal (kg/m) / taux de dépôt (kg/h) × 60</strong></p>
+<h2>4. Facteur de marche</h2>
+<p>Tout le temps de travail n’est pas du temps d’arc. Retourner les pièces, pointer, piquer le laitier, nettoyer la torche ou mesurer prend aussi du temps. Le rapport entre temps d’arc et temps total est le <strong>facteur de marche</strong>. En soudage manuel, il est souvent de 20 à 40 % ; il est plus élevé en soudage mécanisé et sur des travaux bien outillés.</p>
+<p><strong>Temps de main-d’œuvre (min/m) = temps d’arc / facteur de marche</strong></p>
+<h2>5. Gaz et énergie</h2>
+<ul>
+<li><strong>Gaz de protection :</strong> débit (l/min) × temps d’arc. À 15 l/min, chaque minute d’arc consomme 15 litres.</li>
+<li><strong>Énergie :</strong> intensité × tension × temps d’arc / rendement du générateur. Généralement une faible part du total.</li>
+</ul>
+<h2>Exemple : soudure d’angle a5, MAG, position PB</h2>
+<ol>
+<li>Métal déposé : ≈ 0,226 kg/m</li>
+<li>Fil : 0,226 / 0,93 ≈ <strong>0,243 kg/m</strong></li>
+<li>Temps d’arc : 0,226 / 4 kg/h × 60 ≈ <strong>3,4 min/m</strong></li>
+<li>Avec un facteur de marche de 30 % : 3,4 / 0,30 ≈ <strong>11,3 min/m</strong></li>
+<li>Gaz : 15 l/min × 3,4 min ≈ <strong>51 l/m</strong></li>
+</ol>
+<p>Coût au mètre = temps × taux horaire + fil × prix + gaz × prix. La main-d’œuvre représente généralement plusieurs fois les consommables. Si le même cordon était coté a6, le métal augmenterait de 44 % et le temps dans une proportion voisine.</p>
+<h2>Ce que le calcul n’inclut pas</h2>
+<p>Sur une pièce réelle, les temps hors soudage dépassent souvent le temps d’arc : préparation matière, assemblage et pointage, mise en place du gabarit, redressage, meulage, nettoyage, contrôle et documentation. Dans une offre, ils sont traités comme des postes distincts (voir <a href="kaynakli-imalat-fiyati.html">ce qui détermine le prix</a>).</p>
+<h2>Choix qui réduisent le coût</h2>
+<ul>
+<li>Dimensionner la soudure par le calcul, pas « par sécurité ».</li>
+<li>Préférer des chanfreins en X ou en U au V sur tôles épaisses.</li>
+<li>Concevoir la pièce pour un soudage à plat et en corniche.</li>
+<li>Réduire les temps d’assemblage répétitifs avec des gabarits.</li>
+<li>Confier les longs cordons droits à des procédés à fort taux de dépôt comme l’arc submergé.</li>
+<li>Supprimer les meulages et exigences d’aspect inutiles.</li>
+</ul>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous chiffrons à partir du métrage de cordon, de la taille, de la position et du procédé, et évaluons séparément les temps hors soudage. Les points de conception qui renchérissent la pièce vous sont transmis avec l’offre sous forme de suggestions. <a href="../cizime-gore-imalat.html">Fabrication sur plan →</a></p></div></div>
+
+<div data-i18n-html="blog_p17_cost_faq"><h2>Questions fréquentes</h2><div class="faq-item"><h3>Comment calculer la consommation de fil au mètre ?</h3><p>Section du cordon (mm²) × 7,85 donne le métal en g/m ; on ajoute la surépaisseur et on divise par le rendement du procédé.</p></div><div class="faq-item"><h3>Combien de fil pour une soudure d’angle a5 au mètre ?</h3><p>Environ 0,23 kg de métal déposé ; en MAG fil plein, environ 0,24 à 0,25 kg de fil.</p></div><div class="faq-item"><h3>Qu’est-ce que le facteur de marche ?</h3><p>Le rapport entre le temps d’arc et le temps de travail total du soudeur. En soudage manuel, souvent 20 à 40 %.</p></div><div class="faq-item"><h3>Quel est le principal poste de coût en soudage ?</h3><p>Dans la plupart des cas, la main-d’œuvre. Consommables et gaz n’en représentent généralement qu’une petite part.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p17_cost_cta_h3">Un calcul de coût transparent pour votre pièce</h3>
+      <p data-i18n="blog_p17_cost_cta_p">Envoyez votre plan ; nous préparons une offre fondée sur le métrage de cordon et le procédé, avec des hypothèses explicites.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p17_cost_cta_btn">Demander un devis →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articles associés">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Comment se calcule le prix d’une fabrication soudée ? 9 facteurs de coût</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Optimisation des Coûts en Fabrication Soudée</a></li>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">Gorge de soudure d’angle : a ou z, dimensionnement et tolérances</a></li>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">Paramètres MIG/MAG : Guide pratique des réglages</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

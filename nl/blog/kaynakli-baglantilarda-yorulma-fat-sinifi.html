@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="nl" data-aw-page-lang="nl"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vermoeiing van lasverbindingen: FAT-klassen, S-N-lijnen en details die de levensduur verlengen | ArmaWeld</title>
+  <meta name="description" content="Waarom scheuren gelaste delen door vermoeiing? FAT-klassen en S-N-lijnen, typische detailcategorieën, invloed van de spanningswijdte, verbetermethoden zoals teenslijpen, ISO 5817 bijlage C en ontwerpadvies.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynakli-baglantilarda-yorulma-fat-sinifi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Vermoeiing van lasverbindingen: FAT-klassen, S-N-lijnen en details die de levensduur verlengen | ArmaWeld">
+  <meta property="og:description" content="Waarom scheuren gelaste delen door vermoeiing? FAT-klassen en S-N-lijnen, typische detailcategorieën, invloed van de spanningswijdte, verbetermethoden zoals teenslijpen, ISO 5817 bijlage C en ontwerpadvies.">
+  <meta property="og:url" content="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Ontwerp · Sterkte">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vermoeiing van lasverbindingen: FAT-klassen, S-N-lijnen en details die de levensduur verlengen",
+  "description": "Waarom scheuren gelaste delen door vermoeiing? FAT-klassen en S-N-lijnen, typische detailcategorieën, invloed van de spanningswijdte, verbetermethoden zoals teenslijpen, ISO 5817 bijlage C en ontwerpadvies.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+  },
+  "url": "https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html",
+  "inLanguage": "nl",
+  "articleSection": "Ontwerp · Sterkte",
+  "keywords": "kaynak yorulma, FAT sınıfı, kaynaklı bağlantı yorulma dayanımı, IIW yorulma, EN 1993-1-9 detay kategorisi, kaynak ucu taşlama, ISO 5817 B90 C63, weld fatigue FAT class, Schweißnaht Ermüdung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/nl/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vermoeiing van lasverbindingen: FAT-klassen, S-N-lijnen en details die de levensduur verlengen",
+      "item": "https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p18_fatigue_breadcrumb3">Vermoeiing van lassen</span></div>
+    <div class="article-tag" data-i18n="blog_p18_fatigue_tag">Ontwerp · Sterkte</div>
+    <h1 data-i18n="blog_p18_fatigue_h1">Vermoeiing van lasverbindingen: FAT-klassen, S-N-lijnen en details die de levensduur verlengen</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p18_fatigue_read">7 min lezen</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p18_fatigue_body"><p>Een gelast onderdeel dat ruim door de statische toets komt, kan onder wisselende belasting binnen enkele jaren scheuren. Trailerchassis, kraangieken, trillende machineframes en landbouwmachines zijn typische voorbeelden. Dit artikel legt uit hoe vermoeiing van lasverbindingen wordt beoordeeld en welke ontwerp- en productiekeuzes de levensduur verlengen.</p>
+<h2>Waarom de las het zwakke punt is</h2>
+<ul>
+<li><strong>Geometrische spanningsconcentratie:</strong> lasteen en wortel zijn plaatsen met een abrupte doorsnedeverandering.</li>
+<li><strong>Microfouten:</strong> bij de lasteen zijn altijd kleine inkartelingen, slakresten of scherpe overgangen; de scheur heeft weinig tijd nodig om te ontstaan.</li>
+<li><strong>Restspanningen:</strong> na het lassen blijven trekrestspanningen rond de vloeigrens achter. Daarom telt bij lasverbindingen de <strong>spanningswijdte (Δσ)</strong> meer dan de gemiddelde spanning.</li>
+</ul>
+<p>Belangrijk gevolg: bij verbindingen in gelaste toestand verhoogt staal met hogere sterkte de vermoeiingssterkte nauwelijks. Bij vermoeiing telt de detailgeometrie meer dan de materiaalkwaliteit.</p>
+<h2>FAT-klassen en S-N-lijn</h2>
+<p>De IIW-aanbevelingen (International Institute of Welding) en EN 1993-1-9 delen gelaste details in naar <strong>FAT-klasse</strong> of detailcategorie. De FAT-waarde is de spanningswijdte (MPa) die het detail bij <strong>2 miljoen cycli</strong> verdraagt. Voor gelaste details is de helling van de S-N-lijn typisch <strong>m = 3</strong>:</p>
+<p><strong>N = 2 × 10⁶ × (FAT / Δσ)³</strong></p>
+<p>Het effect is groot: een verdubbelde spanningswijdte geeft een achtste van de levensduur; 20 % minder spanningswijdte verdubbelt die ongeveer.</p>
+<h2>Typische detailcategorieën (richtwaarden)</h2>
+<table class="data-table"><thead><tr><th>Detail</th><th>Ca. FAT (MPa)</th></tr></thead><tbody>
+<tr><td>Ongelaste plaat met bewerkte randen</td><td>≈ 160</td></tr>
+<tr><td>Dwarse stompe las, vlak geslepen</td><td>≈ 112</td></tr>
+<tr><td>Dwarse stompe las in gelaste toestand</td><td>≈ 80-90</td></tr>
+<tr><td>Niet-dragende dwarsverstijving (hoeklas, T- of kruisverbinding)</td><td>≈ 80</td></tr>
+<tr><td>Lange langsverbinding (knoopplaat, verstijving langer dan 100 mm)</td><td>≈ 71 en lager</td></tr>
+<tr><td>Dragende hoeklas, bezwijken vanuit de wortel (op keeldoorsnede)</td><td>≈ 36</td></tr>
+</tbody></table>
+<p>De waarden hangen af van dikte, geometrie en norm; voor het echte ontwerp gebruik je de detailtabellen van de geldende norm. De tabel laat toch zien dat een detail dat vanuit de wortel van een hoeklas bezwijkt, bij gelijke belasting meer dan drie keer zwakker is in spanningswijdte dan een geslepen stompe las.</p>
+<h2>Ontwerpkeuzes die de levensduur verlengen</h2>
+<ul>
+<li><strong>Lassen weghouden uit hoog belaste zones:</strong> ogen, knoopplaten en verstijvingen bij de neutrale lijn plaatsen in plaats van bij het maximale moment.</li>
+<li><strong>Wortelbezwijken voorkomen:</strong> bij dragende verbindingen volledig doorgelaste lassen overwegen in plaats van hoeklassen.</li>
+<li><strong>Dikteovergangen afschuinen:</strong> overgangen zoals 1:4 tussen platen van verschillende dikte.</li>
+<li><strong>Uiteinden van verstijvingen verlopen:</strong> afgeschuinde of afgeronde uiteinden van lange langsverbindingen verlagen de spanningsconcentratie.</li>
+<li><strong>Geen onderbroken lassen in vermoeiingszones:</strong> elk begin- en eindpunt is een mogelijk scheurbegin.</li>
+</ul>
+<h2>Productiemethoden die de levensduur verlengen</h2>
+<p>Nabehandelingen maken de lasteengeometrie gladder of zetten restspanning om in druk:</p>
+<ul>
+<li><strong>Teenslijpen (burr grinding):</strong> een groef met kleine straal wordt bij de lasteen geslepen, waardoor de overgang vloeiender wordt en microfouten verdwijnen.</li>
+<li><strong>TIG-omsmelten (TIG dressing):</strong> de lasteen wordt zonder toevoegmateriaal omgesmolten voor een gladder profiel.</li>
+<li><strong>Hoogfrequente mechanische impact (HFMI):</strong> impactbehandeling bij de lasteen brengt drukrestspanningen aan.</li>
+</ul>
+<p>De IIW-aanbevelingen kennen hiervoor onder voorwaarden een hogere sterkte toe. Tegen wortelbezwijken helpen ze niet, en de toepassing moet worden gedocumenteerd.</p>
+<h2>ISO 5817 bijlage C: op vermoeiing belaste lassen</h2>
+<p>De editie 2014 van ISO 5817 definieert niveaus als <strong>B125, B90 en C63</strong> met extra eisen voor op vermoeiing belaste constructies. Ze begrenzen lasteenhoek, inkartelingen en kantverschuiving strenger. Bij een vermoeiingskritisch deel hoort de tekening het juiste niveau te noemen in plaats van alleen "B".</p>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> bij delen onder wisselende belasting zoals trailerchassis, gieken en trillende frames letten we bij de visuele inspectie extra op lasteenprofiel, inkartelingen en begin- en eindpunten. Waar de tekening het vraagt, slijpen we de lasteen en leggen dat vast. <a href="../tozalti-kaynak.html">Onder poeder lassen voor lange naden →</a></p></div></div>
+
+<div data-i18n-html="blog_p18_fatigue_faq"><h2>Veelgestelde vragen</h2><div class="faq-item"><h3>Wat is een FAT-klasse?</h3><p>De spanningswijdte (MPa) die een gelast detail bij 2 miljoen lastcycli verdraagt. IIW-aanbevelingen en EN 1993-1-9 delen details hiermee in.</p></div><div class="faq-item"><h3>Verlengt staal met hogere sterkte de levensduur?</h3><p>Bij verbindingen in gelaste toestand nauwelijks. Detailgeometrie en kwaliteit van de lasteen bepalen de vermoeiingssterkte.</p></div><div class="faq-item"><h3>Hoe hangen spanningswijdte en levensduur samen?</h3><p>Bij gelaste details is de S-N-helling typisch 3; een verdubbelde spanningswijdte geeft een achtste van de levensduur.</p></div><div class="faq-item"><h3>Wat doet teenslijpen?</h3><p>Het verwijdert de scherpe overgang en microfouten bij de lasteen en vertraagt zo het ontstaan van scheuren. Op wortelbezwijken heeft het geen effect.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p18_fatigue_cta_h3">Voor delen onder wisselende belasting</h3>
+      <p data-i18n="blog_p18_fatigue_cta_p">Stuur uw tekening van chassis, giek of trillend frame; we bespreken kwaliteitsniveau en lasdetails met u.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p18_fatigue_cta_btn">Offerte aanvragen →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Gerelateerde artikelen">
+      <h2 data-i18n="blog_related_h">Gerelateerde artikelen</h2>
+      <ul>
+        <li><a href="kaynak-dikisi-mukavemet-hesabi.html" data-i18n="blog_p14_strength_h1">Sterkteberekening van lassen: hoek- en stompe lassen volgens EN 1993-1-8</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">ISO 5817 kwaliteitsniveaus B, C en D: welke moet u specificeren?</a></li>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Lasfouten en reparatiemethoden</a></li>
+        <li><a href="tozalti-kaynak-makinesi-bom-sasi.html" data-i18n="blog_n26_sawbom_h1">Onderpoederdeklasmachines voor gieken, chassis en lange naden</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Terug naar blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
