@@ -2275,5 +2275,41 @@
     "it": "Guida tecnica · Giunzione",
     "nl": "Technische gids · Verbinden",
     "no": "Teknisk guide · Sammenføyning"
+  },
+  "Tasarım Rehberi · Maliyet": {
+    "en": "Design Guide · Cost",
+    "de": "Konstruktionsleitfaden · Kosten",
+    "es": "Guía de diseño · Coste",
+    "fr": "Guide de conception · Coût",
+    "it": "Guida alla progettazione · Costi",
+    "nl": "Ontwerpgids · Kosten",
+    "no": "Konstruksjonsguide · Kostnad"
+  },
+  "Tasarım Rehberi · Hafifletme": {
+    "en": "Design Guide · Lightweighting",
+    "de": "Konstruktionsleitfaden · Leichtbau",
+    "es": "Guía de diseño · Aligeramiento",
+    "fr": "Guide de conception · Allègement",
+    "it": "Guida alla progettazione · Alleggerimento",
+    "nl": "Ontwerpgids · Lichtgewicht",
+    "no": "Konstruksjonsguide · Lettvekt"
+  },
+  "Teknik Rehber · Distorsiyon": {
+    "en": "Technical Guide · Distortion",
+    "de": "Technischer Leitfaden · Verzug",
+    "es": "Guía técnica · Distorsión",
+    "fr": "Guide technique · Déformations",
+    "it": "Guida tecnica · Deformazioni",
+    "nl": "Technische gids · Vervorming",
+    "no": "Teknisk guide · Deformasjon"
+  },
+  "Tedarik Rehberi · Süreç": {
+    "en": "Sourcing Guide · Process",
+    "de": "Einkaufsleitfaden · Prozess",
+    "es": "Guía de compras · Proceso",
+    "fr": "Guide achats · Processus",
+    "it": "Guida acquisti · Processo",
+    "nl": "Inkoopgids · Proces",
+    "no": "Innkjøpsguide · Prosess"
   }
 }
