@@ -2,7 +2,7 @@ export default {
   order: 22,
   slug: 'iso-12944-korozyon-siniflari-c1-c5-cx',
   key: 'p22_iso12944',
-  date: '2026-11-16',
+  date: '2026-03-25',
   keywords: 'ISO 12944, korozyon sınıfı, C1 C2 C3 C4 C5 CX, boya sistemi dayanım süresi, çelik yapı boya, corrosivity category, Korrosivitätskategorie, catégorie de corrosivité',
   related: ['iso-8501-3-boya-oncesi-kaynak-hazirligi-p1-p2-p3', 'sicak-daldirma-galvaniz-kaynakli-parca', 'celik-konstruksiyon-imalat', 'paslanmaz-celik-imalat'],
   tr: {

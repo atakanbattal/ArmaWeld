@@ -2,7 +2,7 @@ export default {
   order: 40,
   slug: 'kaynakli-parca-ihracat-paketleme-incoterms',
   key: 'p40_packing',
-  date: '2026-11-16',
+  date: '2026-07-14',
   keywords: 'ihracat paketleme, kaynaklı parça paketleme, Incoterms 2020, EXW FCA DAP farkı, ISPM 15 palet, VCI korozyon koruma, yük bağlama EN 12195-1, çeki listesi, export packaging steel parts, Exportverpackung Stahlteile',
   related: ['kaynakli-parca-tedarik-turkiye-dogu-avrupa', 'cbam-celik-ihracat-kaynakli-imalat', 'kaynakli-imalat-teklif-hazirlama', 'fason-kaynak-tedarikci-secimi'],
   tr: {

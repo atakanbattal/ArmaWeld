@@ -2,7 +2,7 @@ export default {
   order: 44,
   slug: 'kaynakli-imalat-teslim-suresi-planlama',
   key: 'p44_leadtime',
-  date: '2026-11-16',
+  date: '2026-08-07',
   keywords: 'kaynaklı imalat teslim süresi, termin planlama, lead time kaynaklı parça, malzeme tedarik süresi, kritik yol, teslim süresini kısaltma, kısmi teslimat, welded parts lead time, Lieferzeit Schweißteile, délai fabrication soudée',
   related: ['kaynakli-imalat-teklif-hazirlama', 'fason-kaynak-sozlesmesi-maddeler', 'kaynakli-parca-ihracat-paketleme-incoterms', 'malzeme-sertifikasi-en-10204-3-1'],
   tr: {

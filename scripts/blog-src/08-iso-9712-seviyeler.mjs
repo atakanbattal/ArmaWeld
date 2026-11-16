@@ -2,7 +2,7 @@ export default {
   order: 8,
   slug: 'iso-9712-ndt-personel-seviyeleri',
   key: 'p08_iso9712',
-  date: '2026-11-16',
+  date: '2025-12-30',
   keywords: 'ISO 9712, NDT seviye 1 2 3, NDT personel belgelendirme, ISO 9712 seviye 2, NDT sertifikası, NDT personnel certification levels, ZfP Stufe 2',
   related: ['ndt-tahribatsiz-muayene-yontemleri', 'kaynak-muayene-raporu-nasil-okunur', 'iso-17637-kaynak-gozle-muayene', 'kaynakci-sertifikasi-en-iso-9606-1'],
   tr: {

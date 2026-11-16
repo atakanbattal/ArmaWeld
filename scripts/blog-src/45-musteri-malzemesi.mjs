@@ -2,7 +2,7 @@ export default {
   order: 45,
   slug: 'musteri-malzemesiyle-fason-kaynak',
   key: 'p45_freeissue',
-  date: '2026-11-16',
+  date: '2026-08-13',
   keywords: 'müşteri malzemesiyle fason, fason kaynak malzeme müşteriden, malzeme müşteri temini, fire oranı, hurda mülkiyeti, malzeme izlenebilirliği, free issue material welding, beigestelltes Material Lohnschweißen, matière fournie client soudage',
   related: ['fason-kaynak-sozlesmesi-maddeler', 'malzeme-sertifikasi-en-10204-3-1', 'kaynakta-dijital-izlenebilirlik', 'fason-kaynak-konya'],
   tr: {

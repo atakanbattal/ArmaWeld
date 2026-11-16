@@ -2,7 +2,7 @@ export default {
   order: 41,
   slug: 'almanya-kaynakli-parca-tedarik-beklentiler',
   key: 'p41_germany',
-  date: '2026-11-16',
+  date: '2026-07-20',
   keywords: 'Almanya kaynaklı parça tedarik, Alman müşteri beklentileri, Lieferantenselbstauskunft, QSV kalite anlaşması, EMPB ilk numune, DIN EN ISO 13920, LkSG tedarikçi, Almanya ihracat kaynaklı imalat, Schweißteile aus der Türkei, Lieferant Türkei Stahlbau',
   related: ['kaynakli-parca-tedarik-turkiye-dogu-avrupa', 'kaynakli-imalat-tedarikci-denetimi', 'malzeme-sertifikasi-en-10204-3-1', 'cbam-celik-ihracat-kaynakli-imalat'],
   tr: {

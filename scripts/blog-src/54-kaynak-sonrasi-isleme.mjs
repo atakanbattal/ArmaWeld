@@ -2,7 +2,7 @@ export default {
   order: 54,
   slug: 'kaynak-sonrasi-talasli-isleme',
   key: 'p54_postmachining',
-  date: '2026-11-16',
+  date: '2026-10-07',
   keywords: 'kaynak sonrası talaşlı işleme, kaynaklı parça işleme payı, kaynak sonrası CNC işleme, yatak deliği işleme, referans yüzey, gerilim giderme işleme öncesi, kaynaklı konstrüksiyon işleme, machining after welding, mechanische Bearbeitung nach dem Schweißen, Schweißkonstruktion bearbeiten',
   related: ['kaynakli-makine-govdesi-imalati', 'kaynak-distorsiyonu', 'boyutsal-tolerans', 'iso-13920-kaynakli-imalat-tolerans-tablosu'],
   tr: {

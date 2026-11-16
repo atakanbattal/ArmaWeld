@@ -2,7 +2,7 @@ export default {
   order: 15,
   slug: 'kaynak-agzi-hazirligi-iso-9692-1',
   key: 'p15_groove',
-  date: '2026-11-16',
+  date: '2026-02-11',
   keywords: 'kaynak ağzı, kaynak ağzı açısı, ISO 9692-1, V ağzı, X ağzı, U ağzı, kök aralığı, kök yüksekliği, pah açma, weld joint preparation, Schweißnahtvorbereitung, Fugenform',
   related: ['wps-nedir', 'saw-tozalti-kaynagi', 'kaynak-sembolizasyonu', 'lazer-plazma-kesim'],
   tr: {

@@ -2,7 +2,7 @@ export default {
   order: 3,
   slug: 'en-1090-1-fabrika-uretim-kontrolu-fpc',
   key: 'p03_fpc',
-  date: '2026-11-16',
+  date: '2025-12-01',
   keywords: 'EN 1090-1, fabrika üretim kontrolü, FPC nedir, EN 1090 FPC sertifikası, factory production control, werkseigene Produktionskontrolle, DoP performans beyanı',
   related: ['en-1090-exc2-nedir', 'ce-isaretleme-kaynak', 'kaynakli-imalat-tedarikci-denetimi', 'en-iso-3834-2'],
   tr: {

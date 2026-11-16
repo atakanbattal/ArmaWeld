@@ -2,7 +2,7 @@ export default {
   order: 52,
   slug: 'asansor-platform-kaynakli-parca',
   key: 'p52_lift',
-  date: '2026-11-16',
+  date: '2026-09-25',
   keywords: 'asansör kabin karkası imalatı, yük asansörü şasisi, platform asansör kaynak, makaslı platform kolu, ray konsolu imalatı, karşı ağırlık çerçevesi, EN 81-20, EN 81-50, EN 81-41, EN 1570-1, lift car frame welding, Aufzug Fahrkorbrahmen Schweißen',
   related: ['yeni-makine-yonetmeligi-2023-1230', 'iso-13920-kaynakli-imalat-tolerans-tablosu', 'iso-5817-kalite-seviyeleri', 'kaynakli-baglantilarda-yorulma-fat-sinifi'],
   tr: {

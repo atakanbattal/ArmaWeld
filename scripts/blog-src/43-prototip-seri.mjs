@@ -2,7 +2,7 @@ export default {
   order: 43,
   slug: 'prototip-mi-seri-uretim-mi-kaynakli-parca',
   key: 'p43_proto',
-  date: '2026-11-16',
+  date: '2026-08-03',
   keywords: 'prototip kaynaklı imalat, prototip üretim, sıfır seri, pilot üretim, seri üretime geçiş, imalata uygun tasarım, DFM kaynak, prototip fiyatı neden yüksek, welded prototype, Prototypenfertigung Schweißteile, Nullserie',
   related: ['kaynak-fiksturu-tasarimi-seri-uretim', 'ilk-parca-onayi-kaynakli-imalat', 'maliyet-optimizasyon', 'kaynakli-imalat-fiyati'],
   tr: {

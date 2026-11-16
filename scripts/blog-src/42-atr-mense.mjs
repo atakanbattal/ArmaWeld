@@ -2,7 +2,7 @@ export default {
   order: 42,
   slug: 'atr-dolasim-belgesi-eur1-mense-kaynakli-parca',
   key: 'p42_origin',
-  date: '2026-11-16',
+  date: '2026-07-27',
   keywords: 'A.TR dolaşım belgesi, EUR.1, menşe ispat belgesi, Gümrük Birliği çelik, AKÇT ürünleri, Norveç EFTA menşe, kaynaklı parça ihracat belgesi, GTİP 7308, A.TR movement certificate, Warenverkehrsbescheinigung A.TR Türkei',
   related: ['kaynakli-parca-ihracat-paketleme-incoterms', 'cbam-celik-ihracat-kaynakli-imalat', 'kaynakli-parca-tedarik-turkiye-dogu-avrupa', 'almanya-kaynakli-parca-tedarik-beklentiler'],
   tr: {

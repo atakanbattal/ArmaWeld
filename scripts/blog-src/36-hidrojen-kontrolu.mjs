@@ -2,7 +2,7 @@ export default {
   order: 36,
   slug: 'kaynakta-hidrojen-kontrolu-soguk-catlak',
   key: 'p36_hydrogen',
-  date: '2026-11-16',
+  date: '2026-06-19',
   keywords: 'hidrojen çatlağı, soğuk çatlak, gecikmeli çatlak, elektrot kurutma, düşük hidrojen, H5 H10, toz kurutma, dehidrojenasyon, NDT bekleme süresi, EN 1011-2, hydrogen cracking, Wasserstoffrisse, fissuration à froid',
   related: ['on-isitma-hesaplama', 'elektrot-cesitleri-rutil-bazik-e7018', 's960ql-kaynak-parametreleri', 'kaynak-hatalari-onarim'],
   tr: {

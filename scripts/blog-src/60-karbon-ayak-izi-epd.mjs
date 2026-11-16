@@ -2,7 +2,7 @@ export default {
   order: 60,
   slug: 'kaynakli-imalat-karbon-ayak-izi-epd',
   key: 'p60_carbon',
-  date: '2026-11-16',
+  date: '2026-11-13',
   keywords: 'kaynaklı parça karbon ayak izi, ürün karbon ayak izi, EPD nedir, çevresel ürün beyanı, ISO 14067, EN 15804, Scope 3 tedarikçi verisi, çelik karbon emisyonu, ark ocağı çeliği, CBAM gömülü emisyon, product carbon footprint welded parts, CO2-Fußabdruck Stahlbauteile',
   related: ['cbam-celik-ihracat-kaynakli-imalat', 'kaynakli-parca-tedarik-turkiye-dogu-avrupa', 'malzeme-sertifikasi-en-10204-3-1', 'sicak-daldirma-galvaniz-kaynakli-parca'],
   tr: {

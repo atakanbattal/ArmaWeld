@@ -2,7 +2,7 @@ export default {
   order: 39,
   slug: 'fason-kaynak-sozlesmesi-maddeler',
   key: 'p39_contract',
-  date: '2026-11-16',
+  date: '2026-07-07',
   keywords: 'fason kaynak sözleşmesi, fason imalat sözleşmesi, kaynaklı imalat sözleşmesi maddeleri, tedarik sözleşmesi, uygunsuzluk maliyeti, çelik fiyat eskalasyonu, CISG, subcontract welding agreement, Lohnfertigungsvertrag Schweißen',
   related: ['fason-kaynak-tedarikci-secimi', 'kaynakli-imalat-teklif-hazirlama', 'itp-muayene-ve-test-plani', 'kaynakli-imalat-data-book-mdr'],
   tr: {

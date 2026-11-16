@@ -2,7 +2,7 @@ export default {
   order: 49,
   slug: 'cerceve-siparis-kaynakli-parca-abruf',
   key: 'p49_framework',
-  date: '2026-11-16',
+  date: '2026-09-07',
   keywords: 'çerçeve sipariş, çerçeve anlaşma, açık sipariş, blanket order, Abrufauftrag, Rahmenvertrag, çağrı siparişi, dondurulmuş bölge, forecast, emniyet stoku, kaynaklı parça seri tedarik, framework agreement welded parts',
   related: ['fason-kaynak-sozlesmesi-maddeler', 'kaynakli-imalat-teslim-suresi-planlama', 'kaynak-fiksturu-tasarimi-seri-uretim', 'kaynakli-imalat-fiyati'],
   tr: {

@@ -2,7 +2,7 @@ export default {
   order: 11,
   slug: 'ppap-kaynakli-parca-onayi',
   key: 'p11_ppap',
-  date: '2026-11-16',
+  date: '2026-01-19',
   keywords: 'PPAP nedir, PPAP seviyeleri, kaynaklı parça PPAP, üretim parçası onay süreci, PSW, PPAP welding parts, PPAP Schweißteile, Produktionsteil-Freigabe',
   related: ['ilk-parca-onayi-kaynakli-imalat', 'otomotiv-yan-sanayi-kaynak', 'itp-muayene-ve-test-plani', 'kaynakli-imalat-tedarikci-denetimi'],
   tr: {

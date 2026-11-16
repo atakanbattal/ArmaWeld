@@ -2,7 +2,7 @@ export default {
   order: 19,
   slug: 'kaynakli-mi-civatali-mi-birlestirme',
   key: 'p19_boltweld',
-  date: '2026-11-16',
+  date: '2026-03-09',
   keywords: 'kaynaklı mı cıvatalı mı, kaynaklı birleştirme cıvatalı birleştirme farkı, sökülebilir bağlantı, öngermeli cıvata, atölye kaynağı saha cıvatası, welded vs bolted connection, geschweißt oder geschraubt',
   related: ['celik-konstruksiyon-imalat', 'kaynak-dikisi-mukavemet-hesabi', 'kaynakli-baglantilarda-yorulma-fat-sinifi', 'sicak-daldirma-galvaniz-kaynakli-parca'],
   tr: {

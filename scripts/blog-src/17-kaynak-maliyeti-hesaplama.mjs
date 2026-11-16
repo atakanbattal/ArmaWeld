@@ -2,7 +2,7 @@ export default {
   order: 17,
   slug: 'kaynak-maliyeti-hesaplama',
   key: 'p17_cost',
-  date: '2026-11-16',
+  date: '2026-02-23',
   keywords: 'kaynak maliyeti hesaplama, metre başı kaynak maliyeti, kaynak teli sarfiyatı hesabı, ark süresi, operatör faktörü, yığma hızı, welding cost calculation, Schweißkosten berechnen',
   related: ['kaynakli-imalat-fiyati', 'maliyet-optimizasyon', 'kose-kaynagi-a-olcusu', 'mig-mag-parametreleri'],
   tr: {

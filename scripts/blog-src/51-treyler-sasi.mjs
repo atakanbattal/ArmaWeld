@@ -2,7 +2,7 @@ export default {
   order: 51,
   slug: 'treyler-sasisi-kaynakli-imalat',
   key: 'p51_trailer',
-  date: '2026-11-16',
+  date: '2026-09-21',
   keywords: 'treyler şasisi imalatı, dorse şasisi kaynak, treyler ana kiriş, şasi kirişi tozaltı kaynak, kingpin plakası, treyler şasi yorulma, şasi ters sehim, römork şasi imalatı, trailer chassis welding, Anhänger Fahrgestell Schweißen, Auflieger Rahmen',
   related: ['kaynakli-baglantilarda-yorulma-fat-sinifi', 'kaynak-distorsiyonu', 'alevle-dogrultma-kaynak-carpilmasi', 's355jr-s355j2-s355k2-s355nl-farki'],
   tr: {

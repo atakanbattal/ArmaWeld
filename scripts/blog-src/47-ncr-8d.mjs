@@ -2,7 +2,7 @@ export default {
   order: 47,
   slug: 'uygunsuzluk-raporu-ncr-8d-kaynakli-imalat',
   key: 'p47_ncr',
-  date: '2026-11-16',
+  date: '2026-08-25',
   keywords: 'uygunsuzluk raporu, NCR nedir, 8D raporu, 8D adımları, kök neden analizi, 5 neden, balık kılçığı, düzeltici faaliyet, kaynak hatası kök neden, sapma izni, nonconformance report welding, 8D-Report Schweißen',
   related: ['kaynak-hatalari-onarim', 'kaynak-kalite-kontrol', 'iso-5817-kalite-seviyeleri', 'kaynak-muayene-raporu-nasil-okunur'],
   tr: {

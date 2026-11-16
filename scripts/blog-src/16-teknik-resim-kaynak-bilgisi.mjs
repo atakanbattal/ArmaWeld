@@ -2,7 +2,7 @@ export default {
   order: 16,
   slug: 'teknik-resimde-kaynak-bilgileri',
   key: 'p16_drawing',
-  date: '2026-11-16',
+  date: '2026-02-17',
   keywords: 'teknik resimde kaynak, kaynaklı parça çizimi, kaynak çizim notları, ISO 2553 gösterim, kaynak genel notları, welding drawing requirements, Schweißzeichnung Angaben',
   related: ['kaynak-sembolizasyonu', 'iso-13920-kaynakli-imalat-tolerans-tablosu', 'kaynakli-imalat-teklif-hazirlama', 'malzeme-sertifikasi-en-10204-3-1'],
   tr: {

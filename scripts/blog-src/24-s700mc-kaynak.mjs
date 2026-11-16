@@ -2,7 +2,7 @@ export default {
   order: 24,
   slug: 's700mc-kaynagi-isi-girdisi-t8-5',
   key: 'p24_s700mc',
-  date: '2026-11-16',
+  date: '2026-04-07',
   keywords: 'S700MC kaynak, S700MC kaynağı, EN 10149-2, termomekanik çelik, t8/5 soğuma süresi, ısı girdisi, yüksek mukavemetli çelik kaynağı, S700MC welding, S700MC schweißen',
   related: ['s960ql-kaynak-parametreleri', 'hardox-kaynak', 'on-isitma-hesaplama', 'tozalti-kaynak-makinesi-bom-sasi'],
   tr: {

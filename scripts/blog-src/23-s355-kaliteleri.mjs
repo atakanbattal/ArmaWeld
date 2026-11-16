@@ -2,7 +2,7 @@ export default {
   order: 23,
   slug: 's355jr-s355j2-s355k2-s355nl-farki',
   key: 'p23_s355',
-  date: '2026-11-16',
+  date: '2026-04-01',
   keywords: 'S355JR, S355J2, S355K2, S355NL, S355J2+N, S355 farkı, EN 10025-2, EN 10025-3, çentik darbe, Charpy, karbon eşdeğeri CEV, S355 difference, S355 Unterschied',
   related: ['malzeme-sertifikasi-en-10204-3-1', 'on-isitma-hesaplama', 'lamellar-yirtilma-z-kalite-celik', 'celik-konstruksiyon-imalat'],
   tr: {

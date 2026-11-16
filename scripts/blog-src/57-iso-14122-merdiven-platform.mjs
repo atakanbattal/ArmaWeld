@@ -2,7 +2,7 @@ export default {
   order: 57,
   slug: 'en-iso-14122-merdiven-platform-korkuluk',
   key: 'p57_iso14122',
-  date: '2026-11-16',
+  date: '2026-10-26',
   keywords: 'EN ISO 14122, makine platformu imalatı, çelik merdiven imalatı, korkuluk yüksekliği, endüstriyel korkuluk, servis platformu, ızgara platform, sabit erişim, makine merdiveni ölçüleri, EN ISO 14122-3, Bühne Stahl, Treppe Geländer Maschine',
   related: ['yeni-makine-yonetmeligi-2023-1230', 'sicak-daldirma-galvaniz-kaynakli-parca', 'kaynakli-mi-civatali-mi-birlestirme', 'iso-13920-kaynakli-imalat-tolerans-tablosu'],
   tr: {

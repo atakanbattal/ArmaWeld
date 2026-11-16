@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Double approvisionnement pour pièces soudées : quand est-ce pertinent et comment l'organiser ? | ArmaWeld</title>
+  <meta name="description" content="Stratégie de second fournisseur pour pièces soudées : risques du fournisseur unique, pièces concernées, modèles de répartition des volumes, spécification commune pour une qualité identique, impact sur les coûts et points de vigilance.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="cift-tedarikci-dual-sourcing-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Double approvisionnement pour pièces soudées : quand est-ce pertinent et comment l'organiser ? | ArmaWeld">
+  <meta property="og:description" content="Stratégie de second fournisseur pour pièces soudées : risques du fournisseur unique, pièces concernées, modèles de répartition des volumes, spécification commune pour une qualité identique, impact sur les coûts et points de vigilance.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2025-11-26">
+  <meta property="article:modified_time" content="2025-11-26">
+  <meta property="article:author" content="ArmaWeld Ingénierie">
+  <meta property="article:section" content="Achats · Approvisionnement">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Double approvisionnement pour pièces soudées : quand est-ce pertinent et comment l'organiser ?",
+  "description": "Stratégie de second fournisseur pour pièces soudées : risques du fournisseur unique, pièces concernées, modèles de répartition des volumes, spécification commune pour une qualité identique, impact sur les coûts et points de vigilance.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2025-11-26",
+  "dateModified": "2025-11-26",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingénierie",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html",
+  "inLanguage": "fr",
+  "articleSection": "Achats · Approvisionnement",
+  "keywords": "çift tedarikçi, dual sourcing, ikinci tedarikçi, tedarik riski, kaynaklı parça yedek tedarikçi, second source welded parts, dual sourcing steel fabrication, Zweitlieferant Schweißteile, Dual Sourcing Stahlbau, doble proveedor piezas soldadas, double sourcing pièces soudées"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double approvisionnement pour pièces soudées : quand est-ce pertinent et comment l'organiser ?",
+      "item": "https://www.armaweld.com/fr/blog/cift-tedarikci-dual-sourcing-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p62_dualsource_breadcrumb3">Double approvisionnement</span></div>
+    <div class="article-tag" data-i18n="blog_p62_dualsource_tag">Achats · Approvisionnement</div>
+    <h1 data-i18n="blog_p62_dualsource_h1">Double approvisionnement pour pièces soudées : quand est-ce pertinent et comment l'organiser ?</h1>
+    <div class="article-meta">
+      <span><time datetime="2025-11-26">2025-11-26</time></span>
+      <span data-i18n="blog_p62_dualsource_read">7 min de lecture</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p62_dualsource_body"><p>Acheter une pièce soudée auprès d'un seul atelier est la solution la moins chère tant que tout va bien. Mais si cet atelier subit un incendie, une longue panne, perd un soudeur clé ou sature sa capacité, la ligne de montage du client s'arrête aussi. Le double approvisionnement réduit ce risque pour un coût acceptable.</p>
+<h2>Les risques cachés du fournisseur unique</h2>
+<ul>
+<li><strong>Risque de capacité :</strong> si le fournisseur se concentre sur une grosse commande, votre pièce peut attendre.</li>
+<li><strong>Risque opérationnel :</strong> pannes, incendie, inondation ou longue coupure de courant.</li>
+<li><strong>Risque de savoir-faire :</strong> si seules quelques personnes connaissent vraiment la pièce, leur départ pèse sur la qualité.</li>
+<li><strong>Pouvoir de négociation :</strong> un acheteur sans alternative négocie en position de faiblesse.</li>
+<li><strong>Risque régional :</strong> perturbations logistiques, passages de frontière ou crises régionales.</li>
+</ul>
+<h2>Quelles pièces justifient une seconde source ?</h2>
+<p>Un second fournisseur pour chaque pièce est un coût inutile. Une évaluation simple aide à prioriser :</p>
+<table>
+<thead><tr><th>Critère</th><th>En faveur du double approvisionnement</th></tr></thead>
+<tbody>
+<tr><td>Impact sur l'arrêt de ligne</td><td>Sans la pièce, le produit fini ne peut pas être expédié</td></tr>
+<tr><td>Volume annuel</td><td>Demande continue et prévisible</td></tr>
+<tr><td>Difficulté technique</td><td>Moyenne ; des procédés très spécifiques compliquent une seconde source</td></tr>
+<tr><td>Stockabilité</td><td>Des pièces encombrantes non stockables augmentent le risque</td></tr>
+<tr><td>Situation du fournisseur actuel</td><td>À la limite de sa capacité ou performance irrégulière</td></tr>
+</tbody>
+</table>
+<p>Pour des pièces à faible volume et faciles à stocker, un fournisseur unique avec stock de sécurité est souvent plus économique.</p>
+<h2>Modèles de répartition</h2>
+<ul>
+<li><strong>Répartition par quote-part :</strong> par exemple 70 % fournisseur principal, 30 % second fournisseur. Les deux gardent le processus actif.</li>
+<li><strong>Répartition par famille de pièces :</strong> des pièces similaires vont à des fournisseurs différents, chacun étant le secours qualifié de la famille de l'autre.</li>
+<li><strong>Secours dormant :</strong> le second fournisseur est qualifié et produit quelques petits lots par an. Coût faible, mais montée en cadence plus longue.</li>
+<li><strong>Répartition régionale :</strong> deux fournisseurs dans des pays ou régions différents répartissent les risques logistiques et géopolitiques (voir <a href="nearshoring-kaynakli-imalat-turkiye.html">nearshoring et Turquie</a>).</li>
+</ul>
+<h2>La même qualité chez deux fournisseurs</h2>
+<p>Le principal danger : « même plan, pièce différente » venant de deux ateliers. Pour l'éviter :</p>
+<ul>
+<li>Indiquer clairement sur le plan la classe de soudure, le niveau de qualité (p. ex. ISO 5817 B ou C) et les tolérances générales (voir <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">tableau de tolérances ISO 13920</a>).</li>
+<li>Appliquer le même plan d'inspection et les mêmes taux de CND aux deux fournisseurs.</li>
+<li>Définir un calibre commun ou la même méthode de mesure pour les cotes critiques.</li>
+<li>Garder une seule spécification claire de traitement de surface.</li>
+<li>Faire passer la validation de première pièce aux deux et tester leurs pièces mélangées au montage.</li>
+</ul>
+<h2>Impact sur les coûts</h2>
+<p>Un second fournisseur entraîne des coûts supplémentaires : un second jeu de gabarits, une autre validation de première pièce, deux audits et un prix unitaire un peu plus élevé dû à des lots plus petits. Comparez-les au coût d'un arrêt de ligne. Beaucoup d'acheteurs tranchent vite en constatant qu'une seule journée d'arrêt dépasse le coût annuel du double approvisionnement.</p>
+<h2>Choisir le second fournisseur</h2>
+<ul>
+<li>Il ne doit pas partager les risques du principal ; même région, même source d'énergie ou même aciériste concentrent le risque.</li>
+<li>Les modes opératoires et certificats nécessaires doivent déjà exister (voir <a href="fason-kaynak-tedarikci-secimi.html">choisir un sous-traitant en soudage</a>).</li>
+<li>Il doit accepter les petits lots ; le rôle de secours ne convient pas à tous les ateliers.</li>
+<li>Fixer volume annuel minimum et logique d'appel dans un contrat-cadre (voir <a href="cerceve-siparis-kaynakli-parca-abruf.html">commandes-cadres</a>).</li>
+</ul>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous travaillons pour des clients européens en tant que fournisseur principal comme en seconde source. En seconde source, nous réalisons la validation de première pièce avec rapports de mesure et d'inspection des soudures et fabriquons selon la même spécification que votre fournisseur actuel. <a href="../avrupa-kaynakli-imalat.html">Fabrication soudée pour l'Europe →</a></p></div></div>
+
+<div data-i18n-html="blog_p62_dualsource_faq"><h2>Questions fréquentes</h2><div class="faq-item"><h3>Qu'est-ce que le double approvisionnement ?</h3><p>Pouvoir acheter la même pièce auprès de deux fournisseurs qualifiés afin de réduire le risque de rupture.</p></div><div class="faq-item"><h3>Chaque pièce a-t-elle besoin d'un second fournisseur ?</h3><p>Non. Priorité aux pièces à fort impact sur l'arrêt de ligne, à demande continue et difficiles à stocker.</p></div><div class="faq-item"><h3>Comment garantir des pièces identiques chez deux fournisseurs ?</h3><p>Avec des niveaux de qualité clairs, un plan d'inspection commun, la même méthode de mesure et une validation de première pièce pour chacun.</p></div><div class="faq-item"><h3>Le double approvisionnement coûte-t-il plus cher ?</h3><p>Il y a des coûts de gabarits, validations et audits ; ils sont à comparer au coût d'un éventuel arrêt de ligne.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p62_dualsource_cta_h3">Vous cherchez une seconde source ?</h3>
+      <p data-i18n="blog_p62_dualsource_cta_p">Envoyez les plans et spécifications existantes ; nous planifierons comment intervenir comme second fournisseur.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p62_dualsource_cta_btn">Demander un devis →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articles associés">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="fason-kaynak-tedarikci-secimi.html" data-i18n="blog_n26_supplier_h1">Sous-traitance en soudure : 10 critères pour choisir votre fournisseur</a></li>
+        <li><a href="cerceve-siparis-kaynakli-parca-abruf.html" data-i18n="blog_p49_framework_h1">Commande cadre et appels de livraison pour pièces soudées : bien les mettre en place</a></li>
+        <li><a href="kaynakli-parca-tedarik-turkiye-dogu-avrupa.html" data-i18n="blog_n27_src_h1">Achat de pièces soudées : Turquie, Europe de l’Est ou Asie ?</a></li>
+        <li><a href="nearshoring-kaynakli-imalat-turkiye.html" data-i18n="blog_p48_nearshoring_h1">Nearshoring : pourquoi les acheteurs européens se tournent vers la Turquie pour les pièces soudées</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

@@ -2,7 +2,7 @@ export default {
   order: 1,
   slug: 'iso-5817-kalite-seviyeleri',
   key: 'p01_iso5817',
-  date: '2026-11-16',
+  date: '2025-11-17',
   keywords: 'ISO 5817, ISO 5817 kalite seviyesi B C D, kaynak kalite seviyesi, ISO 5817 level B, ISO 5817 level C, Bewertungsgruppe B C D, weld quality level',
   related: ['kaynak-kalite-kontrol', 'en-1090-exc3-nedir', 'ndt-tahribatsiz-muayene-yontemleri', 'kaynak-hatalari-onarim'],
   tr: {

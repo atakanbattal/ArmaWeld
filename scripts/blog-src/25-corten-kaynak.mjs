@@ -2,7 +2,7 @@ export default {
   order: 25,
   slug: 'corten-celik-kaynagi-s355j2w',
   key: 'p25_corten',
-  date: '2026-11-16',
+  date: '2026-04-13',
   keywords: 'corten çelik kaynağı, corten kaynak teli, S355J2W, S355J0WP, EN 10025-5, patina, atmosfere dayanıklı çelik, weathering steel welding, Wetterfester Stahl schweißen, acier autopatinable',
   related: ['s355jr-s355j2-s355k2-s355nl-farki', 'iso-12944-korozyon-siniflari-c1-c5-cx', 'celik-konstruksiyon-imalat', 'mig-mag-parametreleri'],
   tr: {

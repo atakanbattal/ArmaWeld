@@ -2,7 +2,7 @@ export default {
   order: 12,
   slug: 'iso-14732-kaynak-operatoru-sertifikasi',
   key: 'p12_iso14732',
-  date: '2026-11-16',
+  date: '2026-01-23',
   keywords: 'ISO 14732, kaynak operatörü sertifikası, mekanize kaynak operatörü, tozaltı kaynak operatörü belgesi, ISO 14732 vs ISO 9606, welding operator qualification, Bedienerprüfung ISO 14732',
   related: ['kaynakci-sertifikasi-en-iso-9606-1', 'saw-tozalti-kaynagi', 'wpqr-nedir', 'tozalti-kaynak-makinesi-bom-sasi'],
   tr: {

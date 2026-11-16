@@ -235,7 +235,22 @@ const cardHtml = posts.map((p) => `
       </article>
 `).join('');
 if (!idx.includes(CS)) idx = idx.replace('<div class="blog-grid">\n', `<div class="blog-grid">\n${CS}\n${CE}\n`);
-idx = idx.slice(0, idx.indexOf(CS) + CS.length) + cardHtml + idx.slice(idx.indexOf(CE));
+// One grid, newest first: collect every card (generated and hand-written), drop stale copies of
+// generated posts, sort by the date shown on the card and keep them all between the markers.
+{
+  const cardRe = /\n?[ \t]*<article class="card">[\s\S]*?<\/article>\n?/g;
+  const gStart = idx.indexOf(CS);
+  const tail = idx.slice(gStart);
+  const lastArt = tail.lastIndexOf('</article>');
+  const gridEnd = Math.max(tail.indexOf(CE) + CE.length, lastArt >= 0 ? lastArt + '</article>'.length : 0);
+  const region = tail.slice(0, gridEnd);
+  const srcSlugs = new Set(posts.map((p) => p.slug + '.html'));
+  const others = (region.match(cardRe) || []).filter((c) => { const h = c.match(/href="([^"]+)" class="card-link"/); return !(h && srcSlugs.has(h[1])); });
+  const all = others.map((c) => c.trim()).concat(cardHtml.match(cardRe).map((c) => c.trim()));
+  const dateOf = (c) => (c.match(/<div class="card-meta">\s*<span>(\d{4}-\d{2}-\d{2})<\/span>/) || [, ''])[1];
+  all.sort((a, b) => dateOf(b).localeCompare(dateOf(a)));
+  idx = idx.slice(0, gStart) + CS + '\n' + all.map((c) => '      ' + c).join('\n\n') + '\n' + CE + '\n' + tail.slice(gridEnd);
+}
 fs.writeFileSync(idxPath, idx);
 
 // Sitemap

@@ -2,7 +2,7 @@ export default {
   order: 18,
   slug: 'kaynakli-baglantilarda-yorulma-fat-sinifi',
   key: 'p18_fatigue',
-  date: '2026-11-16',
+  date: '2026-03-02',
   keywords: 'kaynak yorulma, FAT sınıfı, kaynaklı bağlantı yorulma dayanımı, IIW yorulma, EN 1993-1-9 detay kategorisi, kaynak ucu taşlama, ISO 5817 B90 C63, weld fatigue FAT class, Schweißnaht Ermüdung',
   related: ['kaynak-dikisi-mukavemet-hesabi', 'iso-5817-kalite-seviyeleri', 'kaynak-hatalari-onarim', 'tozalti-kaynak-makinesi-bom-sasi'],
   tr: {
