@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="en" data-aw-page-lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix | ArmaWeld</title>
+  <meta name="description" content="What to do when a welded part fails? What an NCR should contain, disposition options (use as is, repair, rework, scrap), the eight 8D steps, typical root causes in welding, 5 Whys and fishbone analysis, and verifying the effectiveness of corrective action.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="uygunsuzluk-raporu-ncr-8d-kaynakli-imalat">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix | ArmaWeld">
+  <meta property="og:description" content="What to do when a welded part fails? What an NCR should contain, disposition options (use as is, repair, rework, scrap), the eight 8D steps, typical root causes in welding, 5 Whys and fishbone analysis, and verifying the effectiveness of corrective action.">
+  <meta property="og:url" content="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Quality · Nonconformity">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix",
+  "description": "What to do when a welded part fails? What an NCR should contain, disposition options (use as is, repair, rework, scrap), the eight 8D steps, typical root causes in welding, 5 Whys and fishbone analysis, and verifying the effectiveness of corrective action.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html"
+  },
+  "url": "https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html",
+  "inLanguage": "en",
+  "articleSection": "Quality · Nonconformity",
+  "keywords": "uygunsuzluk raporu, NCR nedir, 8D raporu, 8D adımları, kök neden analizi, 5 neden, balık kılçığı, düzeltici faaliyet, kaynak hatası kök neden, sapma izni, nonconformance report welding, 8D-Report Schweißen"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/en/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix",
+      "item": "https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p47_ncr_breadcrumb3">NCR and 8D</span></div>
+    <div class="article-tag" data-i18n="blog_p47_ncr_tag">Quality · Nonconformity</div>
+    <h1 data-i18n="blog_p47_ncr_h1">Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p47_ncr_read">8 min read</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p47_ncr_body"><p>No fabricator works with zero defects; what makes the difference is how defects are handled. When European buyers assess a supplier, they don’t ask “have you ever made a mistake?” but “what did you do when you did?” This article explains how nonconformance reports (NCRs) and the 8D method work in welded fabrication.</p>
+<h2>What Is a Nonconformity?</h2>
+<p>A product failing to meet any requirement of the drawing, specification, standard or contract. Typical examples in welded fabrication:</p>
+<ul>
+<li>An NDT indication beyond acceptance limits (crack, lack of fusion, porosity),</li>
+<li>A part out of dimension or tolerance,</li>
+<li>A missing or undersized weld,</li>
+<li>Wrong material or missing certificate,</li>
+<li>Deviation in surface preparation or paint thickness,</li>
+<li>A weld made with the wrong WPS or by unqualified personnel.</li>
+</ul>
+<h2>What an NCR Should Contain</h2>
+<ul>
+<li>NCR number, date and originator,</li>
+<li>Order, part number, revision and affected quantity,</li>
+<li>Clear statement of requirement versus finding (photos, measurements, report numbers),</li>
+<li>Where it was found: receiving, production, final inspection or customer,</li>
+<li>Immediate action (segregating affected parts),</li>
+<li>Disposition and who decided it,</li>
+<li>Root cause and corrective action (with a link to an 8D if needed),</li>
+<li>Close-out date and verification.</li>
+</ul>
+<h2>Disposition Options</h2>
+<table>
+<thead><tr><th>Disposition</th><th>Meaning</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Use as is</td><td>Part accepted without change</td><td>Requires a written customer concession if it deviates from a requirement</td></tr>
+<tr><td>Repair</td><td>Made usable though not fully meeting the requirement</td><td>May need a repair procedure and customer approval</td></tr>
+<tr><td>Rework</td><td>Corrected to fully meet the requirement</td><td>For example gouging out and rewelding a defective weld</td></tr>
+<tr><td>Scrap</td><td>Part not used</td><td>A new part is made</td></tr>
+<tr><td>Return to supplier</td><td>Defect is in incoming material or part</td><td>An NCR is raised with the supplier</td></tr>
+</tbody>
+</table>
+<p>Weld repairs must be made to their own WPS and the repaired area must pass the same or stricter inspection (see <a href="kaynak-hatalari-onarim.html">weld defects and repair</a>).</p>
+<h2>What Is 8D?</h2>
+<p>8D is an eight-step problem-solving method used especially for defects that reach the customer or recur. The goal is not just to fix the part but to make sure the defect does not happen again.</p>
+<table>
+<thead><tr><th>Step</th><th>Content</th></tr></thead>
+<tbody>
+<tr><td>D0</td><td>Preparation: decide whether the problem needs an 8D</td></tr>
+<tr><td>D1</td><td>Team: welding coordinator, quality, production, design if needed</td></tr>
+<tr><td>D2</td><td>Problem description: what, where, when, how many, how detected</td></tr>
+<tr><td>D3</td><td>Containment: sorting parts in stock, in transit and at the customer</td></tr>
+<tr><td>D4</td><td>Root cause: why it happened and why it was not caught</td></tr>
+<tr><td>D5</td><td>Choosing permanent corrective actions</td></tr>
+<tr><td>D6</td><td>Implementation and verification of effectiveness</td></tr>
+<tr><td>D7</td><td>Prevention: extend to similar parts and processes, update documents</td></tr>
+<tr><td>D8</td><td>Closure and team recognition</td></tr>
+</tbody>
+</table>
+<h2>Two Root Causes: Occurrence and Escape</h2>
+<p>A good 8D answers two questions separately: why did the defect occur, and why wasn’t it caught? For example, an undersized fillet weld may have occurred because of a wrong welder setting; but it reached the customer because no weld gauge was used at final inspection. Each needs its own action.</p>
+<h2>Typical Root Causes in Welding</h2>
+<ul>
+<li>Using a wrong or outdated WPS,</li>
+<li>Parameters drifting outside the WPS range,</li>
+<li>Deviation in joint preparation or root gap,</li>
+<li>Damp consumables or insufficient preheat,</li>
+<li>Misreading the weld symbol on the drawing,</li>
+<li>Distortion from poor tacking or wrong weld sequence,</li>
+<li>Lack of fusion in welds with poor access.</li>
+</ul>
+<h2>Root Cause Analysis Tools</h2>
+<p><strong>5 Whys:</strong> asking “why?” repeatedly until reaching the real cause. “The welder made a mistake” is not a root cause; ask why the mistake was possible: missing instructions, wrong fixture, insufficient training?</p>
+<p><strong>Fishbone (Ishikawa):</strong> grouping possible causes under people, machine, material, method, measurement and environment. In welding, “environment” usually covers humidity, temperature and draughts.</p>
+<h2>Verifying Effectiveness</h2>
+<p>Corrective action must be shown to work with data: no recurrence in later batches, improved NDT results, dimensional reports within tolerance. An 8D closed without verification is not closed in the customer’s eyes.</p>
+<h2>Communicating with the Customer</h2>
+<ul>
+<li>Report the problem as soon as it is noticed, even before the root cause is known.</li>
+<li>State containment and affected quantities clearly.</li>
+<li>A short time is usually expected for the first steps (D1–D3) and a longer one for the full 8D; follow the times in the customer’s quality agreement.</li>
+</ul>
+<div class="callout"><p><strong>At ArmaWeld:</strong> nonconformities are recorded, affected parts segregated, and welding coordination and quality carry out root cause analysis together. For customer complaints we report in 8D format. <a href="../kalite.html">Our approach to quality →</a></p></div></div>
+
+<div data-i18n-html="blog_p47_ncr_faq"><h2>Frequently Asked Questions</h2><div class="faq-item"><h3>What is the difference between an NCR and an 8D?</h3><p>An NCR records a single nonconformity and its disposition. 8D is an eight-step method to find root causes and lasting fixes, mainly for defects that reach the customer or recur.</p></div><div class="faq-item"><h3>When can “use as is” be decided?</h3><p>When a deviation does not affect function and the customer has given a written concession.</p></div><div class="faq-item"><h3>Which root cause tools are used?</h3><p>Most commonly the 5 Whys and the fishbone (Ishikawa) diagram.</p></div><div class="faq-item"><h3>When is an 8D closed?</h3><p>After the effectiveness of corrective action is verified with data and extended to similar processes.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p47_ncr_cta_h3">A supplier that fixes problems for good</h3>
+      <p data-i18n="blog_p47_ncr_cta_p">Send your drawing and quality requirements; we will quote with a quality plan.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p47_ncr_cta_btn">Request a Quote →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Related articles">
+      <h2 data-i18n="blog_related_h">Related Articles</h2>
+      <ul>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Weld Defects and Repair Methods</a></li>
+        <li><a href="kaynak-kalite-kontrol.html" data-i18n="blog_kaynak_kalite_kontrol_h1">Quality Control in Welded Manufacturing: VT, NDT and Traceability</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">ISO 5817 Quality Levels B, C and D: Which One Should You Specify?</a></li>
+        <li><a href="kaynak-muayene-raporu-nasil-okunur.html" data-i18n="blog_p05_report_h1">How to Read a Weld Inspection Report: The Fields a Buyer Should Check</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Back to Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

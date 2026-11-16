@@ -1798,5 +1798,41 @@
     "it": "Commerciale · Pianificazione",
     "nl": "Commercieel · Planning",
     "no": "Kommersielt · Planlegging"
+  },
+  "Ticari · Fason": {
+    "en": "Commercial · Subcontracting",
+    "de": "Kaufmännisch · Lohnfertigung",
+    "es": "Comercial · Subcontratación",
+    "fr": "Commercial · Sous-traitance",
+    "it": "Commerciale · Conto lavoro",
+    "nl": "Commercieel · Uitbesteding",
+    "no": "Kommersielt · Innleid produksjon"
+  },
+  "Kalite · Giriş Kontrolü": {
+    "en": "Quality · Incoming Inspection",
+    "de": "Qualität · Wareneingang",
+    "es": "Calidad · Recepción",
+    "fr": "Qualité · Réception",
+    "it": "Qualità · Accettazione",
+    "nl": "Kwaliteit · Ingangscontrole",
+    "no": "Kvalitet · Mottakskontroll"
+  },
+  "Kalite · Uygunsuzluk": {
+    "en": "Quality · Nonconformity",
+    "de": "Qualität · Abweichungen",
+    "es": "Calidad · No conformidad",
+    "fr": "Qualité · Non-conformité",
+    "it": "Qualità · Non conformità",
+    "nl": "Kwaliteit · Afwijkingen",
+    "no": "Kvalitet · Avvik"
+  },
+  "Tedarik · Avrupa": {
+    "en": "Sourcing · Europe",
+    "de": "Beschaffung · Europa",
+    "es": "Compras · Europa",
+    "fr": "Achats · Europe",
+    "it": "Acquisti · Europa",
+    "nl": "Inkoop · Europa",
+    "no": "Innkjøp · Europa"
   }
 }

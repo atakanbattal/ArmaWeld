@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="es" data-aw-page-lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informe de no conformidad (NCR) y 8D en fabricación soldada: del defecto a la solución definitiva | ArmaWeld</title>
+  <meta name="description" content="¿Qué hacer cuando una pieza soldada falla? Qué debe incluir un NCR, opciones de decisión (usar tal cual, reparar, reprocesar, chatarra), los ocho pasos del 8D, causas raíz típicas en soldadura, análisis 5 porqués e Ishikawa y verificación de la eficacia de la acción correctiva.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="uygunsuzluk-raporu-ncr-8d-kaynakli-imalat">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Informe de no conformidad (NCR) y 8D en fabricación soldada: del defecto a la solución definitiva | ArmaWeld">
+  <meta property="og:description" content="¿Qué hacer cuando una pieza soldada falla? Qué debe incluir un NCR, opciones de decisión (usar tal cual, reparar, reprocesar, chatarra), los ocho pasos del 8D, causas raíz típicas en soldadura, análisis 5 porqués e Ishikawa y verificación de la eficacia de la acción correctiva.">
+  <meta property="og:url" content="https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Ingeniería">
+  <meta property="article:section" content="Calidad · No conformidad">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Informe de no conformidad (NCR) y 8D en fabricación soldada: del defecto a la solución definitiva",
+  "description": "¿Qué hacer cuando una pieza soldada falla? Qué debe incluir un NCR, opciones de decisión (usar tal cual, reparar, reprocesar, chatarra), los ocho pasos del 8D, causas raíz típicas en soldadura, análisis 5 porqués e Ishikawa y verificación de la eficacia de la acción correctiva.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingeniería",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html"
+  },
+  "url": "https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html",
+  "inLanguage": "es",
+  "articleSection": "Calidad · No conformidad",
+  "keywords": "uygunsuzluk raporu, NCR nedir, 8D raporu, 8D adımları, kök neden analizi, 5 neden, balık kılçığı, düzeltici faaliyet, kaynak hatası kök neden, sapma izni, nonconformance report welding, 8D-Report Schweißen"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/es/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Informe de no conformidad (NCR) y 8D en fabricación soldada: del defecto a la solución definitiva",
+      "item": "https://www.armaweld.com/es/blog/uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p47_ncr_breadcrumb3">NCR y 8D</span></div>
+    <div class="article-tag" data-i18n="blog_p47_ncr_tag">Calidad · No conformidad</div>
+    <h1 data-i18n="blog_p47_ncr_h1">Informe de no conformidad (NCR) y 8D en fabricación soldada: del defecto a la solución definitiva</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p47_ncr_read">8 min de lectura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingeniería</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p47_ncr_body"><p>Ningún fabricante trabaja con cero defectos; lo que marca la diferencia es cómo se gestionan. Cuando un comprador europeo evalúa a un proveedor no pregunta “¿alguna vez se han equivocado?”, sino “¿qué hicieron cuando ocurrió?”. Este artículo explica cómo funcionan el informe de no conformidad (NCR) y el método 8D en la fabricación soldada.</p>
+<h2>¿Qué es una no conformidad?</h2>
+<p>Que el producto no cumpla algún requisito del plano, la especificación, la norma o el contrato. Ejemplos típicos:</p>
+<ul>
+<li>una indicación de END fuera de los límites de aceptación (fisura, falta de fusión, porosidad),</li>
+<li>una pieza fuera de medida o tolerancia,</li>
+<li>un cordón ausente o de garganta insuficiente,</li>
+<li>material equivocado o certificado ausente,</li>
+<li>desviación en la preparación superficial o el espesor de pintura,</li>
+<li>una soldadura hecha con la WPS equivocada o por personal no cualificado.</li>
+</ul>
+<h2>Qué debe incluir un NCR</h2>
+<ul>
+<li>número de NCR, fecha y emisor,</li>
+<li>pedido, referencia, revisión y cantidad afectada,</li>
+<li>descripción clara del requisito frente al hallazgo (fotos, medidas, números de informe),</li>
+<li>dónde se detectó: recepción, producción, inspección final o cliente,</li>
+<li>acción inmediata (separar las piezas afectadas),</li>
+<li>decisión y quién la tomó,</li>
+<li>causa raíz y acción correctiva (con enlace a un 8D si procede),</li>
+<li>fecha de cierre y verificación.</li>
+</ul>
+<h2>Opciones de decisión</h2>
+<table>
+<thead><tr><th>Decisión</th><th>Significado</th><th>Nota</th></tr></thead>
+<tbody>
+<tr><td>Usar tal cual</td><td>La pieza se acepta sin cambios</td><td>Si se desvía de un requisito, exige concesión escrita del cliente</td></tr>
+<tr><td>Reparar</td><td>Se hace utilizable aunque no cumpla del todo el requisito</td><td>Puede requerir procedimiento de reparación y aprobación del cliente</td></tr>
+<tr><td>Reprocesar</td><td>Se corrige hasta cumplir plenamente el requisito</td><td>p. ej. sanear y volver a soldar un cordón defectuoso</td></tr>
+<tr><td>Chatarra</td><td>La pieza no se usa</td><td>Se fabrica una nueva</td></tr>
+<tr><td>Devolver al proveedor</td><td>El defecto está en el material o pieza recibida</td><td>Se abre un NCR al proveedor</td></tr>
+</tbody>
+</table>
+<p>Las reparaciones de soldadura se hacen con su propia WPS y la zona reparada pasa una inspección igual o más estricta (ver <a href="kaynak-hatalari-onarim.html">defectos de soldadura y reparación</a>).</p>
+<h2>¿Qué es el 8D?</h2>
+<p>El 8D es un método de resolución de problemas en ocho pasos, usado sobre todo para defectos que llegan al cliente o se repiten. El objetivo no es solo arreglar la pieza, sino que el defecto no vuelva a ocurrir.</p>
+<table>
+<thead><tr><th>Paso</th><th>Contenido</th></tr></thead>
+<tbody>
+<tr><td>D0</td><td>Preparación: decidir si el problema requiere un 8D</td></tr>
+<tr><td>D1</td><td>Equipo: coordinador de soldadura, calidad, producción y diseño si procede</td></tr>
+<tr><td>D2</td><td>Descripción del problema: qué, dónde, cuándo, cuántas, cómo se detectó</td></tr>
+<tr><td>D3</td><td>Contención: selección de piezas en stock, en tránsito y en el cliente</td></tr>
+<tr><td>D4</td><td>Causa raíz: por qué ocurrió y por qué no se detectó</td></tr>
+<tr><td>D5</td><td>Elección de acciones correctivas permanentes</td></tr>
+<tr><td>D6</td><td>Implantación y verificación de eficacia</td></tr>
+<tr><td>D7</td><td>Prevención: extender a piezas y procesos similares, actualizar documentos</td></tr>
+<tr><td>D8</td><td>Cierre y reconocimiento del equipo</td></tr>
+</tbody>
+</table>
+<h2>Dos causas raíz: aparición y escape</h2>
+<p>Un buen 8D responde por separado a dos preguntas: ¿por qué apareció el defecto? y ¿por qué no se detectó? Una garganta insuficiente puede deberse a un ajuste incorrecto; pero llegó al cliente porque en la inspección final no se usó galga de soldadura. Cada causa necesita su propia acción.</p>
+<h2>Causas raíz típicas en soldadura</h2>
+<ul>
+<li>uso de una WPS equivocada o desactualizada,</li>
+<li>parámetros fuera del rango de la WPS,</li>
+<li>desviaciones en la preparación de bordes o separación de raíz,</li>
+<li>consumibles húmedos o precalentamiento insuficiente,</li>
+<li>lectura errónea del símbolo de soldadura,</li>
+<li>deformación por punteado deficiente o secuencia incorrecta,</li>
+<li>falta de fusión en soldaduras de difícil acceso.</li>
+</ul>
+<h2>Herramientas de análisis</h2>
+<p><strong>5 porqués:</strong> preguntar “¿por qué?” repetidamente hasta llegar a la causa real. “El soldador se equivocó” no es una causa raíz; hay que preguntar por qué fue posible el error: ¿instrucción ausente, utillaje incorrecto, formación insuficiente?</p>
+<p><strong>Ishikawa (espina de pescado):</strong> agrupar causas posibles en personas, máquina, material, método, medición y entorno. En soldadura, “entorno” suele incluir humedad, temperatura y corrientes de aire.</p>
+<h2>Verificación de eficacia</h2>
+<p>Hay que demostrar con datos que la acción funciona: sin repetición en lotes posteriores, mejores resultados de END, informes dimensionales dentro de tolerancia. Un 8D cerrado sin verificación no está cerrado para el cliente.</p>
+<h2>Comunicación con el cliente</h2>
+<ul>
+<li>Avise del problema en cuanto se detecte, aunque aún no se conozca la causa.</li>
+<li>Indique con claridad la contención y las cantidades afectadas.</li>
+<li>Suele esperarse un plazo corto para D1–D3 y uno más largo para el 8D completo; siga los plazos del acuerdo de calidad del cliente.</li>
+</ul>
+<div class="callout"><p><strong>En ArmaWeld:</strong> las no conformidades se registran, las piezas afectadas se separan y coordinación de soldadura y calidad analizan juntas la causa raíz. Ante reclamaciones de clientes informamos en formato 8D. <a href="../kalite.html">Nuestro enfoque de calidad →</a></p></div></div>
+
+<div data-i18n-html="blog_p47_ncr_faq"><h2>Preguntas frecuentes</h2><div class="faq-item"><h3>¿En qué se diferencian NCR y 8D?</h3><p>El NCR registra una no conformidad y su decisión. El 8D es un método de ocho pasos para hallar la causa raíz y una solución duradera, sobre todo en defectos que llegan al cliente o se repiten.</p></div><div class="faq-item"><h3>¿Cuándo se puede decidir “usar tal cual”?</h3><p>Cuando la desviación no afecta a la función y el cliente ha dado una concesión por escrito.</p></div><div class="faq-item"><h3>¿Qué herramientas se usan para la causa raíz?</h3><p>Sobre todo los 5 porqués y el diagrama de Ishikawa.</p></div><div class="faq-item"><h3>¿Cuándo se cierra un 8D?</h3><p>Cuando la eficacia de la acción se verifica con datos y se extiende a procesos similares.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p47_ncr_cta_h3">Un proveedor que resuelve los problemas de raíz</h3>
+      <p data-i18n="blog_p47_ncr_cta_p">Envíenos plano y requisitos de calidad; ofertamos con plan de calidad.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p47_ncr_cta_btn">Solicitar oferta →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Artículos relacionados">
+      <h2 data-i18n="blog_related_h">Artículos relacionados</h2>
+      <ul>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Defectos de Soldadura y Métodos de Reparación</a></li>
+        <li><a href="kaynak-kalite-kontrol.html" data-i18n="blog_kaynak_kalite_kontrol_h1">Control de Calidad en Fabricación Soldada: VT, END y Trazabilidad</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">Niveles de calidad ISO 5817 B, C y D: ¿cuál debe especificar?</a></li>
+        <li><a href="kaynak-muayene-raporu-nasil-okunur.html" data-i18n="blog_p05_report_h1">Cómo leer un informe de inspección de soldadura: los campos que el comprador debe revisar</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Volver al Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
