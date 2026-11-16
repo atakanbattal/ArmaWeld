@@ -2167,5 +2167,23 @@
     "it": "Guida prodotto · Sicurezza macchine",
     "nl": "Productgids · Machineveiligheid",
     "no": "Produktguide · Maskinsikkerhet"
+  },
+  "Ürün Rehberi · Çelik Yapı": {
+    "en": "Product Guide · Steel Structures",
+    "de": "Produktleitfaden · Stahlbau",
+    "es": "Guía de producto · Estructuras de acero",
+    "fr": "Guide produit · Charpente métallique",
+    "it": "Guida prodotto · Carpenteria metallica",
+    "nl": "Productgids · Staalbouw",
+    "no": "Produktguide · Stålkonstruksjon"
+  },
+  "Ürün Rehberi · Ağır İmalat": {
+    "en": "Product Guide · Heavy Fabrication",
+    "de": "Produktleitfaden · Schwerfertigung",
+    "es": "Guía de producto · Calderería pesada",
+    "fr": "Guide produit · Chaudronnerie lourde",
+    "it": "Guida prodotto · Carpenteria pesante",
+    "nl": "Productgids · Zware fabricage",
+    "no": "Produktguide · Tung fabrikasjon"
   }
 }
