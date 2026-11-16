@@ -1762,5 +1762,41 @@
     "it": "Commerciale · Logistica",
     "nl": "Commercieel · Logistiek",
     "no": "Kommersielt · Logistikk"
+  },
+  "Ticari · İhracat": {
+    "en": "Commercial · Export",
+    "de": "Kaufmännisch · Export",
+    "es": "Comercial · Exportación",
+    "fr": "Commercial · Export",
+    "it": "Commerciale · Export",
+    "nl": "Commercieel · Export",
+    "no": "Kommersielt · Eksport"
+  },
+  "Ticari · Gümrük": {
+    "en": "Commercial · Customs",
+    "de": "Kaufmännisch · Zoll",
+    "es": "Comercial · Aduanas",
+    "fr": "Commercial · Douane",
+    "it": "Commerciale · Dogana",
+    "nl": "Commercieel · Douane",
+    "no": "Kommersielt · Toll"
+  },
+  "Üretim · Planlama": {
+    "en": "Production · Planning",
+    "de": "Fertigung · Planung",
+    "es": "Producción · Planificación",
+    "fr": "Production · Planification",
+    "it": "Produzione · Pianificazione",
+    "nl": "Productie · Planning",
+    "no": "Produksjon · Planlegging"
+  },
+  "Ticari · Planlama": {
+    "en": "Commercial · Planning",
+    "de": "Kaufmännisch · Planung",
+    "es": "Comercial · Planificación",
+    "fr": "Commercial · Planification",
+    "it": "Commerciale · Pianificazione",
+    "nl": "Commercieel · Planning",
+    "no": "Kommersielt · Planlegging"
   }
 }

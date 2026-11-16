@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="nl" data-aw-page-lang="nl"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Van prototype naar serie bij lasdelen: wat verandert er in elke fase? | ArmaWeld</title>
+  <meta name="description" content="Verschillen tussen prototype, nulserie en serieproductie van lasdelen: waarom prototypes duurder zijn, feedback voor maakbaar ontwerp, keuzes voor mallen en WPS, eerste-artikelgoedkeuring, seriegrootte en wat vóór de serie op tekening vast moet liggen.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="prototip-mi-seri-uretim-mi-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Van prototype naar serie bij lasdelen: wat verandert er in elke fase? | ArmaWeld">
+  <meta property="og:description" content="Verschillen tussen prototype, nulserie en serieproductie van lasdelen: waarom prototypes duurder zijn, feedback voor maakbaar ontwerp, keuzes voor mallen en WPS, eerste-artikelgoedkeuring, seriegrootte en wat vóór de serie op tekening vast moet liggen.">
+  <meta property="og:url" content="https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Productie · Planning">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Van prototype naar serie bij lasdelen: wat verandert er in elke fase?",
+  "description": "Verschillen tussen prototype, nulserie en serieproductie van lasdelen: waarom prototypes duurder zijn, feedback voor maakbaar ontwerp, keuzes voor mallen en WPS, eerste-artikelgoedkeuring, seriegrootte en wat vóór de serie op tekening vast moet liggen.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html",
+  "inLanguage": "nl",
+  "articleSection": "Productie · Planning",
+  "keywords": "prototip kaynaklı imalat, prototip üretim, sıfır seri, pilot üretim, seri üretime geçiş, imalata uygun tasarım, DFM kaynak, prototip fiyatı neden yüksek, welded prototype, Prototypenfertigung Schweißteile, Nullserie"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/nl/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Van prototype naar serie bij lasdelen: wat verandert er in elke fase?",
+      "item": "https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p43_proto_breadcrumb3">Prototype en serie</span></div>
+    <div class="article-tag" data-i18n="blog_p43_proto_tag">Productie · Planning</div>
+    <h1 data-i18n="blog_p43_proto_h1">Van prototype naar serie bij lasdelen: wat verandert er in elke fase?</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p43_proto_read">7 min lezen</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p43_proto_body"><p>Bedrijven die een nieuwe machine of installatie ontwikkelen, bestellen hun lasdelen meestal in drie stappen: enkele prototypes, een kleine nulserie (pilotbatch) en daarna de serie. Elke stap heeft een ander doel, een andere kostenstructuur en andere verwachtingen van de leverancier. Wie die verschillen vroeg kent, voorkomt prijsdiscussies en verrassingen bij de overgang naar serie.</p>
+<h2>Prototype: het ontwerp valideren</h2>
+<p>Het prototype laat zien dat het deel volgens tekening te maken is, past bij de montage en zijn functie vervult. In deze fase:</p>
+<ul>
+<li>worden snijprogramma’s, kantinstellingen en lasvolgorde voor het eerst gemaakt,</li>
+<li>is er geen mal of alleen eenvoudige tijdelijke opspanning,</li>
+<li>wordt vaker en handmatig gemeten,</li>
+<li>komen vaak hiaten of tegenstrijdigheden in de tekening boven, die met de leverancier worden opgelost.</li>
+</ul>
+<h3>Waarom zijn prototypes duur?</h3>
+<p>Voorbereidingskosten (programmeren, instellen, eerste-artikelcontrole, tekeningvragen) kunnen niet over het aantal worden verdeeld. In serie verdelen ze zich over honderden delen, bij een prototype over enkele. De lasser doet bovendien elke stap voor het eerst; vervorming en richten kosten meer tijd. Prototype- en serieprijs vergelijken is daarom misleidend.</p>
+<h2>Feedback voor maakbaar ontwerp</h2>
+<p>Het prototype is het waardevolste moment voor de fabrikant om aan het ontwerp bij te dragen. Typische feedback:</p>
+<ul>
+<li>lassen zonder bereikbaarheid of in lastige posities,</li>
+<li>grotere lasafmetingen dan nodig (zie <a href="kose-kaynagi-a-olcusu.html">a-maat van hoeklassen</a>),</li>
+<li>toleranties die na het lassen moeilijk haalbaar zijn; voorstel om na het lassen te verspanen,</li>
+<li>overstap naar standaard plaatdiktes en profielen om materiaalkosten te verlagen,</li>
+<li>kantoplossingen die het aantal onderdelen verminderen.</li>
+</ul>
+<p>Worden deze voorstellen vóór de serie in de tekening verwerkt, dan dalen kostprijs en kwaliteitsrisico blijvend.</p>
+<h2>Nulserie: het proces valideren</h2>
+<p>Na de ontwerpfreeze wordt een kleine batch met het serieproces gemaakt. Het doel is nu het proces, niet meer het ontwerp:</p>
+<ul>
+<li>de mal wordt in gebruik genomen en de maatherhaalbaarheid gecontroleerd (zie <a href="kaynak-fiksturu-tasarimi-seri-uretim.html">malontwerp</a>),</li>
+<li>WPS’en en lasparameters worden vastgelegd,</li>
+<li>cyclustijden worden gemeten; daarop wordt de serieprijs definitief,</li>
+<li>eerste-artikelinspectie (FAI) of klantvrijgave volgt uit deze batch (zie <a href="ilk-parca-onayi-kaynakli-imalat.html">eerste-artikelgoedkeuring</a>).</li>
+</ul>
+<h2>Serie: herhaalbaarheid</h2>
+<p>In serie moet elk deel gelijk zijn. Daarvoor:</p>
+<ul>
+<li>wordt de tekeningrevisie bevroren; wijzigingen lopen via een schriftelijk wijzigingsproces,</li>
+<li>wordt het inspectieplan gestandaardiseerd: welke maten op elk deel, welke steekproefsgewijs,</li>
+<li>wordt materiaal per batchgrootte gepland en nesting over meerdere delen geoptimaliseerd,</li>
+<li>wordt de batchgrootte afgewogen tussen insteltijd en voorraadkosten.</li>
+</ul>
+<h2>Vergelijking per fase</h2>
+<table>
+<thead><tr><th></th><th>Prototype</th><th>Nulserie</th><th>Serie</th></tr></thead>
+<tbody>
+<tr><td>Doel</td><td>Ontwerp valideren</td><td>Proces valideren</td><td>Herhaalbare productie</td></tr>
+<tr><td>Mal</td><td>Geen of tijdelijk</td><td>Seriemal</td><td>Seriemal</td></tr>
+<tr><td>Tekening</td><td>Kan wijzigen</td><td>Bevroren</td><td>Revisiebeheerd</td></tr>
+<tr><td>Kosten per deel</td><td>Hoogst</td><td>Middel</td><td>Laagst</td></tr>
+<tr><td>Inspectie</td><td>100%, uitgebreid</td><td>100% + FAI</td><td>Volgens plan</td></tr>
+</tbody>
+</table>
+<h2>Veelgemaakte fouten bij de overgang</h2>
+<ul>
+<li>Handmatige correcties aan het prototype komen niet in de tekening.</li>
+<li>De prototypeprijs wordt voor de serieprijs gehouden, of prototypes worden tegen serieprijs gevraagd.</li>
+<li>Er wordt niet besproken wie de mal betaalt.</li>
+<li>De nulserie wordt overgeslagen; één maatfout raakt dan de hele batch.</li>
+</ul>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> in de prototypefase bekijken we de tekening samen met u vanuit las- en productieoogpunt en geven we onze voorstellen schriftelijk. Bij de overgang naar serie leggen we mal, WPS en inspectieplan vast en maken we een eerste-artikeldossier voor de eerste batch. <a href="../cizime-gore-imalat.html">Productie volgens tekening →</a></p></div></div>
+
+<div data-i18n-html="blog_p43_proto_faq"><h2>Veelgestelde vragen</h2><div class="faq-item"><h3>Waarom is een prototype duurder dan een seriedeel?</h3><p>Voorbereidingskosten zoals programmeren, instellen, eerste controle en tekeningvragen vallen op enkele delen; in serie worden ze over honderden verdeeld.</p></div><div class="faq-item"><h3>Wat is een nulserie?</h3><p>Een kleine batch met het serieproces na de ontwerpfreeze; mal, WPS en cyclustijd worden hier gevalideerd.</p></div><div class="faq-item"><h3>Heeft een prototype een mal nodig?</h3><p>Meestal niet; tijdelijke opspanning volstaat. De seriemal wordt na de freeze gemaakt.</p></div><div class="faq-item"><h3>Wat moet vóór de serie vastliggen?</h3><p>Tekeningrevisie, lasafmetingen, toleranties, WPS’en, inspectieplan en eigendom van de mal.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p43_proto_cta_h3">Van prototype naar serie met één leverancier</h3>
+      <p data-i18n="blog_p43_proto_cta_p">Stuur uw tekening; we offreren prototype en serie apart.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p43_proto_cta_btn">Offerte aanvragen →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Gerelateerde artikelen">
+      <h2 data-i18n="blog_related_h">Gerelateerde artikelen</h2>
+      <ul>
+        <li><a href="kaynak-fiksturu-tasarimi-seri-uretim.html" data-i18n="blog_p33_fixture_h1">Lasmallen: ontwerpprincipes voor herhaalbare maten in serieproductie</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Wat is een eerste-artikelinspectie (FAI)? Wat u bij gelaste onderdelen controleert vóór de serie</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kostenoptimalisatie in gelaste productie</a></li>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Hoe wordt de prijs van een gelaste constructie bepaald? 9 kostenfactoren</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Terug naar blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="no" data-aw-page-lang="no"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fra prototype til serie for sveisede deler: hva endres i hver fase? | ArmaWeld</title>
+  <meta name="description" content="Forskjeller mellom prototype, nullserie og serieproduksjon av sveisede deler: hvorfor prototyper koster mer, tilbakemelding for produksjonsvennlig konstruksjon, valg av jigg og WPS, førsteartikkelgodkjenning, partistørrelse og hva som må fryses på tegningen før serie.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="prototip-mi-seri-uretim-mi-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fra prototype til serie for sveisede deler: hva endres i hver fase? | ArmaWeld">
+  <meta property="og:description" content="Forskjeller mellom prototype, nullserie og serieproduksjon av sveisede deler: hvorfor prototyper koster mer, tilbakemelding for produksjonsvennlig konstruksjon, valg av jigg og WPS, førsteartikkelgodkjenning, partistørrelse og hva som må fryses på tegningen før serie.">
+  <meta property="og:url" content="https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Produksjon · Planlegging">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fra prototype til serie for sveisede deler: hva endres i hver fase?",
+  "description": "Forskjeller mellom prototype, nullserie og serieproduksjon av sveisede deler: hvorfor prototyper koster mer, tilbakemelding for produksjonsvennlig konstruksjon, valg av jigg og WPS, førsteartikkelgodkjenning, partistørrelse og hva som må fryses på tegningen før serie.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html",
+  "inLanguage": "no",
+  "articleSection": "Produksjon · Planlegging",
+  "keywords": "prototip kaynaklı imalat, prototip üretim, sıfır seri, pilot üretim, seri üretime geçiş, imalata uygun tasarım, DFM kaynak, prototip fiyatı neden yüksek, welded prototype, Prototypenfertigung Schweißteile, Nullserie"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/no/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/no/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fra prototype til serie for sveisede deler: hva endres i hver fase?",
+      "item": "https://www.armaweld.com/no/blog/prototip-mi-seri-uretim-mi-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blogg</a> &nbsp;/&nbsp; <span data-i18n="blog_p43_proto_breadcrumb3">Prototype og serie</span></div>
+    <div class="article-tag" data-i18n="blog_p43_proto_tag">Produksjon · Planlegging</div>
+    <h1 data-i18n="blog_p43_proto_h1">Fra prototype til serie for sveisede deler: hva endres i hver fase?</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p43_proto_read">7 min lesing</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p43_proto_body"><p>Bedrifter som utvikler en ny maskin eller et nytt utstyr, bestiller som regel sveisede deler i tre trinn: noen få prototyper, en liten nullserie (pilotparti) og deretter serie. Hvert trinn har ulikt mål, ulik kostnadsstruktur og ulike forventninger til leverandøren. Å kjenne forskjellene tidlig gir færre prisdiskusjoner og færre overraskelser ved overgangen til serie.</p>
+<h2>Prototype: validere konstruksjonen</h2>
+<p>Prototypen viser at delen kan lages etter tegning, passer i monteringen og fungerer. I denne fasen:</p>
+<ul>
+<li>lages skjæreprogrammer, bukkeinnstillinger og sveiserekkefølge for første gang,</li>
+<li>finnes ingen jigg eller bare enkel midlertidig oppspenning,</li>
+<li>gjøres målkontroll oftere og manuelt,</li>
+<li>dukker det ofte opp mangler eller motsigelser i tegningen som avklares med leverandøren.</li>
+</ul>
+<h3>Hvorfor er prototyper dyre?</h3>
+<p>Oppstartskostnader (programmering, innstilling, førstedelskontroll, tegningsspørsmål) kan ikke fordeles på antall. I serie fordeles de på hundrevis av deler, i en prototype på noen få. Sveiseren gjør dessuten hvert steg for første gang; deformasjon og retting tar lengre tid. Å sammenligne prototypepris og seriepris er derfor misvisende.</p>
+<h2>Tilbakemelding for produksjonsvennlig konstruksjon</h2>
+<p>Prototypen er det mest verdifulle tidspunktet for produsentens innspill til konstruksjonen. Typiske innspill:</p>
+<ul>
+<li>sveiser uten tilkomst eller i vanskelige posisjoner,</li>
+<li>større sveisemål enn nødvendig (se <a href="kose-kaynagi-a-olcusu.html">a-mål for kilsveis</a>),</li>
+<li>toleranser som er vanskelige å holde etter sveising; forslag om maskinering etter sveising,</li>
+<li>bytte til standard platetykkelser og profiler for lavere materialkostnad,</li>
+<li>bukkeløsninger som reduserer antall deler.</li>
+</ul>
+<p>Når innspillene legges inn i tegningen før serie, går kostnad per del og kvalitetsrisiko varig ned.</p>
+<h2>Nullserie: validere prosessen</h2>
+<p>Når konstruksjonen er frosset, lages et lite parti med serieprosessen. Målet er nå prosessen, ikke konstruksjonen:</p>
+<ul>
+<li>jiggen tas i bruk og målrepeterbarheten kontrolleres (se <a href="kaynak-fiksturu-tasarimi-seri-uretim.html">jiggkonstruksjon</a>),</li>
+<li>WPS-er og sveiseparametere fastsettes,</li>
+<li>syklustider måles; serieprisen fastsettes ut fra disse,</li>
+<li>førsteartikkelkontroll (FAI) eller kundegodkjenning tas fra dette partiet (se <a href="ilk-parca-onayi-kaynakli-imalat.html">førsteartikkelgodkjenning</a>).</li>
+</ul>
+<h2>Serie: repeterbarhet</h2>
+<p>I serie skal hver del være lik. Derfor:</p>
+<ul>
+<li>fryses tegningsrevisjonen; endringer går gjennom en skriftlig endringsprosess,</li>
+<li>standardiseres kontrollplanen: hvilke mål på hver del og hvilke ved stikkprøver,</li>
+<li>planlegges materialet etter partistørrelse og nesting optimaliseres over flere deler,</li>
+<li>balanseres partistørrelsen mellom oppstartskostnad og lagerkostnad.</li>
+</ul>
+<h2>Sammenligning av fasene</h2>
+<table>
+<thead><tr><th></th><th>Prototype</th><th>Nullserie</th><th>Serie</th></tr></thead>
+<tbody>
+<tr><td>Mål</td><td>Validere konstruksjon</td><td>Validere prosess</td><td>Repeterbar produksjon</td></tr>
+<tr><td>Jigg</td><td>Ingen eller midlertidig</td><td>Seriejigg</td><td>Seriejigg</td></tr>
+<tr><td>Tegning</td><td>Kan endres</td><td>Frosset</td><td>Revisjonsstyrt</td></tr>
+<tr><td>Kostnad per del</td><td>Høyest</td><td>Middels</td><td>Lavest</td></tr>
+<tr><td>Kontroll</td><td>100 %, detaljert</td><td>100 % + FAI</td><td>Etter plan</td></tr>
+</tbody>
+</table>
+<h2>Vanlige feil ved overgang til serie</h2>
+<ul>
+<li>Manuelle korrigeringer på prototypen kommer aldri inn i tegningen.</li>
+<li>Prototypepris forveksles med seriepris, eller prototyper kreves til seriepris.</li>
+<li>Det avklares ikke hvem som betaler jiggen.</li>
+<li>Nullserien hoppes over og man går rett på et stort parti; én målfeil rammer da hele partiet.</li>
+</ul>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> i prototypefasen går vi gjennom tegningen sammen med deg fra et sveise- og produksjonsperspektiv og gir innspillene skriftlig. Ved overgang til serie fastsetter vi jigg, WPS og kontrollplan og lager en førsteartikkelmappe for første parti. <a href="../cizime-gore-imalat.html">Produksjon etter tegning →</a></p></div></div>
+
+<div data-i18n-html="blog_p43_proto_faq"><h2>Ofte stilte spørsmål</h2><div class="faq-item"><h3>Hvorfor koster en prototype mer enn en seriedel?</h3><p>Oppstartskostnader som programmering, innstilling, førstekontroll og tegningsspørsmål faller på få deler; i serie fordeles de på hundrevis.</p></div><div class="faq-item"><h3>Hva er en nullserie?</h3><p>Et lite parti laget med serieprosessen etter at konstruksjonen er frosset; jigg, WPS og syklustid valideres her.</p></div><div class="faq-item"><h3>Trenger en prototype jigg?</h3><p>Som regel ikke; midlertidig oppspenning holder. Seriejiggen lages etter at konstruksjonen er frosset.</p></div><div class="faq-item"><h3>Hva må fryses før serie?</h3><p>Tegningsrevisjon, sveisemål, toleranser, WPS-er, kontrollplan og eierskap til jiggen.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p43_proto_cta_h3">Fra prototype til serie med én leverandør</h3>
+      <p data-i18n="blog_p43_proto_cta_p">Send tegningen; vi gir tilbud på prototype og serie hver for seg.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p43_proto_cta_btn">Be om tilbud →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Relaterte artikler">
+      <h2 data-i18n="blog_related_h">Relaterte artikler</h2>
+      <ul>
+        <li><a href="kaynak-fiksturu-tasarimi-seri-uretim.html" data-i18n="blog_p33_fixture_h1">Sveisejigger: konstruksjonsprinsipper for repeterbare mål i serieproduksjon</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Hva er førsteartikkelinspeksjon (FAI)? Hva du kontrollerer på sveiste deler før serieproduksjon</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kostnadsoptimalisering i sveiset produksjon</a></li>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Hvordan fastsettes prisen på sveiset produksjon? 9 kostnadsfaktorer</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Tilbake til bloggen</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
