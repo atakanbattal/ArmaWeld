@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="no" data-aw-page-lang="no"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beregning av sveisekostnad: trådforbruk, buetid og kostnad per meter | ArmaWeld</title>
+  <meta name="description" content="Hvordan beregne sveisekostnad: sveisemetallvekt, avsettingshastighet, buetid, buetidsfaktor, formler for gass- og trådforbruk, regneeksempel for en a5-kilsveis og konstruksjonsvalg som senker kostnaden.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-maliyeti-hesaplama">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-maliyeti-hesaplama.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Beregning av sveisekostnad: trådforbruk, buetid og kostnad per meter | ArmaWeld">
+  <meta property="og:description" content="Hvordan beregne sveisekostnad: sveisemetallvekt, avsettingshastighet, buetid, buetidsfaktor, formler for gass- og trådforbruk, regneeksempel for en a5-kilsveis og konstruksjonsvalg som senker kostnaden.">
+  <meta property="og:url" content="https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Kostnad · Beregning">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Beregning av sveisekostnad: trådforbruk, buetid og kostnad per meter",
+  "description": "Hvordan beregne sveisekostnad: sveisemetallvekt, avsettingshastighet, buetid, buetidsfaktor, formler for gass- og trådforbruk, regneeksempel for en a5-kilsveis og konstruksjonsvalg som senker kostnaden.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html"
+  },
+  "url": "https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html",
+  "inLanguage": "no",
+  "articleSection": "Kostnad · Beregning",
+  "keywords": "kaynak maliyeti hesaplama, metre başı kaynak maliyeti, kaynak teli sarfiyatı hesabı, ark süresi, operatör faktörü, yığma hızı, welding cost calculation, Schweißkosten berechnen"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/no/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/no/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Beregning av sveisekostnad: trådforbruk, buetid og kostnad per meter",
+      "item": "https://www.armaweld.com/no/blog/kaynak-maliyeti-hesaplama.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blogg</a> &nbsp;/&nbsp; <span data-i18n="blog_p17_cost_breadcrumb3">Sveisekostnad</span></div>
+    <div class="article-tag" data-i18n="blog_p17_cost_tag">Kostnad · Beregning</div>
+    <h1 data-i18n="blog_p17_cost_h1">Beregning av sveisekostnad: trådforbruk, buetid og kostnad per meter</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p17_cost_read">7 min lesing</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p17_cost_body"><p>I prisen på en sveiset del er sveisearbeidet ofte den største posten. Det kan beregnes i stedet for å anslås, med noen få størrelser: sveisemetallet som skal legges, prosessens avsettingshastighet og hvor lenge buen faktisk brenner. Denne artikkelen går gjennom trinnene med et regneeksempel.</p>
+<h2>1. Sveisemetallvekt</h2>
+<p>Start med sveisens tverrsnitt. For en kilsveis med like bein er det teoretiske arealet <strong>A ≈ a²</strong> (mm²). For buttsveiser følger arealet av fugegeometrien (se vår <a href="kaynak-agzi-hazirligi-iso-9692-1.html">veiledning om fugeforberedelse</a>). Vanligvis legges det til 10-20 % for sveiseoverhøyde.</p>
+<p><strong>Sveisemetall per meter (g/m) ≈ A (mm²) × 7,85 × (1 + tillegg for overhøyde)</strong></p>
+<table class="data-table"><thead><tr><th>Kilsveis</th><th>Areal (mm²)</th><th>Sveisemetall (g/m, med 15 % overhøyde)</th></tr></thead><tbody>
+<tr><td>a3</td><td>9</td><td>≈ 81</td></tr>
+<tr><td>a4</td><td>16</td><td>≈ 144</td></tr>
+<tr><td>a5</td><td>25</td><td>≈ 226</td></tr>
+<tr><td>a6</td><td>36</td><td>≈ 325</td></tr>
+<tr><td>a8</td><td>64</td><td>≈ 578</td></tr>
+</tbody></table>
+<h2>2. Mengde tilsettmateriale</h2>
+<p>Ikke all innkjøpt tråd blir sveisemetall; noe går tapt som sprut, slagg eller stumper. Utbyttet avhenger av prosessen:</p>
+<ul>
+<li>MAG med massiv tråd: ca. 90-95 %</li>
+<li>Rørtråd (FCAW): ca. 80-90 %</li>
+<li>Dekket elektrode (MMA): ca. 55-65 % (tap av stumper og slagg)</li>
+<li>Pulverbue: over 95 % for tråden; pulver beregnes for seg</li>
+</ul>
+<p><strong>Nødvendig tråd (kg/m) = sveisemetall (kg/m) / utbytte</strong></p>
+<h2>3. Buetid</h2>
+<p>Avsettingshastigheten er sveisemetallet prosessen legger per time. Med MAG og 1,2 mm massiv tråd i horisontal posisjon typisk 3-5 kg/h, tydelig lavere i vertikal. Pulverbue med én tråd når 6-10 kg/h og mer.</p>
+<p><strong>Buetid (min/m) = sveisemetall (kg/m) / avsettingshastighet (kg/h) × 60</strong></p>
+<h2>4. Buetidsfaktor</h2>
+<p>Ikke all arbeidstid er buetid. Snu deler, heftsveise, fjerne slagg, rengjøre brenner og måle tar også tid. Forholdet mellom buetid og total tid kalles <strong>buetidsfaktor</strong>. Ved manuell sveising er den ofte 20-40 %; ved mekanisert sveising og godt fikserte jobber høyere.</p>
+<p><strong>Sveisetid (min/m) = buetid / buetidsfaktor</strong></p>
+<h2>5. Gass og energi</h2>
+<ul>
+<li><strong>Beskyttelsesgass:</strong> gassmengde (l/min) × buetid. Ved 15 l/min bruker hvert buetidsminutt 15 liter.</li>
+<li><strong>Energi:</strong> strøm × spenning × buetid / virkningsgrad. Vanligvis en liten andel av totalen.</li>
+</ul>
+<h2>Regneeksempel: a5-kilsveis, MAG, posisjon PB</h2>
+<ol>
+<li>Sveisemetall: ≈ 0,226 kg/m</li>
+<li>Tråd: 0,226 / 0,93 ≈ <strong>0,243 kg/m</strong></li>
+<li>Buetid: 0,226 / 4 kg/h × 60 ≈ <strong>3,4 min/m</strong></li>
+<li>Med 30 % buetidsfaktor: 3,4 / 0,30 ≈ <strong>11,3 min/m</strong></li>
+<li>Gass: 15 l/min × 3,4 min ≈ <strong>51 l/m</strong></li>
+</ol>
+<p>Kostnad per meter = sveisetid × timesats + tråd × trådpris + gass × gasspris. Arbeidet utgjør som regel flere ganger tilsettmaterialet. Hadde samme sveis vært angitt som a6, ville sveisemetallet økt med 44 % og tiden omtrent tilsvarende.</p>
+<h2>Det beregningen ikke tar med</h2>
+<p>På en reell del er tid utenom sveising ofte større enn buetiden: materialforberedelse, montering og heftsveising, oppsett av fikstur, retting, sliping, rengjøring, kontroll og dokumentasjon. I et tilbud behandles disse som egne poster (se <a href="kaynakli-imalat-fiyati.html">hva som bestemmer prisen på sveiset produksjon</a>).</p>
+<h2>Valg som senker kostnaden</h2>
+<ul>
+<li>Velg sveisemål etter beregning, ikke «for sikkerhets skyld».</li>
+<li>Bruk X- eller U-fuge i stedet for V på tykk plate.</li>
+<li>Konstruer delen slik at den kan sveises i horisontal og vannrett posisjon.</li>
+<li>Kort ned gjentakende montering med fiksturer.</li>
+<li>Flytt lange, rette sømmer til prosesser med høy avsetting som pulverbue.</li>
+<li>Fjern unødvendige krav til sliping og utseende.</li>
+</ul>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi beregner tilbud ut fra sveiselengde, sveisemål, posisjon og prosess, og vurderer tid utenom sveising separat. Konstruksjonsforhold som driver kostnaden opp, sender vi med tilbudet som forslag. <a href="../cizime-gore-imalat.html">Produksjon etter tegning →</a></p></div></div>
+
+<div data-i18n-html="blog_p17_cost_faq"><h2>Ofte stilte spørsmål</h2><div class="faq-item"><h3>Hvordan beregnes trådforbruk per meter?</h3><p>Sveisetverrsnitt (mm²) × 7,85 gir sveisemetall i g/m; legg til overhøyde og del på prosessens utbytte.</p></div><div class="faq-item"><h3>Hvor mye tråd bruker en a5-kilsveis per meter?</h3><p>Omtrent 0,23 kg sveisemetall; med MAG og massiv tråd rundt 0,24-0,25 kg tråd.</p></div><div class="faq-item"><h3>Hva er buetidsfaktor?</h3><p>Forholdet mellom tiden buen brenner og sveiserens totale arbeidstid. Ved manuell sveising ofte 20-40 %.</p></div><div class="faq-item"><h3>Hva er den største kostnadsposten ved sveising?</h3><p>I de fleste tilfeller arbeidstiden. Tilsettmateriale og gass er vanligvis en liten del av den.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p17_cost_cta_h3">En gjennomsiktig kostnadsberegning for delen din</h3>
+      <p data-i18n="blog_p17_cost_cta_p">Send tegningen; vi lager et tilbud basert på sveiselengde og prosess, med tydelig angitte forutsetninger.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p17_cost_cta_btn">Be om tilbud →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Relaterte artikler">
+      <h2 data-i18n="blog_related_h">Relaterte artikler</h2>
+      <ul>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Hvordan fastsettes prisen på sveiset produksjon? 9 kostnadsfaktorer</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kostnadsoptimalisering i sveiset produksjon</a></li>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">a-mål på kilsveis: halsmål, z-mål og riktig dimensjonering</a></li>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">MIG/MAG-sveiseparametere: optimalisering av trådhastighet, gass og spenning</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Tilbake til bloggen</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fatigue des assemblages soudés : classes FAT, courbes S-N et détails qui prolongent la durée de vie | ArmaWeld</title>
+  <meta name="description" content="Pourquoi les pièces soudées fissurent-elles en fatigue ? Classes FAT et courbes S-N, catégories de détail courantes, effet de l’étendue de contrainte, parachèvements comme le meulage du pied, Annexe C de l’ISO 5817 et conseils de conception.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynakli-baglantilarda-yorulma-fat-sinifi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fatigue des assemblages soudés : classes FAT, courbes S-N et détails qui prolongent la durée de vie | ArmaWeld">
+  <meta property="og:description" content="Pourquoi les pièces soudées fissurent-elles en fatigue ? Classes FAT et courbes S-N, catégories de détail courantes, effet de l’étendue de contrainte, parachèvements comme le meulage du pied, Annexe C de l’ISO 5817 et conseils de conception.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Ingénierie">
+  <meta property="article:section" content="Conception · Résistance">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fatigue des assemblages soudés : classes FAT, courbes S-N et détails qui prolongent la durée de vie",
+  "description": "Pourquoi les pièces soudées fissurent-elles en fatigue ? Classes FAT et courbes S-N, catégories de détail courantes, effet de l’étendue de contrainte, parachèvements comme le meulage du pied, Annexe C de l’ISO 5817 et conseils de conception.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingénierie",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html",
+  "inLanguage": "fr",
+  "articleSection": "Conception · Résistance",
+  "keywords": "kaynak yorulma, FAT sınıfı, kaynaklı bağlantı yorulma dayanımı, IIW yorulma, EN 1993-1-9 detay kategorisi, kaynak ucu taşlama, ISO 5817 B90 C63, weld fatigue FAT class, Schweißnaht Ermüdung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fatigue des assemblages soudés : classes FAT, courbes S-N et détails qui prolongent la durée de vie",
+      "item": "https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p18_fatigue_breadcrumb3">Fatigue des soudures</span></div>
+    <div class="article-tag" data-i18n="blog_p18_fatigue_tag">Conception · Résistance</div>
+    <h1 data-i18n="blog_p18_fatigue_h1">Fatigue des assemblages soudés : classes FAT, courbes S-N et détails qui prolongent la durée de vie</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p18_fatigue_read">7 min de lecture</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p18_fatigue_body"><p>Une pièce soudée qui passe largement la vérification statique peut fissurer en quelques années sous charges variables. Châssis de remorque, flèches de grue, bâtis de machines vibrantes et matériel agricole en sont des exemples typiques. Cet article explique comment la fatigue des assemblages soudés est évaluée et quels choix de conception et de fabrication prolongent la durée de vie.</p>
+<h2>Pourquoi la soudure est le point faible</h2>
+<ul>
+<li><strong>Concentration géométrique de contraintes :</strong> le pied et la racine du cordon sont des changements brusques de section.</li>
+<li><strong>Micro-défauts :</strong> le pied présente toujours de petits caniveaux, traces de laitier ou transitions vives ; la fissure s’amorce très vite.</li>
+<li><strong>Contraintes résiduelles :</strong> le soudage laisse des contraintes de traction proches de la limite d’élasticité. Pour les assemblages soudés, l’<strong>étendue de contrainte (Δσ)</strong> compte donc davantage que la contrainte moyenne.</li>
+</ul>
+<p>Conséquence importante : à l’état brut de soudage, un acier plus résistant n’améliore guère la tenue en fatigue. En fatigue, la géométrie du détail prime sur la nuance.</p>
+<h2>Classes FAT et courbe S-N</h2>
+<p>Les recommandations de l’IIW (Institut international de la soudure) et l’EN 1993-1-9 classent les détails soudés par <strong>classe FAT</strong> ou catégorie de détail. La valeur FAT est l’étendue de contrainte (MPa) supportée à <strong>2 millions de cycles</strong>. Pour les détails soudés, la pente est typiquement <strong>m = 3</strong> :</p>
+<p><strong>N = 2 × 10⁶ × (FAT / Δσ)³</strong></p>
+<p>L’effet est fort : doubler l’étendue de contrainte divise la durée de vie par huit ; la réduire de 20 % la double environ.</p>
+<h2>Catégories courantes (indicatives)</h2>
+<table class="data-table"><thead><tr><th>Détail</th><th>FAT approx. (MPa)</th></tr></thead><tbody>
+<tr><td>Tôle non soudée à bords usinés</td><td>≈ 160</td></tr>
+<tr><td>Soudure bout à bout transversale arasée</td><td>≈ 112</td></tr>
+<tr><td>Soudure bout à bout transversale brute</td><td>≈ 80-90</td></tr>
+<tr><td>Raidisseur transversal non porteur (angle en T ou en croix)</td><td>≈ 80</td></tr>
+<tr><td>Long attache longitudinale (gousset, raidisseur de plus de 100 mm)</td><td>≈ 71 et moins</td></tr>
+<tr><td>Soudure d’angle porteuse, rupture par la racine (sur la gorge)</td><td>≈ 36</td></tr>
+</tbody></table>
+<p>Les valeurs dépendent de l’épaisseur, de la géométrie et de la norme ; le dimensionnement réel doit utiliser les tableaux de la norme applicable. Le tableau montre néanmoins qu’à charge égale, un détail rompant par la racine d’une soudure d’angle est plus de trois fois plus faible en étendue de contrainte qu’une soudure bout à bout arasée.</p>
+<h2>Choix de conception qui prolongent la vie</h2>
+<ul>
+<li><strong>Éloigner les soudures des zones très sollicitées :</strong> placer pattes, goussets et raidisseurs près de la fibre neutre plutôt qu’au moment maximal.</li>
+<li><strong>Éviter la rupture par la racine :</strong> pour les assemblages porteurs, envisager la pleine pénétration plutôt que l’angle.</li>
+<li><strong>Adoucir les changements d’épaisseur :</strong> pentes de 1:4 entre tôles d’épaisseurs différentes.</li>
+<li><strong>Adoucir les extrémités des raidisseurs :</strong> extrémités chanfreinées ou rayonnées sur les longues attaches.</li>
+<li><strong>Éviter la soudure discontinue en zone de fatigue :</strong> chaque amorçage et chaque fin est un site d’initiation potentiel.</li>
+</ul>
+<h2>Méthodes de fabrication qui prolongent la vie</h2>
+<p>Les parachèvements adoucissent la géométrie du pied ou transforment la contrainte résiduelle en compression :</p>
+<ul>
+<li><strong>Meulage du pied (burr grinding) :</strong> une gorge de petit rayon est meulée au pied, adoucissant la transition et éliminant les micro-défauts.</li>
+<li><strong>Refusion TIG (TIG dressing) :</strong> le pied est refondu sans métal d’apport pour un profil plus doux.</li>
+<li><strong>Martelage à haute fréquence (HFMI) :</strong> le traitement par impact introduit des contraintes résiduelles de compression.</li>
+</ul>
+<p>Les recommandations IIW reconnaissent, sous conditions, un gain de résistance pour ces méthodes. Elles n’agissent pas sur la rupture par la racine et leur application doit être documentée.</p>
+<h2>ISO 5817 Annexe C : soudures sollicitées en fatigue</h2>
+<p>L’édition 2014 de l’ISO 5817 définit des niveaux tels que <strong>B125, B90 et C63</strong> avec des exigences supplémentaires pour les structures sollicitées en fatigue. Ils limitent plus strictement l’angle de raccordement, les caniveaux et le défaut d’alignement. Sur une pièce critique en fatigue, le plan doit préciser le niveau adapté plutôt que simplement « B ».</p>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> sur les pièces sous charges variables, comme châssis de remorque, flèches et bâtis vibrants, nous surveillons particulièrement le profil du pied, les caniveaux et les reprises lors du contrôle visuel. Lorsque le plan l’exige, nous meulons les pieds de cordon et l’enregistrons. <a href="../tozalti-kaynak.html">Arc submergé pour longs cordons →</a></p></div></div>
+
+<div data-i18n-html="blog_p18_fatigue_faq"><h2>Questions fréquentes</h2><div class="faq-item"><h3>Qu’est-ce qu’une classe FAT ?</h3><p>L’étendue de contrainte (MPa) qu’un détail soudé supporte à 2 millions de cycles. Les recommandations IIW et l’EN 1993-1-9 classent les détails selon cette valeur.</p></div><div class="faq-item"><h3>Un acier plus résistant améliore-t-il la durée de vie en fatigue ?</h3><p>À l’état brut de soudage, très peu. La géométrie du détail et la qualité du pied déterminent la tenue en fatigue.</p></div><div class="faq-item"><h3>Quel lien entre étendue de contrainte et durée de vie ?</h3><p>Pour les détails soudés, la pente S-N est typiquement 3 ; doubler l’étendue de contrainte divise la durée de vie par huit.</p></div><div class="faq-item"><h3>À quoi sert le meulage du pied ?</h3><p>Il supprime la transition vive et les micro-défauts au pied, retardant l’amorçage de la fissure. Il est sans effet sur la rupture par la racine.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p18_fatigue_cta_h3">Pour les pièces soumises à des charges variables</h3>
+      <p data-i18n="blog_p18_fatigue_cta_p">Envoyez le plan de votre châssis, flèche ou bâti vibrant ; nous examinons avec vous niveau de qualité et détails de soudure.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p18_fatigue_cta_btn">Demander un devis →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articles associés">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="kaynak-dikisi-mukavemet-hesabi.html" data-i18n="blog_p14_strength_h1">Calcul de résistance des soudures : angle et bout à bout selon l’EN 1993-1-8</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">Niveaux de qualité ISO 5817 B, C et D : lequel spécifier ?</a></li>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Défauts de Soudage et Méthodes de Réparation</a></li>
+        <li><a href="tozalti-kaynak-makinesi-bom-sasi.html" data-i18n="blog_n26_sawbom_h1">Machine de soudage à l'arc submergé : flèches, châssis et soudures longues</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

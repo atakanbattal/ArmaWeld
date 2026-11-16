@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_p18_fatigue_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_p18_fatigue_title">Kaynaklı Bağlantılarda Yorulma: FAT Sınıfı, S-N Eğrisi ve Ömrü Uzatan Detaylar | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_p18_fatigue_meta_desc" content="Kaynaklı parçalar neden yorulmayla çatlar? FAT sınıfı ve S-N eğrisi, tipik detay sınıfları, gerilme aralığının etkisi, kaynak ucu taşlama gibi iyileştirme yöntemleri, ISO 5817 Ek C ve tasarım önerileri." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="aw-post-i18n" content="kaynakli-baglantilarda-yorulma-fat-sinifi" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+<!-- /aw:hreflang -->
+<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_p18_fatigue_og_title" content="Kaynaklı Bağlantılarda Yorulma ve FAT Sınıfı" />
+  <meta property="og:description" data-i18n="blog_p18_fatigue_meta_desc" content="Kaynaklı parçalar neden yorulmayla çatlar? FAT sınıfı ve S-N eğrisi, tipik detay sınıfları, gerilme aralığının etkisi, kaynak ucu taşlama gibi iyileştirme yöntemleri, ISO 5817 Ek C ve tasarım önerileri." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-11-16" />
+  <meta property="article:modified_time" content="2026-11-16" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Tasarım · Dayanım" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=20261116b" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kaynaklı Bağlantılarda Yorulma: FAT Sınıfı, S-N Eğrisi ve Ömrü Uzatan Detaylar",
+  "description": "Kaynaklı parçalar neden yorulmayla çatlar? FAT sınıfı ve S-N eğrisi, tipik detay sınıfları, gerilme aralığının etkisi, kaynak ucu taşlama gibi iyileştirme yöntemleri, ISO 5817 Ek C ve tasarım önerileri.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+  },
+  "url": "https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Tasarım · Dayanım",
+  "keywords": "kaynak yorulma, FAT sınıfı, kaynaklı bağlantı yorulma dayanımı, IIW yorulma, EN 1993-1-9 detay kategorisi, kaynak ucu taşlama, ISO 5817 B90 C63, weld fatigue FAT class, Schweißnaht Ermüdung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynaklı Bağlantılarda Yorulma: FAT Sınıfı, S-N Eğrisi ve Ömrü Uzatan Detaylar",
+      "item": "https://www.armaweld.com/blog/kaynakli-baglantilarda-yorulma-fat-sinifi.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "FAT sınıfı nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaynaklı bir detayın 2 milyon yük çevriminde dayanabildiği gerilme aralığıdır (MPa). IIW önerileri ve EN 1993-1-9 detayları bu değerle sınıflandırır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Yüksek dayanımlı çelik yorulma ömrünü artırır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaynak edilmiş halde bırakılan bağlantılarda belirgin şekilde artırmaz. Yorulma dayanımını asıl belirleyen detay geometrisi ve kaynak ucu kalitesidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gerilme aralığı ile ömür arasındaki ilişki nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaynaklı detaylarda S-N eğrisinin eğimi tipik olarak 3’tür; gerilme aralığı iki katına çıkınca ömür sekizde birine düşer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kaynak ucu taşlama ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaynak ucundaki keskin geçişi ve mikro kusurları kaldırarak yorulma çatlağının başlamasını geciktirir. Kökten başlayan çatlamaya etkisi yoktur."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p18_fatigue_breadcrumb3">Kaynakta Yorulma</span></div>
+    <div class="article-tag" data-i18n="blog_p18_fatigue_tag">Tasarım · Dayanım</div>
+    <h1 data-i18n="blog_p18_fatigue_h1">Kaynaklı Bağlantılarda Yorulma: FAT Sınıfı, S-N Eğrisi ve Ömrü Uzatan Detaylar</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p18_fatigue_read">7 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p18_fatigue_body">
+<p>Statik hesapta rahatça geçen bir kaynaklı parça, sürekli değişen yükler altında birkaç yıl içinde çatlayabilir. Treyler şasileri, vinç bomları, titreşimli makine gövdeleri ve tarım ekipmanları bu riskin en tipik örnekleridir. Bu yazıda kaynaklı bağlantılarda yorulmanın nasıl değerlendirildiğini ve tasarım ile imalatta ömrü uzatan kararları anlatıyoruz.</p>
+<h2>Kaynak Neden Yorulmanın Zayıf Noktasıdır?</h2>
+<ul>
+<li><strong>Geometrik gerilme yığılması:</strong> Kaynak ucu (toe) ve kök, kesitin aniden değiştiği noktalardır.</li>
+<li><strong>Mikro kusurlar:</strong> Kaynak ucunda her zaman küçük yanma oluğu, cüruf izi veya keskin geçişler bulunur; çatlak burada başlamak için zaman harcamaz.</li>
+<li><strong>Artık gerilmeler:</strong> Kaynak sonrası malzemenin akma sınırına yakın çekme artık gerilmeleri oluşur. Bu yüzden kaynaklı bağlantılarda ortalama gerilmeden çok <strong>gerilme aralığı (Δσ)</strong> belirleyicidir.</li>
+</ul>
+<p>Önemli bir sonuç: kaynak edilmiş halde bırakılan bağlantılarda, daha yüksek dayanımlı çelik kullanmak yorulma dayanımını kayda değer ölçüde artırmaz. Yorulmada detay geometrisi, malzeme kalitesinden daha önemlidir.</p>
+<h2>FAT Sınıfı ve S-N Eğrisi</h2>
+<p>IIW (Uluslararası Kaynak Enstitüsü) önerileri ve EN 1993-1-9, kaynaklı detayları <strong>FAT sınıfı</strong> veya detay kategorisi ile sınıflandırır. FAT değeri, o detayın <strong>2 milyon çevrimde</strong> dayanabildiği gerilme aralığıdır (MPa). Kaynaklı detaylar için S-N eğrisinin eğimi tipik olarak <strong>m = 3</strong>'tür:</p>
+<p><strong>N = 2 × 10⁶ × (FAT / Δσ)³</strong></p>
+<p>Bu eğim çok güçlü bir etkiye sahiptir: gerilme aralığı iki katına çıktığında ömür sekizde birine iner; gerilme aralığı %20 azaltıldığında ömür yaklaşık iki katına çıkar.</p>
+<h2>Tipik Detay Sınıfları (Yol Gösterici)</h2>
+<table class="data-table"><thead><tr><th>Detay</th><th>Yaklaşık FAT (MPa)</th></tr></thead><tbody>
+<tr><td>Kaynaksız, işlenmiş kenarlı sac</td><td>≈ 160</td></tr>
+<tr><td>Yüzeyle aynı seviyeye taşlanmış enine alın kaynağı</td><td>≈ 112</td></tr>
+<tr><td>Kaynak edilmiş halde enine alın kaynağı</td><td>≈ 80-90</td></tr>
+<tr><td>Yük taşımayan enine ek (köşe kaynaklı T veya artı birleşim)</td><td>≈ 80</td></tr>
+<tr><td>Uzun boyuna ek (lama, takviye, 100 mm'den uzun)</td><td>≈ 71 ve altı</td></tr>
+<tr><td>Yük taşıyan köşe kaynağında kökten çatlama (boğaz kesitinde)</td><td>≈ 36</td></tr>
+</tbody></table>
+<p>Değerler kalınlık, geometri ve standarda göre değişir; gerçek tasarımda ilgili standardın detay tablosu kullanılmalıdır. Tablo yine de önemli bir gerçeği gösterir: aynı yük altında, bir köşe kaynağının kökünden çatlayan detay, taşlanmış bir alın kaynağına göre gerilme aralığında üç kattan fazla daha zayıftır.</p>
+<h2>Tasarımda Ömrü Uzatan Kararlar</h2>
+<ul>
+<li><strong>Kaynakları yüksek gerilme bölgesinden uzaklaştırın:</strong> Ekler, kulaklar ve takviyeler, eğilme momentinin en büyük olduğu yerlere değil, nötr eksene yakın bölgelere yerleştirilmelidir.</li>
+<li><strong>Kök çatlamasını önleyin:</strong> Yük taşıyan bağlantılarda köşe kaynağı yerine tam nüfuziyetli kaynak düşünülmelidir.</li>
+<li><strong>Kalınlık geçişlerini yumuşatın:</strong> Farklı kalınlıktaki saclar arasında 1:4 gibi eğimli geçişler kullanılmalıdır.</li>
+<li><strong>Takviye ve ek uçlarını yumuşatın:</strong> Uzun boyuna eklerin uçları pahlı veya yarıçaplı kesilerek gerilme yığılması azaltılır.</li>
+<li><strong>Yorulma bölgesinde aralıklı kaynaktan kaçının:</strong> Her başlangıç ve bitiş noktası potansiyel bir çatlak başlangıcıdır.</li>
+</ul>
+<h2>İmalatta Ömrü Uzatan Yöntemler</h2>
+<p>Kaynak sonrası iyileştirme yöntemleri, kaynak ucundaki geometriyi yumuşatır veya artık gerilmeyi bası yönüne çevirir:</p>
+<ul>
+<li><strong>Kaynak ucu taşlama (burr grinding):</strong> Kaynak ucuna küçük yarıçaplı bir oluk taşlanarak geçiş yumuşatılır ve ucundaki mikro kusurlar kaldırılır.</li>
+<li><strong>TIG ile yeniden ergitme (TIG dressing):</strong> Kaynak ucu ilave tel kullanmadan yeniden ergitilir, daha yumuşak bir profil elde edilir.</li>
+<li><strong>Yüksek frekanslı mekanik darbe (HFMI):</strong> Kaynak ucuna darbe uygulanarak bası artık gerilmesi oluşturulur.</li>
+</ul>
+<p>IIW önerileri bu yöntemler için belirli koşullarla ek dayanım kademesi tanır. Ancak bu iyileştirmeler kökten başlayan çatlamaya etki etmez ve uygulamanın belgelenmesi gerekir.</p>
+<h2>ISO 5817 Ek C: Yorulma Yüklü Kaynaklar</h2>
+<p>ISO 5817'nin 2014 baskısı, yorulma yüklü yapılar için ek şartlar içeren <strong>B125, B90 ve C63</strong> gibi kalite seviyeleri tanımlar. Bu seviyeler kaynak ucu açısı, yanma oluğu ve kenar kaçıklığı gibi yorulmayı doğrudan etkileyen kusurlara daha sıkı sınır koyar. Yorulma kritik bir parçada çizimde sadece "B" yazmak yerine uygun seviye belirtilmelidir.</p>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Treyler şasisi, bom ve titreşimli makine gövdesi gibi değişken yük altında çalışan parçalarda kaynak ucu profilini, yanma oluğunu ve başlangıç-bitiş noktalarını gözle muayenede özellikle kontrol ederiz. Çizimde belirtilen yerlerde kaynak ucu taşlaması uygular ve kayıt altına alırız. <a href="../tozalti-kaynak.html">Uzun dikişler için tozaltı kaynak →</a></p></div>
+</div>
+
+<div data-i18n-html="blog_p18_fatigue_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>FAT sınıfı nedir?</h3><p>Kaynaklı bir detayın 2 milyon yük çevriminde dayanabildiği gerilme aralığıdır (MPa). IIW önerileri ve EN 1993-1-9 detayları bu değerle sınıflandırır.</p></div><div class="faq-item"><h3>Yüksek dayanımlı çelik yorulma ömrünü artırır mı?</h3><p>Kaynak edilmiş halde bırakılan bağlantılarda belirgin şekilde artırmaz. Yorulma dayanımını asıl belirleyen detay geometrisi ve kaynak ucu kalitesidir.</p></div><div class="faq-item"><h3>Gerilme aralığı ile ömür arasındaki ilişki nedir?</h3><p>Kaynaklı detaylarda S-N eğrisinin eğimi tipik olarak 3’tür; gerilme aralığı iki katına çıkınca ömür sekizde birine düşer.</p></div><div class="faq-item"><h3>Kaynak ucu taşlama ne işe yarar?</h3><p>Kaynak ucundaki keskin geçişi ve mikro kusurları kaldırarak yorulma çatlağının başlamasını geciktirir. Kökten başlayan çatlamaya etkisi yoktur.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p18_fatigue_cta_h3">Değişken yük altında çalışan parçalarınız için</h3>
+      <p data-i18n="blog_p18_fatigue_cta_p">Şasi, bom veya titreşimli gövde çiziminizi gönderin; kalite seviyesi ve kaynak detaylarını birlikte değerlendirelim.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p18_fatigue_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynak-dikisi-mukavemet-hesabi.html" data-i18n="blog_p14_strength_h1">Kaynak Dikişi Mukavemet Hesabı: EN 1993-1-8 ile Köşe ve Alın Kaynağı</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">ISO 5817 Kalite Seviyeleri B, C ve D: Çizime Hangisini Yazmalısınız?</a></li>
+        <li><a href="kaynak-hatalari-onarim.html" data-i18n="blog_kaynak_hatalari_h1">Kaynak Hataları ve Onarım Yöntemleri</a></li>
+        <li><a href="tozalti-kaynak-makinesi-bom-sasi.html" data-i18n="blog_n26_sawbom_h1">Tozaltı Kaynak Makinesi ile Bom, Şasi ve Uzun Dikiş Kaynağı</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=20261116b"></script>
+<script src="../assets/i18n.js?v=20261116b"></script>
+<script src="../assets/chrome.js?v=20261116b"></script>
+<script src="../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>
