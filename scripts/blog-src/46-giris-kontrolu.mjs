@@ -2,7 +2,7 @@ export default {
   order: 46,
   slug: 'giris-kontrolu-malzeme-kaynakli-imalat',
   key: 'p46_incoming',
-  date: '2026-11-16',
+  date: '2026-08-19',
   keywords: 'giriş kontrolü, malzeme giriş kontrolü, gelen malzeme muayenesi, sac kalınlık toleransı EN 10029, yüzey kusuru EN 10163, sarf malzeme kontrolü, karantina, izlenebilirlik EN 1090-2, incoming inspection steel, Wareneingangsprüfung Stahl',
   related: ['malzeme-sertifikasi-en-10204-3-1', 'kaynakta-dijital-izlenebilirlik', 'lamellar-yirtilma-z-kalite-celik', 'en-1090-1-fabrika-uretim-kontrolu-fpc'],
   tr: {

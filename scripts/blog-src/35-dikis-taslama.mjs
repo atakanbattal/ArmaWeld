@@ -2,7 +2,7 @@ export default {
   order: 35,
   slug: 'kaynak-dikisi-taslama-ne-zaman-gerekli',
   key: 'p35_grinding',
-  date: '2026-11-16',
+  date: '2026-06-15',
   keywords: 'kaynak dikişi taşlama, kaynak taşlama, dikiş sıfırlama, kaynak ağzı taşlama, yorulma için kaynak ucu taşlama, burr grinding, kaynak yüzey hazırlığı, weld grinding, Schweißnaht schleifen, meulage des soudures',
   related: ['kaynakli-baglantilarda-yorulma-fat-sinifi', 'iso-8501-3-boya-oncesi-kaynak-hazirligi-p1-p2-p3', 'kose-kaynagi-a-olcusu', 'ndt-tahribatsiz-muayene-yontemleri'],
   tr: {

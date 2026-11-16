@@ -2,7 +2,7 @@ export default {
   order: 5,
   slug: 'kaynak-muayene-raporu-nasil-okunur',
   key: 'p05_report',
-  date: '2026-11-16',
+  date: '2025-12-11',
   keywords: 'kaynak muayene raporu, NDT raporu nasıl okunur, VT raporu, UT raporu, kaynak kontrol raporu, weld inspection report, NDT report, Schweißnahtprüfbericht',
   related: ['ndt-tahribatsiz-muayene-yontemleri', 'iso-5817-kalite-seviyeleri', 'kaynak-kalite-kontrol', 'malzeme-sertifikasi-en-10204-3-1'],
   tr: {

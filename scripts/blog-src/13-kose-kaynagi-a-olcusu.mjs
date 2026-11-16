@@ -2,7 +2,7 @@ export default {
   order: 13,
   slug: 'kose-kaynagi-a-olcusu',
   key: 'p13_fillet',
-  date: '2026-11-16',
+  date: '2026-01-29',
   keywords: 'köşe kaynağı a ölçüsü, kaynak a ölçüsü nedir, a ölçüsü z ölçüsü, boğaz kalınlığı, bacak boyu, köşe kaynak hesabı, fillet weld throat thickness, Kehlnahtdicke a-Maß',
   related: ['kaynak-sembolizasyonu', 'iso-5817-kalite-seviyeleri', 'kaynak-distorsiyonu', 'wps-nedir'],
   tr: {

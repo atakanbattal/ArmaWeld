@@ -2,7 +2,7 @@ export default {
   order: 27,
   slug: 'paslanmaz-kaynak-temizleme-daglama-pasivasyon',
   key: 'p27_pickling',
-  date: '2026-11-16',
+  date: '2026-04-27',
   keywords: 'paslanmaz kaynak temizleme, paslanmaz dağlama, pasivasyon, kaynak yanığı temizleme, ısı renkleri, demir kontaminasyonu, ASTM A380, ASTM A967, pickling passivation, Beizen Passivieren Edelstahl, décapage passivation inox',
   related: ['tig-paslanmaz-celik', 'paslanmaz-celik-imalat', 'kaynak-hatalari-onarim', 'iso-12944-korozyon-siniflari-c1-c5-cx'],
   tr: {

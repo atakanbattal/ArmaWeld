@@ -2,7 +2,7 @@ export default {
   order: 7,
   slug: 'iso-17637-kaynak-gozle-muayene',
   key: 'p07_vt',
-  date: '2026-11-16',
+  date: '2025-12-24',
   keywords: 'ISO 17637, kaynak gözle muayene, VT muayenesi, kaynak görsel kontrol, kaynak mastarı, visual testing welds, Sichtprüfung Schweißnaht, ISO 17637 visual inspection',
   related: ['iso-5817-kalite-seviyeleri', 'kaynak-muayene-raporu-nasil-okunur', 'ndt-tahribatsiz-muayene-yontemleri', 'kaynak-hatalari-onarim'],
   tr: {

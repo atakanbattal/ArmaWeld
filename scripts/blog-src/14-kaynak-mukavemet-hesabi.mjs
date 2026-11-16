@@ -2,7 +2,7 @@ export default {
   order: 14,
   slug: 'kaynak-dikisi-mukavemet-hesabi',
   key: 'p14_strength',
-  date: '2026-11-16',
+  date: '2026-02-05',
   keywords: 'kaynak mukavemet hesabı, köşe kaynağı hesabı, EN 1993-1-8 kaynak hesabı, kaynak dikişi dayanımı, basitleştirilmiş yöntem kaynak, fillet weld strength calculation, Schweißnahtberechnung',
   related: ['kose-kaynagi-a-olcusu', 'celik-konstruksiyon-imalat', 'wps-nedir', 'iso-5817-kalite-seviyeleri'],
   tr: {

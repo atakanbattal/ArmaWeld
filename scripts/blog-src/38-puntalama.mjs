@@ -2,7 +2,7 @@ export default {
   order: 38,
   slug: 'puntalama-kaynagi-punta-boyu-araligi',
   key: 'p38_tack',
-  date: '2026-11-16',
+  date: '2026-07-01',
   keywords: 'puntalama, punta kaynağı, punta boyu, punta aralığı, puntalama sırası, geçici bağlantı, köprü punta, EN 1090-2 punta, tack welding, Heftschweißen, pointage soudure',
   related: ['kaynak-distorsiyonu', 'on-isitma-hesaplama', 'kaynak-agzi-hazirligi-iso-9692-1', 'en-1090-exc2-nedir'],
   tr: {

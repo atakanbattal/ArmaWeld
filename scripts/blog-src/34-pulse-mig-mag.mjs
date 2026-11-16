@@ -2,7 +2,7 @@ export default {
   order: 34,
   slug: 'pulse-mig-mag-kaynagi-ark-modlari',
   key: 'p34_pulse',
-  date: '2026-11-16',
+  date: '2026-06-08',
   keywords: 'pulse kaynak, pulse MIG MAG, darbeli ark, sprey ark, kısa devre ark, ark modları, sinerjik kaynak, double pulse, pulse alüminyum kaynağı, pulsed MIG welding, Impulslichtbogen, soudage MIG pulsé',
   related: ['mig-mag-parametreleri', 'koruyucu-gaz-secimi-mig-mag', 'kaynak-isi-girdisi', 'aluminyum-kaynak'],
   tr: {

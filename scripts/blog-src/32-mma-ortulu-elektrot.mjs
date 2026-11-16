@@ -2,7 +2,7 @@ export default {
   order: 32,
   slug: 'ortulu-elektrot-kaynagi-mma-ne-zaman',
   key: 'p32_mma',
-  date: '2026-11-16',
+  date: '2026-05-26',
   keywords: 'örtülü elektrot kaynağı, MMA kaynak, SMAW, elektrik ark kaynağı, 111 kaynak yöntemi, elektrot kaynağı mı gazaltı mı, MMA avantajları, stick welding, Lichtbogenhandschweißen, soudage à l’électrode enrobée',
   related: ['elektrot-cesitleri-rutil-bazik-e7018', 'gazalti-kaynagi-nedir', 'kaynak-cesitleri', 'kaynak-hatalari-onarim'],
   tr: {

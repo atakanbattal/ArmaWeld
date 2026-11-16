@@ -2,7 +2,7 @@ export default {
   order: 21,
   slug: 'iso-8501-3-boya-oncesi-kaynak-hazirligi-p1-p2-p3',
   key: 'p21_iso8501',
-  date: '2026-11-16',
+  date: '2026-03-19',
   keywords: 'ISO 8501-3, P1 P2 P3, boya öncesi kaynak hazırlığı, kenar yuvarlatma, kaynak sıçrantısı, EN 1090-2 hazırlık derecesi, preparation grade, Vorbereitungsgrad, degré de préparation',
   related: ['sicak-daldirma-galvaniz-kaynakli-parca', 'iso-5817-kalite-seviyeleri', 'celik-konstruksiyon-imalat', 'kaynak-hatalari-onarim'],
   tr: {

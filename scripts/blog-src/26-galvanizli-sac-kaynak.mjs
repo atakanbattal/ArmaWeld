@@ -2,7 +2,7 @@ export default {
   order: 26,
   slug: 'galvanizli-sac-kaynagi',
   key: 'p26_galvsheet',
-  date: '2026-11-16',
+  date: '2026-04-20',
   keywords: 'galvanizli sac kaynağı, galvanizli malzeme kaynağı, çinko kaplı sac kaynak, MIG lehim CuSi3, galvaniz onarımı ISO 1461, çinko dumanı, welding galvanized steel, verzinkten Stahl schweißen, soudage acier galvanisé',
   related: ['sicak-daldirma-galvaniz-kaynakli-parca', 'mig-mag-parametreleri', 'kaynak-hatalari-onarim', 'iso-12944-korozyon-siniflari-c1-c5-cx'],
   tr: {

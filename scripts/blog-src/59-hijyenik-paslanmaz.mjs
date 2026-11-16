@@ -2,7 +2,7 @@ export default {
   order: 59,
   slug: 'gida-makinesi-hijyenik-paslanmaz-kaynak',
   key: 'p59_hygienic',
-  date: '2026-11-16',
+  date: '2026-11-09',
   keywords: 'gıda makinesi paslanmaz imalat, hijyenik tasarım kaynak, EHEDG kaynak, EN 1672-2, paslanmaz şase gıda, 316L gıda kaynağı, yüzey pürüzlülüğü Ra 0,8, ölü bölge, gıda temas yüzeyi, hygienic design welding, Edelstahl Lebensmittelmaschine Schweißen',
   related: ['paslanmaz-celik-imalat', 'tig-paslanmaz-celik', 'paslanmaz-kaynak-temizleme-daglama-pasivasyon', 'yeni-makine-yonetmeligi-2023-1230'],
   tr: {

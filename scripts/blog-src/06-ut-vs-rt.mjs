@@ -2,7 +2,7 @@ export default {
   order: 6,
   slug: 'ultrasonik-muayene-mi-radyografi-mi',
   key: 'p06_utrt',
-  date: '2026-11-16',
+  date: '2025-12-18',
   keywords: 'ultrasonik muayene mi radyografi mi, UT RT farkı, kaynak ultrasonik test, radyografik muayene kaynak, PAUT, TOFD, UT vs RT welding, Ultraschall oder Durchstrahlung',
   related: ['ndt-tahribatsiz-muayene-yontemleri', 'kaynak-muayene-raporu-nasil-okunur', 'iso-5817-kalite-seviyeleri', 'kaynak-hatalari-onarim'],
   tr: {

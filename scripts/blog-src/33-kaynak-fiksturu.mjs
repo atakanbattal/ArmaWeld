@@ -2,7 +2,7 @@ export default {
   order: 33,
   slug: 'kaynak-fiksturu-tasarimi-seri-uretim',
   key: 'p33_fixture',
-  date: '2026-11-16',
+  date: '2026-06-01',
   keywords: 'kaynak fikstürü, kaynak aparatı, fikstür tasarımı, 3-2-1 prensibi, modüler kaynak masası, seri kaynaklı üretim, kaynak kalıbı, welding fixture, Schweißvorrichtung, gabarit de soudage',
   related: ['kaynak-distorsiyonu', 'iso-13920-kaynakli-imalat-tolerans-tablosu', 'ilk-parca-onayi-kaynakli-imalat', 'boyutsal-tolerans'],
   tr: {

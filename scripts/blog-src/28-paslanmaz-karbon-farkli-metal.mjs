@@ -2,7 +2,7 @@ export default {
   order: 28,
   slug: 'paslanmaz-karbon-celik-kaynagi-309l',
   key: 'p28_dissimilar',
-  date: '2026-11-16',
+  date: '2026-05-01',
   keywords: 'paslanmaz karbon çelik kaynağı, farklı metal kaynağı, 309L tel, 309LMo, Schaeffler diyagramı, seyrelme, tampon kaynak, galvanik korozyon, dissimilar metal welding stainless carbon steel, Schwarz-Weiß-Verbindung',
   related: ['tig-paslanmaz-celik', 'paslanmaz-kaynak-temizleme-daglama-pasivasyon', 'on-isitma-hesaplama', 'paslanmaz-celik-imalat'],
   tr: {

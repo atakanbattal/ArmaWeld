@@ -2,7 +2,7 @@ export default {
   order: 31,
   slug: 'elektrot-cesitleri-rutil-bazik-e7018',
   key: 'p31_electrode',
-  date: '2026-11-16',
+  date: '2026-05-20',
   keywords: 'elektrot çeşitleri, kaynak elektrodu, rutil elektrot, bazik elektrot, E7018, E6013, selülozik elektrot, ISO 2560, elektrot sınıflandırması, H5, electrode types, Stabelektroden Arten, électrodes enrobées',
   related: ['kaynak-cesitleri', 'on-isitma-hesaplama', 'kaynak-pozisyonlari', 'kaynakci-sertifikasi-en-iso-9606-1'],
   tr: {

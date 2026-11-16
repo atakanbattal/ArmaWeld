@@ -2,7 +2,7 @@ export default {
   order: 48,
   slug: 'nearshoring-kaynakli-imalat-turkiye',
   key: 'p48_nearshoring',
-  date: '2026-11-16',
+  date: '2026-09-01',
   keywords: 'nearshoring Türkiye, yakın tedarik, Asya yerine Türkiye, kaynaklı imalat Türkiye Avrupa, tedarik zinciri riski, toplam tedarik maliyeti, TCO, nearshoring welding Turkey, Nearshoring Türkei Schweißteile, Lieferkette Türkei',
   related: ['kaynakli-parca-tedarik-turkiye-dogu-avrupa', 'almanya-kaynakli-parca-tedarik-beklentiler', 'atr-dolasim-belgesi-eur1-mense-kaynakli-parca', 'cbam-celik-ihracat-kaynakli-imalat'],
   tr: {

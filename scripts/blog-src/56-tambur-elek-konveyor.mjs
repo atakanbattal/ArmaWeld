@@ -2,7 +2,7 @@ export default {
   order: 56,
   slug: 'tambur-elek-konveyor-kaynakli-imalat',
   key: 'p56_trommel',
-  date: '2026-11-16',
+  date: '2026-10-19',
   keywords: 'tambur elek imalatı, döner elek kaynak, trommel elek, konveyör şasisi imalatı, bant konveyör konstrüksiyon, helezon konveyör imalatı, kovalı elevatör gövdesi, tambur yuvarlaklık, salgı toleransı, trommel screen fabrication, Trommelsieb Schweißen, Förderband Gestell',
   related: ['madencilik-ekipman-kaynak', 'hardox-kaynak', 'kaynakli-baglantilarda-yorulma-fat-sinifi', 'kaynak-sonrasi-talasli-isleme'],
   tr: {

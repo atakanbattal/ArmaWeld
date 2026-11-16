@@ -1942,5 +1942,23 @@
     "it": "Export · Sostenibilità",
     "nl": "Export · Duurzaamheid",
     "no": "Eksport · Bærekraft"
+  },
+  "Satın Alma · Tedarik": {
+    "en": "Purchasing · Sourcing",
+    "de": "Einkauf · Beschaffung",
+    "es": "Compras · Aprovisionamiento",
+    "fr": "Achats · Approvisionnement",
+    "it": "Acquisti · Approvvigionamento",
+    "nl": "Inkoop · Sourcing",
+    "no": "Innkjøp · Sourcing"
+  },
+  "Satın Alma · Maliyet": {
+    "en": "Purchasing · Cost",
+    "de": "Einkauf · Kosten",
+    "es": "Compras · Costes",
+    "fr": "Achats · Coûts",
+    "it": "Acquisti · Costi",
+    "nl": "Inkoop · Kosten",
+    "no": "Innkjøp · Kostnad"
   }
 }

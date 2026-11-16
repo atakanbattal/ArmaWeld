@@ -2,7 +2,7 @@ export default {
   order: 20,
   slug: 'lamellar-yirtilma-z-kalite-celik',
   key: 'p20_lamellar',
-  date: '2026-11-16',
+  date: '2026-03-13',
   keywords: 'lamellar yırtılma, Z kalite çelik, Z15 Z25 Z35, EN 10164, kalınlık yönü özellikleri, lamellar tearing, through-thickness properties, Terrassenbruch, Z-Güte',
   related: ['on-isitma-hesaplama', 'malzeme-sertifikasi-en-10204-3-1', 'kaynak-agzi-hazirligi-iso-9692-1', 'kaynak-hatalari-onarim'],
   tr: {

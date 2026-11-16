@@ -2,7 +2,7 @@ export default {
   order: 50,
   slug: 'tersine-muhendislik-kaynakli-parca',
   key: 'p50_reverse',
-  date: '2026-11-16',
+  date: '2026-09-14',
   keywords: 'tersine mühendislik, numuneden imalat, çizimi olmayan parça, yedek parça imalatı, kaynaklı parça tersine mühendislik, ölçü alma, malzeme tespiti, sertlik ölçümü, reverse engineering welded parts, Reverse Engineering Schweißteil, Nachbau Ersatzteil',
   related: ['ilk-parca-onayi-kaynakli-imalat', 'boyutsal-tolerans', 'kaynak-agzi-hazirligi-iso-9692-1', 'malzeme-sertifikasi-en-10204-3-1'],
   tr: {

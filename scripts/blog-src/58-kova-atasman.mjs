@@ -2,7 +2,7 @@ export default {
   order: 58,
   slug: 'is-makinesi-kova-atasman-imalati',
   key: 'p58_bucket',
-  date: '2026-11-16',
+  date: '2026-11-02',
   keywords: 'ekskavatör kovası imalatı, iş makinesi kova kaynağı, kova imalatı, ataşman imalatı, kırıcı konsolu, quick coupler kaynak, kova bıçağı kaynağı, burç yuvası işleme, aşınma plakası kova, excavator bucket fabrication, Baggerlöffel Schweißen, Anbaugeräte Fertigung',
   related: ['hardox-kaynak', 'madencilik-ekipman-kaynak', 'kaynakli-baglantilarda-yorulma-fat-sinifi', 'kaynak-sonrasi-talasli-isleme'],
   tr: {

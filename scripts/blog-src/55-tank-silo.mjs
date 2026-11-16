@@ -2,7 +2,7 @@ export default {
   order: 55,
   slug: 'atmosferik-tank-silo-imalati',
   key: 'p55_tank',
-  date: '2026-11-16',
+  date: '2026-10-13',
   keywords: 'atmosferik tank imalatı, depolama tankı kaynak, silo imalatı, çelik silo kaynak, EN 14015, EN 12285-2, API 650, EN 1993-4-1, sızdırmazlık testi, vakum kutusu testi, hidrostatik dolum testi, storage tank fabrication, Lagertank Schweißen, Silo Stahlbau',
   related: ['basincli-kap-imalati', 'paslanmaz-celik-imalat', 'iso-12944-korozyon-siniflari-c1-c5-cx', 'kaynak-kalite-kontrol'],
   tr: {

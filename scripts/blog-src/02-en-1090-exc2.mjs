@@ -2,7 +2,7 @@ export default {
   order: 2,
   slug: 'en-1090-exc2-nedir',
   key: 'p02_exc2',
-  date: '2026-11-16',
+  date: '2025-11-24',
   keywords: 'EN 1090 EXC2, EXC2 nedir, EXC2 EXC3 farkı, EN 1090-2 uygulama sınıfı, execution class 2, Ausführungsklasse EXC2',
   related: ['en-1090-exc3-nedir', 'iso-5817-kalite-seviyeleri', 'en-iso-3834-2', 'ce-isaretleme-kaynak'],
   tr: {

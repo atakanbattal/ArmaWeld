@@ -2,7 +2,7 @@ export default {
   order: 10,
   slug: 'kaynakli-imalat-data-book-mdr',
   key: 'p10_databook',
-  date: '2026-11-16',
+  date: '2026-01-12',
   keywords: 'data book nedir, MDR manufacturing data record, imalat dosyası, kaynaklı imalat teslim dosyası, kalite dosyası, Dokumentation Schweißen Data Book, final documentation welding',
   related: ['itp-muayene-ve-test-plani', 'malzeme-sertifikasi-en-10204-3-1', 'kaynak-muayene-raporu-nasil-okunur', 'kaynakta-dijital-izlenebilirlik'],
   tr: {

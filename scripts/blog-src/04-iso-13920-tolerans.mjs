@@ -2,7 +2,7 @@ export default {
   order: 4,
   slug: 'iso-13920-kaynakli-imalat-tolerans-tablosu',
   key: 'p04_iso13920',
-  date: '2026-11-16',
+  date: '2025-12-05',
   keywords: 'ISO 13920, kaynaklı imalat tolerans tablosu, kaynaklı imalat toleransları, ISO 13920 BF, genel toleranslar kaynak, Allgemeintoleranzen Schweißkonstruktionen, welded construction tolerances',
   related: ['boyutsal-tolerans', 'kaynak-distorsiyonu', 'iso-5817-kalite-seviyeleri', 'ilk-parca-onayi-kaynakli-imalat'],
   tr: {

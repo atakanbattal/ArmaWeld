@@ -2,7 +2,7 @@ export default {
   order: 30,
   slug: 'kaynak-teli-cesitleri-g3si1-g4si1',
   key: 'p30_wire',
-  date: '2026-11-16',
+  date: '2026-05-13',
   keywords: 'kaynak teli çeşitleri, gazaltı kaynak teli, SG2 SG3, G3Si1, G4Si1, ER70S-6, ISO 14341, özlü tel, paslanmaz kaynak teli, alüminyum kaynak teli, tozaltı teli, welding wire types, Schweißdraht Arten, fil de soudure',
   related: ['mig-mag-parametreleri', 'fcaw-ozlu-tel', 'koruyucu-gaz-secimi-mig-mag', 'saw-tozalti-kaynagi'],
   tr: {

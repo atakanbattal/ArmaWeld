@@ -2,7 +2,7 @@ export default {
   order: 29,
   slug: 'dupleks-paslanmaz-kaynagi-2205',
   key: 'p29_duplex',
-  date: '2026-11-16',
+  date: '2026-05-07',
   keywords: 'dupleks paslanmaz kaynağı, 2205 kaynak, 1.4462, süper dupleks, ferrit oranı, 2209 tel, sigma fazı, ısı girdisi, duplex stainless welding, Duplex schweißen, soudage duplex',
   related: ['tig-paslanmaz-celik', 'paslanmaz-kaynak-temizleme-daglama-pasivasyon', 'paslanmaz-karbon-celik-kaynagi-309l', 'paslanmaz-celik-imalat'],
   tr: {

@@ -2,7 +2,7 @@ export default {
   order: 37,
   slug: 'alevle-dogrultma-kaynak-carpilmasi',
   key: 'p37_flame',
-  date: '2026-11-16',
+  date: '2026-06-25',
   keywords: 'alevle doğrultma, kaynak çarpılması düzeltme, ısıl doğrultma, kama ısıtma, nokta ısıtma, çizgi ısıtma, doğrultma sıcaklığı, flame straightening, Flammrichten, dressage à la flamme',
   related: ['kaynak-distorsiyonu', 's355jr-s355j2-s355k2-s355nl-farki', 'iso-13920-kaynakli-imalat-tolerans-tablosu', 'boyutsal-tolerans'],
   tr: {

@@ -2,7 +2,7 @@ export default {
   order: 9,
   slug: 'itp-muayene-ve-test-plani',
   key: 'p09_itp',
-  date: '2026-11-16',
+  date: '2026-01-05',
   keywords: 'ITP nedir, muayene ve test planı, inspection and test plan, hold point witness point, kaynaklı imalat ITP, Prüfplan Schweißen, ITP welding fabrication',
   related: ['kaynak-kalite-kontrol', 'kaynak-muayene-raporu-nasil-okunur', 'ilk-parca-onayi-kaynakli-imalat', 'kaynakli-imalat-tedarikci-denetimi'],
   tr: {

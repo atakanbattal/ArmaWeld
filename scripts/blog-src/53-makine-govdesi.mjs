@@ -2,7 +2,7 @@ export default {
   order: 53,
   slug: 'kaynakli-makine-govdesi-imalati',
   key: 'p53_machinebase',
-  date: '2026-11-16',
+  date: '2026-10-01',
   keywords: 'kaynaklı makine gövdesi, makine şasesi imalatı, kaynaklı makine tabanı, döküm yerine kaynaklı gövde, makine gövdesi rijitlik, titreşim sönümleme, nervür tasarımı, makine tabanı düzlemsellik, welded machine base, geschweißtes Maschinenbett, Schweißkonstruktion statt Guss',
   related: ['kaynakli-mi-civatali-mi-birlestirme', 'kaynak-distorsiyonu', 'iso-13920-kaynakli-imalat-tolerans-tablosu', 'boyutsal-tolerans'],
   tr: {
