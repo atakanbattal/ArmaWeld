@@ -1618,5 +1618,41 @@
     "it": "Materiali · Qualità di acciaio",
     "nl": "Materialen · Staalkwaliteiten",
     "no": "Materialer · Stålkvaliteter"
+  },
+  "Malzeme · Corten": {
+    "en": "Materials · Weathering Steel",
+    "de": "Werkstoffe · Wetterfester Stahl",
+    "es": "Materiales · Acero patinable",
+    "fr": "Matériaux · Acier autopatinable",
+    "it": "Materiali · Acciaio patinabile",
+    "nl": "Materialen · Weervast staal",
+    "no": "Materialer · Værbestandig stål"
+  },
+  "Kaynak Uygulaması · Galvaniz": {
+    "en": "Welding Practice · Galvanizing",
+    "de": "Schweißpraxis · Verzinkung",
+    "es": "Práctica de soldadura · Galvanizado",
+    "fr": "Pratique du soudage · Galvanisation",
+    "it": "Pratica di saldatura · Zincatura",
+    "nl": "Laspraktijk · Verzinken",
+    "no": "Sveisepraksis · Forsinking"
+  },
+  "Paslanmaz Çelik · Yüzey": {
+    "en": "Stainless Steel · Surface",
+    "de": "Edelstahl · Oberfläche",
+    "es": "Acero inoxidable · Superficie",
+    "fr": "Acier inoxydable · Surface",
+    "it": "Acciaio inox · Superficie",
+    "nl": "Roestvast staal · Oppervlak",
+    "no": "Rustfritt stål · Overflate"
+  },
+  "Farklı Metal Kaynağı": {
+    "en": "Dissimilar Metal Welding",
+    "de": "Mischverbindungen",
+    "es": "Soldadura de metales distintos",
+    "fr": "Soudage hétérogène",
+    "it": "Saldatura eterogenea",
+    "nl": "Ongelijksoortige verbindingen",
+    "no": "Sveising av ulike metaller"
   }
 }
