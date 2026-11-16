@@ -1654,5 +1654,41 @@
     "it": "Saldatura eterogenea",
     "nl": "Ongelijksoortige verbindingen",
     "no": "Sveising av ulike metaller"
+  },
+  "Paslanmaz Çelik · Dupleks": {
+    "en": "Stainless Steel · Duplex",
+    "de": "Edelstahl · Duplex",
+    "es": "Acero inoxidable · Dúplex",
+    "fr": "Acier inoxydable · Duplex",
+    "it": "Acciaio inox · Duplex",
+    "nl": "Roestvast staal · Duplex",
+    "no": "Rustfritt stål · Dupleks"
+  },
+  "Sarf Malzeme · MIG/MAG": {
+    "en": "Consumables · MIG/MAG",
+    "de": "Zusatzwerkstoffe · MSG",
+    "es": "Consumibles · MIG/MAG",
+    "fr": "Consommables · MIG/MAG",
+    "it": "Consumabili · MIG/MAG",
+    "nl": "Toevoegmaterialen · MIG/MAG",
+    "no": "Tilsettmaterialer · MIG/MAG"
+  },
+  "Sarf Malzeme · Elektrot": {
+    "en": "Consumables · Electrodes",
+    "de": "Zusatzwerkstoffe · Elektroden",
+    "es": "Consumibles · Electrodos",
+    "fr": "Consommables · Électrodes",
+    "it": "Consumabili · Elettrodi",
+    "nl": "Toevoegmaterialen · Elektroden",
+    "no": "Tilsettmaterialer · Elektroder"
+  },
+  "Kaynak Yöntemleri · MMA": {
+    "en": "Welding Processes · MMA",
+    "de": "Schweißverfahren · E-Hand",
+    "es": "Procesos de soldadura · MMA",
+    "fr": "Procédés de soudage · MMA",
+    "it": "Processi di saldatura · MMA",
+    "nl": "Lasprocessen · Elektrodelassen",
+    "no": "Sveisemetoder · Elektrodesveising"
   }
 }
