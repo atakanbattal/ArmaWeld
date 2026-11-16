@@ -2077,5 +2077,41 @@
     "it": "Guida prodotto · Oleodinamica",
     "nl": "Productgids · Hydrauliek",
     "no": "Produktguide · Hydraulikk"
+  },
+  "Ürün Rehberi · Pres": {
+    "en": "Product Guide · Presses",
+    "de": "Produktleitfaden · Pressen",
+    "es": "Guía de producto · Prensas",
+    "fr": "Guide produit · Presses",
+    "it": "Guida prodotto · Presse",
+    "nl": "Productgids · Persen",
+    "no": "Produktguide · Presser"
+  },
+  "Sektör Rehberi · Enerji": {
+    "en": "Industry Guide · Energy",
+    "de": "Branchenleitfaden · Energie",
+    "es": "Guía sectorial · Energía",
+    "fr": "Guide sectoriel · Énergie",
+    "it": "Guida di settore · Energia",
+    "nl": "Sectorgids · Energie",
+    "no": "Bransjeguide · Energi"
+  },
+  "Ürün Rehberi · Tesis Projeleri": {
+    "en": "Product Guide · Plant Projects",
+    "de": "Produktleitfaden · Anlagenbau",
+    "es": "Guía de producto · Proyectos de planta",
+    "fr": "Guide produit · Projets industriels",
+    "it": "Guida prodotto · Impiantistica",
+    "nl": "Productgids · Installatieprojecten",
+    "no": "Produktguide · Anleggsprosjekter"
+  },
+  "Ürün Rehberi · Boru": {
+    "en": "Product Guide · Piping",
+    "de": "Produktleitfaden · Rohrleitungsbau",
+    "es": "Guía de producto · Tubería",
+    "fr": "Guide produit · Tuyauterie",
+    "it": "Guida prodotto · Tubazioni",
+    "nl": "Productgids · Leidingwerk",
+    "no": "Produktguide · Rør"
   }
 }
