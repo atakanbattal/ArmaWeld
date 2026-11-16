@@ -1,0 +1,285 @@
+<!DOCTYPE html><html lang="en" data-aw-page-lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reverse Engineering Welded Parts: Making a Part Correctly Without a Drawing | ArmaWeld</title>
+  <meta name="description" content="How do you remake an old, worn or broken welded part that has no drawing? Measuring methods, material and hardness identification, analysing the welds, what cannot be recovered, intellectual property, the drawing package and first article verification.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="tersine-muhendislik-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Reverse Engineering Welded Parts: Making a Part Correctly Without a Drawing | ArmaWeld">
+  <meta property="og:description" content="How do you remake an old, worn or broken welded part that has no drawing? Measuring methods, material and hardness identification, analysing the welds, what cannot be recovered, intellectual property, the drawing package and first article verification.">
+  <meta property="og:url" content="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Engineering · Spare parts">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reverse Engineering Welded Parts: Making a Part Correctly Without a Drawing",
+  "description": "How do you remake an old, worn or broken welded part that has no drawing? Measuring methods, material and hardness identification, analysing the welds, what cannot be recovered, intellectual property, the drawing package and first article verification.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html",
+  "inLanguage": "en",
+  "articleSection": "Engineering · Spare parts",
+  "keywords": "tersine mühendislik, numuneden imalat, çizimi olmayan parça, yedek parça imalatı, kaynaklı parça tersine mühendislik, ölçü alma, malzeme tespiti, sertlik ölçümü, reverse engineering welded parts, Reverse Engineering Schweißteil, Nachbau Ersatzteil"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/en/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Reverse Engineering Welded Parts: Making a Part Correctly Without a Drawing",
+      "item": "https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p50_reverse_breadcrumb3">Reverse engineering</span></div>
+    <div class="article-tag" data-i18n="blog_p50_reverse_tag">Engineering · Spare parts</div>
+    <h1 data-i18n="blog_p50_reverse_h1">Reverse Engineering Welded Parts: Making a Part Correctly Without a Drawing</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p50_reverse_read">7 min read</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p50_reverse_body"><p>The frame of an old machine has cracked, its manufacturer no longer exists and you have no drawing. Or you want a second source for a load-bearing part used for years, but the drawing is out of date. The answer is reverse engineering: creating a manufacturable technical package from the existing part.</p>
+<h2>When Is It Needed?</h2>
+<ul>
+<li>Spare parts for machines whose maker has closed or ended support,</li>
+<li>Parts whose drawing is lost or that were heavily modified in the field,</li>
+<li>An improved version of a part with recurring failures,</li>
+<li>Turning paper drawings into digital, manufacturable ones.</li>
+</ul>
+<h2>Intellectual Property</h2>
+<p>Before starting, make sure you have the right to reproduce the part. Spare parts for your own machine are usually fine; if there is design protection or a contractual restriction, get legal advice. The fabricator may ask for a written statement from the customer.</p>
+<h2>1. Measuring</h2>
+<table>
+<thead><tr><th>Method</th><th>Suits</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Hand tools (tape, calliper, protractor)</td><td>Simple, prismatic parts</td><td>Cheap and fast, limited for complex shapes</td></tr>
+<tr><td>Measuring from datums and gauges</td><td>Hole axes, interface points</td><td>Critical dimensions for assembly function</td></tr>
+<tr><td>3D scanning</td><td>Complex, curved or large parts</td><td>Usually done with a specialist partner</td></tr>
+<tr><td>Measuring the mating part</td><td>When the host machine is available</td><td>Gives real assembly dimensions</td></tr>
+</tbody>
+</table>
+<p>The key is to separate the part as it is today from the part as designed. A used part may be worn, distorted or repaired in the field. A measured value is not always the design value.</p>
+<h2>2. Identifying the Material</h2>
+<ul>
+<li><strong>Chemical analysis (spectrometer / PMI):</strong> helps identify the steel grade; usually done by an accredited lab or a partner with a mobile device.</li>
+<li><strong>Hardness testing:</strong> gives an idea of strength class and heat treatment.</li>
+<li><strong>Thickness measurement:</strong> ultrasonic thickness testing on corroded parts.</li>
+</ul>
+<p>Chemical analysis gives an approximate structural steel grade, but impact toughness (such as J2 or K2) cannot be determined from analysis. So the new part’s material should be chosen deliberately for the application (see <a href="s355jr-s355j2-s355k2-s355nl-farki.html">S355 sub-grades</a>).</p>
+<h2>3. Analysing the Welds</h2>
+<ul>
+<li>Weld type and size (fillet throat a, full or partial penetration for butt welds),</li>
+<li>Joint preparation (from cross-sections or edge marks),</li>
+<li>Traces of the welding process (slag, spatter, bead appearance),</li>
+<li>A macro section from a scrapped sample if needed.</li>
+</ul>
+<p>Full penetration cannot always be seen from outside. For a load-bearing joint, if in doubt, designing for full penetration and choosing the WPS accordingly keeps you on the safe side.</p>
+<h2>4. What Cannot Be Recovered</h2>
+<p>Reverse engineering cannot bring everything back. These are usually unknown or need assumptions:</p>
+<ul>
+<li>Original tolerances and which dimensions are functional,</li>
+<li>Original design loads and safety factors,</li>
+<li>Any stress-relief heat treatment applied,</li>
+<li>Original inspection scope and quality level.</li>
+</ul>
+<p>These assumptions must be written into the drawing and quote and approved by the customer.</p>
+<h2>5. A Chance to Improve</h2>
+<p>If the part keeps cracking in the same place, an exact copy will fail the same way. Reverse engineering is a good chance to move weld toes away from high-stress zones, soften sharp corners or upgrade the material grade (see <a href="kaynakli-baglantilarda-yorulma-fat-sinifi.html">fatigue in welded joints</a>).</p>
+<h2>6. Technical Package</h2>
+<ul>
+<li>Dimensioned production drawing with weld symbols,</li>
+<li>Bill of materials and material grades,</li>
+<li>3D model where needed,</li>
+<li>Welding and inspection requirements,</li>
+<li>List of assumptions.</li>
+</ul>
+<h2>7. Verification</h2>
+<p>The first part is made with a dimensional report and, where possible, fitted to the machine for a function test. After approval the drawing revision is frozen and later production follows that revision (see <a href="ilk-parca-onayi-kaynakli-imalat.html">first article approval</a>).</p>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we measure from your sample part, prepare a production drawing and agree weld details and material with you. Where needed, 3D scanning and material analysis are done through our partners. <a href="../muhendislik.html">Our engineering support →</a></p></div></div>
+
+<div data-i18n-html="blog_p50_reverse_faq"><h2>Frequently Asked Questions</h2><div class="faq-item"><h3>Can a part without a drawing be made?</h3><p>Yes. The existing part is measured, material and welds are analysed, a production drawing is prepared and verified with a first article.</p></div><div class="faq-item"><h3>How is the material grade found?</h3><p>Chemical analysis and hardness give an indication, but properties like impact toughness cannot be determined, so the new material is chosen for the application.</p></div><div class="faq-item"><h3>Are measurements from a worn part accurate?</h3><p>Not always. Wear, distortion and field repairs must be considered; measure the mating part where possible.</p></div><div class="faq-item"><h3>Is copying the part legal?</h3><p>Spare parts for your own machine are usually fine; get legal advice if there is design protection or a contractual restriction.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p50_reverse_cta_h3">Only have a sample part?</h3>
+      <p data-i18n="blog_p50_reverse_cta_p">Send photos and usage details; we will outline a route to reverse engineering and fabrication.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p50_reverse_cta_btn">Send Details →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Related articles">
+      <h2 data-i18n="blog_related_h">Related Articles</h2>
+      <ul>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">What Is First Article Inspection (FAI)? What to Check on Welded Parts Before Series Production</a></li>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Dimensional Tolerances in Structural Steel Fabrication: EN ISO 13920 Guide</a></li>
+        <li><a href="kaynak-agzi-hazirligi-iso-9692-1.html" data-i18n="blog_p15_groove_h1">Weld Joint Preparation: V, X, U and Bevel Grooves to ISO 9692-1</a></li>
+        <li><a href="malzeme-sertifikasi-en-10204-3-1.html" data-i18n="blog_n28_cert_h1">What Is a 3.1 Material Certificate? EN 10204 2.2, 3.1 and 3.2 Explained</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Back to Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
