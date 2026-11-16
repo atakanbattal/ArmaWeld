@@ -2050,5 +2050,32 @@
     "it": "Guida prodotto · Sollevamento",
     "nl": "Productgids · Hijsen",
     "no": "Produktguide · Løfteutstyr"
+  },
+  "Ürün Rehberi · Malzeme Taşıma": {
+    "en": "Product Guide · Material Handling",
+    "de": "Produktleitfaden · Fördertechnik",
+    "es": "Guía de producto · Manutención",
+    "fr": "Guide produit · Manutention",
+    "it": "Guida prodotto · Movimentazione",
+    "nl": "Productgids · Intern transport",
+    "no": "Produktguide · Materialhåndtering"
+  },
+  "Ürün Rehberi · Modüler Yapılar": {
+    "en": "Product Guide · Modular Structures",
+    "de": "Produktleitfaden · Modulbau",
+    "es": "Guía de producto · Construcción modular",
+    "fr": "Guide produit · Construction modulaire",
+    "it": "Guida prodotto · Strutture modulari",
+    "nl": "Productgids · Modulaire bouw",
+    "no": "Produktguide · Modulbygg"
+  },
+  "Ürün Rehberi · Hidrolik": {
+    "en": "Product Guide · Hydraulics",
+    "de": "Produktleitfaden · Hydraulik",
+    "es": "Guía de producto · Hidráulica",
+    "fr": "Guide produit · Hydraulique",
+    "it": "Guida prodotto · Oleodinamica",
+    "nl": "Productgids · Hydrauliek",
+    "no": "Produktguide · Hydraulikk"
   }
 }
