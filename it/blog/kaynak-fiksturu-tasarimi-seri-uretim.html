@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="it" data-aw-page-lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maschere di saldatura: principi di progettazione per quote ripetibili in serie | ArmaWeld</title>
+  <meta name="description" content="A cosa serve una maschera di saldatura e quando si ripaga? Principio di posizionamento 3-2-1, spine e battute, morsetti, banchi modulari, compensazione del ritiro e validazione con il primo pezzo.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-fiksturu-tasarimi-seri-uretim">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Maschere di saldatura: principi di progettazione per quote ripetibili in serie | ArmaWeld">
+  <meta property="og:description" content="A cosa serve una maschera di saldatura e quando si ripaga? Principio di posizionamento 3-2-1, spine e battute, morsetti, banchi modulari, compensazione del ritiro e validazione con il primo pezzo.">
+  <meta property="og:url" content="https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Produzione · Maschere">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Maschere di saldatura: principi di progettazione per quote ripetibili in serie",
+  "description": "A cosa serve una maschera di saldatura e quando si ripaga? Principio di posizionamento 3-2-1, spine e battute, morsetti, banchi modulari, compensazione del ritiro e validazione con il primo pezzo.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html"
+  },
+  "url": "https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html",
+  "inLanguage": "it",
+  "articleSection": "Produzione · Maschere",
+  "keywords": "kaynak fikstürü, kaynak aparatı, fikstür tasarımı, 3-2-1 prensibi, modüler kaynak masası, seri kaynaklı üretim, kaynak kalıbı, welding fixture, Schweißvorrichtung, gabarit de soudage"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/it/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Maschere di saldatura: principi di progettazione per quote ripetibili in serie",
+      "item": "https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p33_fixture_breadcrumb3">Maschere di saldatura</span></div>
+    <div class="article-tag" data-i18n="blog_p33_fixture_tag">Produzione · Maschere</div>
+    <h1 data-i18n="blog_p33_fixture_h1">Maschere di saldatura: principi di progettazione per quote ripetibili in serie</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p33_fixture_read">6 min di lettura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p33_fixture_body"><p>Una maschera di saldatura tiene i pezzi nella posizione corretta prima e durante la saldatura. Per un pezzo singolo si può lavorare con metro, squadra e morsetti; ma se lo stesso pezzo va prodotto decine o centinaia di volte, solo una buona maschera assicura che le quote escano uguali ogni volta. È uno degli strumenti più efficaci per ripetibilità, velocità e controllo delle deformazioni.</p>
+<h2>Quando si ripaga una maschera?</h2>
+<ul>
+<li><strong>Quantità:</strong> ordini ripetuti e serie.</li>
+<li><strong>Tolleranza:</strong> quando quote critiche come assi dei fori, punti di attacco o superfici di montaggio sono strette.</li>
+<li><strong>Complessità:</strong> assiemi con molti pezzi posizionati tra loro.</li>
+<li><strong>Lavorazioni successive:</strong> quando lavorazione meccanica o montaggio dipendono dalle quote del pezzo saldato.</li>
+</ul>
+<p>Un semplice calcolo dà un’idea: se la maschera fa risparmiare 6 minuti di misura e allineamento a pezzo, su 500 pezzi sono circa 50 ore. Il costo della maschera si confronta con questo risparmio e con il minor rischio di scarti.</p>
+<h2>Principio base: posizionamento 3-2-1</h2>
+<p>La posizione di un pezzo nello spazio è definita da sei gradi di libertà. Con il principio 3-2-1 il pezzo poggia su tre punti della superficie di riferimento primaria, due della secondaria e uno della terziaria. Così è posizionato completamente senza iperstaticità. I punti di riferimento si scelgono il più possibile coincidenti con i riferimenti del disegno, così ciò che la maschera tiene coincide con ciò che il disegno misura.</p>
+<h2>Elementi della maschera</h2>
+<ul>
+<li><strong>Battute e spine:</strong> definiscono la posizione. Per pezzi forati, una spina cilindrica e una a rombo evitano l’iperstaticità.</li>
+<li><strong>Morsetti:</strong> a leva (toggle), a vite o pneumatici premono il pezzo contro le battute. La forza deve agire sulle battute per non deformare il pezzo.</li>
+<li><strong>Base:</strong> un telaio d’acciaio rigido o un banco di saldatura modulare forato.</li>
+<li><strong>Supporti al rovescio in rame o ceramica:</strong> per sostenere e formare la radice.</li>
+<li><strong>Massa:</strong> un collegamento di massa definito perché la corrente non passi per morsetti e spine.</li>
+</ul>
+<h2>Banchi di saldatura modulari</h2>
+<p>I banchi modulari con griglia di fori permettono di montare rapidamente una maschera inserendo squadre, battute e morsetti nei fori del sistema. Prototipi e piccole serie ottengono un allestimento ripetibile senza maschera dedicata; fotografato e registrato, può essere rimontato al prossimo ordine. Per grandi serie una maschera dedicata è di solito più rapida.</p>
+<h2>Aspetti specifici delle maschere di saldatura</h2>
+<ul>
+<li><strong>Compensazione del ritiro:</strong> le saldature ritirano raffreddandosi. La maschera può tenere il pezzo con un contro-angolo o una pre-deformazione perché arrivi alla quota nominale dopo la saldatura. I valori si definiscono misurando i primi pezzi (vedi <a href="kaynak-distorsiyonu.html">deformazioni da saldatura</a>).</li>
+<li><strong>Accessibilità:</strong> la torcia deve raggiungere ogni cordone con l’angolo giusto; gli elementi non devono coprire la zona di saldatura.</li>
+<li><strong>Spruzzi e calore:</strong> spine e battute protette dagli spruzzi o facili da pulire; gli elementi vicini al cordone devono tenere conto della dilatazione.</li>
+<li><strong>Estrazione del pezzo:</strong> ritirando, il pezzo può bloccarsi sulle spine. Prevedere spine estraibili o gioco sufficiente.</li>
+<li><strong>Puntare e togliere o saldare tutto in maschera?</strong> In alcuni lavori il pezzo si punta in maschera e si completa su un posizionatore; in altri si salda tutto in maschera. Dipende da deformazioni e accesso.</li>
+</ul>
+<h2>Validazione della maschera</h2>
+<p>I primi pezzi di una nuova maschera vengono misurati completamente e confrontati con la tolleranza richiesta (per esempio classi <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a> o tolleranze a disegno). La maschera è considerata pronta con l’approvazione del primo pezzo (vedi <a href="ilk-parca-onayi-kaynakli-imalat.html">ispezione del primo pezzo</a>). Durante la serie si prendono misure di controllo a intervalli e si sostituiscono spine e battute usurate.</p>
+<h2>Di chi è la maschera?</h2>
+<p>Per le maschere dedicate, costo e proprietà vanno indicati chiaramente in offerta e contratto: voce separata o ripartita sul prezzo del pezzo, chi la tiene a fine ordine e per quanto tempo viene conservata? Concordarlo all’inizio evita sorprese negli ordini successivi.</p>
+<div class="callout"><p><strong>In ArmaWeld:</strong> su serie e pezzi ripetitivi valutiamo la necessità di una maschera già in offerta e ne indichiamo chiaramente costo e proprietà. I primi pezzi di un nuovo allestimento vengono misurati e registrati. <a href="../cizime-gore-imalat.html">Produzione su disegno →</a></p></div></div>
+
+<div data-i18n-html="blog_p33_fixture_faq"><h2>Domande frequenti</h2><div class="faq-item"><h3>Cos’è una maschera di saldatura?</h3><p>Un’attrezzatura che tiene i pezzi in posizione prima e durante la saldatura. In serie rende le quote ripetibili, accelera il lavoro e aiuta a controllare le deformazioni.</p></div><div class="faq-item"><h3>Cos’è il principio 3-2-1?</h3><p>Appoggiare il pezzo su tre punti della prima superficie, due della seconda e uno della terza, definendo i sei gradi di libertà senza iperstaticità.</p></div><div class="faq-item"><h3>Quando serve una maschera?</h3><p>Di solito si ripaga su lavori ripetuti e di serie, quote critiche strette e assiemi con molti pezzi.</p></div><div class="faq-item"><h3>Come si quota una maschera?</h3><p>Come voce separata o ripartita sul prezzo del pezzo. Proprietà e durata di conservazione vanno indicate in offerta.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p33_fixture_cta_h3">In serie, ogni pezzo alla stessa quota</h3>
+      <p data-i18n="blog_p33_fixture_cta_p">Inviateci disegno e quantità annua; quotiamo includendo la necessità di maschera.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p33_fixture_cta_btn">Richiedi un preventivo →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articoli correlati">
+      <h2 data-i18n="blog_related_h">Articoli correlati</h2>
+      <ul>
+        <li><a href="kaynak-distorsiyonu.html" data-i18n="blog_kaynak_distors_h1">Distorsioni da saldatura: metodi di prevenzione e correzione</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">Tolleranze generali ISO 13920: tabella per costruzioni saldate e scelta della classe</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Cos'è l'ispezione del primo articolo (FAI)? Cosa controllare sui pezzi saldati prima della serie</a></li>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Tolleranze dimensionali nella carpenteria metallica: guida alla EN ISO 13920</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Torna al blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
