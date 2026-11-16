@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="no" data-aw-page-lang="no"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hva er PPAP? Godkjenning av produksjonsdeler for sveiste deler | ArmaWeld</title>
+  <meta name="description" content="Hva er PPAP (Production Part Approval Process)? De 18 elementene, 5 innsendingsnivåer, PSW, PFMEA, kontrollplan og det som er spesielt for sveiste deler: WPS, makroslip, fiksturer og prosesskapabilitet.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="ppap-kaynakli-parca-onayi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/ppap-kaynakli-parca-onayi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Hva er PPAP? Godkjenning av produksjonsdeler for sveiste deler | ArmaWeld">
+  <meta property="og:description" content="Hva er PPAP (Production Part Approval Process)? De 18 elementene, 5 innsendingsnivåer, PSW, PFMEA, kontrollplan og det som er spesielt for sveiste deler: WPS, makroslip, fiksturer og prosesskapabilitet.">
+  <meta property="og:url" content="https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Kvalitet · Bil">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hva er PPAP? Godkjenning av produksjonsdeler for sveiste deler",
+  "description": "Hva er PPAP (Production Part Approval Process)? De 18 elementene, 5 innsendingsnivåer, PSW, PFMEA, kontrollplan og det som er spesielt for sveiste deler: WPS, makroslip, fiksturer og prosesskapabilitet.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html"
+  },
+  "url": "https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html",
+  "inLanguage": "no",
+  "articleSection": "Kvalitet · Bil",
+  "keywords": "PPAP nedir, PPAP seviyeleri, kaynaklı parça PPAP, üretim parçası onay süreci, PSW, PPAP welding parts, PPAP Schweißteile, Produktionsteil-Freigabe"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/no/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/no/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hva er PPAP? Godkjenning av produksjonsdeler for sveiste deler",
+      "item": "https://www.armaweld.com/no/blog/ppap-kaynakli-parca-onayi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blogg</a> &nbsp;/&nbsp; <span data-i18n="blog_p11_ppap_breadcrumb3">PPAP</span></div>
+    <div class="article-tag" data-i18n="blog_p11_ppap_tag">Kvalitet · Bil</div>
+    <h1 data-i18n="blog_p11_ppap_h1">Hva er PPAP? Godkjenningsprosessen for sveiste produksjonsdeler</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p11_ppap_read">8 min lesing</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p11_ppap_body"><p><strong>PPAP (Production Part Approval Process)</strong> stammer fra bilindustrien og brukes i dag også for anleggs- og landbruksmaskiner, tilhengere og hvitevarer. Målet er å dokumentere at leverandøren forstår kundens krav og kan oppfylle dem stabilt i serieproduksjon. I motsetning til førsteartikkelinspeksjon (FAI) godkjenner PPAP <em>produksjonsprosessen</em>, ikke bare den første delen.</p>
+<h2>Når kreves PPAP?</h2>
+<ul>
+<li>Ny del eller ny leverandør</li>
+<li>Endring av tegning eller spesifikasjon</li>
+<li>Endring av materiale, underleverandør eller produksjonssted</li>
+<li>Nytt verktøy, ny fikstur eller nytt utstyr</li>
+<li>Gjenopptatt produksjon etter lang pause (vanligvis 12 måneder)</li>
+</ul>
+<h2>De 18 PPAP-elementene</h2>
+<table class="data-table"><thead><tr><th>Nr.</th><th>Element</th><th>For en sveist del</th></tr></thead><tbody>
+<tr><td>1</td><td>Konstruksjonsunderlag</td><td>Godkjent tegning med sveisesymboler</td></tr>
+<tr><td>2</td><td>Endringsdokumenter</td><td>Revisjonsgodkjenninger</td></tr>
+<tr><td>3</td><td>Teknisk kundegodkjenning</td><td>Ved behov</td></tr>
+<tr><td>4</td><td>Design-FMEA</td><td>Hvis leverandøren har konstruksjonsansvar</td></tr>
+<tr><td>5</td><td>Prosessflytdiagram</td><td>Kapping, bukking, tilpasning, sveising, kontroll, overflatebehandling</td></tr>
+<tr><td>6</td><td>Prosess-FMEA</td><td>Sveisefeil, deformasjon, feilmontering</td></tr>
+<tr><td>7</td><td>Kontrollplan</td><td>Metode, frekvens og reaksjonsplan per trinn</td></tr>
+<tr><td>8</td><td>Målesystemanalyse (MSA)</td><td>Gage R&amp;R for målere og kontrollfiksturer</td></tr>
+<tr><td>9</td><td>Måleresultater</td><td>Ballongtegning og komplett målerapport</td></tr>
+<tr><td>10</td><td>Material- og funksjonsprøver</td><td>Sertifikater, makroslip, strekk- eller utmattingsprøver</td></tr>
+<tr><td>11</td><td>Innledende prosesstudier</td><td>Cpk/Ppk for kritiske mål</td></tr>
+<tr><td>12</td><td>Dokumentasjon for kvalifisert laboratorium</td><td>Akkrediteringsbevis</td></tr>
+<tr><td>13</td><td>Godkjenning av utseende</td><td>For malte eller synlige flater</td></tr>
+<tr><td>14</td><td>Prøvedeler</td><td>Laget under serieforhold</td></tr>
+<tr><td>15</td><td>Referanseprøve</td><td>Oppbevart godkjent del</td></tr>
+<tr><td>16</td><td>Kontrollhjelpemidler</td><td>Kontrollfiksturer og målere</td></tr>
+<tr><td>17</td><td>Kundespesifikke krav</td><td>Tilleggskrav fra leverandørhåndboken</td></tr>
+<tr><td>18</td><td>PSW (Part Submission Warrant)</td><td>Sammendrag signert av leverandøren</td></tr>
+</tbody></table>
+<h2>Fem innsendingsnivåer</h2>
+<table class="data-table"><thead><tr><th>Nivå</th><th>Sendes til kunden</th></tr></thead><tbody>
+<tr><td>1</td><td>Kun PSW</td></tr>
+<tr><td>2</td><td>PSW med prøver og begrenset dokumentasjon</td></tr>
+<tr><td>3</td><td>PSW med prøver og komplett dokumentasjon (standard)</td></tr>
+<tr><td>4</td><td>PSW og andre krav definert av kunden</td></tr>
+<tr><td>5</td><td>PSW, prøver og komplett dokumentasjon gjennomgått hos leverandøren</td></tr>
+</tbody></table>
+<h2>Det som er spesielt for sveiste deler</h2>
+<ul>
+<li><strong>WPS og sveiserkvalifikasjon:</strong> WPS-ene og sveisesertifikatene som brukes i serie, legges i PPAP-filen. En parameterendring kan utløse ny PPAP.</li>
+<li><strong>Makroslip:</strong> snitt gjennom kritiske sveiser viser innbrenning, a-mål og binding. I bilindustrien gjentas prøven med faste intervaller i serien.</li>
+<li><strong>Fiksturer:</strong> repeterbarhet i serie bygger på sveisefiksturen. Verifisering og vedlikehold hører hjemme i kontrollplanen.</li>
+<li><strong>Deformasjon:</strong> målendring etter sveising viser seg i Cpk-studien. Uten fast sveiserekkefølge oppnås ikke kapabilitet.</li>
+<li><strong>Overflatebehandling:</strong> utføres maling eller galvanisering hos en underleverandør, inngår dens prosessgodkjenning i kjeden.</li>
+</ul>
+<h2>Sveiserisiko i PFMEA</h2>
+<p>En god PFMEA dekker typiske feilmoder: manglende sveis, sveis på feil sted, for lite a-mål, bindingsfeil, sprekker, porer, mye sprut, deformasjon og feil materiale. Hver feilmode får et forebyggende tiltak (fikstur, poka-yoke, WPS) og et oppdagende tiltak (VT, måler, makroslip).</p>
+<h2>PPAP og FAI</h2>
+<p>FAI bekrefter at én enkelt del samsvarer med tegningen. PPAP dokumenterer at prosessen lager samsvarende deler stabilt ved en gitt takt. Utenfor bilindustrien starter man ofte med FAI og krever en PPAP-lignende godkjenning når volumene øker.</p>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> for sveiste seriedeler utarbeider vi første godkjenningsfil med prosessflyt, kontrollplan, målerapport med ballongtegning og makroslip. Trinn vi koordinerer med partnere, som kapping, bukking eller maling, vises i prosessflyten. Nivå og innhold følger kundens håndbok. <a href="ilk-parca-onayi-kaynakli-imalat.html">Les vår guide om førsteartikkelgodkjenning →</a></p></div></div>
+
+<div data-i18n-html="blog_p11_ppap_faq"><h2>Ofte stilte spørsmål</h2><div class="faq-item"><h3>Brukes PPAP bare i bilindustrien?</h3><p>Nei. Den startet der, men også produsenter av anleggs- og landbruksmaskiner, tilhengere, hvitevarer og elektrisk utstyr krever PPAP eller lignende.</p></div><div class="faq-item"><h3>Hva er en PSW?</h3><p>Part Submission Warrant er sammendraget der leverandøren erklærer og signerer at delen oppfyller alle krav. Kundens godkjenning gis på PSW-en.</p></div><div class="faq-item"><h3>Krever endrede sveiseparametere ny PPAP?</h3><p>Kunden må varsles; avhengig av konsekvensen kan kunden kreve ny innsending. WPS-endringer bør derfor styres.</p></div><div class="faq-item"><h3>Hvor mange prøvedeler lages?</h3><p>Under serieforhold vanligvis minst én times produksjon eller 300 deler. For store sveisekonstruksjoner avtales antallet med kunden.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p11_ppap_cta_h3">Vi utarbeider godkjenningsfilen for dine sveiste seriedeler</h3>
+      <p data-i18n="blog_p11_ppap_cta_p">Send tegning, årsvolumer og leverandørhåndbok, så planlegger vi godkjenningen i tilbudet.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p11_ppap_cta_btn">Be om tilbud →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Relaterte artikler">
+      <h2 data-i18n="blog_related_h">Relaterte artikler</h2>
+      <ul>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Hva er førsteartikkelinspeksjon (FAI)? Hva du kontrollerer på sveiste deler før serieproduksjon</a></li>
+        <li><a href="otomotiv-yan-sanayi-kaynak.html" data-i18n="blog_otomotiv_yan_h1">Sveiseløsninger for underleverandører til bilindustrien: IATF 16949 &amp; PPAP</a></li>
+        <li><a href="itp-muayene-ve-test-plani.html" data-i18n="blog_p09_itp_h1">Hva er en ITP? Inspeksjons- og testplanen i sveiseproduksjon</a></li>
+        <li><a href="kaynakli-imalat-tedarikci-denetimi.html" data-i18n="blog_n28_audit_h1">Hvordan revidere et sveiseverksted? Sjekkliste for leverandørbesøket</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Tilbake til bloggen</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
