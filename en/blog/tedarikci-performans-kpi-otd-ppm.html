@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="en" data-aw-page-lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welding Supplier Performance KPIs: OTD, PPM and the Supplier Scorecard | ArmaWeld</title>
+  <meta name="description" content="Indicators for measuring a welded parts supplier: on-time delivery (OTD), PPM and reject rate, 8D closure time, documentation accuracy, quote response time; clear definitions, calculation examples and how to build a supplier scorecard.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="tedarikci-performans-kpi-otd-ppm">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Welding Supplier Performance KPIs: OTD, PPM and the Supplier Scorecard | ArmaWeld">
+  <meta property="og:description" content="Indicators for measuring a welded parts supplier: on-time delivery (OTD), PPM and reject rate, 8D closure time, documentation accuracy, quote response time; clear definitions, calculation examples and how to build a supplier scorecard.">
+  <meta property="og:url" content="https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2025-12-29">
+  <meta property="article:modified_time" content="2025-12-29">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Purchasing · Quality">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Welding Supplier Performance KPIs: OTD, PPM and the Supplier Scorecard",
+  "description": "Indicators for measuring a welded parts supplier: on-time delivery (OTD), PPM and reject rate, 8D closure time, documentation accuracy, quote response time; clear definitions, calculation examples and how to build a supplier scorecard.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2025-12-29",
+  "dateModified": "2025-12-29",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html"
+  },
+  "url": "https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html",
+  "inLanguage": "en",
+  "articleSection": "Purchasing · Quality",
+  "keywords": "tedarikçi performans göstergeleri, OTD, zamanında teslim oranı, PPM hata oranı, tedarikçi karnesi, supplier scorecard, supplier KPI welding, Lieferantenbewertung Liefertreue PPM, KPI proveedor entrega a tiempo, indicateurs fournisseur taux de service"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/en/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Welding Supplier Performance KPIs: OTD, PPM and the Supplier Scorecard",
+      "item": "https://www.armaweld.com/en/blog/tedarikci-performans-kpi-otd-ppm.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p67_kpi_breadcrumb3">Supplier KPIs</span></div>
+    <div class="article-tag" data-i18n="blog_p67_kpi_tag">Purchasing · Quality</div>
+    <h1 data-i18n="blog_p67_kpi_h1">Welding Supplier Performance KPIs: OTD, PPM and the Supplier Scorecard</h1>
+    <div class="article-meta">
+      <span><time datetime="2025-12-29">2025-12-29</time></span>
+      <span data-i18n="blog_p67_kpi_read">7 min read</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p67_kpi_body"><p>The answer to "is this supplier good?" should rest on numbers, not feelings. A supplier scorecard lets purchasing and quality teams discuss the same data. But an indicator only works if its definition is clear; otherwise the supplier reports 98% on-time delivery while the customer sees 80%.</p>
+<h2>Key Indicators</h2>
+<table>
+<thead><tr><th>Indicator</th><th>Definition</th><th>Watch out for</th></tr></thead>
+<tbody>
+<tr><td>OTD (on-time delivery)</td><td>Order lines delivered on time / total order lines</td><td>Which date counts: first confirmed or revised?</td></tr>
+<tr><td>OTIF</td><td>Lines delivered on time and in full</td><td>Short deliveries are invisible in OTD but visible in OTIF</td></tr>
+<tr><td>PPM</td><td>Rejected parts / delivered parts × 1,000,000</td><td>Can mislead for large, low-volume parts</td></tr>
+<tr><td>Number of non-conformities</td><td>NCRs opened in the period</td><td>More meaningful than PPM for low volumes</td></tr>
+<tr><td>8D closure time</td><td>Days from complaint to effective closure</td><td>Measure containment and permanent fix separately</td></tr>
+<tr><td>Documentation accuracy</td><td>Share of shipments arriving with complete, correct documents</td><td>Track certificates, dimensional and NDT reports separately</td></tr>
+<tr><td>Quote response time</td><td>Days from RFQ to quote</td><td>An important speed indicator for project work</td></tr>
+</tbody>
+</table>
+<h2>Defining OTD Correctly</h2>
+<p>Most OTD disputes come from definitions. Points to clarify:</p>
+<ul>
+<li><strong>Reference date:</strong> the first date confirmed by the supplier, or a date agreed later? Measuring against constantly revised dates makes performance look better than it is.</li>
+<li><strong>Tolerance window:</strong> for example, 2 days early to 0 days late counts as "on time". Very early deliveries can also cause warehouse problems.</li>
+<li><strong>Measurement point:</strong> leaving the supplier, or arriving at the customer? The difference is large between EXW and DAP.</li>
+<li><strong>Unit:</strong> order line or quantity? If 99 of 100 parts on a line arrive, the line is late.</li>
+</ul>
+<h2>How Meaningful Is PPM for Welded Parts?</h2>
+<p>PPM is a strong indicator for small parts in high volumes. But if a few hundred large frames are bought per year, a single rejection puts PPM in the thousands and makes the indicator volatile. For this kind of work, the number of NCRs, repair hours and defect type (dimensional, weld, surface, documentation) are more useful. Sorting by defect type also makes root causes easier to find (see <a href="uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html">NCR and 8D</a>).</p>
+<h2>Example Calculation</h2>
+<p>In one quarter 40 order lines were opened, 36 were delivered within the agreed date window and 2 arrived short. OTD = 36/40 = 90%. Adding the in-full condition gives OTIF = 34/40 = 85%. If 1,200 parts were delivered in the same period and 3 were rejected, PPM = 3/1,200 × 1,000,000 = 2,500.</p>
+<h2>Building a Supplier Scorecard</h2>
+<ul>
+<li>Choose few but correct indicators; a fifteen-indicator scorecard is read by nobody.</li>
+<li>Share each definition with the supplier and compare it with their data.</li>
+<li>Make the weighting explicit (e.g. delivery 40%, quality 40%, communication and documentation 20%).</li>
+<li>Show the trend; a three-to-six-month trend says more than one bad month.</li>
+<li>Discuss the scorecard in a regular meeting; just e-mailing it changes nothing.</li>
+</ul>
+<h2>What Indicators Do Not Show</h2>
+<p>A good scorecard does not guarantee that the supplier always makes the right part. Supplier audits, process reviews and in-process inspections for critical parts complement the indicators (see <a href="kaynakli-imalat-tedarikci-denetimi.html">supplier audits</a>). Customer-caused delays, such as late drawing revisions or pending approvals, should also be recorded separately; otherwise the supplier is marked down unfairly.</p>
+<div class="callout"><p><strong>At ArmaWeld:</strong> our customer portal shows the production stages, shipments and quality documents of each order, which makes it easy to compare delivery and quality data with your scorecard. We prefer to agree scorecard definitions with customers at the start of an order. <a href="../musteri-portali.html">Customer portal →</a></p></div></div>
+
+<div data-i18n-html="blog_p67_kpi_faq"><h2>Frequently Asked Questions</h2><div class="faq-item"><h3>What is OTD?</h3><p>The share of order lines delivered on time out of all order lines; the reference date and tolerance window must be clearly defined.</p></div><div class="faq-item"><h3>What is the difference between OTD and OTIF?</h3><p>OTIF also requires delivery in full; short deliveries show up in OTIF.</p></div><div class="faq-item"><h3>How is PPM calculated?</h3><p>Rejected parts divided by delivered parts, multiplied by 1,000,000.</p></div><div class="faq-item"><h3>Which indicator suits large, low-volume parts?</h3><p>Number of NCRs, repair hours and defect-type breakdown are more meaningful than PPM.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p67_kpi_cta_h3">Looking for a supplier you can measure?</h3>
+      <p data-i18n="blog_p67_kpi_cta_p">Share your scorecard definitions and parts; we will agree with you how to report delivery and quality data.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p67_kpi_cta_btn">Request a Quote →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Related articles">
+      <h2 data-i18n="blog_related_h">Related Articles</h2>
+      <ul>
+        <li><a href="kaynakli-imalat-tedarikci-denetimi.html" data-i18n="blog_n28_audit_h1">How to Audit a Welded Fabrication Shop: A Supplier Visit Checklist</a></li>
+        <li><a href="uygunsuzluk-raporu-ncr-8d-kaynakli-imalat.html" data-i18n="blog_p47_ncr_h1">Nonconformance Reports (NCR) and 8D in Welded Fabrication: From Defect to Lasting Fix</a></li>
+        <li><a href="kaynakli-imalat-teslim-suresi-planlama.html" data-i18n="blog_p44_leadtime_h1">Lead Time in Welded Fabrication: How It Builds Up and How to Shorten It</a></li>
+        <li><a href="fason-kaynak-tedarikci-secimi.html" data-i18n="blog_n26_supplier_h1">10 Criteria to Check When Choosing a Welding Subcontractor</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Back to Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

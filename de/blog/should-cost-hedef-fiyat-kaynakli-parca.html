@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="de" data-aw-page-lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Should-Cost und Zielpreis für Schweißteile: Was sollte ein Teil kosten? | ArmaWeld</title>
+  <meta name="description" content="Should-Cost-Analyse für Schweißteile: Kostenaufschlüsselung in Werkstoff, Zuschnitt, Kanten, Schweißen, ZfP, Oberfläche, Gemeinkosten und Gewinn, Aufbau eines Zielpreises, Kostengespräche mit Lieferanten und typische Rechenfehler.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="should-cost-hedef-fiyat-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/should-cost-hedef-fiyat-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Should-Cost und Zielpreis für Schweißteile: Was sollte ein Teil kosten? | ArmaWeld">
+  <meta property="og:description" content="Should-Cost-Analyse für Schweißteile: Kostenaufschlüsselung in Werkstoff, Zuschnitt, Kanten, Schweißen, ZfP, Oberfläche, Gemeinkosten und Gewinn, Aufbau eines Zielpreises, Kostengespräche mit Lieferanten und typische Rechenfehler.">
+  <meta property="og:url" content="https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2025-12-15">
+  <meta property="article:modified_time" content="2025-12-15">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Einkauf · Kosten">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Should-Cost und Zielpreis für Schweißteile: Was sollte ein Teil kosten?",
+  "description": "Should-Cost-Analyse für Schweißteile: Kostenaufschlüsselung in Werkstoff, Zuschnitt, Kanten, Schweißen, ZfP, Oberfläche, Gemeinkosten und Gewinn, Aufbau eines Zielpreises, Kostengespräche mit Lieferanten und typische Rechenfehler.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2025-12-15",
+  "dateModified": "2025-12-15",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html",
+  "inLanguage": "de",
+  "articleSection": "Einkauf · Kosten",
+  "keywords": "should cost analizi, hedef fiyat, kaynaklı parça maliyet modeli, maliyet kırılımı, cost breakdown kaynaklı imalat, should-cost welded parts, target price fabrication, Kostenaufschlüsselung Schweißteil, Should-Cost-Analyse, análisis should cost piezas soldadas, analyse should cost pièces soudées"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/de/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Should-Cost und Zielpreis für Schweißteile: Was sollte ein Teil kosten?",
+      "item": "https://www.armaweld.com/de/blog/should-cost-hedef-fiyat-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p65_shouldcost_breadcrumb3">Should-Cost-Analyse</span></div>
+    <div class="article-tag" data-i18n="blog_p65_shouldcost_tag">Einkauf · Kosten</div>
+    <h1 data-i18n="blog_p65_shouldcost_h1">Should-Cost und Zielpreis für Schweißteile: Was sollte ein Teil kosten?</h1>
+    <div class="article-meta">
+      <span><time datetime="2025-12-15">2025-12-15</time></span>
+      <span data-i18n="blog_p65_shouldcost_read">8 Min. Lesezeit</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p65_shouldcost_body"><p>Eine Should-Cost-Analyse schätzt nicht, wofür ein Teil „verkauft wird", sondern was es bei einem effizienten Hersteller „kosten sollte". Einkaufsteams nutzen sie, um Lieferantengespräche auf Zahlen zu stützen, auffällige Angebote zu erkennen und Kostensenkungspotenziale in der Konstruktion zu finden. Bei Schweißteilen ist die Methode recht transparent, weil der Großteil der Kosten aus messbaren Positionen stammt.</p>
+<h2>Kostenaufschlüsselung</h2>
+<table>
+<thead><tr><th>Position</th><th>Schätzung</th></tr></thead>
+<tbody>
+<tr><td>Werkstoff</td><td>Bruttogewicht (inkl. Verschnitt) × aktueller kg-Preis + Zeugniszuschlag</td></tr>
+<tr><td>Zuschnitt</td><td>Laser- oder Plasmazeit aus Schnittlänge und Lochanzahl</td></tr>
+<tr><td>Kanten</td><td>Anzahl Biegungen × Rüst- und Bearbeitungszeit</td></tr>
+<tr><td>Vorbereitung und Heften</td><td>Zeit nach Teilezahl und Montagekomplexität</td></tr>
+<tr><td>Schweißen</td><td>Lichtbogenzeit aus Nahtlänge, Querschnitt und Abschmelzleistung; Gesamtzeit über Lichtbogenzeitanteil</td></tr>
+<tr><td>Richten und Schleifen</td><td>Zuschlag nach Verzugsrisiko und Oberflächenanforderung</td></tr>
+<tr><td>Prüfung</td><td>VT, ZfP-Verfahren und -Umfang, Messprotokoll</td></tr>
+<tr><td>Oberfläche</td><td>Strahlen, Lackieren oder Verzinken je m² oder kg</td></tr>
+<tr><td>Verpackung und Fracht</td><td>Nach Lieferbedingung (Incoterm)</td></tr>
+<tr><td>Gemeinkosten und Gewinn</td><td>Im Stundensatz enthalten oder als separater Prozentsatz</td></tr>
+</tbody>
+</table>
+<h2>Schweißzeit schätzen</h2>
+<p>Das Schweißen ist meist die am stärksten diskutierte Position. Ein praktischer Weg: Schweißgutmasse aus dem Nahtquerschnitt berechnen, durch die Abschmelzleistung des Verfahrens teilen und die so ermittelte Lichtbogenzeit durch den Lichtbogenzeitanteil (Anteil der tatsächlichen Schweißzeit an der Gesamtarbeitszeit) dividieren. Beim manuellen MAG-Schweißen ist dieser Anteil meist niedrig; Wenden, Reinigen, Positionswechsel und Zwischenprüfungen kosten viel Zeit. Details unter <a href="kaynak-maliyeti-hesaplama.html">Schweißkosten berechnen</a>.</p>
+<h2>Was deckt der Stundensatz ab?</h2>
+<p>Der Werkstattstundensatz ist nicht nur der Lohn des Schweißers. Abschreibungen, Verbrauchsmaterial außer Gas und Draht, Energie, Gebäude, Qualitätskontrolle, Planung und Verwaltung werden darauf umgelegt. Ein Should-Cost-Modell verwendet eine plausible Spanne für Land und Region; Ziel ist nicht, die internen Kosten des Lieferanten exakt zu kennen, sondern die Größenordnung zu treffen.</p>
+<h2>Einen Zielpreis aufbauen</h2>
+<ol>
+<li>Should-Cost-Summe ermitteln.</li>
+<li>Eine angemessene Marge addieren; eine Marge nahe null schafft keine tragfähige Lieferbeziehung.</li>
+<li>Für Menge, Losgröße und Lieferbedingung korrigieren.</li>
+<li>Mit eingehenden Angeboten vergleichen und große Abweichungen positionsweise besprechen (siehe <a href="kaynakli-parca-teklif-karsilastirma.html">Angebotsvergleich</a>).</li>
+</ol>
+<h2>Kostengespräche mit Lieferanten</h2>
+<p>Should-Cost wirkt am besten als gemeinsame Sprache, nicht als Verhandlungswaffe. Statt „Ihr Preis ist zu hoch" lieber fragen: „Sie kalkulieren 3 Stunden Schweißen, unser Modell 2; woher kommt der Unterschied?" Das bringt die richtigen Informationen hervor und öffnet die Tür für Konstruktionsverbesserungen. Oft liegt die Differenz in einer überdimensionierten Kehlnaht, einer unnötig engen Toleranz oder einer teuren Oberflächenanforderung (siehe <a href="maliyet-optimizasyon.html">Kostenoptimierung</a>).</p>
+<h2>Typische Rechenfehler</h2>
+<ul>
+<li>Nettogewicht verwenden und Verschnitt sowie Schnittverluste übersehen.</li>
+<li>Nur die Lichtbogenzeit rechnen und Vorbereitung und Handling vergessen.</li>
+<li>Den Stückkosteneffekt der Rüstzeit bei kleinen Losen ignorieren.</li>
+<li>ZfP, Messprotokolle und Dokumentation mit null ansetzen.</li>
+<li>Datum und Gültigkeit des Werkstoffpreises nicht prüfen.</li>
+</ul>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Unsere Angebote gliedern wir in Werkstoff, Schweißen, Prüfung, Oberfläche und Lieferung. Wenn Sie ein Should-Cost-Modell haben, vergleichen wir gerne Position für Position und suchen gemeinsam nach Einsparungen in der Konstruktion. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div></div>
+
+<div data-i18n-html="blog_p65_shouldcost_faq"><h2>Häufige Fragen</h2><div class="faq-item"><h3>Was ist eine Should-Cost-Analyse?</h3><p>Eine Methode, aus Werkstoff, Arbeit, Prozess und Gemeinkosten zu schätzen, was ein Teil bei einem effizienten Hersteller kosten sollte.</p></div><div class="faq-item"><h3>Wie schätzt man die Schweißkosten?</h3><p>Aus dem Nahtquerschnitt die Schweißgutmasse ermitteln, durch die Abschmelzleistung teilen und über den Lichtbogenzeitanteil in Gesamtzeit umrechnen.</p></div><div class="faq-item"><h3>Ist der Zielpreis gleich Should-Cost?</h3><p>Nein. Der Zielpreis ergänzt die Should-Cost-Summe um eine angemessene Marge und Korrekturen für Menge, Losgröße und Lieferbedingung.</p></div><div class="faq-item"><h3>Was ist der häufigste Fehler?</h3><p>Verschnitt und Vorbereitungszeiten weglassen sowie ZfP und Dokumentation mit null ansetzen.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p65_shouldcost_cta_h3">Ein Angebot mit Kostenaufschlüsselung?</h3>
+      <p data-i18n="blog_p65_shouldcost_cta_p">Senden Sie Ihre Zeichnung; unser aufgeschlüsseltes Angebot können Sie mit Ihrem Should-Cost-Modell abgleichen.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p65_shouldcost_cta_btn">Angebot anfordern →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Verwandte Artikel">
+      <h2 data-i18n="blog_related_h">Verwandte Artikel</h2>
+      <ul>
+        <li><a href="kaynak-maliyeti-hesaplama.html" data-i18n="blog_p17_cost_h1">Schweißkosten berechnen: Drahtverbrauch, Lichtbogenzeit und Kosten pro Meter</a></li>
+        <li><a href="kaynakli-imalat-fiyati.html" data-i18n="blog_n27_cost_h1">Was kostet eine Schweißkonstruktion? 9 Faktoren, die den Preis bestimmen</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kostenoptimierung in der Schweißfertigung</a></li>
+        <li><a href="kaynakli-parca-teklif-karsilastirma.html" data-i18n="blog_p64_quotecompare_h1">Angebote für Schweißteile richtig vergleichen: Mehr als nur der Stückpreis</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Zurück zum Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
