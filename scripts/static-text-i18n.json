@@ -2131,5 +2131,41 @@
     "it": "Guida prodotto · Macchine di processo",
     "nl": "Productgids · Procesapparatuur",
     "no": "Produktguide · Prosessutstyr"
+  },
+  "Ürün Rehberi · Taşıt Üst Yapı": {
+    "en": "Product Guide · Truck Bodies",
+    "de": "Produktleitfaden · Fahrzeugaufbauten",
+    "es": "Guía de producto · Carrocerías",
+    "fr": "Guide produit · Carrosserie industrielle",
+    "it": "Guida prodotto · Allestimenti",
+    "nl": "Productgids · Voertuigopbouw",
+    "no": "Produktguide · Påbygg"
+  },
+  "Ürün Rehberi · Depolama": {
+    "en": "Product Guide · Storage",
+    "de": "Produktleitfaden · Lagertechnik",
+    "es": "Guía de producto · Almacenaje",
+    "fr": "Guide produit · Stockage",
+    "it": "Guida prodotto · Magazzino",
+    "nl": "Productgids · Opslag",
+    "no": "Produktguide · Lagring"
+  },
+  "Ürün Rehberi · Lojistik Ekipmanı": {
+    "en": "Product Guide · Logistics Equipment",
+    "de": "Produktleitfaden · Logistikausrüstung",
+    "es": "Guía de producto · Equipos logísticos",
+    "fr": "Guide produit · Équipements logistiques",
+    "it": "Guida prodotto · Attrezzature logistiche",
+    "nl": "Productgids · Logistieke uitrusting",
+    "no": "Produktguide · Logistikkutstyr"
+  },
+  "Ürün Rehberi · Makine Güvenliği": {
+    "en": "Product Guide · Machine Safety",
+    "de": "Produktleitfaden · Maschinensicherheit",
+    "es": "Guía de producto · Seguridad de máquinas",
+    "fr": "Guide produit · Sécurité machines",
+    "it": "Guida prodotto · Sicurezza macchine",
+    "nl": "Productgids · Machineveiligheid",
+    "no": "Produktguide · Maskinsikkerhet"
   }
 }
