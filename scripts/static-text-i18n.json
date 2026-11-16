@@ -1834,5 +1834,41 @@
     "it": "Acquisti · Europa",
     "nl": "Inkoop · Europa",
     "no": "Innkjøp · Europa"
+  },
+  "Tedarik · Seri üretim": {
+    "en": "Sourcing · Series production",
+    "de": "Beschaffung · Serie",
+    "es": "Compras · Serie",
+    "fr": "Achats · Série",
+    "it": "Acquisti · Serie",
+    "nl": "Inkoop · Serie",
+    "no": "Innkjøp · Serie"
+  },
+  "Mühendislik · Yedek parça": {
+    "en": "Engineering · Spare parts",
+    "de": "Engineering · Ersatzteile",
+    "es": "Ingeniería · Repuestos",
+    "fr": "Ingénierie · Pièces de rechange",
+    "it": "Ingegneria · Ricambi",
+    "nl": "Engineering · Reserveonderdelen",
+    "no": "Ingeniørarbeid · Reservedeler"
+  },
+  "Sektör · Treyler": {
+    "en": "Industry · Trailers",
+    "de": "Branche · Fahrzeugbau",
+    "es": "Sector · Remolques",
+    "fr": "Secteur · Remorques",
+    "it": "Settore · Rimorchi",
+    "nl": "Sector · Opleggers",
+    "no": "Bransje · Tilhengere"
+  },
+  "Sektör · Asansör ve platform": {
+    "en": "Industry · Lifts and platforms",
+    "de": "Branche · Aufzüge und Plattformen",
+    "es": "Sector · Ascensores y plataformas",
+    "fr": "Secteur · Ascenseurs et plateformes",
+    "it": "Settore · Ascensori e piattaforme",
+    "nl": "Sector · Liften en platforms",
+    "no": "Bransje · Heiser og plattformer"
   }
 }

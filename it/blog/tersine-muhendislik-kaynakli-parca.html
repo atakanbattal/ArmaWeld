@@ -1,0 +1,285 @@
+<!DOCTYPE html><html lang="it" data-aw-page-lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reverse engineering di pezzi saldati: rifare correttamente un pezzo senza disegno | ArmaWeld</title>
+  <meta name="description" content="Come si rifà un pezzo saldato vecchio, usurato o rotto senza disegno? Metodi di rilievo, identificazione di materiale e durezza, analisi delle saldature, cosa non si può ricostruire, proprietà intellettuale, pacchetto disegni e verifica del primo articolo.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="tersine-muhendislik-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/tersine-muhendislik-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/tersine-muhendislik-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Reverse engineering di pezzi saldati: rifare correttamente un pezzo senza disegno | ArmaWeld">
+  <meta property="og:description" content="Come si rifà un pezzo saldato vecchio, usurato o rotto senza disegno? Metodi di rilievo, identificazione di materiale e durezza, analisi delle saldature, cosa non si può ricostruire, proprietà intellettuale, pacchetto disegni e verifica del primo articolo.">
+  <meta property="og:url" content="https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Ingegneria · Ricambi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reverse engineering di pezzi saldati: rifare correttamente un pezzo senza disegno",
+  "description": "Come si rifà un pezzo saldato vecchio, usurato o rotto senza disegno? Metodi di rilievo, identificazione di materiale e durezza, analisi delle saldature, cosa non si può ricostruire, proprietà intellettuale, pacchetto disegni e verifica del primo articolo.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html",
+  "inLanguage": "it",
+  "articleSection": "Ingegneria · Ricambi",
+  "keywords": "tersine mühendislik, numuneden imalat, çizimi olmayan parça, yedek parça imalatı, kaynaklı parça tersine mühendislik, ölçü alma, malzeme tespiti, sertlik ölçümü, reverse engineering welded parts, Reverse Engineering Schweißteil, Nachbau Ersatzteil"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/it/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Reverse engineering di pezzi saldati: rifare correttamente un pezzo senza disegno",
+      "item": "https://www.armaweld.com/it/blog/tersine-muhendislik-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p50_reverse_breadcrumb3">Reverse engineering</span></div>
+    <div class="article-tag" data-i18n="blog_p50_reverse_tag">Ingegneria · Ricambi</div>
+    <h1 data-i18n="blog_p50_reverse_h1">Reverse engineering di pezzi saldati: rifare correttamente un pezzo senza disegno</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p50_reverse_read">7 min di lettura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p50_reverse_body"><p>Il telaio di una vecchia macchina si è criccato, il costruttore non esiste più e il disegno non c’è. Oppure cercate una seconda fonte per un pezzo strutturale usato da anni, ma il disegno non è aggiornato. La risposta è il reverse engineering: creare dal pezzo esistente un pacchetto tecnico producibile.</p>
+<h2>Quando serve?</h2>
+<ul>
+<li>ricambi per macchine il cui costruttore ha chiuso o non dà più supporto,</li>
+<li>pezzi senza disegno o molto modificati sul campo,</li>
+<li>versione migliorata di un pezzo con guasti ricorrenti,</li>
+<li>trasformazione di disegni cartacei in documentazione digitale producibile.</li>
+</ul>
+<h2>Proprietà intellettuale</h2>
+<p>Prima di iniziare verificate di avere il diritto di riprodurre il pezzo. I ricambi per la propria macchina di solito non sono un problema; in presenza di tutela del design o vincoli contrattuali serve un parere legale. Il fabbricante può chiedere una dichiarazione scritta del cliente.</p>
+<h2>1. Rilievo</h2>
+<table>
+<thead><tr><th>Metodo</th><th>Adatto a</th><th>Nota</th></tr></thead>
+<tbody>
+<tr><td>Strumenti manuali (metro, calibro, goniometro)</td><td>Pezzi semplici, prismatici</td><td>Economico e veloce, limitato per geometrie complesse</td></tr>
+<tr><td>Misura da riferimenti e con calibri</td><td>Assi dei fori, punti di interfaccia</td><td>Quote critiche per il montaggio</td></tr>
+<tr><td>Scansione 3D</td><td>Pezzi complessi, curvi o grandi</td><td>Di solito con un partner specializzato</td></tr>
+<tr><td>Misura del pezzo accoppiato</td><td>Se la macchina è disponibile</td><td>Fornisce le quote reali di montaggio</td></tr>
+</tbody>
+</table>
+<p>L’importante è distinguere il pezzo com’è oggi dal pezzo come era progettato. Un pezzo usato può essere usurato, deformato o riparato. Il valore misurato non è sempre il valore di progetto.</p>
+<h2>2. Identificazione del materiale</h2>
+<ul>
+<li><strong>Analisi chimica (spettrometro / PMI):</strong> aiuta a individuare il grado dell’acciaio; di solito eseguita da un laboratorio accreditato o da un partner con strumento portatile.</li>
+<li><strong>Durezza:</strong> indica la classe di resistenza e l’eventuale trattamento termico.</li>
+<li><strong>Misura dello spessore:</strong> a ultrasuoni sui pezzi corrosi.</li>
+</ul>
+<p>L’analisi chimica dà un grado di acciaio strutturale approssimativo, ma la resilienza (J2, K2 ecc.) non si ricava. Il materiale del pezzo nuovo va quindi scelto consapevolmente in base all’applicazione (vedi <a href="s355jr-s355j2-s355k2-s355nl-farki.html">sottogradi S355</a>).</p>
+<h2>3. Analisi delle saldature</h2>
+<ul>
+<li>tipo e dimensione (sezione di gola a, piena o parziale penetrazione nei giunti testa a testa),</li>
+<li>preparazione dei lembi (da sezioni o tracce sui bordi),</li>
+<li>tracce del processo (scoria, spruzzi, aspetto del cordone),</li>
+<li>macrografia da un campione scartato se necessario.</li>
+</ul>
+<p>La piena penetrazione non sempre si vede dall’esterno. Per giunti strutturali, nel dubbio, progettare a piena penetrazione e scegliere la WPS di conseguenza è la scelta sicura.</p>
+<h2>4. Cosa non si può ricostruire</h2>
+<p>Il reverse engineering non restituisce tutto. Di solito restano ignoti o da ipotizzare:</p>
+<ul>
+<li>tolleranze originali e quote funzionali,</li>
+<li>carichi di progetto e coefficienti di sicurezza originali,</li>
+<li>un eventuale trattamento di distensione,</li>
+<li>estensione dei controlli e livello di qualità originali.</li>
+</ul>
+<p>Queste ipotesi vanno scritte su disegno e offerta e approvate dal cliente.</p>
+<h2>5. Occasione di miglioramento</h2>
+<p>Se il pezzo si cricca sempre nello stesso punto, una copia esatta cederà allo stesso modo. È il momento di spostare i piedi di saldatura dalle zone più sollecitate, raccordare spigoli vivi o aumentare il grado del materiale (vedi <a href="kaynakli-baglantilarda-yorulma-fat-sinifi.html">fatica nei giunti saldati</a>).</p>
+<h2>6. Pacchetto tecnico</h2>
+<ul>
+<li>disegno di produzione quotato con simboli di saldatura,</li>
+<li>distinta materiali e gradi,</li>
+<li>modello 3D se necessario,</li>
+<li>requisiti di saldatura e controllo,</li>
+<li>elenco delle ipotesi.</li>
+</ul>
+<h2>7. Verifica</h2>
+<p>Il primo pezzo si produce con rapporto dimensionale e, se possibile, si monta sulla macchina per una prova funzionale. Dopo l’approvazione la revisione del disegno si congela e la produzione successiva la segue (vedi <a href="ilk-parca-onayi-kaynakli-imalat.html">approvazione del primo articolo</a>).</p>
+<div class="callout"><p><strong>In ArmaWeld:</strong> rileviamo il vostro pezzo campione, prepariamo il disegno di produzione e definiamo con voi dettagli di saldatura e materiale. Scansione 3D e analisi del materiale si eseguono, se servono, tramite i nostri partner. <a href="../muhendislik.html">Il nostro supporto ingegneristico →</a></p></div></div>
+
+<div data-i18n-html="blog_p50_reverse_faq"><h2>Domande frequenti</h2><div class="faq-item"><h3>Si può produrre un pezzo senza disegno?</h3><p>Sì. Il pezzo esistente viene rilevato, materiale e saldature analizzati, si prepara un disegno e lo si verifica con un primo articolo.</p></div><div class="faq-item"><h3>Come si determina il grado del materiale?</h3><p>Analisi chimica e durezza danno indicazioni, ma proprietà come la resilienza non si ricavano; il nuovo materiale si sceglie per l’applicazione.</p></div><div class="faq-item"><h3>Le misure di un pezzo usurato sono affidabili?</h3><p>Non sempre. Occorre considerare usura, deformazioni e riparazioni; se possibile misurare il pezzo accoppiato.</p></div><div class="faq-item"><h3>Copiare il pezzo è legale?</h3><p>I ricambi per la propria macchina di solito non sono un problema; chiedete un parere legale in caso di tutela del design o vincoli contrattuali.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p50_reverse_cta_h3">Avete solo un pezzo campione?</h3>
+      <p data-i18n="blog_p50_reverse_cta_p">Inviateci foto e condizioni d’uso; vi proponiamo un percorso di reverse engineering e produzione.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p50_reverse_cta_btn">Invia i dati →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articoli correlati">
+      <h2 data-i18n="blog_related_h">Articoli correlati</h2>
+      <ul>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Cos'è l'ispezione del primo articolo (FAI)? Cosa controllare sui pezzi saldati prima della serie</a></li>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Tolleranze dimensionali nella carpenteria metallica: guida alla EN ISO 13920</a></li>
+        <li><a href="kaynak-agzi-hazirligi-iso-9692-1.html" data-i18n="blog_p15_groove_h1">Preparazione dei lembi: cianfrini a V, X, U e a mezza V secondo ISO 9692-1</a></li>
+        <li><a href="malzeme-sertifikasi-en-10204-3-1.html" data-i18n="blog_n28_cert_h1">Cos'è il certificato materiale 3.1? EN 10204 2.2, 3.1 e 3.2 spiegati</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Torna al blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
