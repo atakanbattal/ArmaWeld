@@ -1447,5 +1447,41 @@
     "it": "Acquisti · Qualità",
     "nl": "Inkoop · Kwaliteit",
     "no": "Innkjøp · Kvalitet"
+  },
+  "Standartlar · Kaynak Kalitesi": {
+    "en": "Standards · Weld Quality",
+    "de": "Normen · Schweißnahtqualität",
+    "es": "Normas · Calidad de soldadura",
+    "fr": "Normes · Qualité de soudure",
+    "it": "Norme · Qualità della saldatura",
+    "nl": "Normen · Laskwaliteit",
+    "no": "Standarder · Sveisekvalitet"
+  },
+  "Standartlar · Çelik Yapı": {
+    "en": "Standards · Steel Structures",
+    "de": "Normen · Stahlbau",
+    "es": "Normas · Estructura metálica",
+    "fr": "Normes · Construction métallique",
+    "it": "Norme · Carpenteria metallica",
+    "nl": "Normen · Staalbouw",
+    "no": "Standarder · Stålkonstruksjoner"
+  },
+  "Standartlar · CE İşareti": {
+    "en": "Standards · CE Marking",
+    "de": "Normen · CE-Kennzeichnung",
+    "es": "Normas · Marcado CE",
+    "fr": "Normes · Marquage CE",
+    "it": "Norme · Marcatura CE",
+    "nl": "Normen · CE-markering",
+    "no": "Standarder · CE-merking"
+  },
+  "Standartlar · Tolerans": {
+    "en": "Standards · Tolerances",
+    "de": "Normen · Toleranzen",
+    "es": "Normas · Tolerancias",
+    "fr": "Normes · Tolérances",
+    "it": "Norme · Tolleranze",
+    "nl": "Normen · Toleranties",
+    "no": "Standarder · Toleranser"
   }
 }

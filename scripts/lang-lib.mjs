@@ -9,7 +9,7 @@ export const LANGS = process.env.AW_LANGS ? process.env.AW_LANGS.split(',') : ['
 export const ALL_LANGS = ['tr', ...LANGS];
 
 // Mirrors the runtime load order in assets/i18n.js
-export function loadTranslations({ blog }) {
+export function loadTranslations({ blog, posts = true }) {
   const sandbox = { window: {} };
   sandbox.window.window = sandbox.window;
   vm.createContext(sandbox);
@@ -24,5 +24,10 @@ export function loadTranslations({ blog }) {
   merge(w.__AW_TOOLS_EXT__);
   merge(w.__AW_TRACE_DOCS__);
   if (blog) run('assets/blog-translations-2026.js');
+  // Per-post translation files written by scripts/build-blog-posts.mjs
+  const postDir = path.join(ROOT, 'assets/blog-posts');
+  if (blog && posts && fs.existsSync(postDir)) {
+    for (const f of fs.readdirSync(postDir).filter((x) => x.endsWith('.js')).sort()) run('assets/blog-posts/' + f);
+  }
   return w.TRANSLATIONS;
 }

@@ -4,7 +4,7 @@
   const STORAGE_KEY = 'armaweld-lang';
   const DEFAULT = 'tr';
   const SUPPORTED = ['tr', 'en', 'de', 'es', 'fr', 'it', 'nl', 'no'];
-  const BUNDLE_V = '20261116a';
+  const BUNDLE_V = '20261116b';
 
   // Pages under /en/, /de/, /es/, /fr/ are built per language (scripts/build-lang-pages.mjs)
   // and carry their language on <html data-aw-page-lang>; Turkish pages live at the root.
@@ -149,8 +149,15 @@
       return loadDeepBundle().then(loadToolsExtBundle).then(loadTraceDocsBundle);
     }).then(function () {
       if (needsBlogBundle()) {
+        // Posts built from scripts/blog-src/ carry their own small translation file.
+        var postMeta = document.querySelector('meta[name="aw-post-i18n"]');
+        if (postMeta && postMeta.content) {
+          return loadScript(ROOT + 'assets/blog-posts/' + postMeta.content + '.js?v=' + BUNDLE_V).catch(function () {});
+        }
         var blogPath = ROOT + 'assets/blog-translations-2026.js?v=' + BUNDLE_V;
-        return loadScript(blogPath).catch(function () {});
+        return loadScript(blogPath).catch(function () {}).then(function () {
+          return loadScript(ROOT + 'assets/blog-posts/_cards.js?v=' + BUNDLE_V).catch(function () {});
+        });
       }
     });
   }
