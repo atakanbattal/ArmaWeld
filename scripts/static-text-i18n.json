@@ -1906,5 +1906,41 @@
     "it": "Settore · Riciclo e materiali sfusi",
     "nl": "Sector · Recycling en bulk",
     "no": "Bransje · Gjenvinning og bulk"
+  },
+  "Standartlar · Makine erişimi": {
+    "en": "Standards · Machine access",
+    "de": "Normen · Zugang zu Maschinen",
+    "es": "Normas · Acceso a máquinas",
+    "fr": "Normes · Accès aux machines",
+    "it": "Norme · Accesso alle macchine",
+    "nl": "Normen · Toegang tot machines",
+    "no": "Standarder · Adkomst til maskiner"
+  },
+  "Sektör · İş makineleri": {
+    "en": "Industry · Construction machinery",
+    "de": "Branche · Baumaschinen",
+    "es": "Sector · Maquinaria de obra",
+    "fr": "Secteur · Engins de chantier",
+    "it": "Settore · Macchine movimento terra",
+    "nl": "Sector · Grondverzetmachines",
+    "no": "Bransje · Anleggsmaskiner"
+  },
+  "Sektör · Gıda makineleri": {
+    "en": "Industry · Food machinery",
+    "de": "Branche · Lebensmittelmaschinen",
+    "es": "Sector · Maquinaria alimentaria",
+    "fr": "Secteur · Machines alimentaires",
+    "it": "Settore · Macchine alimentari",
+    "nl": "Sector · Voedingsmachines",
+    "no": "Bransje · Næringsmiddelmaskiner"
+  },
+  "İhracat · Sürdürülebilirlik": {
+    "en": "Export · Sustainability",
+    "de": "Export · Nachhaltigkeit",
+    "es": "Exportación · Sostenibilidad",
+    "fr": "Export · Développement durable",
+    "it": "Export · Sostenibilità",
+    "nl": "Export · Duurzaamheid",
+    "no": "Eksport · Bærekraft"
   }
 }
