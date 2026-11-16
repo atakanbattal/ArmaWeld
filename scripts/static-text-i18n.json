@@ -2023,5 +2023,32 @@
     "it": "Guida Paese · Svizzera",
     "nl": "Landengids · Zwitserland",
     "no": "Landguide · Sveits"
+  },
+  "Ülke Rehberi · İskandinavya": {
+    "en": "Country Guide · Scandinavia",
+    "de": "Länderleitfaden · Skandinavien",
+    "es": "Guía por país · Escandinavia",
+    "fr": "Guide pays · Scandinavie",
+    "it": "Guida Paese · Scandinavia",
+    "nl": "Landengids · Scandinavië",
+    "no": "Landguide · Skandinavia"
+  },
+  "Ürün Rehberi · Şasi": {
+    "en": "Product Guide · Frames",
+    "de": "Produktleitfaden · Rahmen",
+    "es": "Guía de producto · Bastidores",
+    "fr": "Guide produit · Châssis",
+    "it": "Guida prodotto · Basamenti",
+    "nl": "Productgids · Onderstellen",
+    "no": "Produktguide · Rammer"
+  },
+  "Ürün Rehberi · Kaldırma": {
+    "en": "Product Guide · Lifting",
+    "de": "Produktleitfaden · Hebetechnik",
+    "es": "Guía de producto · Elevación",
+    "fr": "Guide produit · Levage",
+    "it": "Guida prodotto · Sollevamento",
+    "nl": "Productgids · Hijsen",
+    "no": "Produktguide · Løfteutstyr"
   }
 }
