@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_p117_dfm_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_p117_dfm_title">Kaynak İçin Tasarım (DFM): Fiyatı ve Kaliteyi Çizimde Belirleyen 10 Kural | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_p117_dfm_meta_desc" content="Kaynaklı parça tasarımında üretilebilirlik (DFM) kuralları: kaynak erişimi, dikiş sayısı ve boyutu, simetri ve çarpılma, kesişen dikişler, bükümle dikiş azaltma, standart profiller, kaynak pozisyonu, toleranslar ve tedarikçiyle erken tasarım incelemesi." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="aw-post-i18n" content="kaynak-icin-tasarim-dfm-kaynakli-parca" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_p117_dfm_og_title" content="Kaynak için tasarım: DFM kuralları" />
+  <meta property="og:description" data-i18n="blog_p117_dfm_meta_desc" content="Kaynaklı parça tasarımında üretilebilirlik (DFM) kuralları: kaynak erişimi, dikiş sayısı ve boyutu, simetri ve çarpılma, kesişen dikişler, bükümle dikiş azaltma, standart profiller, kaynak pozisyonu, toleranslar ve tedarikçiyle erken tasarım incelemesi." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-10-29" />
+  <meta property="article:modified_time" content="2026-10-29" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Tasarım Rehberi · Maliyet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=20261116b" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kaynak İçin Tasarım (DFM): Fiyatı ve Kaliteyi Çizimde Belirleyen 10 Kural",
+  "description": "Kaynaklı parça tasarımında üretilebilirlik (DFM) kuralları: kaynak erişimi, dikiş sayısı ve boyutu, simetri ve çarpılma, kesişen dikişler, bükümle dikiş azaltma, standart profiller, kaynak pozisyonu, toleranslar ve tedarikçiyle erken tasarım incelemesi.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Tasarım Rehberi · Maliyet",
+  "keywords": "kaynak için tasarım, DFM kaynaklı parça, üretilebilirlik kaynak, kaynaklı konstrüksiyon tasarım kuralları, kaynak erişimi, köşe kaynağı boyutu tasarım, design for welding, Schweißgerechte Konstruktion, diseño para soldadura, conception pour le soudage"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak İçin Tasarım (DFM): Fiyatı ve Kaliteyi Çizimde Belirleyen 10 Kural",
+      "item": "https://www.armaweld.com/blog/kaynak-icin-tasarim-dfm-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kaynaklı parçanın maliyeti en çok nerede belirlenir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tasarımda: dikiş sayısı, boyutu ve erişilebilirliğinde."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A-ölçüsü büyütülürse ne olur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İki katına çıkan a-ölçüsü kaynak metalini yaklaşık dört katına çıkarır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kesişen dikişler neden sorun?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gerilme ve hata yoğunlaşır; köşe kesmelerle ayrılmalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Tedarikçiye ne sorulmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tasarımda neyin değişmesi maliyeti düşürüp kaliteyi artırır."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p117_dfm_breadcrumb3">Kaynak için tasarım</span></div>
+    <div class="article-tag" data-i18n="blog_p117_dfm_tag">Tasarım Rehberi · Maliyet</div>
+    <h1 data-i18n="blog_p117_dfm_h1">Kaynak İçin Tasarım (DFM): Fiyatı ve Kaliteyi Çizimde Belirleyen 10 Kural</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-29">2026-10-29</time></span>
+      <span data-i18n="blog_p117_dfm_read">8 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p117_dfm_body">
+<p>Bir kaynaklı parçanın maliyetinin büyük kısmı, ilk kıvılcımdan çok önce, çizim masasında belirlenir. Dikiş sayısı, boyutu, erişilebilirliği ve çarpılmaya yatkınlığı tasarımda kararlaştırılır. Aşağıdaki kurallar, satın almacılar ve tasarımcılar için tedarikçiye gitmeden önce çizimi gözden geçirme listesidir.</p>
+<h2>1. Kaynak Erişimini Düşünün</h2>
+<p>Torç veya elektrodun dikişe doğru açıyla ulaşması gerekir. Dar köşeler, iç içe geçmiş levhalar ve kapalı kutular içindeki dikişler ya yapılamaz ya da kötü yapılır. 3D modelde torç gövdesini düşünerek kontrol etmek yeterli bir başlangıçtır.</p>
+<h2>2. Dikiş Boyutunu Hesapla Belirleyin</h2>
+<p>Köşe kaynağının <a href="kose-kaynagi-a-olcusu.html">a-ölçüsü</a> iki katına çıktığında kaynak metali hacmi yaklaşık dört katına çıkar. "Emin olmak için" büyük yazılan dikişler hem maliyeti hem çarpılmayı artırır.</p>
+<h2>3. Dikiş Sayısını Azaltın</h2>
+<p>Bükülmüş bir sac, iki levhanın kaynakla birleştirilmesinin yerini alabilir. Lazerle tek parça kesilmiş bir kontur, birkaç küçük parçanın kaynağından ucuz ve düzgündür.</p>
+<h2>4. Simetri Kurun</h2>
+<p>Tarafsız eksen etrafında dengeli yerleştirilmiş dikişler çarpılmayı birbirini dengeleyerek azaltır. Tek taraflı yoğun kaynak, parçayı o tarafa çeker (bkz. <a href="kaynak-distorsiyonu.html">kaynak distorsiyonu</a>).</p>
+<h2>5. Dikişleri Kesiştirmeyin</h2>
+<p>Üç dikişin buluştuğu noktalar gerilme ve hata yoğunlaşmasının olduğu yerlerdir. Köşe kesmeler (scallop) ile dikişleri ayırmak hem kaliteyi hem yorulma ömrünü iyileştirir.</p>
+<h2>6. Yüksek Gerilmeli Bölgelerden Uzak Durun</h2>
+<p>Dikişleri mümkün olduğunca en yüksek eğilme gerilmesinin olduğu kesitlerden ve ani kesit değişimlerinden uzaklaştırın. Yorulma yüklü parçalarda bu, <a href="kaynakli-baglantilarda-yorulma-fat-sinifi.html">FAT sınıfını</a> doğrudan etkiler.</p>
+<h2>7. Standart Malzeme ve Profil Kullanın</h2>
+<p>Piyasada kolay bulunan sac kalınlıkları ve profiller teslim süresini kısaltır. Özel kalınlık veya az bulunan bir kalite, tek bir parça yüzünden tüm siparişi bekletebilir.</p>
+<h2>8. Yatay Pozisyonda Kaynak İmkânı Verin</h2>
+<p>Yatay ve oluk pozisyonunda kaynak en hızlı ve en kalitelisidir. Parçanın çevrilebilir veya pozisyonerde döndürülebilir olması, tavan ve dikey kaynağı azaltır.</p>
+<h2>9. Toleransı Fonksiyona Göre Yazın</h2>
+<p>Kaynakla tutulamayacak dar ölçüleri kaynak sonrası işlemeye bırakın ve işleme payı tanımlayın. Fonksiyonu olmayan yüzeylerde <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a> genel toleransları yeterlidir.</p>
+<h2>10. Yüzey İşlemi Baştan Planlayın</h2>
+<p>Galvaniz veya KTL'ye gidecek kapalı profillere drenaj delikleri, bindirmelere kapatma dikişi veya açıklık, boya için keskin kenar yuvarlatma tasarımda belirlenmelidir.</p>
+<h2>Erken Tasarım İncelemesi</h2>
+<p>Tedarikçiye çizim gönderirken "bu tasarımda neyi değiştirirseniz daha ucuz ve daha kaliteli olur?" sorusunu sormak, çoğu zaman en verimli fiyat görüşmesidir.</p>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Teklif aşamasında çizimleri kaynak erişimi, dikiş boyutu, çarpılma ve yüzey işlem açısından inceliyor, maliyet ve kaliteyi etkileyen değişiklik önerilerini teklifle birlikte iletiyoruz. Son karar her zaman tasarım sahibinindir. <a href="../cizime-gore-imalat.html">Çizime göre imalat →</a></p></div>
+</div>
+
+<div data-i18n-html="blog_p117_dfm_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>Kaynaklı parçanın maliyeti en çok nerede belirlenir?</h3><p>Tasarımda: dikiş sayısı, boyutu ve erişilebilirliğinde.</p></div><div class="faq-item"><h3>A-ölçüsü büyütülürse ne olur?</h3><p>İki katına çıkan a-ölçüsü kaynak metalini yaklaşık dört katına çıkarır.</p></div><div class="faq-item"><h3>Kesişen dikişler neden sorun?</h3><p>Gerilme ve hata yoğunlaşır; köşe kesmelerle ayrılmalıdır.</p></div><div class="faq-item"><h3>Tedarikçiye ne sorulmalı?</h3><p>Tasarımda neyin değişmesi maliyeti düşürüp kaliteyi artırır.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p117_dfm_cta_h3">Çiziminizi üretilebilirlik açısından inceleyelim</h3>
+      <p data-i18n="blog_p117_dfm_cta_p">Çizimleri gönderin; önerilerimizle birlikte teklifimizi hazırlayalım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p117_dfm_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynak-maliyeti-hesaplama.html" data-i18n="blog_p17_cost_h1">Kaynak Maliyeti Hesaplama: Tel Sarfiyatı, Ark Süresi ve Metre Başı Maliyet</a></li>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">Köşe Kaynağında a Ölçüsü: Boğaz Kalınlığı, z Ölçüsü ve Doğru Seçim</a></li>
+        <li><a href="kaynak-agzi-hazirligi-iso-9692-1.html" data-i18n="blog_p15_groove_h1">Kaynak Ağzı Hazırlığı: ISO 9692-1 ile V, X, U ve Pah Ağızları</a></li>
+        <li><a href="maliyet-optimizasyon.html" data-i18n="blog_maliyet_optimizasyon_h1">Kaynaklı İmalatta Maliyet Optimizasyonu</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=20261116b"></script>
+<script src="../assets/i18n.js?v=20261116b"></script>
+<script src="../assets/chrome.js?v=20261116b"></script>
+<script src="../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>
