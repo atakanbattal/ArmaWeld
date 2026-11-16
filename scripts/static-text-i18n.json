@@ -1483,5 +1483,14 @@
     "it": "Norme · Tolleranze",
     "nl": "Normen · Toleranties",
     "no": "Standarder · Toleranser"
+  },
+  "Kalite · NDT": {
+    "en": "Quality · NDT",
+    "de": "Qualität · ZfP",
+    "es": "Calidad · END",
+    "fr": "Qualité · CND",
+    "it": "Qualità · CND",
+    "nl": "Kwaliteit · NDO",
+    "no": "Kvalitet · NDT"
   }
 }
