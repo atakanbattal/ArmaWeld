@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_p114_measure_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_p114_measure_title">Kaynaklı Parçada Ölçüm Raporu: Şerit Metreden CMM ve Lazer Tracker'a | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_p114_measure_meta_desc" content="Kaynaklı parça ve konstrüksiyonlarda ölçüm raporu nasıl hazırlanır: balonlu çizim, ölçüm noktaları, el aletleri, CMM, ölçüm kolu, lazer tracker ve 3D tarama. Hangi parça için hangi yöntem, ölçüm sıcaklığı ve referans sistemi." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="aw-post-i18n" content="olcum-raporu-cmm-lazer-tracker-kaynakli-parca" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_p114_measure_og_title" content="Kaynaklı parçada ölçüm raporu ve yöntemler" />
+  <meta property="og:description" data-i18n="blog_p114_measure_meta_desc" content="Kaynaklı parça ve konstrüksiyonlarda ölçüm raporu nasıl hazırlanır: balonlu çizim, ölçüm noktaları, el aletleri, CMM, ölçüm kolu, lazer tracker ve 3D tarama. Hangi parça için hangi yöntem, ölçüm sıcaklığı ve referans sistemi." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-10-12" />
+  <meta property="article:modified_time" content="2026-10-12" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Tedarik Rehberi · Kalite" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=20261116b" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kaynaklı Parçada Ölçüm Raporu: Şerit Metreden CMM ve Lazer Tracker'a",
+  "description": "Kaynaklı parça ve konstrüksiyonlarda ölçüm raporu nasıl hazırlanır: balonlu çizim, ölçüm noktaları, el aletleri, CMM, ölçüm kolu, lazer tracker ve 3D tarama. Hangi parça için hangi yöntem, ölçüm sıcaklığı ve referans sistemi.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Tedarik Rehberi · Kalite",
+  "keywords": "ölçüm raporu kaynaklı parça, boyut raporu, CMM ölçüm kaynaklı, lazer tracker ölçüm, 3D tarama kaynaklı parça, balon çizim ölçüm raporu, ilk parça ölçüm, dimensional report welded parts, Messprotokoll Schweißbaugruppe, informe dimensional, rapport dimensionnel"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynaklı Parçada Ölçüm Raporu: Şerit Metreden CMM ve Lazer Tracker'a",
+      "item": "https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ölçüm raporunda ne olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Balon numarası, nominal, tolerans, ölçülen değer, sonuç, alet ve kalibrasyon bilgisi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Lazer tracker ne zaman gerekir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metrelerce uzunluktaki parçalarda delik ve yüzeylerin göreceli konumu kritik olduğunda."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sıcaklık ölçümü etkiler mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet; uzun çelik parçalarda belirgin uzama olur, ölçüm sıcaklığı kaydedilmelidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Seride her parça ölçülür mü?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genellikle anlaşılan kritik ölçüler belirli sıklıkla ölçülür."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p114_measure_breadcrumb3">Ölçüm raporu</span></div>
+    <div class="article-tag" data-i18n="blog_p114_measure_tag">Tedarik Rehberi · Kalite</div>
+    <h1 data-i18n="blog_p114_measure_h1">Kaynaklı Parçada Ölçüm Raporu: Şerit Metreden CMM ve Lazer Tracker'a</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-12">2026-10-12</time></span>
+      <span data-i18n="blog_p114_measure_read">7 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p114_measure_body">
+<p>Kaynaklı bir parçada boyutlar, kaynak çarpılması yüzünden kesim ve büküm aşamasındaki kadar kesin değildir. Bu nedenle alıcılar ilk numunede ve seri boyunca ölçüm raporu ister. İyi bir rapor yalnızca rakam listesi değildir; neyin, hangi referansa göre, hangi aletle ve hangi koşulda ölçüldüğünü açıkça gösterir.</p>
+<h2>Balonlu Çizim: Raporun Omurgası</h2>
+<p>Çizimdeki her ölçü ve geometrik tolerans numaralandırılır (balonlanır). Rapor bu numaralarla aynı sırayı izler: nominal değer, tolerans, ölçülen değer, sonuç. Böylece alıcı tek bakışta hangi ölçünün sınırda olduğunu görür. <a href="ilk-parca-onayi-kaynakli-imalat.html">İlk parça onayında</a> tüm ölçüler, seride ise anlaşılan kritik ölçüler raporlanır.</p>
+<h2>Yöntemler</h2>
+<ul>
+<li><strong>El aletleri:</strong> Kalibre şerit metre, kumpas, açı ölçer, mastar, filler. Çoğu kaynaklı parça için yeterlidir; ancak büyük parçalarda köşegen, düzlemsellik ve delik konumu gibi ölçümlerde hassasiyet sınırlıdır.</li>
+<li><strong>CMM (koordinat ölçüm makinesi):</strong> Tezgaha sığan, işlenmiş yüzey ve delikleri olan parçalarda mikron düzeyinde hassasiyet sağlar.</li>
+<li><strong>Taşınabilir ölçüm kolu:</strong> Parçanın yanına götürülür; orta boy parçalarda delik konumları ve yüzeyler için pratiktir.</li>
+<li><strong>Lazer tracker:</strong> Büyük şasi, bom, çerçeve ve konstrüksiyonlarda metrelerce mesafede yüksek hassasiyetle nokta ölçer. Bağlantı deliklerinin birbirine göre konumu gibi el aletleriyle doğrulanması zor ölçüler için kullanılır.</li>
+<li><strong>3D tarama:</strong> Parçanın tamamını nokta bulutu olarak alır, CAD modeliyle renkli sapma haritası çıkarır. Çarpılmanın dağılımını görmek için idealdir.</li>
+</ul>
+<h2>Hangi Parça İçin Hangisi?</h2>
+<p>Seçim, toleransa ve parça boyutuna göre yapılır. <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a> genel toleranslarıyla çizilmiş bir çerçeve için el aletleri yeterlidir. Kaynak sonrası işlenmiş yüzeyleri ve dar konum toleransı olan bir makine gövdesi için CMM veya ölçüm kolu, metrelerce uzunluktaki bir bom veya şasi için lazer tracker uygundur.</p>
+<h2>Gözden Kaçan Ayrıntılar</h2>
+<ul>
+<li><strong>Referans sistemi:</strong> Ölçümler çizimdeki datum'lara göre yapılmalıdır; aksi halde aynı parça iki farklı sonuç verebilir.</li>
+<li><strong>Sıcaklık:</strong> Uzun çelik parçalar sıcaklıkla belirgin şekilde uzar; kaynak sonrası soğumadan ölçüm yapılmamalı, büyük parçalarda ölçüm sıcaklığı kaydedilmelidir.</li>
+<li><strong>Destekleme:</strong> Uzun parçalar nasıl desteklendiğine göre sehim yapar; ölçüm sırasında destek noktaları belirtilmelidir.</li>
+<li><strong>Kalibrasyon:</strong> Kullanılan aletlerin kalibrasyon durumu raporda görünmelidir.</li>
+</ul>
+<h2>Teklif Aşamasında Netleştirilecekler</h2>
+<p>Hangi ölçülerin raporlanacağı, ilk numune ve seri için ölçüm sıklığı, yöntem şartı ve rapor formatı. 3D tarama veya lazer tracker gibi ek ölçümler maliyete etki eder.</p>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Ölçüm raporlarını balonlu çizim üzerinden hazırlıyoruz. CMM, lazer tracker veya 3D tarama gereken işlerde ölçümü iş ortaklarımızla koordine ediyor ve gerekliliği teklif aşamasında belirtiyoruz. <a href="../cizime-gore-imalat.html">Çizime göre imalat →</a></p></div>
+</div>
+
+<div data-i18n-html="blog_p114_measure_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>Ölçüm raporunda ne olmalı?</h3><p>Balon numarası, nominal, tolerans, ölçülen değer, sonuç, alet ve kalibrasyon bilgisi.</p></div><div class="faq-item"><h3>Lazer tracker ne zaman gerekir?</h3><p>Metrelerce uzunluktaki parçalarda delik ve yüzeylerin göreceli konumu kritik olduğunda.</p></div><div class="faq-item"><h3>Sıcaklık ölçümü etkiler mi?</h3><p>Evet; uzun çelik parçalarda belirgin uzama olur, ölçüm sıcaklığı kaydedilmelidir.</p></div><div class="faq-item"><h3>Seride her parça ölçülür mü?</h3><p>Genellikle anlaşılan kritik ölçüler belirli sıklıkla ölçülür.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p114_measure_cta_h3">Ölçüm raporlu kaynaklı parça mı?</h3>
+      <p data-i18n="blog_p114_measure_cta_p">Çizimleri ve rapor şartlarını gönderin; teklifimizi hazırlayalım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p114_measure_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Kaynaklı İmalat Toleransları: EN ISO 13920 Tolerans Tablosu ve Sınıfları</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">ISO 13920 Genel Toleranslar: Kaynaklı İmalat Tolerans Tablosu ve Doğru Sınıf Seçimi</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">İlk Parça Onayı (FAI) Nedir? Kaynaklı İmalatta Seri Üretime Geçmeden Önce Ne Kontrol Edilir?</a></li>
+        <li><a href="ppap-kaynakli-parca-onayi.html" data-i18n="blog_p11_ppap_h1">PPAP Nedir? Kaynaklı Parçalar İçin Üretim Parçası Onay Süreci</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=20261116b"></script>
+<script src="../assets/i18n.js?v=20261116b"></script>
+<script src="../assets/chrome.js?v=20261116b"></script>
+<script src="../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>

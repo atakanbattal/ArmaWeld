@@ -1,0 +1,251 @@
+<!DOCTYPE html><html lang="no" data-aw-page-lang="no"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GD&amp;T på sveisedeler: slik skrives realistiske geometriske toleranser | ArmaWeld</title>
+  <meta name="description" content="Geometrisk toleransesetting (ISO 1101 / GD&amp;T) på sveisede deler og konstruksjoner: valg av referanser, planhet, vinkelrethet, parallellitet og posisjon, effekten av sveisedeformasjon, flater som maskineres og toleranser som bare øker kostnaden.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="gdt-geometrik-tolerans-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/gdt-geometrik-tolerans-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="GD&amp;T på sveisedeler: slik skrives realistiske geometriske toleranser | ArmaWeld">
+  <meta property="og:description" content="Geometrisk toleransesetting (ISO 1101 / GD&amp;T) på sveisede deler og konstruksjoner: valg av referanser, planhet, vinkelrethet, parallellitet og posisjon, effekten av sveisedeformasjon, flater som maskineres og toleranser som bare øker kostnaden.">
+  <meta property="og:url" content="https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-10-16">
+  <meta property="article:modified_time" content="2026-10-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Konstruksjonsguide · Toleranser">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "GD&T på sveisedeler: slik skrives realistiske geometriske toleranser",
+  "description": "Geometrisk toleransesetting (ISO 1101 / GD&T) på sveisede deler og konstruksjoner: valg av referanser, planhet, vinkelrethet, parallellitet og posisjon, effekten av sveisedeformasjon, flater som maskineres og toleranser som bare øker kostnaden.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-10-16",
+  "dateModified": "2026-10-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html",
+  "inLanguage": "no",
+  "articleSection": "Konstruksjonsguide · Toleranser",
+  "keywords": "GD&T kaynaklı parça, geometrik toleranslandırma kaynak, düzlemsellik toleransı kaynaklı, pozisyon toleransı delik, datum seçimi kaynaklı konstrüksiyon, ISO 1101 kaynak, GD&T welded parts, Form- und Lagetoleranzen Schweißteil, tolerancias geométricas soldadura, tolérancement géométrique pièce soudée"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/no/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/no/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "GD&T på sveisedeler: slik skrives realistiske geometriske toleranser",
+      "item": "https://www.armaweld.com/no/blog/gdt-geometrik-tolerans-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blogg</a> &nbsp;/&nbsp; <span data-i18n="blog_p115_gdt_breadcrumb3">GD&amp;T sveisedeler</span></div>
+    <div class="article-tag" data-i18n="blog_p115_gdt_tag">Konstruksjonsguide · Toleranser</div>
+    <h1 data-i18n="blog_p115_gdt_h1">GD&amp;T på sveisedeler: slik skrives realistiske geometriske toleranser</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-16">2026-10-16</time></span>
+      <span data-i18n="blog_p115_gdt_read">7 min lesing</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p115_gdt_body"><p>Konstruktører med bakgrunn fra maskinering har lett for å gi sveisedeler like stramme geometriske toleranser. Men sveising endrer form med varme. Godt satt GD&amp;T beskytter funksjonen og avgjør produserbarhet og pris; dårlig satt GD&amp;T gir avvik eller unødvendig maskinering og retting.</p>
+<h2>Start med funksjonen</h2>
+<p>Hver toleranse bør bygge på et monterings- eller funksjonsbehov: hva ligger denne flaten mot? Hva boltes dette hullet til? Flater uten funksjon kan stå med generelle toleranser etter <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a>. Stramme toleranser bare der de virkelig trengs.</p>
+<h2>Valg av referanser</h2>
+<p>Referansene bør gjenspeile hvordan delen posisjoneres i monteringen. På en sveisedel er en rå plateflate eller profilkant ofte ikke pålitelig; den deformeres og bølger. En maskinert anleggsflate eller et hullpar er som regel en bedre referanse. Måling og maskinering bør bruke de samme referansene.</p>
+<h2>Vanlige toleranser og hva som er realistisk i sveising</h2>
+<ul>
+<li><strong>Planhet:</strong> begrenset i sveiset tilstand på store flater. Trenger en anleggsflate en stram verdi, maskineres den etter sveising (se <a href="kaynak-sonrasi-talasli-isleme.html">maskinering etter sveising</a>).</li>
+<li><strong>Vinkelrethet og parallellitet:</strong> godt kontrollerbart med jigger, men vinkeldeformasjon summeres på lange armer.</li>
+<li><strong>Posisjon:</strong> hull laget før sveising forskyves. Hull med stram posisjon bores eller maskineres etter sveising.</li>
+<li><strong>Profil:</strong> på komplekse konturer; avhenger av skjærenøyaktighet og kan endres etter sveising.</li>
+</ul>
+<h2>Før eller etter sveising?</h2>
+<p>Tegningen bør angi i hvilken fase et mål oppnås. Flater som maskineres etter sveising får maskineringstillegg og vises separat. Ellers prøver verkstedet å holde et maskineringsmål med sveising, med varierende resultat.</p>
+<h2>Krav som bare øker kostnaden</h2>
+<ul>
+<li>Én stram generell toleranse for hele tegningen.</li>
+<li>Planhet på utvendige flater uten funksjon.</li>
+<li>Stram posisjon på hull som ikke etterbearbeides.</li>
+<li>En rå, deformasjonsutsatt flate som referanse.</li>
+</ul>
+<h2>Snakk tidlig med leverandøren</h2>
+<p>En leverandør som går gjennom toleransene i tilbudsfasen, foreslår hvilke mål som holdes med sveising og hvilke med maskinering. Den samtalen forhindrer avvik og diskusjoner i serien.</p>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi går gjennom toleransene på tegningene i tilbudsfasen og foreslår maskinering eller jigger for mål sveising ikke kan holde, sammen med tilbudet. Maskinering koordineres med partnere. <a href="../cizime-gore-imalat.html">Produksjon etter tegning →</a></p></div></div>
+
+<div data-i18n-html="blog_p115_gdt_faq"><h2>Ofte stilte spørsmål</h2><div class="faq-item"><h3>Skal sveisedeler ha GD&amp;T?</h3><p>Ja, men bare på funksjonelle flater og hull, med realistiske verdier.</p></div><div class="faq-item"><h3>Kan en rå plateflate være referanse?</h3><p>Ofte ikke pålitelig; maskinerte flater eller hull er bedre.</p></div><div class="faq-item"><h3>Når lages hull med stram posisjon?</h3><p>Etter sveising; hull laget før forskyves.</p></div><div class="faq-item"><h3>Hvordan reduseres toleransekostnaden?</h3><p>Ved å gå tilbake til generelle toleranser der det ikke er funksjon.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p115_gdt_cta_h3">La oss vurdere produserbarheten sammen</h3>
+      <p data-i18n="blog_p115_gdt_cta_p">Send tegninger; vi utarbeider tilbud med toleransegjennomgang.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p115_gdt_cta_btn">Be om tilbud →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Relaterte artikler">
+      <h2 data-i18n="blog_related_h">Relaterte artikler</h2>
+      <ul>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Dimensjonstoleranser i stålkonstruksjon: guide til EN ISO 13920</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">ISO 13920 generelle toleranser: tabell for sveisekonstruksjoner og valg av riktig klasse</a></li>
+        <li><a href="kaynak-sonrasi-talasli-isleme.html" data-i18n="blog_p54_postmachining_h1">Maskinering etter sveising: få sveisede deler til presisjonsmål</a></li>
+        <li><a href="teknik-resimde-kaynak-bilgileri.html" data-i18n="blog_p16_drawing_h1">Sveiseinformasjon på tegningen: 10 punkter hver tegning av en sveiset del trenger</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Tilbake til bloggen</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

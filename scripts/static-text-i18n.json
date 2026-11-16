@@ -2248,5 +2248,32 @@
     "it": "Guida tecnica · Qualità",
     "nl": "Technische gids · Kwaliteit",
     "no": "Teknisk guide · Kvalitet"
+  },
+  "Tedarik Rehberi · Kalite": {
+    "en": "Sourcing Guide · Quality",
+    "de": "Einkaufsleitfaden · Qualität",
+    "es": "Guía de compras · Calidad",
+    "fr": "Guide achats · Qualité",
+    "it": "Guida acquisti · Qualità",
+    "nl": "Inkoopgids · Kwaliteit",
+    "no": "Innkjøpsguide · Kvalitet"
+  },
+  "Tasarım Rehberi · Tolerans": {
+    "en": "Design Guide · Tolerances",
+    "de": "Konstruktionsleitfaden · Toleranzen",
+    "es": "Guía de diseño · Tolerancias",
+    "fr": "Guide de conception · Tolérances",
+    "it": "Guida alla progettazione · Tolleranze",
+    "nl": "Ontwerpgids · Toleranties",
+    "no": "Konstruksjonsguide · Toleranser"
+  },
+  "Teknik Rehber · Birleştirme": {
+    "en": "Technical Guide · Joining",
+    "de": "Technischer Leitfaden · Fügen",
+    "es": "Guía técnica · Unión",
+    "fr": "Guide technique · Assemblage",
+    "it": "Guida tecnica · Giunzione",
+    "nl": "Technische gids · Verbinden",
+    "no": "Teknisk guide · Sammenføyning"
   }
 }

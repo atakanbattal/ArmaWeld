@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="fr" data-aw-page-lang="fr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rapport dimensionnel des pièces soudées : du mètre ruban à la MMT et au laser tracker | ArmaWeld</title>
+  <meta name="description" content="Comment établir un rapport dimensionnel pour pièces et structures soudées : plan bullé, points de mesure, outils manuels, MMT, bras de mesure, laser tracker et scan 3D. Quelle méthode pour quelle pièce, température et système de référence.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="olcum-raporu-cmm-lazer-tracker-kaynakli-parca">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Rapport dimensionnel des pièces soudées : du mètre ruban à la MMT et au laser tracker | ArmaWeld">
+  <meta property="og:description" content="Comment établir un rapport dimensionnel pour pièces et structures soudées : plan bullé, points de mesure, outils manuels, MMT, bras de mesure, laser tracker et scan 3D. Quelle méthode pour quelle pièce, température et système de référence.">
+  <meta property="og:url" content="https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-10-12">
+  <meta property="article:modified_time" content="2026-10-12">
+  <meta property="article:author" content="ArmaWeld Ingénierie">
+  <meta property="article:section" content="Guide achats · Qualité">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rapport dimensionnel des pièces soudées : du mètre ruban à la MMT et au laser tracker",
+  "description": "Comment établir un rapport dimensionnel pour pièces et structures soudées : plan bullé, points de mesure, outils manuels, MMT, bras de mesure, laser tracker et scan 3D. Quelle méthode pour quelle pièce, température et système de référence.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Ingénierie",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html"
+  },
+  "url": "https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html",
+  "inLanguage": "fr",
+  "articleSection": "Guide achats · Qualité",
+  "keywords": "ölçüm raporu kaynaklı parça, boyut raporu, CMM ölçüm kaynaklı, lazer tracker ölçüm, 3D tarama kaynaklı parça, balon çizim ölçüm raporu, ilk parça ölçüm, dimensional report welded parts, Messprotokoll Schweißbaugruppe, informe dimensional, rapport dimensionnel"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rapport dimensionnel des pièces soudées : du mètre ruban à la MMT et au laser tracker",
+      "item": "https://www.armaweld.com/fr/blog/olcum-raporu-cmm-lazer-tracker-kaynakli-parca.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p114_measure_breadcrumb3">Rapport dimensionnel</span></div>
+    <div class="article-tag" data-i18n="blog_p114_measure_tag">Guide achats · Qualité</div>
+    <h1 data-i18n="blog_p114_measure_h1">Rapport dimensionnel des pièces soudées : du mètre ruban à la MMT et au laser tracker</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-10-12">2026-10-12</time></span>
+      <span data-i18n="blog_p114_measure_read">7 min de lecture</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Ingénierie</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p114_measure_body"><p>Sur une pièce soudée, les cotes sont moins exactes qu'après découpe et pliage, à cause des déformations. Les acheteurs demandent donc un rapport dimensionnel à l'échantillon initial et pendant la série. Un bon rapport n'est pas qu'une liste de chiffres : il montre ce qui a été mesuré, par rapport à quelle référence, avec quel instrument et dans quelles conditions.</p>
+<h2>Le plan bullé : colonne vertébrale du rapport</h2>
+<p>Chaque cote et tolérance géométrique du plan est numérotée (bullée). Le rapport suit ces numéros : nominal, tolérance, valeur mesurée, résultat. L'acheteur voit d'un coup d'œil quelle cote est en limite. À l'<a href="ilk-parca-onayi-kaynakli-imalat.html">approbation de première pièce</a>, toutes les cotes ; en série, les cotes critiques convenues.</p>
+<h2>Méthodes</h2>
+<ul>
+<li><strong>Outils manuels :</strong> mètre étalonné, pied à coulisse, rapporteur, calibres, cales. Suffisants pour la plupart des pièces soudées, mais limités pour diagonales, planéité et positions de trous sur grandes pièces.</li>
+<li><strong>MMT :</strong> précision au micron pour pièces tenant sur la table, avec faces et alésages usinés.</li>
+<li><strong>Bras de mesure portable :</strong> amené à la pièce ; pratique pour trous et faces sur pièces moyennes.</li>
+<li><strong>Laser tracker :</strong> mesure des points sur plusieurs mètres avec grande précision sur châssis, flèches, bâtis et structures ; idéal pour la position relative des trous de liaison.</li>
+<li><strong>Scan 3D :</strong> capture toute la pièce en nuage de points et produit une carte d'écarts colorée par rapport à la CAO. Idéal pour voir la répartition des déformations.</li>
+</ul>
+<h2>Quelle méthode pour quelle pièce ?</h2>
+<p>Selon tolérance et taille. Un cadre aux tolérances générales <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a> se contrôle aux outils manuels. Un bâti de machine aux faces usinées après soudage et tolérances de position serrées demande MMT ou bras ; une flèche ou un châssis de plusieurs mètres, le laser tracker.</p>
+<h2>Détails souvent oubliés</h2>
+<ul>
+<li><strong>Système de référence :</strong> mesurer selon les références du plan ; sinon une même pièce donne deux résultats.</li>
+<li><strong>Température :</strong> les pièces longues en acier se dilatent nettement ; ne pas mesurer avant refroidissement et noter la température pour les grandes pièces.</li>
+<li><strong>Appuis :</strong> les pièces longues fléchissent selon leurs appuis ; les préciser.</li>
+<li><strong>Étalonnage :</strong> l'état d'étalonnage des instruments doit figurer au rapport.</li>
+</ul>
+<h2>À fixer au devis</h2>
+<p>Cotes à rapporter, fréquence de mesure en échantillon initial et en série, exigences de méthode et format. Les mesures supplémentaires (scan 3D, laser tracker) influent sur le coût.</p>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous établissons les rapports dimensionnels à partir d'un plan bullé. Lorsque MMT, laser tracker ou scan 3D sont nécessaires, nous coordonnons la mesure avec nos partenaires et l'indiquons dès le devis. <a href="../cizime-gore-imalat.html">Fabrication sur plan →</a></p></div></div>
+
+<div data-i18n-html="blog_p114_measure_faq"><h2>Questions fréquentes</h2><div class="faq-item"><h3>Que contient un rapport dimensionnel ?</h3><p>Numéro de bulle, nominal, tolérance, valeur mesurée, résultat, instrument et étalonnage.</p></div><div class="faq-item"><h3>Quand faut-il un laser tracker ?</h3><p>Quand la position relative de trous et faces sur plusieurs mètres est critique.</p></div><div class="faq-item"><h3>La température compte-t-elle ?</h3><p>Oui ; l'acier long se dilate nettement, noter la température.</p></div><div class="faq-item"><h3>Mesure-t-on chaque pièce de série ?</h3><p>En général, les cotes critiques convenues à une fréquence fixée.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p114_measure_cta_h3">Pièces soudées avec rapport dimensionnel ?</h3>
+      <p data-i18n="blog_p114_measure_cta_p">Envoyez plans et exigences de rapport ; nous préparerons notre devis.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p114_measure_cta_btn">Demander un devis →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articles associés">
+      <h2 data-i18n="blog_related_h">Articles associés</h2>
+      <ul>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">EN ISO 13920 : Tolérances dimensionnelles des constructions soudées</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">Tolérances générales ISO 13920 : tableau pour constructions soudées et choix de la classe</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">Qu'est-ce que l'inspection premier article (FAI) ? Ce qu'il faut contrôler sur une pièce soudée avant la série</a></li>
+        <li><a href="ppap-kaynakli-parca-onayi.html" data-i18n="blog_p11_ppap_h1">Qu’est-ce que le PPAP ? Le processus de validation des pièces soudées de série</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Retour au Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
