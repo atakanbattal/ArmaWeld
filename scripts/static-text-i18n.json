@@ -1726,5 +1726,41 @@
     "it": "Qualità · Prevenzione cricche",
     "nl": "Kwaliteit · Scheurpreventie",
     "no": "Kvalitet · Sprekkforebygging"
+  },
+  "Üretim · Çarpılma": {
+    "en": "Production · Distortion",
+    "de": "Fertigung · Verzug",
+    "es": "Producción · Deformación",
+    "fr": "Production · Déformations",
+    "it": "Produzione · Deformazioni",
+    "nl": "Productie · Vervorming",
+    "no": "Produksjon · Deformasjon"
+  },
+  "Üretim · Puntalama": {
+    "en": "Production · Tack Welding",
+    "de": "Fertigung · Heften",
+    "es": "Producción · Punteado",
+    "fr": "Production · Pointage",
+    "it": "Produzione · Puntatura",
+    "nl": "Productie · Hechten",
+    "no": "Produksjon · Heftsveising"
+  },
+  "Ticari · Sözleşme": {
+    "en": "Commercial · Contract",
+    "de": "Kaufmännisch · Vertrag",
+    "es": "Comercial · Contrato",
+    "fr": "Commercial · Contrat",
+    "it": "Commerciale · Contratto",
+    "nl": "Commercieel · Contract",
+    "no": "Kommersielt · Kontrakt"
+  },
+  "Ticari · Lojistik": {
+    "en": "Commercial · Logistics",
+    "de": "Kaufmännisch · Logistik",
+    "es": "Comercial · Logística",
+    "fr": "Commercial · Logistique",
+    "it": "Commerciale · Logistica",
+    "nl": "Commercieel · Logistiek",
+    "no": "Kommersielt · Logistikk"
   }
 }

@@ -1,0 +1,257 @@
+<!DOCTYPE html><html lang="de" data-aw-page-lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flammrichten: Regeln für das Korrigieren von Schweißverzug mit Wärme | ArmaWeld</title>
+  <meta name="description" content="Wie funktioniert Flammrichten? Punkt-, Strich- und Keilwärmung, Temperaturgrenzen je Stahlsorte, Temperaturmessung, Abkühlung, Besonderheiten bei Edelstahl und Aluminium und was EN 1090-2 für das Richten verlangt.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="alevle-dogrultma-kaynak-carpilmasi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/alevle-dogrultma-kaynak-carpilmasi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Flammrichten: Regeln für das Korrigieren von Schweißverzug mit Wärme | ArmaWeld">
+  <meta property="og:description" content="Wie funktioniert Flammrichten? Punkt-, Strich- und Keilwärmung, Temperaturgrenzen je Stahlsorte, Temperaturmessung, Abkühlung, Besonderheiten bei Edelstahl und Aluminium und was EN 1090-2 für das Richten verlangt.">
+  <meta property="og:url" content="https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Fertigung · Verzug">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Flammrichten: Regeln für das Korrigieren von Schweißverzug mit Wärme",
+  "description": "Wie funktioniert Flammrichten? Punkt-, Strich- und Keilwärmung, Temperaturgrenzen je Stahlsorte, Temperaturmessung, Abkühlung, Besonderheiten bei Edelstahl und Aluminium und was EN 1090-2 für das Richten verlangt.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html"
+  },
+  "url": "https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html",
+  "inLanguage": "de",
+  "articleSection": "Fertigung · Verzug",
+  "keywords": "alevle doğrultma, kaynak çarpılması düzeltme, ısıl doğrultma, kama ısıtma, nokta ısıtma, çizgi ısıtma, doğrultma sıcaklığı, flame straightening, Flammrichten, dressage à la flamme"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/de/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flammrichten: Regeln für das Korrigieren von Schweißverzug mit Wärme",
+      "item": "https://www.armaweld.com/de/blog/alevle-dogrultma-kaynak-carpilmasi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p37_flame_breadcrumb3">Flammrichten</span></div>
+    <div class="article-tag" data-i18n="blog_p37_flame_tag">Fertigung · Verzug</div>
+    <h1 data-i18n="blog_p37_flame_h1">Flammrichten: Regeln für das Korrigieren von Schweißverzug mit Wärme</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p37_flame_read">6 Min. Lesezeit</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p37_flame_body"><p>Selbst die beste Schweißfolge verhindert Verzug nicht vollständig. Für Träger, Rahmen oder Bleche außerhalb der Toleranz ist <strong>Flammrichten</strong> eine der gängigsten Korrekturmethoden. Richtig ausgeführt ist es schnell und wirksam; falsch ausgeführt kann es die mechanischen Eigenschaften schädigen. Flammrichten ist daher ebenso ein kontrollierter Prozess wie eine handwerkliche Fertigkeit.</p>
+<h2>Funktionsweise</h2>
+<p>Ein kleiner Bereich des Stahls wird schnell erwärmt. Er will sich ausdehnen, wird aber vom kalten Umfeld daran gehindert und dadurch bleibend „gestaucht“. Beim Abkühlen schrumpft er und biegt das Teil zur erwärmten Seite. Flammrichten nutzt also denselben Mechanismus, der Schweißverzug verursacht – kontrolliert und in Gegenrichtung (siehe <a href="kaynak-distorsiyonu.html">Schweißverzug</a>).</p>
+<h2>Wärmemuster</h2>
+<table class="data-table"><thead><tr><th>Muster</th><th>Einsatz</th><th>Wirkung</th></tr></thead><tbody>
+<tr><td>Punktwärmung</td><td>Beulen und Welligkeit bei Dünnblech</td><td>Strafft die Fläche durch örtliche Schrumpfung</td></tr>
+<tr><td>Strichwärmung</td><td>Winkelverzug von Blechen, Flanschverdrehung</td><td>Winkelkorrektur entlang der Wärmelinie</td></tr>
+<tr><td>Keilwärmung</td><td>Krümmung von Trägern und Profilen</td><td>Biegt zur Keilbasis hin</td></tr>
+</tbody></table>
+<p>Bei der Keilwärmung liegt die Keilspitze an der neutralen Faser, die Basis an der zu korrigierenden Kante; gewärmt wird von der Spitze zur Basis. Steg und Flansch werden gemeinsam gewärmt, um den ganzen Querschnitt zu richten.</p>
+<h2>Temperaturgrenzen</h2>
+<p>Die wichtigste Regel ist, die Höchsttemperatur nicht zu überschreiten. Sie hängt vom Herstellweg des Stahls ab:</p>
+<ul>
+<li><strong>Warmgewalzte und normalisierte Stähle (z. B. S235, S355 +AR/+N):</strong> meist Obergrenze um etwa 650 °C; manche Quellen lassen kurzzeitig etwas mehr zu.</li>
+<li><strong>Thermomechanisch gewalzte Stähle (M, ML):</strong> niedrigere Grenzen; hohe Temperaturen können das feinkörnige Gefüge und die erwalzte Festigkeit zerstören.</li>
+<li><strong>Vergütete Stähle (Q, QL):</strong> unterhalb der Anlasstemperatur bleiben, sonst sinkt die Festigkeit.</li>
+</ul>
+<p>Genaue Werte liefern Stahlhersteller und Spezifikation (siehe <a href="s355jr-s355j2-s355k2-s355nl-farki.html">S355-Güten</a>). EN 1090-2 verlangt, dass Verfahren, Höchsttemperatur und Abkühlung beim Flammrichten festgelegt und dokumentiert werden.</p>
+<h2>Wie wird die Temperatur geprüft?</h2>
+<p>Die Glühfarbe ist je nach Umgebungslicht ein ungenauer Indikator. Verwendet werden Temperaturmessstifte, Kontaktthermometer oder Infrarotmessung; bei Infrarot ist der Emissionsgrad richtig einzustellen.</p>
+<h2>Abkühlung</h2>
+<p>Baustähle kühlen in der Regel an Luft ab. Schnelles Abkühlen mit Wasser kann bei manchen Stählen harte, spröde Zonen erzeugen und wird nur angewandt, wenn die Spezifikation es zulässt; bei hochfesten Stählen wird es besonders vermieden.</p>
+<h2>Edelstahl und Aluminium</h2>
+<ul>
+<li><strong>Austenitischer Edelstahl:</strong> hohe Wärmeausdehnung und geringe Leitfähigkeit sorgen für starke Reaktion. Längeres Verweilen bei etwa 450–850 °C kann Karbidausscheidung und geringere Korrosionsbeständigkeit verursachen; L-Güten bevorzugen und kurz wärmen. Anlauffarben anschließend entfernen.</li>
+<li><strong>Aluminium:</strong> niedriger Schmelzpunkt und keine Glühfarbe, die Temperatur ist mit bloßem Auge nicht erkennbar. Bei aushärtbaren Legierungen kann Richten Festigkeit kosten; meist wird mechanisch gerichtet.</li>
+</ul>
+<h2>Erst vermeiden, dann korrigieren</h2>
+<p>Flammrichten bedeutet Mehraufwand und Risiko. Verzug von Beginn an durch Vorbiegen, passende Schweißfolge, Vorrichtungen und ausgewogene Nahtanordnung zu begrenzen, ist oft wirtschaftlicher. Wird gerichtet, bestätigt eine anschließende Maßkontrolle die Einhaltung der Toleranz (z. B. Klassen nach <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a>).</p>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Verzug begrenzen wir zuerst über Schweißfolge, Vorbiegen und Vorrichtungen. Ist Flammrichten nötig, halten und messen wir die Temperatur innerhalb der für die Stahlsorte zulässigen Grenze und dokumentieren die Maße nach dem Richten. <a href="../kaynakli-imalat.html">Schweißtechnische Fertigung →</a></p></div></div>
+
+<div data-i18n-html="blog_p37_flame_faq"><h2>Häufige Fragen</h2><div class="faq-item"><h3>Was ist Flammrichten?</h3><p>Ein Verfahren, bei dem ein Stahlbereich schnell erwärmt wird und die Schrumpfung beim Abkühlen das Teil zurückbiegt.</p></div><div class="faq-item"><h3>Welche Temperatur beim Flammrichten?</h3><p>Je nach Stahl. Bei warmgewalzten und normalisierten Baustählen meist eine Obergrenze um etwa 650 °C; bei thermomechanischen und vergüteten Stählen niedriger. Maßgebend sind Herstellerangabe und Spezifikation.</p></div><div class="faq-item"><h3>Wird nach dem Richten mit Wasser gekühlt?</h3><p>In der Regel nicht, sofern die Spezifikation es nicht erlaubt; Baustähle kühlen an Luft. Bei hochfesten Stählen wird Wasserkühlung besonders vermieden.</p></div><div class="faq-item"><h3>Kann man Edelstahl flammrichten?</h3><p>Ja, mit Vorsicht: kurz wärmen, L-Güten verwenden und Anlauffarben entfernen; langes Verweilen bei 450–850 °C kann die Korrosionsbeständigkeit senken.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p37_flame_cta_h3">Maßhaltig gelieferte Schweißteile</h3>
+      <p data-i18n="blog_p37_flame_cta_p">Senden Sie Zeichnung und Toleranzen; wir bieten mit Verzugs- und Maßkontrollplan an.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p37_flame_cta_btn">Angebot anfordern →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Verwandte Artikel">
+      <h2 data-i18n="blog_related_h">Verwandte Artikel</h2>
+      <ul>
+        <li><a href="kaynak-distorsiyonu.html" data-i18n="blog_kaynak_distors_h1">Schweißverzug: Vermeidung und Korrekturverfahren</a></li>
+        <li><a href="s355jr-s355j2-s355k2-s355nl-farki.html" data-i18n="blog_p23_s355_h1">S355JR, S355J2, S355K2 und S355NL im Vergleich: Welche S355-Güte wählen?</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">ISO 13920 Allgemeintoleranzen: Toleranztabelle für Schweißkonstruktionen und die richtige Klasse</a></li>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Maßtoleranzen im Stahlbau: Leitfaden zu EN ISO 13920</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Zurück zum Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
