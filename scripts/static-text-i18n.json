@@ -1492,5 +1492,41 @@
     "it": "Qualità · CND",
     "nl": "Kwaliteit · NDO",
     "no": "Kvalitet · NDT"
+  },
+  "Kalite · Proje": {
+    "en": "Quality · Projects",
+    "de": "Qualität · Projekte",
+    "es": "Calidad · Proyectos",
+    "fr": "Qualité · Projets",
+    "it": "Qualità · Progetti",
+    "nl": "Kwaliteit · Projecten",
+    "no": "Kvalitet · Prosjekter"
+  },
+  "Kalite · Dokümantasyon": {
+    "en": "Quality · Documentation",
+    "de": "Qualität · Dokumentation",
+    "es": "Calidad · Documentación",
+    "fr": "Qualité · Documentation",
+    "it": "Qualità · Documentazione",
+    "nl": "Kwaliteit · Documentatie",
+    "no": "Kvalitet · Dokumentasjon"
+  },
+  "Kalite · Otomotiv": {
+    "en": "Quality · Automotive",
+    "de": "Qualität · Automotive",
+    "es": "Calidad · Automoción",
+    "fr": "Qualité · Automobile",
+    "it": "Qualità · Automotive",
+    "nl": "Kwaliteit · Automotive",
+    "no": "Kvalitet · Bil"
+  },
+  "Standartlar · Personel": {
+    "en": "Standards · Personnel",
+    "de": "Normen · Personal",
+    "es": "Normas · Personal",
+    "fr": "Normes · Personnel",
+    "it": "Norme · Personale",
+    "nl": "Normen · Personeel",
+    "no": "Standarder · Personell"
   }
 }
