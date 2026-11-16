@@ -1690,5 +1690,41 @@
     "it": "Processi di saldatura · MMA",
     "nl": "Lasprocessen · Elektrodelassen",
     "no": "Sveisemetoder · Elektrodesveising"
+  },
+  "Üretim · Fikstür": {
+    "en": "Production · Fixtures",
+    "de": "Fertigung · Vorrichtungen",
+    "es": "Producción · Utillajes",
+    "fr": "Production · Gabarits",
+    "it": "Produzione · Maschere",
+    "nl": "Productie · Mallen",
+    "no": "Produksjon · Jigger"
+  },
+  "Kaynak Yöntemleri · MIG/MAG": {
+    "en": "Welding Processes · MIG/MAG",
+    "de": "Schweißverfahren · MSG",
+    "es": "Procesos de soldadura · MIG/MAG",
+    "fr": "Procédés de soudage · MIG/MAG",
+    "it": "Processi di saldatura · MIG/MAG",
+    "nl": "Lasprocessen · MIG/MAG",
+    "no": "Sveisemetoder · MIG/MAG"
+  },
+  "Kalite · Yüzey İşlemi": {
+    "en": "Quality · Surface Finish",
+    "de": "Qualität · Oberfläche",
+    "es": "Calidad · Acabado superficial",
+    "fr": "Qualité · État de surface",
+    "it": "Qualità · Finitura superficiale",
+    "nl": "Kwaliteit · Oppervlakteafwerking",
+    "no": "Kvalitet · Overflate"
+  },
+  "Kalite · Çatlak Önleme": {
+    "en": "Quality · Crack Prevention",
+    "de": "Qualität · Rissvermeidung",
+    "es": "Calidad · Prevención de fisuras",
+    "fr": "Qualité · Prévention des fissures",
+    "it": "Qualità · Prevenzione cricche",
+    "nl": "Kwaliteit · Scheurpreventie",
+    "no": "Kvalitet · Sprekkforebygging"
   }
 }

@@ -1,0 +1,263 @@
+<!DOCTYPE html><html lang="it" data-aw-page-lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saldatura MIG/MAG pulsata: modi di trasferimento e quando l’arco pulsato fa la differenza | ArmaWeld</title>
+  <meta name="description" content="Che differenza c’è tra corto circuito, globulare, spray e arco pulsato? Come funziona il MIG/MAG pulsato, dove aiuta, quale gas richiede e perché l’apporto termico in pulsato va calcolato con la potenza istantanea.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="pulse-mig-mag-kaynagi-ark-modlari">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/pulse-mig-mag-kaynagi-ark-modlari.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Saldatura MIG/MAG pulsata: modi di trasferimento e quando l’arco pulsato fa la differenza | ArmaWeld">
+  <meta property="og:description" content="Che differenza c’è tra corto circuito, globulare, spray e arco pulsato? Come funziona il MIG/MAG pulsato, dove aiuta, quale gas richiede e perché l’apporto termico in pulsato va calcolato con la potenza istantanea.">
+  <meta property="og:url" content="https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Processi di saldatura · MIG/MAG">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Saldatura MIG/MAG pulsata: modi di trasferimento e quando l’arco pulsato fa la differenza",
+  "description": "Che differenza c’è tra corto circuito, globulare, spray e arco pulsato? Come funziona il MIG/MAG pulsato, dove aiuta, quale gas richiede e perché l’apporto termico in pulsato va calcolato con la potenza istantanea.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html"
+  },
+  "url": "https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html",
+  "inLanguage": "it",
+  "articleSection": "Processi di saldatura · MIG/MAG",
+  "keywords": "pulse kaynak, pulse MIG MAG, darbeli ark, sprey ark, kısa devre ark, ark modları, sinerjik kaynak, double pulse, pulse alüminyum kaynağı, pulsed MIG welding, Impulslichtbogen, soudage MIG pulsé"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/it/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Saldatura MIG/MAG pulsata: modi di trasferimento e quando l’arco pulsato fa la differenza",
+      "item": "https://www.armaweld.com/it/blog/pulse-mig-mag-kaynagi-ark-modlari.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p34_pulse_breadcrumb3">MIG/MAG pulsato</span></div>
+    <div class="article-tag" data-i18n="blog_p34_pulse_tag">Processi di saldatura · MIG/MAG</div>
+    <h1 data-i18n="blog_p34_pulse_h1">Saldatura MIG/MAG pulsata: modi di trasferimento e quando l’arco pulsato fa la differenza</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p34_pulse_read">6 min di lettura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p34_pulse_body"><p>Nel MIG/MAG il metallo che fonde in punta al filo passa nel bagno in modi diversi. È il <strong>modo di trasferimento</strong>, e determina qualità del cordone, spruzzi, penetrazione e apporto termico. L’arco pulsato è il modo più controllato, ma non serve per ogni lavoro.</p>
+<h2>I quattro modi di base</h2>
+<table class="data-table"><thead><tr><th>Modo</th><th>Corrente/tensione</th><th>Caratteristiche</th><th>Impiego tipico</th></tr></thead><tbody>
+<tr><td>Corto circuito</td><td>Bassa</td><td>Il filo tocca il bagno e va in corto; basso apporto termico</td><td>Lamiera sottile, radici, saldatura in posizione</td></tr>
+<tr><td>Globulare</td><td>Media</td><td>Gocce grandi e irregolari; molti spruzzi</td><td>Zona di transizione in genere evitata</td></tr>
+<tr><td>Spray</td><td>Alta</td><td>Gocce fini, senza spruzzi, penetrazione profonda; alto apporto termico</td><td>Pezzi spessi, in piano</td></tr>
+<tr><td>Pulsato</td><td>Alterna tra picco e base</td><td>Una goccia per impulso; qualità vicina allo spray con meno calore medio</td><td>Inox, alluminio, posizione, cordoni a vista</td></tr>
+</tbody></table>
+<h2>Come funziona l’arco pulsato</h2>
+<p>Il generatore commuta la corrente da decine a centinaia di volte al secondo tra una <strong>corrente di picco</strong> alta e una <strong>corrente di base</strong> bassa. Al picco la goccia si stacca dalla punta del filo; in base l’arco resta acceso ma la punta si scalda soltanto. Idealmente passa una goccia per impulso. Si ottiene così il trasferimento regolare e senza spruzzi dello spray con una corrente media molto più bassa.</p>
+<p>Le macchine moderne gestiscono queste impostazioni con programmi <strong>sinergici</strong>: l’utente sceglie materiale, diametro del filo e gas, e al variare della velocità del filo la macchina adegua automaticamente i parametri di impulso.</p>
+<h2>Vantaggi</h2>
+<ul>
+<li><strong>Pochi spruzzi:</strong> meno molatura e pulizia, grande vantaggio sui cordoni a vista.</li>
+<li><strong>Minore apporto termico:</strong> meno deformazioni su spessori sottili e medi; sull’inox meno ossidazioni e minor rischio di precipitazione di carburi.</li>
+<li><strong>Saldatura in posizione:</strong> qualità vicina allo spray in verticale e sopratesta, con fusione migliore del corto circuito.</li>
+<li><strong>Alluminio:</strong> campo di lavoro più ampio e arco stabile; con il doppio pulsato un aspetto a scaglie simile al TIG.</li>
+<li><strong>Fusione dei lembi:</strong> più sicuro contro le mancate fusioni tipiche del corto circuito.</li>
+</ul>
+<h2>Limiti</h2>
+<ul>
+<li><strong>Gas:</strong> pulsato e spray richiedono gas ricchi di argon (sull’acciaio al carbonio per esempio gruppi M20 o M21, sull’alluminio argon puro). Con 100 % CO₂ non si ottiene un vero spray né un vero pulsato (vedi <a href="koruyucu-gaz-secimi-mig-mag.html">scelta del gas</a>).</li>
+<li><strong>Attrezzatura:</strong> serve un generatore con funzione pulsata e programmi sinergici.</li>
+<li><strong>Pezzi spessi:</strong> in piano su grandi spessori, lo spray tradizionale o l’arco sommerso possono dare più deposito.</li>
+<li><strong>Disciplina dei parametri:</strong> se programma, filo e gas non corrispondono, i vantaggi si perdono.</li>
+</ul>
+<h2>Apporto termico: attenzione con il pulsato</h2>
+<p>La formula classica calcola l’apporto con tensione e corrente medie (vedi <a href="kaynak-isi-girdisi.html">apporto termico</a>). Negli archi a forma d’onda controllata come il pulsato, corrente e tensione cambiano di continuo e il prodotto delle medie può non rappresentare la potenza reale. Per questo la ISO 15614-1 e la ISO/TR 18491 prevedono per questi processi la determinazione tramite <strong>potenza istantanea</strong> o <strong>energia istantanea</strong>. Le macchine moderne possono mostrare direttamente il valore. Nei lavori con limiti di apporto (acciai ad alta resistenza, giunti con requisiti di resilienza) la WPS deve indicare chiaramente il metodo usato.</p>
+<h2>Cosa va nella WPS?</h2>
+<ul>
+<li>Modo di trasferimento (corto circuito, spray o pulsato) e, se pertinente, il programma sinergico.</li>
+<li>Diametro del filo, campo di velocità del filo e gas di protezione.</li>
+<li>Campo di apporto termico e metodo di calcolo.</li>
+<li>Posizione, velocità di avanzamento e inclinazione della torcia.</li>
+</ul>
+<div class="callout"><p><strong>In ArmaWeld:</strong> il modo di trasferimento si sceglie in base a materiale, spessore, posizione e visibilità del cordone ed è definito nella WPS. Nei lavori con limiti di apporto termico la WPS indica chiaramente il metodo di calcolo. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div></div>
+
+<div data-i18n-html="blog_p34_pulse_faq"><h2>Domande frequenti</h2><div class="faq-item"><h3>Cos’è la saldatura pulsata?</h3><p>Un MIG/MAG in cui la corrente alterna rapidamente tra un picco alto e una base bassa. Si stacca una goccia per impulso, ottenendo un cordone simile allo spray con pochi spruzzi e meno calore medio.</p></div><div class="faq-item"><h3>Quando si usa il pulsato?</h3><p>È più utile su inox e alluminio, spessori sottili e medi, saldatura in posizione e cordoni a vista.</p></div><div class="faq-item"><h3>Si può saldare in pulsato con 100 % CO₂?</h3><p>No. Pulsato e spray richiedono gas ricchi di argon; con CO₂ puro non si ottiene un vero arco pulsato.</p></div><div class="faq-item"><h3>Come si calcola l’apporto termico in pulsato?</h3><p>Per gli archi a forma d’onda controllata la ISO 15614-1 e la ISO/TR 18491 raccomandano potenza o energia istantanea.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p34_pulse_cta_h3">L’arco giusto, un cordone pulito</h3>
+      <p data-i18n="blog_p34_pulse_cta_p">Inviateci il disegno; quotiamo con un processo adatto a materiale e spessore.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p34_pulse_cta_btn">Richiedi un preventivo →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articoli correlati">
+      <h2 data-i18n="blog_related_h">Articoli correlati</h2>
+      <ul>
+        <li><a href="mig-mag-parametreleri.html" data-i18n="blog_migmag_h1">Parametri di saldatura MIG/MAG: ottimizzazione di velocità filo, gas e tensione</a></li>
+        <li><a href="koruyucu-gaz-secimi-mig-mag.html" data-i18n="blog_n26_gas_h1">Scelta del gas di protezione per la saldatura MIG/MAG: argon, CO₂ e miscele</a></li>
+        <li><a href="kaynak-isi-girdisi.html" data-i18n="blog_kaynak_isi_girdisi_h1">Calcolo e ottimizzazione dell'apporto termico in saldatura</a></li>
+        <li><a href="aluminyum-kaynak.html" data-i18n="blog_alum_h1">Le sfide della saldatura dell'alluminio: guida applicativa per le leghe 5083 e 6061</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Torna al blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

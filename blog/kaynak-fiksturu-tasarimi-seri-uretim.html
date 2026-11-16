@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_p33_fixture_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_p33_fixture_title">Kaynak Fikstürü: Seri Üretimde Tekrarlanabilir Ölçü İçin Tasarım İlkeleri | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_p33_fixture_meta_desc" content="Kaynak fikstürü ne işe yarar, ne zaman kendini amorti eder? 3-2-1 konumlandırma ilkesi, pim ve dayamalar, bağlama elemanları, modüler kaynak masası, çarpılma payı ve fikstürün ilk parça onayıyla doğrulanması." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="aw-post-i18n" content="kaynak-fiksturu-tasarimi-seri-uretim" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+<!-- /aw:hreflang -->
+<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_p33_fixture_og_title" content="Kaynak Fikstürü Tasarımı" />
+  <meta property="og:description" data-i18n="blog_p33_fixture_meta_desc" content="Kaynak fikstürü ne işe yarar, ne zaman kendini amorti eder? 3-2-1 konumlandırma ilkesi, pim ve dayamalar, bağlama elemanları, modüler kaynak masası, çarpılma payı ve fikstürün ilk parça onayıyla doğrulanması." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-11-16" />
+  <meta property="article:modified_time" content="2026-11-16" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Üretim · Fikstür" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=20261116b" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kaynak Fikstürü: Seri Üretimde Tekrarlanabilir Ölçü İçin Tasarım İlkeleri",
+  "description": "Kaynak fikstürü ne işe yarar, ne zaman kendini amorti eder? 3-2-1 konumlandırma ilkesi, pim ve dayamalar, bağlama elemanları, modüler kaynak masası, çarpılma payı ve fikstürün ilk parça onayıyla doğrulanması.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html"
+  },
+  "url": "https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Üretim · Fikstür",
+  "keywords": "kaynak fikstürü, kaynak aparatı, fikstür tasarımı, 3-2-1 prensibi, modüler kaynak masası, seri kaynaklı üretim, kaynak kalıbı, welding fixture, Schweißvorrichtung, gabarit de soudage"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kaynak Fikstürü: Seri Üretimde Tekrarlanabilir Ölçü İçin Tasarım İlkeleri",
+      "item": "https://www.armaweld.com/blog/kaynak-fiksturu-tasarimi-seri-uretim.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kaynak fikstürü nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Parçaları kaynak öncesinde ve sırasında doğru konumda tutan aparattır. Seri üretimde ölçünün her parçada aynı çıkmasını, işin hızlanmasını ve çarpılmanın kontrolünü sağlar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "3-2-1 prensibi nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Parçanın birinci yüzeyde üç, ikinci yüzeyde iki ve üçüncü yüzeyde bir noktaya dayanarak altı serbestlik derecesinin tam ve fazla sınırlamadan belirlenmesidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Fikstür ne zaman gerekir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tekrarlayan ve seri işlerde, sıkı toleranslı kritik ölçülerde ve çok parçalı montajlarda fikstür genellikle kendini amorti eder."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Fikstür bedeli nasıl fiyatlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ayrı bir kalem olarak veya parça fiyatına dağıtılarak. Mülkiyet ve saklama süresi teklifte açıkça belirtilmelidir."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p33_fixture_breadcrumb3">Kaynak Fikstürü</span></div>
+    <div class="article-tag" data-i18n="blog_p33_fixture_tag">Üretim · Fikstür</div>
+    <h1 data-i18n="blog_p33_fixture_h1">Kaynak Fikstürü: Seri Üretimde Tekrarlanabilir Ölçü İçin Tasarım İlkeleri</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p33_fixture_read">6 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p33_fixture_body">
+<p>Kaynak fikstürü, parçaları kaynak öncesinde ve sırasında doğru konumda tutan aparattır. Tek bir parça için ölçü alarak, gönye ve mengeneyle çalışmak mümkündür; ancak aynı parça onlarca veya yüzlerce kez üretilecekse, ölçünün her seferinde aynı çıkması ancak iyi bir fikstürle sağlanır. Fikstür; ölçü tekrarlanabilirliği, hız ve çarpılma kontrolü için en etkili araçlardan biridir.</p>
+<h2>Fikstür Ne Zaman Kendini Amorti Eder?</h2>
+<ul>
+<li><strong>Adet:</strong> Tekrarlayan siparişlerde ve seri işlerde.</li>
+<li><strong>Tolerans:</strong> Delik ekseni, bağlantı noktası veya montaj yüzeyi gibi kritik ölçüler sıkı olduğunda.</li>
+<li><strong>Karmaşıklık:</strong> Çok sayıda parçanın birbirine göre konumlandığı montajlarda.</li>
+<li><strong>Sonraki işlem:</strong> Talaşlı işleme veya montajın kaynaklı parçanın ölçüsüne bağlı olduğu durumlarda.</li>
+</ul>
+<p>Basit bir hesap fikir verir: fikstür, parça başına 6 dakika ölçü ve hizalama süresi kazandırıyorsa, 500 adetlik bir işte bu yaklaşık 50 saat demektir. Fikstür maliyeti bu kazançla ve hurda riskinin azalmasıyla birlikte değerlendirilir.</p>
+<h2>Temel İlke: 3-2-1 Konumlandırma</h2>
+<p>Bir parçanın uzaydaki konumu altı serbestlik derecesiyle tanımlanır. 3-2-1 ilkesinde parça; birinci referans yüzeyinde üç noktaya, ikinci yüzeyde iki noktaya ve üçüncü yüzeyde bir noktaya dayanır. Böylece parça fazla sınırlanmadan tam olarak konumlanır. Referans noktaları mümkün olduğunca teknik resimdeki referans (datum) yüzeyleriyle aynı seçilir; böylece fikstürde tutulan ölçü, çizimde ölçülen ölçüyle örtüşür.</p>
+<h2>Fikstür Elemanları</h2>
+<ul>
+<li><strong>Dayamalar ve pimler:</strong> Konumu belirler. Delikli parçalarda bir silindirik ve bir elmas (yassı) pim kombinasyonu, aşırı sınırlamayı önler.</li>
+<li><strong>Bağlama elemanları:</strong> Mafsallı (toggle) bağlayıcılar, vidalı baskılar veya pnömatik bağlayıcılar parçayı dayamalara bastırır. Bağlama kuvveti, parçayı deforme etmeyecek şekilde dayamaların üzerine gelmelidir.</li>
+<li><strong>Taban:</strong> Rijit bir çelik konstrüksiyon veya delikli modüler kaynak masası.</li>
+<li><strong>Bakır veya seramik altlıklar:</strong> Kök tarafında destek ve şekil için.</li>
+<li><strong>Topraklama:</strong> Kaynak akımının bağlayıcılardan ve pimlerden geçmesini önlemek için tanımlı bir şase bağlantısı.</li>
+</ul>
+<h2>Modüler Kaynak Masaları</h2>
+<p>Delikli modüler masalar, gönye, dayama ve bağlayıcıların sistem deliklerine takılmasıyla hızlıca fikstür kurmayı sağlar. Prototip ve küçük seriler için özel fikstür yapmadan tekrarlanabilir bir kurulum elde edilir; kurulum fotoğraflanıp kayıt altına alınırsa bir sonraki siparişte aynı düzen yeniden kurulabilir. Büyük serilerde ise genellikle parçaya özel fikstür daha hızlıdır.</p>
+<h2>Kaynak Fikstürüne Özgü Tasarım Noktaları</h2>
+<ul>
+<li><strong>Çekme payı:</strong> Kaynak soğurken çeker. Fikstür, parçayı nominal ölçüde değil, gerektiğinde ters açı veya ön gerdirmeyle kaynak sonrası nominal ölçüye gelecek şekilde tutabilir. Bu değerler ilk parçalarda ölçülerek belirlenir (bkz. <a href="kaynak-distorsiyonu.html">kaynak distorsiyonu</a>).</li>
+<li><strong>Erişim:</strong> Torç, tüm dikişlere doğru açıyla ulaşabilmelidir. Fikstür elemanları dikiş bölgesini kapatmamalıdır.</li>
+<li><strong>Sıçrantı ve ısı:</strong> Pim ve dayamalar sıçrantıdan korunmalı veya kolay temizlenebilir olmalıdır; dikişe yakın elemanlar ısıyla genleşmeyi hesaba katmalıdır.</li>
+<li><strong>Parçanın çıkarılması:</strong> Kaynaktan sonra çeken parça pimlere sıkışabilir. Sökülebilir pimler veya yeterli boşluk önceden düşünülmelidir.</li>
+<li><strong>Puntala ve çıkar mı, tamamen fikstürde mi?</strong> Bazı işlerde parça fikstürde puntalanır ve kaynak ayrı pozisyonlayıcıda tamamlanır; bazılarında ise tüm kaynak fikstürde yapılır. Seçim, çarpılma ve erişime göre yapılır.</li>
+</ul>
+<h2>Fikstürün Doğrulanması</h2>
+<p>Yeni bir fikstürün ürettiği ilk parçalar tam ölçüyle kontrol edilir; sonuçlar, istenen toleransla (örneğin <a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html">ISO 13920</a> sınıfları veya çizim toleransları) karşılaştırılır. Fikstür, bu ilk parça onayıyla “hazır” kabul edilir (bkz. <a href="ilk-parca-onayi-kaynakli-imalat.html">ilk parça onayı</a>). Seri boyunca belirli aralıklarla kontrol ölçüleri alınır; aşınan pim ve dayamalar yenilenir.</p>
+<h2>Fikstür Kimin Malıdır?</h2>
+<p>Parçaya özel fikstürlerde maliyet ve mülkiyet, teklif ve sözleşmede açıkça belirtilmelidir: fikstür bedeli ayrı bir kalem olarak mı gösterilecek, parça fiyatına mı dağıtılacak, sipariş bittiğinde fikstür kimde kalacak ve ne süre saklanacak? Bu sorular baştan konuşulursa sonraki siparişlerde sürpriz yaşanmaz.</p>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Seri ve tekrarlayan işlerde fikstür ihtiyacını teklif aşamasında değerlendirir, fikstür bedelini ve mülkiyetini teklifte açıkça gösteririz. Yeni bir kurulumun ilk parçaları ölçülerek kayda alınır. <a href="../cizime-gore-imalat.html">Çizime göre imalat →</a></p></div>
+</div>
+
+<div data-i18n-html="blog_p33_fixture_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>Kaynak fikstürü nedir?</h3><p>Parçaları kaynak öncesinde ve sırasında doğru konumda tutan aparattır. Seri üretimde ölçünün her parçada aynı çıkmasını, işin hızlanmasını ve çarpılmanın kontrolünü sağlar.</p></div><div class="faq-item"><h3>3-2-1 prensibi nedir?</h3><p>Parçanın birinci yüzeyde üç, ikinci yüzeyde iki ve üçüncü yüzeyde bir noktaya dayanarak altı serbestlik derecesinin tam ve fazla sınırlamadan belirlenmesidir.</p></div><div class="faq-item"><h3>Fikstür ne zaman gerekir?</h3><p>Tekrarlayan ve seri işlerde, sıkı toleranslı kritik ölçülerde ve çok parçalı montajlarda fikstür genellikle kendini amorti eder.</p></div><div class="faq-item"><h3>Fikstür bedeli nasıl fiyatlanır?</h3><p>Ayrı bir kalem olarak veya parça fiyatına dağıtılarak. Mülkiyet ve saklama süresi teklifte açıkça belirtilmelidir.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p33_fixture_cta_h3">Seri işte her parça aynı ölçüde</h3>
+      <p data-i18n="blog_p33_fixture_cta_p">Çizim ve yıllık adet bilginizi gönderin; fikstür ihtiyacıyla birlikte teklif hazırlayalım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p33_fixture_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynak-distorsiyonu.html" data-i18n="blog_kaynak_distors_h1">Kaynak Distorsiyonu: Önleme ve Düzeltme Yöntemleri</a></li>
+        <li><a href="iso-13920-kaynakli-imalat-tolerans-tablosu.html" data-i18n="blog_p04_iso13920_h1">ISO 13920 Genel Toleranslar: Kaynaklı İmalat Tolerans Tablosu ve Doğru Sınıf Seçimi</a></li>
+        <li><a href="ilk-parca-onayi-kaynakli-imalat.html" data-i18n="blog_n29_fai_h1">İlk Parça Onayı (FAI) Nedir? Kaynaklı İmalatta Seri Üretime Geçmeden Önce Ne Kontrol Edilir?</a></li>
+        <li><a href="boyutsal-tolerans.html" data-i18n="blog_tolerans_h1">Kaynaklı İmalat Toleransları: EN ISO 13920 Tolerans Tablosu ve Sınıfları</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=20261116b"></script>
+<script src="../assets/i18n.js?v=20261116b"></script>
+<script src="../assets/chrome.js?v=20261116b"></script>
+<script src="../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>
