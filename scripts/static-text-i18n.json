@@ -1528,5 +1528,32 @@
     "it": "Norme · Personale",
     "nl": "Normen · Personeel",
     "no": "Standarder · Personell"
+  },
+  "Tasarım · Hesap": {
+    "en": "Design · Calculation",
+    "de": "Konstruktion · Berechnung",
+    "es": "Diseño · Cálculo",
+    "fr": "Conception · Calcul",
+    "it": "Progettazione · Calcolo",
+    "nl": "Ontwerp · Berekening",
+    "no": "Konstruksjon · Beregning"
+  },
+  "Tasarım · Hazırlık": {
+    "en": "Design · Preparation",
+    "de": "Konstruktion · Vorbereitung",
+    "es": "Diseño · Preparación",
+    "fr": "Conception · Préparation",
+    "it": "Progettazione · Preparazione",
+    "nl": "Ontwerp · Voorbereiding",
+    "no": "Konstruksjon · Forberedelse"
+  },
+  "Tasarım · Teklif": {
+    "en": "Design · Quotation",
+    "de": "Konstruktion · Angebot",
+    "es": "Diseño · Oferta",
+    "fr": "Conception · Offre",
+    "it": "Progettazione · Offerta",
+    "nl": "Ontwerp · Offerte",
+    "no": "Konstruksjon · Tilbud"
   }
 }

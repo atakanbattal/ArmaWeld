@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="de" data-aw-page-lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schweißnahtberechnung: Kehl- und Stumpfnähte nach EN 1993-1-8 | ArmaWeld</title>
+  <meta name="description" content="Wie berechnet man die Tragfähigkeit einer Kehlnaht? Vereinfachtes und richtungsbezogenes Verfahren nach EN 1993-1-8, Korrelationsbeiwert βw, Rechenbeispiel, Stumpfnähte, lange Anschlüsse und typische Fehler.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-dikisi-mukavemet-hesabi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Schweißnahtberechnung: Kehl- und Stumpfnähte nach EN 1993-1-8 | ArmaWeld">
+  <meta property="og:description" content="Wie berechnet man die Tragfähigkeit einer Kehlnaht? Vereinfachtes und richtungsbezogenes Verfahren nach EN 1993-1-8, Korrelationsbeiwert βw, Rechenbeispiel, Stumpfnähte, lange Anschlüsse und typische Fehler.">
+  <meta property="og:url" content="https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Konstruktion · Berechnung">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Schweißnahtberechnung: Kehl- und Stumpfnähte nach EN 1993-1-8",
+  "description": "Wie berechnet man die Tragfähigkeit einer Kehlnaht? Vereinfachtes und richtungsbezogenes Verfahren nach EN 1993-1-8, Korrelationsbeiwert βw, Rechenbeispiel, Stumpfnähte, lange Anschlüsse und typische Fehler.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html"
+  },
+  "url": "https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html",
+  "inLanguage": "de",
+  "articleSection": "Konstruktion · Berechnung",
+  "keywords": "kaynak mukavemet hesabı, köşe kaynağı hesabı, EN 1993-1-8 kaynak hesabı, kaynak dikişi dayanımı, basitleştirilmiş yöntem kaynak, fillet weld strength calculation, Schweißnahtberechnung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/de/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Schweißnahtberechnung: Kehl- und Stumpfnähte nach EN 1993-1-8",
+      "item": "https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p14_strength_breadcrumb3">Schweißnahtberechnung</span></div>
+    <div class="article-tag" data-i18n="blog_p14_strength_tag">Konstruktion · Berechnung</div>
+    <h1 data-i18n="blog_p14_strength_h1">Schweißnahtberechnung: Kehl- und Stumpfnähte nach EN 1993-1-8</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p14_strength_read">7 Min. Lesezeit</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p14_strength_body"><p>Nahtmaße werden oft nach Erfahrung gewählt; bei tragenden Konstruktionen müssen sie rechnerisch nachgewiesen werden. In Europa ist dafür <strong>EN 1993-1-8</strong> (Eurocode 3, Anschlüsse) maßgebend. Dieser Beitrag erklärt die Logik der Kehlnahtbemessung, die beiden Verfahren und ein einfaches Rechenbeispiel. Ziel ist nicht, den Tragwerksplaner zu ersetzen, sondern nachvollziehbar zu machen, woher das Nahtmaß in der Zeichnung kommt.</p>
+<h2>Grundgrößen</h2>
+<ul>
+<li><strong>a:</strong> Kehlnahtdicke (siehe <a href="kose-kaynagi-a-olcusu.html">Leitfaden zum a-Maß</a>).</li>
+<li><strong>L<sub>w</sub>:</strong> wirksame Nahtlänge. Enden, die wegen Endkrater und Ansatz nicht voll ausgebildet sind, werden nicht angesetzt.</li>
+<li><strong>f<sub>u</sub>:</strong> Nennwert der Zugfestigkeit des schwächeren Grundwerkstoffs.</li>
+<li><strong>β<sub>w</sub>:</strong> Korrelationsbeiwert. EN 1993-1-8 nennt 0,80 für S235, 0,85 für S275, 0,90 für S355 und 1,0 für S420 und S460.</li>
+<li><strong>γ<sub>M2</sub>:</strong> Teilsicherheitsbeiwert für Schweißnähte; empfohlen 1,25 (der Nationale Anhang kann abweichen).</li>
+</ul>
+<h2>Verfahren 1: Vereinfachtes Verfahren</h2>
+<p>Unabhängig von der Kraftrichtung wird die übertragbare Kraft je Längeneinheit berechnet:</p>
+<p><strong>F<sub>w,Rd</sub> = f<sub>vw,d</sub> × a</strong>, mit <strong>f<sub>vw,d</sub> = (f<sub>u</sub> / √3) / (β<sub>w</sub> × γ<sub>M2</sub>)</strong></p>
+<p>Nachweis: F<sub>w,Ed</sub> ≤ F<sub>w,Rd</sub>. Das Verfahren liegt stets auf der sicheren Seite und eignet sich für schnelle Kontrollen.</p>
+<h2>Verfahren 2: Richtungsbezogenes Verfahren</h2>
+<p>Die Kraft wird in Spannungen in der Kehlnahtfläche zerlegt: Normalspannung σ<sub>⊥</sub>, Schubspannung quer τ<sub>⊥</sub> und längs τ<sub>∥</sub>. Beide Bedingungen sind einzuhalten:</p>
+<ul>
+<li>[σ<sub>⊥</sub>² + 3(τ<sub>⊥</sub>² + τ<sub>∥</sub>²)]<sup>0,5</sup> ≤ f<sub>u</sub> / (β<sub>w</sub> × γ<sub>M2</sub>)</li>
+<li>σ<sub>⊥</sub> ≤ 0,9 × f<sub>u</sub> / γ<sub>M2</sub></li>
+</ul>
+<p>Bei Kräften quer zur Naht kann das richtungsbezogene Verfahren bis zu etwa 20 % mehr Tragfähigkeit ergeben. In großen Serien reicht das oft, um das Nahtmaß eine Stufe zu verringern.</p>
+<h2>Rechenbeispiel</h2>
+<p>Ein Flachstahl aus S355 ist mit zwei Kehlnähten von je 200 mm angeschlossen und überträgt 300 kN Bemessungskraft parallel zur Nahtachse (Exzentrizität vernachlässigt).</p>
+<ol>
+<li>Mit f<sub>u</sub> = 490 MPa (Mindestwert der Werkstoffnorm; anzusetzender Wert nach Nationalem Anhang prüfen): f<sub>vw,d</sub> = (490 / 1,732) / (0,90 × 1,25) ≈ <strong>251 MPa</strong>.</li>
+<li>Wirksame Gesamtlänge L<sub>w</sub> = 2 × 200 = 400 mm.</li>
+<li>Erforderliches a = 300 000 N / (251 N/mm² × 400 mm) ≈ <strong>3,0 mm</strong>.</li>
+<li>Mit Endverlusten und Fertigungsreserve ist <strong>a4</strong> sinnvoll. a6 bedeutet etwa die doppelte erforderliche Tragfähigkeit und mehr als das doppelte Schweißgut.</li>
+</ol>
+<h2>Stumpfnähte</h2>
+<p>Bei durchgeschweißten Stumpfnähten mit artgleichem oder höherfestem Zusatzwerkstoff gilt die Nahtfestigkeit als gleich der des schwächeren Grundwerkstoffs; ein gesonderter Nachweis entfällt. Nicht durchgeschweißte Stumpfnähte werden wie Kehlnähte mit tiefem Einbrand bemessen; die wirksame Nahtdicke ist der durch Verfahrensprüfung nachgewiesene Einbrand.</p>
+<h2>Lange Anschlüsse</h2>
+<p>Bei überlappten Anschlüssen mit Nahtlängen über 150a setzt EN 1993-1-8 einen Abminderungsbeiwert (β<sub>Lw</sub>) an, da die Spannungsverteilung ungleichmäßig ist. Die Tragfähigkeit wächst bei sehr langen Nähten nicht linear.</p>
+<h2>Häufige Fehler</h2>
+<ul>
+<li>a- und z-Maß verwechseln: mit z rechnen und als a angeben.</li>
+<li>Exzentrizität vernachlässigen: bei Konsolanschlüssen trägt die Nahtgruppe zusätzlich ein Moment.</li>
+<li>Für höherfeste Stähle den β<sub>w</sub>-Wert von S355 verwenden.</li>
+<li>Bei dynamisch belasteten Bauteilen nur statisch nachweisen; Ermüdung ist ein eigener Nachweis.</li>
+<li>Auf US-Zeichnungen AWS-D1.1-Logik mit Eurocode mischen. Bei AWS bezieht sich die zulässige Kehlnahtspannung auf das 0,30-Fache der Festigkeit des Zusatzwerkstoffs.</li>
+</ul>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Die Bemessung der Nahtmaße liegt in der Verantwortung des Produktkonstrukteurs. Im Angebot prüfen wir, ob die Maße der Zeichnung zu Blechdicken, WPS-Geltungsbereich und geforderter Bewertungsgruppe passen, und fragen unklare oder überdimensioniert wirkende Stellen schriftlich nach. <a href="../cizime-gore-imalat.html">Fertigung nach Zeichnung →</a></p></div></div>
+
+<div data-i18n-html="blog_p14_strength_faq"><h2>Häufige Fragen</h2><div class="faq-item"><h3>Nach welcher Norm wird die Kehlnaht berechnet?</h3><p>In Europa für Stahlbauten nach EN 1993-1-8. Das vereinfachte oder das richtungsbezogene Verfahren liefert die übertragbare Kraft je Längeneinheit.</p></div><div class="faq-item"><h3>Welcher βw-Wert gilt für S355?</h3><p>Nach EN 1993-1-8 ist für S355 der Korrelationsbeiwert βw = 0,90.</p></div><div class="faq-item"><h3>Müssen durchgeschweißte Stumpfnähte berechnet werden?</h3><p>Eine durchgeschweißte Stumpfnaht mit geeignetem Zusatzwerkstoff gilt als so tragfähig wie der schwächere Grundwerkstoff; ein eigener Nahtnachweis entfällt.</p></div><div class="faq-item"><h3>Warum ergibt das richtungsbezogene Verfahren mehr Tragfähigkeit?</h3><p>Es bewertet die Spannungskomponenten einzeln und ist daher, besonders bei Querkräften, weniger konservativ als das vereinfachte Verfahren.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p14_strength_cta_h3">Wir prüfen die Nahtmaße Ihrer Zeichnung</h3>
+      <p data-i18n="blog_p14_strength_cta_p">Senden Sie Ihre Zeichnung; wir bewerten die Nahtmaße mit WPS und Bewertungsgruppe und erstellen ein Angebot.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p14_strength_cta_btn">Angebot anfordern →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Verwandte Artikel">
+      <h2 data-i18n="blog_related_h">Verwandte Artikel</h2>
+      <ul>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">a-Maß der Kehlnaht: Nahtdicke, z-Maß und richtige Auslegung</a></li>
+        <li><a href="celik-konstruksiyon-imalat.html" data-i18n="blog_celik_konstruksiyon_imalat_h1">Stahlkonstruktion: Von der Konstruktion zur Montage</a></li>
+        <li><a href="wps-nedir.html" data-i18n="blog_wps_h1">Was ist ein WPS? Leitfaden zur Schweißverfahrensprüfung</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">ISO 5817 Bewertungsgruppen B, C und D: Welche sollten Sie vorgeben?</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Zurück zum Blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>

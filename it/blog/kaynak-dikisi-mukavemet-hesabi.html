@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="it" data-aw-page-lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcolo di resistenza delle saldature: d’angolo e testa a testa secondo EN 1993-1-8 | ArmaWeld</title>
+  <meta name="description" content="Come si calcola la resistenza di una saldatura d’angolo? Metodo semplificato e direzionale della EN 1993-1-8, fattore di correlazione βw, esempio numerico, saldature testa a testa, giunti lunghi ed errori tipici.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="aw-post-i18n" content="kaynak-dikisi-mukavemet-hesabi">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html">
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kaynak-dikisi-mukavemet-hesabi.html" />
+<!-- /aw:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Calcolo di resistenza delle saldature: d’angolo e testa a testa secondo EN 1993-1-8 | ArmaWeld">
+  <meta property="og:description" content="Come si calcola la resistenza di una saldatura d’angolo? Metodo semplificato e direzionale della EN 1993-1-8, fattore di correlazione βw, esempio numerico, saldature testa a testa, giunti lunghi ed errori tipici.">
+  <meta property="og:url" content="https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html">
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="ArmaWeld">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:author" content="ArmaWeld Engineering">
+  <meta property="article:section" content="Progettazione · Calcolo">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Calcolo di resistenza delle saldature: d’angolo e testa a testa secondo EN 1993-1-8",
+  "description": "Come si calcola la resistenza di una saldatura d’angolo? Metodo semplificato e direzionale della EN 1993-1-8, fattore di correlazione βw, esempio numerico, saldature testa a testa, giunti lunghi ed errori tipici.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Engineering",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html"
+  },
+  "url": "https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html",
+  "inLanguage": "it",
+  "articleSection": "Progettazione · Calcolo",
+  "keywords": "kaynak mukavemet hesabı, köşe kaynağı hesabı, EN 1993-1-8 kaynak hesabı, kaynak dikişi dayanımı, basitleştirilmiş yöntem kaynak, fillet weld strength calculation, Schweißnahtberechnung"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/it/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolo di resistenza delle saldature: d’angolo e testa a testa secondo EN 1993-1-8",
+      "item": "https://www.armaweld.com/it/blog/kaynak-dikisi-mukavemet-hesabi.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p14_strength_breadcrumb3">Calcolo saldature</span></div>
+    <div class="article-tag" data-i18n="blog_p14_strength_tag">Progettazione · Calcolo</div>
+    <h1 data-i18n="blog_p14_strength_h1">Calcolo di resistenza delle saldature: d’angolo e testa a testa secondo EN 1993-1-8</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p14_strength_read">7 min di lettura</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p14_strength_body"><p>La dimensione della saldatura si sceglie spesso per esperienza, ma nelle strutture portanti va verificata con il calcolo. In Europa il riferimento per le strutture in acciaio è la <strong>EN 1993-1-8</strong> (Eurocodice 3, collegamenti). Questo articolo illustra la logica del calcolo delle saldature d’angolo, i due metodi e un semplice esempio. Non sostituisce il progettista, ma aiuta a capire da dove nasce la quota di saldatura a disegno.</p>
+<h2>Grandezze di base</h2>
+<ul>
+<li><strong>a:</strong> sezione di gola (vedi la nostra <a href="kose-kaynagi-a-olcusu.html">guida alla quota a</a>).</li>
+<li><strong>L<sub>w</sub>:</strong> lunghezza efficace. Non si considerano le estremità incomplete per crateri e inneschi.</li>
+<li><strong>f<sub>u</sub>:</strong> resistenza a trazione nominale del materiale base più debole.</li>
+<li><strong>β<sub>w</sub>:</strong> fattore di correlazione. La EN 1993-1-8 indica 0,80 per S235, 0,85 per S275, 0,90 per S355 e 1,0 per S420 e S460.</li>
+<li><strong>γ<sub>M2</sub>:</strong> coefficiente parziale per le saldature; valore raccomandato 1,25 (l’Appendice nazionale può differire).</li>
+</ul>
+<h2>Metodo 1: semplificato</h2>
+<p>Si calcola la forza trasmissibile per unità di lunghezza, indipendentemente dalla direzione del carico:</p>
+<p><strong>F<sub>w,Rd</sub> = f<sub>vw,d</sub> × a</strong>, con <strong>f<sub>vw,d</sub> = (f<sub>u</sub> / √3) / (β<sub>w</sub> × γ<sub>M2</sub>)</strong></p>
+<p>Verifica: F<sub>w,Ed</sub> ≤ F<sub>w,Rd</sub>. Il metodo è sempre a favore di sicurezza e veloce per i controlli.</p>
+<h2>Metodo 2: direzionale</h2>
+<p>La forza si scompone in tensioni sul piano di gola: normale σ<sub>⊥</sub>, tangenziale perpendicolare τ<sub>⊥</sub> e tangenziale parallela τ<sub>∥</sub>. Devono essere soddisfatte entrambe le condizioni:</p>
+<ul>
+<li>[σ<sub>⊥</sub>² + 3(τ<sub>⊥</sub>² + τ<sub>∥</sub>²)]<sup>0,5</sup> ≤ f<sub>u</sub> / (β<sub>w</sub> × γ<sub>M2</sub>)</li>
+<li>σ<sub>⊥</sub> ≤ 0,9 × f<sub>u</sub> / γ<sub>M2</sub></li>
+</ul>
+<p>Con carichi trasversali al cordone, il metodo direzionale può dare fino a circa il 20 % di capacità in più. In grandi serie può bastare per ridurre la saldatura di una taglia.</p>
+<h2>Esempio numerico</h2>
+<p>Un piatto in S355 è collegato con due saldature d’angolo da 200 mm e trasmette 300 kN di progetto paralleli all’asse del cordone (eccentricità trascurata).</p>
+<ol>
+<li>Con f<sub>u</sub> = 490 MPa (valore minimo della norma di materiale; verificare il valore da usare secondo l’Appendice nazionale): f<sub>vw,d</sub> = (490 / 1,732) / (0,90 × 1,25) ≈ <strong>251 MPa</strong>.</li>
+<li>Lunghezza efficace totale L<sub>w</sub> = 2 × 200 = 400 mm.</li>
+<li>a necessaria = 300 000 N / (251 N/mm² × 400 mm) ≈ <strong>3,0 mm</strong>.</li>
+<li>Considerando perdite alle estremità e margine di fabbricazione, <strong>a4</strong> è ragionevole. Indicare a6 significa il doppio della capacità necessaria e più del doppio del metallo depositato.</li>
+</ol>
+<h2>Saldature testa a testa</h2>
+<p>Per saldature testa a testa a piena penetrazione con consumabile di resistenza pari o superiore, la resistenza si assume pari a quella del materiale base più debole e non serve un calcolo separato. Quelle a penetrazione parziale si calcolano come saldature d’angolo a penetrazione profonda; la gola efficace è la penetrazione verificata con prova di procedimento.</p>
+<h2>Giunti lunghi</h2>
+<p>Nei giunti a sovrapposizione con lunghezze oltre 150a, la EN 1993-1-8 applica un fattore riduttivo (β<sub>Lw</sub>) perché la distribuzione delle tensioni non è uniforme. Con cordoni molto lunghi la capacità non cresce linearmente.</p>
+<h2>Errori tipici</h2>
+<ul>
+<li>Confondere a e z: calcolare con z e indicarlo come a.</li>
+<li>Trascurare l’eccentricità: nelle mensole il gruppo di saldature porta anche un momento.</li>
+<li>Usare il β<sub>w</sub> dell’S355 per acciai più resistenti.</li>
+<li>Limitarsi al calcolo statico per pezzi a carico dinamico; la fatica è una verifica a parte.</li>
+<li>Mescolare la logica AWS D1.1 con l’Eurocodice su disegni americani. In AWS la tensione ammissibile della saldatura d’angolo si basa su 0,30 volte la resistenza del metallo d’apporto.</li>
+</ul>
+<div class="callout"><p><strong>In ArmaWeld:</strong> il calcolo delle dimensioni di saldatura è responsabilità del progettista del prodotto. In fase di offerta verifichiamo che le quote del disegno siano coerenti con spessori, campo delle WPS e livello di qualità richiesto, e vi segnaliamo per iscritto i punti poco chiari o apparentemente sovradimensionati. <a href="../cizime-gore-imalat.html">Produzione su disegno →</a></p></div></div>
+
+<div data-i18n-html="blog_p14_strength_faq"><h2>Domande frequenti</h2><div class="faq-item"><h3>Con quale norma si calcola una saldatura d’angolo?</h3><p>In Europa, per le strutture in acciaio, con la EN 1993-1-8. Il metodo semplificato o direzionale fornisce la forza trasmissibile per unità di lunghezza.</p></div><div class="faq-item"><h3>Qual è il βw per l’S355?</h3><p>Secondo la EN 1993-1-8, il fattore di correlazione per l’S355 è βw = 0,90.</p></div><div class="faq-item"><h3>Le saldature testa a testa a piena penetrazione vanno calcolate?</h3><p>Con consumabile adatto, la loro resistenza è pari a quella del materiale base più debole; non serve un calcolo separato della saldatura.</p></div><div class="faq-item"><h3>Perché il metodo direzionale dà più capacità?</h3><p>Valuta separatamente le componenti di tensione ed è quindi meno conservativo del semplificato, soprattutto con carichi trasversali.</p></div></div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p14_strength_cta_h3">Verifichiamo le quote di saldatura del vostro disegno</h3>
+      <p data-i18n="blog_p14_strength_cta_p">Inviateci il disegno; valutiamo le saldature insieme a WPS e livello di qualità e prepariamo l’offerta.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p14_strength_cta_btn">Richiedi un preventivo →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="Articoli correlati">
+      <h2 data-i18n="blog_related_h">Articoli correlati</h2>
+      <ul>
+        <li><a href="kose-kaynagi-a-olcusu.html" data-i18n="blog_p13_fillet_h1">Sezione di gola della saldatura d’angolo: a e z, dimensionamento e tolleranze</a></li>
+        <li><a href="celik-konstruksiyon-imalat.html" data-i18n="blog_celik_konstruksiyon_imalat_h1">Carpenteria metallica: dalla progettazione al montaggio</a></li>
+        <li><a href="wps-nedir.html" data-i18n="blog_wps_h1">Cos'è la WPS? Guida alla specifica di procedura di saldatura</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">Livelli di qualità ISO 5817 B, C e D: quale specificare?</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Torna al blog</a>
+    </div>
+
+  </article>
+</section>
+<script src="../../assets/lang/tr.js?v=20261116b"></script>
+<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+
+
+</body></html>
