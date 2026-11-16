@@ -1429,5 +1429,23 @@
     "it": "La nostra officina di carpenteria saldata →",
     "nl": "Onze laswerkplaats →",
     "no": "Sveiseverkstedet vårt →"
+  },
+  "Tasarım · Yüzey Koruma": {
+    "en": "Design · Surface Protection",
+    "de": "Konstruktion · Korrosionsschutz",
+    "es": "Diseño · Protección superficial",
+    "fr": "Conception · Protection de surface",
+    "it": "Progettazione · Protezione superficiale",
+    "nl": "Ontwerp · Oppervlaktebescherming",
+    "no": "Konstruksjon · Overflatebeskyttelse"
+  },
+  "Satın Alma · Kalite": {
+    "en": "Purchasing · Quality",
+    "de": "Einkauf · Qualität",
+    "es": "Compras · Calidad",
+    "fr": "Achats · Qualité",
+    "it": "Acquisti · Qualità",
+    "nl": "Inkoop · Kwaliteit",
+    "no": "Innkjøp · Kvalitet"
   }
 }

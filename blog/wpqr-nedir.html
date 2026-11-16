@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title data-i18n="blog_wpqr_title_tag">WPQR Nedir? Kaynak Prosedür Onay Kayıtları ve EN ISO 15614 | ArmaWeld Blog</title>
-  <meta name="description" data-i18n="blog_wpqr_meta_desc" content="WPQR (Welding Procedure Qualification Record) nedir, EN ISO 15614-1 ve 15614-2 kapsamında kaynak prosedürü nasıl onaylanır, hangi testler yapılır?" />
+<title data-i18n="blog_wpqr_title_tag">WPQR Nedir? Kaynak Prosedür Onayı, EN ISO 15614-1 Testleri ve Geçerlilik Aralığı | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_wpqr_meta_desc" content="WPQR nedir, WPS&#x27;ten farkı ne? EN ISO 15614-1 testleri, Seviye 1 ve Seviye 2, kalınlık ve malzeme geçerlilik aralığı, EN 1090&#x27;da kabul edilen onay yolları ve tedarikçiden WPQR isterken kontrol listesi." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
   <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
@@ -31,8 +31,8 @@
 <!-- /aw:hreflang -->
 <script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
   <meta property="og:type" content="article" />
-  <meta property="og:title" data-i18n="blog_wpqr_og_title" content="WPQR Nedir? Kaynak Prosedür Onay Kayıtları ve EN ISO 15614" />
-  <meta property="og:description" data-i18n="blog_wpqr_meta_desc" content="WPQR (Welding Procedure Qualification Record) nedir, EN ISO 15614-1 ve 15614-2 kapsamında kaynak prosedürü nasıl onaylanır, hangi testler yapılır?" />
+  <meta property="og:title" data-i18n="blog_wpqr_og_title" content="WPQR Nedir? Kaynak Prosedür Onayı ve EN ISO 15614-1" />
+  <meta property="og:description" data-i18n="blog_wpqr_meta_desc" content="WPQR nedir, WPS&#x27;ten farkı ne? EN ISO 15614-1 testleri, Seviye 1 ve Seviye 2, kalınlık ve malzeme geçerlilik aralığı, EN 1090&#x27;da kabul edilen onay yolları ve tedarikçiden WPQR isterken kontrol listesi." />
   <meta property="og:url" content="https://www.armaweld.com/blog/wpqr-nedir.html" />
   <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -41,12 +41,13 @@
   <meta property="og:locale" content="tr_TR" />
   <meta property="og:site_name" content="ArmaWeld" />
   <meta property="article:published_time" content="2026-05-02" />
+  <meta property="article:modified_time" content="2026-11-16" />
   <meta property="article:author" content="ArmaWeld Mühendislik" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../assets/theme.css?v=20261111b" />
+<link rel="stylesheet" href="../assets/theme.css?v=20261116a" />
 <style>
   .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
   .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
@@ -89,16 +90,20 @@
   .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
   .related a { color: var(--bone); text-decoration: none; }
   .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "WPQR Nedir? Kaynak Prosedür Onay Kayıtları ve EN ISO 15614",
-  "description": "WPQR (Welding Procedure Qualification Record) nedir, EN ISO 15614-1 ve 15614-2 kapsamında kaynak prosedürü nasıl onaylanır, hangi testler yapılır?",
+  "description": "WPQR nedir, WPS'ten farkı ne? EN ISO 15614-1 testleri, Seviye 1 ve Seviye 2, kalınlık ve malzeme geçerlilik aralığı, EN 1090'da kabul edilen onay yolları ve tedarikçiden WPQR isterken kontrol listesi.",
   "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
   "datePublished": "2026-05-02",
-  "dateModified": "2026-05-02",
+  "dateModified": "2026-11-16",
   "author": {
     "@type": "Organization",
     "name": "ArmaWeld Mühendislik",
@@ -162,6 +167,46 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "WPS ile WPQR arasındaki fark nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WPS kaynakçıya nasıl kaynak yapılacağını anlatan talimattır. WPQR ise bu talimatla kaynatılan test parçasının muayene ve test sonuçlarını içeren, prosedürün işe yaradığını kanıtlayan kayıttır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "WPQR'ın süresi dolar mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN ISO 15614-1'e göre onaylanmış bir WPQR'ın süresi dolmaz. Ancak esas değişkenlerden biri (yöntem, malzeme grubu, kalınlık aralığı, ısıl işlem gibi) değişirse yeni onay gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "WPQR'ı kim onaylar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Testlere tanık olan ve sonuçları değerlendiren bağımsız bir muayene kuruluşu (örneğin TÜV, Bureau Veritas, DNV) onaylar. Basınçlı ekipmanda bu kuruluşun onaylanmış kuruluş veya tanınmış üçüncü taraf olması gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bir WPQR başka bir firmada kullanılabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hayır. WPQR, testi yapan üreticiye ve onun teknik kontrolüne bağlıdır. Başka bir firmanın WPQR'ı devralınamaz."
+      }
+    }
+  ]
+}
+</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -205,10 +250,19 @@
 <h2>Hangi Testler Yapılır?</h2><table class="data-table"><thead><tr><th>Test</th><th>Kabul Kriteri</th><th>Standart</th></tr></thead><tbody><tr><td>Çekme (Tensile)</td><td>Rm ≥ ana metalin minimum çekme dayanımı</td><td>EN ISO 4136</td></tr><tr><td>Eğme (Bend)</td><td>4 numune, 180°, çatlak yok</td><td>EN ISO 5173</td></tr><tr><td>Charpy V-Notch</td><td>WPS sıcaklığında ortalama enerji ≥ 27 J</td><td>EN ISO 9016</td></tr><tr><td>Sertlik</td><td>HV10 — çelik sınıfına göre maksimum 380 HV (S960QL için 450 HV)</td><td>EN ISO 9015-1</td></tr><tr><td>Makro inceleme</td><td>Çatlak, gözenek, eksik nüfuziyet yok</td><td>EN ISO 17639</td></tr></tbody></table>
     </div>
     <div data-i18n-html="blog_wpqr_s4">
-<h2>Onay Geçerliliğinin Kapsamı</h2><p>Bir WPQR ile onaylanan WPS, sınırlı bir uygulama aralığını kapsar. Örneğin:</p><ul><li><strong>Malzeme grubu:</strong> CEN ISO/TR 15608 grup numarasına göre (1.1, 1.2, 3, 8.1 gibi)</li><li><strong>Kalınlık:</strong> Test kuponu kalınlığının 0,5–2 katı arasındaki kalınlıklar</li><li><strong>Çap (boru):</strong> Test çapı ≥ 25 mm ise tüm çaplar; küçük çaplarda sınırlı</li><li><strong>Pozisyon:</strong> Test pozisyonu kaynak grupları içinde aynı veya daha kolay olanlar</li><li><strong>Sarf malzeme:</strong> Aynı tip ve mukavemet sınıfı içinde</li></ul><div class="callout"><p><strong>Önemli:</strong> EN ISO 15614-1 (2017 revizyonu) ile alüminyum ve nikel alaşımları için ayrı bölümler ayrılmıştır. Alüminyum kaynağı için <strong>EN ISO 15614-2</strong> kullanılmalıdır.</p></div>
+<h2>Onay Geçerliliğinin Kapsamı</h2><p>Bir WPQR ile onaylanan WPS, sınırlı bir uygulama aralığını kapsar. Bu aralığın dışına çıkan her kaynak için yeni bir onay gerekir:</p><ul><li><strong>Malzeme grubu:</strong> ISO/TR 15608 grup numarasına göre (1.1, 1.2, 2, 3, 8.1 gibi). Bir grupta yapılan test, standarttaki tabloya göre bazı alt grupları da kapsar.</li><li><strong>Kalınlık:</strong> 3–12 mm arası kuponda yaklaşık 0,5t (en az 3 mm) ile 2t; 12–100 mm arası kuponda 0,5t ile 2t aralığı onaylanır. Tek pasolu veya yüksek ısı girdili kaynakta üst sınır daralır.</li><li><strong>Çap (boru):</strong> Test çapının yarısından başlayan bir aralık onaylanır; küçük çaplarda alt ve üst sınır birlikte daralır.</li><li><strong>Pozisyon:</strong> Darbe ve sertlik şartı yoksa bir pozisyondaki test, dikey aşağı (PG) hariç diğer pozisyonları da kapsar; şart varsa en yüksek ısı girdili ve en düşük ısı girdili pozisyonlar test edilmelidir.</li><li><strong>Sarf malzemesi, gaz ve ısı girdisi:</strong> Darbe şartı olan işlerde ısı girdisi testtekinden en fazla %25 yüksek, sertlik şartı olan işlerde en fazla %25 düşük olabilir.</li></ul><div class="callout"><p><strong>Önemli:</strong> EN ISO 15614-1 çelik ve nikel alaşımlarını kapsar. Alüminyum ve alaşımlarının kaynak prosedürü <strong>EN ISO 15614-2</strong> ile onaylanır. Kesin aralıklar için her zaman standardın güncel tablolarına bakılmalıdır.</p></div>
+    </div>
+    <div data-i18n-html="blog_n29_wpqr_routes">
+<h2>WPQR Almanın Yolları: EN ISO 15607</h2><p>Her kaynak prosedürü için laboratuvar testi zorunlu değildir. EN ISO 15607 bir WPS'in beş farklı yolla onaylanabileceğini tanımlar:</p><table class="data-table"><thead><tr><th>Standart</th><th>Onay yolu</th><th>Ne zaman kullanılır?</th></tr></thead><tbody><tr><td>EN ISO 15614</td><td>Kaynak prosedür testi</td><td>En kapsamlı yol. EXC3, EXC4 ve basınçlı ekipmanda genellikle zorunludur.</td></tr><tr><td>EN ISO 15613</td><td>Üretim öncesi kaynak testi</td><td>Test kuponu gerçek parçayı temsil edemiyorsa, parça benzeri bir numune kaynatılır.</td></tr><tr><td>EN ISO 15612</td><td>Standart kaynak prosedürü</td><td>Yayımlanmış standart prosedürün kullanılması; düşük riskli ve sınırlı malzemelerde.</td></tr><tr><td>EN ISO 15611</td><td>Önceki kaynak deneyimi</td><td>Firmanın aynı prosedürle geçmişte başarılı üretim yaptığını belgelemesi.</td></tr><tr><td>EN ISO 15610</td><td>Test edilmiş sarf malzemesi</td><td>Sarf malzemesi onayına dayanır; en sınırlı yoldur.</td></tr></tbody></table><p>EN 1090-2'ye göre EXC2'de belirli malzeme ve koşullarla 15610, 15611 ve 15612 yolları da kabul edilebilir. EXC3 ve EXC4'te ise prosedürler EN ISO 15614-1 testi veya EN ISO 15613 üretim öncesi testi ile onaylanmalıdır. Bu nedenle yüksek yürütme sınıfı isteyen bir projede tedarikçinin "WPQR'ımız var" demesi yeterli değildir; hangi yolla onaylandığı sorulmalıdır.</p><h2>EN ISO 15614-1:2017 Seviye 1 ve Seviye 2</h2><p>Standardın 2017 baskısıyla iki test seviyesi tanımlandı:</p><ul><li><strong>Seviye 1:</strong> ASME IX yaklaşımına daha yakındır; daha az test ve daha geniş geçerlilik aralığı içerir.</li><li><strong>Seviye 2:</strong> Avrupa'daki geleneksel yaklaşımdır; darbe ve sertlik testleri ile daha dar ama daha güvenilir bir geçerlilik aralığı sağlar.</li></ul><p>Seviye 2 ile onaylanan bir prosedür Seviye 1'i de kapsar; tersi geçerli değildir. EN 1090-2 kapsamındaki işlerde Seviye 2 esas alınır. Bir WPQR incelerken belgenin hangi seviyede düzenlendiği ilk bakılacak bilgilerden biridir.</p>
     </div>
     <div data-i18n-html="blog_wpqr_s5">
 <h2>WPQR Geçerlilik Süresi</h2><p>EN ISO 15614 kapsamında onaylanmış bir WPQR <strong>süresizdir</strong> — yenileme zorunluluğu yoktur. Ancak şu durumlarda yeniden onay gerekir:</p><ul><li>Kaynak prosesinin değişmesi (örn. MAG'dan TIG'e geçiş)</li><li>Malzeme grubunun değişmesi</li><li>Onaylanan kalınlık aralığının dışına çıkılması</li><li>Sarf malzemenin önemli ölçüde değişmesi</li></ul><h2>ArmaWeld WPS/WPQR Kütüphanesi</h2><p>ArmaWeld bünyesinde 80+ onaylı WPS ve WPQR kayıtları bulunmaktadır. Karbon çelik (S235–S355), yüksek mukavemetli (S690QL, Strenx 700/900/960/1100, S700MC, S960QL), paslanmaz (304L, 316L), alüminyum alaşımları (5083, 6082) ve aşınma çelikleri (HARDOX 400/450/500) için onaylı kaynak prosedürlerimiz mevcut.</p>
+    </div>
+    <div data-i18n-html="blog_n29_wpqr_buyer">
+<h2>Tedarikçiden WPQR İsterken Kontrol Listesi</h2><p>Satın alma veya kalite ekibi olarak bir tedarikçinin WPQR listesini incelerken şu soruları sorun:</p><ol><li><strong>Yöntem:</strong> Parçanızda kullanılacak kaynak yöntemi (örneğin 135 veya 121) listede var mı?</li><li><strong>Malzeme grubu:</strong> Çeliğiniz (örneğin S355 grup 1.2, S690QL grup 3) onaylı gruplar içinde mi?</li><li><strong>Kalınlık ve çap:</strong> En ince ve en kalın parçanız onaylı aralıkta mı?</li><li><strong>Birleştirme tipi:</strong> Alın kaynağı onayı köşe kaynağını kapsar, tersi geçerli değildir. Tam nüfuziyetli alın dikişleriniz varsa alın kaynağı onayı gerekir.</li><li><strong>Darbe sıcaklığı:</strong> Projede -20 °C veya -40 °C darbe şartı varsa WPQR'da bu sıcaklıkta test yapılmış olmalı.</li><li><strong>Isıl işlem:</strong> Projede PWHT gerekiyorsa WPQR da ısıl işlem uygulanmış kuponla yapılmış olmalı.</li><li><strong>Onaylayan kuruluş ve seviye:</strong> Belgeyi kim imzalamış, hangi standart ve seviyeye göre düzenlenmiş?</li></ol><h2>WPQR Süreci Ne Kadar Sürer?</h2><p>Kupon kaynağı ve tahribatsız muayene genellikle birkaç gün içinde tamamlanır. Tahribatlı testler laboratuvarın yoğunluğuna göre bir ile üç hafta sürebilir. Bu yüzden onayı olmayan bir malzeme veya kalınlık için teklif aşamasında süreyi planlamak gerekir. Mevcut WPQR'ları işinizi kapsayan bir tedarikçiyle bu süre tamamen ortadan kalkar.</p><div class="callout"><p><strong>ArmaWeld'de:</strong> Teklif aşamasında çiziminizi mevcut WPS/WPQR listemizle karşılaştırırız. İşinizi kapsayan prosedür yoksa bunu teklifte açıkça yazar, test süresini termine ekleriz. <a href="../kalite.html">Kalite ve belgelerimizi inceleyin →</a></p></div>
+    </div>
+    <div data-i18n-html="blog_n29_wpqr_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>WPS ile WPQR arasındaki fark nedir?</h3><p>WPS kaynakçıya nasıl kaynak yapılacağını anlatan talimattır. WPQR ise bu talimatla kaynatılan test parçasının muayene ve test sonuçlarını içeren, prosedürün işe yaradığını kanıtlayan kayıttır.</p></div><div class="faq-item"><h3>WPQR'ın süresi dolar mı?</h3><p>EN ISO 15614-1'e göre onaylanmış bir WPQR'ın süresi dolmaz. Ancak esas değişkenlerden biri (yöntem, malzeme grubu, kalınlık aralığı, ısıl işlem gibi) değişirse yeni onay gerekir.</p></div><div class="faq-item"><h3>WPQR'ı kim onaylar?</h3><p>Testlere tanık olan ve sonuçları değerlendiren bağımsız bir muayene kuruluşu (örneğin TÜV, Bureau Veritas, DNV) onaylar. Basınçlı ekipmanda bu kuruluşun onaylanmış kuruluş veya tanınmış üçüncü taraf olması gerekir.</p></div><div class="faq-item"><h3>Bir WPQR başka bir firmada kullanılabilir mi?</h3><p>Hayır. WPQR, testi yapan üreticiye ve onun teknik kontrolüne bağlıdır. Başka bir firmanın WPQR'ı devralınamaz.</p></div>
     </div>
 
     <div class="cta-box">
@@ -234,9 +288,9 @@
   </div>
 </section>
 <script src="../assets/blog-translations-2026.js?v=20261030b"></script>
-<script src="../assets/lang/tr.js?v=20261111b"></script>
-<script src="../assets/i18n.js?v=20261111b"></script>
-<script src="../assets/chrome.js?v=20261111b"></script>
+<script src="../assets/lang/tr.js?v=20261116a"></script>
+<script src="../assets/i18n.js?v=20261116a"></script>
+<script src="../assets/chrome.js?v=20261116a"></script>
 <script src="../assets/analytics.js?v=20261103"></script>
 <script>mountChrome('blog', '../');</script>
 </body>
