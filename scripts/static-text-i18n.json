@@ -923,7 +923,7 @@
     "es": "Acero de alta resistencia",
     "fr": "Acier à haute résistance",
     "it": "Acciaio ad alta resistenza",
-    "nl": "Hoogsterktestaal",
+    "nl": "Hoogsterkte staal",
     "no": "Høyfast stål"
   },
   "Çelik Konstrüksiyon · EN 1090": {
@@ -1591,5 +1591,32 @@
     "it": "Materiali · Difetti",
     "nl": "Materialen · Fouten",
     "no": "Materialer · Feil"
+  },
+  "Yüzey Hazırlığı · Boya": {
+    "en": "Surface Preparation · Coating",
+    "de": "Oberflächenvorbereitung · Beschichtung",
+    "es": "Preparación de superficie · Pintura",
+    "fr": "Préparation de surface · Peinture",
+    "it": "Preparazione superficiale · Verniciatura",
+    "nl": "Oppervlaktevoorbereiding · Coating",
+    "no": "Overflatebehandling · Maling"
+  },
+  "Korozyon · Boya": {
+    "en": "Corrosion · Coating",
+    "de": "Korrosion · Beschichtung",
+    "es": "Corrosión · Pintura",
+    "fr": "Corrosion · Peinture",
+    "it": "Corrosione · Verniciatura",
+    "nl": "Corrosie · Coating",
+    "no": "Korrosjon · Maling"
+  },
+  "Malzeme · Çelik Kaliteleri": {
+    "en": "Materials · Steel Grades",
+    "de": "Werkstoffe · Stahlgüten",
+    "es": "Materiales · Calidades de acero",
+    "fr": "Matériaux · Nuances d’acier",
+    "it": "Materiali · Qualità di acciaio",
+    "nl": "Materialen · Staalkwaliteiten",
+    "no": "Materialer · Stålkvaliteter"
   }
 }
