@@ -1960,5 +1960,32 @@
     "it": "Acquisti · Costi",
     "nl": "Inkoop · Kosten",
     "no": "Innkjøp · Kostnad"
+  },
+  "Satın Alma · Bakım": {
+    "en": "Purchasing · Maintenance",
+    "de": "Einkauf · Instandhaltung",
+    "es": "Compras · Mantenimiento",
+    "fr": "Achats · Maintenance",
+    "it": "Acquisti · Manutenzione",
+    "nl": "Inkoop · Onderhoud",
+    "no": "Innkjøp · Vedlikehold"
+  },
+  "Satın Alma · Tasarım": {
+    "en": "Purchasing · Design",
+    "de": "Einkauf · Konstruktion",
+    "es": "Compras · Diseño",
+    "fr": "Achats · Conception",
+    "it": "Acquisti · Progettazione",
+    "nl": "Inkoop · Ontwerp",
+    "no": "Innkjøp · Konstruksjon"
+  },
+  "Satın Alma · Sac Metal": {
+    "en": "Purchasing · Sheet Metal",
+    "de": "Einkauf · Blech",
+    "es": "Compras · Chapa",
+    "fr": "Achats · Tôlerie",
+    "it": "Acquisti · Lamiera",
+    "nl": "Inkoop · Plaatwerk",
+    "no": "Innkjøp · Platearbeid"
   }
 }
