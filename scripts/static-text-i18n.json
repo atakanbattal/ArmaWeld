@@ -1987,5 +1987,41 @@
     "it": "Acquisti · Lamiera",
     "nl": "Inkoop · Plaatwerk",
     "no": "Innkjøp · Platearbeid"
+  },
+  "Ülke Rehberi · Avusturya": {
+    "en": "Country Guide · Austria",
+    "de": "Länderleitfaden · Österreich",
+    "es": "Guía por país · Austria",
+    "fr": "Guide pays · Autriche",
+    "it": "Guida Paese · Austria",
+    "nl": "Landengids · Oostenrijk",
+    "no": "Landguide · Østerrike"
+  },
+  "Ülke Rehberi · Norveç": {
+    "en": "Country Guide · Norway",
+    "de": "Länderleitfaden · Norwegen",
+    "es": "Guía por país · Noruega",
+    "fr": "Guide pays · Norvège",
+    "it": "Guida Paese · Norvegia",
+    "nl": "Landengids · Noorwegen",
+    "no": "Landguide · Norge"
+  },
+  "Ülke Rehberi · Benelüks": {
+    "en": "Country Guide · Benelux",
+    "de": "Länderleitfaden · Benelux",
+    "es": "Guía por país · Benelux",
+    "fr": "Guide pays · Benelux",
+    "it": "Guida Paese · Benelux",
+    "nl": "Landengids · Benelux",
+    "no": "Landguide · Benelux"
+  },
+  "Ülke Rehberi · İsviçre": {
+    "en": "Country Guide · Switzerland",
+    "de": "Länderleitfaden · Schweiz",
+    "es": "Guía por país · Suiza",
+    "fr": "Guide pays · Suisse",
+    "it": "Guida Paese · Svizzera",
+    "nl": "Landengids · Zwitserland",
+    "no": "Landguide · Sveits"
   }
 }
