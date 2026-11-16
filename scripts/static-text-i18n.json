@@ -2057,7 +2057,7 @@
     "es": "Guía de producto · Manutención",
     "fr": "Guide produit · Manutention",
     "it": "Guida prodotto · Movimentazione",
-    "nl": "Productgids · Intern transport",
+    "nl": "Productgids · Bulktransport",
     "no": "Produktguide · Materialhåndtering"
   },
   "Ürün Rehberi · Modüler Yapılar": {
@@ -2113,5 +2113,23 @@
     "it": "Guida prodotto · Tubazioni",
     "nl": "Productgids · Leidingwerk",
     "no": "Produktguide · Rør"
+  },
+  "Ürün Rehberi · Hava ve Toz": {
+    "en": "Product Guide · Air and Dust",
+    "de": "Produktleitfaden · Luft und Staub",
+    "es": "Guía de producto · Aire y polvo",
+    "fr": "Guide produit · Air et poussières",
+    "it": "Guida prodotto · Aria e polveri",
+    "nl": "Productgids · Lucht en stof",
+    "no": "Produktguide · Luft og støv"
+  },
+  "Ürün Rehberi · Proses Ekipmanı": {
+    "en": "Product Guide · Process Equipment",
+    "de": "Produktleitfaden · Prozesstechnik",
+    "es": "Guía de producto · Equipos de proceso",
+    "fr": "Guide produit · Équipements de process",
+    "it": "Guida prodotto · Macchine di processo",
+    "nl": "Productgids · Procesapparatuur",
+    "no": "Produktguide · Prosessutstyr"
   }
 }
