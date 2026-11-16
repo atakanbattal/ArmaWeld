@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="blog_p13_fillet_title">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-i18n="blog_p13_fillet_title">Köşe Kaynağında a Ölçüsü: Boğaz Kalınlığı, z Ölçüsü ve Doğru Seçim | ArmaWeld</title>
+  <meta name="description" data-i18n="blog_p13_fillet_meta_desc" content="Köşe kaynağında a ölçüsü nedir, z ölçüsüyle ilişkisi nasıl hesaplanır? Çizimde gösterim, minimum ve maksimum değerler, ISO 5817 toleransları, ölçüm ve gereğinden büyük kaynağın maliyeti." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="aw-post-i18n" content="kose-kaynagi-a-olcusu" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=20261005">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico?v=20261005">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png?v=20261005">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png?v=20261005">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=20261005">
+  <link rel="manifest" href="../site.webmanifest?v=20261005">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../android-chrome-192x192.png">
+  <link rel="canonical" href="https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html" />
+<!-- aw:hreflang -->
+<link rel="alternate" hreflang="tr" href="https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="en" href="https://www.armaweld.com/en/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="de" href="https://www.armaweld.com/de/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="es" href="https://www.armaweld.com/es/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="fr" href="https://www.armaweld.com/fr/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="it" href="https://www.armaweld.com/it/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="nl" href="https://www.armaweld.com/nl/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="no" href="https://www.armaweld.com/no/blog/kose-kaynagi-a-olcusu.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/kose-kaynagi-a-olcusu.html" />
+<!-- /aw:hreflang -->
+<script>(function(){try{var l=localStorage.getItem('armaweld-lang');if(!l||l==='tr')return;var a=document.querySelector('link[rel="alternate"][hreflang="'+l+'"]');if(!a)return;var s=sessionStorage,k='aw-redir',p=location.pathname;if(s.getItem(k)===p){s.removeItem(k);return}s.setItem(k,p);location.replace(new URL(a.href).pathname+location.search+location.hash)}catch(e){}})();</script>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" data-i18n="blog_p13_fillet_og_title" content="Köşe Kaynağında a Ölçüsü" />
+  <meta property="og:description" data-i18n="blog_p13_fillet_meta_desc" content="Köşe kaynağında a ölçüsü nedir, z ölçüsüyle ilişkisi nasıl hesaplanır? Çizimde gösterim, minimum ve maksimum değerler, ISO 5817 toleransları, ölçüm ve gereğinden büyük kaynağın maliyeti." />
+  <meta property="og:url" content="https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html" />
+  <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="ArmaWeld" />
+  <meta property="article:published_time" content="2026-11-16" />
+  <meta property="article:modified_time" content="2026-11-16" />
+  <meta property="article:author" content="ArmaWeld Mühendislik" />
+  <meta property="article:section" content="Tasarım · Hesap" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/theme.css?v=20261116b" />
+<style>
+  .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+  .breadcrumb { font-family: var(--ff-mono); font-size: 11px; color: var(--steel-1); letter-spacing: .05em; margin-bottom: 32px; }
+  .breadcrumb a { color: var(--steel-2); }
+  .breadcrumb a:hover { color: var(--arc-2); }
+  .article-tag { font-family: var(--ff-mono); font-size: 10px; color: var(--arc-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; }
+  .page-hero h1 { font-size: clamp(26px, 3.5vw, 52px); font-weight: 900; color: var(--bone); line-height: 1.05; letter-spacing: -.035em; margin-bottom: 24px; }
+  .article-meta { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-1); display: flex; gap: 24px; flex-wrap: wrap; }
+  .article-wrap { padding: 64px 0 120px; background: var(--ink-0); }
+  .article-body { max-width: 740px; margin: 0 auto; padding: 0 var(--gutter); }
+  .article-body h2 { font-size: clamp(20px, 2vw, 28px); font-weight: 800; color: var(--bone); letter-spacing: -.025em; margin: 52px 0 20px; padding-top: 52px; border-top: 1px solid var(--ink-4); }
+  .article-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .article-body h3 { font-size: 18px; font-weight: 700; color: var(--bone); margin: 32px 0 12px; }
+  .article-body p { font-size: 17px; color: var(--steel-3); line-height: 1.75; margin-bottom: 20px; }
+  .article-body ul, .article-body ol { color: var(--steel-3); font-size: 17px; line-height: 1.75; padding-left: 24px; margin-bottom: 20px; }
+  .article-body li { margin-bottom: 8px; }
+  .article-body strong { color: var(--bone); font-weight: 600; }
+  .tag-inline { background: var(--ink-4); color: var(--arc-3); font-family: var(--ff-mono); font-size: 12px; padding: 2px 8px; border-radius: 2px; display: inline-block; }
+  .callout { background: var(--ink-3); border-left: 3px solid var(--arc-2); padding: 20px 24px; margin: 32px 0; border-radius: 0 4px 4px 0; }
+  .callout p { margin: 0; font-size: 15px; color: var(--steel-2); }
+  .callout strong { color: var(--arc-3); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+  .data-table th { background: var(--ink-3); color: var(--bone); font-family: var(--ff-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; padding: 12px 16px; text-align: left; border-bottom: 2px solid var(--arc-2); }
+  .data-table td { padding: 12px 16px; color: var(--steel-3); border-bottom: 1px solid var(--ink-4); vertical-align: top; }
+  .data-table tr:hover td { background: var(--ink-2); }
+  .data-table td:first-child { color: var(--arc-3); font-family: var(--ff-mono); font-weight: 700; white-space: nowrap; }
+  .article-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--ink-4); }
+  .back-link { font-family: var(--ff-mono); font-size: 12px; color: var(--steel-2); text-decoration: none; text-transform: uppercase; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 6px; }
+  .back-link:hover { color: var(--arc-2); }
+  .cta-box { background: var(--ink-2); border: 1px solid var(--ink-5); border-radius: 4px; padding: 32px; margin-top: 48px; }
+  .cta-box h3 { font-size: 20px; font-weight: 800; color: var(--bone); margin-bottom: 10px; }
+  .cta-box p { font-size: 15px; color: var(--steel-2); margin-bottom: 20px; }
+  .btn-arc { display: inline-flex; align-items: center; gap: 8px; background: var(--arc-2); color: var(--ink-0); padding: 12px 24px; font-family: var(--ff-mono); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; text-decoration: none; font-weight: 700; border-radius: 2px; }
+  .btn-arc:hover { background: var(--arc-3); }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .related { margin-top: 56px; }
+  .related h2 { border-top: none !important; padding-top: 0 !important; margin-top: 0 !important; font-size: 20px !important; }
+  .related ul { list-style: none; padding: 0; }
+  .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
+  .related a { color: var(--bone); text-decoration: none; }
+  .related a:hover { color: var(--arc-2); }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Köşe Kaynağında a Ölçüsü: Boğaz Kalınlığı, z Ölçüsü ve Doğru Seçim",
+  "description": "Köşe kaynağında a ölçüsü nedir, z ölçüsüyle ilişkisi nasıl hesaplanır? Çizimde gösterim, minimum ve maksimum değerler, ISO 5817 toleransları, ölçüm ve gereğinden büyük kaynağın maliyeti.",
+  "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
+  "datePublished": "2026-11-16",
+  "dateModified": "2026-11-16",
+  "author": {
+    "@type": "Organization",
+    "name": "ArmaWeld Mühendislik",
+    "url": "https://www.armaweld.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.armaweld.com/#organization",
+    "name": "ArmaWeld",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.armaweld.com/android-chrome-512x512.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html"
+  },
+  "url": "https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html",
+  "inLanguage": "tr-TR",
+  "articleSection": "Tasarım · Hesap",
+  "keywords": "köşe kaynağı a ölçüsü, kaynak a ölçüsü nedir, a ölçüsü z ölçüsü, boğaz kalınlığı, bacak boyu, köşe kaynak hesabı, fillet weld throat thickness, Kehlnahtdicke a-Maß"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ArmaWeld",
+      "item": "https://www.armaweld.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.armaweld.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Köşe Kaynağında a Ölçüsü: Boğaz Kalınlığı, z Ölçüsü ve Doğru Seçim",
+      "item": "https://www.armaweld.com/blog/kose-kaynagi-a-olcusu.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "a5 köşe kaynağının bacak boyu kaç mm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eşit bacaklı ve 90° birleşen bir köşe kaynağında z ≈ 1,4 × a olduğundan a5 için bacak boyu yaklaşık 7 mm olur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "a ölçüsü ile z ölçüsü arasındaki fark nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "a ölçüsü kaynak kesitindeki boğaz kalınlığıdır ve hesapta kullanılır. z ölçüsü kaynağın parça yüzeyindeki bacak boyudur ve atölyede doğrudan görülür."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Köşe kaynağında minimum a ölçüsü nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 1993-1-8 taşıyıcı köşe kaynaklarında a ölçüsünün en az 3 mm olmasını ister. Taşıyıcı olmayan dikişlerde müşteri şartnamesi belirleyicidir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kaynağı büyütmek parçayı her zaman güçlendirir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hayır. Belirli bir noktadan sonra zayıf halka sac olur; büyük kaynak yalnızca ısı girdisini, çarpılmayı ve maliyeti artırır."
+      }
+    }
+  ]
+}
+</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied' });
+    if (localStorage.getItem('armaweld-cookie') === 'all') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    gtag('config', 'G-ML770TF8NC');
+  </script>
+</head>
+<body>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="blog_breadcrumb_home">ArmaWeld</a> &nbsp;/&nbsp; <a href="index.html" data-i18n="blog_breadcrumb_blog">Blog</a> &nbsp;/&nbsp; <span data-i18n="blog_p13_fillet_breadcrumb3">Köşe Kaynağı a Ölçüsü</span></div>
+    <div class="article-tag" data-i18n="blog_p13_fillet_tag">Tasarım · Hesap</div>
+    <h1 data-i18n="blog_p13_fillet_h1">Köşe Kaynağında a Ölçüsü: Boğaz Kalınlığı, z Ölçüsü ve Doğru Seçim</h1>
+    <div class="article-meta">
+      <span><time datetime="2026-11-16">2026-11-16</time></span>
+      <span data-i18n="blog_p13_fillet_read">6 dk okuma</span>
+      <span data-i18n="blog_wps_author">ArmaWeld Mühendislik</span>
+    </div>
+  </div>
+</section>
+
+<section class="article-wrap">
+  <article class="article-body">
+<div data-i18n-html="blog_p13_fillet_body">
+<p>Kaynaklı parçaların büyük kısmında dikişlerin çoğu köşe kaynağıdır. Teknik resimde yanında yazan küçük bir değer, örneğin <strong>a5</strong>, hem parçanın taşıyacağı yükü hem de kaynak süresini ve maliyeti belirler. Bu yazıda a ölçüsünün ne olduğunu, z ölçüsüyle farkını, nasıl seçildiğini ve atölyede nasıl kontrol edildiğini anlatıyoruz.</p>
+<h2>a Ölçüsü ve z Ölçüsü</h2>
+<ul>
+<li><strong>a ölçüsü (boğaz kalınlığı):</strong> Köşe kaynağı kesitine çizilebilen en büyük ikizkenar üçgenin, kök noktasından hipotenüse olan yüksekliğidir. Mukavemet hesapları bu değerle yapılır.</li>
+<li><strong>z ölçüsü (bacak boyu):</strong> Kaynağın parça yüzeyindeki kenar uzunluğudur. Atölyede doğrudan görülen ve ölçülen değer budur.</li>
+</ul>
+<p>90° birleşen ve eşit bacaklı bir köşe kaynağında ilişki basittir: <strong>a ≈ 0,7 × z</strong>, yani <strong>z ≈ 1,4 × a</strong>.</p>
+<table class="data-table"><thead><tr><th>a (mm)</th><th>z (mm, yaklaşık)</th><th>Tipik kullanım</th></tr></thead><tbody>
+<tr><td>3</td><td>4,2</td><td>İnce sac, düşük yük, bağlantı dikişleri</td></tr>
+<tr><td>4</td><td>5,7</td><td>Genel imalat, 6-8 mm saclar</td></tr>
+<tr><td>5</td><td>7,1</td><td>Şasi ve konstrüksiyon bağlantıları</td></tr>
+<tr><td>6</td><td>8,5</td><td>10-12 mm ve üstü sacların yük taşıyan birleşimleri</td></tr>
+<tr><td>8</td><td>11,3</td><td>Ağır yük; çoğu zaman çok pasolu</td></tr>
+</tbody></table>
+<h2>Çizimde Nasıl Gösterilir?</h2>
+<p>ISO 2553'e göre köşe kaynağı sembolünün soluna ölçü yazılır. "a5" boğaz kalınlığını, "z7" bacak boyunu ifade eder. Harf yazılmamışsa birçok Avrupa çiziminde değer a ölçüsü kabul edilir, ancak bu bir varsayımdır ve teklif aşamasında netleştirilmelidir. Sembolün sağına dikiş uzunluğu, aralıklı kaynakta da adım yazılır; örneğin <strong>a4 3×50 (150)</strong>. Ayrıntılar için <a href="kaynak-sembolizasyonu.html">kaynak sembolleri rehberimize</a> bakabilirsiniz.</p>
+<h2>a Ölçüsü Nasıl Seçilir?</h2>
+<ol>
+<li><strong>Yük hesabı:</strong> Taşıyıcı bağlantılarda a ölçüsü, EN 1993-1-8 gibi tasarım standartlarına göre hesaplanır. Basitleştirilmiş yöntemde kaynağın birim uzunluk başına taşıyabileceği kuvvet, a ölçüsüyle doğru orantılıdır.</li>
+<li><strong>Alt sınır:</strong> EN 1993-1-8 taşıyıcı köşe kaynakları için a ölçüsünün 3 mm'den küçük olmamasını ister.</li>
+<li><strong>Sac kalınlığıyla uyum:</strong> Pratik bir kural olarak a ölçüsü, birleşen ince parçanın kalınlığının yaklaşık 0,7 katını aşmamalıdır. Daha büyük kaynak çoğunlukla yük kapasitesi kazandırmaz, sadece ısı girdisini ve çarpılmayı artırır.</li>
+<li><strong>Tek paso sınırı:</strong> MAG yönteminde a5-a6 civarına kadar tek pasoda çıkılabilir. Daha büyük ölçüler çok pasolu kaynak gerektirir ve süre hızla artar.</li>
+</ol>
+<h2>Büyük Kaynak Neden Daha Pahalı?</h2>
+<p>Köşe kaynağında kaynak metali hacmi a ölçüsünün karesiyle artar. a5 yerine a7 istendiğinde kaynak metali yaklaşık iki katına (49/25 ≈ 1,96) çıkar; buna ek pasolar, daha fazla ısı girdisi ve <a href="kaynak-distorsiyonu.html">distorsiyon</a> düzeltme süresi eklenir. "Ne olur ne olmaz" diye büyütülen kaynak, parçayı güçlendirmeden maliyeti artırır.</p>
+<h2>Derin Nüfuziyet</h2>
+<p>Tozaltı (SAW) gibi yüksek nüfuziyetli yöntemlerde kaynak kökün ötesine işler. EN 1993-1-8, bu ek nüfuziyetin hesaba katılmasına ancak bir prosedür testiyle kanıtlanması şartıyla izin verir. Bu durumda yüzeyde daha küçük görünen bir kaynak, hesapta aynı kapasiteyi sağlayabilir.</p>
+<h2>ISO 5817'de a Ölçüsü Toleransları</h2>
+<p>ISO 5817, köşe kaynağında hem eksik hem fazla boğaz kalınlığını sınırlar:</p>
+<table class="data-table"><thead><tr><th>Kusur</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody>
+<tr><td>Eksik boğaz kalınlığı (5213)</td><td>İzin verilmez</td><td>h ≤ 0,3 mm + 0,1a, en fazla 1 mm (kısa kusur)</td><td>h ≤ 0,3 mm + 0,1a, en fazla 2 mm (kısa kusur)</td></tr>
+<tr><td>Fazla boğaz kalınlığı (5214)</td><td>h ≤ 1 mm + 0,15a, en fazla 3 mm</td><td>h ≤ 1 mm + 0,2a, en fazla 4 mm</td><td>h ≤ 1 mm + 0,3a, en fazla 5 mm</td></tr>
+</tbody></table>
+<p>Yani B seviyesinde a5 istenen bir dikiş yerel olarak bile a5'in altına düşemez. Kalite seviyelerinin tamamı için <a href="iso-5817-kalite-seviyeleri.html">ISO 5817 rehberimize</a> bakın.</p>
+<h2>Atölyede Nasıl Ölçülür?</h2>
+<p>a ölçüsü, köşe kaynak mastarı (fillet gauge) veya çok fonksiyonlu kaynak mastarıyla gözle muayene sırasında ölçülür. Mastar, iki parça yüzeyine dayanır ve kaynak yüzeyine kadar olan mesafeyi gösterir. Dışbükey kaynakta ölçülen değer gerçek boğaz kalınlığını verirken, içbükey kaynakta yüzey profili belirleyicidir; bu yüzden içbükey dikişlerde ölçüm daha dikkatli yapılmalıdır. Kritik bağlantılarda numune kesit alınarak makro inceleme yapılabilir.</p>
+<h2>Teklif Öncesi Kontrol Listesi</h2>
+<ol>
+<li>Çizimde a mı z mi yazdığı açık mı?</li>
+<li>a ölçüsü, ince parçanın kalınlığıyla uyumlu mu?</li>
+<li>Aralıklı kaynak yeterli olur mu, sürekli kaynak gerçekten gerekli mi?</li>
+<li>İstenen kalite seviyesi (B, C, D) belirtilmiş mi?</li>
+</ol>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Teklif aşamasında çizimdeki kaynak ölçülerini sac kalınlıklarıyla birlikte gözden geçiririz; gereğinden büyük veya belirsiz ölçüleri size sorarız. Üretimde a ölçüsü, ISO 17637'ye göre yaptığımız gözle muayenede mastarla kontrol edilir ve rapora işlenir. <a href="../cizime-gore-imalat.html">Çizime göre imalat hizmetimiz →</a></p></div>
+</div>
+
+<div data-i18n-html="blog_p13_fillet_faq">
+<h2>Sık Sorulan Sorular</h2><div class="faq-item"><h3>a5 köşe kaynağının bacak boyu kaç mm?</h3><p>Eşit bacaklı ve 90° birleşen bir köşe kaynağında z ≈ 1,4 × a olduğundan a5 için bacak boyu yaklaşık 7 mm olur.</p></div><div class="faq-item"><h3>a ölçüsü ile z ölçüsü arasındaki fark nedir?</h3><p>a ölçüsü kaynak kesitindeki boğaz kalınlığıdır ve hesapta kullanılır. z ölçüsü kaynağın parça yüzeyindeki bacak boyudur ve atölyede doğrudan görülür.</p></div><div class="faq-item"><h3>Köşe kaynağında minimum a ölçüsü nedir?</h3><p>EN 1993-1-8 taşıyıcı köşe kaynaklarında a ölçüsünün en az 3 mm olmasını ister. Taşıyıcı olmayan dikişlerde müşteri şartnamesi belirleyicidir.</p></div><div class="faq-item"><h3>Kaynağı büyütmek parçayı her zaman güçlendirir mi?</h3><p>Hayır. Belirli bir noktadan sonra zayıf halka sac olur; büyük kaynak yalnızca ısı girdisini, çarpılmayı ve maliyeti artırır.</p></div>
+</div>
+
+    <div class="cta-box">
+      <h3 data-i18n="blog_p13_fillet_cta_h3">Çiziminizdeki kaynak ölçülerini birlikte gözden geçirelim</h3>
+      <p data-i18n="blog_p13_fillet_cta_p">Çiziminizi gönderin; kaynak ölçülerini sac kalınlıklarıyla birlikte değerlendirip teklif hazırlayalım.</p>
+      <a href="../iletisim.html" class="btn-arc" data-i18n="blog_p13_fillet_cta_btn">Teklif İste →</a>
+    </div>
+
+    <!-- related:start -->
+    <nav class="related" aria-label="İlgili makaleler">
+      <h2 data-i18n="blog_related_h">İlgili Makaleler</h2>
+      <ul>
+        <li><a href="kaynak-sembolizasyonu.html" data-i18n="blog_kaynak_sembol_h1">Teknik Resimde Kaynak Sembolleri: EN ISO 2553 ve AWS A2.4 Rehberi</a></li>
+        <li><a href="iso-5817-kalite-seviyeleri.html" data-i18n="blog_p01_iso5817_h1">ISO 5817 Kalite Seviyeleri B, C ve D: Çizime Hangisini Yazmalısınız?</a></li>
+        <li><a href="kaynak-distorsiyonu.html" data-i18n="blog_kaynak_distors_h1">Kaynak Distorsiyonu: Önleme ve Düzeltme Yöntemleri</a></li>
+        <li><a href="wps-nedir.html" data-i18n="blog_wps_h1">WPS Nedir? Kaynak Prosedür Şartnamesi Hazırlama Kılavuzu</a></li>
+      </ul>
+    </nav>
+    <!-- related:end -->
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link" data-i18n="blog_back">← Blog'a Dön</a>
+    </div>
+
+  </article>
+</section>
+<script src="../assets/lang/tr.js?v=20261116b"></script>
+<script src="../assets/i18n.js?v=20261116b"></script>
+<script src="../assets/chrome.js?v=20261116b"></script>
+<script src="../assets/analytics.js?v=20261103"></script>
+<script>mountChrome('blog', '../');</script>
+</body>
+</html>
