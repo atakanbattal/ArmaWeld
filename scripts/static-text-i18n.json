@@ -1870,5 +1870,41 @@
     "it": "Settore · Ascensori e piattaforme",
     "nl": "Sector · Liften en platforms",
     "no": "Bransje · Heiser og plattformer"
+  },
+  "Makine imalatı · Tasarım": {
+    "en": "Machine building · Design",
+    "de": "Maschinenbau · Konstruktion",
+    "es": "Construcción de máquinas · Diseño",
+    "fr": "Construction de machines · Conception",
+    "it": "Costruzione macchine · Progettazione",
+    "nl": "Machinebouw · Ontwerp",
+    "no": "Maskinbygging · Konstruksjon"
+  },
+  "İmalat · Talaşlı işleme": {
+    "en": "Fabrication · Machining",
+    "de": "Fertigung · Zerspanung",
+    "es": "Fabricación · Mecanizado",
+    "fr": "Fabrication · Usinage",
+    "it": "Produzione · Lavorazioni meccaniche",
+    "nl": "Productie · Verspaning",
+    "no": "Produksjon · Maskinering"
+  },
+  "Sektör · Tank ve silo": {
+    "en": "Industry · Tanks and silos",
+    "de": "Branche · Tanks und Silos",
+    "es": "Sector · Tanques y silos",
+    "fr": "Secteur · Réservoirs et silos",
+    "it": "Settore · Serbatoi e silos",
+    "nl": "Sector · Tanks en silo’s",
+    "no": "Bransje · Tanker og siloer"
+  },
+  "Sektör · Geri dönüşüm ve dökme malzeme": {
+    "en": "Industry · Recycling and bulk handling",
+    "de": "Branche · Recycling und Schüttgut",
+    "es": "Sector · Reciclaje y graneles",
+    "fr": "Secteur · Recyclage et vrac",
+    "it": "Settore · Riciclo e materiali sfusi",
+    "nl": "Sector · Recycling en bulk",
+    "no": "Bransje · Gjenvinning og bulk"
   }
 }
