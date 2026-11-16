@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://www.armaweld.com/blog/ped-direktifi.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -381,7 +381,7 @@
   </url>
   <url>
     <loc>https://www.armaweld.com/blog/wpqr-nedir.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -483,7 +483,7 @@
   </url>
   <url>
     <loc>https://www.armaweld.com/blog/kaynak-cesitleri.html</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -520,6 +520,18 @@
   <url>
     <loc>https://www.armaweld.com/blog/kaynakli-imalat-tedarikci-denetimi.html</loc>
     <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.armaweld.com/blog/sicak-daldirma-galvaniz-kaynakli-parca.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.armaweld.com/blog/ilk-parca-onayi-kaynakli-imalat.html</loc>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="nl" data-aw-page-lang="nl"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wat is een WPQR? Lasmethodekwalificatie en EN ISO 15614 | ArmaWeld Blog</title>
-  <meta name="description" content="Wat is een WPQR (Welding Procedure Qualification Record)? Hoe u een lasmethode kwalificeert volgens EN ISO 15614-1 en 15614-2, met uitleg van de vereiste beproevingen.">
+<title>Wat is een WPQR? Kwalificatie van lasmethoden, beproevingen volgens EN ISO 15614-1 en geldigheidsgebied | ArmaWeld</title>
+  <meta name="description" content="Wat is een WPQR en wat is het verschil met een WPS? Beproevingen volgens EN ISO 15614-1, niveau 1 en niveau 2, geldigheidsgebied voor dikte en materiaal, kwalificatieroutes volgens EN 1090 en een checklist om de WPQR's van een leverancier te beoordelen.">
   <meta name="robots" content="index, follow">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20261005">
   <link rel="icon" type="image/x-icon" href="../../favicon.ico?v=20261005">
@@ -28,8 +28,8 @@
 <link rel="alternate" hreflang="x-default" href="https://www.armaweld.com/en/blog/wpqr-nedir.html" />
 <!-- /aw:hreflang -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Wat is een WPQR? Lasmethodekwalificatie en EN ISO 15614 | ArmaWeld Blog">
-  <meta property="og:description" content="Wat is een WPQR (Welding Procedure Qualification Record)? Hoe u een lasmethode kwalificeert volgens EN ISO 15614-1 en 15614-2, met uitleg van de vereiste beproevingen.">
+  <meta property="og:title" content="Wat is een WPQR? Kwalificatie van lasmethoden, beproevingen volgens EN ISO 15614-1 en geldigheidsgebied | ArmaWeld">
+  <meta property="og:description" content="Wat is een WPQR en wat is het verschil met een WPS? Beproevingen volgens EN ISO 15614-1, niveau 1 en niveau 2, geldigheidsgebied voor dikte en materiaal, kwalificatieroutes volgens EN 1090 en een checklist om de WPQR's van een leverancier te beoordelen.">
   <meta property="og:url" content="https://www.armaweld.com/nl/blog/wpqr-nedir.html">
   <meta property="og:image" content="https://www.armaweld.com/assets/og-armaweld.jpg">
   <meta property="og:image:width" content="1200">
@@ -38,12 +38,13 @@
   <meta property="og:locale" content="nl_NL">
   <meta property="og:site_name" content="ArmaWeld">
   <meta property="article:published_time" content="2026-05-02">
+  <meta property="article:modified_time" content="2026-11-16">
   <meta property="article:author" content="ArmaWeld Engineering">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../../assets/theme.css?v=20261111b">
+<link rel="stylesheet" href="../../assets/theme.css?v=20261116a">
 <style>
   .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
   .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
@@ -86,16 +87,20 @@
   .related li { border-bottom: 1px solid var(--ink-4); padding: 12px 0; margin: 0; }
   .related a { color: var(--bone); text-decoration: none; }
   .related a:hover { color: var(--arc-2); }
+  .faq-item { border-top: 1px solid var(--ink-4); padding: 20px 0; }
+  .faq-item h3 { margin: 0 0 10px; font-size: 17px; }
+  .faq-item p { margin: 0; font-size: 16px; }
+  .article-body p a, .article-body li a { color: var(--arc-3); text-decoration: underline; text-underline-offset: 3px; }
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Wat is een WPQR? Lasmethodekwalificatie en EN ISO 15614",
-  "description": "Wat is een WPQR (Welding Procedure Qualification Record)? Hoe u een lasmethode kwalificeert volgens EN ISO 15614-1 en 15614-2, met uitleg van de vereiste beproevingen.",
+  "headline": "Wat is een WPQR? Kwalificatie van lasmethoden, beproevingen volgens EN ISO 15614-1 en geldigheidsgebied",
+  "description": "Wat is een WPQR en wat is het verschil met een WPS? Beproevingen volgens EN ISO 15614-1, niveau 1 en niveau 2, geldigheidsgebied voor dikte en materiaal, kwalificatieroutes volgens EN 1090 en een checklist om de WPQR's van een leverancier te beoordelen.",
   "image": "https://www.armaweld.com/assets/og-armaweld.jpg",
   "datePublished": "2026-05-02",
-  "dateModified": "2026-05-02",
+  "dateModified": "2026-11-16",
   "author": {
     "@type": "Organization",
     "name": "ArmaWeld Engineering",
@@ -153,12 +158,13 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Wat is een WPQR? Lasmethodekwalificatie en EN ISO 15614",
+      "name": "Wat is een WPQR? Kwalificatie van lasmethoden, beproevingen volgens EN ISO 15614-1 en geldigheidsgebied",
       "item": "https://www.armaweld.com/nl/blog/wpqr-nedir.html"
     }
   ]
 }
 </script>
+
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ML770TF8NC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -193,8 +199,11 @@
     <div data-i18n-html="blog_wpqr_s1"><h2>Verschil tussen WPS en WPQR</h2><table class="data-table"><thead><tr><th>Document</th><th>Inhoud</th><th>Doel</th></tr></thead><tbody><tr><td>WPS</td><td>Stroom, spanning, gas, elektrode, lagenvolgorde, voorwarmen</td><td>Instructies voor de lasser op de werkvloer</td></tr><tr><td>WPQR</td><td>Resultaten van het proefstuk: trek, buig, hardheid, Charpy, macro</td><td>Aantonen van de geldigheid van de methode</td></tr><tr><td>Certificaat</td><td>Handtekening van een onafhankelijke keuringsinstantie (TÜV, BV, DNV)</td><td>Goedkeuring door derden</td></tr></tbody></table></div>
     <div data-i18n-html="blog_wpqr_s2"><h2>EN ISO 15614-1: kwalificatieproces voor staal</h2><p>De kwalificatie van lasmethoden voor staal wordt uitgevoerd volgens <strong>EN ISO 15614-1</strong>. Het proces omvat:</p><ol><li><strong>Opstellen van de pWPS (voorlopige WPS):</strong> concept van de lasparameters.</li><li><strong>Lassen van het proefstuk:</strong> met productieapparatuur en -personeel onder werkplaatsomstandigheden.</li><li><strong>Niet-destructief onderzoek (NDO):</strong> visueel (VT), penetrant (PT), ultrasoon (UT) of radiografisch (RT).</li><li><strong>Destructieve beproevingen:</strong> trekproef, buigproef, hardheidsmeting, Charpy-kerfslagproef, macro-onderzoek.</li><li><strong>Opstellen en goedkeuren van de WPQR:</strong> alle resultaten worden vastgelegd; bij acceptatie is de WPS formeel gekwalificeerd.</li></ol></div>
     <div data-i18n-html="blog_wpqr_s3"><h2>Vereiste beproevingen</h2><table class="data-table"><thead><tr><th>Beproeving</th><th>Acceptatiecriterium</th><th>Norm</th></tr></thead><tbody><tr><td>Trekproef</td><td>Rm ≥ minimale treksterkte van het basismateriaal</td><td>EN ISO 4136</td></tr><tr><td>Buigproef</td><td>4 proefstaven, 180°, geen scheuren</td><td>EN ISO 5173</td></tr><tr><td>Charpy V-kerfslag</td><td>Gemiddelde energie bij WPS-temperatuur ≥ 27 J</td><td>EN ISO 9016</td></tr><tr><td>Hardheid</td><td>HV10 — max. 380 HV voor constructiestaal (450 HV voor S960QL)</td><td>EN ISO 9015-1</td></tr><tr><td>Macro-onderzoek</td><td>Geen scheuren, porositeit of onvolledige doorlassing</td><td>EN ISO 17639</td></tr></tbody></table></div>
-    <div data-i18n-html="blog_wpqr_s4"><h2>Geldigheidsgebied van de kwalificatie</h2><p>Een via een WPQR gekwalificeerde WPS dekt een beperkt bereik. Bijvoorbeeld:</p><ul><li><strong>Materiaalgroep:</strong> volgens het groepsnummer van CEN ISO/TR 15608 (1.1, 1.2, 3, 8.1, enz.)</li><li><strong>Dikte:</strong> 0,5 tot 2 maal de dikte van het proefstuk</li><li><strong>Diameter (buis):</strong> alle diameters als de proefdiameter ≥ 25 mm is</li><li><strong>Positie:</strong> dezelfde of eenvoudigere posities binnen de groep</li><li><strong>Toevoegmaterialen:</strong> hetzelfde type en dezelfde sterkteklasse</li></ul><div class="callout"><p><strong>Opmerking:</strong> EN ISO 15614-1 (herziening 2017) heeft aluminium- en nikkellegeringen afgesplitst. Gebruik <strong>EN ISO 15614-2</strong> voor het lassen van aluminium.</p></div></div>
+    <div data-i18n-html="blog_wpqr_s4"><h2>Geldigheidsgebied</h2><p>Een WPS die met een WPQR is gekwalificeerd, dekt een beperkt toepassingsgebied. Elke las daarbuiten vraagt een nieuwe kwalificatie:</p><ul><li><strong>Materiaalgroep:</strong> volgens het groepsnummer van ISO/TR 15608 (1.1, 1.2, 2, 3, 8.1 enz.). Een beproeving in één groep dekt volgens de tabel in de norm ook bepaalde andere groepen.</li><li><strong>Dikte:</strong> bij een proefstuk van 3–12 mm ongeveer 0,5t (minimaal 3 mm) tot 2t; bij 12–100 mm 0,5t tot 2t. Bij lassen in één laag of met hoge warmte-inbreng is de bovengrens kleiner.</li><li><strong>Diameter (buis):</strong> gekwalificeerd is een bereik vanaf de halve proefdiameter; bij kleine diameters zijn onder- en bovengrens nauwer.</li><li><strong>Positie:</strong> zonder kerfslag- of hardheidseisen dekt één positie alle andere behalve verticaal neergaand (PG); met zulke eisen moeten de posities met de hoogste en laagste warmte-inbreng worden beproefd.</li><li><strong>Toevoegmateriaal, gas en warmte-inbreng:</strong> bij kerfslageisen mag de warmte-inbreng maximaal 25% hoger zijn dan bij de beproeving, bij hardheidseisen maximaal 25% lager.</li></ul><div class="callout"><p><strong>Belangrijk:</strong> EN ISO 15614-1 geldt voor staal en nikkellegeringen. Lasmethoden voor aluminium en aluminiumlegeringen worden gekwalificeerd volgens <strong>EN ISO 15614-2</strong>. Raadpleeg voor exacte bereiken altijd de actuele tabellen van de norm.</p></div></div>
+    <div data-i18n-html="blog_n29_wpqr_routes"><h2>Routes om een WPS te kwalificeren: EN ISO 15607</h2><p>Niet elke lasmethode heeft een laboratoriumbeproeving nodig. EN ISO 15607 beschrijft vijf routes:</p><table class="data-table"><thead><tr><th>Norm</th><th>Route</th><th>Wanneer?</th></tr></thead><tbody><tr><td>EN ISO 15614</td><td>Lasmethodebeproeving</td><td>De meest volledige route. Meestal verplicht bij EXC3, EXC4 en drukapparatuur.</td></tr><tr><td>EN ISO 15613</td><td>Pre-productielasbeproeving</td><td>Als een standaardproefstuk het echte onderdeel niet vertegenwoordigt, wordt een onderdeelachtig monster gelast.</td></tr><tr><td>EN ISO 15612</td><td>Standaardlasmethode</td><td>Gebruik van een gepubliceerde standaardmethode; voor laag risico en beperkte materialen.</td></tr><tr><td>EN ISO 15611</td><td>Eerdere ervaring</td><td>De fabrikant toont eerdere succesvolle productie met dezelfde methode aan.</td></tr><tr><td>EN ISO 15610</td><td>Beproefde toevoegmaterialen</td><td>Gebaseerd op de goedkeuring van het toevoegmateriaal; de meest beperkte route.</td></tr></tbody></table><p>Volgens EN 1090-2 kunnen in EXC2 de routes 15610, 15611 en 15612 voor bepaalde materialen en omstandigheden worden geaccepteerd. In EXC3 en EXC4 moeten lasmethoden worden gekwalificeerd met een beproeving volgens EN ISO 15614-1 of een pre-productiebeproeving volgens EN ISO 15613. Bij een hoge uitvoeringsklasse is "we hebben WPQR's" dus niet genoeg; vraag via welke route ze zijn gekwalificeerd.</p><h2>EN ISO 15614-1:2017 niveau 1 en niveau 2</h2><p>De uitgave van 2017 introduceerde twee beproevingsniveaus:</p><ul><li><strong>Niveau 1:</strong> dichter bij de ASME IX-benadering; minder beproevingen en een ruimer geldigheidsgebied.</li><li><strong>Niveau 2:</strong> de traditionele Europese benadering; met kerfslag- en hardheidsproeven een nauwer maar betrouwbaarder geldigheidsgebied.</li></ul><p>Een methode die op niveau 2 is gekwalificeerd, dekt ook niveau 1, niet andersom. Werk volgens EN 1090-2 gaat uit van niveau 2. Bij het beoordelen van een WPQR is het niveau een van de eerste dingen om te controleren.</p></div>
     <div data-i18n-html="blog_wpqr_s5"><h2>Geldigheid van een WPQR</h2><p>Een volgens EN ISO 15614 gekwalificeerde WPQR is <strong>onbeperkt geldig</strong> — er is geen verlenging nodig. Herkwalificatie is echter vereist wanneer:</p><ul><li>Het lasproces verandert (bijv. van MAG naar TIG)</li><li>De materiaalgroep verandert</li><li>De dikte buiten het gekwalificeerde bereik valt</li><li>De toevoegmaterialen wezenlijk veranderen</li></ul><h2>WPS/WPQR-bibliotheek van ArmaWeld</h2><p>ArmaWeld beschikt over meer dan 80 goedgekeurde WPS- en WPQR-records voor koolstofstaal (S235–S355), hoogsterktestaal (S690QL, S700MC, S960QL), roestvast staal (304L, 316L), aluminiumlegeringen (5083, 6082) en slijtvast staal (HARDOX 400/450/500).</p></div>
+    <div data-i18n-html="blog_n29_wpqr_buyer"><h2>Checklist voor de WPQR's van een leverancier</h2><p>Stel deze vragen wanneer uw inkoop- of kwaliteitsafdeling de WPQR-lijst van een leverancier beoordeelt:</p><ol><li><strong>Proces:</strong> staat het proces voor uw onderdeel (bijvoorbeeld 135 of 121) op de lijst?</li><li><strong>Materiaalgroep:</strong> valt uw staal (bijvoorbeeld S355 groep 1.2, S690QL groep 3) binnen de gekwalificeerde groepen?</li><li><strong>Dikte en diameter:</strong> vallen uw dunste en dikste onderdeel binnen het gekwalificeerde bereik?</li><li><strong>Verbindingstype:</strong> een kwalificatie voor stompe lassen dekt hoeklassen, niet andersom. Voor volledig doorgelaste stompe lassen is een stomplaskwalificatie nodig.</li><li><strong>Kerfslagtemperatuur:</strong> vraagt het project waarden bij -20 °C of -40 °C, dan moet de WPQR bij die temperatuur zijn beproefd.</li><li><strong>Warmtebehandeling:</strong> is PWHT vereist, dan moet ook het proefstuk van de WPQR warmtebehandeld zijn.</li><li><strong>Keuringsinstantie en niveau:</strong> wie heeft het document ondertekend, en volgens welke norm en welk niveau?</li></ol><h2>Hoe lang duurt een WPQR?</h2><p>Het lassen van het proefstuk en het niet-destructief onderzoek zijn meestal binnen enkele dagen klaar. Destructieve beproevingen kunnen één tot drie weken duren, afhankelijk van de drukte bij het laboratorium. Voor een materiaal of dikte zonder kwalificatie moet die tijd al in de offerte worden ingepland. Bij een leverancier wiens bestaande WPQR's uw werk al dekken, verdwijnt de wachttijd helemaal.</p><div class="callout"><p><strong>Bij ArmaWeld:</strong> in de offertefase vergelijken we uw tekening met onze WPS/WPQR-lijst. Dekt geen enkele methode uw werk, dan schrijven we dat duidelijk in de offerte en nemen we de beproevingstijd op in de levertermijn. <a href="../kalite.html">Bekijk onze kwaliteit en certificaten →</a></p></div></div>
+    <div data-i18n-html="blog_n29_wpqr_faq"><h2>Veelgestelde vragen</h2><div class="faq-item"><h3>Wat is het verschil tussen een WPS en een WPQR?</h3><p>De WPS is de instructie die de lasser vertelt hoe er gelast moet worden. De WPQR is het verslag van de keurings- en beproevingsresultaten van een proefstuk dat volgens die instructie is gelast, en bewijst dat de methode werkt.</p></div><div class="faq-item"><h3>Verloopt een WPQR?</h3><p>Een volgens EN ISO 15614-1 gekwalificeerde WPQR verloopt niet. Verandert echter een essentiële variabele (proces, materiaalgroep, diktebereik, warmtebehandeling enz.), dan is een nieuwe kwalificatie nodig.</p></div><div class="faq-item"><h3>Wie keurt een WPQR goed?</h3><p>Een onafhankelijke keuringsinstantie (bijvoorbeeld TÜV, Bureau Veritas, DNV) die de beproevingen bijwoont en de resultaten beoordeelt. Bij drukapparatuur moet dit een aangemelde instantie of een erkende onafhankelijke instelling zijn.</p></div><div class="faq-item"><h3>Kan een ander bedrijf een WPQR gebruiken?</h3><p>Nee. Een WPQR is gebonden aan de fabrikant die de beproeving heeft uitgevoerd en aan diens technische beheersing. De WPQR van een ander bedrijf kan niet worden overgenomen.</p></div></div>
 
     <div class="cta-box">
       <h3 data-i18n="blog_wpqr_cta_h3">Ondersteuning nodig bij WPS/WPQR?</h3>
@@ -219,9 +228,9 @@
   </div>
 </section>
 <script src="../../assets/blog-translations-2026.js?v=20261030b"></script>
-<script src="../../assets/lang/tr.js?v=20261111b"></script>
-<script src="../../assets/i18n.js?v=20261111b"></script>
-<script src="../../assets/chrome.js?v=20261111b"></script>
+<script src="../../assets/lang/tr.js?v=20261116a"></script>
+<script src="../../assets/i18n.js?v=20261116a"></script>
+<script src="../../assets/chrome.js?v=20261116a"></script>
 <script src="../../assets/analytics.js?v=20261103"></script>
 <script>mountChrome('blog', '../');</script>
 
