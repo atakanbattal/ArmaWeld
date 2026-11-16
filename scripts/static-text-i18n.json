@@ -2125,10 +2125,10 @@
   },
   "Ürün Rehberi · Proses Ekipmanı": {
     "en": "Product Guide · Process Equipment",
-    "de": "Produktleitfaden · Prozesstechnik",
+    "de": "Produktleitfaden · Prozessanlagen",
     "es": "Guía de producto · Equipos de proceso",
     "fr": "Guide produit · Équipements de process",
-    "it": "Guida prodotto · Macchine di processo",
+    "it": "Guida prodotto · Impianti di processo",
     "nl": "Productgids · Procesapparatuur",
     "no": "Produktguide · Prosessutstyr"
   },
@@ -2221,5 +2221,23 @@
     "it": "Guida di settore · Acqua e depurazione",
     "nl": "Sectorgids · Water en afvalwater",
     "no": "Bransjeguide · Vann og avløp"
+  },
+  "Ürün Rehberi · Mimari Çelik": {
+    "en": "Product Guide · Architectural Steel",
+    "de": "Produktleitfaden · Architekturstahl",
+    "es": "Guía de producto · Acero arquitectónico",
+    "fr": "Guide produit · Acier architectural",
+    "it": "Guida prodotto · Acciaio architettonico",
+    "nl": "Productgids · Architectonisch staal",
+    "no": "Produktguide · Arkitektonisk stål"
+  },
+  "Teknik Rehber · Yüzey İşlem": {
+    "en": "Technical Guide · Surface Treatment",
+    "de": "Technischer Leitfaden · Oberflächentechnik",
+    "es": "Guía técnica · Tratamiento superficial",
+    "fr": "Guide technique · Traitement de surface",
+    "it": "Guida tecnica · Trattamenti superficiali",
+    "nl": "Technische gids · Oppervlaktebehandeling",
+    "no": "Teknisk guide · Overflatebehandling"
   }
 }
