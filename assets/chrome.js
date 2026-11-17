@@ -439,6 +439,9 @@ function initCookieConsent() {
     if (choice === 'all' && typeof gtag === 'function') {
       gtag('consent', 'update', { analytics_storage: 'granted' });
     }
+    if (choice === 'all' && typeof window.initApollo === 'function') {
+      window.initApollo();
+    }
     el.classList.add('cookie-banner--hide');
     document.body.classList.remove('has-cookie-banner');
     setTimeout(function () { el.remove(); }, 400);

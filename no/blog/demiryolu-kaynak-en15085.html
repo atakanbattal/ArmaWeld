@@ -169,6 +169,8 @@
       gtag('consent', 'update', { analytics_storage: 'granted' });
     }
     gtag('config', 'G-ML770TF8NC');
+    window.initApollo = window.initApollo || function(){ if (window.__apolloLoaded) return; window.__apolloLoaded = true; var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"6ab7bc2e0c23ec001c8d6c09"})},document.head.appendChild(o) };
+    if (localStorage.getItem('armaweld-cookie') === 'all') { window.initApollo(); }
   </script>
 </head>
 <body>
@@ -223,7 +225,7 @@
 <script src="../../assets/blog-translations-2026.js?v=20261030b"></script>
 <script src="../../assets/lang/tr.js?v=20261116b"></script>
 <script src="../../assets/i18n.js?v=20261116b"></script>
-<script src="../../assets/chrome.js?v=20261116b"></script>
+<script src="../../assets/chrome.js?v=20261117a"></script>
 <script src="../../assets/analytics.js?v=20261103"></script>
 <script>mountChrome('blog', '../');</script>
 
