@@ -43,7 +43,7 @@ export default {
 <li>Kulakların üzerine kapasite işaretinin konulmaması.</li>
 <li>Taşıma sonrası kulakların kesilip taşlanması gerekiyorsa bunun çizimde belirtilmemesi.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Ürettiğimiz gövde, şasi ve konstrüksiyonlardaki kaldırma kulaklarını çizimdeki kaynak detayına göre birleştiriyor; MT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıp raporluyoruz. Delik ölçülerini kaynak ve yüzey işlem sonrasında kontrol ediyoruz. <a href="../ndt.html">NDT hizmetleri →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Ürettiğimiz gövde, şasi ve konstrüksiyonlardaki kaldırma kulaklarını çizimdeki kaynak detayına göre birleştiriyor; UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıp raporluyoruz. Delik ölçülerini kaynak ve yüzey işlem sonrasında kontrol ediyoruz. <a href="../ndt.html">NDT hizmetleri →</a></p></div>
 `,
     faq: [
       ['Kaldırma kulağı hangi kaynakla birleştirilmeli?', 'Genellikle tam nüfuziyetli alın veya K-kaynakla; köşe kaynağı kullanılacaksa a ölçüsü hesapla doğrulanmalıdır.'],
@@ -93,7 +93,7 @@ export default {
 <li>No capacity marking on the lugs.</li>
 <li>Not stating on the drawing that lugs must be cut off and ground after transport, if that is intended.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld lifting lugs on the housings, frames and structures we produce according to the weld detail on the drawing, and our ISO 9712 Level 2 staff carry out and report MT and UT. We check hole dimensions after welding and surface treatment. <a href="../ndt.html">NDT services →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld lifting lugs on the housings, frames and structures we produce according to the weld detail on the drawing, and our ISO 9712 Level 2 staff carry out and report UT. We check hole dimensions after welding and surface treatment. <a href="../ndt.html">NDT services →</a></p></div>
 `,
     faq: [
       ['How should a lifting lug be welded?', 'Usually with a full-penetration butt or K-weld; if fillet welds are used, the throat size must be verified by calculation.'],
@@ -143,7 +143,7 @@ export default {
 <li>Keine Tragfähigkeitskennzeichnung an den Ösen.</li>
 <li>Nicht auf der Zeichnung vermerkt, dass Ösen nach dem Transport abgetrennt und verschliffen werden sollen.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Anschlagösen an den von uns gefertigten Gehäusen, Rahmen und Konstruktionen schweißen wir nach dem Nahtdetail der Zeichnung an; MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch und dokumentiert sie. Bohrungsmaße prüfen wir nach Schweißen und Oberflächenbehandlung. <a href="../ndt.html">ZfP-Leistungen →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Anschlagösen an den von uns gefertigten Gehäusen, Rahmen und Konstruktionen schweißen wir nach dem Nahtdetail der Zeichnung an; UT führt unser Personal mit ISO 9712 Stufe 2 durch und dokumentiert sie. Bohrungsmaße prüfen wir nach Schweißen und Oberflächenbehandlung. <a href="../ndt.html">ZfP-Leistungen →</a></p></div>
 `,
     faq: [
       ['Wie wird eine Anschlagöse angeschweißt?', 'Meist mit durchgeschweißter Stumpf- oder K-Naht; bei Kehlnähten muss das a-Maß rechnerisch nachgewiesen werden.'],
@@ -193,7 +193,7 @@ export default {
 <li>Falta de marcado de capacidad en las orejetas.</li>
 <li>No indicar en el plano que las orejetas deben cortarse y amolarse tras el transporte, si es lo previsto.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos las orejetas de las carcasas, bastidores y estructuras que fabricamos según el detalle del plano, y nuestro personal ISO 9712 nivel 2 realiza e informa MT y UT. Comprobamos los agujeros tras la soldadura y el tratamiento superficial. <a href="../ndt.html">Servicios END →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos las orejetas de las carcasas, bastidores y estructuras que fabricamos según el detalle del plano, y nuestro personal ISO 9712 nivel 2 realiza e informa UT. Comprobamos los agujeros tras la soldadura y el tratamiento superficial. <a href="../ndt.html">Servicios END →</a></p></div>
 `,
     faq: [
       ['¿Cómo se suelda una orejeta de izado?', 'Normalmente a tope o en K con penetración completa; si se usan cordones en ángulo, la garganta debe verificarse por cálculo.'],
@@ -243,7 +243,7 @@ export default {
 <li>Pas de marquage de capacité sur les oreilles.</li>
 <li>Ne pas indiquer sur le plan que les oreilles doivent être découpées et meulées après transport, si c'est prévu.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les oreilles de levage des bâtis, châssis et structures que nous fabriquons selon le détail du plan ; notre personnel ISO 9712 niveau 2 réalise et rapporte MT et UT. Nous contrôlons les trous après soudage et traitement de surface. <a href="../ndt.html">Prestations CND →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les oreilles de levage des bâtis, châssis et structures que nous fabriquons selon le détail du plan ; notre personnel ISO 9712 niveau 2 réalise et rapporte UT. Nous contrôlons les trous après soudage et traitement de surface. <a href="../ndt.html">Prestations CND →</a></p></div>
 `,
     faq: [
       ['Comment souder une oreille de levage ?', 'En général en bout à bout ou en K à pleine pénétration ; avec des soudures d\'angle, la gorge doit être vérifiée par calcul.'],
@@ -293,7 +293,7 @@ export default {
 <li>Nessuna marcatura di portata sui golfari.</li>
 <li>Non indicare a disegno che i golfari vanno tagliati e molati dopo il trasporto, se previsto.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo i golfari dei basamenti, telai e strutture che produciamo secondo il dettaglio di disegno; il nostro personale ISO 9712 livello 2 esegue e certifica MT e UT. Controlliamo i fori dopo saldatura e trattamento superficiale. <a href="../ndt.html">Servizi CND →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo i golfari dei basamenti, telai e strutture che produciamo secondo il dettaglio di disegno; il nostro personale ISO 9712 livello 2 esegue e certifica UT. Controlliamo i fori dopo saldatura e trattamento superficiale. <a href="../ndt.html">Servizi CND →</a></p></div>
 `,
     faq: [
       ['Come si salda un golfare a piastra?', 'Di solito testa a testa o a K a piena penetrazione; con cordoni d\'angolo la gola va verificata con il calcolo.'],
@@ -343,7 +343,7 @@ export default {
 <li>Geen capaciteitsmarkering op de ogen.</li>
 <li>Niet op tekening vermeld dat de ogen na transport moeten worden afgebrand en geslepen, als dat de bedoeling is.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> hijsogen op de huizen, frames en constructies die we maken, lassen we volgens het lasdetail op tekening; ons personeel met ISO 9712 niveau 2 voert MT en UT uit en rapporteert. Gatmaten controleren we na lassen en oppervlaktebehandeling. <a href="../ndt.html">NDO-diensten →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> hijsogen op de huizen, frames en constructies die we maken, lassen we volgens het lasdetail op tekening; ons personeel met ISO 9712 niveau 2 voert UT uit en rapporteert. Gatmaten controleren we na lassen en oppervlaktebehandeling. <a href="../ndt.html">NDO-diensten →</a></p></div>
 `,
     faq: [
       ['Hoe las je een hijsoog?', 'Meestal met een volledig doorgelaste stuik- of K-las; bij hoeklassen moet de a-maat worden berekend.'],
@@ -393,7 +393,7 @@ export default {
 <li>Ingen kapasitetsmerking på ørene.</li>
 <li>Ikke angitt på tegningen at ørene skal kappes og slipes etter transport, hvis det er meningen.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> løfteører på husene, rammene og konstruksjonene vi produserer, sveiser vi etter sveisedetaljen på tegningen; vårt personell med ISO 9712 nivå 2 utfører og rapporterer MT og UT. Hullmål kontrolleres etter sveising og overflatebehandling. <a href="../ndt.html">NDT-tjenester →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> løfteører på husene, rammene og konstruksjonene vi produserer, sveiser vi etter sveisedetaljen på tegningen; vårt personell med ISO 9712 nivå 2 utfører og rapporterer UT. Hullmål kontrolleres etter sveising og overflatebehandling. <a href="../ndt.html">NDT-tjenester →</a></p></div>
 `,
     faq: [
       ['Hvordan sveises et løfteøre?', 'Som regel med fullt gjennomsveist butt- eller K-sveis; brukes kilsveis, må a-målet beregnes.'],

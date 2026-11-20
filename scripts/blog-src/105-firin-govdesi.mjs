@@ -30,7 +30,7 @@ export default {
 <p>Yüksek krom-nikel içerikli ısıya dayanıklı paslanmazların kaynağında uygun ilave metal ve ısı girdisi kontrolü gerekir. Paslanmaz iç parçaların karbon çelik gövdeye bağlandığı farklı metal birleşimlerinde 309 tipi ilave metaller sık kullanılır (bkz. <a href="paslanmaz-karbon-celik-kaynagi-309l.html">paslanmaz-karbon çelik kaynağı</a>).</p>
 <h2>Ölçü ve Çarpılma</h2>
 <p>Büyük sac paneller kaynak ısısıyla dalgalanır; berkitme düzeni ve kaynak sırası çarpılmayı sınırlar (bkz. <a href="kaynak-distorsiyonu.html">kaynak distorsiyonu</a>). Kapı çerçeveleri ve brülör flanşları gibi montaj yüzeyleri, gerekirse kaynak sonrası işlenir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Fırın iskeletlerini, sac gövdeleri, kapı çerçevelerini ve ısıya dayanıklı paslanmaz iç parçaları çizime göre kaynaklıyoruz. Kesim, büküm, işleme ve boyayı iş ortaklarımızla koordine ediyoruz; refrakter ve yanma sistemleri fırın üreticisinde kalır. <a href="../makine-sasesi-imalati.html">Makine gövdesi imalatı →</a></p></div>
+<div class="callout"><p>Kesim, büküm, işleme ve boyayı iş ortaklarımızla koordine ediyoruz; refrakter ve yanma sistemleri fırın üreticisinde kalır. <a href="../makine-sasesi-imalati.html">Makine gövdesi imalatı →</a></p></div>
 `,
     faq: [
       ['Fırın gövdesi hangi malzemeden yapılır?', 'Dış gövde genellikle karbon çelik; sıcak bölgedeki iç parçalar ısıya dayanıklı paslanmaz.'],
@@ -67,7 +67,7 @@ export default {
 <p>High chromium-nickel heat-resistant stainless steels need suitable filler and heat input control. Where stainless internals join the carbon steel shell, 309-type fillers are common for the dissimilar joint (see <a href="paslanmaz-karbon-celik-kaynagi-309l.html">stainless to carbon steel welding</a>).</p>
 <h2>Dimensions and Distortion</h2>
 <p>Large panels ripple under welding heat; stiffener layout and welding sequence limit distortion (see <a href="kaynak-distorsiyonu.html">welding distortion</a>). Mounting faces such as door frames and burner flanges are machined after welding where needed.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld furnace frames, casings, door frames and heat-resistant stainless internals to drawing. Cutting, bending, machining and painting are coordinated with our partners; refractory and combustion systems stay with the furnace builder. <a href="../makine-sasesi-imalati.html">Machine body fabrication →</a></p></div>
+<div class="callout"><p>Cutting, bending, machining and painting are coordinated with our partners; refractory and combustion systems stay with the furnace builder. <a href="../makine-sasesi-imalati.html">Machine body fabrication →</a></p></div>
 `,
     faq: [
       ['What is a furnace casing made of?', 'Usually carbon steel outside; hot-zone internals in heat-resistant stainless.'],
@@ -104,7 +104,7 @@ export default {
 <p>Hoch chrom-nickelhaltige hitzebeständige Stähle erfordern passende Zusatzwerkstoffe und kontrollierte Wärmeeinbringung. Bei Mischverbindungen zwischen Edelstahleinbauten und Baustahlmantel sind Zusätze vom Typ 309 verbreitet (siehe <a href="paslanmaz-karbon-celik-kaynagi-309l.html">Schwarz-Weiß-Verbindungen</a>).</p>
 <h2>Maße und Verzug</h2>
 <p>Große Blechfelder beulen unter Schweißwärme; Steifenanordnung und Schweißfolge begrenzen den Verzug (siehe <a href="kaynak-distorsiyonu.html">Schweißverzug</a>). Anschlussflächen wie Türrahmen und Brennerflansche werden bei Bedarf nach dem Schweißen bearbeitet.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Ofengerüste, Gehäuse, Türrahmen und hitzebeständige Edelstahleinbauten nach Zeichnung. Zuschnitt, Kanten, Bearbeitung und Lackierung koordinieren wir mit Partnern; Feuerfest und Brennertechnik bleiben beim Ofenbauer. <a href="../makine-sasesi-imalati.html">Maschinengehäuse →</a></p></div>
+<div class="callout"><p>Zuschnitt, Kanten, Bearbeitung und Lackierung koordinieren wir mit Partnern; Feuerfest und Brennertechnik bleiben beim Ofenbauer. <a href="../makine-sasesi-imalati.html">Maschinengehäuse →</a></p></div>
 `,
     faq: [
       ['Woraus besteht ein Ofengehäuse?', 'Außen meist Baustahl; Einbauten im Heißbereich aus hitzebeständigem Edelstahl.'],
@@ -141,7 +141,7 @@ export default {
 <p>Los inox refractarios de alto Cr-Ni necesitan aporte adecuado y control térmico. En uniones disímiles entre interiores inox y envolvente de acero al carbono se usan a menudo aportes tipo 309 (ver <a href="paslanmaz-karbon-celik-kaynagi-309l.html">soldadura inox-acero al carbono</a>).</p>
 <h2>Medidas y deformación</h2>
 <p>Los paneles grandes se ondulan con el calor; rigidizadores y secuencia limitan la deformación (ver <a href="kaynak-distorsiyonu.html">deformación por soldadura</a>). Marcos de puerta y bridas de quemador se mecanizan tras soldar si hace falta.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos estructuras, carcasas, marcos de puerta e interiores en inox refractario según plano. Corte, plegado, mecanizado y pintura se coordinan con socios; refractario y combustión quedan en manos del fabricante del horno. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
+<div class="callout"><p>Corte, plegado, mecanizado y pintura se coordinan con socios; refractario y combustión quedan en manos del fabricante del horno. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
 `,
     faq: [
       ['¿De qué es la carcasa?', 'Por fuera normalmente acero al carbono; interiores en inox refractario.'],
@@ -178,7 +178,7 @@ export default {
 <p>Les inox réfractaires riches en Cr-Ni demandent métal d'apport adapté et maîtrise de l'énergie. Entre internes inox et enveloppe acier, des apports de type 309 sont courants (voir <a href="paslanmaz-karbon-celik-kaynagi-309l.html">soudage inox-acier</a>).</p>
 <h2>Cotes et déformations</h2>
 <p>Les grands panneaux ondulent à la chaleur ; disposition des raidisseurs et séquence limitent les déformations (voir <a href="kaynak-distorsiyonu.html">déformation au soudage</a>). Cadres de porte et brides de brûleurs sont usinés après soudage si nécessaire.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons ossatures, carcasses, cadres de porte et internes en inox réfractaire sur plan. Découpe, pliage, usinage et peinture sont coordonnés avec nos partenaires ; réfractaire et combustion restent chez le constructeur du four. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
+<div class="callout"><p>Découpe, pliage, usinage et peinture sont coordonnés avec nos partenaires ; réfractaire et combustion restent chez le constructeur du four. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
 `,
     faq: [
       ['En quoi est la carcasse ?', 'Extérieur en acier carbone ; internes de zone chaude en inox réfractaire.'],
@@ -215,7 +215,7 @@ export default {
 <p>Gli inox refrattari ad alto Cr-Ni richiedono materiale d'apporto adatto e controllo dell'apporto termico. Nei giunti eterogenei tra interni inox e mantello in acciaio al carbonio si usano spesso apporti tipo 309 (vedi <a href="paslanmaz-karbon-celik-kaynagi-309l.html">saldatura inox-acciaio al carbonio</a>).</p>
 <h2>Quote e deformazioni</h2>
 <p>I grandi pannelli si ondulano col calore; disposizione degli irrigidimenti e sequenza limitano le deformazioni (vedi <a href="kaynak-distorsiyonu.html">deformazioni da saldatura</a>). Telai porta e flange bruciatori si lavorano dopo la saldatura se necessario.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo strutture, carcasse, telai porta e interni in inox refrattario su disegno. Taglio, piegatura, lavorazioni meccaniche e verniciatura sono coordinati con i partner; refrattario e combustione restano al costruttore del forno. <a href="../makine-sasesi-imalati.html">Telai macchina →</a></p></div>
+<div class="callout"><p>Taglio, piegatura, lavorazioni meccaniche e verniciatura sono coordinati con i partner; refrattario e combustione restano al costruttore del forno. <a href="../makine-sasesi-imalati.html">Telai macchina →</a></p></div>
 `,
     faq: [
       ['Di cosa è fatta la carcassa?', 'Esterno in acciaio al carbonio; interni in zona calda in inox refrattario.'],
@@ -252,7 +252,7 @@ export default {
 <p>Hoog chroom-nikkel hittebestendig rvs vraagt passend toevoegmateriaal en beheerste warmte-inbreng. Bij ongelijksoortige verbindingen tussen rvs-inbouwdelen en de koolstofstalen mantel worden vaak type 309-toevoegmaterialen gebruikt (zie <a href="paslanmaz-karbon-celik-kaynagi-309l.html">rvs aan koolstofstaal lassen</a>).</p>
 <h2>Maten en vervorming</h2>
 <p>Grote panelen golven door laswarmte; verstijvingspatroon en lasvolgorde beperken vervorming (zie <a href="kaynak-distorsiyonu.html">lasvervorming</a>). Montagevlakken zoals deurframes en branderflenzen worden zo nodig na het lassen bewerkt.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen ovenframes, mantels, deurframes en hittebestendige rvs-inbouwdelen volgens tekening. Snijden, zetten, verspanen en lakken coördineren we met partners; vuurvast en branders blijven bij de ovenbouwer. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
+<div class="callout"><p>Snijden, zetten, verspanen en lakken coördineren we met partners; vuurvast en branders blijven bij de ovenbouwer. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
 `,
     faq: [
       ['Waarvan is een ovenmantel gemaakt?', 'Buiten meestal koolstofstaal; inbouwdelen in de hete zone van hittebestendig rvs.'],
@@ -289,7 +289,7 @@ export default {
 <p>Varmebestandig rustfritt med høyt krom og nikkel krever egnet tilsett og kontrollert varmetilførsel. Mellom rustfri innmat og karbonstålmantel brukes ofte tilsett av type 309 (se <a href="paslanmaz-karbon-celik-kaynagi-309l.html">sveising rustfritt mot karbonstål</a>).</p>
 <h2>Mål og deformasjon</h2>
 <p>Store paneler bølger seg av sveisevarme; avstivningsmønster og sveiserekkefølge begrenser deformasjonen (se <a href="kaynak-distorsiyonu.html">sveisedeformasjon</a>). Monteringsflater som dørrammer og brennerflenser maskineres etter sveising ved behov.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser ovnsrammer, kapper, dørrammer og varmebestandig rustfri innmat etter tegning. Kutting, bøying, maskinering og maling koordineres med partnere; ildfast og brennere forblir hos ovnsprodusenten. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
+<div class="callout"><p>Kutting, bøying, maskinering og maling koordineres med partnere; ildfast og brennere forblir hos ovnsprodusenten. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
 `,
     faq: [
       ['Hva er ovnskappen laget av?', 'Utvendig vanligvis karbonstål; innmat i varm sone av varmebestandig rustfritt.'],

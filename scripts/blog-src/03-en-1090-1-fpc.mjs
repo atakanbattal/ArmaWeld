@@ -70,7 +70,7 @@ export default {
 <li>Ürün EN 1090-1 kapsamında değil (örneğin bir makine şasesi), ancak CE işareti EN 1090'a göre konmuş.</li>
 </ul>
 <p>Son madde önemlidir: EN 1090-1 bina ve inşaat işlerinde kullanılan taşıyıcı bileşenler içindir. Makine şaseleri, araç parçaları veya basınçlı ekipman bu kapsamda değildir; onlar için Makine Yönetmeliği veya Basınçlı Ekipman Yönetmeliği gibi kendi mevzuatları geçerlidir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> EN 1090-2 EXC3 kapsamlı FPC sertifikamız ve EN ISO 3834-2 kaynak belgemiz güncel ve görüntülenebilir durumdadır. CE işaretli teslimatlarda Performans Beyanı siparişe özel hazırlanır ve teslim dosyasına eklenir. <a href="../belgelerimiz.html">Belgelerimizi görüntüleyin →</a></p></div>
+<div class="callout"><p>CE işaretli teslimatlarda Performans Beyanı siparişe özel hazırlanır ve teslim dosyasına eklenir. <a href="../belgelerimiz.html">Belgelerimizi görüntüleyin →</a></p></div>
 `,
     faq: [
       ['FPC sertifikası ile ISO 9001 aynı şey mi?', 'Hayır. ISO 9001 genel bir kalite yönetim sistemidir ve gönüllüdür. EN 1090-1 FPC ise CE işareti için yasal olarak gerekli, ürüne özel bir üretim kontrol sistemidir ve onaylanmış bir kuruluş tarafından denetlenir. ISO 9001 FPC’nin yerini tutmaz.'],
@@ -78,7 +78,7 @@ export default {
       ['Türkiye’deki bir üretici AB için CE işareti koyabilir mi?', 'Evet. Üretici AB dışında olabilir. Önemli olan, FPC’nin CPR kapsamında yetkili bir onaylanmış kuruluş tarafından sertifikalandırılması ve ürün için doğru Performans Beyanı düzenlenmesidir.'],
       ['Her teslimat için ayrı DoP gerekir mi?', 'DoP ürün tipine göre düzenlenir. Aynı tip ve performanstaki bileşenler için tek bir DoP kullanılabilir; ancak proje bazlı çelik yapılarda genellikle siparişe özel DoP hazırlanır.']
     ],
-    cta_h3: 'CE işaretli çelik yapı bileşenine mi ihtiyacınız var?',
+    cta_h3: 'Çiziminizi gönderin, teklif hazırlayalım',
     cta_p: 'Proje şartnamenizi gönderin; uygulama sınıfı ve belge gereksinimlerini kontrol edip 48 saat içinde teklif hazırlayalım.',
     cta_btn: 'Teklif İste →'
   },
@@ -146,7 +146,7 @@ export default {
 <li>The product is outside the scope of EN 1090-1 (a machine frame, for example) but carries a CE mark under EN 1090.</li>
 </ul>
 <p>The last point matters: EN 1090-1 is for structural components used in construction works. Machine frames, vehicle parts and pressure equipment are not covered; their own legislation applies, such as the Machinery Regulation or the Pressure Equipment Directive.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> our FPC certificate covering EN 1090-2 EXC3 and our EN ISO 3834-2 welding certificate are current and available to view. For CE-marked deliveries, the Declaration of Performance is prepared for each order and included in the delivery file. <a href="../belgelerimiz.html">View our certificates →</a></p></div>
+<div class="callout"><p>For CE-marked deliveries, the Declaration of Performance is prepared for each order and included in the delivery file. <a href="../belgelerimiz.html">View our certificates →</a></p></div>
 `,
     faq: [
       ['Is an FPC certificate the same as ISO 9001?', 'No. ISO 9001 is a general, voluntary quality management system. EN 1090-1 FPC is a product-specific production control system that is legally required for CE marking and is audited by a notified body. ISO 9001 does not replace FPC.'],
@@ -154,7 +154,7 @@ export default {
       ['Can a manufacturer in Turkey CE-mark products for the EU?', 'Yes. The manufacturer may be outside the EU. What matters is that the FPC is certified by a notified body authorised under the CPR and that a correct Declaration of Performance is issued.'],
       ['Is a separate DoP needed for every delivery?', 'A DoP is issued per product type. Components of the same type and performance can share one DoP, but for project-based steel structures an order-specific DoP is usually prepared.']
     ],
-    cta_h3: 'Do you need CE-marked structural steel components?',
+    cta_h3: 'Send your drawing for a quote',
     cta_p: 'Send us your project specification. We will check execution class and document requirements and send a quotation within 48 hours.',
     cta_btn: 'Request a Quote →'
   },
@@ -221,7 +221,7 @@ export default {
 <li>Das Produkt fällt nicht unter EN 1090-1 (etwa ein Maschinengestell), trägt aber ein CE-Kennzeichen nach EN 1090.</li>
 </ul>
 <p>Der letzte Punkt ist wichtig: EN 1090-1 gilt für tragende Bauteile in Bauwerken. Maschinengestelle, Fahrzeugteile und Druckgeräte fallen nicht darunter; für sie gelten eigene Rechtsvorschriften wie die Maschinenverordnung oder die Druckgeräterichtlinie.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Unser WPK-Zertifikat für EN 1090-2 EXC3 und unser Schweißzertifikat nach EN ISO 3834-2 sind aktuell und einsehbar. Bei CE-gekennzeichneten Lieferungen wird die Leistungserklärung auftragsbezogen erstellt und der Lieferdokumentation beigelegt. <a href="../belgelerimiz.html">Unsere Zertifikate ansehen →</a></p></div>
+<div class="callout"><p>Bei CE-gekennzeichneten Lieferungen wird die Leistungserklärung auftragsbezogen erstellt und der Lieferdokumentation beigelegt. <a href="../belgelerimiz.html">Unsere Zertifikate ansehen →</a></p></div>
 `,
     faq: [
       ['Ist ein WPK-Zertifikat dasselbe wie ISO 9001?', 'Nein. ISO 9001 ist ein allgemeines, freiwilliges Qualitätsmanagementsystem. Die WPK nach EN 1090-1 ist eine produktbezogene Produktionskontrolle, die für die CE-Kennzeichnung gesetzlich erforderlich ist und von einer notifizierten Stelle überwacht wird. ISO 9001 ersetzt sie nicht.'],
@@ -229,7 +229,7 @@ export default {
       ['Darf ein Hersteller in der Türkei CE-Kennzeichen für die EU anbringen?', 'Ja. Der Hersteller kann außerhalb der EU sitzen. Entscheidend ist, dass die WPK von einer unter der BauPVO notifizierten Stelle zertifiziert ist und eine korrekte Leistungserklärung ausgestellt wird.'],
       ['Braucht jede Lieferung eine eigene Leistungserklärung?', 'Die Leistungserklärung gilt je Produkttyp. Bauteile gleichen Typs und gleicher Leistung können eine gemeinsame DoP haben; bei projektbezogenen Stahlbauten wird jedoch meist eine auftragsbezogene DoP erstellt.']
     ],
-    cta_h3: 'Sie benötigen CE-gekennzeichnete Stahlbauteile?',
+    cta_h3: 'Zeichnung senden, Angebot erhalten',
     cta_p: 'Senden Sie uns Ihre Projektspezifikation. Wir prüfen Ausführungsklasse und Dokumentenanforderungen und senden innerhalb von 48 Stunden ein Angebot.',
     cta_btn: 'Angebot anfordern →'
   },
@@ -294,7 +294,7 @@ export default {
 <li>El producto no está en el ámbito de la EN 1090-1 (por ejemplo, un bastidor de máquina) pero lleva marcado CE según EN 1090.</li>
 </ul>
 <p>El último punto es importante: la EN 1090-1 es para componentes estructurales de obras de construcción. Los bastidores de máquina, piezas de vehículos y equipos a presión no están incluidos; se rigen por su propia legislación, como el Reglamento de Máquinas o la Directiva de Equipos a Presión.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> nuestro certificado FPC con alcance EN 1090-2 EXC3 y nuestro certificado de soldeo EN ISO 3834-2 están vigentes y pueden consultarse. En los suministros con marcado CE, la Declaración de Prestaciones se prepara para cada pedido y se incluye en el dossier de entrega. <a href="../belgelerimiz.html">Ver nuestros certificados →</a></p></div>
+<div class="callout"><p>En los suministros con marcado CE, la Declaración de Prestaciones se prepara para cada pedido y se incluye en el dossier de entrega. <a href="../belgelerimiz.html">Ver nuestros certificados →</a></p></div>
 `,
     faq: [
       ['¿Es lo mismo un certificado FPC que la ISO 9001?', 'No. La ISO 9001 es un sistema de gestión de calidad general y voluntario. El FPC de la EN 1090-1 es un control de producción específico del producto, obligatorio para el marcado CE y auditado por un organismo notificado. La ISO 9001 no lo sustituye.'],
@@ -302,7 +302,7 @@ export default {
       ['¿Puede un fabricante en Turquía poner el marcado CE para la UE?', 'Sí. El fabricante puede estar fuera de la UE. Lo importante es que el FPC esté certificado por un organismo notificado según el RPC y que se emita una Declaración de Prestaciones correcta.'],
       ['¿Hace falta una DoP por cada suministro?', 'La DoP se emite por producto tipo. Componentes del mismo tipo y prestaciones pueden compartir una DoP, aunque en estructuras por proyecto suele prepararse una DoP específica para cada pedido.']
     ],
-    cta_h3: '¿Necesita componentes de acero con marcado CE?',
+    cta_h3: 'Envíe su plano y prepararemos la oferta',
     cta_p: 'Envíenos el pliego del proyecto. Revisamos la clase de ejecución y los documentos necesarios y le enviamos una oferta en 48 horas.',
     cta_btn: 'Solicitar oferta →'
   },
@@ -367,7 +367,7 @@ export default {
 <li>Le produit ne relève pas de l’EN 1090-1 (un bâti de machine, par exemple) mais porte un marquage CE EN 1090.</li>
 </ul>
 <p>Ce dernier point compte : l’EN 1090-1 vise les composants structuraux des ouvrages de construction. Les bâtis de machines, pièces de véhicules et équipements sous pression n’en relèvent pas ; leur propre réglementation s’applique, comme le Règlement Machines ou la Directive Équipements sous Pression.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> notre certificat CPU couvrant l’EN 1090-2 EXC3 et notre certificat de soudage EN ISO 3834-2 sont à jour et consultables. Pour les livraisons marquées CE, la Déclaration des Performances est établie pour chaque commande et jointe au dossier de livraison. <a href="../belgelerimiz.html">Voir nos certificats →</a></p></div>
+<div class="callout"><p>Pour les livraisons marquées CE, la Déclaration des Performances est établie pour chaque commande et jointe au dossier de livraison. <a href="../belgelerimiz.html">Voir nos certificats →</a></p></div>
 `,
     faq: [
       ['Un certificat CPU équivaut-il à l’ISO 9001 ?', 'Non. L’ISO 9001 est un système de management de la qualité général et volontaire. Le CPU de l’EN 1090-1 est un contrôle de production propre au produit, obligatoire pour le marquage CE et surveillé par un organisme notifié. L’ISO 9001 ne le remplace pas.'],
@@ -375,7 +375,7 @@ export default {
       ['Un fabricant situé en Turquie peut-il apposer le marquage CE pour l’UE ?', 'Oui. Le fabricant peut être hors UE. L’essentiel est que le CPU soit certifié par un organisme notifié au titre du RPC et qu’une Déclaration des Performances correcte soit établie.'],
       ['Faut-il une DoP par livraison ?', 'La DoP est établie par produit type. Des composants de même type et de mêmes performances peuvent partager une DoP, mais pour des charpentes réalisées à l’affaire on établit généralement une DoP par commande.']
     ],
-    cta_h3: 'Besoin de composants métalliques marqués CE ?',
+    cta_h3: 'Envoyez votre plan pour un devis',
     cta_p: 'Envoyez-nous votre cahier des charges. Nous vérifions la classe d’exécution et les documents requis et vous adressons une offre sous 48 heures.',
     cta_btn: 'Demander un devis →'
   },
@@ -440,7 +440,7 @@ export default {
 <li>Il prodotto non rientra nella EN 1090-1 (per esempio un telaio di macchina) ma porta una marcatura CE secondo EN 1090.</li>
 </ul>
 <p>L’ultimo punto è importante: la EN 1090-1 riguarda componenti strutturali per opere di costruzione. Telai di macchine, parti di veicoli e attrezzature a pressione non rientrano; valgono le loro norme, come il Regolamento Macchine o la Direttiva Attrezzature a Pressione.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> il nostro certificato FPC con campo EN 1090-2 EXC3 e il certificato di saldatura EN ISO 3834-2 sono in corso di validità e consultabili. Per le forniture marcate CE, la Dichiarazione di Prestazione è preparata per ogni ordine e inserita nel fascicolo di consegna. <a href="../belgelerimiz.html">Vedi i nostri certificati →</a></p></div>
+<div class="callout"><p>Per le forniture marcate CE, la Dichiarazione di Prestazione è preparata per ogni ordine e inserita nel fascicolo di consegna. <a href="../belgelerimiz.html">Vedi i nostri certificati →</a></p></div>
 `,
     faq: [
       ['Un certificato FPC equivale alla ISO 9001?', 'No. La ISO 9001 è un sistema di gestione della qualità generale e volontario. L’FPC della EN 1090-1 è un controllo di produzione specifico del prodotto, obbligatorio per la marcatura CE e sorvegliato da un organismo notificato. La ISO 9001 non lo sostituisce.'],
@@ -448,7 +448,7 @@ export default {
       ['Un fabbricante in Turchia può apporre la marcatura CE per l’UE?', 'Sì. Il fabbricante può essere fuori dall’UE. Conta che l’FPC sia certificato da un organismo notificato secondo il CPR e che venga redatta una Dichiarazione di Prestazione corretta.'],
       ['Serve una DoP per ogni fornitura?', 'La DoP si redige per prodotto tipo. Componenti dello stesso tipo e con le stesse prestazioni possono condividere una DoP, ma per carpenterie su commessa si prepara di solito una DoP per ordine.']
     ],
-    cta_h3: 'Vi servono componenti in acciaio marcati CE?',
+    cta_h3: 'Inviate il disegno per un\'offerta',
     cta_p: 'Inviateci il capitolato di progetto. Verifichiamo classe di esecuzione e documenti richiesti e vi inviamo un’offerta entro 48 ore.',
     cta_btn: 'Richiedi un preventivo →'
   },
@@ -513,7 +513,7 @@ export default {
 <li>Het product valt niet onder EN 1090-1 (bijvoorbeeld een machineframe) maar draagt een CE-markering volgens EN 1090.</li>
 </ul>
 <p>Dat laatste punt is belangrijk: EN 1090-1 geldt voor dragende onderdelen in bouwwerken. Machineframes, voertuigonderdelen en drukapparatuur vallen erbuiten; daarvoor gelden eigen regels, zoals de Machineverordening of de Richtlijn drukapparatuur.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> ons FPC-certificaat met bereik EN 1090-2 EXC3 en ons lascertificaat volgens EN ISO 3834-2 zijn actueel en in te zien. Bij CE-gemarkeerde leveringen stellen we de prestatieverklaring per order op en voegen die toe aan het leverdossier. <a href="../belgelerimiz.html">Bekijk onze certificaten →</a></p></div>
+<div class="callout"><p>Bij CE-gemarkeerde leveringen stellen we de prestatieverklaring per order op en voegen die toe aan het leverdossier. <a href="../belgelerimiz.html">Bekijk onze certificaten →</a></p></div>
 `,
     faq: [
       ['Is een FPC-certificaat hetzelfde als ISO 9001?', 'Nee. ISO 9001 is een algemeen, vrijwillig kwaliteitsmanagementsysteem. De FPC volgens EN 1090-1 is een productspecifieke productiecontrole die wettelijk vereist is voor CE-markering en onder toezicht staat van een aangemelde instantie. ISO 9001 vervangt haar niet.'],
@@ -521,7 +521,7 @@ export default {
       ['Mag een fabrikant in Turkije CE-markering aanbrengen voor de EU?', 'Ja. De fabrikant mag buiten de EU gevestigd zijn. Belangrijk is dat de FPC is gecertificeerd door een onder de CPR aangemelde instantie en dat er een correcte prestatieverklaring wordt opgesteld.'],
       ['Is per levering een aparte DoP nodig?', 'Een DoP geldt per producttype. Onderdelen van hetzelfde type en met dezelfde prestaties kunnen één DoP delen, maar bij projectgebonden staalconstructies wordt meestal een DoP per order opgesteld.']
     ],
-    cta_h3: 'Hebt u CE-gemarkeerde staalonderdelen nodig?',
+    cta_h3: 'Stuur uw tekening voor een offerte',
     cta_p: 'Stuur ons uw projectbestek. We controleren uitvoeringsklasse en vereiste documenten en sturen binnen 48 uur een offerte.',
     cta_btn: 'Offerte aanvragen →'
   },
@@ -586,7 +586,7 @@ export default {
 <li>Produktet er utenfor EN 1090-1 (for eksempel en maskinramme), men er CE-merket etter EN 1090.</li>
 </ul>
 <p>Det siste punktet er viktig: EN 1090-1 gjelder bærende komponenter i byggverk. Maskinrammer, kjøretøydeler og trykkpåkjent utstyr omfattes ikke; der gjelder eget regelverk, som maskinforordningen eller trykkdirektivet.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> FPC-sertifikatet vårt med omfang EN 1090-2 EXC3 og sveisesertifikatet etter EN ISO 3834-2 er gyldige og kan ses på nettsiden. Ved CE-merkede leveranser lages ytelseserklæringen for hver ordre og legges i leveransedokumentasjonen. <a href="../belgelerimiz.html">Se sertifikatene våre →</a></p></div>
+<div class="callout"><p>Ved CE-merkede leveranser lages ytelseserklæringen for hver ordre og legges i leveransedokumentasjonen. <a href="../belgelerimiz.html">Se sertifikatene våre →</a></p></div>
 `,
     faq: [
       ['Er et FPC-sertifikat det samme som ISO 9001?', 'Nei. ISO 9001 er et generelt og frivillig kvalitetsstyringssystem. FPC etter EN 1090-1 er en produktspesifikk produksjonskontroll som er lovpålagt for CE-merking og overvåkes av et teknisk kontrollorgan. ISO 9001 erstatter ikke FPC.'],
@@ -594,7 +594,7 @@ export default {
       ['Kan en produsent i Tyrkia CE-merke produkter for EU/EØS?', 'Ja. Produsenten kan ligge utenfor EU. Det avgjørende er at FPC er sertifisert av et kontrollorgan notifisert under CPR, og at det utstedes en korrekt ytelseserklæring.'],
       ['Trengs det en egen DoP for hver leveranse?', 'En DoP utstedes per produkttype. Komponenter av samme type og ytelse kan dele én DoP, men for prosjektbaserte stålkonstruksjoner lages det vanligvis en DoP per ordre.']
     ],
-    cta_h3: 'Trenger du CE-merkede ståldeler?',
+    cta_h3: 'Send tegningen for et tilbud',
     cta_p: 'Send oss prosjektspesifikasjonen. Vi kontrollerer utførelsesklasse og dokumentkrav og sender tilbud innen 48 timer.',
     cta_btn: 'Be om tilbud →'
   }

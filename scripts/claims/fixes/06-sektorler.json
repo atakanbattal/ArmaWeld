@@ -1,0 +1,76 @@
+{
+ "sectors_lede": {
+  "tr": "İş makinesi ve vinç üretiminden çelik yapılara ve enerji altyapısına; her sektörün standardına uygun kaynaklı imalat.",
+  "en": "From construction machinery and cranes to steel structures and energy infrastructure; welded fabrication to each sector's standards.",
+  "de": "Von Baumaschinen und Kranen bis zu Stahlbau und Energieinfrastruktur; Schweißfertigung nach den Standards jeder Branche.",
+  "es": "Desde maquinaria de construcción y grúas hasta estructuras de acero e infraestructura energética; fabricación soldada según los estándares de cada sector.",
+  "fr": "Des engins de chantier et grues aux structures acier et infrastructures énergétiques ; fabrication soudée selon les normes de chaque secteur.",
+  "it": "Dalle macchine da cantiere e gru alle strutture in acciaio e infrastrutture energetiche; carpenteria saldata secondo gli standard di ogni settore.",
+  "nl": "Van bouwmachines en kranen tot staalconstructies en energie-infrastructuur; laswerk volgens de normen van elke sector.",
+  "no": "Fra anleggsmaskiner og kraner til stålkonstruksjoner og energiinfrastruktur; sveiset produksjon etter hver bransjes standarder."
+ },
+ "pg_sektorler_title": {
+  "tr": "Sektörler: Makine, Çelik Yapı, Enerji | ArmaWeld",
+  "en": "Industries: Machinery, Structural Steel, Energy | ArmaWeld",
+  "de": "Branchen: Maschinenbau, Stahlbau, Energie | ArmaWeld",
+  "es": "Sectores: maquinaria, acero estructural, energía | ArmaWeld",
+  "fr": "Secteurs : machines, charpente métallique, énergie | ArmaWeld",
+  "it": "Settori: macchine, carpenteria, energia | ArmaWeld",
+  "nl": "Sectoren: machinebouw, staalbouw, energie | ArmaWeld",
+  "no": "Bransjer: Maskiner, stålkonstruksjon, energi | ArmaWeld"
+ },
+ "pg_sektorler_desc": {
+  "re": [
+   [
+    "P355GH",
+    "g",
+    "S960QL"
+   ]
+  ]
+ },
+ "sec2_desc": {
+  "tr": "Fabrika çatıları, depo binaları, platform ve merdivenler için çelik yapı elemanları. EN 1090-2 belgeli kaynaklı imalat.",
+  "en": "Steel structural members for factory roofs, warehouses, platforms and stairs. Welded fabrication certified to EN 1090-2.",
+  "de": "Stahlbauteile für Werkshallendächer, Lagerhallen, Plattformen und Treppen. Schweißfertigung zertifiziert nach EN 1090-2.",
+  "es": "Elementos de acero estructural para cubiertas de fábrica, naves, plataformas y escaleras. Fabricación soldada certificada EN 1090-2.",
+  "fr": "Éléments de charpente acier pour toitures d'usines, entrepôts, plateformes et escaliers. Fabrication soudée certifiée EN 1090-2.",
+  "it": "Elementi in acciaio per coperture industriali, capannoni, piattaforme e scale. Carpenteria saldata certificata EN 1090-2.",
+  "nl": "Staalconstructiedelen voor fabrieksdaken, magazijnen, bordessen en trappen. Laswerk gecertificeerd volgens EN 1090-2.",
+  "no": "Stålkonstruksjonsdeler for fabrikktak, lagerbygg, plattformer og trapper. Sveiset produksjon sertifisert etter EN 1090-2."
+ },
+ "sec2_sp2k": {
+  "tr": "Kalite",
+  "en": "Quality",
+  "de": "Qualität",
+  "es": "Calidad",
+  "fr": "Qualité",
+  "it": "Qualità",
+  "nl": "Kwaliteit",
+  "no": "Kvalitet"
+ },
+ "sec2_sp2v": {
+  "*": "EN ISO 3834-2"
+ },
+ "sec2_hr": {
+  "*": "EN 1090-2"
+ },
+ "sec4_desc": {
+  "tr": "GES montaj sehpaları, RES ekipman braketleri, jeneratör ve trafo şaseleri. Kumlama, boya ve galvaniz çizimde istenirse denetlenmiş tedarikçide yapılır.",
+  "en": "Solar mounting frames, wind equipment brackets, generator and transformer chassis. Blasting, painting and galvanizing are done at audited suppliers when the drawing requires them.",
+  "de": "PV-Montagegestelle, Halterungen für Windkraftanlagen, Generator- und Trafogestelle. Strahlen, Lackieren und Verzinken erfolgen bei auditierten Lieferanten, wenn die Zeichnung es verlangt.",
+  "es": "Estructuras de montaje fotovoltaico, soportes para equipos eólicos, chasis de generadores y transformadores. Granallado, pintura y galvanizado en proveedores auditados cuando el plano lo exige.",
+  "fr": "Structures de montage solaire, supports d'équipements éoliens, châssis de générateurs et transformateurs. Grenaillage, peinture et galvanisation chez des fournisseurs audités si le plan l'exige.",
+  "it": "Strutture di supporto per il solare, staffe per impianti eolici, telai per generatori e trasformatori. Sabbiatura, verniciatura e zincatura presso fornitori verificati se richieste dal disegno.",
+  "nl": "Montageframes voor zonnepanelen, beugels voor windapparatuur, generator- en transformatorchassis. Stralen, schilderen en verzinken bij geauditeerde leveranciers als de tekening dat vraagt.",
+  "no": "Monteringsrammer for solceller, braketter for vindkraftutstyr, generator- og transformatorchassis. Blåsing, maling og galvanisering hos reviderte leverandører når tegningen krever det."
+ },
+ "sectors_s04_num": {
+  "re": [
+   [
+    "04",
+    "",
+    "03"
+   ]
+  ]
+ }
+}

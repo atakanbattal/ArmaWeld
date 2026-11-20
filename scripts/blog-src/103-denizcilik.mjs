@@ -34,7 +34,7 @@ export default {
 </ul>
 <h2>Dokümantasyon</h2>
 <p>Teslimde genellikle imalat dosyası beklenir: malzeme sertifikaları, WPS/WPQR, kaynakçı sertifikaları, NDT raporları, boyutsal rapor ve kaplama kontrol kayıtları (kuru film kalınlığı vb.).</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Denizcilik ve offshore kullanımına yönelik kaynaklı parçalarda, klas şartı olup olmadığını ve gerekli onayları teklif aşamasında müşteriyle birlikte netleştiriyoruz. VT, MT, PT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyor, kaplamayı iş ortaklarımızla koordine ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Denizcilik ve offshore kullanımına yönelik kaynaklı parçalarda, klas şartı olup olmadığını ve gerekli onayları teklif aşamasında müşteriyle birlikte netleştiriyoruz. VT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyor, kaplamayı iş ortaklarımızla koordine ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
 `,
     faq: [
       ['Her denizcilik parçası klas onayı ister mi?', 'Hayır; klas kapsamına giren parçalar için gerekir. Teklif aşamasında netleştirilmelidir.'],
@@ -75,7 +75,7 @@ export default {
 </ul>
 <h2>Documentation</h2>
 <p>A manufacturing record book is usually expected: material certificates, WPS/WPQR, welder certificates, NDT reports, dimensional report and coating inspection records (dry film thickness and so on).</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> for welded parts intended for marine and offshore use, we clarify with the customer at quotation whether class rules apply and which approvals are needed. VT, MT, PT and UT are done by our ISO 9712 Level 2 staff; coating is coordinated with partners. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> for welded parts intended for marine and offshore use, we clarify with the customer at quotation whether class rules apply and which approvals are needed. VT and UT are done by our ISO 9712 Level 2 staff; coating is coordinated with partners. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
 `,
     faq: [
       ['Does every marine part need class approval?', 'No; only parts within class scope. Clarify at quotation.'],
@@ -116,7 +116,7 @@ export default {
 </ul>
 <h2>Dokumentation</h2>
 <p>Üblich ist eine Herstelldokumentation mit Werkstoffzeugnissen, WPS/WPQR, Schweißerprüfungen, ZfP-Berichten, Maßbericht und Beschichtungsprotokollen (Trockenschichtdicke usw.).</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Schweißteilen für maritime und Offshore-Anwendungen klären wir mit dem Kunden schon im Angebot, ob Klassevorschriften gelten und welche Zulassungen nötig sind. VT, MT, PT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; die Beschichtung koordinieren wir mit Partnern. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Schweißteilen für maritime und Offshore-Anwendungen klären wir mit dem Kunden schon im Angebot, ob Klassevorschriften gelten und welche Zulassungen nötig sind. VT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; die Beschichtung koordinieren wir mit Partnern. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
 `,
     faq: [
       ['Braucht jedes maritime Teil eine Klassezulassung?', 'Nein, nur Teile im Klasseumfang; im Angebot klären.'],
@@ -157,7 +157,7 @@ export default {
 </ul>
 <h2>Documentación</h2>
 <p>Se espera un dossier de fabricación: certificados, WPS/WPQR, homologaciones, informes de END, dimensional y control de pintura (espesor de película seca, etc.).</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> en piezas soldadas para uso naval y offshore aclaramos con el cliente al ofertar si aplican reglas de clase y qué aprobaciones hacen falta. VT, MT, PT y UT los realiza nuestro personal ISO 9712 Nivel 2; la pintura se coordina con socios. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> en piezas soldadas para uso naval y offshore aclaramos con el cliente al ofertar si aplican reglas de clase y qué aprobaciones hacen falta. VT y UT los realiza nuestro personal ISO 9712 Nivel 2; la pintura se coordina con socios. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
 `,
     faq: [
       ['¿Toda pieza naval necesita clase?', 'No; solo las incluidas en el alcance de clase. Aclárelo al ofertar.'],
@@ -198,7 +198,7 @@ export default {
 </ul>
 <h2>Documentation</h2>
 <p>Un dossier de fabrication est généralement attendu : certificats matière, DMOS/QMOS, qualifications soudeurs, rapports CND, rapport dimensionnel et contrôles peinture (épaisseur de film sec, etc.).</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> pour les pièces soudées destinées au naval et à l'offshore, nous clarifions avec le client dès le devis si des règles de classe s'appliquent et quelles approbations sont nécessaires. VT, MT, PT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la peinture est coordonnée avec nos partenaires. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> pour les pièces soudées destinées au naval et à l'offshore, nous clarifions avec le client dès le devis si des règles de classe s'appliquent et quelles approbations sont nécessaires. VT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la peinture est coordonnée avec nos partenaires. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
 `,
     faq: [
       ['Toute pièce navale exige-t-elle la classe ?', 'Non ; seulement celles dans le périmètre de classe. À clarifier au devis.'],
@@ -239,7 +239,7 @@ export default {
 </ul>
 <h2>Documentazione</h2>
 <p>Di norma si richiede un fascicolo di costruzione: certificati, WPS/WPQR, patentini, rapporti CND, rapporto dimensionale e controlli di verniciatura (spessore del film secco ecc.).</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> per parti saldate destinate a navale e offshore chiariamo col cliente già in offerta se valgono regole di classe e quali approvazioni servono. VT, MT, PT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; la verniciatura è coordinata con i partner. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> per parti saldate destinate a navale e offshore chiariamo col cliente già in offerta se valgono regole di classe e quali approvazioni servono. VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; la verniciatura è coordinata con i partner. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
 `,
     faq: [
       ['Ogni parte navale richiede la classe?', 'No; solo quelle nel perimetro di classe. Da chiarire in offerta.'],
@@ -321,7 +321,7 @@ export default {
 </ul>
 <h2>Dokumentasjon</h2>
 <p>Vanligvis forventes en produksjonsdokumentasjon: materialsertifikater, WPS/WPQR, sveisersertifikater, NDT-rapporter, målrapport og overflatekontroll (tørrfilmtykkelse osv.).</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> for sveisedeler til maritim bruk og offshore avklarer vi allerede i tilbudsfasen med kunden om klasseregler gjelder og hvilke godkjenninger som trengs. VT, MT, PT og UT utføres av vårt ISO 9712 nivå 2-personell; belegg koordineres med partnere. <a href="../kaynakli-imalat.html">Sveisefabrikasjon →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> for sveisedeler til maritim bruk og offshore avklarer vi allerede i tilbudsfasen med kunden om klasseregler gjelder og hvilke godkjenninger som trengs. VT og UT utføres av vårt ISO 9712 nivå 2-personell; belegg koordineres med partnere. <a href="../kaynakli-imalat.html">Sveisefabrikasjon →</a></p></div>
 `,
     faq: [
       ['Trenger alle maritime deler klassegodkjenning?', 'Nei, bare deler innenfor klasseomfanget. Avklar i tilbudsfasen.'],

@@ -1,0 +1,166 @@
+{
+ "about_vision_p": {
+  "re": [
+   [
+    "EN 1090(?![-\\d])",
+    "g",
+    "EN 1090-2"
+   ],
+   [
+    "ISO 3834(?![-\\d])",
+    "g",
+    "EN ISO 3834-2"
+   ]
+  ]
+ },
+ "about_mv1_sub": {
+  "tr": "Çelik yapıların icrası · belge geçerliliği 18.06.2027",
+  "en": "Execution of steel structures · certificate valid until 18.06.2027",
+  "de": "Ausführung von Stahltragwerken · Zertifikat gültig bis 18.06.2027",
+  "es": "Ejecución de estructuras de acero · certificado válido hasta el 18.06.2027",
+  "fr": "Exécution des structures en acier · certificat valable jusqu'au 18.06.2027",
+  "it": "Esecuzione di strutture in acciaio · certificato valido fino al 18.06.2027",
+  "nl": "Uitvoering van staalconstructies · certificaat geldig tot 18.06.2027",
+  "no": "Utførelse av stålkonstruksjoner · sertifikat gyldig til 18.06.2027"
+ },
+ "about_mv4_sub": {
+  "re": [
+   [
+    "VT · PT · MT · UT",
+    "g",
+    "VT · UT · RT-FI"
+   ]
+  ]
+ },
+ "why2_t": {
+  "tr": "EN 1090-2 çelik yapılar",
+  "en": "EN 1090-2 steel structures",
+  "de": "EN 1090-2 Stahlbau",
+  "es": "Estructuras de acero EN 1090-2",
+  "fr": "Structures acier EN 1090-2",
+  "it": "Strutture in acciaio EN 1090-2",
+  "nl": "EN 1090-2 staalconstructies",
+  "no": "EN 1090-2 stålkonstruksjoner"
+ },
+ "why2_d": {
+  "tr": "Malzeme sertifikası, kaynak kayıtları ve muayene raporları tek dosyada izlenir.",
+  "en": "Material certificates, welding records and inspection reports are traced in one file.",
+  "de": "Werkstoffzeugnisse, Schweißaufzeichnungen und Prüfberichte werden in einer Akte rückverfolgt.",
+  "es": "Certificados de material, registros de soldadura e informes de inspección en un solo expediente trazable.",
+  "fr": "Certificats matière, enregistrements de soudage et rapports de contrôle suivis dans un seul dossier.",
+  "it": "Certificati materiale, registrazioni di saldatura e rapporti di controllo tracciati in un unico fascicolo.",
+  "nl": "Materiaalcertificaten, lasregistraties en inspectierapporten traceerbaar in één dossier.",
+  "no": "Materialsertifikater, sveiseregistreringer og kontrollrapporter spores i én mappe."
+ },
+ "why3_t": {
+  "tr": "3 NDT yöntemi bünyede",
+  "en": "3 NDT methods in-house",
+  "de": "3 ZfP-Verfahren inhouse",
+  "es": "3 métodos END internos",
+  "fr": "3 méthodes CND internes",
+  "it": "3 metodi CND interni",
+  "nl": "3 NDO-methoden in eigen huis",
+  "no": "3 NDT-metoder internt"
+ },
+ "why3_d": {
+  "tr": "VT, UT ve RT film değerlendirme Seviye 2 personelle bünyede. RT çekimi ve gerekirse PT/MT anlaşmalı kuruluşla.",
+  "en": "VT, UT and RT film interpretation in-house by Level 2 staff. RT exposure and, if required, PT/MT through a contracted body.",
+  "de": "VT, UT und RT-Filmauswertung inhouse durch Stufe-2-Personal. RT-Durchstrahlung und bei Bedarf PT/MT über eine Vertragsstelle.",
+  "es": "VT, UT e interpretación de película RT internos con personal nivel 2. Exposición RT y, si se requiere, PT/MT con una entidad contratada.",
+  "fr": "VT, UT et interprétation de films RT en interne par du personnel niveau 2. Tir RT et, si nécessaire, PT/MT par un organisme sous contrat.",
+  "it": "VT, UT e interpretazione pellicole RT interni con personale di livello 2. Esposizione RT e, se richiesto, PT/MT tramite ente convenzionato.",
+  "nl": "VT, UT en RT-filmbeoordeling in eigen huis door niveau 2-personeel. RT-opnamen en zo nodig PT/MT via een gecontracteerde instantie.",
+  "no": "VT, UT og RT-filmtolkning internt med nivå 2-personell. RT-eksponering og ved behov PT/MT via et avtalt organ."
+ },
+ "br_model_html": {
+  "re": [
+   [
+    "S235[^<;]*S960QL[^<]*Strenx",
+    "g",
+    "S235–S355 · S690QL · S960QL · S700MC · Hardox"
+   ]
+  ]
+ },
+ "about_disc1_p": {
+  "tr": "IWE (Uluslararası Kaynak Mühendisi) belgeli üç mühendisimiz EN ISO 3834-2 kalite sistemini yönetir; WPS hazırlığı, prosedür onayı ve kaynakçı nitelendirme süreçlerini yürütür.",
+  "en": "Our three IWE-certified (International Welding Engineer) engineers run the EN ISO 3834-2 quality system: WPS preparation, procedure qualification and welder qualification.",
+  "de": "Unsere drei IWE-zertifizierten Ingenieure (International Welding Engineer) führen das Qualitätssystem nach EN ISO 3834-2: WPS-Erstellung, Verfahrensprüfung und Schweißerprüfung.",
+  "es": "Nuestros tres ingenieros con certificación IWE (International Welding Engineer) dirigen el sistema de calidad EN ISO 3834-2: preparación de WPS, cualificación de procedimientos y de soldadores.",
+  "fr": "Nos trois ingénieurs certifiés IWE (International Welding Engineer) pilotent le système qualité EN ISO 3834-2 : rédaction des DMOS, qualification des modes opératoires et des soudeurs.",
+  "it": "I nostri tre ingegneri certificati IWE (International Welding Engineer) gestiscono il sistema qualità EN ISO 3834-2: redazione WPS, qualifica dei procedimenti e dei saldatori.",
+  "nl": "Onze drie IWE-gecertificeerde ingenieurs (International Welding Engineer) leiden het kwaliteitssysteem volgens EN ISO 3834-2: WPS-opstelling, proceskwalificatie en lasserkwalificatie.",
+  "no": "Våre tre IWE-sertifiserte ingeniører (International Welding Engineer) styrer kvalitetssystemet etter EN ISO 3834-2: WPS-utarbeidelse, prosedyrekvalifisering og sveiserkvalifisering."
+ },
+ "about_disc3_p": {
+  "tr": "VT, UT ve RT film değerlendirmede EN ISO 9712 Seviye 2 belgeli kadromuz her işin muayene planını hazırlar ve raporları onaylar. Aksi belirtilmedikçe kabul kriteri EN ISO 5817 B sınıfıdır.",
+  "en": "Our EN ISO 9712 Level 2 certified staff for VT, UT and RT film interpretation prepare the inspection plan for each job and approve the reports. Unless specified otherwise, acceptance is EN ISO 5817 level B.",
+  "de": "Unser nach EN ISO 9712 Stufe 2 zertifiziertes Personal für VT, UT und RT-Filmauswertung erstellt für jeden Auftrag den Prüfplan und gibt die Berichte frei. Sofern nicht anders festgelegt, gilt EN ISO 5817 Bewertungsgruppe B.",
+  "es": "Nuestro personal certificado EN ISO 9712 nivel 2 en VT, UT e interpretación de película RT prepara el plan de inspección de cada trabajo y aprueba los informes. Salvo indicación contraria, la aceptación es EN ISO 5817 nivel B.",
+  "fr": "Notre personnel certifié EN ISO 9712 niveau 2 en VT, UT et interprétation de films RT établit le plan de contrôle de chaque affaire et valide les rapports. Sauf indication contraire, l'acceptation est EN ISO 5817 niveau B.",
+  "it": "Il nostro personale certificato EN ISO 9712 livello 2 in VT, UT e interpretazione pellicole RT prepara il piano di controllo di ogni commessa e approva i rapporti. Salvo diversa indicazione, l'accettazione è EN ISO 5817 livello B.",
+  "nl": "Ons EN ISO 9712 niveau 2-gecertificeerde personeel voor VT, UT en RT-filmbeoordeling stelt per opdracht het inspectieplan op en keurt de rapporten goed. Tenzij anders bepaald geldt EN ISO 5817 niveau B.",
+  "no": "Vårt EN ISO 9712 nivå 2-sertifiserte personell for VT, UT og RT-filmtolkning lager kontrollplanen for hver jobb og godkjenner rapportene. Med mindre annet er angitt gjelder EN ISO 5817 nivå B."
+ },
+ "about_stat1_lbl": {
+  "tr": "Kapalı atölye alanı<br/>Konya",
+  "en": "Covered workshop<br/>Konya",
+  "de": "Überdachte Werkstatt<br/>Konya",
+  "es": "Taller cubierto<br/>Konya",
+  "fr": "Atelier couvert<br/>Konya",
+  "it": "Officina coperta<br/>Konya",
+  "nl": "Overdekte werkplaats<br/>Konya",
+  "no": "Innendørs verksted<br/>Konya"
+ },
+ "about_stat2_lbl": {
+  "tr": "IWE kaynak mühendisi<br/>EN ISO 14731",
+  "en": "IWE welding engineers<br/>EN ISO 14731",
+  "de": "IWE-Schweißfachingenieure<br/>EN ISO 14731",
+  "es": "Ingenieros de soldadura IWE<br/>EN ISO 14731",
+  "fr": "Ingénieurs soudage IWE<br/>EN ISO 14731",
+  "it": "Ingegneri di saldatura IWE<br/>EN ISO 14731",
+  "nl": "IWE-lasingenieurs<br/>EN ISO 14731",
+  "no": "IWE-sveiseingeniører<br/>EN ISO 14731"
+ },
+ "about_stat3_lbl": {
+  "tr": "NDT yöntemi bünyede<br/>VT · UT · RT-FI",
+  "en": "NDT methods in-house<br/>VT · UT · RT-FI",
+  "de": "ZfP-Verfahren inhouse<br/>VT · UT · RT-FI",
+  "es": "Métodos END internos<br/>VT · UT · RT-FI",
+  "fr": "Méthodes CND internes<br/>VT · UT · RT-FI",
+  "it": "Metodi CND interni<br/>VT · UT · RT-FI",
+  "nl": "NDO-methoden in eigen huis<br/>VT · UT · RT-FI",
+  "no": "NDT-metoder internt<br/>VT · UT · RT-FI"
+ },
+ "about_stat4_lbl": {
+  "tr": "Kaynakçı<br/>135 · 136 · 141 · 121",
+  "en": "Welders<br/>135 · 136 · 141 · 121",
+  "de": "Schweißer<br/>135 · 136 · 141 · 121",
+  "es": "Soldadores<br/>135 · 136 · 141 · 121",
+  "fr": "Soudeurs<br/>135 · 136 · 141 · 121",
+  "it": "Saldatori<br/>135 · 136 · 141 · 121",
+  "nl": "Lassers<br/>135 · 136 · 141 · 121",
+  "no": "Sveisere<br/>135 · 136 · 141 · 121"
+ },
+ "about_flow_st2_sub": {
+  "tr": "Denetlenmiş tedarikçide · DXF ArmaWeld'den",
+  "en": "At audited suppliers · DXF from ArmaWeld",
+  "de": "Bei auditierten Lieferanten · DXF von ArmaWeld",
+  "es": "En proveedores auditados · DXF de ArmaWeld",
+  "fr": "Chez des fournisseurs audités · DXF fourni par ArmaWeld",
+  "it": "Presso fornitori verificati · DXF da ArmaWeld",
+  "nl": "Bij geauditeerde leveranciers · DXF van ArmaWeld",
+  "no": "Hos reviderte leverandører · DXF fra ArmaWeld"
+ },
+ "about_flow_st4_sub": {
+  "re": [
+   [
+    "VT · PT · MT · UT",
+    "g",
+    "VT · UT · RT-FI"
+   ]
+  ]
+ },
+ "about_flow_st4_kpi": {
+  "*": "VT · UT · RT-FI"
+ }
+}

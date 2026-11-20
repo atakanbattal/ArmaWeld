@@ -1,0 +1,422 @@
+{
+ "exp_title": {
+  "tr": "Türkiye'den Avrupa'ya Kaynaklı İmalat | EN 1090-2, EN ISO 3834-2, İngilizce Belge Dosyası — ArmaWeld",
+  "en": "Welded Fabrication from Turkey for Europe | EN 1090-2, EN ISO 3834-2, English Documentation — ArmaWeld",
+  "de": "Schweißfertigung aus der Türkei für Europa | EN 1090-2, EN ISO 3834-2, Dokumentation auf Englisch — ArmaWeld",
+  "es": "Fabricación soldada desde Turquía para Europa | EN 1090-2, EN ISO 3834-2, documentación en inglés — ArmaWeld",
+  "fr": "Fabrication soudée de la Turquie vers l'Europe | EN 1090-2, EN ISO 3834-2, dossier en anglais — ArmaWeld",
+  "it": "Carpenteria saldata dalla Turchia per l'Europa | EN 1090-2, EN ISO 3834-2, documentazione in inglese — ArmaWeld",
+  "nl": "Laswerk uit Turkije voor Europa | EN 1090-2, EN ISO 3834-2, Engelstalige documentatie — ArmaWeld",
+  "no": "Sveiset produksjon fra Tyrkia til Europa | EN 1090-2, EN ISO 3834-2, dokumentasjon på engelsk — ArmaWeld"
+ },
+ "exp_meta_desc": {
+  "tr": "Avrupa'daki makine üreticileri ve müteahhitler için Türkiye'den kaynaklı imalat: EN 1090-2 ve EN ISO 3834-2 belgeli üretim, İngilizce belge dosyası, EXW Konya teslim. 48 saatte teklif.",
+  "en": "Welded fabrication from Turkey for machine builders and contractors in Europe: EN 1090-2 and EN ISO 3834-2 certified production, English documentation, EXW Konya delivery. Quote within 48 hours.",
+  "de": "Schweißfertigung aus der Türkei für Maschinenbauer und Bauunternehmen in Europa: Fertigung nach EN 1090-2 und EN ISO 3834-2, Dokumentation auf Englisch, Lieferung EXW Konya. Angebot innerhalb von 48 Stunden.",
+  "es": "Fabricación soldada desde Turquía para fabricantes de maquinaria y contratistas en Europa: producción certificada EN 1090-2 y EN ISO 3834-2, documentación en inglés, entrega EXW Konya. Oferta en 48 horas.",
+  "fr": "Fabrication soudée depuis la Turquie pour les constructeurs de machines et les entreprises en Europe : production certifiée EN 1090-2 et EN ISO 3834-2, dossier en anglais, livraison EXW Konya. Devis sous 48 heures.",
+  "it": "Carpenteria saldata dalla Turchia per costruttori di macchine e imprese in Europa: produzione certificata EN 1090-2 ed EN ISO 3834-2, documentazione in inglese, resa EXW Konya. Offerta entro 48 ore.",
+  "nl": "Laswerk uit Turkije voor machinebouwers en aannemers in Europa: productie gecertificeerd volgens EN 1090-2 en EN ISO 3834-2, Engelstalige documentatie, levering EXW Konya. Offerte binnen 48 uur.",
+  "no": "Sveiset produksjon fra Tyrkia for maskinprodusenter og entreprenører i Europa: produksjon sertifisert etter EN 1090-2 og EN ISO 3834-2, dokumentasjon på engelsk, levering EXW Konya. Tilbud innen 48 timer."
+ },
+ "exp_label": {
+  "tr": "İhracat · EN 1090-2 · İngilizce Dokümantasyon",
+  "en": "Export · EN 1090-2 · English Documentation",
+  "de": "Export · EN 1090-2 · Dokumentation auf Englisch",
+  "es": "Exportación · EN 1090-2 · Documentación en inglés",
+  "fr": "Export · EN 1090-2 · Documentation en anglais",
+  "it": "Export · EN 1090-2 · Documentazione in inglese",
+  "nl": "Export · EN 1090-2 · Engelstalige documentatie",
+  "no": "Eksport · EN 1090-2 · Dokumentasjon på engelsk"
+ },
+ "exp_trust1": {
+  "tr": "EN 1090-2 Belgesi",
+  "en": "EN 1090-2 Certificate",
+  "de": "EN 1090-2 Zertifikat",
+  "es": "Certificado EN 1090-2",
+  "fr": "Certificat EN 1090-2",
+  "it": "Certificato EN 1090-2",
+  "nl": "EN 1090-2 certificaat",
+  "no": "EN 1090-2 sertifikat"
+ },
+ "exp_c1_icon": {
+  "tr": "EN",
+  "en": "EN",
+  "de": "EN",
+  "es": "EN",
+  "fr": "EN",
+  "it": "EN",
+  "nl": "EN",
+  "no": "EN"
+ },
+ "exp_c1_p": {
+  "tr": "EN 1090-2 yapısal çelik belgesi (geçerlilik 18.06.2027), EN ISO 3834-2 kaynak kalitesi; ISO 9001, 14001 ve 45001 yönetim sistemleri.",
+  "en": "EN 1090-2 structural steel certificate (valid until 18.06.2027), EN ISO 3834-2 welding quality; ISO 9001, 14001 and 45001 management systems.",
+  "de": "EN 1090-2 Zertifikat für Stahlbau (gültig bis 18.06.2027), Schweißqualität nach EN ISO 3834-2; Managementsysteme nach ISO 9001, 14001 und 45001.",
+  "es": "Certificado EN 1090-2 de acero estructural (válido hasta el 18.06.2027), calidad de soldadura EN ISO 3834-2; sistemas de gestión ISO 9001, 14001 y 45001.",
+  "fr": "Certificat EN 1090-2 pour l'acier de construction (valable jusqu'au 18.06.2027), qualité de soudage EN ISO 3834-2 ; systèmes de management ISO 9001, 14001 et 45001.",
+  "it": "Certificato EN 1090-2 per l'acciaio strutturale (valido fino al 18.06.2027), qualità di saldatura EN ISO 3834-2; sistemi di gestione ISO 9001, 14001 e 45001.",
+  "nl": "EN 1090-2 certificaat voor constructiestaal (geldig tot 18.06.2027), laskwaliteit volgens EN ISO 3834-2; managementsystemen ISO 9001, 14001 en 45001.",
+  "no": "EN 1090-2 sertifikat for stålkonstruksjoner (gyldig til 18.06.2027), sveisekvalitet etter EN ISO 3834-2; styringssystemer ISO 9001, 14001 og 45001."
+ },
+ "exp_c3_p": {
+  "tr": "S690QL, S960QL, S700MC ve HARDOX kaynağında deneyim; ön ısıtma ve pasolar arası sıcaklık kaydı.",
+  "en": "Experience welding S690QL, S960QL, S700MC and HARDOX; preheat and interpass temperature records.",
+  "de": "Erfahrung beim Schweißen von S690QL, S960QL, S700MC und HARDOX; Aufzeichnung von Vorwärm- und Zwischenlagentemperatur.",
+  "es": "Experiencia en soldadura de S690QL, S960QL, S700MC y HARDOX; registro de precalentamiento y temperatura entre pasadas.",
+  "fr": "Expérience du soudage des S690QL, S960QL, S700MC et HARDOX ; enregistrement du préchauffage et de la température entre passes.",
+  "it": "Esperienza nella saldatura di S690QL, S960QL, S700MC e HARDOX; registrazione di preriscaldo e temperatura interpass.",
+  "nl": "Ervaring met het lassen van S690QL, S960QL, S700MC en HARDOX; registratie van voorwarm- en tussenlaagtemperatuur.",
+  "no": "Erfaring med sveising av S690QL, S960QL, S700MC og HARDOX; registrering av forvarming og mellomstrengtemperatur."
+ },
+ "exp_r2v": {
+  "tr": "EN 10204 3.1 · WPS · kaynakçı sertifikaları · NDT ve ölçü raporları (İngilizce)",
+  "en": "EN 10204 3.1 · WPS · welder certificates · NDT and dimensional reports (English)",
+  "de": "EN 10204 3.1 · WPS · Schweißerzertifikate · ZfP- und Maßberichte (Englisch)",
+  "es": "EN 10204 3.1 · WPS · certificados de soldadores · informes END y dimensionales (inglés)",
+  "fr": "EN 10204 3.1 · DMOS · certificats de soudeurs · rapports CND et dimensionnels (anglais)",
+  "it": "EN 10204 3.1 · WPS · patentini dei saldatori · rapporti CND e dimensionali (inglese)",
+  "nl": "EN 10204 3.1 · WPS · lassercertificaten · NDO- en maatrapporten (Engels)",
+  "no": "EN 10204 3.1 · WPS · sveisesertifikater · NDT- og målerapporter (engelsk)"
+ },
+ "exp_sec4_p": {
+  "tr": "EN 1090-2 kapsamında yapısal çelik elemanlar",
+  "en": "Structural steel components to EN 1090-2",
+  "de": "Stahlbauteile nach EN 1090-2",
+  "es": "Elementos de acero estructural según EN 1090-2",
+  "fr": "Éléments en acier de construction selon EN 1090-2",
+  "it": "Elementi in acciaio strutturale secondo EN 1090-2",
+  "nl": "Constructiestaal volgens EN 1090-2",
+  "no": "Stålkonstruksjonselementer etter EN 1090-2"
+ },
+ "exp_sec5_p": {
+  "tr": "Taşıyıcı yapılar, platformlar, ekipman kaideleri",
+  "en": "Support structures, platforms, equipment bases",
+  "de": "Tragstrukturen, Plattformen, Maschinenfundamente",
+  "es": "Estructuras portantes, plataformas, bancadas de equipos",
+  "fr": "Structures porteuses, plateformes, socles d'équipements",
+  "it": "Strutture portanti, piattaforme, basamenti",
+  "nl": "Draagconstructies, platforms, machinefundaties",
+  "no": "Bærekonstruksjoner, plattformer, utstyrsfundamenter"
+ },
+ "exp_f1_q": {
+  "tr": "Türkiye'de üretilen çelik yapı elemanları AB projelerinde kullanılabilir mi?",
+  "en": "Can structural steel made in Turkey be used in EU projects?",
+  "de": "Können in der Türkei gefertigte Stahlbauteile in EU-Projekten eingesetzt werden?",
+  "es": "¿Se pueden usar en proyectos de la UE elementos de acero fabricados en Turquía?",
+  "fr": "Des éléments en acier fabriqués en Turquie peuvent-ils être utilisés dans des projets de l'UE ?",
+  "it": "Gli elementi in acciaio prodotti in Turchia si possono usare in progetti UE?",
+  "nl": "Kan in Turkije gefabriceerd constructiestaal in EU-projecten worden gebruikt?",
+  "no": "Kan stålkonstruksjoner produsert i Tyrkia brukes i EU-prosjekter?"
+ },
+ "exp_f1_a": {
+  "tr": "Evet, proje şartnamesine bağlı olarak. Üretimimiz EN 1090-2 ve EN ISO 3834-2 belgeleri kapsamında yapılır; CE işareti gerekiyorsa bunu teklif aşamasında birlikte netleştiririz.",
+  "en": "Yes, depending on the project specification. We fabricate under our EN 1090-2 and EN ISO 3834-2 certificates; if CE marking is required, we clarify it together at quotation stage.",
+  "de": "Ja, abhängig von der Projektspezifikation. Wir fertigen im Rahmen unserer Zertifikate nach EN 1090-2 und EN ISO 3834-2; wird eine CE-Kennzeichnung verlangt, klären wir das gemeinsam in der Angebotsphase.",
+  "es": "Sí, según la especificación del proyecto. Fabricamos bajo nuestros certificados EN 1090-2 y EN ISO 3834-2; si se requiere marcado CE, lo aclaramos juntos en la fase de oferta.",
+  "fr": "Oui, selon le cahier des charges du projet. Nous fabriquons sous nos certificats EN 1090-2 et EN ISO 3834-2 ; si le marquage CE est exigé, nous le clarifions ensemble au stade du devis.",
+  "it": "Sì, in base al capitolato di progetto. Produciamo secondo i nostri certificati EN 1090-2 ed EN ISO 3834-2; se è richiesta la marcatura CE, lo chiariamo insieme in fase di offerta.",
+  "nl": "Ja, afhankelijk van de projectspecificatie. Wij produceren onder onze certificaten EN 1090-2 en EN ISO 3834-2; als CE-markering vereist is, stemmen we dat samen af in de offertefase.",
+  "no": "Ja, avhengig av prosjektspesifikasjonen. Vi produserer under våre sertifikater etter EN 1090-2 og EN ISO 3834-2; kreves CE-merking, avklarer vi det sammen i tilbudsfasen."
+ },
+ "stl_title": {
+  "tr": "Çelik Konstrüksiyon İmalatı Konya | EN 1090-2 Belgeli — ArmaWeld",
+  "en": "Structural Steel Fabrication Konya | EN 1090-2 Certified — ArmaWeld",
+  "de": "Stahlbau Fertigung Konya | Zertifiziert nach EN 1090-2 — ArmaWeld",
+  "es": "Fabricación de estructuras de acero Konya | Certificado EN 1090-2 — ArmaWeld",
+  "fr": "Fabrication de charpente métallique Konya | Certifié EN 1090-2 — ArmaWeld",
+  "it": "Carpenteria metallica Konya | Certificata EN 1090-2 — ArmaWeld",
+  "nl": "Staalconstructies Konya | EN 1090-2 gecertificeerd — ArmaWeld",
+  "no": "Stålkonstruksjoner Konya | Sertifisert etter EN 1090-2 — ArmaWeld"
+ },
+ "stl_label": {
+  "tr": "EN 1090-2 · EN ISO 3834-2",
+  "en": "EN 1090-2 · EN ISO 3834-2",
+  "de": "EN 1090-2 · EN ISO 3834-2",
+  "es": "EN 1090-2 · EN ISO 3834-2",
+  "fr": "EN 1090-2 · EN ISO 3834-2",
+  "it": "EN 1090-2 · EN ISO 3834-2",
+  "nl": "EN 1090-2 · EN ISO 3834-2",
+  "no": "EN 1090-2 · EN ISO 3834-2"
+ },
+ "stl_lead": {
+  "tr": "Taşıyıcı çerçeveler, platformlar, merdivenler, çatı makasları ve ekipman kaideleri; Konya'daki tesisimizde EN 1090-2 ve EN ISO 3834-2 belgeleri kapsamında üretilir.",
+  "en": "Load-bearing frames, platforms, stairs, roof trusses and equipment bases, fabricated at our Konya plant under our EN 1090-2 and EN ISO 3834-2 certificates.",
+  "de": "Tragrahmen, Plattformen, Treppen, Dachbinder und Maschinenfundamente, gefertigt in unserem Werk in Konya im Rahmen unserer Zertifikate nach EN 1090-2 und EN ISO 3834-2.",
+  "es": "Marcos portantes, plataformas, escaleras, cerchas y bancadas de equipos, fabricados en nuestra planta de Konya bajo nuestros certificados EN 1090-2 y EN ISO 3834-2.",
+  "fr": "Cadres porteurs, plateformes, escaliers, fermes de toiture et socles d'équipements, fabriqués dans notre usine de Konya sous nos certificats EN 1090-2 et EN ISO 3834-2.",
+  "it": "Telai portanti, piattaforme, scale, capriate e basamenti, prodotti nel nostro stabilimento di Konya secondo i certificati EN 1090-2 ed EN ISO 3834-2.",
+  "nl": "Draagframes, platforms, trappen, dakspanten en machinefundaties, geproduceerd in onze fabriek in Konya onder onze certificaten EN 1090-2 en EN ISO 3834-2.",
+  "no": "Bærerammer, plattformer, trapper, takstoler og utstyrsfundamenter, produsert ved vårt anlegg i Konya under våre sertifikater etter EN 1090-2 og EN ISO 3834-2."
+ },
+ "stl_trust3": {
+  "tr": "ISO 9001 · 14001 · 45001",
+  "en": "ISO 9001 · 14001 · 45001",
+  "de": "ISO 9001 · 14001 · 45001",
+  "es": "ISO 9001 · 14001 · 45001",
+  "fr": "ISO 9001 · 14001 · 45001",
+  "it": "ISO 9001 · 14001 · 45001",
+  "nl": "ISO 9001 · 14001 · 45001",
+  "no": "ISO 9001 · 14001 · 45001"
+ },
+ "stl_s2_desc": {
+  "tr": "EN 1090-2 belgemiz 18.06.2027'ye kadar geçerlidir. Her proje için malzeme, kalite sınıfı ve kabul kriteri teklif aşamasında yazılı olarak belirlenir.",
+  "en": "Our EN 1090-2 certificate is valid until 18.06.2027. Material, quality level and acceptance criteria are agreed in writing for each project at quotation stage.",
+  "de": "Unser Zertifikat nach EN 1090-2 ist bis 18.06.2027 gültig. Werkstoff, Qualitätsstufe und Abnahmekriterien werden für jedes Projekt in der Angebotsphase schriftlich festgelegt.",
+  "es": "Nuestro certificado EN 1090-2 es válido hasta el 18.06.2027. Material, nivel de calidad y criterios de aceptación se fijan por escrito en la oferta de cada proyecto.",
+  "fr": "Notre certificat EN 1090-2 est valable jusqu'au 18.06.2027. Matériau, niveau de qualité et critères d'acceptation sont fixés par écrit au stade du devis pour chaque projet.",
+  "it": "Il nostro certificato EN 1090-2 è valido fino al 18.06.2027. Materiale, livello di qualità e criteri di accettazione sono fissati per iscritto in fase di offerta per ogni progetto.",
+  "nl": "Ons EN 1090-2 certificaat is geldig tot 18.06.2027. Materiaal, kwaliteitsniveau en acceptatiecriteria worden per project schriftelijk vastgelegd in de offertefase.",
+  "no": "Vårt EN 1090-2 sertifikat er gyldig til 18.06.2027. Materiale, kvalitetsnivå og akseptkriterier avtales skriftlig for hvert prosjekt i tilbudsfasen."
+ },
+ "stl_sec5_p": {
+  "tr": "Fason imalat: çizimden montaja hazır elemana",
+  "en": "Subcontract fabrication: from drawing to ready-to-assemble component",
+  "de": "Lohnfertigung: von der Zeichnung zum montagefertigen Bauteil",
+  "es": "Fabricación a terceros: del plano al elemento listo para montar",
+  "fr": "Sous-traitance : du plan à l'élément prêt à monter",
+  "it": "Lavorazione conto terzi: dal disegno all'elemento pronto al montaggio",
+  "nl": "Toelevering: van tekening tot montageklaar element",
+  "no": "Kontraktsproduksjon: fra tegning til monteringsklart element"
+ },
+ "stl_sec6_p": {
+  "tr": "EN 1090-2 belgeli üretim, İngilizce belge dosyasıyla ihracat",
+  "en": "EN 1090-2 certified production, export with English documentation",
+  "de": "Fertigung nach EN 1090-2, Export mit Dokumentation auf Englisch",
+  "es": "Producción certificada EN 1090-2, exportación con documentación en inglés",
+  "fr": "Production certifiée EN 1090-2, export avec dossier en anglais",
+  "it": "Produzione certificata EN 1090-2, export con documentazione in inglese",
+  "nl": "EN 1090-2 gecertificeerde productie, export met Engelstalige documentatie",
+  "no": "Produksjon sertifisert etter EN 1090-2, eksport med dokumentasjon på engelsk"
+ },
+ "stl_f1_a": {
+  "tr": "EN 1090-2, çelik yapıların imalatı için teknik gereklilikleri tanımlar. ArmaWeld'in EN 1090-2 belgesi 18.06.2027'ye kadar geçerlidir; belge PDF'i Belgelerimiz sayfasındadır.",
+  "en": "EN 1090-2 sets the technical requirements for the execution of steel structures. ArmaWeld's EN 1090-2 certificate is valid until 18.06.2027; the PDF is on our Certificates page.",
+  "de": "EN 1090-2 legt die technischen Anforderungen an die Ausführung von Stahltragwerken fest. Das EN 1090-2 Zertifikat von ArmaWeld ist bis 18.06.2027 gültig; das PDF finden Sie auf unserer Zertifikatsseite.",
+  "es": "EN 1090-2 define los requisitos técnicos para la ejecución de estructuras de acero. El certificado EN 1090-2 de ArmaWeld es válido hasta el 18.06.2027; el PDF está en nuestra página de certificados.",
+  "fr": "L'EN 1090-2 définit les exigences techniques pour l'exécution des structures en acier. Le certificat EN 1090-2 d'ArmaWeld est valable jusqu'au 18.06.2027 ; le PDF figure sur notre page Certificats.",
+  "it": "La EN 1090-2 definisce i requisiti tecnici per l'esecuzione delle strutture in acciaio. Il certificato EN 1090-2 di ArmaWeld è valido fino al 18.06.2027; il PDF è nella pagina Certificati.",
+  "nl": "EN 1090-2 bepaalt de technische eisen voor de uitvoering van staalconstructies. Het EN 1090-2 certificaat van ArmaWeld is geldig tot 18.06.2027; de pdf staat op onze certificatenpagina.",
+  "no": "EN 1090-2 fastsetter de tekniske kravene til utførelse av stålkonstruksjoner. ArmaWelds EN 1090-2 sertifikat er gyldig til 18.06.2027; PDF-en ligger på sertifikatsiden vår."
+ },
+ "kf_trust4": {
+  "tr": "10 Kaynakçı",
+  "en": "10 Welders",
+  "de": "10 Schweißer",
+  "es": "10 soldadores",
+  "fr": "10 soudeurs",
+  "it": "10 saldatori",
+  "nl": "10 lassers",
+  "no": "10 sveisere"
+ },
+ "kf_c1_p": {
+  "tr": "Onaylı WPS ile karbon çelik ve yüksek mukavemetli çeliklerde fason üretim (EN ISO 9606-1 kaynakçı belgeleri yenileniyor).",
+  "en": "Subcontract production in carbon and high-strength steels with qualified WPS (EN ISO 9606-1 welder certificates being renewed).",
+  "de": "Lohnfertigung in Kohlenstoff- und hochfesten Stählen mit qualifizierten WPS (Schweißerzertifikate nach EN ISO 9606-1 werden erneuert).",
+  "es": "Producción a terceros en acero al carbono y aceros de alta resistencia con WPS cualificados (certificados de soldador EN ISO 9606-1 en renovación).",
+  "fr": "Sous-traitance en aciers au carbone et à haute limite élastique avec DMOS qualifiés (certificats de soudeurs EN ISO 9606-1 en cours de renouvellement).",
+  "it": "Produzione conto terzi in acciaio al carbonio e ad alta resistenza con WPS qualificate (patentini EN ISO 9606-1 in rinnovo).",
+  "nl": "Toeleveringsproductie in koolstofstaal en hogesterktestaal met gekwalificeerde WPS (lassercertificaten EN ISO 9606-1 worden vernieuwd).",
+  "no": "Kontraktsproduksjon i karbonstål og høyfast stål med kvalifiserte WPS (sveisesertifikater etter EN ISO 9606-1 fornyes)."
+ },
+ "kf_c2_p": {
+  "tr": "141 TIG ile kök pasolar, ince et ve görünür dikişlerde kontrollü ısı girdisi.",
+  "en": "141 TIG for root passes, thin sections and visible seams with controlled heat input.",
+  "de": "141 WIG für Wurzellagen, dünne Wandstärken und Sichtnähte mit kontrollierter Wärmeeinbringung.",
+  "es": "141 TIG para pasadas de raíz, espesores finos y cordones visibles con aporte térmico controlado.",
+  "fr": "141 TIG pour les passes de racine, les faibles épaisseurs et les cordons apparents, avec apport de chaleur maîtrisé.",
+  "it": "141 TIG per passate di radice, spessori sottili e cordoni a vista con apporto termico controllato.",
+  "nl": "141 TIG voor grondlagen, dunne wanden en zichtnaden met gecontroleerde warmte-inbreng.",
+  "no": "141 TIG for rotstrenger, tynt gods og synlige sømmer med kontrollert varmetilførsel."
+ },
+ "kf_c3_p": {
+  "tr": "Kesim, şartnamemizle denetlediğimiz tedarikçilerde ArmaWeld kesim planıyla yapılır; parçalar kaynak ağzı dahil kaynağa hazır gelir ve giriş kontrolünden geçer.",
+  "en": "Cutting is done at suppliers we audit to our specification, using ArmaWeld's cutting plan; parts arrive ready to weld, bevels included, and pass incoming inspection.",
+  "de": "Der Zuschnitt erfolgt bei Lieferanten, die wir nach unserer Spezifikation auditieren, nach dem Schneidplan von ArmaWeld; die Teile kommen schweißbereit mit Fugenvorbereitung und durchlaufen die Wareneingangsprüfung.",
+  "es": "El corte se realiza en proveedores que auditamos según nuestra especificación, con el plan de corte de ArmaWeld; las piezas llegan listas para soldar, con biseles, y pasan control de recepción.",
+  "fr": "La découpe est réalisée chez des fournisseurs que nous auditons selon notre cahier des charges, avec le plan de découpe d'ArmaWeld ; les pièces arrivent prêtes à souder, chanfreins compris, et passent le contrôle de réception.",
+  "it": "Il taglio avviene presso fornitori che verifichiamo secondo il nostro capitolato, con il piano di taglio ArmaWeld; i pezzi arrivano pronti per la saldatura, cianfrini inclusi, e passano il controllo in accettazione.",
+  "nl": "Snijden gebeurt bij leveranciers die wij volgens onze specificatie auditen, met het snijplan van ArmaWeld; onderdelen komen lasklaar binnen, inclusief lasnaadvoorbereiding, en doorlopen de ingangscontrole.",
+  "no": "Kapping gjøres hos leverandører vi reviderer etter vår spesifikasjon, med ArmaWelds kappeplan; delene kommer sveiseklare med fasing og går gjennom mottakskontroll."
+ },
+ "kf_j3_p": {
+  "tr": "EN 1090-2 kapsamında kolon, kiriş, çatı makası, platform ve merdivenler.",
+  "en": "Columns, beams, roof trusses, platforms and stairs to EN 1090-2.",
+  "de": "Stützen, Träger, Dachbinder, Plattformen und Treppen nach EN 1090-2.",
+  "es": "Pilares, vigas, cerchas, plataformas y escaleras según EN 1090-2.",
+  "fr": "Poteaux, poutres, fermes, plateformes et escaliers selon EN 1090-2.",
+  "it": "Pilastri, travi, capriate, piattaforme e scale secondo EN 1090-2.",
+  "nl": "Kolommen, liggers, dakspanten, platforms en trappen volgens EN 1090-2.",
+  "no": "Søyler, bjelker, takstoler, plattformer og trapper etter EN 1090-2."
+ },
+ "kf_j6_p": {
+  "tr": "Kesim ve büküm denetlediğimiz tedarikçilerde, kaynak ve mekanik montaj bünyemizde; hepsi tek siparişte, parçalar montaja hazır teslim edilir.",
+  "en": "Cutting and bending at suppliers we audit, welding and mechanical assembly in-house; all in one order, parts delivered ready to assemble.",
+  "de": "Zuschnitt und Kanten bei auditierten Lieferanten, Schweißen und mechanische Montage im eigenen Haus; alles in einem Auftrag, montagefertig geliefert.",
+  "es": "Corte y plegado en proveedores auditados, soldadura y montaje mecánico en casa; todo en un pedido, piezas listas para montar.",
+  "fr": "Découpe et pliage chez des fournisseurs audités, soudage et assemblage mécanique en interne ; tout en une commande, pièces livrées prêtes à monter.",
+  "it": "Taglio e piegatura presso fornitori verificati, saldatura e montaggio meccanico interni; tutto in un ordine, pezzi pronti al montaggio.",
+  "nl": "Snijden en zetten bij geauditeerde leveranciers, lassen en mechanische montage in eigen huis; alles in één order, montageklaar geleverd.",
+  "no": "Kapping og bukking hos reviderte leverandører, sveising og mekanisk montasje i eget hus; alt i én ordre, levert monteringsklart."
+ },
+ "kf_r3v": {
+  "tr": "S235–S960QL · S700MC · HARDOX",
+  "en": "S235–S960QL · S700MC · HARDOX",
+  "de": "S235–S960QL · S700MC · HARDOX",
+  "es": "S235–S960QL · S700MC · HARDOX",
+  "fr": "S235–S960QL · S700MC · HARDOX",
+  "it": "S235–S960QL · S700MC · HARDOX",
+  "nl": "S235–S960QL · S700MC · HARDOX",
+  "no": "S235–S960QL · S700MC · HARDOX"
+ },
+ "kf_r4v": {
+  "tr": "Denetlenen tedarikçilerde, ArmaWeld kesim planıyla",
+  "en": "At audited suppliers, to ArmaWeld's cutting plan",
+  "de": "Bei auditierten Lieferanten, nach Schneidplan von ArmaWeld",
+  "es": "En proveedores auditados, con plan de corte de ArmaWeld",
+  "fr": "Chez des fournisseurs audités, selon le plan de découpe d'ArmaWeld",
+  "it": "Presso fornitori verificati, con piano di taglio ArmaWeld",
+  "nl": "Bij geauditeerde leveranciers, volgens snijplan van ArmaWeld",
+  "no": "Hos reviderte leverandører, etter ArmaWelds kappeplan"
+ },
+ "kf_r5v": {
+  "tr": "VT · UT · RT film değerlendirme (bünyede); PT · MT anlaşmalı kuruluşta",
+  "en": "VT · UT · RT film interpretation (in-house); PT · MT via contracted body",
+  "de": "VT · UT · RT-Filmauswertung (intern); PT · MT über Vertragspartner",
+  "es": "VT · UT · interpretación de RT (en casa); PT · MT con entidad contratada",
+  "fr": "VT · UT · interprétation RT (en interne) ; PT · MT par organisme sous contrat",
+  "it": "VT · UT · interpretazione RT (interni); PT · MT tramite ente convenzionato",
+  "nl": "VT · UT · RT-filmbeoordeling (in eigen huis); PT · MT via gecontracteerde partij",
+  "no": "VT · UT · RT-filmtolkning (internt); PT · MT via avtalepartner"
+ },
+ "kf_w1_p": {
+  "tr": "EN 1090-2 ve EN ISO 3834-2 belgeleri; onaylı WPS ile üretim, EN ISO 9606-1 kaynakçı belgeleri yenileniyor.",
+  "en": "EN 1090-2 and EN ISO 3834-2 certificates; production with qualified WPS, EN ISO 9606-1 welder certificates being renewed.",
+  "de": "Zertifikate nach EN 1090-2 und EN ISO 3834-2; Fertigung mit qualifizierten WPS, Schweißerzertifikate nach EN ISO 9606-1 werden erneuert.",
+  "es": "Certificados EN 1090-2 y EN ISO 3834-2; producción con WPS cualificados, certificados de soldador EN ISO 9606-1 en renovación.",
+  "fr": "Certificats EN 1090-2 et EN ISO 3834-2 ; production avec DMOS qualifiés, certificats de soudeurs EN ISO 9606-1 en cours de renouvellement.",
+  "it": "Certificati EN 1090-2 ed EN ISO 3834-2; produzione con WPS qualificate, patentini EN ISO 9606-1 in rinnovo.",
+  "nl": "Certificaten EN 1090-2 en EN ISO 3834-2; productie met gekwalificeerde WPS, lassercertificaten EN ISO 9606-1 worden vernieuwd.",
+  "no": "Sertifikater etter EN 1090-2 og EN ISO 3834-2; produksjon med kvalifiserte WPS, sveisesertifikater etter EN ISO 9606-1 fornyes."
+ },
+ "kf_f3_a": {
+  "tr": "Karbon çelik (S235–S355), yüksek mukavemetli çelikler (S690QL, S960QL, S700MC) ve HARDOX aşınma çelikleri başlıca çalıştığımız malzemelerdir.",
+  "en": "Carbon steel (S235–S355), high-strength steels (S690QL, S960QL, S700MC) and HARDOX wear plate are the main materials we work with.",
+  "de": "Baustahl (S235–S355), hochfeste Stähle (S690QL, S960QL, S700MC) und HARDOX Verschleißblech sind unsere wichtigsten Werkstoffe.",
+  "es": "Acero al carbono (S235–S355), aceros de alta resistencia (S690QL, S960QL, S700MC) y chapa antidesgaste HARDOX son nuestros materiales principales.",
+  "fr": "Acier au carbone (S235–S355), aciers à haute limite élastique (S690QL, S960QL, S700MC) et tôle anti-usure HARDOX sont nos principaux matériaux.",
+  "it": "Acciaio al carbonio (S235–S355), acciai ad alta resistenza (S690QL, S960QL, S700MC) e lamiera antiusura HARDOX sono i nostri materiali principali.",
+  "nl": "Koolstofstaal (S235–S355), hogesterktestaal (S690QL, S960QL, S700MC) en HARDOX slijtplaat zijn onze belangrijkste materialen.",
+  "no": "Karbonstål (S235–S355), høyfast stål (S690QL, S960QL, S700MC) og HARDOX slitestål er våre viktigste materialer."
+ },
+ "kf_l9": {
+  "tr": "Avrupa'ya ihracat: EN 1090-2, İngilizce belge dosyası",
+  "en": "Export to Europe: EN 1090-2, English documentation",
+  "de": "Export nach Europa: EN 1090-2, Dokumentation auf Englisch",
+  "es": "Exportación a Europa: EN 1090-2, documentación en inglés",
+  "fr": "Export vers l'Europe : EN 1090-2, dossier en anglais",
+  "it": "Export in Europa: EN 1090-2, documentazione in inglese",
+  "nl": "Export naar Europa: EN 1090-2, Engelstalige documentatie",
+  "no": "Eksport til Europa: EN 1090-2, dokumentasjon på engelsk"
+ },
+ "cap_mat_p": {
+  "tr": "S235–S960QL, S700MC ve HARDOX aşınma çelikleri; her grup için WPS ve ısı kontrolü planı.",
+  "en": "S235–S960QL, S700MC and HARDOX wear steels; a WPS and heat control plan for each group.",
+  "de": "S235–S960QL, S700MC und HARDOX Verschleißstähle; für jede Gruppe WPS und Wärmeführungsplan.",
+  "es": "S235–S960QL, S700MC y aceros antidesgaste HARDOX; WPS y plan de control térmico para cada grupo.",
+  "fr": "S235–S960QL, S700MC et aciers anti-usure HARDOX ; DMOS et plan de maîtrise thermique pour chaque groupe.",
+  "it": "S235–S960QL, S700MC e acciai antiusura HARDOX; WPS e piano di controllo termico per ogni gruppo.",
+  "nl": "S235–S960QL, S700MC en HARDOX slijtvast staal; WPS en warmtebeheersplan per groep.",
+  "no": "S235–S960QL, S700MC og HARDOX slitestål; WPS og varmekontrollplan for hver gruppe."
+ },
+ "cap_proc_p": {
+  "tr": "135/136 MAG, 141 TIG, 121 tozaltı ve mekanik montaj bünyede; kesim ve büküm denetlenen tedarikçilerde. Kritik dikişlerde VT, UT ve RT film değerlendirme.",
+  "en": "135/136 MAG, 141 TIG, 121 SAW and mechanical assembly in-house; cutting and bending at audited suppliers. VT, UT and RT film interpretation on critical welds.",
+  "de": "135/136 MAG, 141 WIG, 121 UP und mechanische Montage im eigenen Haus; Zuschnitt und Kanten bei auditierten Lieferanten. VT, UT und RT-Filmauswertung an kritischen Nähten.",
+  "es": "135/136 MAG, 141 TIG, 121 arco sumergido y montaje mecánico en casa; corte y plegado en proveedores auditados. VT, UT e interpretación de RT en soldaduras críticas.",
+  "fr": "135/136 MAG, 141 TIG, 121 arc submergé et assemblage mécanique en interne ; découpe et pliage chez des fournisseurs audités. VT, UT et interprétation RT sur les soudures critiques.",
+  "it": "135/136 MAG, 141 TIG, 121 arco sommerso e montaggio meccanico interni; taglio e piegatura presso fornitori verificati. VT, UT e interpretazione RT sulle saldature critiche.",
+  "nl": "135/136 MAG, 141 TIG, 121 OP-lassen en mechanische montage in eigen huis; snijden en zetten bij geauditeerde leveranciers. VT, UT en RT-filmbeoordeling op kritische lassen.",
+  "no": "135/136 MAG, 141 TIG, 121 pulverbuesveising og mekanisk montasje internt; kapping og bukking hos reviderte leverandører. VT, UT og RT-filmtolkning på kritiske sveiser."
+ },
+ "welding_tig_pro3": {
+  "tr": "Kök paso ve görünür dikişlerde ideal",
+  "en": "Ideal for root passes and visible seams",
+  "de": "Ideal für Wurzellagen und Sichtnähte",
+  "es": "Ideal para pasadas de raíz y cordones visibles",
+  "fr": "Idéal pour les passes de racine et les cordons apparents",
+  "it": "Ideale per passate di radice e cordoni a vista",
+  "nl": "Ideaal voor grondlagen en zichtnaden",
+  "no": "Ideell for rotstrenger og synlige sømmer"
+ },
+ "px_ky_5": {
+  "tr": "Karbon ve yüksek mukavemetli çelik",
+  "en": "Carbon and high-strength steel",
+  "de": "Baustahl und hochfester Stahl",
+  "es": "Acero al carbono y de alta resistencia",
+  "fr": "Acier au carbone et à haute limite élastique",
+  "it": "Acciaio al carbonio e ad alta resistenza",
+  "nl": "Koolstofstaal en hogesterktestaal",
+  "no": "Karbonstål og høyfast stål"
+ },
+ "saw35_r6_v": {
+  "tr": "VT · UT bünyede; RT, PT, MT gerektiğinde anlaşmalı kuruluşla",
+  "en": "VT · UT in-house; RT, PT, MT via contracted body when required",
+  "de": "VT · UT intern; RT, PT, MT bei Bedarf über Vertragspartner",
+  "es": "VT · UT en casa; RT, PT, MT con entidad contratada si se requiere",
+  "fr": "VT · UT en interne ; RT, PT, MT par organisme sous contrat si nécessaire",
+  "it": "VT · UT interni; RT, PT, MT tramite ente convenzionato se richiesto",
+  "nl": "VT · UT in eigen huis; RT, PT, MT via gecontracteerde partij indien nodig",
+  "no": "VT · UT internt; RT, PT, MT via avtalepartner ved behov"
+ },
+ "saw35_s6_t": {
+  "tr": "Tank ve silo gövdeleri",
+  "en": "Tank and silo shells",
+  "de": "Tank- und Silomäntel",
+  "es": "Virolas de tanques y silos",
+  "fr": "Viroles de réservoirs et silos",
+  "it": "Virole di serbatoi e silos",
+  "nl": "Tank- en silomantels",
+  "no": "Tank- og siloskall"
+ },
+ "saw35_a5": {
+  "tr": "Teknik resim (PDF/DXF/STEP), malzeme kalitesi ve kalınlığı, dikiş boyları, adet ve varsa kalite sınıfı (EN ISO 5817) ile NDT gerekliliği yeterlidir.",
+  "en": "A drawing (PDF/DXF/STEP), material grade and thickness, seam lengths, quantity and, if any, the quality level (EN ISO 5817) and NDT requirement are enough.",
+  "de": "Zeichnung (PDF/DXF/STEP), Werkstoffgüte und Dicke, Nahtlängen, Stückzahl und gegebenenfalls Bewertungsgruppe (EN ISO 5817) und ZfP-Anforderung genügen.",
+  "es": "Basta con el plano (PDF/DXF/STEP), calidad y espesor del material, longitudes de cordón, cantidad y, si aplica, nivel de calidad (EN ISO 5817) y requisito de END.",
+  "fr": "Un plan (PDF/DXF/STEP), la nuance et l'épaisseur, les longueurs de cordon, la quantité et, le cas échéant, le niveau de qualité (EN ISO 5817) et l'exigence CND suffisent.",
+  "it": "Bastano disegno (PDF/DXF/STEP), qualità e spessore del materiale, lunghezze dei cordoni, quantità ed eventuale livello di qualità (EN ISO 5817) e requisito CND.",
+  "nl": "Een tekening (PDF/DXF/STEP), materiaalsoort en dikte, naadlengtes, aantal en eventueel kwaliteitsniveau (EN ISO 5817) en NDO-eis zijn voldoende.",
+  "no": "Tegning (PDF/DXF/STEP), materialkvalitet og tykkelse, sømlengder, antall og eventuelt kvalitetsnivå (EN ISO 5817) og NDT-krav er nok."
+ },
+ "saw35_lead": {
+  "tr": "Ekipman parkımızda bir tozaltı kaynak makinesi var. Uzun lineer dikişleri, iş makinesi ve vinç bomlarını, araç ve makine şasilerini duraksamadan, tekrarlanabilir kalitede ve onaylı WPS ile kaynatıyoruz.",
+  "en": "We have a submerged arc welding machine in our workshop. Long linear seams, machinery and crane booms, and vehicle and machine chassis are welded continuously, with repeatable quality and a qualified WPS.",
+  "de": "In unserer Werkstatt steht eine UP-Schweißanlage. Lange Längsnähte, Ausleger von Baumaschinen und Kranen sowie Fahrzeug- und Maschinenrahmen schweißen wir ohne Unterbrechung, reproduzierbar und mit qualifizierter WPS.",
+  "es": "Contamos con una máquina de soldadura por arco sumergido. Soldamos cordones lineales largos, plumas de maquinaria y grúas y chasis de vehículos y máquinas sin interrupciones, con calidad repetible y WPS cualificado.",
+  "fr": "Notre atelier dispose d'une machine de soudage à l'arc submergé. Nous soudons sans interruption les longs cordons linéaires, les flèches d'engins et de grues et les châssis de véhicules et de machines, avec une qualité répétable et un DMOS qualifié.",
+  "it": "Disponiamo di una saldatrice ad arco sommerso. Saldiamo senza interruzioni cordoni lineari lunghi, bracci di macchine e gru e telai di veicoli e macchine, con qualità ripetibile e WPS qualificata.",
+  "nl": "Wij hebben een OP-lasmachine in onze werkplaats. Lange lineaire naden, gieken van machines en kranen en voertuig- en machinechassis lassen we zonder onderbreking, met herhaalbare kwaliteit en een gekwalificeerde WPS.",
+  "no": "Vi har en pulverbuesveisemaskin i verkstedet. Lange lineære sømmer, bommer til anleggsmaskiner og kraner samt kjøretøy- og maskinrammer sveises uten stopp, med repeterbar kvalitet og kvalifisert WPS."
+ },
+ "saw35_meta_desc": {
+  "tr": "Tozaltı (toz altı) kaynak makinemizle lineer uzun dikiş, bom ve şasi kaynağı. EN 1090-2 ve EN ISO 3834-2 belgeli, onaylı WPS ile fason SAW kaynak hizmeti. Teklif alın.",
+  "en": "Long linear seams, boom and chassis welding on our submerged arc welding (SAW) machine. EN 1090-2 and EN ISO 3834-2 certified subcontract SAW with qualified WPS.",
+  "de": "Lange Längsnähte, Ausleger- und Rahmenschweißen auf unserer UP-Schweißanlage (SAW). Lohnschweißen nach EN 1090-2 und EN ISO 3834-2 mit qualifizierter WPS.",
+  "es": "Cordones lineales largos, soldadura de plumas y chasis con nuestra máquina de arco sumergido (SAW). Soldadura a terceros certificada EN 1090-2 y EN ISO 3834-2 con WPS cualificado.",
+  "fr": "Longs cordons linéaires, soudage de flèches et de châssis sur notre machine à l'arc submergé (SAW). Sous-traitance certifiée EN 1090-2 et EN ISO 3834-2 avec DMOS qualifié.",
+  "it": "Cordoni lineari lunghi, saldatura di bracci e telai con la nostra saldatrice ad arco sommerso (SAW). Saldatura conto terzi certificata EN 1090-2 ed EN ISO 3834-2 con WPS qualificata.",
+  "nl": "Lange lineaire naden, giek- en chassislassen op onze OP-lasmachine (SAW). Toeleveringslassen gecertificeerd volgens EN 1090-2 en EN ISO 3834-2 met gekwalificeerde WPS.",
+  "no": "Lange lineære sømmer, sveising av bommer og rammer på vår pulverbuesveisemaskin (SAW). Kontraktsveising sertifisert etter EN 1090-2 og EN ISO 3834-2 med kvalifisert WPS."
+ },
+ "pt_s_belgeler_list": {
+  "tr": "<ul><li>Sipariş belgeleri (malzeme sertifikası, NDT ve ölçü raporları)</li><li>Siparişe göre filtreleme</li><li>İmzalı PDF olarak görüntüleme ve indirme</li></ul>",
+  "en": "<ul><li>Order documents (material certificates, NDT and dimensional reports)</li><li>Filter by order</li><li>View and download as signed PDF</li></ul>",
+  "de": "<ul><li>Auftragsdokumente (Werkstoffzeugnisse, ZfP- und Maßberichte)</li><li>Filter nach Auftrag</li><li>Ansicht und Download als signiertes PDF</li></ul>",
+  "es": "<ul><li>Documentos del pedido (certificados de material, informes END y dimensionales)</li><li>Filtrar por pedido</li><li>Ver y descargar como PDF firmado</li></ul>",
+  "fr": "<ul><li>Documents de commande (certificats matière, rapports CND et dimensionnels)</li><li>Filtrer par commande</li><li>Consulter et télécharger en PDF signé</li></ul>",
+  "it": "<ul><li>Documenti d'ordine (certificati materiale, rapporti CND e dimensionali)</li><li>Filtro per ordine</li><li>Visualizzazione e download come PDF firmato</li></ul>",
+  "nl": "<ul><li>Orderdocumenten (materiaalcertificaten, NDO- en maatrapporten)</li><li>Filteren op order</li><li>Bekijken en downloaden als ondertekende pdf</li></ul>",
+  "no": "<ul><li>Ordredokumenter (materialsertifikater, NDT- og målerapporter)</li><li>Filtrer etter ordre</li><li>Vis og last ned som signert PDF</li></ul>"
+ }
+}

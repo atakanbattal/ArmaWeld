@@ -59,7 +59,7 @@ export default {
 <li>Yüzey hazırlığı ve korozyon koruma şartları</li>
 <li>CE işareti ve Performans Beyanı (DoP) isteniyorsa bunun açıkça belirtilmesi</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> EN 1090-2 EXC3 ve EN ISO 3834-2 belgelerimiz EXC2 işleri de kapsar. Teklif aşamasında çizimdeki uygulama sınıfını, çelik kalitesini ve NDT kapsamını kontrol eder, belirsiz noktaları imalattan önce netleştiririz. Kesim ve büküm gibi ön işlemler partnerlerimizle, bizim koordinasyonumuzda yapılır. <a href="../belgelerimiz.html">Belgelerimizi görüntüleyin →</a></p></div>
+<div class="callout"><p>Teklif aşamasında çizimdeki uygulama sınıfını, çelik kalitesini ve NDT kapsamını kontrol eder, belirsiz noktaları imalattan önce netleştiririz. Kesim ve büküm gibi ön işlemler partnerlerimizle, bizim koordinasyonumuzda yapılır. <a href="../belgelerimiz.html">Belgelerimizi görüntüleyin →</a></p></div>
 `,
     faq: [
       ['Şartnamede uygulama sınıfı yazmıyorsa hangi sınıf geçerlidir?', 'EN 1090-2’ye göre uygulama sınıfı belirtilmemişse EXC2 uygulanır. Yine de sınıfın tasarımcı tarafından açıkça yazılması önerilir.'],
@@ -125,7 +125,7 @@ export default {
 <li>Surface preparation and corrosion protection requirements</li>
 <li>Whether CE marking and a Declaration of Performance (DoP) are required</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> our EN 1090-2 EXC3 and EN ISO 3834-2 certificates also cover EXC2 work. At quotation stage we check the execution class, steel quality and NDT scope on the drawing and clarify open points before fabrication. Pre-processing such as cutting and bending is carried out by partners under our coordination. <a href="../belgelerimiz.html">View our certificates →</a></p></div>
+<div class="callout"><p>At quotation stage we check the execution class, steel quality and NDT scope on the drawing and clarify open points before fabrication. Pre-processing such as cutting and bending is carried out by partners under our coordination. <a href="../belgelerimiz.html">View our certificates →</a></p></div>
 `,
     faq: [
       ['Which class applies if the specification states none?', 'Under EN 1090-2, EXC2 applies when no execution class is specified. It is still recommended that the designer states the class explicitly.'],
@@ -191,7 +191,7 @@ export default {
 <li>Anforderungen an Oberflächenvorbereitung und Korrosionsschutz</li>
 <li>Ob CE-Kennzeichnung und Leistungserklärung (DoP) gefordert sind</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Unsere Zertifikate nach EN 1090-2 EXC3 und EN ISO 3834-2 decken auch EXC2-Aufträge ab. Im Angebot prüfen wir Ausführungsklasse, Stahlgüte und ZfP-Umfang auf der Zeichnung und klären offene Punkte vor der Fertigung. Vorarbeiten wie Schneiden und Kanten erledigen Partnerbetriebe unter unserer Koordination. <a href="../belgelerimiz.html">Unsere Zertifikate ansehen →</a></p></div>
+<div class="callout"><p>Im Angebot prüfen wir Ausführungsklasse, Stahlgüte und ZfP-Umfang auf der Zeichnung und klären offene Punkte vor der Fertigung. Vorarbeiten wie Schneiden und Kanten erledigen Partnerbetriebe unter unserer Koordination. <a href="../belgelerimiz.html">Unsere Zertifikate ansehen →</a></p></div>
 `,
     faq: [
       ['Welche Klasse gilt, wenn die Spezifikation keine nennt?', 'Nach EN 1090-2 gilt EXC2, wenn keine Ausführungsklasse angegeben ist. Trotzdem sollte der Planer die Klasse ausdrücklich festlegen.'],
@@ -257,7 +257,7 @@ export default {
 <li>Preparación de superficie y protección anticorrosiva</li>
 <li>Si se requieren marcado CE y Declaración de Prestaciones (DoP)</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> nuestros certificados EN 1090-2 EXC3 y EN ISO 3834-2 cubren también trabajos EXC2. En la oferta revisamos la clase de ejecución, la calidad del acero y el alcance de END del plano, y aclaramos las dudas antes de fabricar. El corte y el plegado los realizan socios bajo nuestra coordinación. <a href="../belgelerimiz.html">Ver nuestros certificados →</a></p></div>
+<div class="callout"><p>En la oferta revisamos la clase de ejecución, la calidad del acero y el alcance de END del plano, y aclaramos las dudas antes de fabricar. El corte y el plegado los realizan socios bajo nuestra coordinación. <a href="../belgelerimiz.html">Ver nuestros certificados →</a></p></div>
 `,
     faq: [
       ['¿Qué clase se aplica si el pliego no indica ninguna?', 'Según la EN 1090-2, si no se especifica clase de ejecución se aplica la EXC2. Aun así, conviene que el proyectista la indique expresamente.'],
@@ -323,7 +323,7 @@ export default {
 <li>Préparation de surface et protection anticorrosion</li>
 <li>Exigence éventuelle de marquage CE et de Déclaration des Performances (DoP)</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nos certificats EN 1090-2 EXC3 et EN ISO 3834-2 couvrent aussi les travaux EXC2. Dès l’offre, nous vérifions la classe d’exécution, la qualité d’acier et l’étendue des CND sur le plan et clarifions les points ouverts avant fabrication. La découpe et le pliage sont réalisés par des partenaires sous notre coordination. <a href="../belgelerimiz.html">Voir nos certificats →</a></p></div>
+<div class="callout"><p>Dès l’offre, nous vérifions la classe d’exécution, la qualité d’acier et l’étendue des CND sur le plan et clarifions les points ouverts avant fabrication. La découpe et le pliage sont réalisés par des partenaires sous notre coordination. <a href="../belgelerimiz.html">Voir nos certificats →</a></p></div>
 `,
     faq: [
       ['Quelle classe s’applique si le cahier des charges n’en indique aucune ?', 'Selon l’EN 1090-2, l’EXC2 s’applique lorsqu’aucune classe d’exécution n’est spécifiée. Il reste recommandé que le concepteur l’indique explicitement.'],
@@ -389,7 +389,7 @@ export default {
 <li>Preparazione superficiale e protezione dalla corrosione</li>
 <li>Se sono richiesti marcatura CE e Dichiarazione di Prestazione (DoP)</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> i nostri certificati EN 1090-2 EXC3 ed EN ISO 3834-2 coprono anche i lavori in EXC2. In fase di offerta verifichiamo classe di esecuzione, qualità dell’acciaio ed estensione dei CND a disegno e chiariamo i punti aperti prima della produzione. Taglio e piegatura sono eseguiti da partner sotto il nostro coordinamento. <a href="../belgelerimiz.html">Vedi i nostri certificati →</a></p></div>
+<div class="callout"><p>In fase di offerta verifichiamo classe di esecuzione, qualità dell’acciaio ed estensione dei CND a disegno e chiariamo i punti aperti prima della produzione. Taglio e piegatura sono eseguiti da partner sotto il nostro coordinamento. <a href="../belgelerimiz.html">Vedi i nostri certificati →</a></p></div>
 `,
     faq: [
       ['Quale classe vale se il capitolato non la indica?', 'Secondo la EN 1090-2, se non è specificata una classe di esecuzione si applica la EXC2. È comunque consigliabile che il progettista la indichi esplicitamente.'],
@@ -455,7 +455,7 @@ export default {
 <li>Eisen aan oppervlaktevoorbehandeling en corrosiebescherming</li>
 <li>Of CE-markering en een prestatieverklaring (DoP) nodig zijn</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> onze certificaten voor EN 1090-2 EXC3 en EN ISO 3834-2 dekken ook EXC2-werk. In de offertefase controleren we uitvoeringsklasse, staalkwaliteit en NDO-omvang op de tekening en lossen we open punten op vóór de productie. Snijden en kanten gebeurt bij partners onder onze coördinatie. <a href="../belgelerimiz.html">Bekijk onze certificaten →</a></p></div>
+<div class="callout"><p>In de offertefase controleren we uitvoeringsklasse, staalkwaliteit en NDO-omvang op de tekening en lossen we open punten op vóór de productie. Snijden en kanten gebeurt bij partners onder onze coördinatie. <a href="../belgelerimiz.html">Bekijk onze certificaten →</a></p></div>
 `,
     faq: [
       ['Welke klasse geldt als het bestek er geen noemt?', 'Volgens EN 1090-2 geldt EXC2 als er geen uitvoeringsklasse is opgegeven. Het blijft aan te raden dat de constructeur de klasse expliciet vermeldt.'],
@@ -521,7 +521,7 @@ export default {
 <li>Krav til overflatebehandling og korrosjonsbeskyttelse</li>
 <li>Om CE-merking og ytelseserklæring (DoP) kreves</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> sertifikatene våre for EN 1090-2 EXC3 og EN ISO 3834-2 dekker også EXC2-arbeid. I tilbudsfasen kontrollerer vi utførelsesklasse, stålkvalitet og NDT-omfang på tegningen og avklarer åpne punkter før produksjon. Kutting og bukking utføres av partnere under vår koordinering. <a href="../belgelerimiz.html">Se sertifikatene våre →</a></p></div>
+<div class="callout"><p>I tilbudsfasen kontrollerer vi utførelsesklasse, stålkvalitet og NDT-omfang på tegningen og avklarer åpne punkter før produksjon. Kutting og bukking utføres av partnere under vår koordinering. <a href="../belgelerimiz.html">Se sertifikatene våre →</a></p></div>
 `,
     faq: [
       ['Hvilken klasse gjelder når spesifikasjonen ikke angir noen?', 'Etter EN 1090-2 gjelder EXC2 når ingen utførelsesklasse er angitt. Det anbefales likevel at den prosjekterende angir klassen tydelig.'],

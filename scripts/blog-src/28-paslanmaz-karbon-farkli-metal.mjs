@@ -33,7 +33,7 @@ export default {
 <p>Yaklaşık 370–400 °C’nin üzerinde sürekli çalışan birleşimlerde, karbonun karbon çelikten paslanmaz tarafa göçü ve genleşme farkı nedeniyle 309L ile yapılan birleşim zamanla zayıflayabilir. Bu durumda nikel bazlı teller (örneğin ERNiCr-3 sınıfı) tercih edilir; genleşme katsayıları karbon çeliğe daha yakındır.</p>
 <h2>Galvanik Korozyon ve Boya Detayı</h2>
 <p>Paslanmaz ile karbon çelik nemli ortamda temas halinde olduğunda, karbon çelik taraf daha hızlı korozyona uğrar. Pratik çözüm, karbon çelik tarafı boyamak ve <strong>boyayı kaynak dikişini aşarak paslanmaz tarafa birkaç santimetre taşırmaktır</strong>. Paslanmazın boyanmaması, boyasız kalan bir karbon çelik şeridinin aşırı hızlı korozyona uğramasına yol açabilir. Paslanmaz taraftaki ısı renkleri ise ayrıca temizlenmelidir (bkz. <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">dağlama ve pasivasyon</a>).</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Paslanmaz–karbon çelik birleşimlerinde tel seçimini malzeme çiftine göre WPS’te tanımlar, seyrelmeyi düşük tutan parametrelerle kaynatırız. Kalın ve kritik birleşimlerde tampon kaynak uygular, boya ve temizlik detayını teklif aşamasında birlikte netleştiririz. <a href="../kaynak-yontemleri.html">Kaynak yöntemlerimiz →</a></p></div>
+<div class="callout"><p>Kalın ve kritik birleşimlerde tampon kaynak uygular, boya ve temizlik detayını teklif aşamasında birlikte netleştiririz. <a href="../kaynak-yontemleri.html">Kaynak yöntemlerimiz →</a></p></div>
 `,
     faq: [
       ['Paslanmaz ile karbon çelik hangi telle kaynatılır?', 'Genellikle 309L (ISO 14343 23 12 L), 316L ile birleşimde 309LMo. Yaklaşık 370–400 °C üzeri sürekli çalışmada nikel bazlı teller tercih edilir.'],
@@ -41,8 +41,8 @@ export default {
       ['Tampon kaynak ne işe yarar?', 'Karbon çelik ağız yüzeyine önce 309L ile tabaka yığılarak seyrelme kontrol altına alınır ve birleşim daha güvenli yapılır.'],
       ['Galvanik korozyon nasıl önlenir?', 'Karbon çelik taraf boyanır ve boya, kaynak dikişini aşarak paslanmaz tarafa birkaç santimetre taşırılır.']
     ],
-    cta_h3: 'Farklı metallerde güvenilir birleşim',
-    cta_p: 'Paslanmaz–karbon çelik birleşimli çiziminizi gönderin; tel seçimi ve kaynak planıyla teklif sunalım.',
+    cta_h3: 'Çiziminizi gönderin, teklif hazırlayalım',
+    cta_p: 'Teknik resminizi gönderin; kaynak yöntemi, NDT kapsamı ve termini birlikte netleştirip teklif hazırlayalım.',
     cta_btn: 'Teklif İste →'
   },
   en: {
@@ -73,7 +73,7 @@ export default {
 <p>In joints working continuously above about 370–400 °C, carbon migration from the carbon steel into the stainless side and the expansion difference can weaken a 309L joint over time. Nickel-based fillers (e.g. ERNiCr-3 class) are then preferred, since their expansion is closer to carbon steel.</p>
 <h2>Galvanic Corrosion and the Coating Detail</h2>
 <p>When stainless and carbon steel are in contact in a moist environment, the carbon steel side corrodes faster. The practical solution is to paint the carbon steel side and <strong>carry the paint over the weld a few centimetres onto the stainless</strong>. Leaving the stainless unpainted can cause an uncoated strip of carbon steel to corrode very quickly. Heat tint on the stainless side must also be removed (see <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">pickling and passivation</a>).</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> for stainless-to-carbon steel joints we define filler selection for the material pair in the WPS and weld with parameters that keep dilution low. On thick and critical joints we apply buttering, and the coating and cleaning detail is agreed at quotation. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
+<div class="callout"><p>On thick and critical joints we apply buttering, and the coating and cleaning detail is agreed at quotation. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
 `,
     faq: [
       ['Which filler joins stainless to carbon steel?', 'Usually 309L (ISO 14343 23 12 L), or 309LMo with 316L. For continuous service above about 370–400 °C, nickel-based fillers are preferred.'],
@@ -81,8 +81,8 @@ export default {
       ['What does buttering do?', 'A 309L layer is first deposited on the carbon steel bevel face, controlling dilution so the joint can be made more safely.'],
       ['How is galvanic corrosion prevented?', 'Paint the carbon steel side and carry the paint over the weld a few centimetres onto the stainless.']
     ],
-    cta_h3: 'Reliable joints between dissimilar metals',
-    cta_p: 'Send your drawing with stainless-to-carbon steel joints; we will quote with filler selection and welding plan.',
+    cta_h3: 'Send your drawing for a quote',
+    cta_p: 'Send your drawing; we agree the welding process, NDT scope and lead time with you and prepare a quote.',
     cta_btn: 'Request a Quote →'
   },
   de: {
@@ -121,8 +121,8 @@ export default {
       ['Wozu dient das Puffern?', 'Eine 309L-Lage auf der Baustahlfuge begrenzt die Aufmischung, sodass die Verbindung sicherer geschweißt werden kann.'],
       ['Wie verhindert man Kontaktkorrosion?', 'Baustahlseite beschichten und die Beschichtung über die Naht einige Zentimeter auf den Edelstahl ziehen.']
     ],
-    cta_h3: 'Zuverlässige Mischverbindungen',
-    cta_p: 'Senden Sie Ihre Zeichnung mit Schwarz-Weiß-Verbindungen; wir bieten mit Zusatzwahl und Schweißplan an.',
+    cta_h3: 'Zeichnung senden, Angebot erhalten',
+    cta_p: 'Senden Sie Ihre Zeichnung; wir stimmen Schweißverfahren, ZfP-Umfang und Liefertermin mit Ihnen ab und erstellen ein Angebot.',
     cta_btn: 'Angebot anfordern →'
   },
   es: {
@@ -153,7 +153,7 @@ export default {
 <p>En uniones que trabajan de forma continua por encima de unos 370–400 °C, la migración de carbono hacia el lado inoxidable y la diferencia de dilatación pueden debilitar con el tiempo una unión con 309L. Se prefieren entonces aportes base níquel (p. ej. clase ERNiCr-3), con dilatación más cercana al acero al carbono.</p>
 <h2>Corrosión galvánica y detalle de pintura</h2>
 <p>Cuando inoxidable y acero al carbono están en contacto en ambiente húmedo, el lado al carbono se corroe más rápido. La solución práctica es pintar el lado al carbono y <strong>llevar la pintura por encima del cordón unos centímetros sobre el inoxidable</strong>. Si el inoxidable no se pinta, una franja de acero al carbono sin pintar puede corroerse muy deprisa. La coloración del lado inoxidable debe eliminarse aparte (ver <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">decapado y pasivado</a>).</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> en uniones inoxidable–acero al carbono definimos en la WPS el aporte para cada par de materiales y soldamos con parámetros que limitan la dilución. En uniones gruesas y críticas aplicamos recargue previo; el detalle de pintura y limpieza se acuerda en la oferta. <a href="../kaynak-yontemleri.html">Nuestros procesos de soldadura →</a></p></div>
+<div class="callout"><p>En uniones gruesas y críticas aplicamos recargue previo; el detalle de pintura y limpieza se acuerda en la oferta. <a href="../kaynak-yontemleri.html">Nuestros procesos de soldadura →</a></p></div>
 `,
     faq: [
       ['¿Qué aporte une inoxidable con acero al carbono?', 'Normalmente 309L (ISO 14343 23 12 L), o 309LMo con 316L. Para servicio continuo por encima de unos 370–400 °C se prefieren aportes base níquel.'],
@@ -161,8 +161,8 @@ export default {
       ['¿Para qué sirve el recargue previo?', 'Una capa de 309L sobre el chaflán al carbono controla la dilución y permite hacer la unión con más seguridad.'],
       ['¿Cómo se evita la corrosión galvánica?', 'Pintando el lado de acero al carbono y llevando la pintura sobre el cordón unos centímetros hacia el inoxidable.']
     ],
-    cta_h3: 'Uniones fiables entre metales distintos',
-    cta_p: 'Envíenos su plano con uniones inoxidable–acero al carbono; ofertamos con selección de aporte y plan de soldadura.',
+    cta_h3: 'Envíe su plano y prepararemos la oferta',
+    cta_p: 'Envíe su plano; acordamos con usted el proceso de soldadura, el alcance de END y el plazo, y preparamos la oferta.',
     cta_btn: 'Solicitar oferta →'
   },
   fr: {
@@ -193,7 +193,7 @@ export default {
 <p>Pour les assemblages en service continu au-delà d’environ 370–400 °C, la migration du carbone vers l’inox et l’écart de dilatation peuvent affaiblir un joint en 309L avec le temps. On préfère alors des apports base nickel (p. ex. classe ERNiCr-3), à dilatation plus proche de l’acier carbone.</p>
 <h2>Corrosion galvanique et détail de peinture</h2>
 <p>Au contact en milieu humide, le côté acier carbone se corrode plus vite. La solution pratique : peindre le côté carbone et <strong>prolonger la peinture au-delà du cordon de quelques centimètres sur l’inox</strong>. Si l’inox n’est pas peint, une bande d’acier carbone non revêtue peut se corroder très vite. Les colorations côté inox doivent par ailleurs être éliminées (voir <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">décapage et passivation</a>).</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> pour les assemblages inox–acier carbone, nous définissons dans le DMOS le fil adapté à chaque couple de matériaux et soudons avec des paramètres limitant la dilution. Sur les joints épais et critiques, nous beurrons ; le détail de peinture et de nettoyage est convenu au devis. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
+<div class="callout"><p>Sur les joints épais et critiques, nous beurrons ; le détail de peinture et de nettoyage est convenu au devis. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
 `,
     faq: [
       ['Quel fil pour souder inox et acier carbone ?', 'Généralement du 309L (ISO 14343 23 12 L), ou du 309LMo avec le 316L. Au-delà d’environ 370–400 °C en continu, on préfère des apports base nickel.'],
@@ -201,8 +201,8 @@ export default {
       ['À quoi sert le beurrage ?', 'Une couche de 309L sur le chanfrein carbone maîtrise la dilution et rend l’assemblage plus sûr.'],
       ['Comment éviter la corrosion galvanique ?', 'Peindre le côté acier carbone et prolonger la peinture au-delà du cordon de quelques centimètres sur l’inox.']
     ],
-    cta_h3: 'Des assemblages hétérogènes fiables',
-    cta_p: 'Envoyez votre plan avec assemblages inox–acier carbone ; nous chiffrons avec choix du fil et plan de soudage.',
+    cta_h3: 'Envoyez votre plan pour un devis',
+    cta_p: 'Envoyez votre plan ; nous convenons avec vous du procédé de soudage, de l\'étendue des CND et du délai, puis établissons le devis.',
     cta_btn: 'Demander un devis →'
   },
   it: {
@@ -233,7 +233,7 @@ export default {
 <p>Nei giunti in esercizio continuo sopra circa 370–400 °C, la migrazione del carbonio verso il lato inox e la differenza di dilatazione possono indebolire nel tempo un giunto in 309L. Si preferiscono allora apporti a base nichel (es. classe ERNiCr-3), con dilatazione più vicina all’acciaio al carbonio.</p>
 <h2>Corrosione galvanica e dettaglio di verniciatura</h2>
 <p>A contatto in ambiente umido, il lato al carbonio si corrode più in fretta. La soluzione pratica è verniciare il lato al carbonio e <strong>portare la vernice oltre il cordone per qualche centimetro sull’inox</strong>. Se l’inox non viene verniciato, una striscia di acciaio al carbonio scoperta può corrodersi molto rapidamente. Le colorazioni sul lato inox vanno inoltre rimosse (vedi <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">decapaggio e passivazione</a>).</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> nei giunti inox–acciaio al carbonio definiamo nella WPS il filo per ciascuna coppia di materiali e saldiamo con parametri che limitano la diluizione. Su giunti spessi e critici applichiamo l’imburratura; dettaglio di verniciatura e pulizia si concordano in offerta. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
+<div class="callout"><p>Su giunti spessi e critici applichiamo l’imburratura; dettaglio di verniciatura e pulizia si concordano in offerta. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
 `,
     faq: [
       ['Quale filo unisce inox e acciaio al carbonio?', 'Di solito 309L (ISO 14343 23 12 L), o 309LMo con il 316L. Per esercizio continuo sopra circa 370–400 °C si preferiscono apporti a base nichel.'],
@@ -241,8 +241,8 @@ export default {
       ['A cosa serve l’imburratura?', 'Uno strato di 309L sul cianfrino al carbonio controlla la diluizione e rende il giunto più sicuro.'],
       ['Come si evita la corrosione galvanica?', 'Verniciando il lato al carbonio e portando la vernice oltre il cordone per qualche centimetro sull’inox.']
     ],
-    cta_h3: 'Giunti affidabili tra metalli diversi',
-    cta_p: 'Inviateci il disegno con giunti inox–acciaio al carbonio; quotiamo con scelta del filo e piano di saldatura.',
+    cta_h3: 'Inviate il disegno per un\'offerta',
+    cta_p: 'Inviate il disegno; concordiamo con voi processo di saldatura, estensione dei CND e tempi di consegna e prepariamo l\'offerta.',
     cta_btn: 'Richiedi un preventivo →'
   },
   nl: {
@@ -273,7 +273,7 @@ export default {
 <p>Bij continu bedrijf boven ongeveer 370–400 °C kunnen koolstofmigratie naar de RVS-zijde en het uitzettingsverschil een 309L-verbinding na verloop van tijd verzwakken. Dan heeft toevoegmateriaal op nikkelbasis (bijv. klasse ERNiCr-3) de voorkeur, met een uitzetting dichter bij koolstofstaal.</p>
 <h2>Galvanische corrosie en coatingdetail</h2>
 <p>Bij contact in een vochtige omgeving corrodeert de koolstofstaalzijde sneller. De praktische oplossing: de koolstofstaalzijde coaten en de <strong>coating enkele centimeters over de las op het RVS laten doorlopen</strong>. Blijft het RVS ongecoat, dan kan een ongecoate strook koolstofstaal zeer snel corroderen. Aanloopkleuren aan de RVS-zijde moeten daarnaast worden verwijderd (zie <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">beitsen en passiveren</a>).</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> bij RVS–koolstofstaalverbindingen leggen we de draadkeuze per materiaalcombinatie vast in de WPS en lassen we met parameters die de menging beperken. Bij dikke en kritische verbindingen brengen we bufferlagen aan; coating- en reinigingsdetail stemmen we af bij de offerte. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
+<div class="callout"><p>Bij dikke en kritische verbindingen brengen we bufferlagen aan; coating- en reinigingsdetail stemmen we af bij de offerte. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
 `,
     faq: [
       ['Welke draad voor RVS aan koolstofstaal?', 'Meestal 309L (ISO 14343 23 12 L), of 309LMo bij 316L. Bij continu bedrijf boven ongeveer 370–400 °C heeft nikkelbasis de voorkeur.'],
@@ -281,8 +281,8 @@ export default {
       ['Waarvoor dienen bufferlagen?', 'Een 309L-laag op de koolstofstaalnaadflank beperkt de menging, zodat de verbinding veiliger kan worden gelast.'],
       ['Hoe voorkom je galvanische corrosie?', 'Coat de koolstofstaalzijde en laat de coating enkele centimeters over de las op het RVS doorlopen.']
     ],
-    cta_h3: 'Betrouwbare ongelijksoortige verbindingen',
-    cta_p: 'Stuur uw tekening met RVS–koolstofstaalverbindingen; we offreren met draadkeuze en lasplan.',
+    cta_h3: 'Stuur uw tekening voor een offerte',
+    cta_p: 'Stuur uw tekening; we stemmen lasproces, NDO-omvang en levertijd met u af en maken een offerte.',
     cta_btn: 'Offerte aanvragen →'
   },
   no: {
@@ -313,7 +313,7 @@ export default {
 <p>I forbindelser med kontinuerlig drift over omtrent 370–400 °C kan karbonvandring mot den rustfrie siden og utvidelsesforskjellen svekke en 309L-forbindelse over tid. Da foretrekkes nikkelbasert tilsett (f.eks. klasse ERNiCr-3), med utvidelse nærmere karbonstål.</p>
 <h2>Galvanisk korrosjon og malingsdetalj</h2>
 <p>Ved kontakt i fuktig miljø korroderer karbonstålsiden raskere. Den praktiske løsningen er å male karbonstålsiden og <strong>føre malingen noen centimeter over sveisen inn på det rustfrie</strong>. Males ikke det rustfrie, kan en umalt stripe karbonstål korrodere svært raskt. Anløpsfarger på den rustfrie siden må i tillegg fjernes (se <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">beising og passivering</a>).</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> for rustfritt–karbonstål-forbindelser fastsetter vi trådvalg for hvert materialpar i WPS-en og sveiser med parametere som holder oppblandingen lav. På tykke og kritiske forbindelser bruker vi buttering; malings- og rengjøringsdetaljen avtales i tilbudet. <a href="../kaynak-yontemleri.html">Våre sveisemetoder →</a></p></div>
+<div class="callout"><p>På tykke og kritiske forbindelser bruker vi buttering; malings- og rengjøringsdetaljen avtales i tilbudet. <a href="../kaynak-yontemleri.html">Våre sveisemetoder →</a></p></div>
 `,
     faq: [
       ['Hvilken tråd brukes mellom rustfritt og karbonstål?', 'Vanligvis 309L (ISO 14343 23 12 L), eller 309LMo med 316L. Ved kontinuerlig drift over omtrent 370–400 °C foretrekkes nikkelbasert tilsett.'],
@@ -321,8 +321,8 @@ export default {
       ['Hva er hensikten med buttering?', 'Et 309L-lag på karbonstålets fugeflate begrenser oppblandingen slik at forbindelsen kan sveises tryggere.'],
       ['Hvordan unngås galvanisk korrosjon?', 'Mal karbonstålsiden og før malingen noen centimeter over sveisen inn på det rustfrie.']
     ],
-    cta_h3: 'Pålitelige forbindelser mellom ulike metaller',
-    cta_p: 'Send tegning med forbindelser mellom rustfritt og karbonstål; vi gir tilbud med trådvalg og sveiseplan.',
+    cta_h3: 'Send tegningen for et tilbud',
+    cta_p: 'Send tegningen; vi avtaler sveiseprosess, NDT-omfang og leveringstid med dere og lager et tilbud.',
     cta_btn: 'Be om tilbud →'
   }
 };

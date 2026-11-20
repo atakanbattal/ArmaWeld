@@ -58,7 +58,7 @@ export default {
 <li>Ön onay için taslak içindekiler sayfası isteyin.</li>
 <li>Saklama süresini sözleşmeye ekleyin.</li>
 </ol>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Malzeme sertifikaları, WPS/WPQR, kaynakçı belgeleri, kaynak haritası, NDT ve ölçü raporları üretim sırasında siparişe bağlı olarak toplanır ve müşteri portalında paylaşılır. Teslimatta data book, sözleşmede istenen bölümlerle tek bir PDF olarak hazırlanır. <a href="../kaynakli-imalat.html">Kaynaklı imalat hizmetimizi inceleyin →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Malzeme sertifikaları, WPS, kaynakçı belgeleri, kaynak haritası, NDT ve ölçü raporları üretim sırasında siparişe bağlı olarak toplanır ve müşteri portalında paylaşılır. Teslimatta data book, sözleşmede istenen bölümlerle tek bir PDF olarak hazırlanır. <a href="../kaynakli-imalat.html">Kaynaklı imalat hizmetimizi inceleyin →</a></p></div>
 `,
     faq: [
       ['Data book ile MDR aynı şey mi?', 'Pratikte evet. MDR (Manufacturing Data Record), data book, imalat dosyası veya final documentation aynı belge setini ifade eder. Sektöre göre isim değişir.'],
@@ -123,7 +123,7 @@ export default {
 <li>Ask for a draft index for prior approval.</li>
 <li>Add the retention period to the contract.</li>
 </ol>
-<div class="callout"><p><strong>At ArmaWeld:</strong> material certificates, WPS/WPQR, welder certificates, weld map, NDT and dimensional reports are collected against the order during production and shared in the customer portal. At delivery, the data book is compiled as one PDF with the sections required by the contract. <a href="../kaynakli-imalat.html">See our welded fabrication service →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> material certificates, WPS, welder certificates, weld map, NDT and dimensional reports are collected against the order during production and shared in the customer portal. At delivery, the data book is compiled as one PDF with the sections required by the contract. <a href="../kaynakli-imalat.html">See our welded fabrication service →</a></p></div>
 `,
     faq: [
       ['Are a data book and an MDR the same?', 'In practice, yes. MDR (Manufacturing Data Record), data book, fabrication dossier and final documentation all refer to the same set of documents. The name varies by sector.'],
@@ -188,7 +188,7 @@ export default {
 <li>Entwurf des Inhaltsverzeichnisses zur Vorabfreigabe anfordern.</li>
 <li>Aufbewahrungsfrist im Vertrag festhalten.</li>
 </ol>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Abnahmeprüfzeugnisse, WPS/WPQR, Schweißerzertifikate, Schweißnahtplan, ZfP- und Maßprotokolle werden fertigungsbegleitend dem Auftrag zugeordnet und im Kundenportal bereitgestellt. Zur Lieferung erstellen wir das Data Book als ein PDF mit den vertraglich geforderten Abschnitten. <a href="../kaynakli-imalat.html">Unsere Schweißfertigung →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Abnahmeprüfzeugnisse, WPS, Schweißerzertifikate, Schweißnahtplan, ZfP- und Maßprotokolle werden fertigungsbegleitend dem Auftrag zugeordnet und im Kundenportal bereitgestellt. Zur Lieferung erstellen wir das Data Book als ein PDF mit den vertraglich geforderten Abschnitten. <a href="../kaynakli-imalat.html">Unsere Schweißfertigung →</a></p></div>
 `,
     faq: [
       ['Sind Data Book und MDR dasselbe?', 'In der Praxis ja. MDR, Data Book, Herstellerdokumentation und Enddokumentation bezeichnen denselben Unterlagensatz; der Begriff variiert je Branche.'],
@@ -253,7 +253,7 @@ export default {
 <li>Pedir un índice borrador para aprobación previa.</li>
 <li>Incluir el periodo de conservación en el contrato.</li>
 </ol>
-<div class="callout"><p><strong>En ArmaWeld:</strong> certificados de material, WPS/WPQR, certificados de soldadores, mapa de soldaduras e informes END y dimensionales se recopilan con el pedido durante la producción y se comparten en el portal del cliente. En la entrega preparamos el data book como un único PDF con las secciones exigidas en el contrato. <a href="../kaynakli-imalat.html">Nuestra fabricación soldada →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> certificados de material, WPS, certificados de soldadores, mapa de soldaduras e informes END y dimensionales se recopilan con el pedido durante la producción y se comparten en el portal del cliente. En la entrega preparamos el data book como un único PDF con las secciones exigidas en el contrato. <a href="../kaynakli-imalat.html">Nuestra fabricación soldada →</a></p></div>
 `,
     faq: [
       ['¿Data book y MDR son lo mismo?', 'En la práctica sí. MDR, data book, dossier de fabricación o documentación final se refieren al mismo conjunto de documentos; el nombre cambia según el sector.'],
@@ -318,7 +318,7 @@ export default {
 <li>Demander un sommaire provisoire pour validation.</li>
 <li>Inscrire la durée de conservation au contrat.</li>
 </ol>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> certificats matière, DMOS/QMOS, certificats soudeurs, plan de soudage, rapports CND et dimensionnels sont rattachés à la commande pendant la fabrication et partagés dans le portail client. À la livraison, le data book est constitué en un seul PDF avec les sections exigées par le contrat. <a href="../kaynakli-imalat.html">Notre fabrication mécano-soudée →</a></p></div>
+<div class="callout"><p><a href="../kaynakli-imalat.html">Notre fabrication mécano-soudée →</a></p></div>
 `,
     faq: [
       ['Data book et MDR, est-ce la même chose ?', 'En pratique oui. MDR, data book, dossier de fabrication ou DFF désignent le même ensemble de documents ; le terme varie selon le secteur.'],
@@ -383,7 +383,7 @@ export default {
 <li>Chiedere un indice in bozza per approvazione preventiva.</li>
 <li>Inserire il periodo di conservazione nel contratto.</li>
 </ol>
-<div class="callout"><p><strong>In ArmaWeld:</strong> certificati materiale, WPS/WPQR, patentini, mappa saldature, rapporti CND e dimensionali vengono raccolti con l’ordine durante la produzione e condivisi nel portale clienti. Alla consegna prepariamo il data book come un unico PDF con le sezioni richieste dal contratto. <a href="../kaynakli-imalat.html">La nostra carpenteria saldata →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> certificati materiale, WPS, patentini, mappa saldature, rapporti CND e dimensionali vengono raccolti con l’ordine durante la produzione e condivisi nel portale clienti. Alla consegna prepariamo il data book come un unico PDF con le sezioni richieste dal contratto. <a href="../kaynakli-imalat.html">La nostra carpenteria saldata →</a></p></div>
 `,
     faq: [
       ['Data book e MDR sono la stessa cosa?', 'In pratica sì. MDR, data book, dossier di costruzione e documentazione finale indicano lo stesso insieme di documenti; il nome cambia per settore.'],
@@ -448,7 +448,7 @@ export default {
 <li>Een conceptinhoudsopgave ter goedkeuring vragen.</li>
 <li>De bewaartermijn in het contract opnemen.</li>
 </ol>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> materiaalcertificaten, WPS/WPQR, lassercertificaten, lasplan, NDO- en maatrapporten worden tijdens de productie aan de order gekoppeld en in het klantenportaal gedeeld. Bij levering stellen we het databook op als één PDF met de secties die het contract vraagt. <a href="../kaynakli-imalat.html">Onze lasfabricage →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> materiaalcertificaten, WPS, lassercertificaten, lasplan, NDO- en maatrapporten worden tijdens de productie aan de order gekoppeld en in het klantenportaal gedeeld. Bij levering stellen we het databook op als één PDF met de secties die het contract vraagt. <a href="../kaynakli-imalat.html">Onze lasfabricage →</a></p></div>
 `,
     faq: [
       ['Zijn databook en MDR hetzelfde?', 'In de praktijk wel. MDR, databook, fabricagedossier en opleverdossier verwijzen naar dezelfde set documenten; de naam verschilt per sector.'],
@@ -513,7 +513,7 @@ export default {
 <li>Be om et utkast til innholdsfortegnelse for forhåndsgodkjenning.</li>
 <li>Ta med oppbevaringstid i kontrakten.</li>
 </ol>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> materialsertifikater, WPS/WPQR, sveisesertifikater, sveisekart, NDT- og målerapporter samles på ordren underveis i produksjonen og deles i kundeportalen. Ved levering setter vi sammen data booken som én PDF med seksjonene kontrakten krever. <a href="../kaynakli-imalat.html">Vår sveiseproduksjon →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> materialsertifikater, WPS, sveisesertifikater, sveisekart, NDT- og målerapporter samles på ordren underveis i produksjonen og deles i kundeportalen. Ved levering setter vi sammen data booken som én PDF med seksjonene kontrakten krever. <a href="../kaynakli-imalat.html">Vår sveiseproduksjon →</a></p></div>
 `,
     faq: [
       ['Er data book og MDR det samme?', 'I praksis ja. MDR, data book, produksjonsdossier og sluttdokumentasjon betegner det samme dokumentsettet; navnet varierer etter bransje.'],

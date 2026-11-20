@@ -35,7 +35,7 @@ export default {
 <li>Boya sistemi ve renk.</li>
 <li>Seri adedi ve teslim planı.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Damper kasalarını ve alt şasilerini çizime göre kaynaklıyoruz; aşınma plakası ve yüksek mukavemetli çelikte ön ısıtma ve ısı girdisini kontrol ediyoruz. Kesim, büküm ve boyayı iş ortaklarımızla koordine ediyor, menteşe ve silindir bağlantılarında MT/UT muayenesi yapıyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Damper kasalarını ve alt şasilerini çizime göre kaynaklıyoruz; aşınma plakası ve yüksek mukavemetli çelikte ön ısıtma ve ısı girdisini kontrol ediyoruz. Kesim, büküm ve boyayı iş ortaklarımızla koordine ediyor, menteşe ve silindir bağlantılarında UT muayenesi yapıyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
 `,
     faq: [
       ['Damper kasasında hangi çelikler kullanılır?', 'Taban ve yanlarda aşınmaya dayanıklı plakalar, çerçeve ve takviyelerde yüksek mukavemetli yapı çelikleri.'],
@@ -77,7 +77,7 @@ export default {
 <li>Paint system and colour.</li>
 <li>Batch size and delivery plan.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld tipper bodies and subframes to drawing, controlling preheat and heat input on wear plate and high-strength steel. Cutting, bending and painting are coordinated with our partners, and hinge and cylinder mounts are MT/UT inspected. <a href="../sasi-bom-imalati.html">Chassis and boom manufacturing →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld tipper bodies and subframes to drawing, controlling preheat and heat input on wear plate and high-strength steel. Cutting, bending and painting are coordinated with our partners, and hinge and cylinder mounts are UT inspected. <a href="../sasi-bom-imalati.html">Chassis and boom manufacturing →</a></p></div>
 `,
     faq: [
       ['Which steels are used in tipper bodies?', 'Wear plate for floor and sides, high-strength structural steel for frame and stiffeners.'],
@@ -161,7 +161,7 @@ export default {
 <li>Sistema de pintura y color.</li>
 <li>Tamaño de lote y plan de entrega.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos cajas de volquete y falsos chasis según plano, controlando precalentamiento y aporte térmico en chapa antidesgaste y alto límite elástico. Coordinamos corte, plegado y pintura con socios e inspeccionamos bisagras y anclajes con MT/UT. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos cajas de volquete y falsos chasis según plano, controlando precalentamiento y aporte térmico en chapa antidesgaste y alto límite elástico. Coordinamos corte, plegado y pintura con socios e inspeccionamos bisagras y anclajes con UT. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
 `,
     faq: [
       ['¿Qué aceros se usan?', 'Chapa antidesgaste en suelo y laterales; alto límite elástico en marco y refuerzos.'],
@@ -203,7 +203,7 @@ export default {
 <li>Système de peinture et teinte.</li>
 <li>Taille de lot et planning de livraison.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons bennes et faux-châssis selon plan, en maîtrisant préchauffage et énergie sur tôle anti-usure et haute limite élastique. Découpe, pliage et peinture sont coordonnés avec nos partenaires ; articulations et attaches de vérin sont contrôlées en MT/UT. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons bennes et faux-châssis selon plan, en maîtrisant préchauffage et énergie sur tôle anti-usure et haute limite élastique. Découpe, pliage et peinture sont coordonnés avec nos partenaires ; articulations et attaches de vérin sont contrôlées en UT. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
 `,
     faq: [
       ['Quels aciers pour une benne ?', 'Tôle anti-usure au fond et aux ridelles, haute limite élastique pour cadre et renforts.'],

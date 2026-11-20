@@ -1,0 +1,374 @@
+{
+"pg_index_title": {
+"tr": "Kaynaklı İmalat Firması Konya | EN ISO 3834-2 · EN 1090-2 — ArmaWeld",
+"re": [
+[
+"EN 1090(?![-\\d])",
+"g",
+"EN ISO 3834-2 · EN 1090-2"
+]
+]
+},
+"pg_index_desc": {
+"tr": "Konya'da kaynaklı imalat ve fason kaynak: şasi, bom, destek ayağı ve taşıyıcı yapılar. MAG, özlü tel, TIG ve tozaltı kaynak; kesim ve büküm denetlenmiş tedarikçilerde. EN ISO 3834-2, EN 1090-2, ISO 9001 belgeli. Teklif alın.",
+"en": "Welded fabrication and contract welding in Konya, Turkey: chassis, booms, outrigger legs and load-bearing structures. MAG, flux-cored, TIG and submerged arc welding; cutting and bending at audited suppliers. EN ISO 3834-2, EN 1090-2 and ISO 9001 certified.",
+"de": "Schweißfertigung und Lohnschweißen in Konya, Türkei: Rahmen, Ausleger, Stützbeine und tragende Strukturen. MAG-, Fülldraht-, WIG- und UP-Schweißen; Schneiden und Biegen bei auditierten Lieferanten. Zertifiziert nach EN ISO 3834-2, EN 1090-2 und ISO 9001.",
+"es": "Fabricación soldada y soldadura por encargo en Konya, Turquía: chasis, plumas, patas estabilizadoras y estructuras portantes. Soldadura MAG, con alambre tubular, TIG y por arco sumergido; corte y plegado en proveedores auditados. Certificados EN ISO 3834-2, EN 1090-2 e ISO 9001.",
+"fr": "Fabrication soudée et soudage en sous-traitance à Konya, Turquie : châssis, flèches, stabilisateurs et structures porteuses. Soudage MAG, fil fourré, TIG et arc submergé ; découpe et pliage chez des fournisseurs audités. Certifiés EN ISO 3834-2, EN 1090-2 et ISO 9001.",
+"it": "Carpenteria saldata e saldatura conto terzi a Konya, Turchia: telai, bracci, stabilizzatori e strutture portanti. Saldatura MAG, a filo animato, TIG e ad arco sommerso; taglio e piegatura presso fornitori verificati. Certificati EN ISO 3834-2, EN 1090-2 e ISO 9001.",
+"nl": "Laswerk en loonlassen in Konya, Turkije: chassis, gieken, stempelpoten en dragende constructies. MAG-, gevulde draad-, TIG- en onderpoederlassen; snijden en zetten bij geaudite leveranciers. Gecertificeerd volgens EN ISO 3834-2, EN 1090-2 en ISO 9001.",
+"no": "Sveisede konstruksjoner og leiesveising i Konya, Tyrkia: chassis, bommer, støtteben og bærende konstruksjoner. MAG-, rørtråd-, TIG- og pulversveising; kapping og bukking hos auditerte leverandører. Sertifisert etter EN ISO 3834-2, EN 1090-2 og ISO 9001."
+},
+"cine_b2_k": {
+"*": "EN 1090-2"
+},
+"cine_b2_p": {
+"re": [
+[
+"Strenx 1100",
+"g",
+"S960QL"
+]
+]
+},
+"home_hero_lede": {
+"re": [
+[
+"Strenx 1100",
+"g",
+"S960QL"
+],
+[
+" ve NDT\\.",
+"",
+" ve muayene."
+],
+[
+" and NDT\\.",
+"",
+" and inspection."
+],
+[
+" und ZfP\\.",
+"",
+" und Prüfung."
+]
+]
+},
+"home_stat4_num": {
+"*": "S235–S960QL · S700MC · HARDOX"
+},
+"cine_b3_p": {
+"tr": "Gözle ve ölçüsel muayene ile UT bünyemizde, Seviye 2 personelle. Her parça raporuyla teslim edilir.",
+"en": "Visual, dimensional and ultrasonic testing in house by Level 2 personnel. Every part ships with its inspection report.",
+"de": "Sicht-, Maß- und Ultraschallprüfung im eigenen Haus durch Personal der Stufe 2. Jedes Teil wird mit Prüfbericht geliefert.",
+"es": "Inspección visual, dimensional y por ultrasonidos en casa, con personal de nivel 2. Cada pieza se entrega con su informe.",
+"fr": "Contrôles visuels, dimensionnels et par ultrasons en interne, par du personnel de niveau 2. Chaque pièce est livrée avec son rapport.",
+"it": "Controlli visivi, dimensionali e ad ultrasuoni interni, con personale di livello 2. Ogni pezzo è consegnato con il suo rapporto.",
+"nl": "Visuele, maat- en ultrasoon inspectie in eigen huis door niveau 2 personeel. Elk onderdeel wordt met rapport geleverd.",
+"no": "Visuell kontroll, målkontroll og ultralyd i eget hus, utført av nivå 2-personell. Hver del leveres med rapport."
+},
+"reel_2_d": {
+"tr": "Kolon, kiriş, platform ve taşıyıcı çerçeveler; EN 1090-2 belgeli atölyemizde imal edilir, sevke hazır teslim edilir.",
+"en": "Columns, beams, platforms and load-bearing frames, fabricated in our EN 1090-2 certified shop and delivered ready to ship.",
+"de": "Stützen, Träger, Bühnen und tragende Rahmen, in unserer nach EN 1090-2 zertifizierten Werkstatt gefertigt und versandfertig geliefert.",
+"es": "Pilares, vigas, plataformas y bastidores portantes, fabricados en nuestro taller certificado EN 1090-2 y entregados listos para envío.",
+"fr": "Poteaux, poutres, plateformes et cadres porteurs, fabriqués dans notre atelier certifié EN 1090-2 et livrés prêts à expédier.",
+"it": "Colonne, travi, piattaforme e telai portanti, realizzati nella nostra officina certificata EN 1090-2 e consegnati pronti per la spedizione.",
+"nl": "Kolommen, liggers, bordessen en dragende frames, gemaakt in onze EN 1090-2 gecertificeerde werkplaats en verzendklaar geleverd.",
+"no": "Søyler, bjelker, plattformer og bærende rammer, laget i vårt EN 1090-2-sertifiserte verksted og levert klar for forsendelse."
+},
+"reel_3_d": {
+"tr": "Uzun lineer dikişler tozaltı (SAW) kaynağıyla; tek bağlamada, tekrarlanabilir kalitede.",
+"en": "Long linear seams by submerged arc welding (SAW), in one setup, with repeatable quality.",
+"de": "Lange Längsnähte im UP-Verfahren (SAW), in einer Aufspannung und mit reproduzierbarer Qualität.",
+"es": "Costuras lineales largas por arco sumergido (SAW), en una sola sujeción y con calidad repetible.",
+"fr": "Longs cordons linéaires à l'arc submergé (SAW), en un seul bridage, avec une qualité reproductible.",
+"it": "Lunghe saldature lineari ad arco sommerso (SAW), in un solo piazzamento, con qualità ripetibile.",
+"nl": "Lange lineaire naden met onderpoederlassen (SAW), in één opspanning en met herhaalbare kwaliteit.",
+"no": "Lange lineære sømmer med pulversveising (SAW), i én oppspenning og med jevn kvalitet."
+},
+"home_aud2_t": {
+"tr": "Makine ve Tesis Üreticileri",
+"en": "Machine and Plant Builders",
+"de": "Maschinen- und Anlagenbauer",
+"es": "Fabricantes de máquinas y plantas",
+"fr": "Constructeurs de machines et d'installations",
+"it": "Costruttori di macchine e impianti",
+"nl": "Machine- en installatiebouwers",
+"no": "Maskin- og anleggsprodusenter"
+},
+"home_aud2_d": {
+"tr": "Makine şaseleri, taban çerçeveleri ve platformlar; EN ISO 3834-2 ve EN 1090-2 kapsamında belgeli üretim.",
+"en": "Machine frames, base frames and platforms, produced with documentation under EN ISO 3834-2 and EN 1090-2.",
+"de": "Maschinenrahmen, Grundrahmen und Bühnen, dokumentiert gefertigt nach EN ISO 3834-2 und EN 1090-2.",
+"es": "Bastidores de máquina, bancadas y plataformas, fabricados con documentación según EN ISO 3834-2 y EN 1090-2.",
+"fr": "Bâtis de machines, châssis de base et plateformes, fabriqués avec documentation selon EN ISO 3834-2 et EN 1090-2.",
+"it": "Telai macchina, basamenti e piattaforme, prodotti con documentazione secondo EN ISO 3834-2 e EN 1090-2.",
+"nl": "Machineframes, grondframes en bordessen, gedocumenteerd gemaakt volgens EN ISO 3834-2 en EN 1090-2.",
+"no": "Maskinrammer, grunnrammer og plattformer, dokumentert produsert etter EN ISO 3834-2 og EN 1090-2."
+},
+"home_aud3_d": {
+"tr": "Taşıyıcı çelik yapılar, montaj yardımı ve sahaya hazır parça paketleri.",
+"en": "Load-bearing steel structures, assembly support and site-ready part kits.",
+"de": "Tragende Stahlkonstruktionen, Montageunterstützung und baustellenfertige Bauteilpakete.",
+"es": "Estructuras de acero portantes, apoyo al montaje y kits de piezas listos para obra.",
+"fr": "Structures acier porteuses, aide au montage et kits de pièces prêts pour le chantier.",
+"it": "Strutture in acciaio portanti, supporto al montaggio e kit di pezzi pronti per il cantiere.",
+"nl": "Dragende staalconstructies, montageondersteuning en bouwklare onderdelenpakketten.",
+"no": "Bærende stålkonstruksjoner, monteringsstøtte og byggeklare delepakker."
+},
+"home_saw_eyebrow": {
+"tr": "Tozaltı Kaynak",
+"en": "Submerged Arc Welding",
+"de": "UP-Schweißen",
+"es": "Arco sumergido",
+"fr": "Arc submergé",
+"it": "Arco sommerso",
+"nl": "Onderpoederlassen",
+"no": "Pulversveising"
+},
+"home_saw_h2": {
+"tr": "Uzun dikişler için <span style=\"color:var(--arc-2)\">tozaltı kaynak.</span>",
+"en": "Submerged arc welding <span style=\"color:var(--arc-2)\">for long seams.</span>",
+"de": "UP-Schweißen <span style=\"color:var(--arc-2)\">für lange Nähte.</span>",
+"es": "Arco sumergido <span style=\"color:var(--arc-2)\">para costuras largas.</span>",
+"fr": "Arc submergé <span style=\"color:var(--arc-2)\">pour les longs cordons.</span>",
+"it": "Arco sommerso <span style=\"color:var(--arc-2)\">per saldature lunghe.</span>",
+"nl": "Onderpoederlassen <span style=\"color:var(--arc-2)\">voor lange naden.</span>",
+"no": "Pulversveising <span style=\"color:var(--arc-2)\">for lange sømmer.</span>"
+},
+"home_svc_r1_brief": {
+"tr": "S235–S355 yapı çeliklerinden S690QL, S960QL ve S700MC yüksek mukavemetli çeliklere ve Hardox aşınma saclarına, onaylı WPS ile kaynak.",
+"en": "From S235–S355 structural steel to S690QL, S960QL and S700MC high-strength steel and Hardox wear plate, welded to approved WPS.",
+"de": "Von Baustahl S235–S355 bis zu hochfesten Stählen S690QL, S960QL und S700MC sowie Hardox-Verschleißblech, geschweißt nach freigegebener WPS.",
+"es": "Desde aceros estructurales S235–S355 hasta aceros de alta resistencia S690QL, S960QL y S700MC y chapa antidesgaste Hardox, soldados según WPS aprobada.",
+"fr": "Des aciers de construction S235–S355 aux aciers à haute résistance S690QL, S960QL et S700MC et aux tôles anti-usure Hardox, soudés selon DMOS approuvé.",
+"it": "Dagli acciai strutturali S235–S355 agli acciai ad alta resistenza S690QL, S960QL e S700MC e alle lamiere antiusura Hardox, saldati secondo WPS approvata.",
+"nl": "Van constructiestaal S235–S355 tot hogesterktestaal S690QL, S960QL en S700MC en Hardox-slijtplaat, gelast volgens goedgekeurde WPS.",
+"no": "Fra konstruksjonsstål S235–S355 til høyfast stål S690QL, S960QL og S700MC og Hardox slitestål, sveiset etter godkjent WPS."
+},
+"home_svc_r2_brief": {
+"tr": "Lazer, plazma ve oksijen kesim denetlenmiş tedarikçilerde, bizim çizim ve yerleşim planımızla; giriş kontrolü ArmaWeld'de.",
+"en": "Laser, plasma and oxy-fuel cutting at audited suppliers, to our drawings and nesting; incoming inspection at ArmaWeld.",
+"de": "Laser-, Plasma- und Brennschneiden bei auditierten Lieferanten nach unseren Zeichnungen und Schachtelplänen; Wareneingangsprüfung bei ArmaWeld.",
+"es": "Corte láser, plasma y oxicorte en proveedores auditados, según nuestros planos y anidado; control de recepción en ArmaWeld.",
+"fr": "Découpe laser, plasma et oxycoupage chez des fournisseurs audités, selon nos plans et notre imbrication ; contrôle de réception chez ArmaWeld.",
+"it": "Taglio laser, plasma e ossitaglio presso fornitori verificati, su nostri disegni e nesting; controllo in accettazione in ArmaWeld.",
+"nl": "Laser-, plasma- en autogeen snijden bij geaudite leveranciers, volgens onze tekeningen en nesting; ingangscontrole bij ArmaWeld.",
+"no": "Laser-, plasma- og gasskjæring hos auditerte leverandører etter våre tegninger og nesting; mottakskontroll hos ArmaWeld."
+},
+"home_svc_r3_brief": {
+"tr": "Abkant büküm denetlenmiş tedarikçilerde; açı ve ölçü kontrolü giriş muayenemizde.",
+"en": "Press brake bending at audited suppliers; angle and dimension checks at our incoming inspection.",
+"de": "Abkanten bei auditierten Lieferanten; Winkel- und Maßkontrolle in unserer Wareneingangsprüfung.",
+"es": "Plegado en prensa en proveedores auditados; control de ángulos y medidas en nuestra recepción.",
+"fr": "Pliage presse chez des fournisseurs audités ; contrôle des angles et cotes à notre réception.",
+"it": "Piegatura in pressa presso fornitori verificati; controllo angoli e quote in accettazione.",
+"nl": "Zetten bij geaudite leveranciers; hoek- en maatcontrole bij onze ingangscontrole.",
+"no": "Kantbukking hos auditerte leverandører; vinkel- og målkontroll i vår mottakskontroll."
+},
+"home_svc_r5_brief": {
+"tr": "Gözle, ölçüsel ve UT muayenesi bünyemizde, Seviye 2 personelle; her dikiş kayıt altında.",
+"en": "Visual, dimensional and UT inspection in house by Level 2 personnel; every weld recorded.",
+"de": "Sicht-, Maß- und UT-Prüfung im eigenen Haus durch Personal der Stufe 2; jede Naht dokumentiert.",
+"es": "Inspección visual, dimensional y UT en casa, con personal de nivel 2; cada soldadura registrada.",
+"fr": "Contrôles visuels, dimensionnels et UT en interne, par du personnel de niveau 2 ; chaque soudure enregistrée.",
+"it": "Controlli visivi, dimensionali e UT interni, con personale di livello 2; ogni saldatura registrata.",
+"nl": "Visuele, maat- en UT-inspectie in eigen huis door niveau 2 personeel; elke las vastgelegd.",
+"no": "Visuell kontroll, målkontroll og UT i eget hus av nivå 2-personell; hver sveis dokumentert."
+},
+"home_svc_r6_brief": {
+"tr": "Hardox ve aşınma saclarından kepçe, bıçak ve gövde parçaları; seri üretim için fikstür ve sabit WPS.",
+"en": "Buckets, blades and body parts in Hardox and wear plate, with fixtures and fixed WPS for series production.",
+"de": "Löffel, Schneiden und Gehäuseteile aus Hardox und Verschleißblech, mit Vorrichtungen und fester WPS für die Serie.",
+"es": "Cucharas, cuchillas y piezas de carrocería en Hardox y chapa antidesgaste, con utillajes y WPS fija para serie.",
+"fr": "Godets, lames et pièces de caisse en Hardox et tôle anti-usure, avec gabarits et DMOS fixe pour la série.",
+"it": "Benne, lame e parti di carrozzeria in Hardox e lamiera antiusura, con attrezzature e WPS fissa per la serie.",
+"nl": "Bakken, messen en carrosseriedelen in Hardox en slijtplaat, met mallen en vaste WPS voor serieproductie.",
+"no": "Skuffer, skjær og karosserideler i Hardox og slitestål, med fiksturer og fast WPS for serie."
+},
+"px_ix_7": {
+"*": "EN ISO 3834-2"
+},
+"home_svc_r7_brief": {
+"tr": "Gezer köprü, pergel ve monoray vinç kirişleri ile kaldırma ekipmanı yapıları; müşteri çizimine göre kaynaklı imalat.",
+"en": "Overhead, jib and monorail crane girders and lifting equipment structures, welded to customer drawings.",
+"de": "Träger für Brücken-, Schwenk- und Einschienenkrane sowie Hebezeugstrukturen, geschweißt nach Kundenzeichnung.",
+"es": "Vigas de puentes grúa, plumas giratorias y monorraíles y estructuras de elevación, soldadas según plano del cliente.",
+"fr": "Poutres de ponts roulants, potences et monorails et structures de levage, soudées selon plan client.",
+"it": "Travi per carroponti, gru a bandiera e monorotaie e strutture di sollevamento, saldate su disegno cliente.",
+"nl": "Liggers voor bovenloop-, zwenk- en monorailkranen en hijsconstructies, gelast volgens klanttekening.",
+"no": "Bjelker for traverskraner, svingkraner og monorail samt løfteutstyr, sveiset etter kundens tegning."
+},
+"home_doc_d5": {
+"tr": "NDT Raporları (VT / UT)",
+"en": "NDT Reports (VT / UT)",
+"de": "ZfP-Berichte (VT / UT)",
+"re": [
+[
+"VT / PT / UT",
+"g",
+"VT / UT"
+]
+]
+},
+"home_doc_d7": {
+"tr": "İlk parça muayene raporu (talep üzerine)",
+"en": "First article inspection report (on request)",
+"de": "Erstmusterprüfbericht (auf Anfrage)",
+"es": "Informe de primera pieza (bajo pedido)",
+"fr": "Rapport de premier article (sur demande)",
+"it": "Rapporto di primo campione (su richiesta)",
+"nl": "Eerste-artikelinspectierapport (op aanvraag)",
+"no": "Førsteartikkelrapport (på forespørsel)"
+},
+"px_ix_17": {
+"*": "WPQR-142"
+},
+"home_blog2_t": {
+"tr": "EN 1090 nedir?",
+"en": "What is EN 1090?",
+"de": "Was ist EN 1090?",
+"es": "¿Qué es EN 1090?",
+"fr": "Qu'est-ce que l'EN 1090 ?",
+"it": "Cos'è la EN 1090?",
+"nl": "Wat is EN 1090?",
+"no": "Hva er EN 1090?"
+},
+"home_blog2_d": {
+"tr": "Yürütme sınıfları, üretim kontrolü ve izlenebilirlik: standart ne ister.",
+"en": "Execution classes, production control and traceability: what the standard asks for.",
+"de": "Ausführungsklassen, Produktionskontrolle und Rückverfolgbarkeit: was die Norm verlangt.",
+"es": "Clases de ejecución, control de producción y trazabilidad: lo que pide la norma.",
+"fr": "Classes d'exécution, contrôle de production et traçabilité : ce que demande la norme.",
+"it": "Classi di esecuzione, controllo di produzione e tracciabilità: cosa chiede la norma.",
+"nl": "Uitvoeringsklassen, productiebeheersing en traceerbaarheid: wat de norm vraagt.",
+"no": "Utførelsesklasser, produksjonskontroll og sporbarhet: hva standarden krever."
+},
+"deep_certs_badges_html": {
+"re": [
+[
+"EN 1090-2 <em>EXC3</em>",
+"g",
+"EN 1090-2"
+],
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*?)\\s*·\\s*CE[^<]*",
+"",
+"$1"
+],
+[
+"MAG, TIG ve MMA",
+"g",
+"MAG, özlü tel, TIG ve tozaltı"
+],
+[
+"MAG, TIG and MMA",
+"g",
+"MAG, flux-cored, TIG and submerged arc"
+],
+[
+"MAG, WIG und E-Hand",
+"g",
+"MAG, Fülldraht, WIG und UP"
+]
+],
+"re_tr": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Çelik yapıların icrası için teknik gereklilikler kapsamında belgeli kaynaklı imalat."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1UT ve RT film değerlendirme Seviye 2, VT Seviye 2 belgeli muayene personeli."
+]
+],
+"re_en": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Certified welded fabrication to the technical requirements for the execution of steel structures."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Inspection personnel certified Level 2 in UT, RT film interpretation and VT."
+]
+],
+"re_de": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Zertifizierte Schweißfertigung nach den technischen Anforderungen an die Ausführung von Stahltragwerken."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Prüfpersonal mit Stufe 2 in UT, RT-Filmauswertung und VT."
+]
+],
+"re_es": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Fabricación soldada certificada según los requisitos técnicos para la ejecución de estructuras de acero."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Personal de inspección certificado nivel 2 en UT, interpretación de película RT y VT."
+]
+],
+"re_fr": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Fabrication soudée certifiée selon les exigences techniques pour l'exécution des structures en acier."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Personnel de contrôle certifié niveau 2 en UT, interprétation de films RT et VT."
+]
+],
+"re_it": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Carpenteria saldata certificata secondo i requisiti tecnici per l'esecuzione di strutture in acciaio."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Personale di controllo certificato livello 2 in UT, interpretazione pellicole RT e VT."
+]
+],
+"re_nl": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Gecertificeerd laswerk volgens de technische eisen voor de uitvoering van staalconstructies."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Inspectiepersoneel gecertificeerd niveau 2 in UT, RT-filmbeoordeling en VT."
+]
+],
+"re_no": [
+[
+"(<h3 class=\"cert-card-code\">EN 1090-2</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Sertifisert sveiseproduksjon etter de tekniske kravene til utførelse av stålkonstruksjoner."
+],
+[
+"(<h3 class=\"cert-card-code\">EN ISO 9712</h3><p class=\"cert-card-scope\">[^<]*</p><p class=\"cert-card-desc\">)[^<]*",
+"",
+"$1Kontrollpersonell sertifisert nivå 2 i UT, RT-filmtolkning og VT."
+]
+]
+}
+}

@@ -43,7 +43,7 @@ export default {
 <li>Hangi NDT yöntemlerini kendi personelinizle, hangilerini iş ortağıyla yapıyorsunuz?</li>
 <li>Uzun parçalarda ölçüyü nasıl kontrol ediyorsunuz?</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Bom, kiriş ve şasi gibi uzun kaynaklı parçaları 35 m tozaltı kaynak makinemiz ve gazaltı kaynakla üretiyoruz. VT, PT, MT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyor, RT çekimini iş ortağımızla koordine edip filmleri Seviye 2 olarak değerlendiriyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
+<div class="callout"><p>VT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyor, RT çekimini iş ortağımızla koordine edip filmleri Seviye 2 olarak değerlendiriyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
 `,
     faq: [
       ['EN 13001 kaynak kalitesi için ne ister?', 'Tasarımda varsayılan detay kategorileri ve kalite seviyeleri (genellikle ISO 5817 B veya C, gerekirse ek şartlarla) imalatta sağlanmalıdır.'],
@@ -93,7 +93,7 @@ export default {
 <li>Which NDT methods do you perform yourselves, and which through partners?</li>
 <li>How do you control dimensions on long parts?</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we produce long welded parts such as booms, girders and frames with our 35 m submerged arc welding machine and MAG welding. VT, PT, MT and UT are carried out by our ISO 9712 Level 2 staff; RT exposure is coordinated with our partner and the films are evaluated by us at Level 2. <a href="../sasi-bom-imalati.html">Frame and boom fabrication →</a></p></div>
+<div class="callout"><p>VT and UT are carried out by our ISO 9712 Level 2 staff; RT exposure is coordinated with our partner and the films are evaluated by us at Level 2. <a href="../sasi-bom-imalati.html">Frame and boom fabrication →</a></p></div>
 `,
     faq: [
       ['What does EN 13001 require for weld quality?', 'The detail categories and quality levels assumed in design (usually ISO 5817 B or C, with extra requirements if needed) must be achieved in fabrication.'],
@@ -143,7 +143,7 @@ export default {
 <li>Welche ZfP-Verfahren führen Sie selbst durch, welche über Partner?</li>
 <li>Wie kontrollieren Sie Maße an langen Teilen?</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Lange Schweißteile wie Ausleger, Träger und Rahmen fertigen wir mit unserer 35-m-Unterpulver-Schweißanlage und MAG-Schweißen. VT, PT, MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; die RT-Aufnahmen koordinieren wir mit unserem Partner und werten die Filme selbst auf Stufe 2 aus. <a href="../sasi-bom-imalati.html">Rahmen und Ausleger →</a></p></div>
+<div class="callout"><p>VT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; die RT-Aufnahmen koordinieren wir mit unserem Partner und werten die Filme selbst auf Stufe 2 aus. <a href="../sasi-bom-imalati.html">Rahmen und Ausleger →</a></p></div>
 `,
     faq: [
       ['Was verlangt EN 13001 an Nahtqualität?', 'Die in der Auslegung angenommenen Kerbfälle und Bewertungsgruppen (meist ISO 5817 B oder C, ggf. mit Zusatzanforderungen) müssen in der Fertigung erreicht werden.'],
@@ -193,7 +193,7 @@ export default {
 <li>¿Qué métodos END realiza con personal propio y cuáles con socios?</li>
 <li>¿Cómo controla las cotas en piezas largas?</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> fabricamos piezas soldadas largas como plumas, vigas y chasis con nuestra máquina de arco sumergido de 35 m y soldadura MAG. VT, PT, MT y UT los realiza nuestro personal ISO 9712 nivel 2; la exposición RT se coordina con nuestro socio y evaluamos las películas con nivel 2. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
+<div class="callout"><p>VT y UT los realiza nuestro personal ISO 9712 nivel 2; la exposición RT se coordina con nuestro socio y evaluamos las películas con nivel 2. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
 `,
     faq: [
       ['¿Qué exige la EN 13001 en calidad de soldadura?', 'Que en fabricación se logren las categorías de detalle y niveles de calidad supuestos en el diseño (normalmente ISO 5817 B o C, con requisitos adicionales si procede).'],
@@ -243,7 +243,7 @@ export default {
 <li>Quelles méthodes CND réalisez-vous vous-mêmes, lesquelles via des partenaires ?</li>
 <li>Comment contrôlez-vous les cotes des pièces longues ?</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous fabriquons des pièces soudées longues comme flèches, poutres et châssis avec notre machine de soudage à l'arc submergé de 35 m et en MAG. VT, PT, MT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la prise de vue RT est coordonnée avec notre partenaire et nous interprétons les films au niveau 2. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
+<div class="callout"><p>VT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la prise de vue RT est coordonnée avec notre partenaire et nous interprétons les films au niveau 2. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
 `,
     faq: [
       ['Que demande l\'EN 13001 pour la qualité des soudures ?', 'Que les catégories de détail et niveaux de qualité supposés au calcul (souvent ISO 5817 B ou C, avec exigences complémentaires si besoin) soient atteints en fabrication.'],
@@ -293,7 +293,7 @@ export default {
 <li>Quali CND eseguite internamente e quali tramite partner?</li>
 <li>Come controllate le quote sui pezzi lunghi?</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> realizziamo parti saldate lunghe come bracci, travi e telai con la nostra macchina ad arco sommerso da 35 m e saldatura MAG. VT, PT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; l'esposizione RT è coordinata con il nostro partner e le pellicole sono valutate da noi a livello 2. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
+<div class="callout"><p>VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; l'esposizione RT è coordinata con il nostro partner e le pellicole sono valutate da noi a livello 2. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
 `,
     faq: [
       ['Cosa richiede la EN 13001 per la qualità delle saldature?', 'Che in produzione si ottengano le categorie di dettaglio e i livelli di qualità supposti in progetto (di solito ISO 5817 B o C, con requisiti aggiuntivi se necessario).'],
@@ -343,7 +343,7 @@ export default {
 <li>Welke NDO-methoden doet u zelf, welke via partners?</li>
 <li>Hoe controleert u maten op lange onderdelen?</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> lange gelaste onderdelen zoals gieken, liggers en chassis maken we met onze 35 m onder-poeder-lasmachine en MAG-lassen. VT, PT, MT en UT voert ons personeel met ISO 9712 niveau 2 uit; RT-opnamen coördineren we met onze partner en de films beoordelen we zelf op niveau 2. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
+<div class="callout"><p>VT en UT voert ons personeel met ISO 9712 niveau 2 uit; RT-opnamen coördineren we met onze partner en de films beoordelen we zelf op niveau 2. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
 `,
     faq: [
       ['Wat eist EN 13001 aan laskwaliteit?', 'Dat de in het ontwerp aangenomen detailcategorieën en kwaliteitsniveaus (meestal ISO 5817 B of C, zo nodig met extra eisen) in de fabricage worden gehaald.'],
@@ -393,7 +393,7 @@ export default {
 <li>Hvilke NDT-metoder gjør dere selv, og hvilke via partnere?</li>
 <li>Hvordan kontrollerer dere mål på lange deler?</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> lange sveiste deler som bommer, bjelker og rammer produserer vi med vår 35 m pulverbuesveisemaskin og MAG-sveising. VT, PT, MT og UT utføres av vårt personell med ISO 9712 nivå 2; RT-eksponering koordineres med vår partner, og filmene tolker vi selv på nivå 2. <a href="../sasi-bom-imalati.html">Rammer og bommer →</a></p></div>
+<div class="callout"><p>VT og UT utføres av vårt personell med ISO 9712 nivå 2; RT-eksponering koordineres med vår partner, og filmene tolker vi selv på nivå 2. <a href="../sasi-bom-imalati.html">Rammer og bommer →</a></p></div>
 `,
     faq: [
       ['Hva krever EN 13001 av sveisekvalitet?', 'At detaljkategoriene og kvalitetsnivåene forutsatt i beregningen (vanligvis ISO 5817 B eller C, med tilleggskrav ved behov) oppnås i produksjonen.'],

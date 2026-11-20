@@ -39,7 +39,7 @@ export default {
 <li>İşlenecek yüzeyler ve toleranslar.</li>
 <li>Sızdırmazlık testi beklentisi.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Karıştırıcı üreticileri için karbon çelik ve paslanmaz tekne/gövdeleri çizime göre kaynaklıyoruz. Sac büküm ve silindir çekmeyi, kaynak sonrası yatak yuvası işlemeyi iş ortaklarımızla koordine ediyor, tekne radyüsü ve yatak hizası ölçülerini raporluyoruz. <a href="../makine-sasesi-imalati.html">Makine gövdesi imalatı →</a></p></div>
+<div class="callout"><p>Sac büküm ve silindir çekmeyi, kaynak sonrası yatak yuvası işlemeyi iş ortaklarımızla koordine ediyor, tekne radyüsü ve yatak hizası ölçülerini raporluyoruz. <a href="../makine-sasesi-imalati.html">Makine gövdesi imalatı →</a></p></div>
 `,
     faq: [
       ['Mikser teknesinde en kritik ölçü nedir?', 'Tekne iç radyüsü ve karıştırıcı elemanlarla tekne arasındaki boşluk; ayrıca yatak yuvalarının eş eksenliliği.'],
@@ -85,7 +85,7 @@ export default {
 <li>Machined surfaces and tolerances.</li>
 <li>Tightness test expectations.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld carbon steel and stainless troughs and bodies for mixer manufacturers to drawing. Bending and rolling as well as post-weld machining of bearing seats are coordinated with our partners, and trough radius and bearing alignment are reported. <a href="../makine-sasesi-imalati.html">Machine body manufacturing →</a></p></div>
+<div class="callout"><p>Bending and rolling as well as post-weld machining of bearing seats are coordinated with our partners, and trough radius and bearing alignment are reported. <a href="../makine-sasesi-imalati.html">Machine body manufacturing →</a></p></div>
 `,
     faq: [
       ['What is the most critical dimension of a mixer trough?', 'Inner radius and clearance to the mixing elements; also coaxial bearing seats.'],
@@ -131,7 +131,7 @@ export default {
 <li>Bearbeitete Flächen und Toleranzen.</li>
 <li>Erwartung an Dichtheitsprüfung.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Tröge und Gehäuse aus C-Stahl und Edelstahl für Mischerhersteller nach Zeichnung. Kanten und Rundbiegen sowie die Bearbeitung der Lagersitze nach dem Schweißen koordinieren wir mit Partnern und dokumentieren Trogradius und Lagerfluchtung. <a href="../makine-sasesi-imalati.html">Maschinengehäuse →</a></p></div>
+<div class="callout"><p>Kanten und Rundbiegen sowie die Bearbeitung der Lagersitze nach dem Schweißen koordinieren wir mit Partnern und dokumentieren Trogradius und Lagerfluchtung. <a href="../makine-sasesi-imalati.html">Maschinengehäuse →</a></p></div>
 `,
     faq: [
       ['Was ist das kritischste Maß am Mischertrog?', 'Innenradius und Spalt zu den Mischwerkzeugen; außerdem fluchtende Lagersitze.'],
@@ -177,7 +177,7 @@ export default {
 <li>Superficies mecanizadas y tolerancias.</li>
 <li>Prueba de estanqueidad esperada.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos cubas y cuerpos en acero al carbono e inoxidable para fabricantes de mezcladoras según plano. Coordinamos plegado, curvado y mecanizado de alojamientos tras soldar con socios, e informamos radio de cuba y alineación. <a href="../makine-sasesi-imalati.html">Cuerpos de máquina →</a></p></div>
+<div class="callout"><p>Coordinamos plegado, curvado y mecanizado de alojamientos tras soldar con socios, e informamos radio de cuba y alineación. <a href="../makine-sasesi-imalati.html">Cuerpos de máquina →</a></p></div>
 `,
     faq: [
       ['¿Cuál es la medida más crítica?', 'El radio interior y la holgura con los elementos; también la coaxialidad de alojamientos.'],
@@ -223,7 +223,7 @@ export default {
 <li>Surfaces usinées et tolérances.</li>
 <li>Essai d'étanchéité attendu.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons selon plan des cuves et corps en acier carbone et inox pour constructeurs de mélangeurs. Pliage, roulage et usinage des portées après soudage sont coordonnés avec nos partenaires ; rayon de cuve et alignement sont consignés. <a href="../makine-sasesi-imalati.html">Corps de machines →</a></p></div>
+<div class="callout"><p>Pliage, roulage et usinage des portées après soudage sont coordonnés avec nos partenaires ; rayon de cuve et alignement sont consignés. <a href="../makine-sasesi-imalati.html">Corps de machines →</a></p></div>
 `,
     faq: [
       ['Quelle est la cote la plus critique ?', 'Le rayon intérieur et le jeu avec les outils ; ainsi que la coaxialité des portées.'],
@@ -269,7 +269,7 @@ export default {
 <li>Superfici lavorate e tolleranze.</li>
 <li>Prova di tenuta prevista.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo a disegno vasche e corpi in acciaio al carbonio e inox per costruttori di miscelatori. Piegatura, calandratura e lavorazione delle sedi dopo saldatura sono coordinate con i partner; registriamo raggio della vasca e allineamento. <a href="../makine-sasesi-imalati.html">Corpi macchina →</a></p></div>
+<div class="callout"><p>Piegatura, calandratura e lavorazione delle sedi dopo saldatura sono coordinate con i partner; registriamo raggio della vasca e allineamento. <a href="../makine-sasesi-imalati.html">Corpi macchina →</a></p></div>
 `,
     faq: [
       ['Qual è la quota più critica?', 'Il raggio interno e il gioco con gli utensili; inoltre la coassialità delle sedi.'],
@@ -315,7 +315,7 @@ export default {
 <li>Bewerkte vlakken en toleranties.</li>
 <li>Verwachte dichtheidstest.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen kuipen en behuizingen in koolstofstaal en rvs voor mengerbouwers volgens tekening. Zetten, walsen en het nabewerken van lagerzittingen coördineren we met partners, en kuipradius en uitlijning rapporteren we. <a href="../makine-sasesi-imalati.html">Machinebehuizingen →</a></p></div>
+<div class="callout"><p>Zetten, walsen en het nabewerken van lagerzittingen coördineren we met partners, en kuipradius en uitlijning rapporteren we. <a href="../makine-sasesi-imalati.html">Machinebehuizingen →</a></p></div>
 `,
     faq: [
       ['Wat is de meest kritische maat?', 'Binnenradius en speling met de mengelementen; ook coaxiale lagerzittingen.'],
@@ -361,7 +361,7 @@ export default {
 <li>Maskinerte flater og toleranser.</li>
 <li>Forventet tetthetsprøve.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser trau og hus i karbonstål og rustfritt for blanderprodusenter etter tegning. Bøying, valsing og maskinering av lagerseter etter sveising koordineres med partnere, og trauradius og oppretting rapporteres. <a href="../makine-sasesi-imalati.html">Maskinhus →</a></p></div>
+<div class="callout"><p>Bøying, valsing og maskinering av lagerseter etter sveising koordineres med partnere, og trauradius og oppretting rapporteres. <a href="../makine-sasesi-imalati.html">Maskinhus →</a></p></div>
 `,
     faq: [
       ['Hva er det mest kritiske målet?', 'Innvendig radius og klaring mot blandeelementene; også koaksiale lagerseter.'],

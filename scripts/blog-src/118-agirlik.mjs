@@ -169,7 +169,7 @@ export default {
 <li>La chapa más fina puede aumentar la distorsión; utillajes y secuencia ganan peso.</li>
 <li>Los aceros de alta resistencia requieren radios de plegado mayores; implicar pronto al socio de plegado.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> en proyectos de aligeramiento evaluamos la parte de fabricación: control del aporte térmico en aceros de alta resistencia, tamaño de cordones y reducción de soldaduras mediante corte y plegado. Corte y plegado se coordinan con socios; la aprobación estructural es siempre del titular del diseño. <a href="../makine-sasesi-imalati.html">Fabricación de bastidores →</a></p></div>
+<div class="callout"><p>Corte y plegado se coordinan con socios; la aprobación estructural es siempre del titular del diseño. <a href="../makine-sasesi-imalati.html">Fabricación de bastidores →</a></p></div>
 `,
     faq: [
       ['¿El acero de alta resistencia siempre aligera?', 'Con carga estática sí; si mandan fatiga o rigidez, la ganancia puede ser limitada.'],
@@ -213,7 +213,7 @@ export default {
 <li>Des tôles plus minces peuvent accroître les déformations ; gabarits et séquence de soudage gagnent en importance.</li>
 <li>Les aciers à haute limite élastique demandent des rayons de pliage plus grands ; associer tôt le partenaire de pliage.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> dans les projets d'allègement, nous évaluons le volet fabrication : maîtrise de l'énergie de soudage sur aciers à haute limite élastique, tailles de cordons et réduction des soudures par découpe et pliage. Découpe et pliage sont coordonnés avec nos partenaires ; la validation structurelle revient toujours au responsable de la conception. <a href="../makine-sasesi-imalati.html">Fabrication de bâtis →</a></p></div>
+<div class="callout"><p>Découpe et pliage sont coordonnés avec nos partenaires ; la validation structurelle revient toujours au responsable de la conception. <a href="../makine-sasesi-imalati.html">Fabrication de bâtis →</a></p></div>
 `,
     faq: [
       ['L\'acier à haute limite élastique allège-t-il toujours ?', 'Sous charge statique oui ; si fatigue ou rigidité dimensionnent, le gain peut être limité.'],
@@ -257,7 +257,7 @@ export default {
 <li>Lamiere più sottili possono aumentare le deformazioni; attrezzature e sequenza diventano più importanti.</li>
 <li>Gli acciai ad alta resistenza richiedono raggi di piegatura maggiori; coinvolgere presto il partner di piegatura.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> nei progetti di alleggerimento valutiamo il lato produttivo: controllo dell'apporto termico sugli acciai ad alta resistenza, dimensioni dei cordoni e riduzione delle saldature con taglio e piegatura. Taglio e piegatura sono coordinati con i partner; l'approvazione strutturale spetta sempre al responsabile del progetto. <a href="../makine-sasesi-imalati.html">Produzione di telai macchina →</a></p></div>
+<div class="callout"><p>Taglio e piegatura sono coordinati con i partner; l'approvazione strutturale spetta sempre al responsabile del progetto. <a href="../makine-sasesi-imalati.html">Produzione di telai macchina →</a></p></div>
 `,
     faq: [
       ['L\'acciaio ad alta resistenza alleggerisce sempre?', 'Con carichi statici sì; se dominano fatica o rigidezza, il guadagno può essere limitato.'],

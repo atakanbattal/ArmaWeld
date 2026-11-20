@@ -74,7 +74,7 @@ export default {
 <li>Ret alan dikişler varsa onarım ve tekrar muayene raporları ekli mi?</li>
 <li>Bekleme süresi gereken çeliklerde muayene zamanı yazılmış mı?</li>
 </ol>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> VT, PT, MT ve UT muayeneleri ISO 9712 Seviye 2 sertifikalı personelimiz tarafından yapılır. RT çekimi iş ortağımız tarafından yapılır, filmler ekibimizde Seviye 2 personel tarafından değerlendirilir. Raporlar parça, dikiş ve revizyon numarasıyla eşleştirilir ve müşteri portalında siparişe bağlı olarak saklanır. <a href="../ndt.html">NDT hizmetlerimizi inceleyin →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> VT ve UT muayeneleri ISO 9712 Seviye 2 sertifikalı personelimiz tarafından yapılır. RT çekimi iş ortağımız tarafından yapılır, filmler ekibimizde Seviye 2 personel tarafından değerlendirilir. Raporlar parça, dikiş ve revizyon numarasıyla eşleştirilir ve müşteri portalında siparişe bağlı olarak saklanır. <a href="../ndt.html">NDT hizmetlerimizi inceleyin →</a></p></div>
 `,
     faq: [
       ['Muayene raporunu kim imzalamalı?', 'Sonucu değerlendiren ve raporu onaylayan kişi ilgili yöntemde ISO 9712 Seviye 2 veya Seviye 3 sertifikalı olmalıdır. Seviye 1 personel muayeneyi yapabilir ancak sonucu tek başına değerlendiremez.'],
@@ -155,7 +155,7 @@ export default {
 <li>If welds were rejected, are the repair and re-test reports attached?</li>
 <li>For steels needing a hold time, is the time of testing stated?</li>
 </ol>
-<div class="callout"><p><strong>At ArmaWeld:</strong> VT, PT, MT and UT are carried out by our ISO 9712 Level 2 certified personnel. RT exposure is performed by our partner and films are evaluated by Level 2 personnel in our team. Reports are matched to part, weld and revision numbers and stored against the order in the customer portal. <a href="../ndt.html">See our NDT services →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> VT and UT are carried out by our ISO 9712 Level 2 certified personnel. RT exposure is performed by our partner and films are evaluated by Level 2 personnel in our team. Reports are matched to part, weld and revision numbers and stored against the order in the customer portal. <a href="../ndt.html">See our NDT services →</a></p></div>
 `,
     faq: [
       ['Who should sign an inspection report?', 'The person evaluating the result and approving the report should hold ISO 9712 Level 2 or Level 3 in the method. Level 1 personnel may perform the test but cannot evaluate the result on their own.'],
@@ -236,7 +236,7 @@ export default {
 <li>Liegen bei unzulässigen Nähten Reparatur- und Wiederholungsberichte bei?</li>
 <li>Ist bei Stählen mit Wartezeit der Prüfzeitpunkt angegeben?</li>
 </ol>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> VT, PT, MT und UT führt unser nach ISO 9712 Stufe 2 zertifiziertes Personal durch. RT-Aufnahmen erstellt unser Partner, die Filme bewertet Stufe-2-Personal in unserem Team. Berichte werden Teil-, Naht- und Revisionsnummer zugeordnet und im Kundenportal beim Auftrag abgelegt. <a href="../ndt.html">Unsere ZfP-Leistungen →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> VT und UT führt unser nach ISO 9712 Stufe 2 zertifiziertes Personal durch. RT-Aufnahmen erstellt unser Partner, die Filme bewertet Stufe-2-Personal in unserem Team. Berichte werden Teil-, Naht- und Revisionsnummer zugeordnet und im Kundenportal beim Auftrag abgelegt. <a href="../ndt.html">Unsere ZfP-Leistungen →</a></p></div>
 `,
     faq: [
       ['Wer muss einen Prüfbericht unterschreiben?', 'Wer das Ergebnis bewertet und freigibt, braucht im jeweiligen Verfahren ISO 9712 Stufe 2 oder 3. Stufe-1-Personal darf prüfen, aber nicht eigenständig bewerten.'],
@@ -317,7 +317,7 @@ export default {
 <li>Si hubo rechazos, ¿se adjuntan los informes de reparación y reensayo?</li>
 <li>En aceros con tiempo de espera, ¿consta el momento del ensayo?</li>
 </ol>
-<div class="callout"><p><strong>En ArmaWeld:</strong> VT, PT, MT y UT los realiza nuestro personal certificado ISO 9712 nivel 2. La exposición RT la hace nuestro socio y las películas las evalúa personal de nivel 2 de nuestro equipo. Los informes se vinculan a pieza, cordón y revisión y se guardan con el pedido en el portal del cliente. <a href="../ndt.html">Nuestros servicios de END →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> VT y UT los realiza nuestro personal certificado ISO 9712 nivel 2. La exposición RT la hace nuestro socio y las películas las evalúa personal de nivel 2 de nuestro equipo. Los informes se vinculan a pieza, cordón y revisión y se guardan con el pedido en el portal del cliente. <a href="../ndt.html">Nuestros servicios de END →</a></p></div>
 `,
     faq: [
       ['¿Quién debe firmar un informe de inspección?', 'Quien evalúa el resultado y aprueba el informe debe tener nivel 2 o 3 ISO 9712 en el método. El personal de nivel 1 puede ensayar, pero no evaluar por sí solo.'],
@@ -398,7 +398,7 @@ export default {
 <li>En cas de refus, les rapports de réparation et de recontrôle sont-ils joints ?</li>
 <li>Pour les aciers nécessitant un délai, le moment du contrôle est-il indiqué ?</li>
 </ol>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> VT, PT, MT et UT sont réalisés par notre personnel certifié ISO 9712 niveau 2. Les tirs RT sont réalisés par notre partenaire et les films interprétés par du personnel niveau 2 de notre équipe. Les rapports sont rattachés à la pièce, au cordon et à l’indice et archivés avec la commande dans le portail client. <a href="../ndt.html">Nos prestations CND →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> VT et UT sont réalisés par notre personnel certifié ISO 9712 niveau 2. Les tirs RT sont réalisés par notre partenaire et les films interprétés par du personnel niveau 2 de notre équipe. Les rapports sont rattachés à la pièce, au cordon et à l’indice et archivés avec la commande dans le portail client. <a href="../ndt.html">Nos prestations CND →</a></p></div>
 `,
     faq: [
       ['Qui doit signer un rapport de contrôle ?', 'La personne qui interprète le résultat et approuve le rapport doit être certifiée ISO 9712 niveau 2 ou 3 dans la méthode. Un niveau 1 peut contrôler mais pas interpréter seul.'],
@@ -479,7 +479,7 @@ export default {
 <li>In caso di rifiuti, sono allegati i rapporti di riparazione e ricontrollo?</li>
 <li>Per acciai con tempo di attesa, è indicato il momento del controllo?</li>
 </ol>
-<div class="callout"><p><strong>In ArmaWeld:</strong> VT, PT, MT e UT sono eseguiti dal nostro personale certificato ISO 9712 livello 2. Le esposizioni RT sono eseguite dal nostro partner e le pellicole interpretate da personale di livello 2 del nostro team. I rapporti sono collegati a pezzo, cordone e revisione e archiviati con l’ordine nel portale clienti. <a href="../ndt.html">I nostri servizi CND →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> VT e UT sono eseguiti dal nostro personale certificato ISO 9712 livello 2. Le esposizioni RT sono eseguite dal nostro partner e le pellicole interpretate da personale di livello 2 del nostro team. I rapporti sono collegati a pezzo, cordone e revisione e archiviati con l’ordine nel portale clienti. <a href="../ndt.html">I nostri servizi CND →</a></p></div>
 `,
     faq: [
       ['Chi deve firmare un rapporto di controllo?', 'Chi valuta il risultato e approva il rapporto deve essere certificato ISO 9712 livello 2 o 3 nel metodo. Il livello 1 può eseguire la prova ma non valutarla da solo.'],
@@ -560,7 +560,7 @@ export default {
 <li>Zijn bij afgekeurde lassen reparatie- en herkeuringsrapporten bijgevoegd?</li>
 <li>Is bij staalsoorten met wachttijd het tijdstip van beproeving vermeld?</li>
 </ol>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> VT, PT, MT en UT worden uitgevoerd door ons ISO 9712 niveau 2 gecertificeerde personeel. RT-opnamen maakt onze partner, de films worden beoordeeld door niveau 2-personeel in ons team. Rapporten worden gekoppeld aan onderdeel-, las- en revisienummer en bij de order opgeslagen in het klantenportaal. <a href="../ndt.html">Onze NDO-diensten →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> VT en UT worden uitgevoerd door ons ISO 9712 niveau 2 gecertificeerde personeel. RT-opnamen maakt onze partner, de films worden beoordeeld door niveau 2-personeel in ons team. Rapporten worden gekoppeld aan onderdeel-, las- en revisienummer en bij de order opgeslagen in het klantenportaal. <a href="../ndt.html">Onze NDO-diensten →</a></p></div>
 `,
     faq: [
       ['Wie moet een inspectierapport ondertekenen?', 'Wie het resultaat beoordeelt en het rapport goedkeurt, moet ISO 9712 niveau 2 of 3 in de methode hebben. Niveau 1 mag testen, maar niet zelfstandig beoordelen.'],
@@ -641,7 +641,7 @@ export default {
 <li>Er reparasjons- og omprøvingsrapporter vedlagt for avviste sveiser?</li>
 <li>Er prøvingstidspunktet oppgitt for stål som krever ventetid?</li>
 </ol>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> VT, PT, MT og UT utføres av vårt ISO 9712 nivå 2-sertifiserte personell. RT-eksponering utføres av vår partner, og filmene vurderes av nivå 2-personell i vårt team. Rapportene knyttes til del-, sveise- og revisjonsnummer og lagres på ordren i kundeportalen. <a href="../ndt.html">Våre NDT-tjenester →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> VT og UT utføres av vårt ISO 9712 nivå 2-sertifiserte personell. RT-eksponering utføres av vår partner, og filmene vurderes av nivå 2-personell i vårt team. Rapportene knyttes til del-, sveise- og revisjonsnummer og lagres på ordren i kundeportalen. <a href="../ndt.html">Våre NDT-tjenester →</a></p></div>
 `,
     faq: [
       ['Hvem skal signere en inspeksjonsrapport?', 'Den som vurderer resultatet og godkjenner rapporten, må ha ISO 9712 nivå 2 eller 3 i metoden. Nivå 1-personell kan utføre prøvingen, men ikke vurdere resultatet alene.'],

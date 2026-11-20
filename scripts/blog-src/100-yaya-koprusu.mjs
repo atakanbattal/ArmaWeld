@@ -29,7 +29,7 @@ export default {
 <p>Dış ortam ve uzun ömür beklentisi nedeniyle köprülerde kaplama sistemi ISO 12944'e göre ortam sınıfı ve dayanım süresiyle tanımlanır (bkz. <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">ISO 12944 korozyon sınıfları</a>). Sıcak daldırma galvaniz ve üzerine boya (dupleks sistem) sık kullanılır; galvaniz banyosunun ölçüleri parça bölümlemesini etkiler.</p>
 <h2>Nakliye ve Montaj</h2>
 <p>Köprü, karayolu ölçülerine ve galvaniz banyosuna sığacak parçalara bölünür; ekler cıvatalı veya şantiye kaynaklı olarak tasarlanır. Kritik projelerde atölyede deneme montajı yapılarak ek yerlerinin uyumu kontrol edilir; parçalar montaj sırasına göre işaretlenir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Köprü kirişlerini ve kafes elemanlarını çizime göre kaynaklıyor, VT, MT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyoruz. Kesim, galvaniz, boya, nakliye ve montajı iş ortaklarımızla koordine ediyoruz. <a href="../celik-konstruksiyon.html">Çelik konstrüksiyon →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Köprü kirişlerini ve kafes elemanlarını çizime göre kaynaklıyor, VT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyoruz. Kesim, galvaniz, boya, nakliye ve montajı iş ortaklarımızla koordine ediyoruz. <a href="../celik-konstruksiyon.html">Çelik konstrüksiyon →</a></p></div>
 `,
     faq: [
       ['Yaya köprüsünde hangi EN 1090 sınıfı istenir?', 'Sınıfı proje belirler; Avrupa\'da köprüler genellikle EXC3 ile istenir.'],
@@ -65,7 +65,7 @@ export default {
 <p>Given outdoor exposure and long life expectations, the coating system is defined under ISO 12944 by corrosivity category and durability (see <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">ISO 12944 corrosivity categories</a>). Hot-dip galvanising plus paint (duplex) is common; galvanising bath dimensions affect how the bridge is split.</p>
 <h2>Transport and Erection</h2>
 <p>The bridge is split into pieces that fit road limits and the galvanising bath; splices are designed as bolted or site welded. On critical projects a trial assembly in the shop checks splice fit, and parts are marked in erection sequence.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bridge girders and truss members to drawing; VT, MT and UT are done by our ISO 9712 Level 2 staff. Cutting, galvanising, painting, transport and erection are coordinated with our partners. <a href="../celik-konstruksiyon.html">Steel construction →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bridge girders and truss members to drawing; VT and UT are done by our ISO 9712 Level 2 staff. Cutting, galvanising, painting, transport and erection are coordinated with our partners. <a href="../celik-konstruksiyon.html">Steel construction →</a></p></div>
 `,
     faq: [
       ['Which EN 1090 class for a footbridge?', 'The project sets it; in Europe bridges are usually EXC3.'],
@@ -101,7 +101,7 @@ export default {
 <p>Wegen Außenbewitterung und langer Lebensdauer wird das Beschichtungssystem nach ISO 12944 mit Korrosivitätskategorie und Schutzdauer festgelegt (siehe <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">ISO 12944 Kategorien</a>). Feuerverzinkung plus Beschichtung (Duplex) ist verbreitet; die Kesselmaße beeinflussen die Stückelung.</p>
 <h2>Transport und Montage</h2>
 <p>Die Brücke wird in straßen- und kesseltaugliche Stücke geteilt; Stöße werden geschraubt oder baustellengeschweißt geplant. Bei kritischen Projekten prüft eine Probemontage im Werk die Passung; Teile werden in Montagereihenfolge gekennzeichnet.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Brückenträger und Fachwerkstäbe nach Zeichnung; VT, MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Zuschnitt, Verzinkung, Beschichtung, Transport und Montage koordinieren wir mit Partnern. <a href="../celik-konstruksiyon.html">Stahlbau →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Brückenträger und Fachwerkstäbe nach Zeichnung; VT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Zuschnitt, Verzinkung, Beschichtung, Transport und Montage koordinieren wir mit Partnern. <a href="../celik-konstruksiyon.html">Stahlbau →</a></p></div>
 `,
     faq: [
       ['Welche EN-1090-Klasse für Fußgängerbrücken?', 'Das Projekt legt sie fest; Brücken in Europa meist EXC3.'],
@@ -137,7 +137,7 @@ export default {
 <p>El sistema se define según ISO 12944 por categoría de corrosividad y durabilidad (ver <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">categorías ISO 12944</a>). El sistema dúplex (galvanizado más pintura) es habitual; el tamaño de la cuba condiciona la división.</p>
 <h2>Transporte y montaje</h2>
 <p>La pasarela se divide en tramos aptos para carretera y cuba; los empalmes se diseñan atornillados o soldados en obra. En proyectos críticos se premonta en taller para comprobar los empalmes y se marcan las piezas en orden de montaje.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos vigas y barras de celosía según plano; VT, MT y UT los realiza nuestro personal ISO 9712 Nivel 2. Corte, galvanizado, pintura, transporte y montaje se coordinan con socios. <a href="../celik-konstruksiyon.html">Estructuras de acero →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos vigas y barras de celosía según plano; VT y UT los realiza nuestro personal ISO 9712 Nivel 2. Corte, galvanizado, pintura, transporte y montaje se coordinan con socios. <a href="../celik-konstruksiyon.html">Estructuras de acero →</a></p></div>
 `,
     faq: [
       ['¿Qué clase EN 1090 para una pasarela?', 'La fija el proyecto; en Europa los puentes suelen ser EXC3.'],
@@ -173,7 +173,7 @@ export default {
 <p>Le système est défini selon l'ISO 12944 par catégorie de corrosivité et durabilité (voir <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">catégories ISO 12944</a>). Le système duplex (galvanisation plus peinture) est courant ; la taille du bain influe sur le découpage.</p>
 <h2>Transport et montage</h2>
 <p>La passerelle est découpée en tronçons compatibles route et bain ; les jonctions sont boulonnées ou soudées sur site. Pour les projets sensibles, un pré-assemblage en atelier vérifie les jonctions, et les pièces sont repérées dans l'ordre de montage.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons poutres et barres de treillis sur plan ; VT, MT et UT sont réalisés par notre personnel ISO 9712 niveau 2. Découpe, galvanisation, peinture, transport et montage sont coordonnés avec nos partenaires. <a href="../celik-konstruksiyon.html">Construction métallique →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons poutres et barres de treillis sur plan ; VT et UT sont réalisés par notre personnel ISO 9712 niveau 2. Découpe, galvanisation, peinture, transport et montage sont coordonnés avec nos partenaires. <a href="../celik-konstruksiyon.html">Construction métallique →</a></p></div>
 `,
     faq: [
       ['Quelle classe EN 1090 pour une passerelle ?', 'Fixée par le projet ; en Europe, souvent EXC3.'],
@@ -209,7 +209,7 @@ export default {
 <p>Il ciclo si definisce secondo ISO 12944 per categoria di corrosività e durabilità (vedi <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">categorie ISO 12944</a>). Il sistema duplex (zincatura più verniciatura) è comune; le dimensioni della vasca condizionano la suddivisione.</p>
 <h2>Trasporto e montaggio</h2>
 <p>La passerella si divide in conci compatibili con strada e vasca; i giunti sono bullonati o saldati in cantiere. Nei progetti critici si esegue un premontaggio in officina per verificare i giunti e si marcano i pezzi in sequenza di montaggio.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo travi e aste reticolari su disegno; VT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Taglio, zincatura, verniciatura, trasporto e montaggio sono coordinati con i partner. <a href="../celik-konstruksiyon.html">Carpenteria metallica →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo travi e aste reticolari su disegno; VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Taglio, zincatura, verniciatura, trasporto e montaggio sono coordinati con i partner. <a href="../celik-konstruksiyon.html">Carpenteria metallica →</a></p></div>
 `,
     faq: [
       ['Quale classe EN 1090 per una passerella?', 'La stabilisce il progetto; in Europa i ponti sono spesso EXC3.'],
@@ -245,7 +245,7 @@ export default {
 <p>Het systeem wordt volgens ISO 12944 vastgelegd met corrosiviteitscategorie en duurzaamheid (zie <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">ISO 12944-categorieën</a>). Duplex (verzinken plus coating) is gangbaar; de badmaat beïnvloedt de opdeling.</p>
 <h2>Transport en montage</h2>
 <p>De brug wordt opgedeeld in weg- en badgeschikte delen; verbindingen worden gebout of op locatie gelast. Bij kritische projecten controleert een proefmontage in de werkplaats de pasvorm; delen worden in montagevolgorde gemerkt.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen brugliggers en vakwerkstaven volgens tekening; VT, MT en UT voert ons ISO 9712 niveau 2-personeel uit. Snijden, verzinken, coaten, transport en montage coördineren we met partners. <a href="../celik-konstruksiyon.html">Staalconstructie →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen brugliggers en vakwerkstaven volgens tekening; VT en UT voert ons ISO 9712 niveau 2-personeel uit. Snijden, verzinken, coaten, transport en montage coördineren we met partners. <a href="../celik-konstruksiyon.html">Staalconstructie →</a></p></div>
 `,
     faq: [
       ['Welke EN 1090-klasse voor een loopbrug?', 'Het project bepaalt die; in Europa vaak EXC3.'],
@@ -281,7 +281,7 @@ export default {
 <p>Systemet defineres etter ISO 12944 med korrosivitetskategori og holdbarhet (se <a href="iso-12944-korozyon-siniflari-c1-c5-cx.html">ISO 12944-kategorier</a>). Duplex (forsinking pluss maling) er vanlig; karstørrelsen påvirker oppdelingen.</p>
 <h2>Transport og montasje</h2>
 <p>Brua deles i seksjoner som passer vei og forsinkingskar; skjøter utformes boltet eller sveiset på stedet. I kritiske prosjekter gjøres prøvemontasje på verkstedet for å kontrollere skjøtene, og delene merkes i montasjerekkefølge.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser brubjelker og fagverksstaver etter tegning; VT, MT og UT utføres av vårt ISO 9712 nivå 2-personell. Kutting, forsinking, maling, transport og montasje koordineres med partnere. <a href="../celik-konstruksiyon.html">Stålkonstruksjon →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser brubjelker og fagverksstaver etter tegning; VT og UT utføres av vårt ISO 9712 nivå 2-personell. Kutting, forsinking, maling, transport og montasje koordineres med partnere. <a href="../celik-konstruksiyon.html">Stålkonstruksjon →</a></p></div>
 `,
     faq: [
       ['Hvilken EN 1090-klasse for en gangbru?', 'Prosjektet fastsetter den; i Europa ofte EXC3.'],

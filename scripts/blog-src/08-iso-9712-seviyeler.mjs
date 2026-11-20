@@ -52,7 +52,7 @@ export default {
 </ol>
 <h2>EN 1090 ve ISO 3834 Bağlantısı</h2>
 <p>EN 1090-2, ek NDT'nin (VT dışındaki yöntemler) ISO 9712 Seviye 2 personel tarafından değerlendirilmesini ister. ISO 3834-2 de muayene personelinin yeterliliğinin kanıtlanmasını şart koşar. Bu nedenle EXC2 ve üzeri projelerde Seviye 2 personel fiilen zorunludur.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> VT, PT, MT ve UT muayeneleri ISO 9712 Seviye 2 sertifikalı personelimiz tarafından yapılır ve raporlanır. RT çekimini iş ortağımız yapar; filmler ekibimizdeki Seviye 2 personel tarafından değerlendirilir. Sertifikaları talep halinde teklif dosyasıyla paylaşırız. <a href="../belgelerimiz.html">Belgelerimizi inceleyin →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> VT ve UT muayeneleri ISO 9712 Seviye 2 sertifikalı personelimiz tarafından yapılır ve raporlanır. RT çekimini iş ortağımız yapar; filmler ekibimizdeki Seviye 2 personel tarafından değerlendirilir. Sertifikaları talep halinde teklif dosyasıyla paylaşırız. <a href="../belgelerimiz.html">Belgelerimizi inceleyin →</a></p></div>
 `,
     faq: [
       ['Seviye 1 personel rapor imzalayabilir mi?', 'Seviye 1 bulguları kaydedebilir, ancak sonucu bağımsız olarak değerlendiremez ve raporu onaylayamaz. Rapor onayı Seviye 2 veya 3 personel tarafından yapılır.'],
@@ -111,7 +111,7 @@ export default {
 </ol>
 <h2>Link to EN 1090 and ISO 3834</h2>
 <p>EN 1090-2 requires supplementary NDT (methods other than VT) to be evaluated by ISO 9712 Level 2 personnel. ISO 3834-2 requires demonstrated competence of inspection personnel. On EXC2 and higher projects, Level 2 personnel are therefore effectively mandatory.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> VT, PT, MT and UT are performed and reported by our ISO 9712 Level 2 certified personnel. RT exposure is done by our partner; films are evaluated by Level 2 personnel in our team. We share certificates with the quotation on request. <a href="../belgelerimiz.html">See our certificates →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> VT and UT are performed and reported by our ISO 9712 Level 2 certified personnel. RT exposure is done by our partner; films are evaluated by Level 2 personnel in our team. We share certificates with the quotation on request. <a href="../belgelerimiz.html">See our certificates →</a></p></div>
 `,
     faq: [
       ['Can Level 1 personnel sign a report?', 'Level 1 may record indications but cannot evaluate results independently or approve the report. Approval is by Level 2 or Level 3 personnel.'],
@@ -169,7 +169,7 @@ export default {
 </ol>
 <h2>Bezug zu EN 1090 und ISO 3834</h2>
 <p>EN 1090-2 fordert, dass ergänzende ZfP (alle Verfahren außer VT) von Personal der Stufe 2 nach ISO 9712 bewertet wird. ISO 3834-2 verlangt den Nachweis der Qualifikation des Prüfpersonals. Ab EXC2 ist Stufe-2-Personal damit faktisch Pflicht.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> VT, PT, MT und UT werden von unserem nach ISO 9712 Stufe 2 zertifizierten Personal durchgeführt und protokolliert. RT-Aufnahmen erstellt unser Partner; die Filme bewertet Stufe-2-Personal in unserem Team. Zertifikate stellen wir auf Wunsch mit dem Angebot zur Verfügung. <a href="../belgelerimiz.html">Unsere Zertifikate →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> VT und UT werden von unserem nach ISO 9712 Stufe 2 zertifizierten Personal durchgeführt und protokolliert. RT-Aufnahmen erstellt unser Partner; die Filme bewertet Stufe-2-Personal in unserem Team. Zertifikate stellen wir auf Wunsch mit dem Angebot zur Verfügung. <a href="../belgelerimiz.html">Unsere Zertifikate →</a></p></div>
 `,
     faq: [
       ['Darf Stufe-1-Personal Berichte unterschreiben?', 'Stufe 1 darf Anzeigen aufzeichnen, aber Ergebnisse nicht selbstständig bewerten und keine Berichte freigeben. Die Freigabe erfolgt durch Stufe 2 oder 3.'],
@@ -227,7 +227,7 @@ export default {
 </ol>
 <h2>Relación con EN 1090 e ISO 3834</h2>
 <p>La EN 1090-2 exige que los END complementarios (métodos distintos de VT) los evalúe personal de nivel 2 ISO 9712. La ISO 3834-2 pide demostrar la competencia del personal de inspección. En proyectos EXC2 y superiores, el nivel 2 es de hecho obligatorio.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> VT, PT, MT y UT los realiza e informa nuestro personal certificado ISO 9712 nivel 2. La exposición RT la hace nuestro socio; las películas las evalúa personal de nivel 2 de nuestro equipo. Compartimos los certificados con la oferta si se solicitan. <a href="../belgelerimiz.html">Nuestros certificados →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> VT y UT los realiza e informa nuestro personal certificado ISO 9712 nivel 2. La exposición RT la hace nuestro socio; las películas las evalúa personal de nivel 2 de nuestro equipo. Compartimos los certificados con la oferta si se solicitan. <a href="../belgelerimiz.html">Nuestros certificados →</a></p></div>
 `,
     faq: [
       ['¿Puede firmar un informe el personal de nivel 1?', 'El nivel 1 puede registrar indicaciones, pero no evaluar resultados por sí solo ni aprobar el informe. La aprobación corresponde al nivel 2 o 3.'],
@@ -285,7 +285,7 @@ export default {
 </ol>
 <h2>Lien avec l’EN 1090 et l’ISO 3834</h2>
 <p>L’EN 1090-2 exige que les CND complémentaires (méthodes autres que le VT) soient évalués par du personnel niveau 2 ISO 9712. L’ISO 3834-2 demande de démontrer la compétence du personnel de contrôle. Dès l’EXC2, le niveau 2 est donc de fait obligatoire.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> VT, PT, MT et UT sont réalisés et rapportés par notre personnel certifié ISO 9712 niveau 2. Les tirs RT sont effectués par notre partenaire ; les films sont interprétés par du personnel niveau 2 de notre équipe. Nous joignons les certificats à l’offre sur demande. <a href="../belgelerimiz.html">Nos certificats →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> VT et UT sont réalisés et rapportés par notre personnel certifié ISO 9712 niveau 2. Les tirs RT sont effectués par notre partenaire ; les films sont interprétés par du personnel niveau 2 de notre équipe. Nous joignons les certificats à l’offre sur demande. <a href="../belgelerimiz.html">Nos certificats →</a></p></div>
 `,
     faq: [
       ['Un niveau 1 peut-il signer un rapport ?', 'Le niveau 1 peut enregistrer des indications mais pas interpréter seul ni approuver le rapport. L’approbation revient au niveau 2 ou 3.'],
@@ -343,7 +343,7 @@ export default {
 </ol>
 <h2>Legame con EN 1090 e ISO 3834</h2>
 <p>La EN 1090-2 richiede che i CND supplementari (metodi diversi dal VT) siano valutati da personale livello 2 ISO 9712. La ISO 3834-2 richiede di dimostrare la competenza del personale di controllo. Dall’EXC2 in su il livello 2 è quindi di fatto obbligatorio.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> VT, PT, MT e UT sono eseguiti e refertati dal nostro personale certificato ISO 9712 livello 2. Le esposizioni RT sono eseguite dal nostro partner; le pellicole sono valutate da personale di livello 2 del nostro team. Su richiesta alleghiamo i certificati all’offerta. <a href="../belgelerimiz.html">I nostri certificati →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> VT e UT sono eseguiti e refertati dal nostro personale certificato ISO 9712 livello 2. Le esposizioni RT sono eseguite dal nostro partner; le pellicole sono valutate da personale di livello 2 del nostro team. Su richiesta alleghiamo i certificati all’offerta. <a href="../belgelerimiz.html">I nostri certificati →</a></p></div>
 `,
     faq: [
       ['Il livello 1 può firmare un rapporto?', 'Il livello 1 può registrare le indicazioni ma non valutare da solo né approvare il rapporto. L’approvazione spetta al livello 2 o 3.'],
@@ -401,7 +401,7 @@ export default {
 </ol>
 <h2>Verband met EN 1090 en ISO 3834</h2>
 <p>EN 1090-2 eist dat aanvullend NDO (alle methoden behalve VT) wordt beoordeeld door ISO 9712 niveau 2-personeel. ISO 3834-2 vraagt aantoonbare bekwaamheid van het inspectiepersoneel. Vanaf EXC2 is niveau 2 daarmee feitelijk verplicht.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> VT, PT, MT en UT worden uitgevoerd en gerapporteerd door ons ISO 9712 niveau 2 gecertificeerde personeel. RT-opnamen maakt onze partner; de films worden beoordeeld door niveau 2-personeel in ons team. Certificaten sturen we op verzoek mee met de offerte. <a href="../belgelerimiz.html">Onze certificaten →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> VT en UT worden uitgevoerd en gerapporteerd door ons ISO 9712 niveau 2 gecertificeerde personeel. RT-opnamen maakt onze partner; de films worden beoordeeld door niveau 2-personeel in ons team. Certificaten sturen we op verzoek mee met de offerte. <a href="../belgelerimiz.html">Onze certificaten →</a></p></div>
 `,
     faq: [
       ['Mag niveau 1-personeel een rapport tekenen?', 'Niveau 1 mag indicaties vastleggen, maar resultaten niet zelfstandig beoordelen en het rapport niet goedkeuren. Goedkeuring gebeurt door niveau 2 of 3.'],
@@ -459,7 +459,7 @@ export default {
 </ol>
 <h2>Kobling til EN 1090 og ISO 3834</h2>
 <p>EN 1090-2 krever at supplerende NDT (andre metoder enn VT) vurderes av ISO 9712 nivå 2-personell. ISO 3834-2 krever dokumentert kompetanse hos inspeksjonspersonellet. Fra EXC2 og oppover er nivå 2 dermed i praksis obligatorisk.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> VT, PT, MT og UT utføres og rapporteres av vårt ISO 9712 nivå 2-sertifiserte personell. RT-eksponering utføres av vår partner; filmene vurderes av nivå 2-personell i vårt team. Vi legger ved sertifikatene i tilbudet ved forespørsel. <a href="../belgelerimiz.html">Våre sertifikater →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> VT og UT utføres og rapporteres av vårt ISO 9712 nivå 2-sertifiserte personell. RT-eksponering utføres av vår partner; filmene vurderes av nivå 2-personell i vårt team. Vi legger ved sertifikatene i tilbudet ved forespørsel. <a href="../belgelerimiz.html">Våre sertifikater →</a></p></div>
 `,
     faq: [
       ['Kan nivå 1-personell signere en rapport?', 'Nivå 1 kan registrere indikasjoner, men ikke vurdere resultatet selvstendig eller godkjenne rapporten. Godkjenning gjøres av nivå 2 eller 3.'],

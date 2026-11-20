@@ -1,0 +1,32 @@
+{
+ "projects_h1": {
+  "tr": "İş<br/><span class=\"arc\">Tiplerimiz.</span>",
+  "en": "Our<br/><span class=\"arc\">Work Types.</span>",
+  "de": "Unsere<br/><span class=\"arc\">Arbeitsfelder.</span>",
+  "es": "Nuestros<br/><span class=\"arc\">tipos de trabajo.</span>",
+  "fr": "Nos<br/><span class=\"arc\">types de travaux.</span>",
+  "it": "Le nostre<br/><span class=\"arc\">tipologie di lavoro.</span>",
+  "nl": "Onze<br/><span class=\"arc\">werksoorten.</span>",
+  "no": "Våre<br/><span class=\"arc\">arbeidstyper.</span>"
+ },
+ "projects_lede": {
+  "tr": "Müşteri projeleri gizlilik sözleşmesi kapsamındadır. Aşağıda yaptığımız iş gruplarını görebilirsiniz; referans dosyası ve iş fotoğrafları talep üzerine paylaşılır.",
+  "en": "Customer projects are covered by confidentiality agreements. Below are the work groups we produce; our reference pack and job photos are shared on request.",
+  "de": "Kundenprojekte unterliegen Geheimhaltungsvereinbarungen. Unten sehen Sie unsere Arbeitsfelder; Referenzunterlagen und Fotos senden wir auf Anfrage.",
+  "es": "Los proyectos de clientes están sujetos a acuerdos de confidencialidad. A continuación, los grupos de trabajo que fabricamos; el dossier de referencias y las fotos se envían a petición.",
+  "fr": "Les projets clients sont couverts par des accords de confidentialité. Voici les familles de travaux que nous réalisons ; dossier de références et photos sur demande.",
+  "it": "I progetti dei clienti sono coperti da accordi di riservatezza. Di seguito i gruppi di lavoro che realizziamo; dossier referenze e foto su richiesta.",
+  "nl": "Klantprojecten vallen onder geheimhoudingsovereenkomsten. Hieronder de werkgroepen die we produceren; referentiedossier en foto's op aanvraag.",
+  "no": "Kundeprosjekter er omfattet av taushetsavtaler. Nedenfor ser du arbeidsgruppene vi produserer; referansemappe og bilder deles på forespørsel."
+ },
+ "pg_projeler_desc": {
+  "tr": "ArmaWeld iş tipleri: şasi, bom, destek ayağı, treyler modülü ve taşıyıcı yapılar. S690QL, S960QL, S700MC ve Hardox ile kaynaklı imalat; referans dosyası talep üzerine.",
+  "en": "ArmaWeld work types: chassis, booms, outrigger legs, trailer modules and load-bearing structures. Welded fabrication in S690QL, S960QL, S700MC and Hardox; reference pack on request.",
+  "de": "ArmaWeld Arbeitsfelder: Rahmen, Ausleger, Stützbeine, Anhängermodule und tragende Strukturen. Schweißfertigung in S690QL, S960QL, S700MC und Hardox; Referenzen auf Anfrage.",
+  "es": "Tipos de trabajo ArmaWeld: chasis, plumas, patas estabilizadoras, módulos de remolque y estructuras portantes. Fabricación soldada en S690QL, S960QL, S700MC y Hardox; referencias a petición.",
+  "fr": "Types de travaux ArmaWeld : châssis, flèches, stabilisateurs, modules de remorque et structures porteuses. Fabrication soudée en S690QL, S960QL, S700MC et Hardox ; références sur demande.",
+  "it": "Tipologie di lavoro ArmaWeld: telai, bracci, stabilizzatori, moduli per rimorchi e strutture portanti. Carpenteria saldata in S690QL, S960QL, S700MC e Hardox; referenze su richiesta.",
+  "nl": "ArmaWeld werksoorten: chassis, gieken, stempels, aanhangermodules en dragende constructies. Laswerk in S690QL, S960QL, S700MC en Hardox; referenties op aanvraag.",
+  "no": "ArmaWeld arbeidstyper: chassis, bommer, støtteben, tilhengermoduler og bærende konstruksjoner. Sveiset produksjon i S690QL, S960QL, S700MC og Hardox; referanser på forespørsel."
+ }
+}

@@ -51,8 +51,8 @@ export default {
       ['Sigma fazı nedir?', 'Dupleks çeliklerde 700–950 °C aralığında uzun süre kalındığında oluşan kırılgan intermetalik fazdır; tokluğu ve korozyon direncini düşürür.'],
       ['Dupleks kaynakta ferrit oranı nasıl kontrol edilir?', 'Manyetik ferrit ölçüm cihazıyla kaynak metalinde ölçülür; genellikle yaklaşık %30–70 aralığı hedeflenir.']
     ],
-    cta_h3: 'Dupleks paslanmazda kontrollü kaynak',
-    cta_p: 'Dupleks parça çiziminizi ve şartnamenizi gönderin; kaynak ve test planıyla teklif sunalım.',
+    cta_h3: 'Çiziminizi gönderin, teklif hazırlayalım',
+    cta_p: 'Teknik resminizi gönderin; kaynak yöntemi, NDT kapsamı ve termini birlikte netleştirip teklif hazırlayalım.',
     cta_btn: 'Teklif İste →'
   },
   en: {
@@ -93,7 +93,7 @@ export default {
 </ul>
 <h2>Joining to Carbon Steel</h2>
 <p>When a duplex part must be welded to carbon steel, dilution and phase balance are assessed together; 309L or duplex-type fillers are selected depending on conditions (see <a href="paslanmaz-karbon-celik-kaynagi-309l.html">stainless to carbon steel welding</a>).</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> on duplex work we keep heat input and interpass temperature within WPS limits and measure and record them. Ferrite measurement and any extra tests in the specification are planned at quotation together with material and consumable selection. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
+<div class="callout"><p>Ferrite measurement and any extra tests in the specification are planned at quotation together with material and consumable selection. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
 `,
     faq: [
       ['Which filler is used for duplex 2205?', 'Usually 2209 (ISO 14343 22 9 3 N L). The extra nickel ensures enough austenite forms in the fast-cooling weld metal.'],
@@ -101,8 +101,8 @@ export default {
       ['What is sigma phase?', 'A brittle intermetallic phase that forms in duplex steels held at 700–950 °C; it reduces toughness and corrosion resistance.'],
       ['How is ferrite content checked in duplex welds?', 'With a magnetic ferrite measuring instrument on the weld metal; roughly 30–70% is generally targeted.']
     ],
-    cta_h3: 'Controlled welding of duplex stainless',
-    cta_p: 'Send your duplex part drawing and specification; we will quote with a welding and test plan.',
+    cta_h3: 'Send your drawing for a quote',
+    cta_p: 'Send your drawing; we agree the welding process, NDT scope and lead time with you and prepare a quote.',
     cta_btn: 'Request a Quote →'
   },
   de: {
@@ -143,7 +143,7 @@ export default {
 </ul>
 <h2>Verbindung mit Baustahl</h2>
 <p>Muss ein Duplexteil an Baustahl geschweißt werden, werden Aufmischung und Phasengleichgewicht gemeinsam bewertet; je nach Bedingungen 309L- oder Duplex-Zusätze (siehe <a href="paslanmaz-karbon-celik-kaynagi-309l.html">Schwarz-Weiß-Verbindungen</a>).</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Duplex halten wir Wärmeeinbringung und Zwischenlagentemperatur innerhalb der WPS-Grenzen, messen und dokumentieren sie. Ferritmessung und zusätzliche Prüfungen der Spezifikation planen wir im Angebot zusammen mit Werkstoff- und Zusatzwahl. <a href="../kaynak-yontemleri.html">Unsere Schweißverfahren →</a></p></div>
+<div class="callout"><p>Ferritmessung und zusätzliche Prüfungen der Spezifikation planen wir im Angebot zusammen mit Werkstoff- und Zusatzwahl. <a href="../kaynak-yontemleri.html">Unsere Schweißverfahren →</a></p></div>
 `,
     faq: [
       ['Welcher Zusatz für Duplex 2205?', 'Meist 2209 (ISO 14343 22 9 3 N L). Das zusätzliche Nickel sorgt für genügend Austenit im schnell abkühlenden Schweißgut.'],
@@ -151,8 +151,8 @@ export default {
       ['Was ist die Sigmaphase?', 'Eine spröde intermetallische Phase, die bei längerer Verweildauer bei 700–950 °C in Duplexstählen entsteht und Zähigkeit sowie Korrosionsbeständigkeit senkt.'],
       ['Wie prüft man den Ferritgehalt?', 'Mit einem magnetischen Ferritmessgerät am Schweißgut; meist werden etwa 30–70 % angestrebt.']
     ],
-    cta_h3: 'Kontrolliertes Schweißen von Duplex-Edelstahl',
-    cta_p: 'Senden Sie Zeichnung und Spezifikation Ihres Duplexteils; wir bieten mit Schweiß- und Prüfplan an.',
+    cta_h3: 'Zeichnung senden, Angebot erhalten',
+    cta_p: 'Senden Sie Ihre Zeichnung; wir stimmen Schweißverfahren, ZfP-Umfang und Liefertermin mit Ihnen ab und erstellen ein Angebot.',
     cta_btn: 'Angebot anfordern →'
   },
   es: {
@@ -201,8 +201,8 @@ export default {
       ['¿Qué es la fase sigma?', 'Una fase intermetálica frágil que se forma en el dúplex mantenido entre 700 y 950 °C; reduce tenacidad y resistencia a la corrosión.'],
       ['¿Cómo se controla la ferrita?', 'Con un medidor magnético de ferrita en el metal de soldadura; en general se busca un 30–70 % aproximadamente.']
     ],
-    cta_h3: 'Soldadura controlada de inoxidable dúplex',
-    cta_p: 'Envíenos el plano y la especificación de su pieza dúplex; ofertamos con plan de soldadura y ensayos.',
+    cta_h3: 'Envíe su plano y prepararemos la oferta',
+    cta_p: 'Envíe su plano; acordamos con usted el proceso de soldadura, el alcance de END y el plazo, y preparamos la oferta.',
     cta_btn: 'Solicitar oferta →'
   },
   fr: {
@@ -243,7 +243,7 @@ export default {
 </ul>
 <h2>Assemblage avec l’acier carbone</h2>
 <p>Si une pièce duplex doit être soudée à de l’acier carbone, dilution et équilibre des phases sont évalués ensemble ; fils 309L ou de type duplex selon les conditions (voir <a href="paslanmaz-karbon-celik-kaynagi-309l.html">souder l’inox sur l’acier carbone</a>).</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> sur le duplex, nous maintenons l’énergie et la température entre passes dans les limites du DMOS, en les mesurant et les enregistrant. La mesure de ferrite et les essais supplémentaires de la spécification sont planifiés au devis avec le choix des matériaux et des produits d’apport. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
+<div class="callout"><p>La mesure de ferrite et les essais supplémentaires de la spécification sont planifiés au devis avec le choix des matériaux et des produits d’apport. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
 `,
     faq: [
       ['Quel fil pour le duplex 2205 ?', 'Généralement le 2209 (ISO 14343 22 9 3 N L). Le nickel supplémentaire assure assez d’austénite dans le métal fondu.'],
@@ -251,8 +251,8 @@ export default {
       ['Qu’est-ce que la phase sigma ?', 'Une phase intermétallique fragile qui se forme dans le duplex maintenu entre 700 et 950 °C ; elle réduit ténacité et tenue à la corrosion.'],
       ['Comment contrôler la ferrite ?', 'Au ferritoscope sur le métal fondu ; on vise généralement environ 30–70 %.']
     ],
-    cta_h3: 'Un soudage maîtrisé de l’inox duplex',
-    cta_p: 'Envoyez le plan et la spécification de votre pièce duplex ; nous chiffrons avec un plan de soudage et d’essais.',
+    cta_h3: 'Envoyez votre plan pour un devis',
+    cta_p: 'Envoyez votre plan ; nous convenons avec vous du procédé de soudage, de l\'étendue des CND et du délai, puis établissons le devis.',
     cta_btn: 'Demander un devis →'
   },
   it: {
@@ -293,7 +293,7 @@ export default {
 </ul>
 <h2>Giunzione con acciaio al carbonio</h2>
 <p>Se un pezzo duplex va saldato ad acciaio al carbonio, diluizione ed equilibrio delle fasi si valutano insieme; si scelgono fili 309L o di tipo duplex secondo le condizioni (vedi <a href="paslanmaz-karbon-celik-kaynagi-309l.html">saldare inox con acciaio al carbonio</a>).</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> nei lavori duplex manteniamo apporto termico e interpass entro i limiti della WPS, misurandoli e registrandoli. Misura della ferrite e prove aggiuntive della specifica si pianificano in offerta insieme alla scelta di materiali e consumabili. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
+<div class="callout"><p>Misura della ferrite e prove aggiuntive della specifica si pianificano in offerta insieme alla scelta di materiali e consumabili. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
 `,
     faq: [
       ['Con quale filo si salda il duplex 2205?', 'Di solito con 2209 (ISO 14343 22 9 3 N L). Il nichel aggiuntivo assicura austenite sufficiente nel metallo saldato.'],
@@ -301,8 +301,8 @@ export default {
       ['Cos’è la fase sigma?', 'Una fase intermetallica fragile che si forma nel duplex mantenuto tra 700 e 950 °C; riduce tenacità e resistenza alla corrosione.'],
       ['Come si controlla la ferrite?', 'Con un misuratore magnetico di ferrite sul metallo saldato; in genere si punta a circa il 30–70 %.']
     ],
-    cta_h3: 'Saldatura controllata dell’inox duplex',
-    cta_p: 'Inviateci disegno e specifica del pezzo duplex; quotiamo con piano di saldatura e prove.',
+    cta_h3: 'Inviate il disegno per un\'offerta',
+    cta_p: 'Inviate il disegno; concordiamo con voi processo di saldatura, estensione dei CND e tempi di consegna e prepariamo l\'offerta.',
     cta_btn: 'Richiedi un preventivo →'
   },
   nl: {
@@ -343,7 +343,7 @@ export default {
 </ul>
 <h2>Verbinden met koolstofstaal</h2>
 <p>Moet een duplexdeel aan koolstofstaal worden gelast, dan worden menging en fasebalans samen beoordeeld; afhankelijk van de omstandigheden wordt 309L of duplex-toevoegmateriaal gekozen (zie <a href="paslanmaz-karbon-celik-kaynagi-309l.html">RVS aan koolstofstaal lassen</a>).</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> bij duplexwerk houden we warmte-inbreng en tussenlaagtemperatuur binnen de WPS-grenzen en meten en registreren we ze. Ferrietmeting en aanvullende tests uit de specificatie plannen we bij de offerte, samen met de keuze van materiaal en toevoegmateriaal. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
+<div class="callout"><p>Ferrietmeting en aanvullende tests uit de specificatie plannen we bij de offerte, samen met de keuze van materiaal en toevoegmateriaal. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
 `,
     faq: [
       ['Met welk toevoegmateriaal las je duplex 2205?', 'Meestal met 2209 (ISO 14343 22 9 3 N L). Het extra nikkel zorgt voor voldoende austeniet in het lasmetaal.'],
@@ -351,8 +351,8 @@ export default {
       ['Wat is de sigmafase?', 'Een brosse intermetallische fase die in duplex ontstaat bij langdurig verblijf tussen 700 en 950 °C; ze verlaagt taaiheid en corrosiebestendigheid.'],
       ['Hoe controleer je het ferrietgehalte?', 'Met een magnetische ferrietmeter op het lasmetaal; meestal wordt ongeveer 30–70 % nagestreefd.']
     ],
-    cta_h3: 'Beheerst lassen van duplex-RVS',
-    cta_p: 'Stuur tekening en specificatie van uw duplexdeel; we offreren met las- en testplan.',
+    cta_h3: 'Stuur uw tekening voor een offerte',
+    cta_p: 'Stuur uw tekening; we stemmen lasproces, NDO-omvang en levertijd met u af en maken een offerte.',
     cta_btn: 'Offerte aanvragen →'
   },
   no: {
@@ -401,8 +401,8 @@ export default {
       ['Hva er sigmafase?', 'En sprø intermetallisk fase som dannes i dupleks som holdes mellom 700 og 950 °C; den reduserer seighet og korrosjonsbestandighet.'],
       ['Hvordan kontrolleres ferrittinnholdet?', 'Med et magnetisk ferrittmåleinstrument på sveisemetallet; vanligvis tilstrebes omtrent 30–70 %.']
     ],
-    cta_h3: 'Kontrollert sveising av dupleks rustfritt',
-    cta_p: 'Send tegning og spesifikasjon for dupleksdelen; vi gir tilbud med sveise- og prøveplan.',
+    cta_h3: 'Send tegningen for et tilbud',
+    cta_p: 'Send tegningen; vi avtaler sveiseprosess, NDT-omfang og leveringstid med dere og lager et tilbud.',
     cta_btn: 'Be om tilbud →'
   }
 };

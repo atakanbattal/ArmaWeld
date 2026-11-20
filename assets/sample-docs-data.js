@@ -26,7 +26,6 @@
           ['trace_doc_lbl_customer_ref', 'PRJ-2026-0142'],
           ['trace_doc_lbl_material', JOB.grade],
           ['trace_doc_lbl_wps_plan', JOB.wps],
-          ['trace_doc_lbl_wpqr', 'trace_doc_val_wpqr_nb'],
           ['trace_doc_lbl_ndt_plan', 'trace_doc_val_ndt_plan'],
           ['trace_doc_lbl_tolerance', 'EN ISO 13920 · Class B'],
           ['trace_doc_lbl_engineer', 'IWE · Ali Eren'],
@@ -216,13 +215,11 @@
         sub: 'trace_doc_dop_sub',
         stamp: 'trace_doc_dop_stamp',
         fields: [
-          ['trace_doc_lbl_dop_no', 'AW-DOP-2026-0142'],
           ['trace_doc_lbl_delivery_note', 'IRS-A142-2026'],
           ['trace_doc_lbl_job', JOB.id],
           ['trace_doc_lbl_serial', JOB.serial],
           ['trace_doc_lbl_heat', JOB.heat],
           ['trace_doc_lbl_product_type', 'trace_doc_val_steel_element'],
-          ['trace_doc_lbl_exc_class', 'EXC3'],
           ['trace_doc_lbl_material', JOB.grade],
           ['trace_doc_lbl_wps_pack', JOB.wps],
           ['trace_doc_lbl_portal', 'portal.armaweld.com/t/A142'],
@@ -234,10 +231,10 @@
           head: ['trace_doc_tbl_document', 'trace_doc_tbl_ref', 'trace_doc_tbl_status'],
           rows: [
             ['MTC 3.1', 'MTC-2026-4182', 'trace_doc_st_ok'],
-            ['WPS / WPQR', 'WPS-142-A', 'trace_doc_st_ok'],
+            ['WPS', 'WPS-142-A', 'trace_doc_st_ok'],
             ['trace_doc_val_welder_cert', 'AW-WL-07-2026', 'trace_doc_st_ok'],
             ['trace_doc_val_ndt_report', 'NDT-2026-0248', 'trace_doc_st_ok'],
-            ['DoP / CE', 'AW-DOP-2026-0142', 'trace_doc_st_ok']
+            ['EN ISO 13920', 'DIM-2026-0142', 'trace_doc_st_ok']
           ]
         }],
         badge: 'trace_doc_dop_badge'

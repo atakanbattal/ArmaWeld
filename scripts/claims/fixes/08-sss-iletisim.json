@@ -1,0 +1,330 @@
+{
+ "faq_a02": {
+  "tr": "<p>Standart bileşen tekliflerinde <strong>48 saat</strong> içinde dönüş hedeflenir. Komple yapılarda süre <strong>5 – 7 iş günü</strong>ne uzayabilir; WPS ve muayene planı teklif paketine dahil edilir.</p>",
+  "en": "<p>For standard components we aim to reply within <strong>48 hours</strong>. For complete structures it can take <strong>5 – 7 working days</strong>; the WPS and inspection plan are included in the quotation package.</p>",
+  "de": "<p>Bei Standardbauteilen streben wir eine Antwort innerhalb von <strong>48 Stunden</strong> an. Bei kompletten Strukturen kann es <strong>5 – 7 Arbeitstage</strong> dauern; WPS und Prüfplan sind Teil des Angebotspakets.</p>",
+  "es": "<p>Para componentes estándar buscamos responder en <strong>48 horas</strong>. Para estructuras completas puede tardar <strong>5 – 7 días laborables</strong>; la WPS y el plan de inspección se incluyen en la oferta.</p>",
+  "fr": "<p>Pour des composants standard, nous visons une réponse sous <strong>48 heures</strong>. Pour des structures complètes, comptez <strong>5 à 7 jours ouvrés</strong> ; le DMOS et le plan de contrôle sont inclus dans l'offre.</p>",
+  "it": "<p>Per componenti standard puntiamo a rispondere entro <strong>48 ore</strong>. Per strutture complete possono servire <strong>5 – 7 giorni lavorativi</strong>; WPS e piano di controllo sono inclusi nell'offerta.</p>",
+  "nl": "<p>Voor standaardonderdelen streven we naar antwoord binnen <strong>48 uur</strong>. Voor complete constructies kan het <strong>5 – 7 werkdagen</strong> duren; WPS en inspectieplan zitten in het offertepakket.</p>",
+  "no": "<p>For standardkomponenter er målet svar innen <strong>48 timer</strong>. For komplette konstruksjoner kan det ta <strong>5 – 7 arbeidsdager</strong>; WPS og kontrollplan inngår i tilbudspakken.</p>"
+ },
+ "faq_a04": {
+  "tr": "<p>Evet. <strong>Tersine mühendislik</strong> kapsamında numune ölçülerek modellenir ve imalat resmi hazırlanır. Müşteri onayından sonra üretime geçilir; çizim dosyaları müşteriye de teslim edilir.</p>",
+  "en": "<p>Yes. Under <strong>reverse engineering</strong> we measure the sample, model it and prepare the manufacturing drawing. Production starts after your approval; the drawing files are delivered to you as well.</p>",
+  "de": "<p>Ja. Im Rahmen des <strong>Reverse Engineering</strong> wird das Muster vermessen, modelliert und die Fertigungszeichnung erstellt. Nach Ihrer Freigabe beginnt die Produktion; die Zeichnungsdateien erhalten Sie ebenfalls.</p>",
+  "es": "<p>Sí. Mediante <strong>ingeniería inversa</strong> medimos la muestra, la modelamos y preparamos el plano de fabricación. La producción empieza tras su aprobación; también le entregamos los archivos del plano.</p>",
+  "fr": "<p>Oui. En <strong>ingénierie inverse</strong>, nous mesurons l'échantillon, le modélisons et établissons le plan de fabrication. La production démarre après votre validation ; les fichiers de plan vous sont aussi remis.</p>",
+  "it": "<p>Sì. Con il <strong>reverse engineering</strong> misuriamo il campione, lo modelliamo e prepariamo il disegno costruttivo. La produzione parte dopo la Sua approvazione; Le consegniamo anche i file del disegno.</p>",
+  "nl": "<p>Ja. Bij <strong>reverse engineering</strong> meten we het monster op, modelleren het en maken de productietekening. De productie start na uw goedkeuring; u ontvangt ook de tekenbestanden.</p>",
+  "no": "<p>Ja. Ved <strong>omvendt konstruksjon</strong> måler vi prøven, modellerer den og lager produksjonstegningen. Produksjonen starter etter deres godkjenning; tegningsfilene leveres også til dere.</p>"
+ },
+ "faq_a05": {
+  "tr": "<p>Yurt içi siparişlerde <strong>%50 avans + %50 sevk öncesi</strong>, yurt dışı siparişlerde <strong>%30 avans + %70 sevk öncesi</strong> ödeme uygulanır. Yurt dışı teslim şekli standart olarak EXW Konya'dır.</p>",
+  "en": "<p>Domestic orders: <strong>50% advance + 50% before shipment</strong>. Export orders: <strong>30% advance + 70% before shipment</strong>. Standard export delivery term is EXW Konya.</p>",
+  "de": "<p>Inlandsaufträge: <strong>50 % Anzahlung + 50 % vor Versand</strong>. Exportaufträge: <strong>30 % Anzahlung + 70 % vor Versand</strong>. Standard-Lieferbedingung im Export ist EXW Konya.</p>",
+  "es": "<p>Pedidos nacionales: <strong>50 % anticipo + 50 % antes del envío</strong>. Pedidos de exportación: <strong>30 % anticipo + 70 % antes del envío</strong>. La condición estándar de entrega para exportación es EXW Konya.</p>",
+  "fr": "<p>Commandes nationales : <strong>50 % d'acompte + 50 % avant expédition</strong>. Export : <strong>30 % d'acompte + 70 % avant expédition</strong>. Condition de livraison standard à l'export : EXW Konya.</p>",
+  "it": "<p>Ordini nazionali: <strong>50% anticipo + 50% prima della spedizione</strong>. Ordini export: <strong>30% anticipo + 70% prima della spedizione</strong>. Resa standard per l'export: EXW Konya.</p>",
+  "nl": "<p>Binnenlandse orders: <strong>50% vooruit + 50% vóór verzending</strong>. Exportorders: <strong>30% vooruit + 70% vóór verzending</strong>. Standaard leverconditie voor export is EXW Konya.</p>",
+  "no": "<p>Innenlandske ordre: <strong>50 % forskudd + 50 % før forsendelse</strong>. Eksportordre: <strong>30 % forskudd + 70 % før forsendelse</strong>. Standard leveringsbetingelse for eksport er EXW Konya.</p>"
+ },
+ "faq_a06": {
+  "re": [
+   [
+    "<p>[^<]*<strong>PED 2014/68/EU</strong>.*?</p>",
+    "",
+    ""
+   ]
+  ],
+  "re_tr": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Çelik yapıların icrası (geçerlilik 18.06.2027)</li>"
+   ]
+  ],
+  "re_en": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Execution of steel structures (valid until 18.06.2027)</li>"
+   ]
+  ],
+  "re_de": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Ausführung von Stahltragwerken (gültig bis 18.06.2027)</li>"
+   ]
+  ],
+  "re_es": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Ejecución de estructuras de acero (válido hasta el 18.06.2027)</li>"
+   ]
+  ],
+  "re_fr": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Exécution des structures en acier (valable jusqu'au 18.06.2027)</li>"
+   ]
+  ],
+  "re_it": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Esecuzione di strutture in acciaio (valido fino al 18.06.2027)</li>"
+   ]
+  ],
+  "re_nl": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Uitvoering van staalconstructies (geldig tot 18.06.2027)</li>"
+   ]
+  ],
+  "re_no": [
+   [
+    "EN 1090-2 EXC3</span>[^<]*</li>",
+    "",
+    "EN 1090-2</span> Utførelse av stålkonstruksjoner (gyldig til 18.06.2027)</li>"
+   ]
+  ]
+ },
+ "faq_a07": {
+  "tr": "<p><strong>VT (görsel), UT (ultrasonik) ve RT film değerlendirme</strong> bünyemizde <strong>EN ISO 9712 Seviye 2 belgeli</strong> personelle yapılır. <strong>RT çekimi</strong> radyasyon lisansı gerektirdiği için lisanslı laboratuvarda yapılır; <strong>PT ve MT</strong> çizimde istenirse anlaşmalı muayene kuruluşuyla yürütülür. Tüm raporlar proje dosyasına eklenir.</p>",
+  "en": "<p><strong>VT (visual), UT (ultrasonic) and RT film interpretation</strong> are done <strong>in-house</strong> by <strong>EN ISO 9712 Level 2 certified</strong> staff. <strong>RT exposure</strong> requires a radiation licence and is done at a licensed lab; <strong>PT and MT</strong> are carried out by a contracted inspection body when the drawing requires them. All reports go into the project file.</p>",
+  "de": "<p><strong>VT (Sichtprüfung), UT (Ultraschall) und RT-Filmauswertung</strong> erfolgen <strong>inhouse</strong> durch <strong>nach EN ISO 9712 Stufe 2 zertifiziertes</strong> Personal. Die <strong>RT-Durchstrahlung</strong> erfordert eine Strahlenschutzlizenz und erfolgt im lizenzierten Labor; <strong>PT und MT</strong> übernimmt eine Vertragsprüfstelle, wenn die Zeichnung sie fordert. Alle Berichte gehen in die Projektakte.</p>",
+  "es": "<p><strong>VT (visual), UT (ultrasonidos) e interpretación de película RT</strong> se realizan <strong>internamente</strong> con personal <strong>certificado EN ISO 9712 nivel 2</strong>. La <strong>exposición RT</strong> requiere licencia de radiación y se hace en un laboratorio autorizado; <strong>PT y MT</strong> los realiza una entidad contratada cuando el plano lo exige. Todos los informes se incluyen en el expediente.</p>",
+  "fr": "<p><strong>VT (visuel), UT (ultrasons) et interprétation de films RT</strong> sont réalisés <strong>en interne</strong> par du personnel <strong>certifié EN ISO 9712 niveau 2</strong>. Le <strong>tir RT</strong> nécessite une licence rayonnement et se fait en laboratoire agréé ; <strong>PT et MT</strong> sont confiés à un organisme sous contrat si le plan l'exige. Tous les rapports sont versés au dossier.</p>",
+  "it": "<p><strong>VT (visivo), UT (ultrasuoni) e interpretazione pellicole RT</strong> sono eseguiti <strong>internamente</strong> da personale <strong>certificato EN ISO 9712 livello 2</strong>. L'<strong>esposizione RT</strong> richiede licenza per radiazioni e si esegue in laboratorio autorizzato; <strong>PT e MT</strong> sono affidati a un ente convenzionato se il disegno li richiede. Tutti i rapporti entrano nel fascicolo.</p>",
+  "nl": "<p><strong>VT (visueel), UT (ultrasoon) en RT-filmbeoordeling</strong> gebeuren <strong>in eigen huis</strong> door <strong>EN ISO 9712 niveau 2-gecertificeerd</strong> personeel. <strong>RT-opnamen</strong> vereisen een stralingsvergunning en gebeuren in een vergund lab; <strong>PT en MT</strong> voert een gecontracteerde instantie uit als de tekening dat vraagt. Alle rapporten gaan in het projectdossier.</p>",
+  "no": "<p><strong>VT (visuell), UT (ultralyd) og RT-filmtolkning</strong> utføres <strong>internt</strong> av personell <strong>sertifisert etter EN ISO 9712 nivå 2</strong>. <strong>RT-eksponering</strong> krever strålevernlisens og gjøres i lisensiert laboratorium; <strong>PT og MT</strong> utføres av et avtalt organ når tegningen krever det. Alle rapporter legges i prosjektmappen.</p>"
+ },
+ "faq_a08": {
+  "tr": "<p>Evet. Standart olarak <strong>EN 10204 3.1</strong> malzeme sertifikası tüm projelere eklenir. Müşteri isterse <strong>3.2</strong> sertifikası (bağımsız muayene kuruluşu onaylı) tedarikçiden temin edilir.</p>",
+  "en": "<p>Yes. An <strong>EN 10204 3.1</strong> material certificate is included in every project as standard. If the customer requires it, a <strong>3.2</strong> certificate (approved by an independent inspection body) is obtained from the supplier.</p>",
+  "de": "<p>Ja. Ein <strong>EN 10204 3.1</strong>-Werkstoffzeugnis liegt standardmäßig jedem Projekt bei. Auf Kundenwunsch wird ein <strong>3.2</strong>-Zeugnis (von einer unabhängigen Prüfstelle bestätigt) beim Lieferanten beschafft.</p>",
+  "es": "<p>Sí. El certificado de material <strong>EN 10204 3.1</strong> se incluye de serie en todos los proyectos. Si el cliente lo requiere, se obtiene del proveedor un certificado <strong>3.2</strong> (validado por un organismo de inspección independiente).</p>",
+  "fr": "<p>Oui. Un certificat matière <strong>EN 10204 3.1</strong> est fourni en standard pour chaque projet. Si le client l'exige, un certificat <strong>3.2</strong> (validé par un organisme d'inspection indépendant) est obtenu auprès du fournisseur.</p>",
+  "it": "<p>Sì. Il certificato materiale <strong>EN 10204 3.1</strong> è incluso di serie in ogni progetto. Se il cliente lo richiede, un certificato <strong>3.2</strong> (convalidato da un ente di ispezione indipendente) viene ottenuto dal fornitore.</p>",
+  "nl": "<p>Ja. Een <strong>EN 10204 3.1</strong>-materiaalcertificaat wordt standaard bij elk project geleverd. Op verzoek van de klant wordt een <strong>3.2</strong>-certificaat (bevestigd door een onafhankelijke keuringsinstantie) via de leverancier verkregen.</p>",
+  "no": "<p>Ja. Et <strong>EN 10204 3.1</strong>-materialsertifikat følger som standard med hvert prosjekt. Ønsker kunden det, skaffes et <strong>3.2</strong>-sertifikat (bekreftet av et uavhengig kontrollorgan) fra leverandøren.</p>"
+ },
+ "faq_a10": {
+  "tr": "<p>Her malzeme parçası <strong>HEAT / LOT numarasıyla</strong> izlenir. Bu numara kesim, kaynak ve sevkiyat kayıtlarında zincire bağlanır; bir dikişin hangi WPS ile, hangi kaynakçı tarafından ve hangi malzemede yapıldığı proje dosyasından görülebilir.</p>",
+  "en": "<p>Every material piece is traced by its <strong>HEAT / LOT number</strong>. The number is linked through the cutting, welding and shipping records, so the project file shows which WPS, which welder and which material each weld used.</p>",
+  "de": "<p>Jedes Werkstoffteil wird über seine <strong>Schmelz-/Losnummer</strong> verfolgt. Die Nummer ist mit den Schneid-, Schweiß- und Versandaufzeichnungen verknüpft; die Projektakte zeigt, mit welcher WPS, von welchem Schweißer und in welchem Werkstoff jede Naht entstand.</p>",
+  "es": "<p>Cada pieza de material se rastrea por su <strong>número de colada / lote</strong>. El número se vincula a los registros de corte, soldadura y envío; el expediente muestra con qué WPS, qué soldador y qué material se hizo cada cordón.</p>",
+  "fr": "<p>Chaque pièce de matière est suivie par son <strong>numéro de coulée / lot</strong>. Ce numéro est relié aux enregistrements de découpe, de soudage et d'expédition ; le dossier montre quel DMOS, quel soudeur et quelle matière correspondent à chaque cordon.</p>",
+  "it": "<p>Ogni pezzo di materiale è tracciato con il suo <strong>numero di colata / lotto</strong>. Il numero è collegato alle registrazioni di taglio, saldatura e spedizione; il fascicolo mostra con quale WPS, quale saldatore e quale materiale è stato eseguito ogni cordone.</p>",
+  "nl": "<p>Elk materiaaldeel wordt gevolgd via zijn <strong>charge-/lotnummer</strong>. Dat nummer is gekoppeld aan de snij-, las- en verzendregistraties; het projectdossier toont met welke WPS, door welke lasser en in welk materiaal elke las is gemaakt.</p>",
+  "no": "<p>Hver materialdel spores med sitt <strong>charge-/lotnummer</strong>. Nummeret knyttes til skjære-, sveise- og forsendelsesregistreringene; prosjektmappen viser hvilken WPS, hvilken sveiser og hvilket materiale hver sveis ble laget med.</p>"
+ },
+ "faq_a11": {
+  "tr": "<p>Rutin olarak <strong>MAG (135), özlü tel (136), TIG (141) ve tozaltı (121)</strong> prosesleri kullanılır. Her iş için WPS hazırlanır; seçim malzeme, kalınlık, pozisyon ve kalite seviyesine göre kaynak mühendisi tarafından yapılır.</p>",
+  "en": "<p>We routinely use <strong>MAG (135), flux-cored (136), TIG (141) and submerged arc (121)</strong>. A WPS is prepared for every job; the welding engineer selects the process by material, thickness, position and quality level.</p>",
+  "de": "<p>Standardmäßig setzen wir <strong>MAG (135), Fülldraht (136), WIG (141) und UP (121)</strong> ein. Für jeden Auftrag wird eine WPS erstellt; der Schweißfachingenieur wählt das Verfahren nach Werkstoff, Dicke, Position und Qualitätsstufe.</p>",
+  "es": "<p>Usamos habitualmente <strong>MAG (135), alambre tubular (136), TIG (141) y arco sumergido (121)</strong>. Para cada trabajo se prepara una WPS; el ingeniero de soldadura elige el proceso según material, espesor, posición y nivel de calidad.</p>",
+  "fr": "<p>Nous utilisons couramment <strong>MAG (135), fil fourré (136), TIG (141) et arc submergé (121)</strong>. Un DMOS est établi pour chaque affaire ; l'ingénieur soudage choisit le procédé selon la matière, l'épaisseur, la position et le niveau de qualité.</p>",
+  "it": "<p>Usiamo abitualmente <strong>MAG (135), filo animato (136), TIG (141) e arco sommerso (121)</strong>. Per ogni commessa si prepara una WPS; l'ingegnere di saldatura sceglie il processo in base a materiale, spessore, posizione e livello di qualità.</p>",
+  "nl": "<p>We gebruiken standaard <strong>MAG (135), gevulde draad (136), TIG (141) en onder poeder (121)</strong>. Voor elke opdracht wordt een WPS opgesteld; de lasingenieur kiest het proces op basis van materiaal, dikte, positie en kwaliteitsniveau.</p>",
+  "no": "<p>Vi bruker rutinemessig <strong>MAG (135), rørtråd (136), TIG (141) og pulverbue (121)</strong>. Det lages WPS for hver jobb; sveiseingeniøren velger prosess etter materiale, tykkelse, posisjon og kvalitetsnivå.</p>"
+ },
+ "faq_a12": {
+  "tr": "<p>Atölyemizde <strong>10 kaynakçı</strong> çalışır. <strong>EN ISO 9606-1</strong> belgeleri şu anda yenileniyor; güncel belgeler sipariş öncesi paylaşılır. Belgeler proses, malzeme grubu, kalınlık ve pozisyona göre dosyalanır.</p>",
+  "en": "<p>We have <strong>10 welders</strong> in our workshop. Their <strong>EN ISO 9606-1</strong> certificates are currently being renewed; current copies are shared before order. Certificates are filed by process, material group, thickness and position.</p>",
+  "de": "<p>In unserer Werkstatt arbeiten <strong>10 Schweißer</strong>. Ihre <strong>EN ISO 9606-1</strong>-Prüfungen werden derzeit erneuert; aktuelle Kopien erhalten Sie vor Auftragserteilung. Die Bescheinigungen sind nach Prozess, Werkstoffgruppe, Dicke und Position abgelegt.</p>",
+  "es": "<p>En nuestro taller trabajan <strong>10 soldadores</strong>. Sus certificados <strong>EN ISO 9606-1</strong> se están renovando; las copias vigentes se envían antes del pedido. Los certificados se archivan por proceso, grupo de material, espesor y posición.</p>",
+  "fr": "<p>Notre atelier compte <strong>10 soudeurs</strong>. Leurs certificats <strong>EN ISO 9606-1</strong> sont en cours de renouvellement ; les copies à jour sont transmises avant commande. Les certificats sont classés par procédé, groupe de matériaux, épaisseur et position.</p>",
+  "it": "<p>Nella nostra officina lavorano <strong>10 saldatori</strong>. I loro certificati <strong>EN ISO 9606-1</strong> sono in rinnovo; le copie aggiornate vengono inviate prima dell'ordine. I certificati sono archiviati per processo, gruppo di materiale, spessore e posizione.</p>",
+  "nl": "<p>In onze werkplaats werken <strong>10 lassers</strong>. Hun <strong>EN ISO 9606-1</strong>-certificaten worden momenteel vernieuwd; actuele kopieën worden vóór de order gedeeld. De certificaten zijn gearchiveerd per proces, materiaalgroep, dikte en positie.</p>",
+  "no": "<p>Verkstedet vårt har <strong>10 sveisere</strong>. <strong>EN ISO 9606-1</strong>-sertifikatene deres fornyes nå; gjeldende kopier deles før bestilling. Sertifikatene arkiveres etter prosess, materialgruppe, tykkelse og posisjon.</p>"
+ },
+ "faq_q15": {
+  "re": [
+   [
+    "\\s+\\S+ Strenx 960/1100",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "faq_a15": {
+  "re": [
+   [
+    "\\s+\\S+ Strenx 960/1100",
+    "g",
+    ""
+   ]
+  ],
+  "re_tr": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>S960QL için malzemeye özel WPS</strong> hazırlanır</li>"
+   ]
+  ],
+  "re_en": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>A material-specific WPS for S960QL</strong> is prepared</li>"
+   ]
+  ],
+  "re_de": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Eine werkstoffspezifische WPS für S960QL</strong> wird erstellt</li>"
+   ]
+  ],
+  "re_es": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Se prepara una WPS específica para S960QL</strong></li>"
+   ]
+  ],
+  "re_fr": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Un DMOS spécifique au S960QL</strong> est établi</li>"
+   ]
+  ],
+  "re_it": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Si prepara una WPS specifica per S960QL</strong></li>"
+   ]
+  ],
+  "re_nl": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Er wordt een materiaalspecifieke WPS voor S960QL</strong> opgesteld</li>"
+   ]
+  ],
+  "re_no": [
+   [
+    "<ul><li><strong>[^<]*15614-1[^<]*</strong>[^<]*</li>",
+    "",
+    "<ul><li><strong>Det lages en materialspesifikk WPS for S960QL</strong></li>"
+   ]
+  ]
+ },
+ "faq_a23": {
+  "tr": "<p>Proje dokümantasyonu dijital olarak arşivlenir. Sipariş numarası veya proje kodu ile talep edildiğinde WPS, NDT raporları, malzeme sertifikaları ve boyut kontrol kayıtları PDF paket olarak yeniden iletilir.</p>",
+  "en": "<p>Project documentation is archived digitally. On request with the order number or project code, the WPS, NDT reports, material certificates and dimensional records are re-sent as a PDF package.</p>",
+  "de": "<p>Die Projektdokumentation wird digital archiviert. Auf Anfrage mit Auftragsnummer oder Projektcode senden wir WPS, ZfP-Berichte, Werkstoffzeugnisse und Maßprotokolle erneut als PDF-Paket.</p>",
+  "es": "<p>La documentación del proyecto se archiva digitalmente. A petición, con el número de pedido o código de proyecto, se reenvían WPS, informes END, certificados de material y registros dimensionales en un paquete PDF.</p>",
+  "fr": "<p>La documentation projet est archivée numériquement. Sur demande avec le numéro de commande ou le code projet, DMOS, rapports CND, certificats matière et relevés dimensionnels sont renvoyés en dossier PDF.</p>",
+  "it": "<p>La documentazione di progetto è archiviata in digitale. Su richiesta con numero d'ordine o codice progetto, WPS, rapporti CND, certificati materiale e rilievi dimensionali vengono reinviati in un pacchetto PDF.</p>",
+  "nl": "<p>Projectdocumentatie wordt digitaal gearchiveerd. Op verzoek met ordernummer of projectcode sturen we WPS, NDO-rapporten, materiaalcertificaten en maatrapporten opnieuw als PDF-pakket.</p>",
+  "no": "<p>Prosjektdokumentasjonen arkiveres digitalt. På forespørsel med ordrenummer eller prosjektkode sendes WPS, NDT-rapporter, materialsertifikater og målrapporter på nytt som PDF-pakke.</p>"
+ },
+ "contact_svc2_sub": {
+  "*": "EN 1090-2"
+ },
+ "contact_svc5_sub": {
+  "*": "VT · UT · RT"
+ },
+ "contact_mat_uhs": {
+  "re": [
+   [
+    " / Strenx 960 / 1100",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "contact_desc_ph": {
+  "tr": "Projeniz hakkında kısa teknik özet: kullanım yeri, toleranslar, NDT istekleri, kalite seviyesi (EN ISO 5817, EXC vb.), boya/kaplama, sevkiyat noktası...",
+  "en": "Brief technical summary of your project: end use, tolerances, NDT requirements, quality level (EN ISO 5817, EXC, etc.), paint/coating, delivery point...",
+  "de": "Kurze technische Zusammenfassung Ihres Projekts: Einsatzort, Toleranzen, ZfP-Anforderungen, Qualitätsstufe (EN ISO 5817, EXC usw.), Lack/Beschichtung, Lieferort...",
+  "es": "Resumen técnico breve del proyecto: uso final, tolerancias, requisitos END, nivel de calidad (EN ISO 5817, EXC, etc.), pintura/recubrimiento, punto de entrega...",
+  "fr": "Bref résumé technique du projet : usage final, tolérances, exigences CND, niveau de qualité (EN ISO 5817, EXC, etc.), peinture/revêtement, point de livraison...",
+  "it": "Breve sintesi tecnica del Suo progetto: destinazione d'uso, tolleranze, requisiti CND, livello di qualità (EN ISO 5817, EXC, ecc.), verniciatura/rivestimento, luogo di consegna...",
+  "nl": "Korte technische samenvatting van uw project: eindgebruik, toleranties, NDO-eisen, kwaliteitsniveau (EN ISO 5817, EXC enz.), verf/coating, leverpunt...",
+  "no": "Kort teknisk sammendrag av prosjektet: sluttbruk, toleranser, NDT-krav, kvalitetsnivå (EN ISO 5817, EXC osv.), maling/belegg, leveringssted..."
+ },
+ "br_rfq_html": {
+  "re": [
+   [
+    ", CE / DoP",
+    "g",
+    ""
+   ]
+  ],
+  "re_tr": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Gizlilik sözleşmesi standarttır; talebinizden sonra proje mühendisiniz atanır.</p></div>"
+   ]
+  ],
+  "re_en": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>A confidentiality agreement is standard; a project engineer is assigned after your request.</p></div>"
+   ]
+  ],
+  "re_de": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Eine Geheimhaltungsvereinbarung ist Standard; nach Ihrer Anfrage wird Ihr Projektingenieur benannt.</p></div>"
+   ]
+  ],
+  "re_es": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>El acuerdo de confidencialidad es estándar; tras su solicitud se asigna su ingeniero de proyecto.</p></div>"
+   ]
+  ],
+  "re_fr": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Un accord de confidentialité est la règle ; votre ingénieur projet est désigné après votre demande.</p></div>"
+   ]
+  ],
+  "re_it": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>L'accordo di riservatezza è prassi standard; dopo la richiesta viene assegnato il vostro ingegnere di progetto.</p></div>"
+   ]
+  ],
+  "re_nl": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Een geheimhoudingsovereenkomst is standaard; na uw aanvraag wordt uw projectingenieur toegewezen.</p></div>"
+   ]
+  ],
+  "re_no": [
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Konfidensialitetsavtale er standard; prosjektingeniøren deres tildeles etter forespørselen.</p></div>"
+   ]
+  ]
+ },
+ "deep_export_html": {
+  "re": [
+   [
+    "<li><strong>CE DoP[^<]*</strong>[^<]*</li>",
+    "g",
+    ""
+   ]
+  ]
+ }
+}

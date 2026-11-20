@@ -72,7 +72,7 @@ export default {
 <li>Seri numarası veya parti etiketi.</li>
 </ul>
 <p>Bu kayıtlar, üreticinin teknik dosyası ve olası bir denetimde parçanın uygunluğunu gösterir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Kabin karkası, platform şasisi ve konsol gibi taşıyıcı kaynaklı parçaları çizime ve kalite gerekliliklerine göre üretiyor, VT, MT, PT ve UT muayenelerini atölyemizde yapıyoruz. Kaynak sonrası talaşlı işleme ve yüzey işlemlerini çözüm ortaklarımızla koordine ediyoruz. <a href="../makine-sasesi-imalati.html">Makine şasisi imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Kabin karkası, platform şasisi ve konsol gibi taşıyıcı kaynaklı parçaları çizime ve kalite gerekliliklerine göre üretiyor, VT ve UT muayenelerini atölyemizde yapıyoruz. Kaynak sonrası talaşlı işleme ve yüzey işlemlerini çözüm ortaklarımızla koordine ediyoruz. <a href="../makine-sasesi-imalati.html">Makine şasisi imalatı →</a></p></div>
 `,
     faq: [
       ['Asansör parçaları için hangi standartlar geçerlidir?', 'İnsan ve yük-insan asansörleri için EN 81-20 ve EN 81-50; engelli platformları için EN 81-41; makaslı kaldırma masaları için EN 1570-1. Hangisinin geçerli olduğunu ürün üreticisi belirler.'],
@@ -151,7 +151,7 @@ export default {
 <li>Serial number or batch label.</li>
 </ul>
 <p>These records show the part’s conformity in the manufacturer’s technical file and in any audit.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we fabricate load-bearing welded parts such as car frames, platform chassis and brackets to drawing and quality requirements, with VT, MT, PT and UT in our own shop. Machining after welding and surface treatment are coordinated with our partners. <a href="../makine-sasesi-imalati.html">Machine frame fabrication →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we fabricate load-bearing welded parts such as car frames, platform chassis and brackets to drawing and quality requirements, with VT and UT in our own shop. Machining after welding and surface treatment are coordinated with our partners. <a href="../makine-sasesi-imalati.html">Machine frame fabrication →</a></p></div>
 `,
     faq: [
       ['Which standards apply to lift parts?', 'EN 81-20 and EN 81-50 for passenger and goods passenger lifts; EN 81-41 for platforms for persons with impaired mobility; EN 1570-1 for scissor lifting tables. The product manufacturer decides which applies.'],
@@ -230,7 +230,7 @@ export default {
 <li>Seriennummer oder Losetikett.</li>
 </ul>
 <p>Diese Aufzeichnungen belegen die Konformität des Teils in der technischen Dokumentation des Herstellers und bei Audits.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir fertigen tragende Schweißteile wie Fahrkorbrahmen, Plattformrahmen und Konsolen nach Zeichnung und Qualitätsanforderungen und prüfen mit VT, MT, PT und UT in der eigenen Werkstatt. Mechanische Bearbeitung nach dem Schweißen und Oberflächenbehandlung koordinieren wir mit Partnern. <a href="../makine-sasesi-imalati.html">Maschinenrahmenbau →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir fertigen tragende Schweißteile wie Fahrkorbrahmen, Plattformrahmen und Konsolen nach Zeichnung und Qualitätsanforderungen und prüfen mit VT und UT in der eigenen Werkstatt. Mechanische Bearbeitung nach dem Schweißen und Oberflächenbehandlung koordinieren wir mit Partnern. <a href="../makine-sasesi-imalati.html">Maschinenrahmenbau →</a></p></div>
 `,
     faq: [
       ['Welche Normen gelten für Aufzugsteile?', 'EN 81-20 und EN 81-50 für Personen- und Lastenaufzüge mit Personenbeförderung, EN 81-41 für Plattformaufzüge, EN 1570-1 für Hubtische. Welche gilt, legt der Produkthersteller fest.'],
@@ -309,7 +309,7 @@ export default {
 <li>número de serie o etiqueta de lote.</li>
 </ul>
 <p>Estos registros demuestran la conformidad de la pieza en el expediente técnico del fabricante y en cualquier auditoría.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> fabricamos piezas soldadas estructurales como bastidores de cabina, chasis de plataforma y soportes según plano y requisitos de calidad, con VT, MT, PT y UT en nuestro propio taller. El mecanizado posterior y el tratamiento superficial se coordinan con nuestros socios. <a href="../makine-sasesi-imalati.html">Fabricación de bastidores de máquina →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> fabricamos piezas soldadas estructurales como bastidores de cabina, chasis de plataforma y soportes según plano y requisitos de calidad, con VT y UT en nuestro propio taller. El mecanizado posterior y el tratamiento superficial se coordinan con nuestros socios. <a href="../makine-sasesi-imalati.html">Fabricación de bastidores de máquina →</a></p></div>
 `,
     faq: [
       ['¿Qué normas aplican a las piezas de ascensor?', 'EN 81-20 y EN 81-50 para ascensores de personas y de personas y cargas; EN 81-41 para plataformas para movilidad reducida; EN 1570-1 para mesas elevadoras. El fabricante del producto determina cuál aplica.'],
@@ -388,7 +388,7 @@ export default {
 <li>numéro de série ou étiquette de lot.</li>
 </ul>
 <p>Ces enregistrements démontrent la conformité de la pièce dans le dossier technique du fabricant et lors des audits.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous fabriquons des pièces soudées porteuses comme étriers de cabine, châssis de plateforme et consoles selon plan et exigences qualité, avec VT, MT, PT et UT dans notre atelier. L’usinage après soudage et les traitements de surface sont coordonnés avec nos partenaires. <a href="../makine-sasesi-imalati.html">Fabrication de bâtis de machines →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous fabriquons des pièces soudées porteuses comme étriers de cabine, châssis de plateforme et consoles selon plan et exigences qualité, avec VT et UT dans notre atelier. L’usinage après soudage et les traitements de surface sont coordonnés avec nos partenaires. <a href="../makine-sasesi-imalati.html">Fabrication de bâtis de machines →</a></p></div>
 `,
     faq: [
       ['Quelles normes s’appliquent aux pièces d’ascenseur ?', 'EN 81-20 et EN 81-50 pour les ascenseurs de personnes et de charge accompagnés ; EN 81-41 pour les plateformes PMR ; EN 1570-1 pour les tables élévatrices. Le fabricant du produit détermine laquelle s’applique.'],
@@ -467,7 +467,7 @@ export default {
 <li>numero di serie o etichetta di lotto.</li>
 </ul>
 <p>Queste registrazioni dimostrano la conformità del pezzo nel fascicolo tecnico del costruttore e durante gli audit.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> produciamo componenti saldati portanti come arcate di cabina, telai di piattaforma e mensole secondo disegno e requisiti di qualità, con VT, MT, PT e UT nella nostra officina. Lavorazioni meccaniche dopo saldatura e trattamenti superficiali sono coordinati con i nostri partner. <a href="../makine-sasesi-imalati.html">Fabbricazione di telai macchina →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> produciamo componenti saldati portanti come arcate di cabina, telai di piattaforma e mensole secondo disegno e requisiti di qualità, con VT e UT nella nostra officina. Lavorazioni meccaniche dopo saldatura e trattamenti superficiali sono coordinati con i nostri partner. <a href="../makine-sasesi-imalati.html">Fabbricazione di telai macchina →</a></p></div>
 `,
     faq: [
       ['Quali norme valgono per i componenti di ascensori?', 'EN 81-20 ed EN 81-50 per ascensori per persone e merci; EN 81-41 per piattaforme per persone con mobilità ridotta; EN 1570-1 per tavole elevatrici. Quale si applica lo stabilisce il costruttore del prodotto.'],
@@ -546,7 +546,7 @@ export default {
 <li>serienummer of batchlabel.</li>
 </ul>
 <p>Deze registraties tonen de conformiteit van het deel in het technisch dossier van de fabrikant en bij audits.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we maken dragende lasdelen zoals kooiramen, platformframes en consoles volgens tekening en kwaliteitseisen, met VT, MT, PT en UT in onze eigen werkplaats. Verspanen na het lassen en oppervlaktebehandeling coördineren we met onze partners. <a href="../makine-sasesi-imalati.html">Machineframebouw →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we maken dragende lasdelen zoals kooiramen, platformframes en consoles volgens tekening en kwaliteitseisen, met VT en UT in onze eigen werkplaats. Verspanen na het lassen en oppervlaktebehandeling coördineren we met onze partners. <a href="../makine-sasesi-imalati.html">Machineframebouw →</a></p></div>
 `,
     faq: [
       ['Welke normen gelden voor liftonderdelen?', 'EN 81-20 en EN 81-50 voor personen- en goederenpersonenliften; EN 81-41 voor platforms voor mindervaliden; EN 1570-1 voor heftafels. De productfabrikant bepaalt welke van toepassing is.'],
@@ -625,7 +625,7 @@ export default {
 <li>serienummer eller partimerking.</li>
 </ul>
 <p>Disse registreringene viser delens samsvar i produsentens tekniske dokumentasjon og ved revisjoner.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi produserer bærende sveisede deler som stolrammer, plattformrammer og konsoller etter tegning og kvalitetskrav, med VT, MT, PT og UT i eget verksted. Maskinering etter sveising og overflatebehandling koordineres med våre partnere. <a href="../makine-sasesi-imalati.html">Produksjon av maskinrammer →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi produserer bærende sveisede deler som stolrammer, plattformrammer og konsoller etter tegning og kvalitetskrav, med VT og UT i eget verksted. Maskinering etter sveising og overflatebehandling koordineres med våre partnere. <a href="../makine-sasesi-imalati.html">Produksjon av maskinrammer →</a></p></div>
 `,
     faq: [
       ['Hvilke standarder gjelder for heisdeler?', 'EN 81-20 og EN 81-50 for person- og vareheiser med personbefordring; EN 81-41 for plattformer for personer med nedsatt bevegelighet; EN 1570-1 for løftebord. Produsenten av produktet avgjør hva som gjelder.'],

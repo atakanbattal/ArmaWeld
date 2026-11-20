@@ -73,7 +73,7 @@ export default {
 <li>Ölçü raporları (yuvarlaklık, düşeylik, nozul konumları),</li>
 <li>Boya kalınlık raporları.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Atölyede taşınabilir ölçülerdeki tank ve siloları, büyük yapılar için gövde segmentleri, nozul ve takviye parçalarını kaynaklıyoruz. VT, PT, MT ve UT muayenelerini atölyemizde yapıyor, sızdırmazlık testlerini test planına göre uyguluyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat hizmetimiz →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Atölyede taşınabilir ölçülerdeki tank ve siloları, büyük yapılar için gövde segmentleri, nozul ve takviye parçalarını kaynaklıyoruz. VT ve UT muayenelerini atölyemizde yapıyor, sızdırmazlık testlerini test planına göre uyguluyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat hizmetimiz →</a></p></div>
 `,
     faq: [
       ['Atmosferik tank PED kapsamına girer mi?', 'Azami izin verilen basıncı 0,5 bar’ı aşmayan kaplar PED kapsamı dışındadır; kapsamı tasarımcı belirler.'],
@@ -96,7 +96,7 @@ export default {
     body: `
 <p>Water, fuel, chemicals, food liquids, grain, cement or plastic granules: all are stored in tanks or silos. These structures usually operate at atmospheric pressure, but being “unpressurised” does not make weld quality unimportant. A leaking tank is an environmental and safety problem; a cracked silo hopper means a production stoppage.</p>
 <h2>Tank or Pressure Vessel?</h2>
-<p>In Europe, vessels with a maximum allowable pressure above 0.5 bar fall under the Pressure Equipment Directive (PED). Atmospheric or very low-pressure tanks are outside its scope and are designed and built to their own standards. Determining scope is the designer’s job; see our separate article on <a href="basincli-kap-imalati.html">pressure vessel fabrication</a>.</p>
+<p>In Europe, vessels with a maximum allowable pressure above 0.5 bar fall under the Pressure Equipment Directive (PED). Atmospheric or very low-pressure tanks are outside its scope and are designed and built to their own standards.</p>
 <h2>Relevant Standards</h2>
 <table>
 <thead><tr><th>Standard</th><th>Scope</th></tr></thead>
@@ -153,7 +153,7 @@ export default {
 <li>Dimensional reports (roundness, verticality, nozzle positions),</li>
 <li>Coating thickness reports.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld road-transportable tanks and silos in the shop, and shell segments, nozzles and reinforcements for larger structures. VT, PT, MT and UT are carried out in our shop, and tightness tests are applied according to the test plan. <a href="../kaynakli-imalat.html">Our welded fabrication service →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld road-transportable tanks and silos in the shop, and shell segments, nozzles and reinforcements for larger structures. VT and UT are carried out in our shop, and tightness tests are applied according to the test plan. <a href="../kaynakli-imalat.html">Our welded fabrication service →</a></p></div>
 `,
     faq: [
       ['Is an atmospheric tank covered by the PED?', 'Vessels with a maximum allowable pressure not above 0.5 bar are outside PED scope; the designer determines scope.'],
@@ -176,7 +176,7 @@ export default {
     body: `
 <p>Wasser, Kraftstoff, Chemikalien, flüssige Lebensmittel, Getreide, Zement oder Kunststoffgranulat: alles lagert in Tanks oder Silos. Diese Bauwerke arbeiten meist bei Atmosphärendruck, doch „drucklos“ heißt nicht, dass die Schweißqualität unwichtig wäre. Ein undichter Tank ist ein Umwelt- und Sicherheitsproblem, ein gerissener Silotrichter bedeutet Produktionsstillstand.</p>
 <h2>Tank oder Druckbehälter?</h2>
-<p>In Europa fallen Behälter mit einem maximal zulässigen Druck über 0,5 bar unter die Druckgeräterichtlinie (DGRL). Atmosphärische oder Niederdrucktanks liegen außerhalb und werden nach eigenen Normen ausgelegt und gefertigt. Die Abgrenzung ist Aufgabe des Konstrukteurs; siehe auch unseren Beitrag zur <a href="basincli-kap-imalati.html">Druckbehälterfertigung</a>.</p>
+<p>In Europa fallen Behälter mit einem maximal zulässigen Druck über 0,5 bar unter die Druckgeräterichtlinie (DGRL). Atmosphärische oder Niederdrucktanks liegen außerhalb und werden nach eigenen Normen ausgelegt und gefertigt.</p>
 <h2>Relevante Normen</h2>
 <table>
 <thead><tr><th>Norm</th><th>Geltungsbereich</th></tr></thead>
@@ -256,7 +256,7 @@ export default {
     body: `
 <p>Agua, combustible, productos químicos, líquidos alimentarios, grano, cemento o granza de plástico: todo se almacena en tanques o silos. Estas estructuras suelen trabajar a presión atmosférica, pero “sin presión” no significa que la calidad de soldadura dé igual. Un tanque con fugas es un problema ambiental y de seguridad; una tolva fisurada, una parada de producción.</p>
 <h2>¿Tanque o recipiente a presión?</h2>
-<p>En Europa, los recipientes con presión máxima admisible superior a 0,5 bar entran en la Directiva de Equipos a Presión (PED). Los tanques atmosféricos o de muy baja presión quedan fuera y se diseñan y fabrican según sus propias normas. Determinar el alcance es tarea del diseñador; vea nuestro artículo sobre <a href="basincli-kap-imalati.html">recipientes a presión</a>.</p>
+<p>En Europa, los recipientes con presión máxima admisible superior a 0,5 bar entran en la Directiva de Equipos a Presión (PED). Los tanques atmosféricos o de muy baja presión quedan fuera y se diseñan y fabrican según sus propias normas.</p>
 <h2>Normas aplicables</h2>
 <table>
 <thead><tr><th>Norma</th><th>Alcance</th></tr></thead>
@@ -313,7 +313,7 @@ export default {
 <li>informes dimensionales (redondez, verticalidad, posición de tubuladuras),</li>
 <li>informes de espesor de pintura.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos en taller tanques y silos transportables por carretera, y virolas, tubuladuras y refuerzos para estructuras mayores. Realizamos VT, PT, MT y UT en nuestro taller y aplicamos las pruebas de estanqueidad según el plan de ensayos. <a href="../kaynakli-imalat.html">Nuestro servicio de fabricación soldada →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos en taller tanques y silos transportables por carretera, y virolas, tubuladuras y refuerzos para estructuras mayores. Realizamos VT y UT en nuestro taller y aplicamos las pruebas de estanqueidad según el plan de ensayos. <a href="../kaynakli-imalat.html">Nuestro servicio de fabricación soldada →</a></p></div>
 `,
     faq: [
       ['¿Un tanque atmosférico entra en la PED?', 'Los recipientes con presión máxima admisible no superior a 0,5 bar quedan fuera de la PED; el alcance lo determina el diseñador.'],
@@ -393,7 +393,7 @@ export default {
 <li>rapports dimensionnels (circularité, verticalité, position des piquages),</li>
 <li>rapports d’épaisseur de peinture.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons en atelier des réservoirs et silos transportables par route, ainsi que viroles, piquages et renforts pour les ouvrages plus grands. VT, PT, MT et UT sont réalisés dans notre atelier, et les essais d’étanchéité selon le plan d’essais. <a href="../kaynakli-imalat.html">Notre fabrication soudée →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons en atelier des réservoirs et silos transportables par route, ainsi que viroles, piquages et renforts pour les ouvrages plus grands. VT et UT sont réalisés dans notre atelier, et les essais d’étanchéité selon le plan d’essais. <a href="../kaynakli-imalat.html">Notre fabrication soudée →</a></p></div>
 `,
     faq: [
       ['Un réservoir atmosphérique relève-t-il de la DESP ?', 'Les récipients dont la pression maximale admissible ne dépasse pas 0,5 bar en sont exclus ; le concepteur détermine le champ.'],
@@ -416,7 +416,7 @@ export default {
     body: `
 <p>Acqua, carburante, prodotti chimici, liquidi alimentari, cereali, cemento o granulo plastico: tutto si stocca in serbatoi o silos. Queste strutture lavorano di solito a pressione atmosferica, ma “non in pressione” non significa che la qualità della saldatura conti poco. Un serbatoio che perde è un problema ambientale e di sicurezza; una tramoggia criccata è un fermo produttivo.</p>
 <h2>Serbatoio o recipiente in pressione?</h2>
-<p>In Europa i recipienti con pressione massima ammissibile superiore a 0,5 bar rientrano nella Direttiva PED. I serbatoi atmosferici o a bassissima pressione ne sono esclusi e si progettano e costruiscono secondo norme proprie. Stabilire il campo di applicazione spetta al progettista; vedi il nostro articolo sui <a href="basincli-kap-imalati.html">recipienti in pressione</a>.</p>
+<p>In Europa i recipienti con pressione massima ammissibile superiore a 0,5 bar rientrano nella Direttiva PED. I serbatoi atmosferici o a bassissima pressione ne sono esclusi e si progettano e costruiscono secondo norme proprie.</p>
 <h2>Norme di riferimento</h2>
 <table>
 <thead><tr><th>Norma</th><th>Campo</th></tr></thead>
@@ -473,7 +473,7 @@ export default {
 <li>rapporti dimensionali (rotondità, verticalità, posizione dei bocchelli),</li>
 <li>rapporti di spessore della verniciatura.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo in officina serbatoi e silos trasportabili su strada, e virole, bocchelli e rinforzi per strutture più grandi. VT, PT, MT e UT si eseguono nella nostra officina, e le prove di tenuta secondo il piano di prova. <a href="../kaynakli-imalat.html">La nostra carpenteria saldata →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo in officina serbatoi e silos trasportabili su strada, e virole, bocchelli e rinforzi per strutture più grandi. VT e UT si eseguono nella nostra officina, e le prove di tenuta secondo il piano di prova. <a href="../kaynakli-imalat.html">La nostra carpenteria saldata →</a></p></div>
 `,
     faq: [
       ['Un serbatoio atmosferico rientra nella PED?', 'I recipienti con pressione massima ammissibile non superiore a 0,5 bar ne sono esclusi; il campo lo stabilisce il progettista.'],
@@ -553,7 +553,7 @@ export default {
 <li>maatrapporten (rondheid, verticaliteit, nozzleposities),</li>
 <li>laagdikterapporten.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen over de weg vervoerbare tanks en silo’s in de werkplaats, en mantelringen, nozzles en versterkingen voor grotere constructies. VT, PT, MT en UT voeren we uit in onze eigen werkplaats, dichtheidsbeproevingen volgens het testplan. <a href="../kaynakli-imalat.html">Ons laswerk →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen over de weg vervoerbare tanks en silo’s in de werkplaats, en mantelringen, nozzles en versterkingen voor grotere constructies. VT en UT voeren we uit in onze eigen werkplaats, dichtheidsbeproevingen volgens het testplan. <a href="../kaynakli-imalat.html">Ons laswerk →</a></p></div>
 `,
     faq: [
       ['Valt een atmosferische tank onder de PED?', 'Vaten met een maximaal toelaatbare druk tot 0,5 bar vallen erbuiten; de ontwerper bepaalt de afbakening.'],

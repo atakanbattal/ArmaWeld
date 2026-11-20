@@ -1,0 +1,105 @@
+{
+ "kim_s2_table": {
+  "drop": [
+   "QMOS"
+  ]
+ },
+ "chb_f1_a": {
+  "drop": [
+   "QMOS"
+  ]
+ },
+ "btp_s1_cards": {
+  "drop": [
+   "QMOS"
+  ]
+ },
+ "chb_r1v": {
+  "re": [
+   [
+    "\\(SAW 121,[^)]*\\)",
+    "g",
+    "(SAW 121)"
+   ]
+  ]
+ },
+ "kf_b1_p": {
+  "re": [
+   [
+    ",\\s*(CE )?DoP",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "chb_c3_p": {
+  "re_tr": [
+   [
+    "HARDOX ve Strenx'te",
+    "g",
+    "HARDOX'ta"
+   ]
+  ],
+  "re": [
+   [
+    " (and|und|y|et|e|en|og) Strenx",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "proc_extra_strenx": {
+  "re": [
+   [
+    "Strenx (ve|and|und|y|et|e|en|og) ",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "proc_extra_hardox": {
+  "re": [
+   [
+    "\\s*/\\s*Raex",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "deep_mat_select_html": {
+  "re": [
+   [
+    "<li><strong>316L</strong>[^<]*</li>",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "deep_certs_badges_html": {
+  "re": [
+   [
+    "\\s*·\\s*(marcado|marquage|marcatura) CE",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "footer_saw": {
+  "re": [
+   [
+    "\\s*\\(35 ?m\\)",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "deep_ndt_matrix_html": {
+  "re": [
+   [
+    "<tr><td>[^<]*(Paslanmaz|Stainless|Edelstahl|inoxidable|inox|RVS|rvs|rustfri)[^<]*</td>[\\s\\S]*?</tr>",
+    "gi",
+    ""
+   ]
+  ]
+ }
+}
