@@ -53,7 +53,7 @@ export default {
 <li>Altı aylık onaylar düzenli işlenmiş mi?</li>
 <li>Operatörün kullandığı WPS, onaylı bir WPQR'ye dayanıyor mu?</li>
 </ol>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> 35 metrelik tozaltı kaynak makinemizde lineer uzun dikiş, bom ve şasi kaynakları yapılır. Teklif aşamasında işe uygulanacak WPS'leri ve personel yeterlilik belgelerini sizinle birlikte netleştiririz. <a href="../tozalti-kaynak.html">Tozaltı kaynak hizmetimizi inceleyin →</a></p></div>
+<div class="callout"><p>Teklif aşamasında işe uygulanacak WPS'leri ve personel yeterlilik belgelerini sizinle birlikte netleştiririz. <a href="../tozalti-kaynak.html">Tozaltı kaynak hizmetimizi inceleyin →</a></p></div>
 `,
     faq: [
       ['ISO 9606 belgesi olan kaynakçı tozaltı makinesini kullanabilir mi?', 'Mekanize veya otomatik kaynak için ISO 14732 belgesi gerekir. ISO 9606 belgesi elle kaynak becerisini kapsar, makine operatörlüğünü kapsamaz.'],
@@ -113,7 +113,7 @@ export default {
 <li>Are the six-monthly confirmations recorded?</li>
 <li>Is the operator's WPS backed by an approved WPQR?</li>
 </ol>
-<div class="callout"><p><strong>At ArmaWeld:</strong> our 35-metre submerged arc welding machine is used for linear long seams, booms and chassis. At quotation stage we agree with you which WPSs and personnel qualifications apply to the job. <a href="../tozalti-kaynak.html">See our submerged arc welding service →</a></p></div>
+<div class="callout"><p>At quotation stage we agree with you which WPSs and personnel qualifications apply to the job. <a href="../tozalti-kaynak.html">See our submerged arc welding service →</a></p></div>
 `,
     faq: [
       ['Can a welder with ISO 9606 operate a SAW machine?', 'Mechanized or automatic welding requires ISO 14732 qualification. ISO 9606 covers manual welding skill, not machine operation.'],
@@ -232,7 +232,7 @@ export default {
 <li>¿Están registradas las confirmaciones semestrales?</li>
 <li>¿La WPS del operador se basa en una WPQR aprobada?</li>
 </ol>
-<div class="callout"><p><strong>En ArmaWeld:</strong> en nuestra máquina de arco sumergido de 35 metros realizamos cordones largos lineales, plumas y bastidores. En la fase de oferta acordamos con usted qué WPS y cualificaciones de personal se aplican al trabajo. <a href="../tozalti-kaynak.html">Nuestro servicio de arco sumergido →</a></p></div>
+<div class="callout"><p>En la fase de oferta acordamos con usted qué WPS y cualificaciones de personal se aplican al trabajo. <a href="../tozalti-kaynak.html">Nuestro servicio de arco sumergido →</a></p></div>
 `,
     faq: [
       ['¿Un soldador con ISO 9606 puede manejar una máquina SAW?', 'La soldadura mecanizada o automática exige cualificación ISO 14732. La ISO 9606 cubre la destreza manual, no el manejo de la máquina.'],
@@ -291,7 +291,7 @@ export default {
 <li>Les confirmations semestrielles sont-elles portées ?</li>
 <li>Le DMOS de l’opérateur repose-t-il sur une QMOS approuvée ?</li>
 </ol>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> notre installation de soudage à l’arc submergé de 35 mètres sert aux longs cordons linéaires, flèches et châssis. Au stade de l’offre, nous convenons avec vous des DMOS et qualifications du personnel applicables à la commande. <a href="../tozalti-kaynak.html">Notre prestation arc submergé →</a></p></div>
+<div class="callout"><p>Au stade de l’offre, nous convenons avec vous des DMOS et qualifications du personnel applicables à la commande. <a href="../tozalti-kaynak.html">Notre prestation arc submergé →</a></p></div>
 `,
     faq: [
       ['Un soudeur certifié ISO 9606 peut-il conduire une installation SAW ?', 'Le soudage mécanisé ou automatique exige une qualification ISO 14732. L’ISO 9606 couvre la dextérité manuelle, pas la conduite d’installation.'],
@@ -350,7 +350,7 @@ export default {
 <li>Le conferme semestrali sono registrate?</li>
 <li>La WPS dell’operatore si basa su una WPQR approvata?</li>
 </ol>
-<div class="callout"><p><strong>In ArmaWeld:</strong> sul nostro impianto ad arco sommerso da 35 metri eseguiamo cordoni lunghi lineari, bracci e telai. In fase di offerta concordiamo con voi quali WPS e qualifiche del personale si applicano alla commessa. <a href="../tozalti-kaynak.html">Il nostro servizio ad arco sommerso →</a></p></div>
+<div class="callout"><p>In fase di offerta concordiamo con voi quali WPS e qualifiche del personale si applicano alla commessa. <a href="../tozalti-kaynak.html">Il nostro servizio ad arco sommerso →</a></p></div>
 `,
     faq: [
       ['Un saldatore ISO 9606 può condurre un impianto SAW?', 'La saldatura meccanizzata o automatica richiede la qualifica ISO 14732. La ISO 9606 copre la destrezza manuale, non la conduzione dell’impianto.'],
@@ -409,7 +409,7 @@ export default {
 <li>Zijn de halfjaarlijkse bevestigingen vastgelegd?</li>
 <li>Is de WPS van de operator gebaseerd op een goedgekeurde WPQR?</li>
 </ol>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> op onze OP-lasinstallatie van 35 meter lassen we lineaire lange naden, gieken en chassis. In de offertefase stemmen we met u af welke WPS'en en personeelskwalificaties voor de opdracht gelden. <a href="../tozalti-kaynak.html">Ons onder poeder lassen →</a></p></div>
+<div class="callout"><p>In de offertefase stemmen we met u af welke WPS'en en personeelskwalificaties voor de opdracht gelden. <a href="../tozalti-kaynak.html">Ons onder poeder lassen →</a></p></div>
 `,
     faq: [
       ['Mag een lasser met ISO 9606 een OP-machine bedienen?', 'Voor gemechaniseerd of automatisch lassen is ISO 14732 vereist. ISO 9606 dekt handvaardigheid, niet de bediening van de machine.'],
@@ -468,7 +468,7 @@ export default {
 <li>Er halvårlige bekreftelser registrert?</li>
 <li>Bygger operatørens WPS på en godkjent WPQR?</li>
 </ol>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> på vår 35 meter lange pulverbuesveisemaskin sveiser vi lineære langsømmer, bommer og chassis. I tilbudsfasen avtaler vi med deg hvilke WPS-er og personellkvalifiseringer som gjelder for jobben. <a href="../tozalti-kaynak.html">Vår pulverbuesveising →</a></p></div>
+<div class="callout"><p>I tilbudsfasen avtaler vi med deg hvilke WPS-er og personellkvalifiseringer som gjelder for jobben. <a href="../tozalti-kaynak.html">Vår pulverbuesveising →</a></p></div>
 `,
     faq: [
       ['Kan en sveiser med ISO 9606 kjøre en pulverbuemaskin?', 'Mekanisert eller automatisk sveising krever ISO 14732-kvalifisering. ISO 9606 dekker manuelt håndlag, ikke maskinbetjening.'],

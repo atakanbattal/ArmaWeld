@@ -1,0 +1,123 @@
+{
+ "pg_ndt_title": {
+  "re": [
+   [
+    "VT, PT, MT, UT",
+    "g",
+    "VT, UT, RT"
+   ]
+  ]
+ },
+ "pg_ndt_desc": {
+  "tr": "VT, UT ve RT film değerlendirme EN ISO 9712 Seviye 2 belgeli personelle bünyede. RT çekimi lisanslı laboratuvarda; PT ve MT gerekirse anlaşmalı kuruluşla.",
+  "en": "VT, UT and RT film interpretation in-house by EN ISO 9712 Level 2 certified staff. RT exposure at a licensed lab; PT and MT through a contracted body when required.",
+  "de": "VT, UT und RT-Filmauswertung inhouse durch nach EN ISO 9712 Stufe 2 zertifiziertes Personal. RT-Durchstrahlung im lizenzierten Labor; PT und MT bei Bedarf über eine Vertragsstelle.",
+  "es": "VT, UT e interpretación de película RT internos con personal certificado EN ISO 9712 nivel 2. Exposición RT en laboratorio autorizado; PT y MT con una entidad contratada cuando se requiera.",
+  "fr": "VT, UT et interprétation de films RT en interne par du personnel certifié EN ISO 9712 niveau 2. Tir RT en laboratoire agréé ; PT et MT par un organisme sous contrat si nécessaire.",
+  "it": "VT, UT e interpretazione pellicole RT interni con personale certificato EN ISO 9712 livello 2. Esposizione RT in laboratorio autorizzato; PT e MT tramite ente convenzionato se richiesto.",
+  "nl": "VT, UT en RT-filmbeoordeling in eigen huis door EN ISO 9712 niveau 2-gecertificeerd personeel. RT-opnamen in een vergund lab; PT en MT zo nodig via een gecontracteerde instantie.",
+  "no": "VT, UT og RT-filmtolkning internt med personell sertifisert etter EN ISO 9712 nivå 2. RT-eksponering i lisensiert laboratorium; PT og MT via avtalt organ ved behov."
+ },
+ "ndt_lede": {
+  "tr": "VT, UT ve RT film değerlendirme, EN ISO 9712 Seviye 2 belgeli personelimizle bünyemizde yapılır. RT çekimi lisanslı laboratuvarda; PT ve MT gerekirse anlaşmalı kuruluşla.",
+  "en": "VT, UT and RT film interpretation are done in-house by our EN ISO 9712 Level 2 certified staff. RT exposure at a licensed lab; PT and MT through a contracted body when required.",
+  "de": "VT, UT und RT-Filmauswertung erfolgen inhouse durch unser nach EN ISO 9712 Stufe 2 zertifiziertes Personal. RT-Durchstrahlung im lizenzierten Labor; PT und MT bei Bedarf über eine Vertragsstelle.",
+  "es": "VT, UT e interpretación de película RT se realizan internamente con nuestro personal certificado EN ISO 9712 nivel 2. Exposición RT en laboratorio autorizado; PT y MT con una entidad contratada cuando se requiera.",
+  "fr": "VT, UT et interprétation de films RT sont réalisés en interne par notre personnel certifié EN ISO 9712 niveau 2. Tir RT en laboratoire agréé ; PT et MT par un organisme sous contrat si nécessaire.",
+  "it": "VT, UT e interpretazione pellicole RT sono eseguiti internamente dal nostro personale certificato EN ISO 9712 livello 2. Esposizione RT in laboratorio autorizzato; PT e MT tramite ente convenzionato se richiesto.",
+  "nl": "VT, UT en RT-filmbeoordeling gebeuren in eigen huis door ons EN ISO 9712 niveau 2-gecertificeerd personeel. RT-opnamen in een vergund lab; PT en MT zo nodig via een gecontracteerde instantie.",
+  "no": "VT, UT og RT-filmtolkning utføres internt av vårt personell sertifisert etter EN ISO 9712 nivå 2. RT-eksponering i lisensiert laboratorium; PT og MT via avtalt organ ved behov."
+ },
+ "ndt_scope_in_sub": {
+  "tr": "EN ISO 9712 Seviye 2 belgeli personel · raporlama bünyemizde · izlenebilir kayıt",
+  "en": "EN ISO 9712 Level 2 certified staff · reporting in-house · traceable records",
+  "de": "Nach EN ISO 9712 Stufe 2 zertifiziertes Personal · Berichte inhouse · rückverfolgbare Aufzeichnungen",
+  "es": "Personal certificado EN ISO 9712 nivel 2 · informes internos · registros trazables",
+  "fr": "Personnel certifié EN ISO 9712 niveau 2 · rapports en interne · enregistrements traçables",
+  "it": "Personale certificato EN ISO 9712 livello 2 · rapporti interni · registrazioni tracciabili",
+  "nl": "EN ISO 9712 niveau 2-gecertificeerd personeel · rapportage in eigen huis · traceerbare registraties",
+  "no": "Personell sertifisert etter EN ISO 9712 nivå 2 · rapportering internt · sporbare registreringer"
+ },
+ "ndt_scope_out_sub": {
+  "tr": "RT çekimi radyasyon lisansı gerektirir; lisanslı laboratuvarda yapılır, filmler bünyede değerlendirilir. PT ve MT, çizimde istenirse anlaşmalı muayene kuruluşuyla yapılır.",
+  "en": "RT exposure requires a radiation licence; it is done at a licensed lab and the films are interpreted in-house. PT and MT are carried out by a contracted inspection body when the drawing requires them.",
+  "de": "RT-Durchstrahlung erfordert eine Strahlenschutzlizenz; sie erfolgt im lizenzierten Labor, die Filme werden inhouse ausgewertet. PT und MT übernimmt eine Vertragsprüfstelle, wenn die Zeichnung sie fordert.",
+  "es": "La exposición RT requiere licencia de radiación; se realiza en un laboratorio autorizado y las películas se interpretan internamente. PT y MT los realiza una entidad de inspección contratada cuando el plano lo exige.",
+  "fr": "Le tir RT nécessite une licence rayonnement ; il est réalisé en laboratoire agréé et les films sont interprétés en interne. PT et MT sont confiés à un organisme de contrôle sous contrat si le plan l'exige.",
+  "it": "L'esposizione RT richiede licenza per radiazioni; si esegue in laboratorio autorizzato e le pellicole sono interpretate internamente. PT e MT sono eseguiti da un ente di controllo convenzionato se il disegno li richiede.",
+  "nl": "RT-opnamen vereisen een stralingsvergunning; ze gebeuren in een vergund lab en de films worden in eigen huis beoordeeld. PT en MT voert een gecontracteerde inspectie-instantie uit als de tekening dat vraagt.",
+  "no": "RT-eksponering krever strålevernlisens; den utføres i lisensiert laboratorium og filmene tolkes internt. PT og MT utføres av et avtalt kontrollorgan når tegningen krever det."
+ },
+ "ndtv_app_pv": {
+  "tr": "Kritik dikiş · tam nüfuziyet",
+  "en": "Critical weld · full penetration",
+  "de": "Kritische Naht · Durchschweißung",
+  "es": "Cordón crítico · penetración completa",
+  "fr": "Cordon critique · pleine pénétration",
+  "it": "Saldature critiche · piena penetrazione",
+  "nl": "Kritische las · volledige doorlassing",
+  "no": "Kritisk sveis · full gjennomsveising"
+ },
+ "ndt_accept_b_app": {
+  "tr": "Vinç, dinamik yük, kritik yapı",
+  "en": "Crane, dynamic load, critical structure",
+  "de": "Kran, dynamische Last, kritische Konstruktion",
+  "es": "Grúa, carga dinámica, estructura crítica",
+  "fr": "Grue, charge dynamique, structure critique",
+  "it": "Gru, carichi dinamici, strutture critiche",
+  "nl": "Kraan, dynamische belasting, kritische constructie",
+  "no": "Kran, dynamisk last, kritisk konstruksjon"
+ },
+ "deep_ndt_matrix_html": {
+  "re": [
+   [
+    "<tr><td>PED Cat[^<]*</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "<tr><td>EN 15085 CL1</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "EN 1090 EXC3",
+    "g",
+    "EN 1090-2"
+   ]
+  ]
+ },
+ "deep_ndt_personnel_html": {
+  "re": [
+   [
+    "(<tr><td>PT [^<]*</td>)<td>[^<]*</td><td>[^<]*</td>",
+    "",
+    "$1<td>Partner</td><td>EN ISO 9712</td>"
+   ],
+   [
+    "(<tr><td>MT [^<]*</td>)<td>[^<]*</td><td>[^<]*</td>",
+    "",
+    "$1<td>Partner</td><td>EN ISO 9712</td>"
+   ],
+   [
+    ", EN 15085",
+    "g",
+    ""
+   ],
+   [
+    "(<tr><td>RT [^<]*</td>)<td>[^<]*</td><td>[^<]*</td><td>[^<]*</td>",
+    "",
+    "$1<td>Level II (RT-FI)</td><td>EN ISO 9712</td><td>Partner lab (RT)</td>"
+   ]
+  ]
+ },
+ "deep_fat_html": {
+  "re": [
+   [
+    ", CE DoP",
+    "g",
+    ""
+   ]
+  ]
+ }
+}

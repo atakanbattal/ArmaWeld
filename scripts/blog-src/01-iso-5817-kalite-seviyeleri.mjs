@@ -72,7 +72,7 @@ export default {
 <li>Gerekirse muayene kapsamı: "VT %100, UT %10 (ISO 17640, ISO 11666 AL3)".</li>
 <li>Alüminyum parçalar için ISO 5817 değil EN ISO 10042 referansı.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Çizimde kalite seviyesi belirtilmemişse teklif aşamasında parça kullanımına göre öneri sunar, dikiş bazında seviye ayrımı yapılmasına yardımcı oluruz. Gözle muayene, PT, MT ve UT kendi seviye 2 personelimizle yapılır; RT çekimi partner laboratuvarda yapılır, değerlendirmesi bizde. Muayene sonuçları ISO 5817 seviyesine göre raporlanır. <a href="../kalite.html">Kalite sistemimizi inceleyin →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Çizimde kalite seviyesi belirtilmemişse teklif aşamasında parça kullanımına göre öneri sunar, dikiş bazında seviye ayrımı yapılmasına yardımcı oluruz. Gözle muayene ve UT kendi seviye 2 personelimizle yapılır; RT çekimi partner laboratuvarda yapılır, değerlendirmesi bizde. Muayene sonuçları ISO 5817 seviyesine göre raporlanır. <a href="../kalite.html">Kalite sistemimizi inceleyin →</a></p></div>
 `,
     faq: [
       ['ISO 5817 B mi C mi daha iyidir?', 'B daha sıkı bir seviyedir ve daha az kusura izin verir. Ancak "daha iyi" her zaman doğru seçim değildir. Yükü düşük bir parçada B seviyesi gereksiz maliyet yaratır. Seviye, parçanın yüküne ve emniyet gereksinimine göre seçilmelidir.'],
@@ -151,7 +151,7 @@ export default {
 <li>If needed, inspection scope: "VT 100 %, UT 10 % (ISO 17640, ISO 11666 AL3)".</li>
 <li>For aluminium parts, reference EN ISO 10042 instead of ISO 5817.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> if the drawing has no quality level, we suggest one at quotation stage based on how the part is used and help split levels weld by weld. Visual testing, PT, MT and UT are carried out by our own level 2 personnel; RT exposure is done at a partner laboratory and evaluated by us. Results are reported against the ISO 5817 level. <a href="../kalite.html">See our quality system →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> if the drawing has no quality level, we suggest one at quotation stage based on how the part is used and help split levels weld by weld. Visual testing and UT are carried out by our own level 2 personnel; RT exposure is done at a partner laboratory and evaluated by us. Results are reported against the ISO 5817 level. <a href="../kalite.html">See our quality system →</a></p></div>
 `,
     faq: [
       ['Is ISO 5817 B better than C?', 'B is more stringent and allows fewer imperfections. But "better" is not always the right choice. On a lightly loaded part, level B only adds cost. Choose the level according to the load and safety requirements of the part.'],
@@ -229,7 +229,7 @@ export default {
 <li>Bei Bedarf der Prüfumfang: „VT 100 %, UT 10 % (ISO 17640, ISO 11666 AL3)".</li>
 <li>Für Aluminiumteile DIN EN ISO 10042 statt ISO 5817.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Fehlt die Bewertungsgruppe auf der Zeichnung, schlagen wir im Angebot eine Gruppe passend zur Bauteilfunktion vor und helfen bei der nahtweisen Aufteilung. Sichtprüfung, PT, MT und UT führt unser eigenes Personal der Stufe 2 durch; RT-Aufnahmen entstehen in einem Partnerlabor, die Auswertung erfolgt bei uns. Die Ergebnisse werden nach der ISO-5817-Gruppe dokumentiert. <a href="../kalite.html">Unser Qualitätssystem →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Fehlt die Bewertungsgruppe auf der Zeichnung, schlagen wir im Angebot eine Gruppe passend zur Bauteilfunktion vor und helfen bei der nahtweisen Aufteilung. Sichtprüfung und UT führt unser eigenes Personal der Stufe 2 durch; RT-Aufnahmen entstehen in einem Partnerlabor, die Auswertung erfolgt bei uns. Die Ergebnisse werden nach der ISO-5817-Gruppe dokumentiert. <a href="../kalite.html">Unser Qualitätssystem →</a></p></div>
 `,
     faq: [
       ['Ist ISO 5817 B besser als C?', 'B ist strenger und lässt weniger Unregelmäßigkeiten zu. „Besser" ist aber nicht immer die richtige Wahl. Bei gering beanspruchten Teilen verursacht B nur Mehrkosten. Die Gruppe richtet sich nach Beanspruchung und Sicherheitsanforderung.'],
@@ -307,7 +307,7 @@ export default {
 <li>Si procede, el alcance de inspección: "VT 100 %, UT 10 % (ISO 17640, ISO 11666 AL3)".</li>
 <li>Para aluminio, EN ISO 10042 en lugar de ISO 5817.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> si el plano no indica nivel de calidad, proponemos uno en la oferta según el uso de la pieza y ayudamos a separar niveles por cordón. La inspección visual, PT, MT y UT las realiza nuestro propio personal de nivel 2; la exposición RT se hace en un laboratorio asociado y la evaluación, en nuestra planta. Los resultados se informan según el nivel ISO 5817. <a href="../kalite.html">Conozca nuestro sistema de calidad →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> si el plano no indica nivel de calidad, proponemos uno en la oferta según el uso de la pieza y ayudamos a separar niveles por cordón. La inspección visual y UT las realiza nuestro propio personal de nivel 2; la exposición RT se hace en un laboratorio asociado y la evaluación, en nuestra planta. Los resultados se informan según el nivel ISO 5817. <a href="../kalite.html">Conozca nuestro sistema de calidad →</a></p></div>
 `,
     faq: [
       ['¿Es mejor el nivel B que el C?', 'B es más exigente y admite menos imperfecciones, pero "mejor" no siempre es la elección correcta. En una pieza poco cargada, el nivel B solo añade coste. El nivel debe elegirse según la carga y los requisitos de seguridad.'],
@@ -463,7 +463,7 @@ export default {
 <li>Se necessario, l’estensione dei controlli: "VT 100 %, UT 10 % (ISO 17640, ISO 11666 AL3)".</li>
 <li>Per l’alluminio, la EN ISO 10042 invece della ISO 5817.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> se il disegno non riporta il livello, ne proponiamo uno già in offerta in base all’uso del pezzo e aiutiamo a differenziarlo cordone per cordone. Esame visivo, PT, MT e UT sono eseguiti dal nostro personale di livello 2; le esposizioni RT avvengono presso un laboratorio partner e la valutazione è fatta da noi. I risultati sono riportati secondo il livello ISO 5817. <a href="../kalite.html">Scopri il nostro sistema qualità →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> se il disegno non riporta il livello, ne proponiamo uno già in offerta in base all’uso del pezzo e aiutiamo a differenziarlo cordone per cordone. Esame visivo e UT sono eseguiti dal nostro personale di livello 2; le esposizioni RT avvengono presso un laboratorio partner e la valutazione è fatta da noi. I risultati sono riportati secondo il livello ISO 5817. <a href="../kalite.html">Scopri il nostro sistema qualità →</a></p></div>
 `,
     faq: [
       ['Il livello B è migliore del C?', 'B è più severo e ammette meno imperfezioni, ma "migliore" non è sempre la scelta giusta. Su un pezzo poco caricato, B aggiunge solo costi. Il livello va scelto in base al carico e ai requisiti di sicurezza.'],
@@ -619,7 +619,7 @@ export default {
 <li>Ved behov kontrollomfang: "VT 100 %, UT 10 % (ISO 17640, ISO 11666 AL3)".</li>
 <li>For aluminium EN ISO 10042 i stedet for ISO 5817.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> mangler tegningen kvalitetsnivå, foreslår vi et nivå i tilbudet ut fra hvordan delen brukes, og hjelper med å fordele nivåene sveis for sveis. Visuell kontroll, PT, MT og UT utføres av vårt eget personell på nivå 2; RT-eksponering gjøres hos et partnerlaboratorium og vurderes hos oss. Resultatene rapporteres mot ISO 5817-nivået. <a href="../kalite.html">Se kvalitetssystemet vårt →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> mangler tegningen kvalitetsnivå, foreslår vi et nivå i tilbudet ut fra hvordan delen brukes, og hjelper med å fordele nivåene sveis for sveis. Visuell kontroll og UT utføres av vårt eget personell på nivå 2; RT-eksponering gjøres hos et partnerlaboratorium og vurderes hos oss. Resultatene rapporteres mot ISO 5817-nivået. <a href="../kalite.html">Se kvalitetssystemet vårt →</a></p></div>
 `,
     faq: [
       ['Er nivå B bedre enn C?', 'B er strengere og tillater færre uregelmessigheter, men "bedre" er ikke alltid riktig valg. På en lavt belastet del gir B bare høyere kostnad. Nivået bør velges ut fra belastning og sikkerhetskrav.'],

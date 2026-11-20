@@ -34,7 +34,7 @@ export default {
 <p>Burç dikişleri ve tam nüfuziyetli birleşimler genellikle UT ile, köşe dikişleri ve dikiş uçları MT ile kontrol edilir. Teslimde pim eksenleri arası ölçüler, malzeme sertifikaları ve NDT raporları beklenir.</p>
 <h2>Tamir mi, Yeni İmalat mı?</h2>
 <p>Çatlamış bomlarda tamir mümkündür, ancak çatlak tekrarlıyorsa genellikle tasarım veya kaynak detayı sorunu vardır. Yedek parça olarak yeni bom/arm imalatında orijinal çizim yoksa tersine mühendislik gerekir (bkz. <a href="yedek-parca-imalati-eski-makine.html">eski makine için yedek parça</a>).</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Bom ve armları onaylı WPS'lerle, ısı girdisi ve ön tavlama kontrolünde kaynaklıyoruz; VT, MT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyoruz. Kesim, büküm ve kaynak sonrası yuva işlemeyi iş ortaklarımızla koordine ediyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Bom ve armları onaylı WPS'lerle, ısı girdisi ve ön tavlama kontrolünde kaynaklıyoruz; VT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyoruz. Kesim, büküm ve kaynak sonrası yuva işlemeyi iş ortaklarımızla koordine ediyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
 `,
     faq: [
       ['Bom ve armda en kritik dikiş hangisi?', 'Burç (pim yuvası) dikişleri; genellikle tam nüfuziyetli ve UT ile kontrol edilir.'],
@@ -75,7 +75,7 @@ export default {
 <p>Boss welds and full penetration joints are usually ultrasonically tested, fillets and weld ends checked with MT. Delivery includes pin centre dimensions, material certificates and NDT reports.</p>
 <h2>Repair or New Build?</h2>
 <p>Cracked booms can be repaired, but recurring cracks usually point to a design or weld detail problem. For new spare booms or arms without original drawings, reverse engineering is needed (see <a href="yedek-parca-imalati-eski-makine.html">spare parts for older machines</a>).</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld booms and arms with qualified WPSs under controlled heat input and preheat; VT, MT and UT are done by our ISO 9712 Level 2 staff. Cutting, bending and post-weld bore machining are coordinated with our partners. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld booms and arms with qualified WPSs under controlled heat input and preheat; VT and UT are done by our ISO 9712 Level 2 staff. Cutting, bending and post-weld bore machining are coordinated with our partners. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
 `,
     faq: [
       ['Which weld is most critical?', 'Boss (pin bore) welds; usually full penetration and UT inspected.'],
@@ -116,7 +116,7 @@ export default {
 <p>Nabennähte und Durchschweißungen meist mit UT, Kehlnähte und Nahtenden mit MT. Zur Lieferung gehören Achsabstände, Werkstoffzeugnisse und ZfP-Berichte.</p>
 <h2>Reparatur oder Neubau?</h2>
 <p>Gerissene Ausleger lassen sich reparieren, doch wiederkehrende Risse deuten meist auf Konstruktions- oder Nahtdetailprobleme. Für neue Ersatzausleger ohne Originalzeichnung ist Reverse Engineering nötig (siehe <a href="yedek-parca-imalati-eski-makine.html">Ersatzteile für ältere Maschinen</a>).</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Ausleger und Stiele mit qualifizierten WPS unter kontrollierter Wärmeeinbringung und Vorwärmung; VT, MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Zuschnitt, Kanten und das Ausspindeln koordinieren wir mit Partnern. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Ausleger und Stiele mit qualifizierten WPS unter kontrollierter Wärmeeinbringung und Vorwärmung; VT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Zuschnitt, Kanten und das Ausspindeln koordinieren wir mit Partnern. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
 `,
     faq: [
       ['Welche Naht ist am kritischsten?', 'Die Nabennähte; meist durchgeschweißt und mit UT geprüft.'],
@@ -157,7 +157,7 @@ export default {
 <p>Soldaduras de buje y de penetración total por UT; cordones en ángulo y finales por MT. Se entregan distancias entre ejes, certificados e informes de END.</p>
 <h2>¿Reparar o fabricar nueva?</h2>
 <p>Una pluma fisurada puede repararse, pero si la fisura se repite suele haber un problema de diseño o detalle. Para fabricar una nueva sin planos originales hace falta ingeniería inversa (ver <a href="yedek-parca-imalati-eski-makine.html">repuestos para máquinas antiguas</a>).</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos plumas y balancines con WPS cualificados, controlando aporte y precalentamiento; VT, MT y UT los realiza nuestro personal ISO 9712 Nivel 2. Corte, plegado y mandrinado posterior se coordinan con socios. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos plumas y balancines con WPS cualificados, controlando aporte y precalentamiento; VT y UT los realiza nuestro personal ISO 9712 Nivel 2. Corte, plegado y mandrinado posterior se coordinan con socios. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
 `,
     faq: [
       ['¿Cuál es la soldadura más crítica?', 'La de los bujes; normalmente de penetración total y con UT.'],
@@ -198,7 +198,7 @@ export default {
 <p>Soudures de bossage et pleine pénétration par UT, soudures d'angle et fins de cordon par MT. Livraison avec entraxes, certificats et rapports CND.</p>
 <h2>Réparer ou refaire ?</h2>
 <p>Une flèche fissurée se répare, mais des fissures récurrentes signalent souvent un problème de conception ou de détail. Pour une pièce neuve sans plan d'origine, une rétro-conception est nécessaire (voir <a href="yedek-parca-imalati-eski-makine.html">pièces pour machines anciennes</a>).</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons flèches et balanciers avec des DMOS qualifiés, énergie et préchauffage maîtrisés ; VT, MT et UT sont réalisés par notre personnel ISO 9712 niveau 2. Découpe, pliage et alésage après soudage sont coordonnés avec nos partenaires. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons flèches et balanciers avec des DMOS qualifiés, énergie et préchauffage maîtrisés ; VT et UT sont réalisés par notre personnel ISO 9712 niveau 2. Découpe, pliage et alésage après soudage sont coordonnés avec nos partenaires. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
 `,
     faq: [
       ['Quelle soudure est la plus critique ?', 'Celles des bossages ; en général pleine pénétration et contrôle UT.'],
@@ -239,7 +239,7 @@ export default {
 <p>Saldature dei mozzi e a piena penetrazione con UT, cordoni d'angolo ed estremità con MT. Alla consegna: interassi, certificati e rapporti CND.</p>
 <h2>Riparare o rifare?</h2>
 <p>Un braccio cricato si può riparare, ma cricche ricorrenti indicano spesso un problema di progetto o dettaglio. Per un pezzo nuovo senza disegni originali serve il reverse engineering (vedi <a href="yedek-parca-imalati-eski-makine.html">ricambi per macchine datate</a>).</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo bracci e avambracci con WPS qualificate, controllando apporto e preriscaldo; VT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Taglio, piegatura e alesatura post-saldatura sono coordinati con i partner. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo bracci e avambracci con WPS qualificate, controllando apporto e preriscaldo; VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Taglio, piegatura e alesatura post-saldatura sono coordinati con i partner. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
 `,
     faq: [
       ['Qual è la saldatura più critica?', 'Quella dei mozzi; di norma a piena penetrazione e controllata con UT.'],
@@ -280,7 +280,7 @@ export default {
 <p>Naaflassen en doorlassingen meestal UT, hoeknaden en naadeinden MT. Bij levering: hartafstanden, certificaten en NDO-rapporten.</p>
 <h2>Repareren of nieuw?</h2>
 <p>Een gescheurde giek is te repareren, maar terugkerende scheuren wijzen meestal op een ontwerp- of detailprobleem. Voor een nieuwe zonder originele tekening is reverse engineering nodig (zie <a href="yedek-parca-imalati-eski-makine.html">onderdelen voor oudere machines</a>).</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen gieken en stelen met gekwalificeerde WPS'en, met beheerste warmte-inbreng en voorwarming; VT, MT en UT voert ons ISO 9712 niveau 2-personeel uit. Snijden, zetten en uitboren na het lassen coördineren we met partners. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen gieken en stelen met gekwalificeerde WPS'en, met beheerste warmte-inbreng en voorwarming; VT en UT voert ons ISO 9712 niveau 2-personeel uit. Snijden, zetten en uitboren na het lassen coördineren we met partners. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
 `,
     faq: [
       ['Welke las is het meest kritisch?', 'De naaflassen; meestal doorgelast en UT-gecontroleerd.'],
@@ -321,7 +321,7 @@ export default {
 <p>Navsveiser og fulle gjennomsveisinger vanligvis med UT, kilsveiser og sveiseender med MT. Leveransen omfatter senteravstander, sertifikater og NDT-rapporter.</p>
 <h2>Reparere eller lage ny?</h2>
 <p>En sprukket bom kan repareres, men gjentatte sprekker tyder ofte på et konstruksjons- eller detaljproblem. For ny del uten originaltegning trengs reverse engineering (se <a href="yedek-parca-imalati-eski-makine.html">reservedeler til eldre maskiner</a>).</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser bommer og armer med kvalifiserte WPS-er, med kontrollert varmetilførsel og forvarming; VT, MT og UT utføres av vårt ISO 9712 nivå 2-personell. Kutting, bøying og linjeboring etter sveising koordineres med partnere. <a href="../sasi-bom-imalati.html">Chassis og bommer →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser bommer og armer med kvalifiserte WPS-er, med kontrollert varmetilførsel og forvarming; VT og UT utføres av vårt ISO 9712 nivå 2-personell. Kutting, bøying og linjeboring etter sveising koordineres med partnere. <a href="../sasi-bom-imalati.html">Chassis og bommer →</a></p></div>
 `,
     faq: [
       ['Hvilken sveis er mest kritisk?', 'Navsveisene; vanligvis full gjennomsveising og UT-kontroll.'],

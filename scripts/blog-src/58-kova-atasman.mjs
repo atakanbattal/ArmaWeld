@@ -75,7 +75,7 @@ export default {
 <li>Malzeme sertifikaları (özellikle aşınma çeliği ve kulak plakaları),</li>
 <li>Boya veya kaplama kalınlık raporu.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Kova kabuklarını, kulak gruplarını ve ataşman gövdelerini kaynaklıyoruz; VT, MT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyoruz. Burç yuvalarının işlenmesini çözüm ortaklarımızla koordine ediyor, ölçü raporuyla teslim ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Kova kabuklarını, kulak gruplarını ve ataşman gövdelerini kaynaklıyoruz; VT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyoruz. Burç yuvalarının işlenmesini çözüm ortaklarımızla koordine ediyor, ölçü raporuyla teslim ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
 `,
     faq: [
       ['Kova kaynağında hangi dolgu metali kullanılır?', 'Genellikle düşük hidrojenli, birleşen çeliklerin daha düşük dayanımlı tarafına ve tokluk ihtiyacına uygun dolgu; aşınma çeliği sertliğinde dolgu kullanılmaz.'],
@@ -157,7 +157,7 @@ export default {
 <li>Material certificates (especially wear steel and ear plates),</li>
 <li>Paint or coating thickness report.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bucket shells, ear assemblies and attachment bodies; VT, MT and UT are carried out by our ISO 9712 Level 2 staff. Line boring of bushing seats is coordinated with our partners and parts ship with a dimensional report. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bucket shells, ear assemblies and attachment bodies; VT and UT are carried out by our ISO 9712 Level 2 staff. Line boring of bushing seats is coordinated with our partners and parts ship with a dimensional report. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
 `,
     faq: [
       ['What filler is used for bucket welding?', 'Usually low-hydrogen filler suited to the lower-strength side and the toughness requirement; filler matching wear-steel hardness is not used.'],
@@ -239,7 +239,7 @@ export default {
 <li>Werkstoffzeugnisse (vor allem Verschleißstahl und Laschen),</li>
 <li>Schichtdickenprotokoll.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Löffelmäntel, Laschengruppen und Anbaugerätekörper; VT, MT und UT führen unsere Prüfer nach ISO 9712 Stufe 2 durch. Das Ausspindeln der Buchsensitze koordinieren wir mit Partnern und liefern mit Maßbericht. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Löffelmäntel, Laschengruppen und Anbaugerätekörper; VT und UT führen unsere Prüfer nach ISO 9712 Stufe 2 durch. Das Ausspindeln der Buchsensitze koordinieren wir mit Partnern und liefern mit Maßbericht. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
 `,
     faq: [
       ['Welcher Zusatzwerkstoff wird für Löffel verwendet?', 'Meist wasserstoffarm, passend zur festigkeitsschwächeren Seite und Zähigkeitsanforderung; kein artgleich harter Zusatz.'],
@@ -321,7 +321,7 @@ export default {
 <li>certificados de material (en especial acero antidesgaste y orejetas),</li>
 <li>informe de espesor de pintura.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos envolventes de cazo, grupos de orejetas y cuerpos de accesorios; VT, MT y UT los realiza nuestro personal ISO 9712 Nivel 2. Coordinamos el mandrinado de alojamientos con nuestros socios y entregamos con informe dimensional. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos envolventes de cazo, grupos de orejetas y cuerpos de accesorios; VT y UT los realiza nuestro personal ISO 9712 Nivel 2. Coordinamos el mandrinado de alojamientos con nuestros socios y entregamos con informe dimensional. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
 `,
     faq: [
       ['¿Qué aporte se usa para soldar cazos?', 'Normalmente de bajo hidrógeno, acorde al lado de menor resistencia y a la tenacidad; no se usa aporte con la dureza del antidesgaste.'],
@@ -403,7 +403,7 @@ export default {
 <li>certificats matière (notamment acier anti-usure et oreilles),</li>
 <li>rapport d’épaisseur de peinture.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons viroles de godets, ensembles d’oreilles et corps d’accessoires ; VT, MT et UT sont réalisés par notre personnel certifié ISO 9712 niveau 2. L’alésage des logements est coordonné avec nos partenaires et la livraison inclut un rapport dimensionnel. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons viroles de godets, ensembles d’oreilles et corps d’accessoires ; VT et UT sont réalisés par notre personnel certifié ISO 9712 niveau 2. L’alésage des logements est coordonné avec nos partenaires et la livraison inclut un rapport dimensionnel. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
 `,
     faq: [
       ['Quel métal d’apport pour souder un godet ?', 'Généralement bas hydrogène, adapté au côté le moins résistant et à la ténacité ; pas d’apport aussi dur que l’anti-usure.'],
@@ -485,7 +485,7 @@ export default {
 <li>certificati del materiale (specialmente antiusura e orecchie),</li>
 <li>rapporto di spessore della verniciatura.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo mantelli di benne, gruppi orecchie e corpi di attrezzature; VT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Coordiniamo con i partner l’alesatura delle sedi e consegniamo con rapporto dimensionale. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo mantelli di benne, gruppi orecchie e corpi di attrezzature; VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Coordiniamo con i partner l’alesatura delle sedi e consegniamo con rapporto dimensionale. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
 `,
     faq: [
       ['Quale apporto si usa per saldare benne?', 'Di solito a basso idrogeno, adatto al lato meno resistente e alla tenacità; non un apporto duro quanto l’antiusura.'],
@@ -567,7 +567,7 @@ export default {
 <li>materiaalcertificaten (vooral slijtstaal en ogen),</li>
 <li>laagdikterapport.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen bakmantels, oogsamenstellingen en aanbouwdeelbehuizingen; VT, MT en UT voeren onze ISO 9712 niveau 2-inspecteurs uit. Het uitboren van busopnames coördineren we met partners en we leveren met maatrapport. <a href="../kaynakli-imalat.html">Laswerk →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen bakmantels, oogsamenstellingen en aanbouwdeelbehuizingen; VT en UT voeren onze ISO 9712 niveau 2-inspecteurs uit. Het uitboren van busopnames coördineren we met partners en we leveren met maatrapport. <a href="../kaynakli-imalat.html">Laswerk →</a></p></div>
 `,
     faq: [
       ['Welk toevoegmateriaal gebruik je voor graafbakken?', 'Meestal waterstofarm, passend bij de zwakste kant en de taaiheidseis; geen toevoegmateriaal zo hard als slijtstaal.'],
@@ -649,7 +649,7 @@ export default {
 <li>materialsertifikater (særlig slitestål og ører),</li>
 <li>rapport for malingstykkelse.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser skuffemantler, ørepakker og redskapskropper; VT, MT og UT utføres av vårt ISO 9712 nivå 2-personell. Utboring av bøssingsseter koordineres med partnere, og delene leveres med målrapport. <a href="../kaynakli-imalat.html">Sveiset tilvirkning →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser skuffemantler, ørepakker og redskapskropper; VT og UT utføres av vårt ISO 9712 nivå 2-personell. Utboring av bøssingsseter koordineres med partnere, og delene leveres med målrapport. <a href="../kaynakli-imalat.html">Sveiset tilvirkning →</a></p></div>
 `,
     faq: [
       ['Hvilket tilsettmateriale brukes på skuffer?', 'Vanligvis lavhydrogen, tilpasset den svakeste siden og seighetskravet; ikke tilsett like hardt som slitestålet.'],

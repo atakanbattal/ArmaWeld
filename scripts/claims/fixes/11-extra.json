@@ -1,0 +1,4 @@
+{
+ "mfr_s4_pills": {"re": [["<div class=\"sector-pill\"><strong>[^<]*</strong><span>[^<]*(Paslanmaz|stainless|Edelstahl|inox|inoxidable|roestvrij|rustfri)[^<]*</span></div>", "gi", ""]]},
+ "px_nd_15": {"tr": "Kalite sayfası →", "en": "Quality page →", "de": "Qualitätsseite →", "es": "Página de calidad →", "fr": "Page qualité →", "it": "Pagina qualità →", "nl": "Kwaliteitspagina →", "no": "Kvalitetsside →"}
+}

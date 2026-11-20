@@ -189,7 +189,7 @@ export default {
 </ul>
 <h2>Cómo indicarlo en el plano</h2>
 <p>Si se exige amolado, el plano debe indicar junto al símbolo de soldadura la forma de la superficie (plana, convexa, cóncava) y, si procede, el método de acabado en una nota. Si no está claro qué cordones, con qué fin y en qué medida se amolan, el taller o no amola nada o lo amola todo sin necesidad; ambos resultados son indeseados.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> amolamos según los fines definidos en el plano y la especificación; en soldaduras en ángulo evitamos amolados que reduzcan la garganta. En inoxidable usamos consumibles y herramientas separados. Los requisitos de amolado se tratan aparte en la oferta. <a href="../kalite.html">Nuestro enfoque de calidad →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> amolamos según los fines definidos en el plano y la especificación; en soldaduras en ángulo evitamos amolados que reduzcan la garganta. Los requisitos de amolado se tratan aparte en la oferta. <a href="../kalite.html">Nuestro enfoque de calidad →</a></p></div>
 `,
     faq: [
       ['¿Hay que amolar las soldaduras?', 'Solo con un fin: preparación para END, mejora a fatiga, superficie enrasada, preparación para pintura o higiene. Sin fin, el amolado puede debilitar la soldadura y encarecerla.'],
@@ -287,7 +287,7 @@ export default {
 </ul>
 <h2>Come indicarlo a disegno</h2>
 <p>Se serve la molatura, il disegno deve indicare insieme al simbolo di saldatura la forma della superficie (piana, convessa, concava) e, se necessario, il metodo di finitura in una nota. Se non è chiaro quali cordoni, a che scopo e in che misura vadano molati, l’officina o non mola nulla o mola tutto inutilmente; entrambi risultati indesiderati.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> la molatura si esegue per gli scopi definiti da disegno e specifica; sui cordoni d’angolo evitiamo molature che riducano la gola. Sull’inox usiamo consumabili e utensili separati. I requisiti di molatura si discutono a parte in offerta. <a href="../kalite.html">Il nostro approccio alla qualità →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> la molatura si esegue per gli scopi definiti da disegno e specifica; sui cordoni d’angolo evitiamo molature che riducano la gola. I requisiti di molatura si discutono a parte in offerta. <a href="../kalite.html">Il nostro approccio alla qualità →</a></p></div>
 `,
     faq: [
       ['Le saldature vanno molate?', 'Solo se c’è uno scopo: preparazione CND, miglioramento a fatica, superficie a filo, preparazione alla verniciatura o igiene. Senza scopo, la molatura può indebolire la saldatura e aumentare i costi.'],

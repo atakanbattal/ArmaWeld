@@ -79,7 +79,7 @@ export default {
 <li>Kullanılan kaynak prosedürleri (WPS) ve kaynakçı nitelendirmeleri.</li>
 </ul>
 <p>Makinenin bütün olarak hijyenik tasarım uygunluğu, makine imalatçısının sorumluluğundadır. Kaynaklı imalatçı, kendisine verilen kurallara uygun parça ve kayıtları sağlar.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Gıda makineleri için paslanmaz şase, hazne ve muhafazaları TIG kaynağıyla, kök korumalı ve ayrı paslanmaz takımla imal ediyoruz. Ürün temas bölgelerini çiziminizdeki hijyen gerekliliklerine göre işliyor, VT ve PT kayıtlarıyla teslim ediyoruz. <a href="../kaynak-yontemleri.html">Kaynak yöntemleri →</a></p></div>
+<div class="callout"><p>Ürün temas bölgelerini çiziminizdeki hijyen gerekliliklerine göre işliyor, VT kayıtlarıyla teslim ediyoruz. <a href="../kaynak-yontemleri.html">Kaynak yöntemleri →</a></p></div>
 `,
     faq: [
       ['Gıda makinesinde hangi paslanmaz kullanılır?', 'Genel uygulamalarda 1.4301/1.4307 (304/304L); tuzlu, asidik ürünlerde ve agresif temizlikte 1.4404 (316L).'],
@@ -87,8 +87,8 @@ export default {
       ['Gıda makinesinde kesintili kaynak neden kullanılmaz?', 'Kaynak araları temizlenemeyen yarıklar oluşturur ve bakteri barındırabilir.'],
       ['Kaynak sonrası tav rengi neden temizlenmeli?', 'Isı rengi bölgesinde korozyon direnci düşer; dağlama ve pasivasyonla yüzey yeniden korunur.']
     ],
-    cta_h3: 'Gıda makinesi paslanmaz parçaları için',
-    cta_p: 'Çizimlerinizi ve hijyen bölgelerini gönderin; kaynak ve yüzey işlemi dahil teklif hazırlayalım.',
+    cta_h3: 'Çiziminizi gönderin, teklif hazırlayalım',
+    cta_p: 'Teknik resminizi gönderin; kaynak yöntemi, NDT kapsamı ve termini birlikte netleştirip teklif hazırlayalım.',
     cta_btn: 'Teklif İste →'
   },
   en: {
@@ -155,7 +155,7 @@ export default {
 <li><strong>Passivation:</strong> supports re-formation of the protective chromium oxide layer.</li>
 <li><strong>Iron contamination:</strong> discs, brushes and tools shared with carbon steel transfer iron to stainless; separate tools are a must.</li>
 </ul>
-<p>For details see our article on <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">stainless weld cleaning, pickling and passivation</a>.</p>
+
 <h2>Inspection and Documentation</h2>
 <ul>
 <li>Visual testing (VT) of welds and penetrant testing (PT) where needed,</li>
@@ -165,7 +165,7 @@ export default {
 <li>Welding procedures (WPS) and welder qualifications used.</li>
 </ul>
 <p>Hygienic design compliance of the machine as a whole rests with the machine manufacturer. The fabricator supplies parts and records that meet the rules given.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we fabricate stainless frames, hoppers and guards for food machinery by TIG welding, with root purging and dedicated stainless tools. Product contact zones are finished to the hygiene requirements on your drawing and delivered with VT and PT records. <a href="../kaynak-yontemleri.html">Welding processes →</a></p></div>
+<div class="callout"><p>Product contact zones are finished to the hygiene requirements on your drawing and delivered with VT and PT records. <a href="../kaynak-yontemleri.html">Welding processes →</a></p></div>
 `,
     faq: [
       ['Which stainless is used for food machinery?', '1.4301/1.4307 (304/304L) for general use; 1.4404 (316L) for salty or acidic products and aggressive cleaning.'],
@@ -173,8 +173,8 @@ export default {
       ['Why are intermittent welds avoided on food machinery?', 'Gaps between welds form crevices that cannot be cleaned and can harbour bacteria.'],
       ['Why must heat tint be removed?', 'Corrosion resistance drops in the heat-tinted zone; pickling and passivation restore protection.']
     ],
-    cta_h3: 'For stainless food machinery parts',
-    cta_p: 'Send your drawings and hygiene zones; we will quote including welding and surface treatment.',
+    cta_h3: 'Send your drawing for a quote',
+    cta_p: 'Send your drawing; we agree the welding process, NDT scope and lead time with you and prepare a quote.',
     cta_btn: 'Request a Quote →'
   },
   de: {
@@ -241,7 +241,7 @@ export default {
 <li><strong>Passivieren:</strong> unterstützt die Neubildung der schützenden Chromoxidschicht.</li>
 <li><strong>Fremdrost:</strong> Scheiben, Bürsten und Werkzeuge aus der Schwarzstahlfertigung übertragen Eisen auf Edelstahl; getrennte Werkzeuge sind Pflicht.</li>
 </ul>
-<p>Details in unserem Beitrag zu <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">Reinigen, Beizen und Passivieren von Edelstahlnähten</a>.</p>
+
 <h2>Prüfung und Dokumentation</h2>
 <ul>
 <li>Sichtprüfung (VT) der Nähte und bei Bedarf Farbeindringprüfung (PT),</li>
@@ -251,7 +251,7 @@ export default {
 <li>verwendete Schweißanweisungen (WPS) und Schweißerqualifikationen.</li>
 </ul>
 <p>Die Hygienic-Design-Konformität der Gesamtmaschine liegt beim Maschinenhersteller. Der Schweißbetrieb liefert Teile und Nachweise nach den vorgegebenen Regeln.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir fertigen Edelstahlgestelle, Trichter und Verkleidungen für Lebensmittelmaschinen im WIG-Verfahren, mit Formiergas und eigenen Edelstahlwerkzeugen. Produktkontaktzonen werden nach den Hygieneanforderungen Ihrer Zeichnung bearbeitet und mit VT- und PT-Protokollen geliefert. <a href="../kaynak-yontemleri.html">Schweißverfahren →</a></p></div>
+<div class="callout"><p>Produktkontaktzonen werden nach den Hygieneanforderungen Ihrer Zeichnung bearbeitet und mit VT- und PT-Protokollen geliefert. <a href="../kaynak-yontemleri.html">Schweißverfahren →</a></p></div>
 `,
     faq: [
       ['Welcher Edelstahl für Lebensmittelmaschinen?', '1.4301/1.4307 (304/304L) allgemein; 1.4404 (316L) bei salzigen oder sauren Produkten und aggressiver Reinigung.'],
@@ -259,8 +259,8 @@ export default {
       ['Warum keine unterbrochenen Nähte?', 'Die Lücken bilden nicht reinigbare Spalte, in denen sich Keime halten können.'],
       ['Warum Anlauffarben entfernen?', 'In der Anlaufzone sinkt die Korrosionsbeständigkeit; Beizen und Passivieren stellen den Schutz wieder her.']
     ],
-    cta_h3: 'Für Edelstahlteile von Lebensmittelmaschinen',
-    cta_p: 'Senden Sie Zeichnungen und Hygienezonen; wir bieten inklusive Schweißen und Oberflächenbehandlung an.',
+    cta_h3: 'Zeichnung senden, Angebot erhalten',
+    cta_p: 'Senden Sie Ihre Zeichnung; wir stimmen Schweißverfahren, ZfP-Umfang und Liefertermin mit Ihnen ab und erstellen ein Angebot.',
     cta_btn: 'Angebot anfordern →'
   },
   es: {
@@ -327,7 +327,7 @@ export default {
 <li><strong>Pasivado:</strong> favorece la regeneración de la capa protectora de óxido de cromo.</li>
 <li><strong>Contaminación férrica:</strong> discos, cepillos y útiles usados con acero al carbono transfieren hierro; herramientas separadas son obligatorias.</li>
 </ul>
-<p>Más detalles en nuestro artículo sobre <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">limpieza, decapado y pasivado de soldaduras de inoxidable</a>.</p>
+
 <h2>Control y documentación</h2>
 <ul>
 <li>inspección visual (VT) y líquidos penetrantes (PT) cuando se requiera,</li>
@@ -337,7 +337,7 @@ export default {
 <li>procedimientos (WPS) y cualificaciones de soldadores empleados.</li>
 </ul>
 <p>La conformidad higiénica de la máquina completa corresponde al fabricante de la máquina. El taller de soldadura suministra piezas y registros conforme a las reglas indicadas.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> fabricamos bastidores, tolvas y protecciones de inoxidable para maquinaria alimentaria con soldadura TIG, gas de respaldo y herramientas exclusivas para inoxidable. Las zonas de contacto se acaban según los requisitos de higiene de su plano y se entregan con registros VT y PT. <a href="../kaynak-yontemleri.html">Procesos de soldadura →</a></p></div>
+<div class="callout"><p>Las zonas de contacto se acaban según los requisitos de higiene de su plano y se entregan con registros VT y PT. <a href="../kaynak-yontemleri.html">Procesos de soldadura →</a></p></div>
 `,
     faq: [
       ['¿Qué inoxidable se usa en maquinaria alimentaria?', '1.4301/1.4307 (304/304L) en general; 1.4404 (316L) para productos salados o ácidos y limpieza agresiva.'],
@@ -345,8 +345,8 @@ export default {
       ['¿Por qué no usar soldadura intermitente?', 'Los huecos forman rendijas no limpiables que pueden albergar bacterias.'],
       ['¿Por qué eliminar la coloración térmica?', 'En esa zona baja la resistencia a la corrosión; decapado y pasivado restauran la protección.']
     ],
-    cta_h3: 'Para piezas de inoxidable de maquinaria alimentaria',
-    cta_p: 'Envíenos planos y zonas higiénicas; ofertamos con soldadura y tratamiento superficial.',
+    cta_h3: 'Envíe su plano y prepararemos la oferta',
+    cta_p: 'Envíe su plano; acordamos con usted el proceso de soldadura, el alcance de END y el plazo, y preparamos la oferta.',
     cta_btn: 'Solicitar oferta →'
   },
   fr: {
@@ -413,7 +413,7 @@ export default {
 <li><strong>Passivation :</strong> favorise la reformation de la couche protectrice d’oxyde de chrome.</li>
 <li><strong>Pollution ferreuse :</strong> disques, brosses et outils partagés avec l’acier au carbone transfèrent du fer ; des outils dédiés sont indispensables.</li>
 </ul>
-<p>Détails dans notre article sur le <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">nettoyage, décapage et passivation des soudures inox</a>.</p>
+
 <h2>Contrôles et documentation</h2>
 <ul>
 <li>contrôle visuel (VT) et ressuage (PT) si nécessaire,</li>
@@ -423,7 +423,7 @@ export default {
 <li>modes opératoires (WPS) et qualifications des soudeurs utilisés.</li>
 </ul>
 <p>La conformité hygiénique de la machine complète relève du fabricant de la machine. L’atelier de soudage fournit des pièces et des enregistrements conformes aux règles transmises.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous fabriquons bâtis, trémies et carters inox pour machines alimentaires en soudage TIG, avec protection envers et outillage réservé à l’inox. Les zones de contact sont finies selon les exigences d’hygiène de votre plan et livrées avec enregistrements VT et PT. <a href="../kaynak-yontemleri.html">Procédés de soudage →</a></p></div>
+<div class="callout"><p>Les zones de contact sont finies selon les exigences d’hygiène de votre plan et livrées avec enregistrements VT et PT. <a href="../kaynak-yontemleri.html">Procédés de soudage →</a></p></div>
 `,
     faq: [
       ['Quel inox pour les machines alimentaires ?', '1.4301/1.4307 (304/304L) en usage général ; 1.4404 (316L) pour produits salés ou acides et nettoyage agressif.'],
@@ -431,8 +431,8 @@ export default {
       ['Pourquoi éviter les soudures discontinues ?', 'Les intervalles forment des interstices non nettoyables pouvant abriter des bactéries.'],
       ['Pourquoi éliminer les colorations de soudage ?', 'La résistance à la corrosion y diminue ; décapage et passivation rétablissent la protection.']
     ],
-    cta_h3: 'Pour vos pièces inox de machines alimentaires',
-    cta_p: 'Envoyez vos plans et zones d’hygiène ; nous chiffrons soudage et traitement de surface compris.',
+    cta_h3: 'Envoyez votre plan pour un devis',
+    cta_p: 'Envoyez votre plan ; nous convenons avec vous du procédé de soudage, de l\'étendue des CND et du délai, puis établissons le devis.',
     cta_btn: 'Demander un devis →'
   },
   it: {
@@ -499,7 +499,7 @@ export default {
 <li><strong>Passivazione:</strong> favorisce la riformazione dello strato protettivo di ossido di cromo.</li>
 <li><strong>Contaminazione ferrosa:</strong> dischi, spazzole e utensili usati sul carbonio trasferiscono ferro all’inox; utensili dedicati sono indispensabili.</li>
 </ul>
-<p>Approfondimenti nel nostro articolo su <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">pulizia, decapaggio e passivazione delle saldature inox</a>.</p>
+
 <h2>Controlli e documentazione</h2>
 <ul>
 <li>esame visivo (VT) e liquidi penetranti (PT) se necessario,</li>
@@ -509,7 +509,7 @@ export default {
 <li>procedure (WPS) e qualifiche dei saldatori impiegati.</li>
 </ul>
 <p>La conformità igienica della macchina completa spetta al costruttore della macchina. L’officina di saldatura fornisce pezzi e registrazioni conformi alle regole ricevute.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> realizziamo telai, tramogge e carter inox per macchine alimentari con saldatura TIG, protezione al rovescio e utensili dedicati all’inox. Le zone di contatto sono finite secondo i requisiti igienici del vostro disegno e consegnate con registrazioni VT e PT. <a href="../kaynak-yontemleri.html">Processi di saldatura →</a></p></div>
+<div class="callout"><p>Le zone di contatto sono finite secondo i requisiti igienici del vostro disegno e consegnate con registrazioni VT e PT. <a href="../kaynak-yontemleri.html">Processi di saldatura →</a></p></div>
 `,
     faq: [
       ['Quale inox per le macchine alimentari?', '1.4301/1.4307 (304/304L) in generale; 1.4404 (316L) per prodotti salati o acidi e pulizia aggressiva.'],
@@ -517,8 +517,8 @@ export default {
       ['Perché evitare le saldature intermittenti?', 'Gli spazi formano fessure non pulibili che possono ospitare batteri.'],
       ['Perché rimuovere le colorazioni di saldatura?', 'In quella zona la resistenza alla corrosione cala; decapaggio e passivazione ripristinano la protezione.']
     ],
-    cta_h3: 'Per componenti inox di macchine alimentari',
-    cta_p: 'Inviateci disegni e zone igieniche; quotiamo comprensivo di saldatura e trattamento superficiale.',
+    cta_h3: 'Inviate il disegno per un\'offerta',
+    cta_p: 'Inviate il disegno; concordiamo con voi processo di saldatura, estensione dei CND e tempi di consegna e prepariamo l\'offerta.',
     cta_btn: 'Richiedi un preventivo →'
   },
   nl: {
@@ -595,7 +595,7 @@ export default {
 <li>gebruikte lasmethoden (WPS) en laskwalificaties.</li>
 </ul>
 <p>De hygiënische conformiteit van de complete machine ligt bij de machinebouwer. Het lasbedrijf levert delen en registraties volgens de opgegeven regels.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we maken RVS-frames, trechters en afschermingen voor voedingsmachines met TIG-lassen, formeergas en eigen RVS-gereedschap. Productcontactzones worden afgewerkt volgens de hygiëne-eisen op uw tekening en geleverd met VT- en PT-registraties. <a href="../kaynak-yontemleri.html">Lasprocessen →</a></p></div>
+<div class="callout"><p>Productcontactzones worden afgewerkt volgens de hygiëne-eisen op uw tekening en geleverd met VT- en PT-registraties. <a href="../kaynak-yontemleri.html">Lasprocessen →</a></p></div>
 `,
     faq: [
       ['Welk RVS voor voedingsmachines?', '1.4301/1.4307 (304/304L) algemeen; 1.4404 (316L) bij zoute of zure producten en agressieve reiniging.'],
@@ -603,8 +603,8 @@ export default {
       ['Waarom geen onderbroken lassen?', 'De onderbrekingen vormen niet-reinigbare spleten waarin bacteriën kunnen zitten.'],
       ['Waarom aanloopkleuren verwijderen?', 'Daar daalt de corrosieweerstand; beitsen en passiveren herstellen de bescherming.']
     ],
-    cta_h3: 'Voor RVS-delen van voedingsmachines',
-    cta_p: 'Stuur tekeningen en hygiënezones; we offreren inclusief lassen en oppervlaktebehandeling.',
+    cta_h3: 'Stuur uw tekening voor een offerte',
+    cta_p: 'Stuur uw tekening; we stemmen lasproces, NDO-omvang en levertijd met u af en maken een offerte.',
     cta_btn: 'Offerte aanvragen →'
   },
   no: {
@@ -671,7 +671,7 @@ export default {
 <li><strong>Passivering:</strong> støtter gjendannelsen av det beskyttende kromoksidlaget.</li>
 <li><strong>Jernforurensning:</strong> skiver, børster og verktøy brukt på karbonstål overfører jern; eget verktøy for rustfritt er et krav.</li>
 </ul>
-<p>Mer i artikkelen vår om <a href="paslanmaz-kaynak-temizleme-daglama-pasivasyon.html">rengjøring, beising og passivering av rustfrie sveiser</a>.</p>
+
 <h2>Kontroll og dokumentasjon</h2>
 <ul>
 <li>visuell kontroll (VT) og penetrantprøving (PT) ved behov,</li>
@@ -681,7 +681,7 @@ export default {
 <li>sveiseprosedyrer (WPS) og sveisersertifikater som er brukt.</li>
 </ul>
 <p>Hygienisk samsvar for hele maskinen ligger hos maskinprodusenten. Sveiseverkstedet leverer deler og dokumentasjon etter de reglene som er gitt.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi tilvirker rammer, trakter og skjermer i rustfritt stål for næringsmiddelmaskiner med TIG-sveising, rotgass og eget verktøy for rustfritt. Produktkontaktsoner etterbehandles etter hygienekravene på tegningen din og leveres med VT- og PT-dokumentasjon. <a href="../kaynak-yontemleri.html">Sveisemetoder →</a></p></div>
+<div class="callout"><p>Produktkontaktsoner etterbehandles etter hygienekravene på tegningen din og leveres med VT- og PT-dokumentasjon. <a href="../kaynak-yontemleri.html">Sveisemetoder →</a></p></div>
 `,
     faq: [
       ['Hvilket rustfritt stål brukes i næringsmiddelmaskiner?', '1.4301/1.4307 (304/304L) generelt; 1.4404 (316L) for salte eller sure produkter og aggressiv rengjøring.'],
@@ -689,8 +689,8 @@ export default {
       ['Hvorfor unngå intermitterende sveiser?', 'Mellomrommene gir spalter som ikke kan rengjøres og kan huse bakterier.'],
       ['Hvorfor må anløpsfarger fjernes?', 'Korrosjonsbestandigheten faller i den sonen; beising og passivering gjenoppretter beskyttelsen.']
     ],
-    cta_h3: 'For rustfrie deler til næringsmiddelmaskiner',
-    cta_p: 'Send tegninger og hygienesoner; vi gir tilbud inkludert sveising og overflatebehandling.',
+    cta_h3: 'Send tegningen for et tilbud',
+    cta_p: 'Send tegningen; vi avtaler sveiseprosess, NDT-omfang og leveringstid med dere og lager et tilbud.',
     cta_btn: 'Be om tilbud →'
   }
 };

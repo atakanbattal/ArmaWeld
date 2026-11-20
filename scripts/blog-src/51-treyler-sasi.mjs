@@ -71,7 +71,7 @@ export default {
 </ul>
 <h2>Yüzey Koruma</h2>
 <p>Şasi, yol tuzu ve neme maruz kalır. Kumlama ve boya veya sıcak daldırma galvaniz yaygın seçeneklerdir. Galvaniz tercih edilecekse havalandırma ve drenaj delikleri tasarım aşamasında düşünülmelidir (bkz. <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">kaynaklı parçalarda galvaniz</a>).</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Treyler ve iş makinesi şasileri, bom ve uzun kirişler kaynaklıyoruz. Uzun doğrusal dikişlerde 35 metrelik tozaltı kaynak tezgâhımızı kullanıyor, kritik bağlantıları atölyemizde MT ve UT ile muayene ediyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Treyler ve iş makinesi şasileri, bom ve uzun kirişler kaynaklıyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
 `,
     faq: [
       ['Treyler şasisinde en sık hangi hasar görülür?', 'Yorulma çatlakları; özellikle travers bağlantı uçlarında, başlığa kaynaklı braketlerde ve kaynak başlangıç-bitiş noktalarında.'],
@@ -149,7 +149,7 @@ export default {
 </ul>
 <h2>Surface Protection</h2>
 <p>A chassis is exposed to road salt and moisture. Blasting and painting or hot-dip galvanising are common options. If galvanising is chosen, vent and drain holes must be planned at the design stage (see <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">galvanising welded parts</a>).</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld trailer and construction machinery chassis, booms and long beams. On long straight seams we use our 35-metre submerged arc welding line and inspect critical joints with MT and UT in our own shop. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld trailer and construction machinery chassis, booms and long beams. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
 `,
     faq: [
       ['What damage is most common in trailer chassis?', 'Fatigue cracks, especially at cross member connection ends, brackets welded to flanges and weld start-stop points.'],
@@ -227,7 +227,7 @@ export default {
 </ul>
 <h2>Oberflächenschutz</h2>
 <p>Der Rahmen ist Streusalz und Feuchtigkeit ausgesetzt. Strahlen und Lackieren oder Feuerverzinken sind übliche Optionen. Beim Verzinken müssen Entlüftungs- und Ablauföffnungen schon in der Konstruktion vorgesehen werden (siehe <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">Feuerverzinken von Schweißteilen</a>).</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Anhänger- und Baumaschinenrahmen, Ausleger und lange Träger. Für lange gerade Nähte nutzen wir unsere 35-Meter-UP-Schweißanlage und prüfen kritische Verbindungen mit MT und UT in der eigenen Werkstatt. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Anhänger- und Baumaschinenrahmen, Ausleger und lange Träger. Für lange gerade Nähte nutzen wir unsere 35-Meter-UP-Schweißanlage und prüfen kritische Verbindungen mit UT in der eigenen Werkstatt. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
 `,
     faq: [
       ['Welcher Schaden ist bei Aufliegerrahmen am häufigsten?', 'Ermüdungsrisse, besonders an Querträgerenden, an Konsolen am Gurt und an Nahtanfängen und -enden.'],
@@ -305,7 +305,7 @@ export default {
 </ul>
 <h2>Protección superficial</h2>
 <p>El chasis está expuesto a sal de carretera y humedad. Granallado y pintura o galvanizado en caliente son opciones habituales. Si se galvaniza, los orificios de venteo y drenaje deben preverse en el diseño (ver <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">galvanizado de piezas soldadas</a>).</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos chasis de remolques y maquinaria de obra, plumas y vigas largas. En cordones largos y rectos usamos nuestra línea de arco sumergido de 35 metros e inspeccionamos las uniones críticas con MT y UT en nuestro propio taller. <a href="../sasi-bom-imalati.html">Fabricación de chasis y plumas →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos chasis de remolques y maquinaria de obra, plumas y vigas largas. <a href="../sasi-bom-imalati.html">Fabricación de chasis y plumas →</a></p></div>
 `,
     faq: [
       ['¿Qué daño es más frecuente en chasis de remolque?', 'Las fisuras por fatiga, sobre todo en extremos de travesaños, soportes soldados al ala e inicios y finales de cordón.'],
@@ -383,7 +383,7 @@ export default {
 </ul>
 <h2>Protection de surface</h2>
 <p>Le châssis est exposé au sel de déneigement et à l’humidité. Grenaillage et peinture ou galvanisation à chaud sont les options courantes. En cas de galvanisation, prévoir dès la conception les trous d’évent et de vidange (voir <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">galvanisation des pièces soudées</a>).</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons des châssis de remorques et d’engins, des flèches et des poutres longues. Sur les cordons longs et rectilignes, nous utilisons notre installation d’arc submergé de 35 mètres et contrôlons les assemblages critiques en MT et UT dans notre atelier. <a href="../sasi-bom-imalati.html">Fabrication de châssis et flèches →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons des châssis de remorques et d’engins, des flèches et des poutres longues. <a href="../sasi-bom-imalati.html">Fabrication de châssis et flèches →</a></p></div>
 `,
     faq: [
       ['Quel est le dommage le plus fréquent sur un châssis de remorque ?', 'Les fissures de fatigue, surtout aux extrémités des traverses, sur les supports soudés aux semelles et aux débuts et fins de cordon.'],
@@ -461,7 +461,7 @@ export default {
 </ul>
 <h2>Protezione superficiale</h2>
 <p>Il telaio è esposto a sale stradale e umidità. Sabbiatura e verniciatura o zincatura a caldo sono le opzioni comuni. Se si zinca, i fori di sfiato e drenaggio vanno previsti in progettazione (vedi <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">zincatura dei pezzi saldati</a>).</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo telai per rimorchi e macchine movimento terra, bracci e travi lunghe. Sui cordoni lunghi e rettilinei usiamo il nostro impianto ad arco sommerso da 35 metri e controlliamo i giunti critici con MT e UT nella nostra officina. <a href="../sasi-bom-imalati.html">Fabbricazione di telai e bracci →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo telai per rimorchi e macchine movimento terra, bracci e travi lunghe. <a href="../sasi-bom-imalati.html">Fabbricazione di telai e bracci →</a></p></div>
 `,
     faq: [
       ['Qual è il danno più frequente nei telai per rimorchi?', 'Le cricche da fatica, soprattutto alle estremità delle traverse, sulle staffe saldate alle ali e agli inizi e fine cordone.'],
@@ -539,7 +539,7 @@ export default {
 </ul>
 <h2>Oppervlaktebescherming</h2>
 <p>Het chassis staat bloot aan strooizout en vocht. Stralen en lakken of thermisch verzinken zijn gangbare opties. Bij verzinken moeten ontluchtings- en aftapgaten al in het ontwerp zijn voorzien (zie <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">verzinken van lasdelen</a>).</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen chassis voor opleggers en bouwmachines, gieken en lange liggers. Voor lange rechte naden gebruiken we onze 35 meter lange onder-poederdeklasinstallatie en we inspecteren kritieke verbindingen met MT en UT in onze eigen werkplaats. <a href="../sasi-bom-imalati.html">Chassis- en giekbouw →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen chassis voor opleggers en bouwmachines, gieken en lange liggers. <a href="../sasi-bom-imalati.html">Chassis- en giekbouw →</a></p></div>
 `,
     faq: [
       ['Welke schade komt het vaakst voor bij opleggerchassis?', 'Vermoeiingsscheuren, vooral aan uiteinden van dwarsdragers, consoles op de flens en begin- en eindpunten van lassen.'],
@@ -617,7 +617,7 @@ export default {
 </ul>
 <h2>Overflatebeskyttelse</h2>
 <p>Chassiset utsettes for veisalt og fukt. Blåsing og maling eller varmforsinking er vanlige valg. Ved forsinking må lufte- og dreneringshull planlegges i konstruksjonen (se <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">forsinking av sveisede deler</a>).</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser chassis til tilhengere og anleggsmaskiner, bommer og lange bjelker. På lange, rette sveiser bruker vi vår 35 meter lange pulverbuesveiselinje, og kritiske forbindelser kontrolleres med MT og UT i eget verksted. <a href="../sasi-bom-imalati.html">Chassis- og bomproduksjon →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser chassis til tilhengere og anleggsmaskiner, bommer og lange bjelker. <a href="../sasi-bom-imalati.html">Chassis- og bomproduksjon →</a></p></div>
 `,
     faq: [
       ['Hvilken skade er vanligst på trailerchassis?', 'Utmattingssprekker, særlig i tverrbjelkeender, braketter sveist på flenser og start- og stoppunkter for sveiser.'],

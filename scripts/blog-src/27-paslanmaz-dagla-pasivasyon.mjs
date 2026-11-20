@@ -38,7 +38,7 @@ export default {
 </ul>
 <h2>Güvenlik ve Çevre</h2>
 <p>Dağlama kimyasalları, özellikle hidroflorik asit, ciddi sağlık riski taşır. Uygun kişisel koruyucu donanım, havalandırma, ilk yardım hazırlığı ve atık suyun nötralize edilerek bertarafı zorunludur. Bu nedenle büyük parçalarda veya seri işlerde dağlama, donanımlı tesislerde yapılır.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Paslanmaz işlerde kök gazlama uygular, paslanmaz için ayrı takım ve çalışma düzeniyle demir bulaşmasını önleriz. Isı renklerinin temizliği, dağlama ve pasivasyon ihtiyacı şartnameye göre teklif aşamasında yöntemiyle birlikte netleştirilir. <a href="../kaynak-yontemleri.html">Kaynak yöntemlerimiz →</a></p></div>
+<div class="callout"><p>Isı renklerinin temizliği, dağlama ve pasivasyon ihtiyacı şartnameye göre teklif aşamasında yöntemiyle birlikte netleştirilir. <a href="../kaynak-yontemleri.html">Kaynak yöntemlerimiz →</a></p></div>
 `,
     faq: [
       ['Paslanmaz kaynak yanığı nasıl temizlenir?', 'Mekanik temizlik (paslanmaz fırça, demirsiz zımpara), dağlama pastası veya banyosu ya da elektrokimyasal temizlik ile. Kritik uygulamalarda dağlamanın ardından pasivasyon yapılır.'],
@@ -46,8 +46,8 @@ export default {
       ['Paslanmazda pas lekesi neden çıkar?', 'Çoğu zaman karbon çelik takımlardan veya taşlama tozundan bulaşan demir nedeniyle. Ayrı takım ve çalışma alanı kullanmak bunu önler.'],
       ['Kök gazlama neden gerekir?', 'Dikişin iç yüzünün havayla temas edip şekerlenmesini, yani gözenekli ve korozyona açık oksitlenmeyi önlemek için.']
     ],
-    cta_h3: 'Korozyona dayanıklı paslanmaz kaynak',
-    cta_p: 'Paslanmaz çiziminizi ve yüzey şartlarınızı gönderin; kaynak ve temizlik planıyla teklif sunalım.',
+    cta_h3: 'Çiziminizi gönderin, teklif hazırlayalım',
+    cta_p: 'Teknik resminizi gönderin; kaynak yöntemi, NDT kapsamı ve termini birlikte netleştirip teklif hazırlayalım.',
     cta_btn: 'Teklif İste →'
   },
   en: {
@@ -83,7 +83,7 @@ export default {
 </ul>
 <h2>Safety and Environment</h2>
 <p>Pickling chemicals, especially hydrofluoric acid, carry serious health risks. Suitable PPE, ventilation, first-aid readiness and neutralization of wastewater before disposal are mandatory. For large parts or series work, pickling is therefore done in equipped facilities.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> on stainless work we back purge and use separate tools and a separate work routine for stainless to prevent iron contamination. Heat-tint removal and the need for pickling and passivation are agreed at quotation, together with the method, according to the specification. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
+<div class="callout"><p>Heat-tint removal and the need for pickling and passivation are agreed at quotation, together with the method, according to the specification. <a href="../kaynak-yontemleri.html">Our welding methods →</a></p></div>
 `,
     faq: [
       ['How is heat tint removed from stainless welds?', 'By mechanical cleaning (stainless brush, iron-free abrasives), pickling paste or bath, or electrochemical cleaning. In critical applications pickling is followed by passivation.'],
@@ -91,8 +91,8 @@ export default {
       ['Why do rust stains appear on stainless?', 'Usually because of iron picked up from carbon steel tools or grinding dust. Separate tools and work areas prevent this.'],
       ['Why is back purging needed?', 'To stop the inside of the weld reacting with air and sugaring, a porous oxidation that is open to corrosion.']
     ],
-    cta_h3: 'Corrosion-resistant stainless welding',
-    cta_p: 'Send your stainless drawing and surface requirements; we will quote with a welding and cleaning plan.',
+    cta_h3: 'Send your drawing for a quote',
+    cta_p: 'Send your drawing; we agree the welding process, NDT scope and lead time with you and prepare a quote.',
     cta_btn: 'Request a Quote →'
   },
   de: {
@@ -128,7 +128,7 @@ export default {
 </ul>
 <h2>Sicherheit und Umwelt</h2>
 <p>Beizchemikalien, besonders Flusssäure, sind gesundheitlich sehr gefährlich. Geeignete PSA, Lüftung, Erste-Hilfe-Bereitschaft und Neutralisation des Abwassers sind Pflicht. Große Teile und Serien werden daher in ausgerüsteten Anlagen gebeizt.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Edelstahl formieren wir die Wurzel und arbeiten mit getrennten Werkzeugen und eigenem Ablauf, um Fremdeisen zu vermeiden. Entfernen der Anlauffarben sowie der Bedarf an Beizen und Passivieren werden gemäß Spezifikation im Angebot samt Verfahren abgestimmt. <a href="../kaynak-yontemleri.html">Unsere Schweißverfahren →</a></p></div>
+<div class="callout"><p>Entfernen der Anlauffarben sowie der Bedarf an Beizen und Passivieren werden gemäß Spezifikation im Angebot samt Verfahren abgestimmt. <a href="../kaynak-yontemleri.html">Unsere Schweißverfahren →</a></p></div>
 `,
     faq: [
       ['Wie entfernt man Anlauffarben an Edelstahlnähten?', 'Mechanisch (Edelstahlbürste, eisenfreie Schleifmittel), mit Beizpaste oder Beizbad oder elektrochemisch. Bei kritischen Anwendungen folgt dem Beizen das Passivieren.'],
@@ -136,8 +136,8 @@ export default {
       ['Warum entstehen Rostflecken auf Edelstahl?', 'Meist durch Fremdeisen von Baustahlwerkzeugen oder Schleifstaub. Getrennte Werkzeuge und Arbeitsbereiche verhindern das.'],
       ['Warum ist Formieren nötig?', 'Damit die Nahtinnenseite nicht mit Luft reagiert und verzundert, also porös und korrosionsanfällig oxidiert.']
     ],
-    cta_h3: 'Korrosionsbeständige Edelstahlschweißung',
-    cta_p: 'Senden Sie Ihre Edelstahlzeichnung und Oberflächenanforderungen; wir bieten mit Schweiß- und Reinigungsplan an.',
+    cta_h3: 'Zeichnung senden, Angebot erhalten',
+    cta_p: 'Senden Sie Ihre Zeichnung; wir stimmen Schweißverfahren, ZfP-Umfang und Liefertermin mit Ihnen ab und erstellen ein Angebot.',
     cta_btn: 'Angebot anfordern →'
   },
   es: {
@@ -173,7 +173,7 @@ export default {
 </ul>
 <h2>Seguridad y medio ambiente</h2>
 <p>Los productos de decapado, en especial el ácido fluorhídrico, son muy peligrosos. EPI adecuados, ventilación, primeros auxilios preparados y neutralización de las aguas residuales son obligatorios. Por eso las piezas grandes y las series se decapan en instalaciones equipadas.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> en inoxidable aplicamos protección de raíz y trabajamos con herramientas y rutina separadas para evitar la contaminación por hierro. La eliminación de la coloración y la necesidad de decapado y pasivado se acuerdan en la oferta, con su método, según la especificación. <a href="../kaynak-yontemleri.html">Nuestros procesos de soldadura →</a></p></div>
+<div class="callout"><p>La eliminación de la coloración y la necesidad de decapado y pasivado se acuerdan en la oferta, con su método, según la especificación. <a href="../kaynak-yontemleri.html">Nuestros procesos de soldadura →</a></p></div>
 `,
     faq: [
       ['¿Cómo se elimina la coloración de las soldaduras inox?', 'Con limpieza mecánica (cepillo inox, abrasivos sin hierro), pasta o baño de decapado o limpieza electroquímica. En aplicaciones críticas, tras el decapado se pasiva.'],
@@ -181,8 +181,8 @@ export default {
       ['¿Por qué salen manchas de óxido en el inoxidable?', 'Normalmente por hierro de herramientas de acero al carbono o polvo de amolado. Herramientas y zonas separadas lo evitan.'],
       ['¿Por qué hace falta gas de respaldo?', 'Para que el interior del cordón no reaccione con el aire y se «azucare», una oxidación porosa y vulnerable a la corrosión.']
     ],
-    cta_h3: 'Soldadura de inoxidable resistente a la corrosión',
-    cta_p: 'Envíenos su plano en inoxidable y los requisitos de superficie; ofertamos con plan de soldadura y limpieza.',
+    cta_h3: 'Envíe su plano y prepararemos la oferta',
+    cta_p: 'Envíe su plano; acordamos con usted el proceso de soldadura, el alcance de END y el plazo, y preparamos la oferta.',
     cta_btn: 'Solicitar oferta →'
   },
   fr: {
@@ -218,7 +218,7 @@ export default {
 </ul>
 <h2>Sécurité et environnement</h2>
 <p>Les produits de décapage, notamment l’acide fluorhydrique, présentent des risques graves. EPI adaptés, ventilation, premiers secours prêts et neutralisation des effluents sont obligatoires. Les grandes pièces et les séries sont donc décapées dans des installations équipées.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> sur l’inox, nous protégeons l’envers et travaillons avec des outils et une organisation séparés pour éviter la pollution ferreuse. L’élimination des colorations et le besoin de décapage et de passivation sont convenus au devis, méthode comprise, selon la spécification. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
+<div class="callout"><p>L’élimination des colorations et le besoin de décapage et de passivation sont convenus au devis, méthode comprise, selon la spécification. <a href="../kaynak-yontemleri.html">Nos procédés de soudage →</a></p></div>
 `,
     faq: [
       ['Comment éliminer les colorations des soudures inox ?', 'Par nettoyage mécanique (brosse inox, abrasifs sans fer), pâte ou bain de décapage, ou nettoyage électrochimique. En usage critique, le décapage est suivi d’une passivation.'],
@@ -226,8 +226,8 @@ export default {
       ['Pourquoi des taches de rouille sur l’inox ?', 'Le plus souvent à cause de fer provenant d’outils en acier carbone ou de poussières de meulage. Des outils et zones séparés l’évitent.'],
       ['Pourquoi une protection envers ?', 'Pour éviter que l’intérieur du cordon réagisse avec l’air et s’oxyde de façon poreuse et sensible à la corrosion.']
     ],
-    cta_h3: 'Un soudage inox résistant à la corrosion',
-    cta_p: 'Envoyez votre plan inox et vos exigences de surface ; nous chiffrons avec un plan de soudage et de nettoyage.',
+    cta_h3: 'Envoyez votre plan pour un devis',
+    cta_p: 'Envoyez votre plan ; nous convenons avec vous du procédé de soudage, de l\'étendue des CND et du délai, puis établissons le devis.',
     cta_btn: 'Demander un devis →'
   },
   it: {
@@ -263,7 +263,7 @@ export default {
 </ul>
 <h2>Sicurezza e ambiente</h2>
 <p>I prodotti decapanti, in particolare l’acido fluoridrico, comportano gravi rischi. DPI adeguati, ventilazione, primo soccorso pronto e neutralizzazione delle acque reflue sono obbligatori. Per questo pezzi grandi e serie si decapano in impianti attrezzati.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> sull’inox applichiamo la protezione al rovescio e lavoriamo con attrezzi e procedure separate per evitare la contaminazione ferrosa. Rimozione delle colorazioni ed esigenza di decapaggio e passivazione si concordano in offerta, metodo incluso, secondo la specifica. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
+<div class="callout"><p>Rimozione delle colorazioni ed esigenza di decapaggio e passivazione si concordano in offerta, metodo incluso, secondo la specifica. <a href="../kaynak-yontemleri.html">I nostri processi di saldatura →</a></p></div>
 `,
     faq: [
       ['Come si rimuovono le colorazioni dalle saldature inox?', 'Con pulizia meccanica (spazzola inox, abrasivi senza ferro), pasta o bagno decapante o pulizia elettrochimica. Nelle applicazioni critiche al decapaggio segue la passivazione.'],
@@ -271,8 +271,8 @@ export default {
       ['Perché compaiono macchie di ruggine sull’inox?', 'Di solito per ferro da attrezzi in acciaio al carbonio o polveri di molatura. Attrezzi e aree separati lo evitano.'],
       ['Perché serve la protezione al rovescio?', 'Per evitare che l’interno del cordone reagisca con l’aria e si «zuccheri», con un’ossidazione porosa vulnerabile alla corrosione.']
     ],
-    cta_h3: 'Saldatura inox resistente alla corrosione',
-    cta_p: 'Inviateci il disegno inox e i requisiti di superficie; quotiamo con piano di saldatura e pulizia.',
+    cta_h3: 'Inviate il disegno per un\'offerta',
+    cta_p: 'Inviate il disegno; concordiamo con voi processo di saldatura, estensione dei CND e tempi di consegna e prepariamo l\'offerta.',
     cta_btn: 'Richiedi un preventivo →'
   },
   nl: {
@@ -308,7 +308,7 @@ export default {
 </ul>
 <h2>Veiligheid en milieu</h2>
 <p>Beitschemicaliën, vooral fluorwaterstofzuur, zijn zeer gevaarlijk. Passende PBM, ventilatie, EHBO-paraatheid en neutralisatie van afvalwater zijn verplicht. Grote delen en series worden daarom in uitgeruste installaties gebeitst.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> bij RVS gebruiken we backing gas en werken we met gescheiden gereedschap en werkwijze om ijzercontaminatie te voorkomen. Het verwijderen van aanloopkleuren en de behoefte aan beitsen en passiveren stemmen we af bij de offerte, inclusief methode, volgens de specificatie. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
+<div class="callout"><p>Het verwijderen van aanloopkleuren en de behoefte aan beitsen en passiveren stemmen we af bij de offerte, inclusief methode, volgens de specificatie. <a href="../kaynak-yontemleri.html">Onze lasprocessen →</a></p></div>
 `,
     faq: [
       ['Hoe verwijder je aanloopkleuren van RVS-lassen?', 'Mechanisch (RVS-borstel, ijzervrije schuurmiddelen), met beitspasta of beitsbad, of elektrochemisch. Bij kritische toepassingen volgt na beitsen passiveren.'],
@@ -316,8 +316,8 @@ export default {
       ['Waarom ontstaan roestvlekken op RVS?', 'Meestal door ijzer van koolstofstaalgereedschap of slijpstof. Gescheiden gereedschap en werkplekken voorkomen dat.'],
       ['Waarom is backing gas nodig?', 'Zodat de binnenkant van de las niet met lucht reageert en suikert, een poreuze oxidatie die gevoelig is voor corrosie.']
     ],
-    cta_h3: 'Corrosiebestendig RVS-laswerk',
-    cta_p: 'Stuur uw RVS-tekening en oppervlakte-eisen; we offreren met las- en reinigingsplan.',
+    cta_h3: 'Stuur uw tekening voor een offerte',
+    cta_p: 'Stuur uw tekening; we stemmen lasproces, NDO-omvang en levertijd met u af en maken een offerte.',
     cta_btn: 'Offerte aanvragen →'
   },
   no: {
@@ -353,7 +353,7 @@ export default {
 </ul>
 <h2>Sikkerhet og miljø</h2>
 <p>Beisekjemikalier, særlig flussyre, innebærer alvorlig helserisiko. Egnet verneutstyr, ventilasjon, førstehjelpsberedskap og nøytralisering av avløpsvann er påkrevd. Store deler og serier beises derfor i utstyrte anlegg.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> på rustfritt bruker vi rotgass og arbeider med separate verktøy og rutiner for å unngå jernforurensning. Fjerning av anløpsfarger og behovet for beising og passivering avtales i tilbudet, med metode, etter spesifikasjonen. <a href="../kaynak-yontemleri.html">Våre sveisemetoder →</a></p></div>
+<div class="callout"><p>Fjerning av anløpsfarger og behovet for beising og passivering avtales i tilbudet, med metode, etter spesifikasjonen. <a href="../kaynak-yontemleri.html">Våre sveisemetoder →</a></p></div>
 `,
     faq: [
       ['Hvordan fjernes anløpsfarger fra rustfrie sveiser?', 'Med mekanisk rengjøring (rustfri børste, jernfrie slipemidler), beisepasta eller beisebad, eller elektrokjemisk rengjøring. Ved kritisk bruk følges beising av passivering.'],
@@ -361,8 +361,8 @@ export default {
       ['Hvorfor får rustfritt stål rustflekker?', 'Oftest på grunn av jern fra karbonstålverktøy eller slipestøv. Separate verktøy og arbeidsområder forhindrer dette.'],
       ['Hvorfor trengs rotgass?', 'For at innsiden av sveisen ikke skal reagere med luft og sukre, en porøs oksidasjon som er utsatt for korrosjon.']
     ],
-    cta_h3: 'Korrosjonsbestandig sveising av rustfritt stål',
-    cta_p: 'Send tegning og overflatekrav for rustfritt; vi gir tilbud med sveise- og rengjøringsplan.',
+    cta_h3: 'Send tegningen for et tilbud',
+    cta_p: 'Send tegningen; vi avtaler sveiseprosess, NDT-omfang og leveringstid med dere og lager et tilbud.',
     cta_btn: 'Be om tilbud →'
   }
 };

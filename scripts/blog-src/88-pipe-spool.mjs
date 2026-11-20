@@ -35,7 +35,7 @@ export default {
 </ul>
 <h2>Teslim Dosyası</h2>
 <p>Her spool için malzeme sertifikaları (ısı numarası izlenebilir), kaynak haritası, NDT raporları, ölçü kontrolü ve varsa test raporu teslim edilir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Yapısal boru ve profil imalatında izometrik ve kaynak haritası mantığıyla çalışıyoruz. VT, PT, MT ve UT'yi ISO 9712 Seviye 2 personelimiz yapıyor; RT çekimini iş ortağımız yapıyor, filmleri Seviye 2 personelimiz değerlendiriyor. Basınçlı boru işlerinde kapsam ve kod gerekliliklerini teklif aşamasında birlikte netleştiriyoruz. <a href="../ndt.html">NDT hizmetleri →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Yapısal boru ve profil imalatında izometrik ve kaynak haritası mantığıyla çalışıyoruz. VT ve UT'yi ISO 9712 Seviye 2 personelimiz yapıyor; RT çekimini iş ortağımız yapıyor, filmleri Seviye 2 personelimiz değerlendiriyor. Basınçlı boru işlerinde kapsam ve kod gerekliliklerini teklif aşamasında birlikte netleştiriyoruz. <a href="../ndt.html">NDT hizmetleri →</a></p></div>
 `,
     faq: [
       ['Pipe spool nedir?', 'Atölyede ön montajı yapılmış, taşınabilir boyutlarda boru parçasıdır; sahada yalnızca spool\'lar arası kaynaklar yapılır.'],
@@ -77,7 +77,7 @@ export default {
 </ul>
 <h2>Delivery Package</h2>
 <p>Each spool is delivered with material certificates (heat number traceable), weld map, NDT reports, dimensional check and test report where applicable.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we work with isometrics and weld maps in structural pipe and section fabrication. VT, PT, MT and UT are performed by our ISO 9712 Level 2 staff; RT is shot by our partner and the films are evaluated by our Level 2 staff. For pressure piping work, scope and code requirements are agreed at quotation stage. <a href="../ndt.html">NDT services →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we work with isometrics and weld maps in structural pipe and section fabrication. VT and UT are performed by our ISO 9712 Level 2 staff; RT is shot by our partner and the films are evaluated by our Level 2 staff. For pressure piping work, scope and code requirements are agreed at quotation stage. <a href="../ndt.html">NDT services →</a></p></div>
 `,
     faq: [
       ['What is a pipe spool?', 'A shop pre-assembled piping piece of transportable size; only spool-to-spool welds are made on site.'],
@@ -119,7 +119,7 @@ export default {
 </ul>
 <h2>Lieferdokumentation</h2>
 <p>Je Spool: Werkstoffzeugnisse (schmelzennummernverfolgbar), Nahtplan, ZfP-Berichte, Maßprüfung und ggf. Prüfbericht.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Konstruktionsrohren und Profilen arbeiten wir mit Isometrien und Nahtplänen. VT, PT, MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; RT-Aufnahmen macht unser Partner, die Filme bewertet unser Stufe-2-Personal. Bei Druckrohrleitungen klären wir Umfang und Regelwerksanforderungen im Angebot. <a href="../ndt.html">ZfP-Leistungen →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Bei Konstruktionsrohren und Profilen arbeiten wir mit Isometrien und Nahtplänen. VT und UT führt unser Personal mit ISO 9712 Stufe 2 durch; RT-Aufnahmen macht unser Partner, die Filme bewertet unser Stufe-2-Personal. Bei Druckrohrleitungen klären wir Umfang und Regelwerksanforderungen im Angebot. <a href="../ndt.html">ZfP-Leistungen →</a></p></div>
 `,
     faq: [
       ['Was ist ein Spool?', 'Ein in der Werkstatt vormontiertes, transportfähiges Rohrleitungsstück; vor Ort werden nur Verbindungsnähte geschweißt.'],
@@ -161,7 +161,7 @@ export default {
 </ul>
 <h2>Documentación de entrega</h2>
 <p>Por spool: certificados de material (trazables por colada), mapa de soldaduras, informes END, control dimensional e informe de prueba si aplica.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> trabajamos con isométricas y mapas de soldadura en fabricación de tubo estructural y perfiles. VT, PT, MT y UT los realiza nuestro personal ISO 9712 nivel 2; la RT la dispara nuestro socio y las placas las evalúa nuestro personal nivel 2. En tubería a presión acordamos alcance y requisitos de código al ofertar. <a href="../ndt.html">Servicios END →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> trabajamos con isométricas y mapas de soldadura en fabricación de tubo estructural y perfiles. VT y UT los realiza nuestro personal ISO 9712 nivel 2; la RT la dispara nuestro socio y las placas las evalúa nuestro personal nivel 2. En tubería a presión acordamos alcance y requisitos de código al ofertar. <a href="../ndt.html">Servicios END →</a></p></div>
 `,
     faq: [
       ['¿Qué es un spool?', 'Un tramo de tubería premontado en taller y transportable; en obra solo se sueldan las uniones entre spools.'],
@@ -203,7 +203,7 @@ export default {
 </ul>
 <h2>Dossier de livraison</h2>
 <p>Par spool : certificats matière (traçables par coulée), carte des soudures, rapports CND, contrôle dimensionnel et PV d'épreuve le cas échéant.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous travaillons avec isométriques et cartes de soudures en tube de structure et profilés. VT, PT, MT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la RT est réalisée par notre partenaire et les films sont interprétés par notre personnel niveau 2. Pour la tuyauterie sous pression, étendue et exigences de code sont arrêtées au devis. <a href="../ndt.html">Prestations CND →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous travaillons avec isométriques et cartes de soudures en tube de structure et profilés. VT et UT sont réalisés par notre personnel ISO 9712 niveau 2 ; la RT est réalisée par notre partenaire et les films sont interprétés par notre personnel niveau 2. Pour la tuyauterie sous pression, étendue et exigences de code sont arrêtées au devis. <a href="../ndt.html">Prestations CND →</a></p></div>
 `,
     faq: [
       ['Qu\'est-ce qu\'un spool ?', 'Un tronçon prémonté en atelier et transportable ; seuls les joints entre spools sont soudés sur site.'],
@@ -245,7 +245,7 @@ export default {
 </ul>
 <h2>Documentazione di consegna</h2>
 <p>Per spool: certificati materiale (tracciabili per colata), mappa saldature, rapporti CND, controllo dimensionale e verbale di prova se previsto.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> lavoriamo con isometrici e mappe saldature nella carpenteria di tubi strutturali e profili. VT, PT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; la RT è eseguita dal partner e le lastre sono valutate dal nostro personale livello 2. Per tubazioni in pressione definiamo in offerta estensione e requisiti di codice. <a href="../ndt.html">Servizi CND →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> lavoriamo con isometrici e mappe saldature nella carpenteria di tubi strutturali e profili. VT e UT sono eseguiti dal nostro personale ISO 9712 livello 2; la RT è eseguita dal partner e le lastre sono valutate dal nostro personale livello 2. Per tubazioni in pressione definiamo in offerta estensione e requisiti di codice. <a href="../ndt.html">Servizi CND →</a></p></div>
 `,
     faq: [
       ['Che cos\'è uno spool?', 'Un tratto premontato in officina e trasportabile; in cantiere si saldano solo i giunti tra spool.'],
@@ -287,7 +287,7 @@ export default {
 </ul>
 <h2>Leverdossier</h2>
 <p>Per spool: materiaalcertificaten (traceerbaar op charge), laskaart, NDO-rapporten, maatcontrole en zo nodig testrapport.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we werken met isometrieën en laskaarten bij constructiebuis en profielen. VT, PT, MT en UT voert ons personeel met ISO 9712 niveau 2 uit; RT-opnamen maakt onze partner en de films beoordeelt ons niveau-2-personeel. Bij drukleidingen leggen we omvang en code-eisen vast in de offerte. <a href="../ndt.html">NDO-diensten →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we werken met isometrieën en laskaarten bij constructiebuis en profielen. VT en UT voert ons personeel met ISO 9712 niveau 2 uit; RT-opnamen maakt onze partner en de films beoordeelt ons niveau-2-personeel. Bij drukleidingen leggen we omvang en code-eisen vast in de offerte. <a href="../ndt.html">NDO-diensten →</a></p></div>
 `,
     faq: [
       ['Wat is een spool?', 'Een in de werkplaats voorgemonteerd, transporteerbaar leidingdeel; op locatie alleen verbindingslassen.'],
@@ -329,7 +329,7 @@ export default {
 </ul>
 <h2>Leveransedokumentasjon</h2>
 <p>Per spool: materialsertifikater (sporbare til charge), sveisekart, NDT-rapporter, målkontroll og ev. prøverapport.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi jobber med isometrier og sveisekart innen konstruksjonsrør og profiler. VT, PT, MT og UT utføres av vårt personell med ISO 9712 nivå 2; RT-opptak gjøres av vår partner, og filmene tolkes av vårt nivå 2-personell. For trykkrør avklarer vi omfang og regelverkskrav i tilbudet. <a href="../ndt.html">NDT-tjenester →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi jobber med isometrier og sveisekart innen konstruksjonsrør og profiler. VT og UT utføres av vårt personell med ISO 9712 nivå 2; RT-opptak gjøres av vår partner, og filmene tolkes av vårt nivå 2-personell. For trykkrør avklarer vi omfang og regelverkskrav i tilbudet. <a href="../ndt.html">NDT-tjenester →</a></p></div>
 `,
     faq: [
       ['Hva er en spool?', 'En verkstedsmontert, transportabel rørdel; på stedet sveises bare skjøtene mellom spoolene.'],

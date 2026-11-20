@@ -1,0 +1,10 @@
+{
+ "trace_step7_body": {"re": [["WPS, WPQR, ", "g", "WPS, "], [", (CE beyanı|CE declaration|CE-Erklärung|declaración CE|déclaration CE|dichiarazione CE|CE-verklaring|CE-erklæring) —", "g", " —"]]},
+ "trace_step7_d3": {"tr": "Ölçü Raporu", "en": "Dimensional Report", "de": "Maßbericht", "es": "Informe dimensional", "fr": "Rapport dimensionnel", "it": "Rapporto dimensionale", "nl": "Maatrapport", "no": "Målerapport"},
+ "trace_doc_dop_title": {"re": [[" & DoP", "g", ""]]},
+ "trace_doc_eng_sub": {"re": [["\\s*·\\s*EXC3", "g", ""]]},
+ "trace_doc_dop_sub": {"re": [["\\s*·\\s*EXC3", "g", ""]]},
+ "trace_doc_dop_stamp": {"*": "EN 1090-2<br/>EN ISO<br/>3834-2"},
+ "trace_doc_dop_badge": {"tr": "Dosya tam · Sevkiyata hazır", "en": "Dossier complete · Ready to ship", "de": "Dossier vollständig · Versandbereit", "es": "Dossier completo · Listo para envío", "fr": "Dossier complet · Prêt à expédier", "it": "Fascicolo completo · Pronto per la spedizione", "nl": "Dossier compleet · Klaar voor verzending", "no": "Dokumentasjon komplett · Klar for sending"},
+ "trace_doc_val_quality_mgr": {"re": [["Ali Eren", "g", "Atakan Battal"]]}
+}

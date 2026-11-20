@@ -40,7 +40,7 @@ export default {
 <li>Pim delikleri arası mesafe, eş eksenlilik ve çap ölçümü.</li>
 <li>Silindirin iki bağlantısı arasındaki montaj mesafesi.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Silindir braketli kaynaklı gövdeleri çizime göre kaynaklıyor, MT ve UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyoruz. Pim yuvalarının kaynak sonrası işlenmesini iş ortağımız talaşlı işleme atölyeleriyle koordine ediyor, delik ölçülerini raporluyoruz. <a href="../makine-sasesi-imalati.html">Makine şasesi imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Silindir braketli kaynaklı gövdeleri çizime göre kaynaklıyor, UT muayenelerini ISO 9712 Seviye 2 personelimizle yapıyoruz. Pim yuvalarının kaynak sonrası işlenmesini iş ortağımız talaşlı işleme atölyeleriyle koordine ediyor, delik ölçülerini raporluyoruz. <a href="../makine-sasesi-imalati.html">Makine şasesi imalatı →</a></p></div>
 `,
     faq: [
       ['Pim delikleri kaynaktan önce mi sonra mı açılmalı?', 'Hassas yuvalar genellikle kaynak sonrasında tek bağlamada işlenir; önce açılacaksa işleme payı bırakılır.'],
@@ -87,7 +87,7 @@ export default {
 <li>Pin hole centre distance, coaxiality and diameter.</li>
 <li>Installed distance between the two cylinder mounts.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bodies with cylinder brackets to drawing and our ISO 9712 Level 2 staff carry out MT and UT. Post-weld machining of pin bores is coordinated with our partner machine shops and bore dimensions are reported. <a href="../makine-sasesi-imalati.html">Machine frame manufacturing →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld bodies with cylinder brackets to drawing and our ISO 9712 Level 2 staff carry out UT. Post-weld machining of pin bores is coordinated with our partner machine shops and bore dimensions are reported. <a href="../makine-sasesi-imalati.html">Machine frame manufacturing →</a></p></div>
 `,
     faq: [
       ['Should pin holes be made before or after welding?', 'Precision bores are usually machined after welding in one setup; if made before, machining allowance is left.'],
@@ -134,7 +134,7 @@ export default {
 <li>Bohrungsabstand, Koaxialität und Durchmesser.</li>
 <li>Einbaumaß zwischen beiden Zylinderanschlüssen.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Grundkörper mit Zylinderlagerböcken nach Zeichnung; MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Die Bearbeitung der Bolzenbohrungen nach dem Schweißen koordinieren wir mit Partner-Zerspanungsbetrieben und dokumentieren die Maße. <a href="../makine-sasesi-imalati.html">Maschinenrahmen →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Grundkörper mit Zylinderlagerböcken nach Zeichnung; UT führt unser Personal mit ISO 9712 Stufe 2 durch. Die Bearbeitung der Bolzenbohrungen nach dem Schweißen koordinieren wir mit Partner-Zerspanungsbetrieben und dokumentieren die Maße. <a href="../makine-sasesi-imalati.html">Maschinenrahmen →</a></p></div>
 `,
     faq: [
       ['Bolzenbohrungen vor oder nach dem Schweißen?', 'Präzisionsbohrungen meist nach dem Schweißen in einer Aufspannung; vorher gebohrt nur mit Bearbeitungszugabe.'],
@@ -181,7 +181,7 @@ export default {
 <li>Distancia entre ejes, coaxialidad y diámetro de los agujeros.</li>
 <li>Cota de montaje entre ambos anclajes del cilindro.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos cuerpos con soportes de cilindro según plano y nuestro personal ISO 9712 nivel 2 realiza MT y UT. Coordinamos el mecanizado tras soldar con talleres socios e informamos las medidas de los alojamientos. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos cuerpos con soportes de cilindro según plano y nuestro personal ISO 9712 nivel 2 realiza UT. Coordinamos el mecanizado tras soldar con talleres socios e informamos las medidas de los alojamientos. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
 `,
     faq: [
       ['¿Agujeros antes o después de soldar?', 'Los de precisión suelen mecanizarse tras soldar en una atada; si se hacen antes, con sobremedida.'],
@@ -228,7 +228,7 @@ export default {
 <li>Entraxe, coaxialité et diamètre des alésages.</li>
 <li>Cote de montage entre les deux attaches du vérin.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les corps avec supports de vérins selon plan et notre personnel ISO 9712 niveau 2 réalise MT et UT. L'usinage après soudage des alésages est coordonné avec nos ateliers partenaires et les cotes sont consignées. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les corps avec supports de vérins selon plan et notre personnel ISO 9712 niveau 2 réalise UT. L'usinage après soudage des alésages est coordonné avec nos ateliers partenaires et les cotes sont consignées. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
 `,
     faq: [
       ['Percer avant ou après soudage ?', 'Les alésages de précision sont usinés après soudage en une prise ; percés avant, ils gardent une surépaisseur.'],
@@ -275,7 +275,7 @@ export default {
 <li>Interasse, coassialità e diametro dei fori.</li>
 <li>Quota di montaggio tra i due attacchi del cilindro.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo corpi con supporti per cilindri a disegno e il nostro personale ISO 9712 livello 2 esegue MT e UT. Coordiniamo la lavorazione delle sedi dopo saldatura con officine meccaniche partner e registriamo le quote. <a href="../makine-sasesi-imalati.html">Telai per macchine →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo corpi con supporti per cilindri a disegno e il nostro personale ISO 9712 livello 2 esegue UT. Coordiniamo la lavorazione delle sedi dopo saldatura con officine meccaniche partner e registriamo le quote. <a href="../makine-sasesi-imalati.html">Telai per macchine →</a></p></div>
 `,
     faq: [
       ['Fori prima o dopo la saldatura?', 'Le sedi di precisione si lavorano dopo la saldatura in un piazzamento; se fatte prima, con sovrametallo.'],
@@ -322,7 +322,7 @@ export default {
 <li>Hartafstand, coaxialiteit en diameter van de gaten.</li>
 <li>Inbouwmaat tussen beide cilinderaansluitingen.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen basislichamen met cilinderbeugels volgens tekening; ons personeel met ISO 9712 niveau 2 voert MT en UT uit. Nabewerking van pengaten coördineren we met partner-verspaners en de maten rapporteren we. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen basislichamen met cilinderbeugels volgens tekening; ons personeel met ISO 9712 niveau 2 voert UT uit. Nabewerking van pengaten coördineren we met partner-verspaners en de maten rapporteren we. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
 `,
     faq: [
       ['Pengaten vóór of na het lassen?', 'Precisiegaten meestal na het lassen in één opspanning; vooraf geboord alleen met toeslag.'],
@@ -369,7 +369,7 @@ export default {
 <li>Senteravstand, koaksialitet og diameter på hullene.</li>
 <li>Monteringsmål mellom sylinderens to fester.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser rammer med sylinderbraketter etter tegning, og vårt personell med ISO 9712 nivå 2 utfører MT og UT. Maskinering av bolthull etter sveising koordineres med partnerverksteder, og målene rapporteres. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser rammer med sylinderbraketter etter tegning, og vårt personell med ISO 9712 nivå 2 utfører UT. Maskinering av bolthull etter sveising koordineres med partnerverksteder, og målene rapporteres. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
 `,
     faq: [
       ['Bolthull før eller etter sveising?', 'Presisjonshull maskineres normalt etter sveising i ett oppspenn; bores de før, med tillegg.'],

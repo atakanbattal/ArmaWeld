@@ -29,7 +29,7 @@ export default {
 <p>Tamamen sızdırmaz kaynaklanan kutularda iç korozyon riski düşüktür; ancak sızdırmazlık test edilmelidir. Galvaniz yapılacak kutularda ise havalandırma ve drenaj delikleri şarttır, aksi hâlde banyoda tehlikeli basınç oluşur (bkz. <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">galvaniz için kaynaklı parça</a>). Hangi yaklaşımın seçildiği çizimde açıkça yazmalıdır.</p>
 <h2>Muayene ve Belgeler</h2>
 <p>Gövde ve başlık ekleri genellikle ultrasonik muayene ile, köşe dikişleri gözle ve gerekirse MT ile kontrol edilir (bkz. <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT mi RT mi</a>). Teslimde boyutsal rapor (kamber, burulma, yan sapma), malzeme sertifikaları, WPS/WPQR ve NDT raporları beklenir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Kutu kirişlerin boyuna dikişlerini 35 m tozaltı kaynak makinemizle, diyafram ve detay dikişlerini gazaltı ile kaynaklıyoruz; VT, MT ve UT'yi ISO 9712 Seviye 2 personelimizle yapıyoruz. Levha kesimi, galvaniz veya boyayı iş ortaklarımızla koordine ediyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
+<div class="callout"><p>Levha kesimi, galvaniz veya boyayı iş ortaklarımızla koordine ediyoruz. <a href="../sasi-bom-imalati.html">Şasi ve bom imalatı →</a></p></div>
 `,
     faq: [
       ['Kutu kiriş neden tercih edilir?', 'Aynı ağırlıkta I kirişe göre burulmaya çok daha dayanıklıdır.'],
@@ -65,7 +65,7 @@ export default {
 <p>Fully seal-welded boxes have low internal corrosion risk, but sealing should be tested. Boxes to be galvanised must have vent and drain holes, otherwise dangerous pressure builds up in the bath (see <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">welded parts for galvanising</a>). The chosen approach must be stated clearly on the drawing.</p>
 <h2>Inspection and Documents</h2>
 <p>Web and flange splices are usually ultrasonically tested, fillet seams visually and with MT where required (see <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT or RT</a>). Delivery includes a dimensional report (camber, twist, sweep), material certificates, WPS/WPQR and NDT reports.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld box girder longitudinal seams on our 35 m submerged arc machine and diaphragms and details with MAG; VT, MT and UT are done by our ISO 9712 Level 2 staff. Plate cutting, galvanising or painting are coordinated with our partners. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
+<div class="callout"><p>Plate cutting, galvanising or painting are coordinated with our partners. <a href="../sasi-bom-imalati.html">Chassis and boom fabrication →</a></p></div>
 `,
     faq: [
       ['Why use a box girder?', 'It resists torsion far better than an I-beam of the same weight.'],
@@ -101,7 +101,7 @@ export default {
 <p>Dicht geschweißte Kästen haben geringes Innenkorrosionsrisiko, die Dichtheit sollte geprüft werden. Zu verzinkende Kästen brauchen Entlüftungs- und Ablauföffnungen, sonst entsteht im Bad gefährlicher Druck (siehe <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">Schweißteile für die Verzinkung</a>). Die gewählte Lösung gehört eindeutig in die Zeichnung.</p>
 <h2>Prüfung und Unterlagen</h2>
 <p>Steg- und Gurtstöße meist mit Ultraschall, Kehlnähte visuell und bei Bedarf mit MT (siehe <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT oder RT</a>). Zur Lieferung gehören Maßbericht (Überhöhung, Verdrillung, Seitenabweichung), Werkstoffzeugnisse, WPS/WPQR und Prüfberichte.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen die Längsnähte auf unserer 35-m-UP-Anlage, Schotte und Details mit MAG; VT, MT und UT führt unser Personal mit ISO 9712 Stufe 2 durch. Zuschnitt, Verzinken oder Lackieren koordinieren wir mit Partnern. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
+<div class="callout"><p>Zuschnitt, Verzinken oder Lackieren koordinieren wir mit Partnern. <a href="../sasi-bom-imalati.html">Rahmen- und Auslegerfertigung →</a></p></div>
 `,
     faq: [
       ['Warum Kastenträger?', 'Bei gleichem Gewicht deutlich torsionssteifer als ein I-Träger.'],
@@ -137,7 +137,7 @@ export default {
 <p>Los cajones estancos tienen bajo riesgo de corrosión interior, pero la estanqueidad debe probarse. Si se galvanizan, necesitan taladros de venteo y drenaje para evitar presión peligrosa en el baño (ver <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">piezas para galvanizar</a>). La opción elegida debe figurar en plano.</p>
 <h2>Inspección y documentos</h2>
 <p>Empalmes de alma y ala normalmente por ultrasonidos, cordones en ángulo visual y MT si procede (ver <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT o RT</a>). La entrega incluye informe dimensional (contraflecha, torsión, desviación), certificados, WPS/WPQR e informes de END.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos los cordones longitudinales con nuestra máquina de arco sumergido de 35 m y diafragmas y detalles con MAG; VT, MT y UT los realiza nuestro personal ISO 9712 Nivel 2. Corte, galvanizado o pintura se coordinan con socios. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
+<div class="callout"><p>Corte, galvanizado o pintura se coordinan con socios. <a href="../sasi-bom-imalati.html">Chasis y plumas →</a></p></div>
 `,
     faq: [
       ['¿Por qué una viga cajón?', 'Resiste mucho mejor la torsión que una I del mismo peso.'],
@@ -173,7 +173,7 @@ export default {
 <p>Un caisson soudé étanche a un faible risque de corrosion interne, mais l'étanchéité doit être testée. Un caisson à galvaniser doit avoir évents et purges, sinon une pression dangereuse se forme dans le bain (voir <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">pièces pour galvanisation</a>). Le choix doit figurer clairement sur plan.</p>
 <h2>Contrôles et documents</h2>
 <p>Abouts d'âmes et semelles en général par ultrasons, soudures d'angle visuel et MT si requis (voir <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT ou RT</a>). Livraison avec rapport dimensionnel (contre-flèche, vrillage, flèche latérale), certificats, DMOS/QMOS et rapports CND.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les cordons longitudinaux sur notre machine d'arc submergé de 35 m, diaphragmes et détails en MAG ; VT, MT et UT sont réalisés par notre personnel ISO 9712 niveau 2. Découpe, galvanisation ou peinture sont coordonnées avec nos partenaires. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
+<div class="callout"><p>Découpe, galvanisation ou peinture sont coordonnées avec nos partenaires. <a href="../sasi-bom-imalati.html">Châssis et flèches →</a></p></div>
 `,
     faq: [
       ['Pourquoi un caisson ?', 'Il résiste bien mieux à la torsion qu\'une poutre en I de même poids.'],
@@ -209,7 +209,7 @@ export default {
 <p>I cassoni saldati a tenuta hanno basso rischio di corrosione interna, ma la tenuta va verificata. I cassoni da zincare richiedono fori di sfiato e scarico, altrimenti nel bagno si genera pressione pericolosa (vedi <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">pezzi per zincatura</a>). La scelta va indicata chiaramente a disegno.</p>
 <h2>Controlli e documenti</h2>
 <p>Giunti di anima e ala di solito con ultrasuoni, cordoni d'angolo a vista e MT se richiesto (vedi <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT o RT</a>). Alla consegna: rapporto dimensionale (controfreccia, svergolamento, freccia laterale), certificati, WPS/WPQR e rapporti CND.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo i cordoni longitudinali con la nostra macchina ad arco sommerso da 35 m, diaframmi e dettagli in MAG; VT, MT e UT sono eseguiti dal nostro personale ISO 9712 livello 2. Taglio, zincatura o verniciatura sono coordinati con i partner. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
+<div class="callout"><p>Taglio, zincatura o verniciatura sono coordinati con i partner. <a href="../sasi-bom-imalati.html">Telai e bracci →</a></p></div>
 `,
     faq: [
       ['Perché una trave a cassone?', 'Resiste alla torsione molto meglio di una I di pari peso.'],
@@ -245,7 +245,7 @@ export default {
 <p>Dichtgelaste kokers hebben weinig inwendige corrosie, maar de dichtheid moet getest worden. Te verzinken kokers hebben ont- en beluchtingsgaten nodig, anders ontstaat gevaarlijke druk in het bad (zie <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">onderdelen voor verzinken</a>). De keuze staat duidelijk op tekening.</p>
 <h2>Inspectie en documenten</h2>
 <p>Lijf- en flensstuiken meestal ultrasoon, hoeknaden visueel en zo nodig MT (zie <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT of RT</a>). Bij levering: maatrapport (zeeg, torsie, zijdelingse afwijking), certificaten, WPS/WPQR en NDO-rapporten.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen de langsnaden met onze 35 m onder-poeder-lasmachine, schotten en details met MAG; VT, MT en UT voert ons ISO 9712 niveau 2-personeel uit. Snijden, verzinken of lakken coördineren we met partners. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
+<div class="callout"><p>Snijden, verzinken of lakken coördineren we met partners. <a href="../sasi-bom-imalati.html">Chassis en gieken →</a></p></div>
 `,
     faq: [
       ['Waarom een kokerligger?', 'Bij gelijk gewicht veel torsiestijver dan een I-ligger.'],
@@ -281,7 +281,7 @@ export default {
 <p>Tettsveisede kasser har lav innvendig korrosjonsrisiko, men tettheten bør testes. Kasser som skal forsinkes må ha lufte- og dreneringshull, ellers bygges det opp farlig trykk i badet (se <a href="sicak-daldirma-galvaniz-kaynakli-parca.html">deler for forsinking</a>). Valget skal stå tydelig på tegningen.</p>
 <h2>Kontroll og dokumenter</h2>
 <p>Steg- og flensskjøter vanligvis med ultralyd, kilsveiser visuelt og med MT ved behov (se <a href="ultrasonik-muayene-mi-radyografi-mi.html">UT eller RT</a>). Leveransen omfatter målrapport (overhøyde, vridning, sideavvik), sertifikater, WPS/WPQR og NDT-rapporter.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser de langsgående sømmene på vår 35 m pulverbuesveisemaskin, skott og detaljer med MAG; VT, MT og UT utføres av vårt ISO 9712 nivå 2-personell. Kutting, forsinking eller maling koordineres med partnere. <a href="../sasi-bom-imalati.html">Chassis og bommer →</a></p></div>
+<div class="callout"><p>Kutting, forsinking eller maling koordineres med partnere. <a href="../sasi-bom-imalati.html">Chassis og bommer →</a></p></div>
 `,
     faq: [
       ['Hvorfor kassebjelke?', 'Mye mer vridningsstiv enn en I-bjelke med samme vekt.'],

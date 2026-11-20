@@ -42,7 +42,7 @@ export default {
 <li>Gerilim giderme ve büyük işleme nerede, hangi ölçüde yapılabiliyor?</li>
 <li>Vinç kapasitesi ve gövdeyi çevirme imkânı.</li>
 </ul>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Pres ve ağır makine gövdelerini kalın plaka WPS'lerimizle, ön ısıtma kayıtlı olarak kaynaklıyoruz; UT ve MT muayenelerini ISO 9712 Seviye 2 personelimiz yapıyor. Gerilim giderme tavını ve büyük tezgâhta işlemeyi iş ortaklarımızla koordine ediyoruz. <a href="../makine-sasesi-imalati.html">Makine şasesi imalatı →</a></p></div>
+<div class="callout"><p><strong>ArmaWeld'de:</strong> Pres ve ağır makine gövdelerini kalın plaka WPS'lerimizle, ön ısıtma kayıtlı olarak kaynaklıyoruz; UT muayenelerini ISO 9712 Seviye 2 personelimiz yapıyor. Gerilim giderme tavını ve büyük tezgâhta işlemeyi iş ortaklarımızla koordine ediyoruz. <a href="../makine-sasesi-imalati.html">Makine şasesi imalatı →</a></p></div>
 `,
     faq: [
       ['Pres gövdesi neden kaynaklı yapılır?', 'Tek parça veya küçük seride dökümden daha kısa sürede ve genellikle daha düşük maliyetle üretilebilir.'],
@@ -91,7 +91,7 @@ export default {
 <li>Where and up to what size can stress relief and large machining be done?</li>
 <li>Crane capacity and the ability to turn the frame.</li>
 </ul>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld press and heavy machine frames with our heavy plate WPSs and recorded preheat; UT and MT are carried out by our ISO 9712 Level 2 staff. Stress relief and large-scale machining are coordinated with our partners. <a href="../makine-sasesi-imalati.html">Machine frame manufacturing →</a></p></div>
+<div class="callout"><p><strong>At ArmaWeld:</strong> we weld press and heavy machine frames with our heavy plate WPSs and recorded preheat; UT are carried out by our ISO 9712 Level 2 staff. Stress relief and large-scale machining are coordinated with our partners. <a href="../makine-sasesi-imalati.html">Machine frame manufacturing →</a></p></div>
 `,
     faq: [
       ['Why are press frames welded?', 'For one-offs and small batches they can be produced faster and often cheaper than castings.'],
@@ -140,7 +140,7 @@ export default {
 <li>Wo und bis zu welcher Größe sind Glühen und Großzerspanung möglich?</li>
 <li>Krankapazität und Wendemöglichkeit für das Gestell.</li>
 </ul>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Pressen- und Schwermaschinengestelle mit unseren Dickblech-WPS und protokollierter Vorwärmung; UT und MT führt unser Personal mit ISO 9712 Stufe 2 durch. Spannungsarmglühen und Großzerspanung koordinieren wir mit Partnern. <a href="../makine-sasesi-imalati.html">Maschinenrahmen →</a></p></div>
+<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Pressen- und Schwermaschinengestelle mit unseren Dickblech-WPS und protokollierter Vorwärmung; UT führt unser Personal mit ISO 9712 Stufe 2 durch. Spannungsarmglühen und Großzerspanung koordinieren wir mit Partnern. <a href="../makine-sasesi-imalati.html">Maschinenrahmen →</a></p></div>
 `,
     faq: [
       ['Warum werden Pressengestelle geschweißt?', 'Bei Einzelstücken und Kleinserien schneller und oft günstiger als Guss.'],
@@ -189,7 +189,7 @@ export default {
 <li>¿Dónde y hasta qué tamaño se hace el tratamiento y el mecanizado grande?</li>
 <li>Capacidad de grúa y posibilidad de voltear el bastidor.</li>
 </ul>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos bastidores de prensa y maquinaria pesada con nuestras WPS de chapa gruesa y precalentamiento registrado; UT y MT los realiza nuestro personal ISO 9712 nivel 2. Coordinamos alivio de tensiones y mecanizado de gran tamaño con socios. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
+<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos bastidores de prensa y maquinaria pesada con nuestras WPS de chapa gruesa y precalentamiento registrado; UT los realiza nuestro personal ISO 9712 nivel 2. Coordinamos alivio de tensiones y mecanizado de gran tamaño con socios. <a href="../makine-sasesi-imalati.html">Bastidores de máquina →</a></p></div>
 `,
     faq: [
       ['¿Por qué soldar bastidores de prensa?', 'En piezas únicas y series cortas se fabrican más rápido y a menudo más barato que fundidos.'],
@@ -238,7 +238,7 @@ export default {
 <li>Où et jusqu'à quelle taille détensionnement et gros usinage sont-ils possibles ?</li>
 <li>Capacité de levage et retournement du bâti.</li>
 </ul>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons bâtis de presses et de machines lourdes avec nos DMOS tôles fortes et un préchauffage enregistré ; UT et MT sont réalisés par notre personnel ISO 9712 niveau 2. Détensionnement et gros usinage sont coordonnés avec nos partenaires. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
+<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons bâtis de presses et de machines lourdes avec nos DMOS tôles fortes et un préchauffage enregistré ; UT sont réalisés par notre personnel ISO 9712 niveau 2. Détensionnement et gros usinage sont coordonnés avec nos partenaires. <a href="../makine-sasesi-imalati.html">Bâtis de machines →</a></p></div>
 `,
     faq: [
       ['Pourquoi mécano-souder un bâti de presse ?', 'À l\'unité et en petite série, plus rapide et souvent moins cher que la fonderie.'],
@@ -287,7 +287,7 @@ export default {
 <li>Dove e fino a che dimensione si fanno distensione e grandi lavorazioni?</li>
 <li>Capacità gru e possibilità di ribaltare l'incastellatura.</li>
 </ul>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo incastellature di presse e macchine pesanti con le nostre WPS per forti spessori e preriscaldo registrato; UT e MT sono eseguiti dal nostro personale ISO 9712 livello 2. Distensione e grandi lavorazioni sono coordinate con i partner. <a href="../makine-sasesi-imalati.html">Telai per macchine →</a></p></div>
+<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo incastellature di presse e macchine pesanti con le nostre WPS per forti spessori e preriscaldo registrato; UT sono eseguiti dal nostro personale ISO 9712 livello 2. Distensione e grandi lavorazioni sono coordinate con i partner. <a href="../makine-sasesi-imalati.html">Telai per macchine →</a></p></div>
 `,
     faq: [
       ['Perché saldare un\'incastellatura?', 'Su pezzi singoli e piccole serie è più rapido e spesso più economico della fusione.'],
@@ -336,7 +336,7 @@ export default {
 <li>Waar en tot welke maat zijn gloeien en groot verspanen mogelijk?</li>
 <li>Kraancapaciteit en mogelijkheid om het frame te keren.</li>
 </ul>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen pers- en zware machineframes met onze WPS'en voor dikke plaat en vastgelegde voorwarming; UT en MT voert ons personeel met ISO 9712 niveau 2 uit. Spanningsarmgloeien en groot verspanen coördineren we met partners. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
+<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen pers- en zware machineframes met onze WPS'en voor dikke plaat en vastgelegde voorwarming; UT voert ons personeel met ISO 9712 niveau 2 uit. Spanningsarmgloeien en groot verspanen coördineren we met partners. <a href="../makine-sasesi-imalati.html">Machineframes →</a></p></div>
 `,
     faq: [
       ['Waarom persframes lassen?', 'Bij enkelstuks en kleine series sneller en vaak goedkoper dan gietwerk.'],
@@ -385,7 +385,7 @@ export default {
 <li>Hvor og opp til hvilken størrelse kan glødning og stor maskinering gjøres?</li>
 <li>Krankapasitet og mulighet for å snu rammen.</li>
 </ul>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser presse- og tungmaskinrammer med våre WPS for tykk plate og loggført forvarming; UT og MT utføres av vårt personell med ISO 9712 nivå 2. Spenningsavlastning og stor maskinering koordineres med partnere. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
+<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser presse- og tungmaskinrammer med våre WPS for tykk plate og loggført forvarming; UT utføres av vårt personell med ISO 9712 nivå 2. Spenningsavlastning og stor maskinering koordineres med partnere. <a href="../makine-sasesi-imalati.html">Maskinrammer →</a></p></div>
 `,
     faq: [
       ['Hvorfor sveise presserammer?', 'For enkeltstykker og små serier raskere og ofte billigere enn støp.'],

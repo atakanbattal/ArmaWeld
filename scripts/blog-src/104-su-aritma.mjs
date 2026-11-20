@@ -34,7 +34,7 @@ export default {
 <p>Paslanmaz parça, karbon çelikle aynı tezgâhta, aynı taşlama diski veya fırçayla işlenirse yüzeyine demir parçacıkları yapışır ve kısa sürede pas lekeleri oluşur. Paslanmaz için ayrı alet, ayrı askı ve ayrı alan kullanılmalıdır. Sahadaki "paslanmaz paslandı" şikâyetlerinin önemli bir kısmı buradan gelir.</p>
 <h2>Büyük Parçalar ve Nakliye</h2>
 <p>Sıyırıcı köprüler ve uzun oluklar nakliye ölçülerine göre bölünür, sahada cıvatayla birleştirilir. Bağlantı elemanları da paslanmaz olmalıdır; galvanizli cıvata ile paslanmaz parça temasında galvanik korozyon dikkate alınmalıdır.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Paslanmaz arıtma ekipmanlarını kök gazı korumalı TIG ve gazaltı ile kaynaklıyor, paslanmaz ile karbon çelik işlerini ayrı aletlerle yürütüyoruz. Kesim, büküm, dağlama-pasivasyon ve galvanizi iş ortaklarımızla koordine ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
+<div class="callout"><p>Kesim, büküm, dağlama-pasivasyon ve galvanizi iş ortaklarımızla koordine ediyoruz. <a href="../kaynakli-imalat.html">Kaynaklı imalat →</a></p></div>
 `,
     faq: [
       ['Atık su ekipmanında hangi paslanmaz kullanılır?', 'Klorür ve kimyasal içeren ortamlarda genellikle 316L; temiz suda 304L yaygındır.'],
@@ -75,7 +75,7 @@ export default {
 <p>If stainless is worked on the same bench, with the same grinding disc or brush as carbon steel, iron particles stick to the surface and rust spots soon follow. Use separate tools, racks and areas for stainless. A large share of "the stainless is rusting" complaints start here.</p>
 <h2>Large Parts and Transport</h2>
 <p>Scraper bridges and long launders are split for transport and bolted on site. Fasteners should also be stainless; consider galvanic corrosion where galvanised bolts touch stainless parts.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld stainless treatment equipment with root-purged TIG and MIG, and keep stainless and carbon steel work on separate tools. Cutting, bending, pickling-passivation and galvanising are coordinated with our partners. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
+<div class="callout"><p>Cutting, bending, pickling-passivation and galvanising are coordinated with our partners. <a href="../kaynakli-imalat.html">Welded fabrication →</a></p></div>
 `,
     faq: [
       ['Which stainless for wastewater equipment?', 'Usually 316L with chlorides and chemicals; 304L is common in clean water.'],
@@ -116,7 +116,7 @@ export default {
 <p>Wird Edelstahl auf derselben Werkbank, mit derselben Scheibe oder Bürste wie Baustahl bearbeitet, haften Eisenpartikel an und erzeugen bald Rostflecken. Für Edelstahl getrennte Werkzeuge, Gestelle und Bereiche nutzen. Ein großer Teil der Reklamationen „Edelstahl rostet" beginnt hier.</p>
 <h2>Großteile und Transport</h2>
 <p>Räumerbrücken und lange Rinnen werden transportgerecht geteilt und vor Ort verschraubt. Verbindungsmittel ebenfalls aus Edelstahl; bei verzinkten Schrauben an Edelstahl Kontaktkorrosion beachten.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Edelstahl-Klärtechnik mit formiertem WIG- und MIG-Verfahren und trennen Edelstahl- und Baustahlarbeiten werkzeugseitig. Zuschnitt, Kanten, Beizen und Passivieren sowie Verzinken koordinieren wir mit Partnern. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
+<div class="callout"><p>Zuschnitt, Kanten, Beizen und Passivieren sowie Verzinken koordinieren wir mit Partnern. <a href="../kaynakli-imalat.html">Schweißfertigung →</a></p></div>
 `,
     faq: [
       ['Welcher Edelstahl für Abwassertechnik?', 'Bei Chloriden und Chemikalien meist 316L; bei sauberem Wasser oft 304L.'],
@@ -157,7 +157,7 @@ export default {
 <p>Si el inox se trabaja en la misma mesa, con el mismo disco o cepillo que el acero al carbono, se adhieren partículas de hierro y pronto aparecen manchas de óxido. Use herramientas, soportes y zonas separadas. Muchas quejas de "el inox se oxida" nacen aquí.</p>
 <h2>Piezas grandes y transporte</h2>
 <p>Puentes rascadores y canaletas largas se dividen para el transporte y se atornillan en obra. La tornillería también debe ser inox; vigile la corrosión galvánica si hay tornillos galvanizados en contacto.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos equipos de inox para tratamiento de aguas con TIG y MIG con gas de respaldo, y separamos herramientas para inox y acero al carbono. Corte, plegado, decapado-pasivado y galvanizado se coordinan con socios. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
+<div class="callout"><p>Corte, plegado, decapado-pasivado y galvanizado se coordinan con socios. <a href="../kaynakli-imalat.html">Fabricación soldada →</a></p></div>
 `,
     faq: [
       ['¿Qué inox para aguas residuales?', 'Con cloruros y químicos, normalmente 316L; en agua limpia, 304L.'],
@@ -198,7 +198,7 @@ export default {
 <p>Si l'inox est travaillé sur le même établi, avec le même disque ou la même brosse que l'acier, des particules de fer s'y incrustent et des taches de rouille apparaissent vite. Outils, supports et zones séparés pour l'inox. Beaucoup de réclamations « l'inox rouille » commencent là.</p>
 <h2>Grandes pièces et transport</h2>
 <p>Ponts racleurs et longues goulottes sont tronçonnés pour le transport et boulonnés sur site. La boulonnerie doit être inox ; attention à la corrosion galvanique avec des vis galvanisées.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les équipements inox en TIG et MIG avec gaz envers, et séparons outillage inox et acier. Découpe, pliage, décapage-passivation et galvanisation sont coordonnés avec nos partenaires. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
+<div class="callout"><p>Découpe, pliage, décapage-passivation et galvanisation sont coordonnés avec nos partenaires. <a href="../kaynakli-imalat.html">Fabrication soudée →</a></p></div>
 `,
     faq: [
       ['Quel inox pour l\'assainissement ?', 'Avec chlorures et réactifs, en général 316L ; en eau propre, 304L.'],
@@ -239,7 +239,7 @@ export default {
 <p>Se l'inox si lavora sullo stesso banco, con lo stesso disco o spazzola dell'acciaio al carbonio, particelle di ferro aderiscono e presto compaiono macchie di ruggine. Utensili, rastrelliere e aree separate per l'inox. Molti reclami "l'inox arrugginisce" nascono qui.</p>
 <h2>Pezzi grandi e trasporto</h2>
 <p>Ponti raschiatori e canalette lunghe si dividono per il trasporto e si bullonano in cantiere. Anche la bulloneria va in inox; attenzione alla corrosione galvanica con bulloni zincati a contatto.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo apparecchiature inox in TIG e MIG con protezione al rovescio e teniamo separati gli utensili per inox e acciaio al carbonio. Taglio, piegatura, decapaggio-passivazione e zincatura sono coordinati con i partner. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
+<div class="callout"><p>Taglio, piegatura, decapaggio-passivazione e zincatura sono coordinati con i partner. <a href="../kaynakli-imalat.html">Carpenteria saldata →</a></p></div>
 `,
     faq: [
       ['Quale inox per la depurazione?', 'Con cloruri e reagenti di solito 316L; in acqua pulita 304L.'],
@@ -280,7 +280,7 @@ export default {
 <p>Wordt rvs op dezelfde werkbank, met dezelfde schijf of borstel als koolstofstaal bewerkt, dan hechten ijzerdeeltjes zich en ontstaan snel roestvlekken. Gebruik aparte gereedschappen, rekken en zones. Veel klachten "het rvs roest" beginnen hier.</p>
 <h2>Grote delen en transport</h2>
 <p>Ruimerbruggen en lange goten worden voor transport opgedeeld en op locatie gebout. Bevestigingsmiddelen ook in rvs; let op galvanische corrosie bij verzinkte bouten tegen rvs.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen rvs-zuiveringsuitrusting met TIG en MIG onder backing-gas en houden gereedschap voor rvs en koolstofstaal gescheiden. Snijden, zetten, beitsen-passiveren en verzinken coördineren we met partners. <a href="../kaynakli-imalat.html">Laswerk →</a></p></div>
+<div class="callout"><p>Snijden, zetten, beitsen-passiveren en verzinken coördineren we met partners. <a href="../kaynakli-imalat.html">Laswerk →</a></p></div>
 `,
     faq: [
       ['Welk rvs voor afvalwater?', 'Bij chloriden en chemicaliën meestal 316L; bij schoon water 304L.'],
@@ -321,7 +321,7 @@ export default {
 <p>Bearbeides rustfritt på samme benk, med samme skive eller børste som karbonstål, fester jernpartikler seg og rustflekker kommer raskt. Bruk separate verktøy, stativer og områder. Mange klager om at "det rustfrie ruster" starter her.</p>
 <h2>Store deler og transport</h2>
 <p>Skrapebruer og lange renner deles for transport og boltes på stedet. Festemidler bør også være rustfrie; vurder galvanisk korrosjon der forsinkede bolter berører rustfritt.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser rustfritt renseutstyr med TIG og MIG med rotgass, og holder verktøy for rustfritt og karbonstål adskilt. Kutting, bøying, beising-passivering og forsinking koordineres med partnere. <a href="../kaynakli-imalat.html">Sveisefabrikasjon →</a></p></div>
+<div class="callout"><p>Kutting, bøying, beising-passivering og forsinking koordineres med partnere. <a href="../kaynakli-imalat.html">Sveisefabrikasjon →</a></p></div>
 `,
     faq: [
       ['Hvilket rustfritt til avløpsutstyr?', 'Med klorider og kjemikalier vanligvis 316L; i rent vann 304L.'],

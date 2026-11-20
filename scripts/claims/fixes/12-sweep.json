@@ -1,0 +1,2294 @@
+{
+ "exp_c2_p": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "btp_s1_cards": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ],
+  "re_tr": [
+   [
+    " CE işareti",
+    "g",
+    ""
+   ]
+  ],
+  "re_en": [
+   [
+    " CE marking",
+    "g",
+    ""
+   ]
+  ],
+  "re_de": [
+   [
+    " CE-Kennzeichnung",
+    "g",
+    ""
+   ]
+  ],
+  "re_es": [
+   [
+    "marcado CE según ",
+    "g",
+    ""
+   ]
+  ],
+  "re_fr": [
+   [
+    "le marquage CE selon EN 1090-2",
+    "g",
+    "l’EN 1090-2"
+   ]
+  ],
+  "re_it": [
+   [
+    "marcatura CE secondo ",
+    "g",
+    ""
+   ]
+  ],
+  "re_nl": [
+   [
+    "CE-markering volgens ",
+    "g",
+    ""
+   ]
+  ],
+  "re_no": [
+   [
+    "CE-merking etter ",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "btp_s3_steps": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "about_flow_st3_kpi": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "services_idx1_d": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "px_hz_35": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "px_hz_66": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "deep_mat_compat_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "deep_mat_select_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "contact_mat_hs": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "contact_mat_wear": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "home_mq9": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "home_persona2_d": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "px_ix_5": {
+  "tr": "WPS ile Üretim",
+  "en": "Welding to WPS",
+  "de": "Schweißen nach WPS",
+  "es": "Soldadura según WPS",
+  "fr": "Soudage selon DMOS",
+  "it": "Saldatura secondo WPS",
+  "nl": "Lassen volgens WPS",
+  "no": "Sveising etter WPS"
+ },
+ "br_cmp_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "br_portal_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "home_doc_h2": {
+  "re": [
+   [
+    ",\\s*(WPQR|QMOS)\\s*,",
+    "g",
+    ","
+   ]
+  ]
+ },
+ "home_doc_d2": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "px_ix_17": {
+  "*": "[WPQR No.]"
+ },
+ "home_blog1_t": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "deep_certs_badges_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "quality_cert1_p": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "welding_pill_strenx": {
+  "*": "S690QL · S960QL · S700MC"
+ },
+ "welding_pill_hardox": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "proc_extra_strenx": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "proc_extra_hardox": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "kim_s1_cards": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ],
+   [
+    "<div class=\"service-card\"><div class=\"service-icon\">[^<]*</div><h3>[^<]*(Paslanmaz|Stainless|Edelstahl|inoxidable|inox|RVS|rvs|rustfritt)[^<]*</h3>[\\s\\S]*?</div>",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "kim_s2_table": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "kf_j2_p": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "eng_services_html": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "chb_trust1": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "chb_c3_p": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "chb_f1_a": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "sec1_r2v": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "faq_a09": {
+  "re": [
+   [
+    "WPS(-?)\\s*/\\s*WPQR",
+    "g",
+    "WPS$1"
+   ],
+   [
+    "DMOS\\s*/\\s*QMOS",
+    "g",
+    "DMOS"
+   ],
+   [
+    "WPS\\s*·\\s*WPQR",
+    "g",
+    "WPS"
+   ],
+   [
+    "WPS(-?), WPQR-?, ",
+    "g",
+    "WPS$1, "
+   ],
+   [
+    "DMOS, QMOS, ",
+    "g",
+    "DMOS, "
+   ],
+   [
+    "\\s*·\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+(/\\d+)?)?\\s*·\\s*",
+    "g",
+    ""
+   ],
+   [
+    "\\s*/\\s*(Strenx|RAEX)( \\d+(/\\d+)?)?",
+    "g",
+    ""
+   ],
+   [
+    "(Strenx|RAEX)( \\d+)?\\s*/\\s*",
+    "g",
+    ""
+   ],
+   [
+    ", (Strenx|RAEX)( \\d+)?",
+    "g",
+    ""
+   ],
+   [
+    "(gerekiyorsa |bei Bedarf )?(CE[- ]?(Performans Beyanı|Declaration of Performance|Leistungserklärung|prestatieverklaring|ytelseserklæring)|Declaración de Prestaciones CE|Déclaration des Performances CE|Dichiarazione di Prestazione CE)( where required| si procede| si requise| se richiesta| indien nodig| ved behov)?, ",
+    "g",
+    ""
+   ],
+   [
+    ", (NDT|ZfP|END|CND|NDO)( ve | and | und | y | et | e | en | og )CE / DoP",
+    "g",
+    "$2$1"
+   ],
+   [
+    ", (savunma sanayi(i)?|defence|defense|Verteidigung|defensa|défense|difesa|defensie|forsvar)(?=[,.])",
+    "gi",
+    ""
+   ]
+  ]
+ },
+ "btp_s4_pills": {
+  "re": [
+   [
+    "<div class=\"sector-pill\"><strong>[^<]*(Paslanmaz|Stainless|Edelstahl|inoxidable|inox|RVS|rvs|rustfritt)[^<]*</strong><span>[^<]*</span></div>",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "kim_s5_faq": {
+  "re_tr": [
+   [
+    ", 304 ve 316L paslanmaz çelik ile 5083 ve 6082 alüminyum\\.",
+    "g",
+    "."
+   ]
+  ],
+  "re_en": [
+   [
+    "such as and HARDOX, 304 and 316L stainless steel, and 5083 and 6082 aluminium\\.",
+    "g",
+    "such as S700MC and HARDOX."
+   ]
+  ],
+  "re_de": [
+   [
+    "wie und HARDOX, Edelstahl 304 und 316L sowie Aluminium 5083 und 6082\\.",
+    "g",
+    "wie S700MC und HARDOX."
+   ]
+  ],
+  "re_es": [
+   [
+    "como y HARDOX, inoxidable 304 y 316L y aluminio 5083 y 6082\\.",
+    "g",
+    "como S700MC y HARDOX."
+   ]
+  ],
+  "re_fr": [
+   [
+    "comme et HARDOX, inox 304 et 316L, aluminium 5083 et 6082\\.",
+    "g",
+    "comme S700MC et HARDOX."
+   ]
+  ],
+  "re_it": [
+   [
+    "come e HARDOX, inox 304 e 316L, alluminio 5083 e 6082\\.",
+    "g",
+    "come S700MC e HARDOX."
+   ]
+  ],
+  "re_nl": [
+   [
+    "zoals en HARDOX, rvs 304 en 316L en aluminium 5083 en 6082\\.",
+    "g",
+    "zoals S700MC en HARDOX."
+   ]
+  ],
+  "re_no": [
+   [
+    "som og HARDOX, rustfritt 304 og 316L og aluminium 5083 og 6082\\.",
+    "g",
+    "som S700MC og HARDOX."
+   ]
+  ]
+ }
+}

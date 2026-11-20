@@ -1,0 +1,273 @@
+{
+ "pg_belgelerimiz_desc": {
+  "tr": "ArmaWeld sertifikaları: EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 belgelerini görüntüleyin ve indirin.",
+  "en": "ArmaWeld certificates: view and download our EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certificates.",
+  "de": "ArmaWeld-Zertifikate: EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 und ISO 45001:2018 ansehen und herunterladen.",
+  "es": "Certificados de ArmaWeld: consulte y descargue EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018.",
+  "fr": "Certificats ArmaWeld : consultez et téléchargez EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 et ISO 45001:2018.",
+  "it": "Certificati ArmaWeld: consulti e scarichi EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018.",
+  "nl": "ArmaWeld-certificaten: bekijk en download EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 en ISO 45001:2018.",
+  "no": "ArmaWeld-sertifikater: se og last ned EN ISO 3834-2, EN 1090-2, ISO 9001:2015, ISO 14001:2015 og ISO 45001:2018."
+ },
+ "docs_cert2_title": {
+  "tr": "Çelik Yapıların İcrası",
+  "en": "Execution of Steel Structures",
+  "de": "Ausführung von Stahltragwerken",
+  "es": "Ejecución de estructuras de acero",
+  "fr": "Exécution des structures en acier",
+  "it": "Esecuzione di strutture in acciaio",
+  "nl": "Uitvoering van staalconstructies",
+  "no": "Utførelse av stålkonstruksjoner"
+ },
+ "docs_lede": {
+  "tr": "Kalite, çevre, iş güvenliği ve kaynak yönetim sistemi belgelerimizi doğrudan görüntüleyin veya indirin.",
+  "en": "View or download our quality, environmental, occupational health and welding management system certificates.",
+  "de": "Sehen Sie sich unsere Qualitäts-, Umwelt-, Arbeitsschutz- und Schweißmanagementsystem-Zertifikate an oder laden Sie sie herunter.",
+  "es": "Consulte o descargue nuestros certificados de calidad, medio ambiente, seguridad laboral y gestión de soldadura.",
+  "fr": "Consultez ou téléchargez nos certificats qualité, environnement, santé-sécurité et gestion du soudage.",
+  "it": "Consulti o scarichi i nostri certificati dei sistemi di gestione qualità, ambiente, salute e sicurezza sul lavoro e saldatura.",
+  "nl": "Bekijk of download onze certificaten voor kwaliteits-, milieu-, arbo- en lasmanagementsystemen.",
+  "no": "Se eller last ned våre sertifikater for kvalitets-, miljø-, arbeidsmiljø- og sveiseledelsessystemer."
+ },
+ "pg_kalite_desc": {
+  "tr": "EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 ve ISO 45001 belgeli kaynaklı imalat. Malzeme sertifikasından muayene raporuna izlenebilir kayıt.",
+  "en": "Welded fabrication certified to EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 and ISO 45001. Traceable records from material certificate to inspection report.",
+  "de": "Schweißfertigung zertifiziert nach EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 und ISO 45001. Rückverfolgbare Aufzeichnungen vom Werkstoffzeugnis bis zum Prüfbericht.",
+  "es": "Fabricación soldada certificada según EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 e ISO 45001. Registros trazables desde el certificado de material hasta el informe de inspección.",
+  "fr": "Fabrication soudée certifiée EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 et ISO 45001. Enregistrements traçables du certificat matière au rapport de contrôle.",
+  "it": "Carpenteria saldata certificata EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 e ISO 45001. Registrazioni tracciabili dal certificato materiale al rapporto di controllo.",
+  "nl": "Laswerk gecertificeerd volgens EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 en ISO 45001. Traceerbare registraties van materiaalcertificaat tot inspectierapport.",
+  "no": "Sveiset produksjon sertifisert etter EN ISO 3834-2, EN 1090-2, ISO 9001, ISO 14001 og ISO 45001. Sporbare registreringer fra materialsertifikat til kontrollrapport."
+ },
+ "quality_cert2_h3": {
+  "tr": "Çelik Yapıların İcrası",
+  "en": "Execution of Steel Structures",
+  "de": "Ausführung von Stahltragwerken",
+  "es": "Ejecución de estructuras de acero",
+  "fr": "Exécution des structures en acier",
+  "it": "Esecuzione di strutture in acciaio",
+  "nl": "Uitvoering van staalconstructies",
+  "no": "Utførelse av stålkonstruksjoner"
+ },
+ "quality_cert2_p": {
+  "tr": "Çelik yapı bileşenlerinin imalatı için teknik gereklilikler. Belge geçerliliği 18.06.2027.",
+  "en": "Technical requirements for manufacturing steel structural components. Certificate valid until 18.06.2027.",
+  "de": "Technische Anforderungen an die Fertigung von Stahlbauteilen. Zertifikat gültig bis 18.06.2027.",
+  "es": "Requisitos técnicos para la fabricación de componentes de estructuras de acero. Certificado válido hasta el 18.06.2027.",
+  "fr": "Exigences techniques pour la fabrication de composants de structures en acier. Certificat valable jusqu'au 18.06.2027.",
+  "it": "Requisiti tecnici per la fabbricazione di componenti strutturali in acciaio. Certificato valido fino al 18.06.2027.",
+  "nl": "Technische eisen voor de fabricage van staalconstructiedelen. Certificaat geldig tot 18.06.2027.",
+  "no": "Tekniske krav til produksjon av stålkonstruksjonsdeler. Sertifikatet er gyldig til 18.06.2027."
+ },
+ "quality_cst2_k": {
+  "tr": "Geçerlilik",
+  "en": "Valid until",
+  "de": "Gültig bis",
+  "es": "Válido hasta",
+  "fr": "Valable jusqu'au",
+  "it": "Valido fino al",
+  "nl": "Geldig tot",
+  "no": "Gyldig til"
+ },
+ "quality_cert5_p1": {
+  "tr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Çelikte kaynakçı yeterlilik belgesi. 10 kaynakçımız EN ISO 9606-1 belgelidir; güncel belgeler sipariş öncesi paylaşılır.",
+  "en": "<strong style=\"color:var(--bone)\">9606-1</strong> — Welder qualification for steel. Our 10 welders are qualified to EN ISO 9606-1; current certificates are shared before order.",
+  "de": "<strong style=\"color:var(--bone)\">9606-1</strong> — Schweißerprüfung für Stahl. Unsere 10 Schweißer sind nach EN ISO 9606-1 geprüft; aktuelle Bescheinigungen erhalten Sie vor Auftrag.",
+  "es": "<strong style=\"color:var(--bone)\">9606-1</strong> — Cualificación de soldadores en acero. Nuestros 10 soldadores están cualificados según EN ISO 9606-1; los certificados vigentes se comparten antes del pedido.",
+  "fr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualification des soudeurs sur acier. Nos 10 soudeurs sont qualifiés EN ISO 9606-1 ; les certificats à jour sont transmis avant commande.",
+  "it": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualifica dei saldatori su acciaio. I nostri 10 saldatori sono qualificati EN ISO 9606-1; i certificati aggiornati sono condivisi prima dell'ordine.",
+  "nl": "<strong style=\"color:var(--bone)\">9606-1</strong> — Lasserkwalificatie voor staal. Onze 10 lassers zijn gekwalificeerd volgens EN ISO 9606-1; actuele certificaten delen we vóór de order.",
+  "no": "<strong style=\"color:var(--bone)\">9606-1</strong> — Sveisersertifisering for stål. Våre 10 sveisere er sertifisert etter EN ISO 9606-1; gjeldende sertifikater deles før bestilling."
+ },
+ "quality_cst5_k": {
+  "tr": "Kaynakçı",
+  "en": "Welders",
+  "de": "Schweißer",
+  "es": "Soldadores",
+  "fr": "Soudeurs",
+  "it": "Saldatori",
+  "nl": "Lassers",
+  "no": "Sveisere"
+ },
+ "quality_cst5_v": {
+  "*": "10"
+ },
+ "quality_cert7_p": {
+  "tr": "Atık yönetimi, enerji ve kaynak verimliliği, çevresel etki kontrolü.",
+  "en": "Waste management, energy and resource efficiency, environmental impact control.",
+  "de": "Abfallmanagement, Energie- und Ressourceneffizienz, Kontrolle der Umweltauswirkungen.",
+  "es": "Gestión de residuos, eficiencia energética y de recursos, control del impacto ambiental.",
+  "fr": "Gestion des déchets, efficacité énergétique et des ressources, maîtrise de l'impact environnemental.",
+  "it": "Gestione dei rifiuti, efficienza energetica e delle risorse, controllo dell'impatto ambientale.",
+  "nl": "Afvalbeheer, energie- en grondstoffenefficiëntie, beheersing van milieu-impact.",
+  "no": "Avfallshåndtering, energi- og ressurseffektivitet, kontroll av miljøpåvirkning."
+ },
+ "quality_pf3_d": {
+  "tr": "Kesim ve büküm denetlenmiş tedarikçide; gelen parçada boyut kontrolü ve etiketleme.",
+  "en": "Cutting and bending at audited suppliers; dimensional check and labelling on receipt.",
+  "de": "Schneiden und Biegen bei auditierten Lieferanten; Maßkontrolle und Kennzeichnung beim Wareneingang.",
+  "es": "Corte y plegado en proveedores auditados; control dimensional y etiquetado a la recepción.",
+  "fr": "Découpe et pliage chez des fournisseurs audités ; contrôle dimensionnel et étiquetage à réception.",
+  "it": "Taglio e piegatura presso fornitori verificati; controllo dimensionale ed etichettatura al ricevimento.",
+  "nl": "Snijden en zetten bij geauditeerde leveranciers; maatcontrole en etikettering bij ontvangst.",
+  "no": "Skjæring og bukking hos reviderte leverandører; målkontroll og merking ved mottak."
+ },
+ "quality_pf6_d": {
+  "tr": "Çizimde istenirse kumlama ve boya, tedarikçi raporuyla.",
+  "en": "Blasting and painting when the drawing requires it, with the supplier's report.",
+  "de": "Strahlen und Lackieren, wenn die Zeichnung es verlangt, mit Bericht des Lieferanten.",
+  "es": "Granallado y pintura cuando el plano lo exige, con el informe del proveedor.",
+  "fr": "Grenaillage et peinture si le plan l'exige, avec le rapport du fournisseur.",
+  "it": "Sabbiatura e verniciatura se richieste dal disegno, con il rapporto del fornitore.",
+  "nl": "Stralen en schilderen als de tekening dat vraagt, met rapport van de leverancier.",
+  "no": "Blåsing og maling når tegningen krever det, med leverandørens rapport."
+ },
+ "deep_downloads_html": {
+  "re": [
+   [
+    ", DoP",
+    "g",
+    ""
+   ],
+   [
+    " DoP ve",
+    "g",
+    " ve"
+   ]
+  ]
+ },
+ "br_dossier_html": {
+  "re": [
+   [
+    "<tr><td>[^<]*</td><td>EN ISO 15614-1/2</td></tr>",
+    "g",
+    ""
+   ],
+   [
+    "EN ISO 9606-1/2",
+    "g",
+    "EN ISO 9606-1"
+   ],
+   [
+    "<tr><td>[^<]*</td><td>ISO 12944</td></tr>",
+    "g",
+    ""
+   ],
+   [
+    "<tr><td>[^<]*</td><td>EN 1090-1 · DoP</td></tr>",
+    "g",
+    ""
+   ]
+  ],
+  "re_tr": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Belgeleri nasıl güncel tutuyoruz</h3><ul><li><strong>Yıllık dış denetim</strong> — Belgelendirme kuruluşu üretimi, kayıtları ve personeli yerinde denetler.</li><li><strong>Kaynakçı yenileme</strong> — EN ISO 9606 belgeleri periyodik olarak yenilenir; süresi dolan personel üretime girmez.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Belge kapsamı: kaynaklı metal imalatı; çelik yapılar, makine ve araç parçaları, vinç ve kaldırma ekipmanlarının tasarımı, imalatı ve montajı. Belge kopyaları teklifle birlikte veya talep üzerine gönderilir.</p></div>"
+   ]
+  ],
+  "re_en": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>How we keep it current</h3><ul><li><strong>Annual external audit</strong> — The certification body audits production, records and personnel on site.</li><li><strong>Welder renewal</strong> — EN ISO 9606 certificates are renewed periodically; personnel with expired certificates do not enter production.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Certified scope: manufacturing of welded metal; design, manufacturing and assembly of steel structures, machinery and vehicle components, cranes and lifting equipment. Certificate copies are attached to our quotations or sent on request.</p></div>"
+   ]
+  ],
+  "re_de": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Wie wir die Nachweise aktuell halten</h3><ul><li><strong>Jährliches externes Audit</strong> — Die Zertifizierungsstelle prüft Fertigung, Aufzeichnungen und Personal vor Ort.</li><li><strong>Schweißer-Verlängerung</strong> — EN ISO 9606-Zertifikate werden regelmäßig verlängert; Personal mit abgelaufener Prüfung arbeitet nicht in der Fertigung.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Zertifizierungsumfang: geschweißte Metallfertigung; Konstruktion, Fertigung und Montage von Stahlbauten, Maschinen- und Fahrzeugteilen, Kranen und Hebezeugen. Zertifikatskopien liegen unseren Angeboten bei oder werden auf Anfrage gesendet.</p></div>"
+   ]
+  ],
+  "re_es": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Cómo mantenemos los registros al día</h3><ul><li><strong>Auditoría externa anual</strong> — El organismo de certificación audita in situ la producción, los registros y el personal.</li><li><strong>Renovación de soldadores</strong> — Los certificados EN ISO 9606 se renuevan periódicamente; el personal con certificado vencido no entra en producción.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Alcance certificado: fabricación de metal soldado; diseño, fabricación y montaje de estructuras de acero, componentes de maquinaria y vehículos, grúas y equipos de elevación. Las copias de los certificados se adjuntan a nuestras ofertas o se envían a petición.</p></div>"
+   ]
+  ],
+  "re_fr": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Comment nous les tenons à jour</h3><ul><li><strong>Audit externe annuel</strong> — L'organisme de certification audite sur site la production, les enregistrements et le personnel.</li><li><strong>Renouvellement des soudeurs</strong> — Les certificats EN ISO 9606 sont renouvelés périodiquement ; le personnel au certificat expiré n'entre pas en production.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Périmètre certifié : fabrication de métal soudé ; conception, fabrication et montage de structures en acier, de composants de machines et de véhicules, de grues et d'équipements de levage. Les copies des certificats sont jointes à nos offres ou envoyées sur demande.</p></div>"
+   ]
+  ],
+  "re_it": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Come li manteniamo aggiornati</h3><ul><li><strong>Audit esterno annuale</strong> — L'ente di certificazione verifica in sede produzione, registrazioni e personale.</li><li><strong>Rinnovo saldatori</strong> — I certificati EN ISO 9606 vengono rinnovati periodicamente; il personale con certificato scaduto non entra in produzione.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Campo di applicazione certificato: fabbricazione di metallo saldato; progettazione, fabbricazione e montaggio di strutture in acciaio, componenti di macchine e veicoli, gru e apparecchi di sollevamento. Le copie dei certificati sono allegate alle nostre offerte o inviate su richiesta.</p></div>"
+   ]
+  ],
+  "re_nl": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Hoe we het actueel houden</h3><ul><li><strong>Jaarlijkse externe audit</strong> — De certificatie-instelling controleert productie, registraties en personeel ter plaatse.</li><li><strong>Lasser-verlenging</strong> — EN ISO 9606-certificaten worden periodiek verlengd; personeel met een verlopen certificaat werkt niet in de productie.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Gecertificeerd toepassingsgebied: fabricage van gelast metaal; ontwerp, fabricage en montage van staalconstructies, machine- en voertuigonderdelen, kranen en hijsmiddelen. Kopieën van certificaten worden bij onze offertes gevoegd of op verzoek gestuurd.</p></div>"
+   ]
+  ],
+  "re_no": [
+   [
+    "<h3>[^<]*</h3><ul>.*?</ul>",
+    "s",
+    "<h3>Slik holder vi dem oppdatert</h3><ul><li><strong>Årlig ekstern revisjon</strong> — Sertifiseringsorganet reviderer produksjon, registreringer og personell på stedet.</li><li><strong>Fornyelse av sveisere</strong> — EN ISO 9606-sertifikater fornyes jevnlig; personell med utløpt sertifikat går ikke inn i produksjonen.</li></ul>"
+   ],
+   [
+    "<div class=\"deep-callout\"><p>.*?</p></div>",
+    "s",
+    "<div class=\"deep-callout\"><p>Sertifisert omfang: produksjon av sveiset metall; konstruksjon, produksjon og montasje av stålkonstruksjoner, maskin- og kjøretøydeler, kraner og løfteutstyr. Kopier av sertifikater legges ved tilbudene våre eller sendes på forespørsel.</p></div>"
+   ]
+  ]
+ },
+ "br_dossier_lede": {
+  "re": [
+   [
+    " ?7/24",
+    "g",
+    ""
+   ],
+   [
+    " 24/7",
+    "g",
+    ""
+   ]
+  ]
+ }
+}

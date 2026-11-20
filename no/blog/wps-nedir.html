@@ -43,7 +43,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../../assets/theme.css?v=20261116b">
+<link rel="stylesheet" href="../../assets/theme.css?v=20261120a">
 <style>
   .page-hero { padding: calc(var(--nav-h) + 80px) 0 64px; background: var(--ink-0); border-bottom: 1px solid var(--ink-4); position: relative; overflow: hidden; }
   .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 20% 50%, rgba(255,122,26,.10), transparent 60%); }
@@ -184,7 +184,7 @@
 <div data-i18n-html="blog_wps_s1"><h2>Det obligatoriske grunnlaget for en WPS</h2><p>Kravet om WPS har sitt opphav i flere standarder:</p><ul><li><span class="tag-inline">EN ISO 3834-2</span> — Under omfattende kvalitetskrav er en godkjent WPS obligatorisk.</li><li><span class="tag-inline">EN 1090-2</span> — Det kreves WPS for hver sveiseprosess i utførelsesklasse EXC2 og høyere.</li><li><span class="tag-inline">EN 13445</span> — Ingen sveising kan utføres på trykkbeholdere uten et WPS + WPQR-par.</li><li><span class="tag-inline">PED 2014/68/EU</span> — Godkjenning av sveiseprosedyre er obligatorisk for trykkpåkjent utstyr i kategori II og høyere.</li></ul><p>En WPS er derfor ikke bare en regel; den er det tekniske fundamentet som dokumenterer konstruksjonens pålitelighet.</p></div>
     <div data-i18n-html="blog_wps_s2"><h2>Hva inneholder en WPS?</h2><table class="data-table"><thead><tr><th>Avsnitt</th><th>Innhold</th></tr></thead><tbody><tr><td>Generell informasjon</td><td>WPS-nummer, revisjon, WPQR-referanse, ansvarlig ingeniør</td></tr><tr><td>Grunnmateriale</td><td>Materialstandard, stålgruppe (ISO/TR 15608), tykkelsesområde</td></tr><tr><td>Sveiseprosess</td><td>Prosesskode (f.eks. 135 MAG, 141 TIG), én/flere strenger, sveiseposisjon</td></tr><tr><td>Tilsettmateriale</td><td>Standard, klassifisering, diameter, klasse for diffunderbart hydrogen (H5 osv.)</td></tr><tr><td>Dekkgass</td><td>Sammensetning (Ar/CO₂ %), gassmengde (l/min)</td></tr><tr><td>Elektriske parametere</td><td>Strøm (A), spenning (V), polaritet, sveisehastighet (cm/min), varmetilførsel (kJ/mm)</td></tr><tr><td>Termiske betingelser</td><td>Forvarmingstemperatur (°C), maks. mellomstrengtemperatur (°C), PWHT</td></tr><tr><td>Fugeforberedelse</td><td>Fugetype, fugevinkel, rotåpning, rotflate</td></tr></tbody></table></div>
     <div data-i18n-html="blog_wps_s3"><h2>Forholdet til WPQR</h2><p>En WPS må være basert på en <strong>WPQR (Welding Procedure Qualification Record)</strong>, et eksperimentelt validert dokument. Rekkefølgen er:</p><ol><li><strong>pWPS (foreløpig WPS)</strong> utarbeides — et ingeniørutkast basert på teknisk kunnskap.</li><li><strong>Prosedyreprøvesveis</strong> utføres — med prøvestykker for destruktiv prøving.</li><li><strong>Destruktive prøver</strong> gjennomføres — strekk, bøy, hardhet, Charpy, makro.</li><li><strong>WPQR</strong> utarbeides — signert av et uavhengig godkjenningsorgan (teknisk kontrollorgan eller akkreditert laboratorium).</li><li><strong>WPS</strong> godkjennes med referanse til WPQR-en og brukes i produksjonen.</li></ol><div class="callout"><p><strong>Viktig:</strong> WPS-ens gyldighetsområde utledes fra prøvebetingelsene i WPQR-en. En WPQR utført på 12 mm kan for eksempel dekke et område på 6–24 mm, men den dekker ikke 25 mm.</p></div></div>
-    <div data-i18n-html="blog_wps_s4"><h2>ArmaWelds WPS-portefølje</h2><p>ArmaWeld vedlikeholder et bredt bibliotek av godkjente WPS-dokumenter i henhold til EN ISO 15614-1 (stål) og EN ISO 15614-2 (aluminium). Biblioteket dekker følgende materialgrupper: konstruksjonsstål S235–S960QL og Strenx 700/900/960/1100, trykkbeholderstål P265GH/P355NH, austenittisk rustfritt stål 304L/316L, slitestål HARDOX 400/450/500 og aluminiumslegeringene EN AW-5754/6082. Ved oppstart av hvert nytt prosjekt verifiserer sveiseingeniøren at WPS-en er anvendelig; dersom gyldighetsområdet overskrides, startes en ny pWPS- og WPQR-prosess.</p></div>
+    <div data-i18n-html="blog_wps_s4"></div>
 
     <div class="cta-box">
       <h3 data-i18n="blog_wps_cta_h3">Se gjennom vår WPS-portefølje</h3>
@@ -209,8 +209,8 @@
 
   </div>
 </section>
-<script src="../../assets/lang/tr.js?v=20261116b"></script>
-<script src="../../assets/i18n.js?v=20261116b"></script>
+<script src="../../assets/lang/tr.js?v=20261120a"></script>
+<script src="../../assets/i18n.js?v=20261120a"></script>
 <script src="../../assets/chrome.js?v=20261117a"></script>
 <script src="../../assets/analytics.js?v=20261103"></script>
 <script>mountChrome('blog', '../');</script>

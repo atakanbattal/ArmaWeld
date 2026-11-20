@@ -33,7 +33,7 @@ export default {
 </ul>
 <h2>Tolerans ve Belgeler</h2>
 <p>Avrupa'daki yapısal projelerde kesit ölçüleri, başlık eğikliği, gövde düzlemselliği ve kiriş doğrusallığı için EN 1090-2 imalat toleransları uygulanır (bkz. <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). Teslimde ölçüm raporu, malzeme sertifikaları, WPS/WPQR ve NDT raporları beklenir.</p>
-<div class="callout"><p><strong>ArmaWeld'de:</strong> Yapma kirişlerin gövde-başlık dikişlerini 35 m tozaltı kaynak makinemizle, ekleri ve detayları gazaltı ile kaynaklıyoruz; UT ve diğer NDT yöntemlerini ISO 9712 Seviye 2 personelimizle yapıyoruz. Levha kesimini iş ortaklarımızla koordine ediyoruz. <a href="../celik-konstruksiyon.html">Çelik konstrüksiyon →</a></p></div>
+<div class="callout"><p>Levha kesimini iş ortaklarımızla koordine ediyoruz. <a href="../celik-konstruksiyon.html">Çelik konstrüksiyon →</a></p></div>
 `,
     faq: [
       ['Yapma kiriş ne zaman tercih edilir?', 'Hadde profil kesitleri yetmediğinde, değişken kesit istendiğinde veya ağır profil temini zor olduğunda.'],
@@ -73,7 +73,7 @@ export default {
 </ul>
 <h2>Tolerances and Documents</h2>
 <p>European structural projects apply EN 1090-2 manufacturing tolerances for section dimensions, flange tilt, web flatness and straightness (see <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). Delivery normally includes a dimensional report, material certificates, WPS/WPQR and NDT reports.</p>
-<div class="callout"><p><strong>At ArmaWeld:</strong> we weld web-to-flange seams on our 35 m submerged arc machine and splices and details with MAG; UT and other NDT are done by our ISO 9712 Level 2 staff. Plate cutting is coordinated with our partners. <a href="../celik-konstruksiyon.html">Steel construction →</a></p></div>
+<div class="callout"><p>Plate cutting is coordinated with our partners. <a href="../celik-konstruksiyon.html">Steel construction →</a></p></div>
 `,
     faq: [
       ['When is a plate girder used?', 'When rolled sections are insufficient, a tapered section is wanted, or heavy sections are hard to source.'],
@@ -113,7 +113,7 @@ export default {
 </ul>
 <h2>Toleranzen und Unterlagen</h2>
 <p>Im europäischen Stahlbau gelten die Herstelltoleranzen der EN 1090-2 für Querschnittsmaße, Gurtschiefstellung, Stegebenheit und Geradheit (siehe <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). Zur Lieferung gehören Maßbericht, Werkstoffzeugnisse, WPS/WPQR und Prüfberichte.</p>
-<div class="callout"><p><strong>Bei ArmaWeld:</strong> Wir schweißen Halsnähte auf unserer 35-m-UP-Anlage, Stöße und Details mit MAG; UT und weitere ZfP führt unser Personal mit ISO 9712 Stufe 2 durch. Den Blechzuschnitt koordinieren wir mit Partnern. <a href="../celik-konstruksiyon.html">Stahlbau →</a></p></div>
+<div class="callout"><p>Den Blechzuschnitt koordinieren wir mit Partnern. <a href="../celik-konstruksiyon.html">Stahlbau →</a></p></div>
 `,
     faq: [
       ['Wann Schweißträger?', 'Wenn Walzprofile nicht reichen, Vouten gewünscht sind oder schwere Profile schwer erhältlich sind.'],
@@ -153,7 +153,7 @@ export default {
 </ul>
 <h2>Tolerancias y documentación</h2>
 <p>En Europa se aplican las tolerancias de fabricación de EN 1090-2 a dimensiones, inclinación de alas, planitud del alma y rectitud (ver <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). La entrega incluye informe dimensional, certificados, WPS/WPQR e informes de END.</p>
-<div class="callout"><p><strong>En ArmaWeld:</strong> soldamos los cordones alma-ala con nuestra máquina de arco sumergido de 35 m y empalmes y detalles con MAG; UT y demás END los realiza nuestro personal ISO 9712 Nivel 2. El corte de chapa se coordina con socios. <a href="../celik-konstruksiyon.html">Estructuras de acero →</a></p></div>
+<div class="callout"><p>El corte de chapa se coordina con socios. <a href="../celik-konstruksiyon.html">Estructuras de acero →</a></p></div>
 `,
     faq: [
       ['¿Cuándo usar viga armada?', 'Si el laminado no basta, se quiere canto variable o los perfiles pesados escasean.'],
@@ -193,7 +193,7 @@ export default {
 </ul>
 <h2>Tolérances et documents</h2>
 <p>En Europe, les tolérances de fabrication de l'EN 1090-2 s'appliquent aux dimensions, au dévers des semelles, à la planéité d'âme et à la rectitude (voir <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). La livraison comprend rapport dimensionnel, certificats, DMOS/QMOS et rapports CND.</p>
-<div class="callout"><p><strong>Chez ArmaWeld :</strong> nous soudons les cordons âme-semelle sur notre machine d'arc submergé de 35 m, abouts et détails en MAG ; UT et autres CND sont réalisés par notre personnel ISO 9712 niveau 2. La découpe des tôles est coordonnée avec nos partenaires. <a href="../celik-konstruksiyon.html">Construction métallique →</a></p></div>
+<div class="callout"><p>La découpe des tôles est coordonnée avec nos partenaires. <a href="../celik-konstruksiyon.html">Construction métallique →</a></p></div>
 `,
     faq: [
       ['Quand choisir un PRS ?', 'Quand les laminés ne suffisent pas, pour une inertie variable ou si les gros profilés manquent.'],
@@ -233,7 +233,7 @@ export default {
 </ul>
 <h2>Tolleranze e documenti</h2>
 <p>In Europa si applicano le tolleranze di fabbricazione EN 1090-2 a dimensioni, inclinazione delle ali, planarità d'anima e rettilineità (vedi <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). La consegna include rapporto dimensionale, certificati, WPS/WPQR e rapporti CND.</p>
-<div class="callout"><p><strong>In ArmaWeld:</strong> saldiamo i cordoni anima-ala con la nostra macchina ad arco sommerso da 35 m, giunti e dettagli in MAG; UT e altri CND sono eseguiti dal nostro personale ISO 9712 livello 2. Il taglio lamiera è coordinato con i partner. <a href="../celik-konstruksiyon.html">Carpenteria metallica →</a></p></div>
+<div class="callout"><p>Il taglio lamiera è coordinato con i partner. <a href="../celik-konstruksiyon.html">Carpenteria metallica →</a></p></div>
 `,
     faq: [
       ['Quando usare una trave composta?', 'Se i laminati non bastano, serve sezione variabile o i profili pesanti scarseggiano.'],
@@ -273,7 +273,7 @@ export default {
 </ul>
 <h2>Toleranties en documenten</h2>
 <p>In Europa gelden de fabricagetoleranties van EN 1090-2 voor afmetingen, flensscheefstand, lijfvlakheid en rechtheid (zie <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). Bij levering horen maatrapport, certificaten, WPS/WPQR en NDO-rapporten.</p>
-<div class="callout"><p><strong>Bij ArmaWeld:</strong> we lassen lijf-flensnaden met onze 35 m onder-poeder-lasmachine, stuiken en details met MAG; UT en andere NDO voert ons ISO 9712 niveau 2-personeel uit. Plaatsnijden coördineren we met partners. <a href="../celik-konstruksiyon.html">Staalconstructie →</a></p></div>
+<div class="callout"><p>Plaatsnijden coördineren we met partners. <a href="../celik-konstruksiyon.html">Staalconstructie →</a></p></div>
 `,
     faq: [
       ['Wanneer een samengestelde ligger?', 'Als walsprofielen tekortschieten, variabele hoogte gewenst is of zware profielen schaars zijn.'],
@@ -313,7 +313,7 @@ export default {
 </ul>
 <h2>Toleranser og dokumenter</h2>
 <p>I Europa gjelder produksjonstoleransene i EN 1090-2 for mål, flensskjevhet, stegplanhet og retthet (se <a href="en-1090-exc2-nedir.html">EN 1090 EXC2</a>). Leveransen omfatter målrapport, materialsertifikater, WPS/WPQR og NDT-rapporter.</p>
-<div class="callout"><p><strong>Hos ArmaWeld:</strong> vi sveiser steg-flenssømmer på vår 35 m pulverbuesveisemaskin, skjøter og detaljer med MAG; UT og annen NDT utføres av vårt ISO 9712 nivå 2-personell. Platekutting koordineres med partnere. <a href="../celik-konstruksiyon.html">Stålkonstruksjon →</a></p></div>
+<div class="callout"><p>Platekutting koordineres med partnere. <a href="../celik-konstruksiyon.html">Stålkonstruksjon →</a></p></div>
 `,
     faq: [
       ['Når brukes platebærer?', 'Når valsede profiler ikke strekker til, variabel høyde ønskes eller tunge profiler er vanskelige å få.'],

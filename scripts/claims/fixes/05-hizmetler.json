@@ -1,0 +1,360 @@
+{
+ "pg_hizmetler_desc": {
+  "tr": "Kaynaklı imalat hizmetlerimiz: MAG, özlü tel, TIG ve tozaltı kaynak, montaj ve muayene bünyede; kesim ve büküm denetlenmiş tedarikçilerde. EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001 belgeli.",
+  "en": "Our welded fabrication services: MAG, flux-cored, TIG and submerged arc welding, assembly and inspection in-house; cutting and bending at audited suppliers. EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001 certified.",
+  "de": "Unsere Leistungen: MAG-, Fülldraht-, WIG- und UP-Schweißen, Montage und Prüfung im eigenen Haus; Schneiden und Biegen bei auditierten Lieferanten. Zertifiziert nach EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001.",
+  "es": "Nuestros servicios: soldadura MAG, con alambre tubular, TIG y por arco sumergido, montaje e inspección internos; corte y plegado en proveedores auditados. Certificados EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001.",
+  "fr": "Nos services : soudage MAG, fil fourré, TIG et arc submergé, assemblage et contrôle en interne ; découpe et pliage chez des fournisseurs audités. Certifiés EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001.",
+  "it": "I nostri servizi: saldatura MAG, a filo animato, TIG e ad arco sommerso, montaggio e controllo interni; taglio e piegatura presso fornitori verificati. Certificati EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001.",
+  "nl": "Onze diensten: MAG-, gevulde draad-, TIG- en onder poeder lassen, montage en inspectie in eigen huis; snijden en zetten bij geauditeerde leveranciers. Gecertificeerd volgens EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001.",
+  "no": "Våre tjenester: MAG-, rørtråd-, TIG- og pulverbuesveising, montasje og kontroll internt; skjæring og bukking hos reviderte leverandører. Sertifisert etter EN ISO 3834-2, EN 1090-2, ISO 9001, 14001, 45001."
+ },
+ "services_lede": {
+  "tr": "Kaynak, montaj ve muayene bünyemizde; sac kesim ve büküm denetlenmiş tedarikçilerde, proje akışına entegre planlanır. Tek irtibat noktası, mühendis denetimli süreç ve belge disiplini.",
+  "en": "Welding, assembly and inspection in-house; sheet cutting and bending at audited suppliers, planned into the project flow. Single point of contact, engineer-supervised process and document discipline.",
+  "de": "Schweißen, Montage und Prüfung im eigenen Haus; Blechzuschnitt und Biegen bei auditierten Lieferanten, in den Projektablauf eingeplant. Ein Ansprechpartner, ingenieurgeführter Prozess und Dokumentendisziplin.",
+  "es": "Soldadura, montaje e inspección internos; corte y plegado de chapa en proveedores auditados, planificados en el flujo del proyecto. Un único contacto, proceso supervisado por ingenieros y disciplina documental.",
+  "fr": "Soudage, assemblage et contrôle en interne ; découpe et pliage de tôle chez des fournisseurs audités, intégrés au planning du projet. Un interlocuteur unique, un processus encadré par des ingénieurs et une rigueur documentaire.",
+  "it": "Saldatura, montaggio e controllo interni; taglio e piegatura lamiera presso fornitori verificati, pianificati nel flusso di progetto. Un unico referente, processo supervisionato da ingegneri e disciplina documentale.",
+  "nl": "Lassen, montage en inspectie in eigen huis; plaatsnijden en zetten bij geauditeerde leveranciers, ingepland in de projectflow. Eén aanspreekpunt, door ingenieurs bewaakt proces en documentdiscipline.",
+  "no": "Sveising, montasje og kontroll internt; plateskjæring og bukking hos reviderte leverandører, planlagt inn i prosjektflyten. Ett kontaktpunkt, ingeniørstyrt prosess og dokumentdisiplin."
+ },
+ "px_svc_pages": {
+  "re": [
+   [
+    " \\(35 m\\)",
+    "g",
+    ""
+   ]
+  ]
+ },
+ "services_idx2_d": {
+  "tr": "Denetlenmiş tedarikçide<br/>DXF ve kesim planı ArmaWeld'den.",
+  "en": "At audited suppliers<br/>DXF and cutting plan from ArmaWeld.",
+  "de": "Bei auditierten Lieferanten<br/>DXF und Schneidplan von ArmaWeld.",
+  "es": "En proveedores auditados<br/>DXF y plan de corte de ArmaWeld.",
+  "fr": "Chez des fournisseurs audités<br/>DXF et plan de découpe fournis par ArmaWeld.",
+  "it": "Presso fornitori verificati<br/>DXF e piano di taglio da ArmaWeld.",
+  "nl": "Bij geauditeerde leveranciers<br/>DXF en snijplan van ArmaWeld.",
+  "no": "Hos reviderte leverandører<br/>DXF og skjæreplan fra ArmaWeld."
+ },
+ "services_idx3_d": {
+  "tr": "Denetlenmiş tedarikçide<br/>Açı ve ölçü kontrolü girişte.",
+  "en": "At audited suppliers<br/>Angle and dimension check on receipt.",
+  "de": "Bei auditierten Lieferanten<br/>Winkel- und Maßkontrolle beim Wareneingang.",
+  "es": "En proveedores auditados<br/>Control de ángulo y medidas a la recepción.",
+  "fr": "Chez des fournisseurs audités<br/>Contrôle d'angle et de cotes à réception.",
+  "it": "Presso fornitori verificati<br/>Controllo angoli e quote al ricevimento.",
+  "nl": "Bij geauditeerde leveranciers<br/>Hoek- en maatcontrole bij ontvangst.",
+  "no": "Hos reviderte leverandører<br/>Vinkel- og målkontroll ved mottak."
+ },
+ "services_s01_desc": {
+  "tr": "ArmaWeld'in ana işi. MAG (135), özlü tel (136), TIG (141) ve tozaltı (121) proseslerinde WPS ve EN ISO 3834-2 kalite çerçevesiyle çalışırız. Bom, şasi, destek ayağı ve taşıyıcı yapılarda her parça uygun prosedüre bağlanır.",
+  "en": "ArmaWeld's core business. We weld with MAG (135), flux-cored (136), TIG (141) and submerged arc (121) to WPS under the EN ISO 3834-2 quality framework. For booms, chassis, outrigger legs and load-bearing structures every part is tied to the right procedure.",
+  "de": "Das Kerngeschäft von ArmaWeld. Wir schweißen MAG (135), Fülldraht (136), WIG (141) und UP (121) nach WPS im Qualitätsrahmen der EN ISO 3834-2. Bei Auslegern, Rahmen, Stützbeinen und tragenden Strukturen ist jedes Teil an das passende Verfahren gebunden.",
+  "es": "La actividad principal de ArmaWeld. Soldamos con MAG (135), alambre tubular (136), TIG (141) y arco sumergido (121) según WPS dentro del marco de calidad EN ISO 3834-2. En plumas, chasis, patas estabilizadoras y estructuras portantes, cada pieza se vincula al procedimiento adecuado.",
+  "fr": "Le cœur de métier d'ArmaWeld. Nous soudons en MAG (135), fil fourré (136), TIG (141) et arc submergé (121) selon DMOS, dans le cadre qualité EN ISO 3834-2. Flèches, châssis, stabilisateurs et structures porteuses : chaque pièce est liée au mode opératoire adapté.",
+  "it": "L'attività principale di ArmaWeld. Saldiamo con MAG (135), filo animato (136), TIG (141) e arco sommerso (121) secondo WPS nel quadro qualità EN ISO 3834-2. Per bracci, telai, stabilizzatori e strutture portanti ogni pezzo è legato al procedimento corretto.",
+  "nl": "De kernactiviteit van ArmaWeld. Wij lassen MAG (135), gevulde draad (136), TIG (141) en onder poeder (121) volgens WPS binnen het kwaliteitskader van EN ISO 3834-2. Bij gieken, chassis, stempels en dragende constructies is elk onderdeel aan de juiste procedure gekoppeld.",
+  "no": "ArmaWelds kjernevirksomhet. Vi sveiser MAG (135), rørtråd (136), TIG (141) og pulverbue (121) etter WPS innenfor kvalitetsrammen i EN ISO 3834-2. For bommer, chassis, støtteben og bærende konstruksjoner knyttes hver del til riktig prosedyre."
+ },
+ "services_s01_f1": {
+  "tr": "10 kaynakçı; EN ISO 9606-1 belgeli, güncel kopyalar sipariş öncesi paylaşılır",
+  "en": "10 welders; EN ISO 9606-1 qualified, current copies shared before order",
+  "de": "10 Schweißer; geprüft nach EN ISO 9606-1, aktuelle Kopien vor Auftrag",
+  "es": "10 soldadores; cualificados EN ISO 9606-1, copias vigentes antes del pedido",
+  "fr": "10 soudeurs ; qualifiés EN ISO 9606-1, copies à jour avant commande",
+  "it": "10 saldatori; qualificati EN ISO 9606-1, copie aggiornate prima dell'ordine",
+  "nl": "10 lassers; gekwalificeerd volgens EN ISO 9606-1, actuele kopieën vóór de order",
+  "no": "10 sveisere; sertifisert etter EN ISO 9606-1, gjeldende kopier før bestilling"
+ },
+ "services_s01_f2": {
+  "tr": "Her iş için EN ISO 15609-1'e göre hazırlanan WPS",
+  "en": "WPS prepared to EN ISO 15609-1 for every job",
+  "de": "WPS nach EN ISO 15609-1 für jeden Auftrag",
+  "es": "WPS según EN ISO 15609-1 para cada trabajo",
+  "fr": "DMOS selon EN ISO 15609-1 pour chaque affaire",
+  "it": "WPS secondo EN ISO 15609-1 per ogni commessa",
+  "nl": "WPS volgens EN ISO 15609-1 voor elke opdracht",
+  "no": "WPS etter EN ISO 15609-1 for hver jobb"
+ },
+ "services_s01_f3": {
+  "tr": "S690QL, S960QL, S700MC ve Hardox ile kaynaklı imalat deneyimi; izlenebilir dikiş kaydı",
+  "en": "Welding experience with S690QL, S960QL, S700MC and Hardox; traceable weld records",
+  "de": "Schweißerfahrung mit S690QL, S960QL, S700MC und Hardox; rückverfolgbare Nahtaufzeichnungen",
+  "es": "Experiencia de soldadura con S690QL, S960QL, S700MC y Hardox; registros de cordón trazables",
+  "fr": "Expérience du soudage des S690QL, S960QL, S700MC et Hardox ; enregistrements de cordons traçables",
+  "it": "Esperienza di saldatura su S690QL, S960QL, S700MC e Hardox; registrazioni dei cordoni tracciabili",
+  "nl": "Laservaring met S690QL, S960QL, S700MC en Hardox; traceerbare lasregistraties",
+  "no": "Sveiseerfaring med S690QL, S960QL, S700MC og Hardox; sporbare sveiseregistreringer"
+ },
+ "services_mat_n2": {
+  "*": "EN 1090-2"
+ },
+ "tag_en1090": {
+  "*": "EN 1090-2"
+ },
+ "services_hs_l2": {
+  "tr": "Ön ısıtma zorunlu (EN 1011-2 Metot B) · H5 sarf · malzemeye özel WPS.",
+  "en": "Preheat mandatory (EN 1011-2 Method B) · H5 consumables · material-specific WPS.",
+  "de": "Vorwärmen Pflicht (EN 1011-2 Verfahren B) · H5-Zusatzwerkstoff · werkstoffspezifische WPS.",
+  "es": "Precalentamiento obligatorio (EN 1011-2 Método B) · consumible H5 · WPS específica del material.",
+  "fr": "Préchauffage obligatoire (EN 1011-2 méthode B) · consommable H5 · DMOS spécifique au matériau.",
+  "it": "Preriscaldo obbligatorio (EN 1011-2 Metodo B) · consumabile H5 · WPS specifica per il materiale.",
+  "nl": "Voorwarmen verplicht (EN 1011-2 methode B) · H5-toevoegmateriaal · materiaalspecifieke WPS.",
+  "no": "Forvarming påkrevd (EN 1011-2 metode B) · H5-tilsett · materialspesifikk WPS."
+ },
+ "services_saw_h2": {
+  "tr": "Tozaltı<br/>Kaynak Hattı.",
+  "en": "Submerged Arc<br/>Welding Line.",
+  "de": "UP-<br/>Schweißlinie.",
+  "es": "Línea de soldadura<br/>por arco sumergido.",
+  "fr": "Ligne de soudage<br/>à l'arc submergé.",
+  "it": "Linea di saldatura<br/>ad arco sommerso.",
+  "nl": "Onder poeder<br/>laslijn.",
+  "no": "Pulverbue-<br/>sveiselinje."
+ },
+ "services_saw_desc": {
+  "tr": "Tozaltı kaynak makinemizle uzun lineer dikişleri, iş makinesi ve vinç bomlarını, römork ve makine şasilerini sabit parametreyle ve WPS ile kaynatıyoruz.",
+  "en": "Our submerged arc welding machine welds long linear seams, machinery and crane booms, and trailer and machine chassis at constant parameters and to WPS.",
+  "de": "Mit unserer UP-Schweißanlage schweißen wir lange Längsnähte, Ausleger von Baumaschinen und Kranen sowie Anhänger- und Maschinenrahmen mit konstanten Parametern nach WPS.",
+  "es": "Con nuestra máquina de arco sumergido soldamos cordones lineales largos, plumas de maquinaria y grúas, y chasis de remolques y máquinas con parámetros constantes y según WPS.",
+  "fr": "Notre machine de soudage à l'arc submergé réalise de longs cordons linéaires, des flèches d'engins et de grues, des châssis de remorques et de machines, à paramètres constants et selon DMOS.",
+  "it": "Con la nostra saldatrice ad arco sommerso saldiamo lunghi cordoni lineari, bracci di macchine e gru, telai di rimorchi e macchine con parametri costanti e secondo WPS.",
+  "nl": "Met onze onder-poeder-lasmachine lassen we lange lineaire naden, gieken van machines en kranen, en aanhanger- en machinechassis met constante parameters en volgens WPS.",
+  "no": "Med vår pulverbuesveisemaskin sveiser vi lange lineære sømmer, bommer for maskiner og kraner, og tilhenger- og maskinchassis med konstante parametere etter WPS."
+ },
+ "vis_alt_saw": {
+  "tr": "Tozaltı kaynak hattında uzun kutu kirişi kaynatan portal arabası",
+  "en": "Welding carriage on the submerged arc line welding a long box girder",
+  "de": "Schweißwagen an der UP-Schweißlinie beim Schweißen eines langen Kastenträgers",
+  "es": "Carro de soldadura en la línea de arco sumergido soldando una viga cajón larga",
+  "fr": "Chariot de soudage sur la ligne à l'arc submergé soudant une longue poutre caisson",
+  "it": "Carrello di saldatura sulla linea ad arco sommerso che salda una lunga trave a cassone",
+  "nl": "Lasportaal op de onder-poeder-laslijn die een lange kokerligger last",
+  "no": "Sveisevogn på pulverbuesveiselinjen som sveiser en lang kassebjelke"
+ },
+ "services_saw_v2": {
+  "tr": "Uzun parça · tek bağlama",
+  "en": "Long parts · single set-up",
+  "de": "Lange Teile · eine Aufspannung",
+  "es": "Piezas largas · una sola fijación",
+  "fr": "Pièces longues · un seul bridage",
+  "it": "Pezzi lunghi · un solo piazzamento",
+  "nl": "Lange delen · één opspanning",
+  "no": "Lange deler · ett oppspenn"
+ },
+ "services_saw_v6": {
+  "*": "VT · UT"
+ },
+ "services_saw_foot": {
+  "*": "SAW 121"
+ },
+ "services_saw_foot_ok": {
+  "tr": "● AKTİF",
+  "en": "● ACTIVE",
+  "de": "● AKTIV",
+  "es": "● ACTIVO",
+  "fr": "● ACTIF",
+  "it": "● ATTIVO",
+  "nl": "● ACTIEF",
+  "no": "● AKTIV"
+ },
+ "px_hz_18": {
+  "re": [
+   [
+    "EN 1090(?![-\\d])",
+    "g",
+    "EN 1090-2"
+   ]
+  ]
+ },
+ "px_hz_20": {
+  "re": [
+   [
+    "EN 1090 EXC3",
+    "g",
+    "EN 1090-2"
+   ],
+   [
+    "EN 1090-2 EXC3",
+    "g",
+    "EN 1090-2"
+   ]
+  ]
+ },
+ "px_hz_58": {
+  "re": [
+   [
+    "EN 1090(?![-\\d])",
+    "g",
+    "EN 1090-2"
+   ]
+  ]
+ },
+ "px_hz_22": {
+  "tr": "Karbon çeliği ve yüksek mukavemetli çeliklerde (S690QL, S960QL, S700MC, Hardox) WPS ile MAG, özlü tel ve TIG kaynak imalatı.",
+  "en": "MAG, flux-cored and TIG fabrication to WPS in carbon and high-strength steels (S690QL, S960QL, S700MC, Hardox).",
+  "de": "MAG-, Fülldraht- und WIG-Fertigung nach WPS in Kohlenstoff- und hochfesten Stählen (S690QL, S960QL, S700MC, Hardox).",
+  "es": "Fabricación MAG, con alambre tubular y TIG según WPS en aceros al carbono y de alta resistencia (S690QL, S960QL, S700MC, Hardox).",
+  "fr": "Fabrication MAG, fil fourré et TIG selon DMOS en aciers carbone et à haute limite élastique (S690QL, S960QL, S700MC, Hardox).",
+  "it": "Fabbricazione MAG, a filo animato e TIG secondo WPS su acciai al carbonio e alto resistenziali (S690QL, S960QL, S700MC, Hardox).",
+  "nl": "MAG-, gevulde draad- en TIG-fabricage volgens WPS in koolstof- en hogesterktestaal (S690QL, S960QL, S700MC, Hardox).",
+  "no": "MAG-, rørtråd- og TIG-produksjon etter WPS i karbon- og høyfast stål (S690QL, S960QL, S700MC, Hardox)."
+ },
+ "px_hz_28": {
+  "tr": "Kaynak, montaj ve muayene bünyemizde; sac kesim, büküm ve boya denetlenmiş tedarikçilerde koordine edilir. Tek irtibat noktasından izlenebilir teslimat.",
+  "en": "Welding, assembly and inspection in-house; cutting, bending and painting coordinated at audited suppliers. Traceable delivery from a single point of contact.",
+  "de": "Schweißen, Montage und Prüfung im eigenen Haus; Schneiden, Biegen und Lackieren bei auditierten Lieferanten koordiniert. Rückverfolgbare Lieferung aus einer Hand.",
+  "es": "Soldadura, montaje e inspección internos; corte, plegado y pintura coordinados en proveedores auditados. Entrega trazable con un único contacto.",
+  "fr": "Soudage, assemblage et contrôle en interne ; découpe, pliage et peinture coordonnés chez des fournisseurs audités. Livraison traçable via un interlocuteur unique.",
+  "it": "Saldatura, montaggio e controllo interni; taglio, piegatura e verniciatura coordinati presso fornitori verificati. Consegna tracciabile da un unico referente.",
+  "nl": "Lassen, montage en inspectie in eigen huis; snijden, zetten en schilderen gecoördineerd bij geauditeerde leveranciers. Traceerbare levering via één aanspreekpunt.",
+  "no": "Sveising, montasje og kontroll internt; skjæring, bukking og maling koordinert hos reviderte leverandører. Sporbar levering fra ett kontaktpunkt."
+ },
+ "px_hz_37": {
+  "re": [
+   [
+    "UT, MT, PT, VT",
+    "g",
+    "VT, UT, RT"
+   ]
+  ]
+ },
+ "px_hz_64": {
+  "tr": "EN ISO 3834-2 kaynak kalite belgesi, EN 1090-2 belgesi, WPS, kaynakçı yeterlilik belgeleri ve talep halinde NDT raporları (VT, UT, RT) sunulur.",
+  "en": "EN ISO 3834-2 welding quality certificate, EN 1090-2 certificate, WPS, welder qualification certificates and, on request, NDT reports (VT, UT, RT).",
+  "de": "Schweißqualitätszertifikat EN ISO 3834-2, EN 1090-2-Zertifikat, WPS, Schweißerprüfungsbescheinigungen und auf Anfrage ZfP-Berichte (VT, UT, RT).",
+  "es": "Certificado de calidad de soldadura EN ISO 3834-2, certificado EN 1090-2, WPS, certificados de cualificación de soldadores y, a petición, informes END (VT, UT, RT).",
+  "fr": "Certificat qualité soudage EN ISO 3834-2, certificat EN 1090-2, DMOS, certificats de qualification des soudeurs et, sur demande, rapports CND (VT, UT, RT).",
+  "it": "Certificato di qualità della saldatura EN ISO 3834-2, certificato EN 1090-2, WPS, certificati di qualifica dei saldatori e, su richiesta, rapporti CND (VT, UT, RT).",
+  "nl": "EN ISO 3834-2-laskwaliteitscertificaat, EN 1090-2-certificaat, WPS, lasserkwalificaties en op verzoek NDO-rapporten (VT, UT, RT).",
+  "no": "EN ISO 3834-2-sveisekvalitetssertifikat, EN 1090-2-sertifikat, WPS, sveisersertifikater og på forespørsel NDT-rapporter (VT, UT, RT)."
+ },
+ "services_s02_desc": {
+  "tr": "Sac kesim, denetlediğimiz tedarikçilerde ArmaWeld'in DXF dosyası ve kesim planıyla yapılır. Gelen parçalar boyut kontrolünden geçer ve kaynağa hazır olarak hatta girer; kaynak ağzı şartnameye göre hazırlanır.",
+  "en": "Sheet cutting is done at suppliers we audit, using ArmaWeld's DXF files and cutting plan. Incoming parts are dimension-checked and enter the line ready to weld; weld preparation follows the specification.",
+  "de": "Der Blechzuschnitt erfolgt bei von uns auditierten Lieferanten mit ArmaWelds DXF-Dateien und Schneidplan. Eingehende Teile werden maßgeprüft und gehen schweißbereit in die Fertigung; die Nahtvorbereitung folgt der Spezifikation.",
+  "es": "El corte de chapa se realiza en proveedores que auditamos, con los DXF y el plan de corte de ArmaWeld. Las piezas recibidas pasan control dimensional y entran listas para soldar; la preparación de bordes sigue la especificación.",
+  "fr": "La découpe de tôle est réalisée chez des fournisseurs que nous auditons, avec les DXF et le plan de découpe d'ArmaWeld. Les pièces reçues sont contrôlées en cotes et entrent prêtes à souder ; la préparation des chanfreins suit la spécification.",
+  "it": "Il taglio lamiera avviene presso fornitori da noi verificati, con i DXF e il piano di taglio di ArmaWeld. I pezzi in arrivo passano il controllo dimensionale ed entrano pronti per la saldatura; la preparazione dei lembi segue la specifica.",
+  "nl": "Plaatsnijden gebeurt bij leveranciers die wij auditeren, met de DXF-bestanden en het snijplan van ArmaWeld. Binnenkomende delen worden op maat gecontroleerd en gaan lasklaar de lijn in; de lasnaadvoorbereiding volgt de specificatie.",
+  "no": "Plateskjæring gjøres hos leverandører vi reviderer, med ArmaWelds DXF-filer og skjæreplan. Innkommende deler målkontrolleres og går sveiseklare inn i produksjonen; sveisefugen forberedes etter spesifikasjonen."
+ },
+ "services_s02_benefit": {
+  "tr": "Kaynağa hazır, ölçüsü kontrol edilmiş parça; montaj süresini kısaltır.",
+  "en": "Weld-ready, dimension-checked parts shorten assembly time.",
+  "de": "Schweißbereite, maßgeprüfte Teile verkürzen die Montagezeit.",
+  "es": "Piezas listas para soldar y con medidas verificadas acortan el montaje.",
+  "fr": "Des pièces prêtes à souder et contrôlées raccourcissent l'assemblage.",
+  "it": "Pezzi pronti per la saldatura e controllati accorciano il montaggio.",
+  "nl": "Lasklare, op maat gecontroleerde delen verkorten de montagetijd.",
+  "no": "Sveiseklare, målkontrollerte deler korter ned montasjetiden."
+ },
+ "services_s03_desc": {
+  "tr": "Büküm ve şekillendirme, denetlediğimiz tedarikçilerde ArmaWeld'in çizim ve açı değerleriyle yapılır. Parçalar girişte açı ve ölçü kontrolünden geçer; uygun olmayan parça hatta girmez.",
+  "en": "Bending and forming are done at suppliers we audit, to ArmaWeld's drawings and angle values. Parts are checked for angle and dimensions on receipt; non-conforming parts do not enter the line.",
+  "de": "Biegen und Umformen erfolgen bei von uns auditierten Lieferanten nach ArmaWelds Zeichnungen und Winkelvorgaben. Beim Wareneingang werden Winkel und Maße geprüft; nicht konforme Teile gehen nicht in die Fertigung.",
+  "es": "El plegado y conformado se realizan en proveedores que auditamos, según los planos y ángulos de ArmaWeld. A la recepción se controlan ángulos y medidas; las piezas no conformes no entran en la línea.",
+  "fr": "Le pliage et le formage sont réalisés chez des fournisseurs que nous auditons, selon les plans et angles d'ArmaWeld. Angles et cotes sont contrôlés à réception ; une pièce non conforme n'entre pas en production.",
+  "it": "Piegatura e formatura avvengono presso fornitori da noi verificati, secondo i disegni e gli angoli di ArmaWeld. Al ricevimento si controllano angoli e quote; i pezzi non conformi non entrano in linea.",
+  "nl": "Zetten en vormen gebeurt bij leveranciers die wij auditeren, volgens de tekeningen en hoekwaarden van ArmaWeld. Bij ontvangst worden hoek en maten gecontroleerd; afgekeurde delen gaan de lijn niet in.",
+  "no": "Bukking og forming gjøres hos leverandører vi reviderer, etter ArmaWelds tegninger og vinkelverdier. Ved mottak kontrolleres vinkel og mål; avvikende deler går ikke inn i produksjonen."
+ },
+ "services_s03_benefit": {
+  "tr": "Girişte kontrol edilen büküm; boyutsal sapmayı kaynaktan önce yakalar.",
+  "en": "Bends checked on receipt catch dimensional deviation before welding.",
+  "de": "Beim Wareneingang geprüfte Biegungen erkennen Maßabweichungen vor dem Schweißen.",
+  "es": "El plegado controlado a la recepción detecta desviaciones antes de soldar.",
+  "fr": "Un pliage contrôlé à réception détecte les écarts avant soudage.",
+  "it": "La piegatura controllata al ricevimento intercetta gli scostamenti prima della saldatura.",
+  "nl": "Bij ontvangst gecontroleerd zetwerk vangt maatafwijkingen vóór het lassen.",
+  "no": "Bukking kontrollert ved mottak fanger målavvik før sveising."
+ },
+ "services_s04_desc": {
+  "tr": "Büyük yapılar alt montaj grupları halinde üretilir, ardından fikstür ve mastarlarla atölyede ana birleştirmeye alınır.",
+  "en": "Large structures are produced as sub-assemblies, then fixtured and joined in the workshop using jigs.",
+  "de": "Großstrukturen werden als Unterbaugruppen gefertigt und anschließend in der Werkstatt mit Vorrichtungen und Lehren zusammengefügt.",
+  "es": "Las grandes estructuras se producen como submontajes y se ensamblan en el taller con utillajes y plantillas.",
+  "fr": "Les grandes structures sont produites en sous-ensembles, puis assemblées en atelier sur gabarits.",
+  "it": "Le strutture di grandi dimensioni vengono prodotte come sottoassiemi e poi unite in officina con attrezzature e dime.",
+  "nl": "Grote constructies worden als subassemblages geproduceerd en daarna in de werkplaats met mallen samengebouwd.",
+  "no": "Store konstruksjoner produseres som delmontasjer og sammenføyes deretter i verkstedet med jigger."
+ },
+ "services_s05_desc": {
+  "tr": "Kaynak kalitesi yalnızca görünümle değerlendirilmez. VT, UT ve RT film değerlendirme bünyede Seviye 2 personelle yapılır; RT çekimi lisanslı laboratuvarda, PT ve MT gerekirse anlaşmalı kuruluşla.",
+  "en": "Weld quality is not judged by appearance alone. VT, UT and RT film interpretation are done in-house by Level 2 staff; RT exposure at a licensed lab, PT and MT through a contracted body when required.",
+  "de": "Schweißqualität wird nicht nur nach dem Aussehen beurteilt. VT, UT und RT-Filmauswertung erfolgen inhouse durch Stufe-2-Personal; RT-Durchstrahlung im lizenzierten Labor, PT und MT bei Bedarf über eine Vertragsstelle.",
+  "es": "La calidad de la soldadura no se juzga solo por su aspecto. VT, UT e interpretación de película RT se realizan internamente con personal nivel 2; exposición RT en laboratorio autorizado, PT y MT con una entidad contratada cuando se requiera.",
+  "fr": "La qualité d'un soudage ne se juge pas à l'aspect seul. VT, UT et interprétation de films RT sont réalisés en interne par du personnel niveau 2 ; tir RT en laboratoire agréé, PT et MT par un organisme sous contrat si nécessaire.",
+  "it": "La qualità della saldatura non si giudica solo dall'aspetto. VT, UT e interpretazione pellicole RT sono eseguiti internamente da personale di livello 2; esposizione RT in laboratorio autorizzato, PT e MT tramite ente convenzionato se richiesto.",
+  "nl": "Laskwaliteit wordt niet alleen op uiterlijk beoordeeld. VT, UT en RT-filmbeoordeling gebeuren in eigen huis door niveau 2-personeel; RT-opnamen in een vergund lab, PT en MT zo nodig via een gecontracteerde instantie.",
+  "no": "Sveisekvalitet vurderes ikke bare ut fra utseendet. VT, UT og RT-filmtolkning utføres internt av nivå 2-personell; RT-eksponering i lisensiert laboratorium, PT og MT via avtalt organ ved behov."
+ },
+ "services_s05_f2": {
+  "re": [
+   [
+    "\\(EN ISO 3452\\)",
+    "g",
+    "/ MT (EN ISO 3452 / 17638) · partner"
+   ]
+  ]
+ },
+ "svfoot_4ndt": {
+  "re": [
+   [
+    "^4",
+    "",
+    "3"
+   ]
+  ]
+ },
+ "deep_mat_compat_html": {
+  "re": [
+   [
+    "<tr><td>316L \\(1\\.4404\\)</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "<tr><td>Al 6082-T6</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "<tr><td>Duplex 2205</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "<tr><td>P11 / P22 \\(Cr-Mo\\)</td>.*?</tr>",
+    "",
+    ""
+   ],
+   [
+    "EN 1090 EXC2/3",
+    "g",
+    "EN 1090-2"
+   ]
+  ]
+ },
+ "deep_mat_select_html": {
+  "re": [
+   [
+    "^(<div class=\"deep-grid-2\"><div class=\"deep-card\">.*?</ul></div>)<div class=\"deep-card\">.*?</ul></div>",
+    "",
+    "$1"
+   ],
+   [
+    "EXC2/EXC3 ",
+    "g",
+    ""
+   ],
+   [
+    "\\(EN 1090\\)",
+    "g",
+    "(EN 1090-2)"
+   ]
+  ]
+ }
+}
