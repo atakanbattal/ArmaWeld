@@ -59,14 +59,14 @@
   "no": "ArmaWelds kjernevirksomhet. Vi sveiser MAG (135), rørtråd (136), TIG (141) og pulverbue (121) etter WPS innenfor kvalitetsrammen i EN ISO 3834-2. For bommer, chassis, støtteben og bærende konstruksjoner knyttes hver del til riktig prosedyre."
  },
  "services_s01_f1": {
-  "tr": "10 kaynakçı; EN ISO 9606-1 belgeleri yenileniyor, güncel kopyalar sipariş öncesi paylaşılır",
-  "en": "10 welders; EN ISO 9606-1 certificates being renewed, current copies shared before order",
-  "de": "10 Schweißer; EN ISO 9606-1-Prüfungen werden erneuert, aktuelle Kopien vor Auftrag",
-  "es": "10 soldadores; certificados EN ISO 9606-1 en renovación, copias vigentes antes del pedido",
-  "fr": "10 soudeurs ; certificats EN ISO 9606-1 en cours de renouvellement, copies à jour avant commande",
-  "it": "10 saldatori; certificati EN ISO 9606-1 in rinnovo, copie aggiornate prima dell'ordine",
-  "nl": "10 lassers; EN ISO 9606-1-certificaten worden vernieuwd, actuele kopieën vóór de order",
-  "no": "10 sveisere; EN ISO 9606-1-sertifikater fornyes, gjeldende kopier før bestilling"
+  "tr": "10 kaynakçı; EN ISO 9606-1 belgeli, güncel kopyalar sipariş öncesi paylaşılır",
+  "en": "10 welders; EN ISO 9606-1 qualified, current copies shared before order",
+  "de": "10 Schweißer; geprüft nach EN ISO 9606-1, aktuelle Kopien vor Auftrag",
+  "es": "10 soldadores; cualificados EN ISO 9606-1, copias vigentes antes del pedido",
+  "fr": "10 soudeurs ; qualifiés EN ISO 9606-1, copies à jour avant commande",
+  "it": "10 saldatori; qualificati EN ISO 9606-1, copie aggiornate prima dell'ordine",
+  "nl": "10 lassers; gekwalificeerd volgens EN ISO 9606-1, actuele kopieën vóór de order",
+  "no": "10 sveisere; sertifisert etter EN ISO 9606-1, gjeldende kopier før bestilling"
  },
  "services_s01_f2": {
   "tr": "Her iş için EN ISO 15609-1'e göre hazırlanan WPS",

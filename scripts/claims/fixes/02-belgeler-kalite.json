@@ -70,14 +70,14 @@
   "no": "Gyldig til"
  },
  "quality_cert5_p1": {
-  "tr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Çelikte kaynakçı yeterlilik belgesi. 10 kaynakçının belgeleri yenileniyor; güncel belgeler sipariş öncesi paylaşılır.",
-  "en": "<strong style=\"color:var(--bone)\">9606-1</strong> — Welder qualification for steel. Certificates for our 10 welders are being renewed; current copies are shared before order.",
-  "de": "<strong style=\"color:var(--bone)\">9606-1</strong> — Schweißerprüfung für Stahl. Die Prüfbescheinigungen unserer 10 Schweißer werden erneuert; aktuelle Kopien erhalten Sie vor Auftragserteilung.",
-  "es": "<strong style=\"color:var(--bone)\">9606-1</strong> — Cualificación de soldadores en acero. Los certificados de nuestros 10 soldadores se están renovando; las copias vigentes se envían antes del pedido.",
-  "fr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualification des soudeurs sur acier. Les certificats de nos 10 soudeurs sont en cours de renouvellement ; les copies à jour sont transmises avant commande.",
-  "it": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualifica dei saldatori su acciaio. I certificati dei nostri 10 saldatori sono in rinnovo; le copie aggiornate vengono inviate prima dell'ordine.",
-  "nl": "<strong style=\"color:var(--bone)\">9606-1</strong> — Lasserkwalificatie voor staal. De certificaten van onze 10 lassers worden vernieuwd; actuele kopieën worden vóór de order gedeeld.",
-  "no": "<strong style=\"color:var(--bone)\">9606-1</strong> — Sveisersertifisering for stål. Sertifikatene til våre 10 sveisere fornyes; gjeldende kopier deles før bestilling."
+  "tr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Çelikte kaynakçı yeterlilik belgesi. 10 kaynakçımız EN ISO 9606-1 belgelidir; güncel belgeler sipariş öncesi paylaşılır.",
+  "en": "<strong style=\"color:var(--bone)\">9606-1</strong> — Welder qualification for steel. Our 10 welders are qualified to EN ISO 9606-1; current certificates are shared before order.",
+  "de": "<strong style=\"color:var(--bone)\">9606-1</strong> — Schweißerprüfung für Stahl. Unsere 10 Schweißer sind nach EN ISO 9606-1 geprüft; aktuelle Bescheinigungen erhalten Sie vor Auftrag.",
+  "es": "<strong style=\"color:var(--bone)\">9606-1</strong> — Cualificación de soldadores en acero. Nuestros 10 soldadores están cualificados según EN ISO 9606-1; los certificados vigentes se comparten antes del pedido.",
+  "fr": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualification des soudeurs sur acier. Nos 10 soudeurs sont qualifiés EN ISO 9606-1 ; les certificats à jour sont transmis avant commande.",
+  "it": "<strong style=\"color:var(--bone)\">9606-1</strong> — Qualifica dei saldatori su acciaio. I nostri 10 saldatori sono qualificati EN ISO 9606-1; i certificati aggiornati sono condivisi prima dell'ordine.",
+  "nl": "<strong style=\"color:var(--bone)\">9606-1</strong> — Lasserkwalificatie voor staal. Onze 10 lassers zijn gekwalificeerd volgens EN ISO 9606-1; actuele certificaten delen we vóór de order.",
+  "no": "<strong style=\"color:var(--bone)\">9606-1</strong> — Sveisersertifisering for stål. Våre 10 sveisere er sertifisert etter EN ISO 9606-1; gjeldende sertifikater deles før bestilling."
  },
  "quality_cst5_k": {
   "tr": "Kaynakçı",

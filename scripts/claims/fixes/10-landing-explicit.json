@@ -210,14 +210,14 @@
   "no": "10 sveisere"
  },
  "kf_c1_p": {
-  "tr": "Onaylı WPS ile karbon çelik ve yüksek mukavemetli çeliklerde fason üretim (EN ISO 9606-1 kaynakçı belgeleri yenileniyor).",
-  "en": "Subcontract production in carbon and high-strength steels with qualified WPS (EN ISO 9606-1 welder certificates being renewed).",
-  "de": "Lohnfertigung in Kohlenstoff- und hochfesten Stählen mit qualifizierten WPS (Schweißerzertifikate nach EN ISO 9606-1 werden erneuert).",
-  "es": "Producción a terceros en acero al carbono y aceros de alta resistencia con WPS cualificados (certificados de soldador EN ISO 9606-1 en renovación).",
-  "fr": "Sous-traitance en aciers au carbone et à haute limite élastique avec DMOS qualifiés (certificats de soudeurs EN ISO 9606-1 en cours de renouvellement).",
-  "it": "Produzione conto terzi in acciaio al carbonio e ad alta resistenza con WPS qualificate (patentini EN ISO 9606-1 in rinnovo).",
-  "nl": "Toeleveringsproductie in koolstofstaal en hogesterktestaal met gekwalificeerde WPS (lassercertificaten EN ISO 9606-1 worden vernieuwd).",
-  "no": "Kontraktsproduksjon i karbonstål og høyfast stål med kvalifiserte WPS (sveisesertifikater etter EN ISO 9606-1 fornyes)."
+  "tr": "Onaylı WPS ve EN ISO 9606-1 belgeli kaynakçılarla karbon çelik ve yüksek mukavemetli çeliklerde fason üretim.",
+  "en": "Subcontract production in carbon and high-strength steels with qualified WPS and EN ISO 9606-1 qualified welders.",
+  "de": "Lohnfertigung in Kohlenstoff- und hochfesten Stählen mit qualifizierten WPS und Schweißern nach EN ISO 9606-1.",
+  "es": "Producción a terceros en acero al carbono y aceros de alta resistencia con WPS cualificados y soldadores EN ISO 9606-1.",
+  "fr": "Sous-traitance en aciers au carbone et à haute limite élastique avec DMOS qualifiés et soudeurs EN ISO 9606-1.",
+  "it": "Produzione conto terzi in acciaio al carbonio e ad alta resistenza con WPS qualificate e saldatori EN ISO 9606-1.",
+  "nl": "Toeleveringsproductie in koolstofstaal en hogesterktestaal met gekwalificeerde WPS en lassers volgens EN ISO 9606-1.",
+  "no": "Kontraktsproduksjon i karbonstål og høyfast stål med kvalifiserte WPS og sveisere sertifisert etter EN ISO 9606-1."
  },
  "kf_c2_p": {
   "tr": "141 TIG ile kök pasolar, ince et ve görünür dikişlerde kontrollü ısı girdisi.",
@@ -290,14 +290,14 @@
   "no": "VT · UT · RT-filmtolkning (internt); PT · MT via avtalepartner"
  },
  "kf_w1_p": {
-  "tr": "EN 1090-2 ve EN ISO 3834-2 belgeleri; onaylı WPS ile üretim, EN ISO 9606-1 kaynakçı belgeleri yenileniyor.",
-  "en": "EN 1090-2 and EN ISO 3834-2 certificates; production with qualified WPS, EN ISO 9606-1 welder certificates being renewed.",
-  "de": "Zertifikate nach EN 1090-2 und EN ISO 3834-2; Fertigung mit qualifizierten WPS, Schweißerzertifikate nach EN ISO 9606-1 werden erneuert.",
-  "es": "Certificados EN 1090-2 y EN ISO 3834-2; producción con WPS cualificados, certificados de soldador EN ISO 9606-1 en renovación.",
-  "fr": "Certificats EN 1090-2 et EN ISO 3834-2 ; production avec DMOS qualifiés, certificats de soudeurs EN ISO 9606-1 en cours de renouvellement.",
-  "it": "Certificati EN 1090-2 ed EN ISO 3834-2; produzione con WPS qualificate, patentini EN ISO 9606-1 in rinnovo.",
-  "nl": "Certificaten EN 1090-2 en EN ISO 3834-2; productie met gekwalificeerde WPS, lassercertificaten EN ISO 9606-1 worden vernieuwd.",
-  "no": "Sertifikater etter EN 1090-2 og EN ISO 3834-2; produksjon med kvalifiserte WPS, sveisesertifikater etter EN ISO 9606-1 fornyes."
+  "tr": "EN 1090-2 ve EN ISO 3834-2 belgeleri; onaylı WPS ve EN ISO 9606-1 belgeli kaynakçılarla üretim.",
+  "en": "EN 1090-2 and EN ISO 3834-2 certificates; production with qualified WPS and EN ISO 9606-1 qualified welders.",
+  "de": "Zertifikate nach EN 1090-2 und EN ISO 3834-2; Fertigung mit qualifizierten WPS und Schweißern nach EN ISO 9606-1.",
+  "es": "Certificados EN 1090-2 y EN ISO 3834-2; producción con WPS cualificados y soldadores EN ISO 9606-1.",
+  "fr": "Certificats EN 1090-2 et EN ISO 3834-2 ; production avec DMOS qualifiés et soudeurs EN ISO 9606-1.",
+  "it": "Certificati EN 1090-2 ed EN ISO 3834-2; produzione con WPS qualificate e saldatori EN ISO 9606-1.",
+  "nl": "Certificaten EN 1090-2 en EN ISO 3834-2; productie met gekwalificeerde WPS en lassers volgens EN ISO 9606-1.",
+  "no": "Sertifikater etter EN 1090-2 og EN ISO 3834-2; produksjon med kvalifiserte WPS og sveisere sertifisert etter EN ISO 9606-1."
  },
  "kf_f3_a": {
   "tr": "Karbon çelik (S235–S355), yüksek mukavemetli çelikler (S690QL, S960QL, S700MC) ve HARDOX aşınma çelikleri başlıca çalıştığımız malzemelerdir.",
