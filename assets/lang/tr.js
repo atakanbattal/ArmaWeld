@@ -194,7 +194,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.tr={
   docs_status_plain: 'Durum: <em>● Aktif</em>',
   docs_level_plain: 'Seviye: <em>Full (2)</em>',
   docs_cert1_title: 'Kaynak Kalite Gereksinimleri',
-  docs_cert2_title: 'Çelik Yapı İmalatı — EXC3',
+  docs_cert2_title: 'Çelik Yapı İmalatı',
   docs_view: 'Görüntüle',
   docs_download: 'İndir',
   docs_cta_h3: 'Kalite süreçlerimiz hakkında daha fazla bilgi',

@@ -181,7 +181,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.de={
   docs_status_plain: 'Status: <em>● Aktiv</em>',
   docs_level_plain: 'Stufe: <em>Full (2)</em>',
   docs_cert1_title: 'Schweißqualitätsanforderungen',
-  docs_cert2_title: 'Stahlbau — EXC3',
+  docs_cert2_title: 'Stahlbau',
   docs_view: 'Ansehen',
   docs_download: 'Herunterladen',
   docs_cta_h3: 'Mehr über unsere Qualitätsprozesse',
