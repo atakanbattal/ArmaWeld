@@ -183,7 +183,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.en={
   docs_status_plain: 'Status: <em>● Active</em>',
   docs_level_plain: 'Level: <em>Full (2)</em>',
   docs_cert1_title: 'Welding Quality Requirements',
-  docs_cert2_title: 'Structural Steel Fabrication — EXC3',
+  docs_cert2_title: 'Structural Steel Fabrication',
   docs_view: 'View',
   docs_download: 'Download',
   docs_cta_h3: 'Learn more about our quality processes',
