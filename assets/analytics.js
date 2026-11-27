@@ -2,9 +2,17 @@
 (function () {
   'use strict';
 
+  // Google Ads dönüşümü: "Giden tıklama" (AW-18132638200). Teklif formu, mail,
+  // telefon ve WhatsApp tıklamaları potansiyel müşteri sayılır. Dönüşüm işlemi
+  // reklam tıklaması başına bir kez sayar, aynı kişinin tekrarları şişirmez.
+  var ADS_LEAD = 'AW-18132638200/7CA3CIrSwqgcEPizqMZD';
+  var LEAD_EVENTS = { form_submit: 1, email_click: 1, phone_click: 1, whatsapp_click: 1 };
+
   function track(name, params) {
-    if (typeof gtag === 'function') {
-      gtag('event', name, params || {});
+    if (typeof gtag !== 'function') return;
+    gtag('event', name, Object.assign({ transport_type: 'beacon' }, params || {}));
+    if (LEAD_EVENTS[name]) {
+      gtag('event', 'conversion', { send_to: ADS_LEAD, transport_type: 'beacon' });
     }
   }
 

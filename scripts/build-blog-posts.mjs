@@ -177,7 +177,7 @@ ${related}
 <script src="../assets/lang/tr.js?v=${V}"></script>
 <script src="../assets/i18n.js?v=${V}"></script>
 <script src="../assets/chrome.js?v=${V}"></script>
-<script src="../assets/analytics.js?v=20261103"></script>
+<script src="../assets/analytics.js?v=20261120"></script>
 <script>mountChrome('blog', '../');</script>
 </body>
 </html>

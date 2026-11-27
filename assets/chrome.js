@@ -437,7 +437,7 @@ function initCookieConsent() {
     const choice = btn.dataset.cookie;
     localStorage.setItem('armaweld-cookie', choice);
     if (choice === 'all' && typeof gtag === 'function') {
-      gtag('consent', 'update', { analytics_storage: 'granted' });
+      gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted' });
     }
     if (choice === 'all' && typeof window.initApollo === 'function') {
       window.initApollo();
