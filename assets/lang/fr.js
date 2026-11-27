@@ -181,7 +181,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.fr={
   docs_status_plain: 'Statut : <em>● Actif</em>',
   docs_level_plain: 'Niveau : <em>Full (2)</em>',
   docs_cert1_title: 'Exigences Qualité Soudage',
-  docs_cert2_title: 'Fabrication Structures Acier — EXC3',
+  docs_cert2_title: 'Fabrication Structures Acier',
   docs_view: 'Consulter',
   docs_download: 'Télécharger',
   docs_cta_h3: 'En savoir plus sur nos processus qualité',

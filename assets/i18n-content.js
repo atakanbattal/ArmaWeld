@@ -4414,7 +4414,7 @@
   // Sayfa başlıkları ve eksik metinler (dil adresleri) — 2026-10
   Object.assign(deep.tr, {
       "pg_belgelerimiz_title": "Belgelerimiz — ArmaWeld",
-      "pg_belgelerimiz_desc": "ArmaWeld resmi sertifikaları: EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 belgelerini görüntüleyin ve indirin.",
+      "pg_belgelerimiz_desc": "ArmaWeld resmi sertifikaları: EN 1090-2, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 belgelerini görüntüleyin ve indirin.",
       "pg_hakkimizda_title": "Hakkımızda | Konya'da Kaynaklı İmalat Firması — ArmaWeld",
       "pg_hakkimizda_desc": "ArmaWeld mühendis kadrosu: kaynak mühendisleri, NDT teknisyenleri ve sertifikalı kaynakçılardan oluşan disiplinler arası ekip.",
       "pg_hizmetler_title": "Kaynaklı İmalat Hizmetleri | MIG/MAG, TIG, Tozaltı Kaynak ve NDT — ArmaWeld",
@@ -4594,7 +4594,7 @@
   });
   Object.assign(deep.en, {
       "pg_belgelerimiz_title": "Certificates — ArmaWeld",
-      "pg_belgelerimiz_desc": "ArmaWeld's official certificates: view and download EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018.",
+      "pg_belgelerimiz_desc": "ArmaWeld's official certificates: view and download EN 1090-2, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018.",
       "pg_hakkimizda_title": "About Us | Welded Fabrication Company in Konya, Turkey — ArmaWeld",
       "pg_hakkimizda_desc": "The ArmaWeld team: welding engineers, NDT technicians and certified welders working as one interdisciplinary team.",
       "pg_hizmetler_title": "Welded Fabrication Services | MIG/MAG, TIG, Submerged Arc Welding and NDT — ArmaWeld",
@@ -4774,7 +4774,7 @@
   });
   Object.assign(deep.de, {
       "pg_belgelerimiz_title": "Zertifikate — ArmaWeld",
-      "pg_belgelerimiz_desc": "Die offiziellen Zertifikate von ArmaWeld: EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 und ISO 45001:2018 ansehen und herunterladen.",
+      "pg_belgelerimiz_desc": "Die offiziellen Zertifikate von ArmaWeld: EN 1090-2, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 und ISO 45001:2018 ansehen und herunterladen.",
       "pg_hakkimizda_title": "Über uns | Schweißfachbetrieb in Konya, Türkei — ArmaWeld",
       "pg_hakkimizda_desc": "Das Team von ArmaWeld: Schweißfachingenieure, ZfP-Techniker und zertifizierte Schweißer in einem interdisziplinären Team.",
       "pg_hizmetler_title": "Leistungen: Schweißkonstruktionen, MAG, WIG, UP-Schweißen und ZfP — ArmaWeld",
@@ -4954,7 +4954,7 @@
   });
   Object.assign(deep.es, {
       "pg_belgelerimiz_title": "Certificados — ArmaWeld",
-      "pg_belgelerimiz_desc": "Certificados oficiales de ArmaWeld: consulte y descargue EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018.",
+      "pg_belgelerimiz_desc": "Certificados oficiales de ArmaWeld: consulte y descargue EN 1090-2, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018.",
       "pg_hakkimizda_title": "Sobre nosotros | Fabricación soldada en Konya, Turquía — ArmaWeld",
       "pg_hakkimizda_desc": "El equipo de ArmaWeld: ingenieros de soldadura, técnicos de END y soldadores certificados en un equipo multidisciplinar.",
       "pg_hizmetler_title": "Servicios de fabricación soldada | MIG/MAG, TIG, arco sumergido y END — ArmaWeld",
@@ -5134,7 +5134,7 @@
   });
   Object.assign(deep.fr, {
       "pg_belgelerimiz_title": "Certificats — ArmaWeld",
-      "pg_belgelerimiz_desc": "Certificats officiels d'ArmaWeld : consultez et téléchargez EN 1090-2 EXC3, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 et ISO 45001:2018.",
+      "pg_belgelerimiz_desc": "Certificats officiels d'ArmaWeld : consultez et téléchargez EN 1090-2, EN ISO 3834-2, ISO 9001:2015, ISO 14001:2015 et ISO 45001:2018.",
       "pg_hakkimizda_title": "À propos | Atelier de mécano-soudure à Konya, Turquie — ArmaWeld",
       "pg_hakkimizda_desc": "L'équipe ArmaWeld : ingénieurs soudage, techniciens CND et soudeurs certifiés réunis dans une équipe pluridisciplinaire.",
       "pg_hizmetler_title": "Services de mécano-soudure | MIG/MAG, TIG, arc submergé et CND — ArmaWeld",

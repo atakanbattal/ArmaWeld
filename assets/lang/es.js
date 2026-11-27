@@ -181,7 +181,7 @@ window.TRANSLATIONS=window.TRANSLATIONS||{};window.TRANSLATIONS.es={
   docs_status_plain: 'Estado: <em>● Activo</em>',
   docs_level_plain: 'Nivel: <em>Full (2)</em>',
   docs_cert1_title: 'Requisitos de Calidad de Soldadura',
-  docs_cert2_title: 'Fabricación de Estructuras de Acero — EXC3',
+  docs_cert2_title: 'Fabricación de Estructuras de Acero',
   docs_view: 'Ver',
   docs_download: 'Descargar',
   docs_cta_h3: 'Más información sobre nuestros procesos de calidad',
